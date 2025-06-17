@@ -1,6 +1,6 @@
 # 本周最新NBER工作论文
 
-A curated list of the latest NBER working papers, updated weekly. Powered by GitHub Actions and Kimi API.
+每周一14：00自动抓取最新NBER工作论文目录，中文内容由Kimi API完成。欢迎关注微信公众号“芾椿YA”
 
 ## Latest Papers This Week
 
