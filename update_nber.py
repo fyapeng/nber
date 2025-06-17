@@ -33,7 +33,7 @@ def translate_with_kimi(text):
         response = kimi_client.chat.completions.create(
             model="moonshot-v1-8k",
             messages=[
-                {"role": "system", "content": "你是一个专业的经济学领域翻译助手。请将以下英文内容准确、流畅地翻译成中文。"},
+                {"role": "system", "content": "你是一个专业的经济学领域翻译助手。请将以下英文内容准确、流畅地翻译成中文，注意只需要输出对应的翻译文本即可。"},
                 {"role": "user", "content": text}
             ],
             temperature=0.3,
