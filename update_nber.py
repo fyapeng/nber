@@ -1,9 +1,11 @@
 import os
 import re
 import requests
+import yaml
 from bs4 import BeautifulSoup
 from openai import OpenAI
 from datetime import datetime
+import concurrent.futures
 
 # --- 配置 ---
 # 从环境变量中获取 API 密钥
@@ -17,21 +19,17 @@ END_COMMENT = "<!-- NBER_PAPERS_END -->"
 if KIMI_API_KEY:
     kimi_client = OpenAI(api_key=KIMI_API_KEY, base_url="https://api.moonshot.cn/v1")
 else:
-    # 如果在 GitHub Actions 中没有设置密钥，这将导致脚本失败，这是预期的行为
     print("错误：未找到 KIMI_API_KEY 环境变量。请在 GitHub Secrets 中设置它。")
     kimi_client = None
 
 def translate_with_kimi(text):
     """使用 Kimi API 翻译文本"""
-    if not kimi_client or not text:
+    if not kimi_client or not text or "暂无摘要" in text or "摘要未找到" in text:
         return "翻译失败（API未配置或文本为空）"
-    
-    # 对于简短或格式化的文本，直接返回，避免不必要的API调用
-    if "暂无摘要" in text or "摘要未找到" in text:
-        return text
 
     try:
-        print(f"  正在翻译: '{text[:30]}...'")
+        # 截断日志输出，避免刷屏
+        print(f"  > 正在翻译: '{text[:40].replace(os.linesep, ' ')}...'")
         response = kimi_client.chat.completions.create(
             model="moonshot-v1-8k",
             messages=[
@@ -42,7 +40,7 @@ def translate_with_kimi(text):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        print(f"  Kimi 翻译 API 调用失败: {e}")
+        print(f"  > Kimi 翻译 API 调用失败: {e}")
         return "翻译失败"
 
 def process_authors(authors_html_list):
@@ -54,8 +52,39 @@ def process_authors(authors_html_list):
             authors.append(author_tag.get_text(strip=True))
     return authors or ['未知作者']
 
+def process_single_paper(paper_data, session):
+    """处理单篇论文的函数（被线程池调用）"""
+    title = paper_data.get('title')
+    print(f"-> 开始处理: {title}")
+    
+    paper_url = f"https://www.nber.org{paper_data.get('url', '')}"
+    
+    # 1. 获取单篇论文页面以提取摘要
+    detail_response = session.get(paper_url, timeout=20)
+    detail_soup = BeautifulSoup(detail_response.text, 'html.parser')
+    
+    abstract_div = detail_soup.find('div', class_='page-header__intro-inner')
+    abstract = abstract_div.get_text(separator=' ', strip=True) if abstract_div else '暂无摘要'
+
+    # 2. 并行翻译标题和摘要
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as translator_executor:
+        title_future = translator_executor.submit(translate_with_kimi, title)
+        abstract_future = translator_executor.submit(translate_with_kimi, abstract)
+        
+        title_cn = title_future.result()
+        abstract_cn = abstract_future.result()
+
+    return {
+        'title': title,
+        'title_cn': title_cn,
+        'authors': process_authors(paper_data.get('authors', [])),
+        'abstract': abstract,
+        'abstract_cn': abstract_cn,
+        'url': paper_url
+    }
+
 def fetch_and_process_papers():
-    """获取并处理 NBER 的新论文"""
+    """获取并处理 NBER 的新论文（并行优化版）"""
     session = requests.Session()
     session.headers.update({
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -66,7 +95,6 @@ def fetch_and_process_papers():
     response = session.get(NBER_API_URL, params=params)
     response.raise_for_status()
     
-    # 筛选本周新论文
     all_papers = response.json().get('results', [])
     new_papers = [p for p in all_papers if p.get('newthisweek')]
     
@@ -74,37 +102,30 @@ def fetch_and_process_papers():
         print("本周没有发现新的 NBER 论文。")
         return None
 
-    print(f"发现了 {len(new_papers)} 篇新论文。开始处理...")
+    print(f"发现了 {len(new_papers)} 篇新论文。开始并行处理...")
     
-    processed_results = []
-    for i, paper in enumerate(new_papers):
-        print(f"正在处理第 {i+1}/{len(new_papers)} 篇: {paper.get('title')}")
+    processed_results = [None] * len(new_papers)
+
+    # 使用线程池并行处理，max_workers=5 表示最多同时处理5篇论文
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        future_to_paper = {
+            executor.submit(process_single_paper, paper, session): i 
+            for i, paper in enumerate(new_papers)
+        }
         
-        paper_url = f"https://www.nber.org{paper.get('url', '')}"
-        
-        try:
-            # 获取单篇论文页面以提取摘要
-            detail_response = session.get(paper_url, timeout=15)
-            detail_soup = BeautifulSoup(detail_response.text, 'html.parser')
-            
-            abstract_div = detail_soup.find('div', class_='page-header__intro-inner')
-            abstract = abstract_div.get_text(separator=' ', strip=True) if abstract_div else '暂无摘要'
+        for future in concurrent.futures.as_completed(future_to_paper):
+            paper_index = future_to_paper[future]
+            try:
+                result = future.result()
+                if result:
+                    processed_results[paper_index] = result
+                    print(f"✓ 处理完成: {result['title'][:60]}...")
+            except Exception as exc:
+                print(f"✗ 处理论文时出错 (索引 {paper_index}): {exc}")
 
-            title_cn = translate_with_kimi(paper.get('title'))
-            abstract_cn = translate_with_kimi(abstract)
+    # 过滤掉处理失败的 None 值并返回
+    return [res for res in processed_results if res is not None]
 
-            processed_results.append({
-                'title': paper.get('title'),
-                'title_cn': title_cn,
-                'authors': process_authors(paper.get('authors', [])),
-                'abstract': abstract,
-                'abstract_cn': abstract_cn,
-                'url': paper_url
-            })
-        except Exception as e:
-            print(f"  处理论文 {paper.get('title')} 时出错: {e}")
-
-    return processed_results
 
 def generate_markdown(results):
     """根据处理结果生成 Markdown 文本"""
@@ -139,7 +160,6 @@ def update_readme(content):
         with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
-        # 使用 re.DOTALL 标志使 `.` 匹配换行符
         pattern = f"({re.escape(START_COMMENT)})(.*?)({re.escape(END_COMMENT)})"
         
         new_readme = re.sub(
