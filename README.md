@@ -1,7 +1,7 @@
 # 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
-*(Updated on: 2025-06-17)*
+*(更新时间: 2025-06-17)*
 
 1. **[AI and Social Media: A Political Economy Perspective](https://www.nber.org/papers/w33892)**<br/>人工智能与社交媒体：政治经济学视角
     - *Authors: Daron Acemoglu, Asuman Ozdaglar, James Siderius*
