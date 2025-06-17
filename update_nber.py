@@ -137,7 +137,7 @@ def generate_markdown(results):
     for i, res in enumerate(results):
         title_list_parts.append(
             f"{i+1}. **[{res['title']}]({res['url']})**<br/>{res['title_cn']}\n"
-            f"*Authors: {', '.join(res['authors'])}*"
+            f"    - *Authors: {', '.join(res['authors'])}*"
         )
     
     # 第二部分：详细摘要
