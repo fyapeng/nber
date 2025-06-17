@@ -3,9 +3,9 @@ name: Update NBER Papers Weekly
 on:
   # 允许手动触发，方便测试
   workflow_dispatch:
-  # 定时触发：每周一早上 2:00 (UTC)，大约是北京时间早上10点
+  # 定时触发：每周一早上 5:00 (UTC)，大约是北京时间中午13点
   schedule:
-    - cron: '0 2 * * 1'
+    - cron: '0 5 * * 1'
 
 # --- 添加这部分代码 --- #
 permissions:
