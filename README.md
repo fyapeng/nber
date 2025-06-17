@@ -1,4 +1,4 @@
-# NBER Weekly Digest
+# 本周最新NBER工作论文
 
 A curated list of the latest NBER working papers, updated weekly. Powered by GitHub Actions and Kimi API.
 
