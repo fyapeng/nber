@@ -1,6 +1,4 @@
-# 
-
-## Latest Papers This Week
+# 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
 *(Updated on: 2025-06-17)*
