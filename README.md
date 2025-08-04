@@ -1,228 +1,216 @@
 # 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
-*(Updated on: 2025-07-28)*
+*(Updated on: 2025-08-04)*
 
-1. **[The Risk, Reward, and Asset Allocation of Nonprofit Endowment Funds](https://www.nber.org/papers/w34078)**<br/>非营利性捐赠基金的风险、回报和资产配置
-    - *Authors: Andrew W. Lo, Egor V. Matveyev, Stefan Zeume*
-2. **[Mobilizing Green Support through Digital Technology](https://www.nber.org/papers/w34074)**<br/>通过数字技术动员绿色支持
-    - *Authors: Jiayin Hu, Shang-Jin Wei, Jianwei Xing, Eric Zou*
-3. **[Unpacking Aggregate Welfare in a Spatial Economy](https://www.nber.org/papers/w34075)**<br/>在空间经济中解析总体福利
-    - *Authors: Eric Donald, Masao Fukui, Yuhei Miyauchi*
-4. **[Flexible Data Centers and the Grid: Lower Costs, Higher Emissions?](https://www.nber.org/papers/w34065)**<br/>灵活数据中心与电网：成本降低，排放增加？
-    - *Authors: Christopher R. Knittel, Juan Ramon L. Senga, Shen Wang*
-5. **[Digital Economy, Stablecoins, and the Global Financial System](https://www.nber.org/papers/w34066)**<br/>数字经济、稳定币和全球金融体系
-    - *Authors: Marina Azzimonti, Vincenzo Quadrini*
-6. **[Multinational Firms and Cross-Border Mergers: Theory and Evidence](https://www.nber.org/papers/w34067)**<br/>跨国公司与跨境并购：理论与证据
-    - *Authors: Kenneth R. Ahern*
-7. **[The Time Cost of a Disability](https://www.nber.org/papers/w34068)**<br/>残疾的时间成本
-    - *Authors: Daniel S. Hamermesh, Michał Myck*
-8. **[Opting Out of Centralized Collective Bargaining: Evidence from Italy](https://www.nber.org/papers/w34076)**<br/>退出集中集体谈判：来自意大利的证据
-    - *Authors: Christian Dustmann, Chiara Giannetto, Lorenzo Incoronato, Chiara Lacava, Vincenzo Pezone, Raffaele Saggio, Benjamin Schoefer*
-9. **[Understanding Cultural Change](https://www.nber.org/papers/w34077)**<br/>理解文化变迁
-    - *Authors: Raquel Fernández*
-10. **[Algorithmic Coercion with Faster Pricing](https://www.nber.org/papers/w34070)**<br/>算法胁迫与快速定价
-    - *Authors: Zach Y. Brown, Alexander MacKay*
-11. **[What Does Consulting Do?](https://www.nber.org/papers/w34072)**<br/>咨询做什么？
-    - *Authors: Gert Bijnens, Simon Jäger, Benjamin Schoefer*
-12. **[Rising Young Worker Despair in the United States](https://www.nber.org/papers/w34071)**<br/>美国年轻工人绝望情绪上升
-    - *Authors: David G. Blanchflower, Alex Bryson*
-13. **[The Impact of a Child with Down Syndrome](https://www.nber.org/papers/w34064)**<br/>唐氏综合症儿童的影响
-    - *Authors: Liran Einav, Amy Finkelstein, Petra Persson*
-14. **["Muddling Through or Tunnelling Through?” UK Monetary and Fiscal Exceptionalism and the Great Inflation](https://www.nber.org/papers/w34063)**<br/>“混日子还是打隧道？”英国货币和财政的特殊主义以及大通胀
-    - *Authors: Michael D. Bordo, Oliver Bush, Ryland Thomas*
-15. **[The Role of Industrial Policy in the Renewable Energy Sector](https://www.nber.org/papers/w34079)**<br/>产业政策在可再生能源领域的作用
-    - *Authors: Todd D. Gerarden, Mar Reguant, Daniel Xu*
-16. **[Carbon Taxes and Green Subsidies in a World Economy](https://www.nber.org/papers/w34080)**<br/>世界经济中的碳税和绿色补贴
-    - *Authors: Matthew Kotchen, Giovanni Maggi*
-17. **[Equilibrium Particulate Exposure](https://www.nber.org/papers/w34081)**<br/>平衡颗粒物暴露
-    - *Authors: Lorenzo Aldeco, Lint Barrage, Matthew Turner*
-18. **[Can Author Manipulation of AI Referees be Welfare Improving?](https://www.nber.org/papers/w34082)**<br/>作者操纵人工智能审稿人能否提高福利？
+1. **[Accounting for Global Supply Chains: An Integrated Framework That Incorporates Foreign Invested Firms](https://www.nber.org/papers/w34073)**<br/>全球供应链会计：一个整合框架，包括外国投资企业
+    - *Authors: Zhi Wang, Shang-Jin Wei, Xinding Yu, Kunfu Zhu*
+2. **[Reskilling and Resilience](https://www.nber.org/papers/w34095)**<br/>再技能培训与韧性
+    - *Authors: Anders Humlum, Pernille Plato*
+3. **[Feeling Rich or Looking Rich? Quantifying Self-Image and Social-Image Motives](https://www.nber.org/papers/w34094)**<br/>感觉富有还是看起来富有？量化自我形象和社会形象动机
+    - *Authors: Nicolas L. Bottan, Ricardo Perez-Truglia, Hitoshi Shigeoka, Katsunori Yamada*
+4. **[Transport Infrastructure and Policy Evaluation](https://www.nber.org/papers/w34096)**<br/>交通基础设施与政策评估
+    - *Authors: Dave Donaldson*
+5. **[International Climate News](https://www.nber.org/papers/w34084)**<br/>国际气候新闻
+    - *Authors: María José Arteaga Garavito, Riccardo Colacito, Mariano Max Croce, Biao Yang*
+6. **[Entrepreneurial Experimentation Design for Venture Finance](https://www.nber.org/papers/w34085)**<br/>创业实验设计在风险融资中的应用
     - *Authors: Joshua S. Gans*
+7. **[Retail Investors’ Contrarian Behavior Around News, Attention, and the Momentum Effect](https://www.nber.org/papers/w34086)**<br/>零售投资者围绕新闻、注意力和动量效应的逆向行为
+    - *Authors: Patrick Luo, Enrichetta Ravina, Marco C. Sammon, Luis M. Viceira*
+8. **[Campaigning for Extinction: Eradication of Sparrows and the Great Famine in China](https://www.nber.org/papers/w34087)**<br/>为灭绝而战：消灭麻雀和中国的大饥荒
+    - *Authors: Eyal G. Frank, Qinyun Wang, Shaoda Wang, Xuebin Wang, Yang You*
+9. **[The Causal Effect of News on Inflation Expectations](https://www.nber.org/papers/w34088)**<br/>新闻对通胀预期的因果效应
+    - *Authors: Carola Binder, Pascal Frank, Jane M. Ryngaert*
+10. **[An Informational Nudge to Shave Peak Demand](https://www.nber.org/papers/w34089)**<br/>一个减少高峰需求的信息提示
+    - *Authors: Gilbert E. Metcalf*
+11. **[New Economic Forces Behind the Value Distribution of Innovation](https://www.nber.org/papers/w34090)**<br/>创新价值分配背后的新经济力量
+    - *Authors: Timothy F. Bresnahan, Shane Greenstein, Pai-Ling Yin*
+12. **[Strategic Complexity Promotes Egalitarianism in Legislative Bargaining](https://www.nber.org/papers/w34083)**<br/>战略复杂性促进立法谈判中的平等主义
+    - *Authors: Marina Agranov, S. Nageeb Ali, B. Douglas Bernheim, Thomas R. Palfrey*
+13. **[Optimal School System and Curriculum Design: Theory and Evidence](https://www.nber.org/papers/w34091)**<br/>最优的学校系统与课程设计：理论与证据
+    - *Authors: Glenn Ellison, Parag A. Pathak*
+14. **[Attitudes to Debt: The Role of Moral Values](https://www.nber.org/papers/w34092)**<br/>对债务的态度：道德价值的作用
+    - *Authors: Fiona Paine, Antoinette Schoar, David Thesmar*
+15. **[The Personalist Penalty: Varieties of Autocracy and Economic Growth](https://www.nber.org/papers/w34093)**<br/>个人主义惩罚：独裁统治的多样性与经济增长
+    - *Authors: Christopher Blattman, Scott Gehlbach, Zeyang Yu*
+16. **[The Undoing of Economic Sanctions: Evidence from the Russia-Ukraine Conflict](https://www.nber.org/papers/w34097)**<br/>经济制裁的解除：来自俄乌冲突的证据
+    - *Authors: Raymond Fisman, Giovanna Marcolongo, Meng Wu*
+17. **[Rural-Urban Migration and Market Integration](https://www.nber.org/papers/w34098)**<br/>城乡迁移与市场一体化
+    - *Authors: Dennis Egger, Benjamin Faber, Ming Li, Wei Lin*
 
 
 ---
 
 ## 文章概览
 
-### 非营利性捐赠基金的风险、回报和资产配置
-**[The Risk, Reward, and Asset Allocation of Nonprofit Endowment Funds](https://www.nber.org/papers/w34078)**
+### 全球供应链会计：一个整合框架，包括外国投资企业
+**[Accounting for Global Supply Chains: An Integrated Framework That Incorporates Foreign Invested Firms](https://www.nber.org/papers/w34073)**
 
-**Authors**: Andrew W. Lo, Egor V. Matveyev, Stefan Zeume
+**Authors**: Zhi Wang, Shang-Jin Wei, Xinding Yu, Kunfu Zhu
 
-**Abstract**: Using tax filings from 374,351 U.S. nonprofit organizations from 2008 to 2020, we provide the first large-scale analysis of endowment prevalence, function, asset allocation, and returns. Endowment use varies systematically across sectors and revenue models. Organizations with endowments scale mission-related spending more effectively and hedge revenue risk through asset allocation. Yet most endowments underperform passive benchmarks, with the weakest performance concentrated among smaller, self-managed funds. Advisory fees are positively correlated with gross returns but negatively with net returns, suggesting overpayment for investment services. Stronger governance, lower discretionary spending, and the use of outsourced CIOs are associated with better performance.
+**Abstract**: This paper proposes a new unified accounting framework to measure Global Supply Chain (GSC) activities. It integrates decomposition frameworks on gross output, trade, and value added, and formally incorporates the role of Foreign Invested Enterprises (FIEs). Compared to the existing Global Value Chain (GVC) metrics that do not distinguish FIEs from domestic firms, the estimate of GSC activities in our approach is three times as large. The key contributions of our approach are: (1) distinguishing GSC activities based on their positions along production chains (upstream, downstream, or both) and mode of engagement (trade, FDI, or both); (2) extending Vertical Specialization (VS) measures to domestic supply chains, bridging trade-only and production-based analyses; and (3) reconciling net and gross decompositions to provide a comprehensive view of GSC participation and exposures.
 
-**摘要**: 利用2008年至2020年间来自374,351家美国非营利组织的税务申报数据，我们提供了对捐赠基金普遍性、功能、资产配置和回报的首次大规模分析。捐赠基金的使用在不同部门和收入模型中系统性地变化。拥有捐赠基金的组织更有效地扩大与使命相关的支出，并通过资产配置对冲收入风险。然而，大多数捐赠基金的表现逊于被动基准，表现最弱的集中在规模较小、自行管理的基金中。咨询费与毛回报正相关，但与净回报负相关，这表明对投资服务的支付过高。更强的治理、较低的自由裁量支出以及使用外包的首席投资官（CIO）与更好的表现相关联。
-
----
-### 通过数字技术动员绿色支持
-**[Mobilizing Green Support through Digital Technology](https://www.nber.org/papers/w34074)**
-
-**Authors**: Jiayin Hu, Shang-Jin Wei, Jianwei Xing, Eric Zou
-
-**Abstract**: A central challenge in the climate crisis is how to mobilize collective action—and who can do it. We show that digital platforms can transform latent support for sustainability into measurable environmental outcomes, while also generating value for the platform itself. We study Ant Forest, a program embedded in Alipay, China’s leading fintech app, which rewards users’ low-carbon behaviors with game points redeemable for planting real trees in arid regions of the country. Since its launch in 2016, the program has engaged over 700 million users and funded the planting of 500 million trees. Using user-level data, we find that participation is significantly higher in cities that have experienced faster vegetation growth. We propose a “green experience” mechanism: visible environmental improvement fosters greater appreciation for nature and increases support for sustainability efforts elsewhere. Survey evidence supports this mechanism, with participants also citing gamification and warm glow as key motivators. We further document spillover effects: Ant Forest participation boosts donations to external environmental projects and increases overall use of the Alipay app. These findings highlight the potential of digital platforms to scale climate action while creating shared environmental and economic value.
-
-**摘要**: 气候危机中的一个核心挑战是如何动员集体行动，以及谁能做到这一点。我们展示了数字平台如何将对可持续性的潜在支持转化为可衡量的环境成果，同时也为平台本身创造价值。我们研究了蚂蚁森林，这是一个嵌入在中国领先的金融科技应用支付宝中的项目，它通过游戏积分奖励用户的低碳行为，这些积分可以兑换为在国家干旱地区种植真实树木。自2016年启动以来，该项目已吸引了超过7亿用户，并资助种植了5亿棵树。利用用户层面的数据，我们发现在植被增长更快的城市，参与度显著更高。我们提出了一个“绿色体验”机制：可见的环境改善促进了对自然的更大欣赏，并增加了在其他地方对可持续性努力的支持。调查证据支持这一机制，参与者还提到游戏化和温暖的光芒作为关键动机。我们进一步记录了溢出效应：蚂蚁森林的参与增加了对外部环境项目的捐赠，并增加了支付宝应用的整体使用。这些发现突出了数字平台在扩大气候行动的同时创造共享环境和经济价值的潜力。
+**摘要**: 本文提出了一个新的统一核算框架，用于衡量全球供应链（GSC）活动。它整合了关于总产出、贸易和增加值的分解框架，并正式纳入了外商投资企业（FIEs）的作用。与现有不区分外商投资企业和国内企业的全球价值链（GVC）指标相比，我们的方法估计的GSC活动规模是其三倍。我们方法的关键贡献包括：（1）根据其在生产链中的位置（上游、下游或两者兼有）和参与方式（贸易、外国直接投资或两者兼有）区分GSC活动；（2）将垂直专业化（VS）措施扩展到国内供应链，连接仅涉及贸易和基于生产的分析；以及（3）协调净和总分解，提供对GSC参与和风险的全面视角。
 
 ---
-### 在空间经济中解析总体福利
-**[Unpacking Aggregate Welfare in a Spatial Economy](https://www.nber.org/papers/w34075)**
+### 再技能培训与韧性
+**[Reskilling and Resilience](https://www.nber.org/papers/w34095)**
 
-**Authors**: Eric Donald, Masao Fukui, Yuhei Miyauchi
+**Authors**: Anders Humlum, Pernille Plato
 
-**Abstract**: How do regional productivity shocks or transportation infrastructure improvements affect aggregate welfare? In a general class of spatial equilibrium models, we provide a formula for aggregate welfare changes, decomposed into terms associated with (i) technology (Fogel 1964, Hulten 1978), (ii) spatial dispersion of marginal utility, (iii) fiscal externalities, (iv) technological externalities, and (v) redistribution. We further use this decomposition to derive a general formula for optimal spatial transfers and show that, whenever optimal transfers are in place, the technology term alone captures the aggregate welfare effects of technological shocks. We apply our framework to study welfare gains from improving the US highway network. We find that changes in the spatial dispersion of marginal utility are as important as technological externalities in accounting for the deviations from the Fogel-Hulten benchmark to assess welfare gains.
+**Abstract**: This paper shows that effective reskilling can have profound mental health benefits for workers and their partners. Using institutional variation in access to higher education after work accidents in Denmark, we find that reskilling prevents one case of depression for every three injured workers. Strikingly, the spillover effects on partners are just as large. These mental health gains are accompanied by higher partner employment and increased separation rates, suggesting that reskilling frees partners from costly relationship commitments. Together, the mental health and partner benefits add 83% to the direct labor earnings gains from reskilling.
 
-**摘要**: 区域生产率冲击或交通基础设施的改善如何影响总体福利？在一类通用的空间均衡模型中，我们提供了一个总体福利变化的公式，将其分解为与以下因素相关的项：（i）技术（Fogel 1964，Hulten 1978），（ii）边际效用的空间分散，（iii）财政外部性，（iv）技术外部性，以及（v）再分配。我们进一步利用这种分解推导出一个通用的最优空间转移公式，并展示出，只要最优转移到位，技术项本身就能捕捉到技术冲击对总体福利的影响。我们将这个框架应用于研究改善美国高速公路网络的福利收益。我们发现，边际效用的空间分散变化与技术外部性一样重要，它们在解释从Fogel-Hulten基准到评估福利收益的偏差中占有同等重要的地位。
-
----
-### 灵活数据中心与电网：成本降低，排放增加？
-**[Flexible Data Centers and the Grid: Lower Costs, Higher Emissions?](https://www.nber.org/papers/w34065)**
-
-**Authors**: Christopher R. Knittel, Juan Ramon L. Senga, Shen Wang
-
-**Abstract**: Data centers are among the fastest-growing electricity consumers, raising concerns about their impact on grid operations and decarbonization goals. Their temporal flexibility—the ability to shift workloads over time—offers a source of demand-side flexibility. We model power systems in three U.S. regions: Mid-Atlantic, Texas, and WECC, under varying flexibility levels. We evaluate flexibility's effects on grid operations, investment, system costs, and emissions. Across all scenarios, flexible data centers reduce costs by shifting load from peak to off-peak hours, flattening net demand, and supporting renewable and baseload resources. This load shifting facilitates renewable integration while improving the utilization of existing baseload capacity. As a result, the emissions impact depends on which effect dominates. Higher renewable penetration increases the emissions-reduction potential of data center flexibility, while lower shares favor baseload generation and may raise emissions. Our findings highlight the importance of aligning data center flexibility with renewable deployment and regional conditions.
-
-**摘要**: 数据中心是增长最快的电力消费者之一，引发了人们对其对电网运营和脱碳目标影响的担忧。它们的时间灵活性——在时间上转移工作负载的能力——提供了需求侧灵活性的来源。我们在三个美国地区：中大西洋、德克萨斯和WECC模拟了电力系统，在不同灵活性水平下进行评估。我们评估了灵活性对电网运营、投资、系统成本和排放的影响。在所有情景中，灵活的数据中心通过将负载从高峰时段转移到非高峰时段，降低成本，平滑净需求，并支持可再生能源和基荷资源。这种负载转移促进了可再生能源的整合，同时提高了现有基荷容量的利用率。因此，排放影响取决于哪种效应占主导地位。更高的可再生能源渗透率增加了数据中心灵活性减少排放的潜力，而较低的份额则有利于基荷发电，并可能增加排放。我们的发现强调了将数据中心灵活性与可再生能源部署和区域条件相结合的重要性。
+**摘要**: 本文表明，有效的再培训对工人及其伴侣的心理健康有着深远的益处。利用丹麦在工作事故后接受高等教育机会的制度差异，我们发现再培训可以预防每三名受伤工人中的一例抑郁症。引人注目的是，对伴侣的溢出效应同样巨大。这些心理健康收益伴随着伴侣就业率的提高和分离率的增加，这表明再培训使伴侣摆脱了代价高昂的关系承诺。总的来说，心理健康和伴侣福利使再培训带来的直接劳动收入收益增加了83%。
 
 ---
-### 数字经济、稳定币和全球金融体系
-**[Digital Economy, Stablecoins, and the Global Financial System](https://www.nber.org/papers/w34066)**
+### 感觉富有还是看起来富有？量化自我形象和社会形象动机
+**[Feeling Rich or Looking Rich? Quantifying Self-Image and Social-Image Motives](https://www.nber.org/papers/w34094)**
 
-**Authors**: Marina Azzimonti, Vincenzo Quadrini
+**Authors**: Nicolas L. Bottan, Ricardo Perez-Truglia, Hitoshi Shigeoka, Katsunori Yamada
 
-**Abstract**: The rise of the Digital Economy has the potential to reshape international financial markets and the role of traditional reserve assets such as the US dollar. While the creation of Stablecoins may increase the demand for safe dollar-denominated instruments due to reserve backing requirements, they may also serve as substitutes, reducing the global demand for traditional reserve assets. We develop a multicountry model featuring the US, the rest of the world, and a distinct Digital Economy to quantify the impact of the potential expansion of the digital economy. Our results show that, in the long run, the reserve demand effect dominates the substitution effect, leading to lower US interest rates and greater US foreign borrowing. We also find that the expansion of the Digital Economy increases idiosyncratic consumption volatility in the US, while reducing it in the rest of the world.
+**Abstract**: Preferences for status are typically attributed to two distinct channels: self-image, in which individuals derive utility from being richer than others, and social-image, in which individuals value being seen as richer by others. While both channels are believed to be at play, little is known about their relative importance. We address this gap using a hypothetical discrete choice experiment. Our findings indicate that self-image is at most 19.3% as important as social-image. Additionally, we document substantial heterogeneity in the strength of these preferences across individuals and domains.
 
-**摘要**: 数字经济的崛起有可能重塑国际金融市场和传统储备资产如美元的角色。虽然稳定币的创造可能会因为储备支持要求而增加对安全美元计价工具的需求，但它们也可能作为替代品，减少对传统储备资产的全球需求。我们构建了一个包含美国、世界其他地区和独特的数字经济的多国模型，以量化数字经济潜在扩张的影响。我们的结果显示，在长期中，储备需求效应主导了替代效应，导致美国利率下降和美国对外借款增加。我们还发现，数字经济的扩张增加了美国的消费波动性，而减少了世界其他地区的消费波动性。
-
----
-### 跨国公司与跨境并购：理论与证据
-**[Multinational Firms and Cross-Border Mergers: Theory and Evidence](https://www.nber.org/papers/w34067)**
-
-**Authors**: Kenneth R. Ahern
-
-**Abstract**: Multinational firms play a pivotal role in the global economy, yet economic and finance research has largely examined them in isolation.  Economic theory focuses on trade and multinational activity but gives relatively little attention to cross-border mergers, while finance research emphasizes empirical studies of mergers but rarely integrates broader economic theories. This chapter aims to synthesize these two literatures into a unified framework for understanding multinational firms and cross-border mergers.  The discussion is organized around the decision-making process of multinational firms, from choosing to operate internationally to selecting between greenfield investment and mergers.  This framework reveals the theoretical and empirical evidence on the drivers of multinational production,  including productivity gains, knowledge transfers, and market frictions. The findings highlight the commonality between the two literatures, but also suggests that greater integration between economic theory and finance research will generate a deeper understanding of the role of multinational firms in the global economy.
-
-**摘要**: 跨国公司在全球经济中扮演着关键角色，然而经济和金融研究大多孤立地考察它们。经济理论关注贸易和跨国活动，但对跨境并购关注相对较少，而金融研究强调对并购的实证研究，却很少整合更广泛的经济理论。本章旨在将这两种文献综合成一个统一的框架，以理解跨国公司和跨境并购。讨论围绕跨国公司的决策过程组织，从选择国际运营到在绿地投资和并购之间做出选择。这一框架揭示了跨国生产驱动因素的理论及实证证据，包括生产率提升、知识转移和市场摩擦。这些发现强调了两种文献之间的共性，但也表明，经济理论与金融研究之间更大的整合将产生对跨国公司在全球经济中作用更深入的理解。
+**摘要**: 对地位的偏好通常归因于两个不同的渠道：自我形象，即个体从比别人更富有中获得效用；社会形象，即个体重视被别人视为更富有。尽管人们认为这两个渠道都在起作用，但关于它们的相对重要性知之甚少。我们通过一个假设性的离散选择实验来填补这一空白。我们的发现表明，自我形象的重要性最多只有社会形象的19.3%。此外，我们记录了这些偏好在不同个体和领域中的强度存在显著的异质性。
 
 ---
-### 残疾的时间成本
-**[The Time Cost of a Disability](https://www.nber.org/papers/w34068)**
+### 交通基础设施与政策评估
+**[Transport Infrastructure and Policy Evaluation](https://www.nber.org/papers/w34096)**
 
-**Authors**: Daniel S. Hamermesh, Michał Myck
+**Authors**: Dave Donaldson
 
-**Abstract**: We consider how a physical disability alters patterns of time use. A disability may raise the time cost of all activities; of some—making them differentially less worth doing; or it may make switching activities more costly. The first yields no predictions about time use, but the latter two possibilities both predict that fewer activities will be undertaken, with more time spent on each. These explanations describe our findings based on non-working ATUS 2008-22 respondents ages 70+, 32 percent of whom self-assess a disability. Data from the Polish Time Use Survey, where disability is medically certified, show similar results; and they demonstrate the same loss of variety over multiple days. Remarkably similar basic results are found using homogenized British, Canadian, French, Spanish, and Italian time-diaries. Overall, a mobility/physical disability leads an otherwise identical person to engage in over 10 percent fewer activities on a typical day. The lost variety represents extra costs equivalent in data from six countries to over twice the average annual income among older individuals in the country.
+**Abstract**: How beneficial are transport infrastructure investments and other transport policies? This chapter develops a framework whose goal is to survey and synthesize the answers that regional and urban economists have given to this question. Emphasis is placed on theoretical results about sufficient statistics that capture approximate impacts in both distorted and undistorted economies, as well as how new advances in data collection and causal inference are poised to leverage these theoretical results and thereby modernize and extend standard templates for infrastructure and policy evaluation. The chapter concludes with discussions of optimal policy, political economy, and practical matters of infrastructure provision.
 
-**摘要**: 我们考虑身体残疾如何改变时间使用模式。残疾可能会提高所有活动的时间成本；对于某些活动——使它们相对不值得做；或者它可能使转换活动更加昂贵。第一种情况对时间使用没有预测，但后两种可能性都预测会进行更少的活动，并且每个活动上花费的时间更多。这些解释基于非工作ATUS 2008-22受访者70岁及以上的发现，其中32%的人自我评估为残疾。来自波兰时间使用调查的数据，其中残疾是医学认证的，显示出类似的结果；它们展示了在多天内失去多样性。使用英国、加拿大、法国、西班牙和意大利同质化的时间日记，发现基本结果惊人地相似。总体而言，流动性/身体残疾导致一个在其他方面相同的人，在典型的一天中参与的活动减少了10%以上。失去的多样性代表了额外成本，根据六个国家的数据，相当于该国老年人平均年收入的两倍多。
-
----
-### 退出集中集体谈判：来自意大利的证据
-**[Opting Out of Centralized Collective Bargaining: Evidence from Italy](https://www.nber.org/papers/w34076)**
-
-**Authors**: Christian Dustmann, Chiara Giannetto, Lorenzo Incoronato, Chiara Lacava, Vincenzo Pezone, Raffaele Saggio, Benjamin Schoefer
-
-**Abstract**: This paper presents micro-empirical evidence on the effects of wage-setting decentralization. Our setting is Italy, where employers are required to comply with occupation- and industry-specific wage floors set by national collective bargaining agreements. We show that opting out of these agreements reduces wages but increases workers’ employment and retention within firms. These effects are most pronounced in the more productive North, where the overall impact on workers’ earnings is slightly positive. In contrast, in the South, wage losses outweigh employment gains, leading to a net decline in earnings. We also find that increased wage-setting flexibility is associated with higher firm survival rates in both regions. The regional divergence in outcomes aligns with a monopsony framework in which productivity and labor supply elasticities vary spatially.
-
-**摘要**: 本文提供了关于工资设定分散化效应的微观实证证据。我们的研究背景是意大利，在那里雇主必须遵守国家集体谈判协议设定的职业和行业特定的最低工资标准。我们发现，退出这些协议会降低工资，但增加工人在企业中的就业和留存率。这些效应在生产力更高的北部地区最为明显，那里工人收入的整体影响略为正面。相比之下，在南部地区，工资损失超过了就业收益，导致收入净减少。我们还发现，在两个地区，增加工资设定的灵活性与更高的企业存活率相关。区域结果的差异与一个垄断买方框架一致，其中生产力和劳动力供应弹性在空间上有所不同。
+**摘要**: 交通基础设施投资和其他交通政策的益处有多大？本章构建了一个框架，旨在调查并综合区域和城市经济学家对这一问题的回答。重点放在理论上的结果上，这些结果涉及在扭曲和未扭曲经济中捕捉近似影响的充分统计量，以及数据收集和因果推断的新进展如何准备利用这些理论结果，从而现代化并扩展基础设施和政策评估的标准模板。本章以对最优政策、政治经济学和基础设施供应的实际问题的讨论结束。
 
 ---
-### 理解文化变迁
-**[Understanding Cultural Change](https://www.nber.org/papers/w34077)**
+### 国际气候新闻
+**[International Climate News](https://www.nber.org/papers/w34084)**
 
-**Authors**: Raquel Fernández
+**Authors**: María José Arteaga Garavito, Riccardo Colacito, Mariano Max Croce, Biao Yang
 
-**Abstract**: Culture’s influence on economic outcomes is no longer controversial among economists even if it remains largely ignored in many areas of economics.  This paper tackles a different question:  why does culture change?  The underlying premise adopted here is that culture changes because incentives change, transforming actions and beliefs. An idiosyncratic review of the literature follows that illustrates how the environment (e.g., the prevalence of pathogens or the suitability of land for pastoralism) and historical experiences (e.g., colonization, war, or migration) can affect relationships of power in society and shape people’s beliefs.  It then examines the role of new information and ideas (i.e., learning) and finally the role of policies in shaping incentives and changing culture.  A second part of the paper reviews work that models the mechanisms of cultural change more explicitly, using quantitative models to examine the interplay between economic incentives and evolving beliefs or preferences and to study the importance of intermediating mechanisms.  Given that one of the most profound cultural and economic transformations of the past 150 years concerns gender roles, this theme recurs throughout.
+**Abstract**: We develop novel high-frequency indices that measure climate attention across a wide range of developed and emerging economies. By analyzing the text of over 23 million Tweets published by leading national newspapers, we find that a country experiencing more severe climate news shocks tends to see both an inflow of capital and an appreciation of its currency. In addition, brown stocks experience large and persistent negative returns after a global climate news shock if located in highly exposed countries. A risk-sharing model in which investors price climate news shocks and trade consumption and investment goods in global markets rationalizes these findings.
 
-**摘要**: 文化对经济结果的影响在经济学家中已不再有争议，尽管在经济学的许多领域仍然被忽视。本文探讨了一个不同的问题：为什么文化会发生变化？这里采用的基本前提是，文化之所以发生变化，是因为激励机制的变化，这种变化改变了行动和信仰。接下来是对文献的非典型性回顾，说明了环境（例如，病原体的流行程度或土地对畜牧业的适宜性）和历史经验（例如，殖民、战争或迁移）如何影响社会中的权力关系并塑造人们的信仰。然后，它考察了新信息和观念（即学习）的作用，最后是政策在塑造激励机制和改变文化方面的作用。第二部分的论文回顾了更明确地模拟文化变化机制的工作，使用定量模型来检验经济激励与不断演变的信念或偏好之间的相互作用，并研究中介机制的重要性。鉴于过去150年中最深刻的文化和经济转变之一涉及性别角色，这一主题贯穿始终。
-
----
-### 算法胁迫与快速定价
-**[Algorithmic Coercion with Faster Pricing](https://www.nber.org/papers/w34070)**
-
-**Authors**: Zach Y. Brown, Alexander MacKay
-
-**Abstract**: We examine a model in which one firm uses a pricing algorithm that enables faster pricing and multi-period commitment. We characterize a coercive equilibrium in which the algorithmic firm maximizes its profits subject to the incentive compatibility constraint of its rival.  By adopting an algorithm that enables faster pricing and (imperfect) commitment, a firm can unilaterally induce substantially higher equilibrium prices even when its rival maximizes short-run profits and cannot collude. The algorithmic firm can earn profits that exceed its share of collusive profits, and coercive equilibrium outcomes can be worse for consumers than collusive outcomes. In extensions, we incorporate simple learning by the rival, and we explore the implications for platform design.
-
-**摘要**: 我们检验了一个模型，其中一个公司使用定价算法，该算法能够实现更快的定价和多期承诺。我们描述了一个强制性均衡，在这种均衡中，算法公司在满足其竞争对手的激励兼容性约束的情况下最大化其利润。通过采用能够实现更快定价和（不完美）承诺的算法，即使其竞争对手最大化短期利润且无法合谋，公司也能单方面诱导出显著更高的均衡价格。算法公司可以获得超过其合谋利润份额的利润，而且强制性均衡的结果可能比合谋结果对消费者更不利。在扩展部分，我们引入了竞争对手的简单学习，并探讨了对平台设计的影响。
+**摘要**: 我们开发了新的高频指数，用于衡量发达和新兴经济体范围内的气候关注度。通过分析领先国家报纸发布的超过2300万条推文的文本，我们发现，经历更严重气候新闻冲击的国家往往会出现资本流入和货币升值。此外，如果全球气候新闻冲击发生在高度暴露的国家，棕色股票会经历大且持续的负回报。一个风险分担模型，其中投资者对气候新闻冲击进行定价，并在全球市场上交易消费和投资商品，可以合理解释这些发现。
 
 ---
-### 咨询做什么？
-**[What Does Consulting Do?](https://www.nber.org/papers/w34072)**
-
-**Authors**: Gert Bijnens, Simon Jäger, Benjamin Schoefer
-
-**Abstract**: This paper provides the first systematic and comprehensive empirical study of management and strategy consulting. We unveil the workings of this opaque industry by drawing on universal administrative business-to-business transaction data based on value-added tax links from Belgium (2002-2023). These data permit us to document the nature of consulting engagements, take-up patterns, and the effects on client firms. We document that consulting take-up is concentrated among large, high-labor-productivity firms. For TFP and profitability, we find a U-shaped pattern: both high and low performers hire consultants. New clients spend on average 3% of payroll on consulting, typically in episodic engagements lasting less than one year. Using difference-in-differences designs exploiting these sharp consulting events, we find positive effects on labor productivity of 3.6% over five years, driven by modest employment reductions alongside stable or growing revenue. Average wages rise by 2.7% with no decline in labor’s share of value added, suggesting productivity gains do not come at workers’ expense through rent-shifting. We do observe organizational restructuring with small increases in dismissal rates, and higher services procurement but reduced labor outsourcing. Our heterogeneity analysis reveals larger productivity gains for initially less productive firms, suggesting improvements in allocative efficiency. Our findings broadly align with ex-ante predictions from surveyed academic economists and consulting professionals, validating the productivity-enhancing view of consulting endorsed by most practitioners though only half of academics, while lending less support to a rent-shifting view favored by many economists.
-
-**摘要**: 本文提供了首个系统全面的管理咨询和管理策略咨询的实证研究。我们通过利用基于比利时（2002-2023年）增值税链接的通用行政业务对业务交易数据，揭开了这一不透明行业的运作方式。这些数据使我们能够记录咨询项目的实质、采纳模式以及对客户公司的影响。我们记录到，咨询采纳主要集中在大型、劳动生产率高的公司中。对于全要素生产率和盈利能力，我们发现了一个U形模式：表现最好和最差的公司都会雇佣咨询顾问。新客户平均将工资的3%用于咨询，通常在持续不到一年的偶发性项目中。利用差异中的差异设计，利用这些明显的咨询事件，我们发现五年内劳动生产率提高了3.6%，这是通过适度减少就业和稳定或增长的收入共同推动的。平均工资提高了2.7%，而劳动在增加值中的份额没有下降，这表明生产率的提高并不是通过租金转移以工人为代价实现的。我们确实观察到了组织重组，解雇率略有上升，服务采购增加，但劳动力外包减少。我们对异质性的分析显示，最初生产率较低的公司生产率提高更多，这表明了配置效率的提高。我们的发现与调查的学术经济学家和咨询专业人士的事先预测大体一致，验证了大多数从业者支持的咨询提高生产率的观点，尽管只有一半的学者支持，同时对许多经济学家支持的租金转移观点的支持较少。
-
----
-### 美国年轻工人绝望情绪上升
-**[Rising Young Worker Despair in the United States](https://www.nber.org/papers/w34071)**
-
-**Authors**: David G. Blanchflower, Alex Bryson
-
-**Abstract**: Between the early 1990s and 2015 the relationship between mental despair and age was hump-shaped in the United States: it rose to middle-age, then declined later in life.  That relationship has now changed: mental despair declines monotonically with age due to a rise in despair among the young.  However, the relationship between age and mental despair differs by labor market status. The hump-shape in age still exists for those who are unable to work and the unemployed.  The relation between mental despair and age is broadly flat, and has remained so, for homemakers, students and the retired.  The change in the age-despair profile over time is due to increasing despair among young workers.  Whilst the relationship between mental despair and age has always been downward sloping among workers, this relationship has become more pronounced due to a rise in mental despair among young workers. We find broad-based evidence for this finding in the Behavioral Risk Factor Surveillance System (BRFSS) of 1993-2023, the National Survey on Drug Use and Health (NSDUH), 2008-2023, and in surveys by Pew, the Conference Board and Johns Hopkins University.
-
-**摘要**: 在20世纪90年代初至2015年间，美国心理绝望与年龄之间的关系呈驼峰形：随着年龄增长至中年，心理绝望增加，然后随着年龄增长而减少。现在这种关系已经改变：由于年轻人中绝望情绪的上升，心理绝望随着年龄的增长而单调下降。然而，心理绝望与年龄之间的关系因劳动市场地位的不同而有所差异。对于那些无法工作和失业的人来说，年龄的驼峰形状仍然存在。对于家庭主妇、学生和退休人员来说，心理绝望与年龄之间的关系大致平坦，并且一直保持如此。随着时间的推移，年龄与绝望之间的关系发生了变化，这是由于年轻工人中绝望情绪的增加。尽管心理绝望与年龄之间的关系在工人中一直呈下降趋势，但由于年轻工人中心理绝望的增加，这种关系变得更加明显。我们在1993-2023年的行为风险因素监测系统（BRFSS）、2008-2023年的国家药物使用和健康调查（NSDUH）以及皮尤、会议委员会和约翰霍普金斯大学的调查中发现了这一发现的广泛证据。
-
----
-### 唐氏综合症儿童的影响
-**[The Impact of a Child with Down Syndrome](https://www.nber.org/papers/w34064)**
-
-**Authors**: Liran Einav, Amy Finkelstein, Petra Persson
-
-**Abstract**: We characterize the causal impact of having a child with Down syndrome relative to having one without Down syndrome using event studies around birth and population-wide Swedish administrative data from 1990 to 2019. The incremental effect of having a child with Down syndrome is to increase the likelihood of parental co-habitation and subsequent child-bearing. These effects exist both in an environment with essentially no prenatal testing – where the birth of a child with Down syndrome is random conditional on maternal age – as well as once prenatal screening and testing is more common. In both contexts, total income also increases due to the presence of a generous allowance for families with a child with a disability, but the impact on labor earnings differs. In the “no-testing” environment, having a child with Down syndrome leads to a greater decrease in maternal earnings post-birth relative to having a child without Down syndrome, but this effect reverses sign once testing is available. Our results speak to the impact on families of a child with Down syndrome in a setting where families are largely insured against any additional financial costs.
-
-**摘要**: 我们通过围绕出生事件研究和1990年至2019年瑞典全国行政数据，描述了拥有一个患有唐氏综合症的孩子相对于没有唐氏综合症的孩子对父母的影响。拥有一个患有唐氏综合症的孩子的增量效应是增加父母同居的可能性和随后的生育。这些效应存在于几乎没有产前检测的环境中——在这种环境中，患有唐氏综合症的孩子的出生是随机的，条件是母亲的年龄——以及一旦产前筛查和检测变得更加普遍时。在这两种情况下，由于对有残疾儿童家庭的慷慨补贴，总收入也增加了，但对劳动收入的影响不同。在“无检测”环境中，与拥有一个没有唐氏综合症的孩子相比，拥有一个患有唐氏综合症的孩子会导致产后母亲收入的更大减少，但一旦检测可用，这种效应就会逆转。我们的结果说明了在一个家庭基本上不受任何额外财务成本影响的环境中，拥有一个患有唐氏综合症的孩子对家庭的影响。
-
----
-### “混日子还是打隧道？”英国货币和财政的特殊主义以及大通胀
-**["Muddling Through or Tunnelling Through?” UK Monetary and Fiscal Exceptionalism and the Great Inflation](https://www.nber.org/papers/w34063)**
-
-**Authors**: Michael D. Bordo, Oliver Bush, Ryland Thomas
-
-**Abstract**: Discussion of the causes of the Great Inflation in the UK during the 1970s has centred around the relative importance of two potential explanations, which we label “bad luck” – the occurrence of unusually large commodity price and supply-side shocks - and “bad policy” reflecting failures in both monetary and prices and incomes policies. By reconsidering the historical and empirical record of inflation from 1950s to the early 1990s we show that the persistence of the Great Inflation in the UK cannot fully be explained by these factors, although these can account for some of the major fluctuations. Instead, underlying inflation and inflation expectations appear to be the result of a sequence of regime shifts. We argue those regime shifts are as much related to fundamental changes in fiscal policy as they are to monetary policy and union reforms. Our empirical evidence suggests that fiscal policy was at the heart of many of the problems in the UK during the Great Inflation. In contrast to most of British history, it was not used to stabilise the public finances. Instead, it was used to keep unemployment down and growth up, to subsidise losers from terms of trade shocks and to secure deals with the unions.
-
-**摘要**: 关于20世纪70年代英国大通胀原因的讨论集中在两个潜在解释的相对重要性上，我们将这两个解释分别标记为“坏运气”——异常大的商品价格和供给侧冲击的发生——和“坏政策”，反映了货币和价格及收入政策的失败。通过重新审视从1950年代到1990年代初的通货膨胀的历史和实证记录，我们展示了英国大通胀的持续性不能完全用这些因素来解释，尽管这些因素可以解释一些主要波动。相反，潜在通货膨胀和通货膨胀预期似乎是一系列制度转变的结果。我们认为这些制度转变与财政政策的基本变化一样，与货币政策和工会改革有关。我们的实证证据表明，在大通胀期间，财政政策是英国许多问题的症结所在。与英国历史上的大多数时期不同，它没有被用来稳定公共财政。相反，它被用来降低失业率和提高增长，补贴贸易条件冲击的输家，并与工会达成协议。
-
----
-### 产业政策在可再生能源领域的作用
-**[The Role of Industrial Policy in the Renewable Energy Sector](https://www.nber.org/papers/w34079)**
-
-**Authors**: Todd D. Gerarden, Mar Reguant, Daniel Xu
-
-**Abstract**: Renewable electricity generation technology costs have fallen dramatically, investment has grown rapidly, and renewables are now a pillar of climate and decarbonization policy. Part of the credit for these trends goes to environmental policy efforts to support renewable energy as a substitute to fossil energy. The recent rise in protectionism, industrial policy, and geopolitical tensions has the potential to either undermine or enhance these environmental policy objectives. In this paper, we provide an overview of renewable energy economics and policy, with a focus on solar and wind power. We outline theoretical rationales for industrial policy and review recent empirical research, paying particular attention to how renewable energy policies have generated spillovers across firms and countries. We close by highlighting how this recent evidence can inform ongoing industrial policy debates.
-
-**摘要**: 可再生电力发电技术成本已大幅下降，投资迅速增长，可再生能源现在已成为气候和脱碳政策的支柱。这些趋势的部分功劳归功于环境政策努力支持可再生能源作为化石能源的替代品。近期保护主义、产业政策和地缘政治紧张局势的上升，有可能削弱或增强这些环境政策目标。在本文中，我们提供了可再生能源经济和政策的概述，重点关注太阳能和风能。我们概述了产业政策的理论理由，并回顾了最近的实证研究，特别关注可再生能源政策如何在公司和国家之间产生溢出效应。我们最后强调了这些最新证据如何能够为正在进行的产业政策辩论提供信息。
-
----
-### 世界经济中的碳税和绿色补贴
-**[Carbon Taxes and Green Subsidies in a World Economy](https://www.nber.org/papers/w34080)**
-
-**Authors**: Matthew Kotchen, Giovanni Maggi
-
-**Abstract**: Abstract We examine positive and normative questions that arise with the joint use of carbon taxes and green subsidies in an open economy. Moving from autarky to free trade induces countries to introduce green subsidies and reduce carbon taxes, in order to reduce foreign emissions. In contrast to the “leakage” effect of carbon taxes, green subsidies are associated with “reverse leakage,” as they decrease emissions both at home and abroad, and as a consequence, the availability of green subsidies tends to be good for global welfare. International climate agreements (ICAs) seek to increase carbon taxes, but the effect on green subsidies is more nuanced. An ICA removes green subsidies, even though they exert positive international externalities at the noncooperative equilibrium. If, however, policies can only be changed gradually, an ICA may start by increasing subsidies before decreasing them over time. We also consider the welfare implications of lobbying from the fossil and green energy sectors. In a noncooperative setting, we find that pressures from the fossil lobby tend to reduce welfare, whereas pressures from the green lobby tend to increase welfare. We also find that in the presence of lobbying, an ICA can decrease welfare relative to the noncooperative equilibrium, even if it changes carbon taxes and green subsidies toward their efficient levels.
-
-**摘要**: 摘要 我们研究了在开放经济中联合使用碳税和绿色补贴时出现的正向和规范性问题。从自给自足过渡到自由贸易，促使各国引入绿色补贴并减少碳税，以减少外国排放。与碳税的“泄漏”效应不同，绿色补贴与“逆向泄漏”相关，因为它们既减少了国内也减少了国外的排放，因此，绿色补贴的可用性往往有利于全球福利。国际气候协议（ICAs）旨在提高碳税，但对绿色补贴的影响更为微妙。一个ICA会移除绿色补贴，尽管它们在非合作均衡中施加了积极的国际外部性。然而，如果政策只能逐步改变，一个ICA可能首先增加补贴，然后随着时间的推移逐步减少它们。我们还考虑了来自化石和绿色能源部门的游说对福利的影响。在非合作环境中，我们发现来自化石游说的压力倾向于减少福利，而来自绿色游说的压力倾向于增加福利。我们还发现，在存在游说的情况下，即使ICA将碳税和绿色补贴改变为它们的有效水平，ICA相对于非合作均衡也可以减少福利。
-
----
-### 平衡颗粒物暴露
-**[Equilibrium Particulate Exposure](https://www.nber.org/papers/w34081)**
-
-**Authors**: Lorenzo Aldeco, Lint Barrage, Matthew Turner
-
-**Abstract**: We assemble global, spatially disaggregated panel data on ambient particulates, population, and economic activity, and develop a macroeconomic integrated assessment model of particulate exposure for 30 countries representing 60\% of world population. The data indicate the importance of country level factors in determining particulate exposure. Model results indicate the importance of equilibrium adjustments. For example, uncompensated oil taxes and agricultural burning restrictions may unintentionally raise exposure by shifting labor to dirtier sectors or locations. Model results also showcase the importance of country heterogeneity and fiscal management. Our results suggest that effective particulates policy requires accounting for general equilibrium responses.
-
-**摘要**: 我们汇集了全球范围内关于环境颗粒物、人口和经济活动的地理分散型面板数据，并为代表全球60%人口的30个国家开发了一个宏观经济综合评估模型，以评估颗粒物暴露情况。数据表明，国家层面的因素在决定颗粒物暴露方面具有重要性。模型结果表明，均衡调整的重要性。例如，未补偿的石油税和农业焚烧限制可能会通过将劳动力转移到更脏的部门或地区，无意中提高暴露水平。模型结果还展示了国家异质性和财政管理的重要性。我们的结果表明，有效的颗粒物政策需要考虑一般均衡响应。
-
----
-### 作者操纵人工智能审稿人能否提高福利？
-**[Can Author Manipulation of AI Referees be Welfare Improving?](https://www.nber.org/papers/w34082)**
+### 创业实验设计在风险融资中的应用
+**[Entrepreneurial Experimentation Design for Venture Finance](https://www.nber.org/papers/w34085)**
 
 **Authors**: Joshua S. Gans
 
-**Abstract**: This paper examines a new moral hazard in delegated decision-making: authors can embed hidden instructions—known as prompt injections—to bias AI referees in academic peer review, thereby hijacking machine recommendations. Because AI reviews are relatively inexpensive compared to manual assessments, referees would otherwise delegate fully, which undermines quality. The paper shows that moderate detection of manipulation can paradoxically improve welfare. With intermediate detection probabilities, only low-quality authors undertake manipulation, and detection becomes informative about quality, inducing referees to mix between manual and AI reviews. This partially separating equilibrium preserves the value of peer review when AI quality is intermediate. When detection is too low, all bad papers are manipulated and the market unravels; when detection is perfect, referees use only AI and acceptance collapses. Thus, some prompt injection must be tolerated to sustain the market: it disciplines referees and generates information. The results caution against zero-tolerance enforcement and highlight how prompt injection can, counterintuitively, play a welfare-enhancing role when AI reviews are easily produced.
+**Abstract**: This paper examines how entrepreneurs strategically design experiments to convince venture capitalists (VCs) to fund their projects when investors interpret data through heterogeneous statistical frameworks. Drawing on Liang (2021)'s model of games with incomplete information played by statistical learners, we translate her abstract theoretical framework into a practical venture capital setting. We characterise how entrepreneurs balance funding plausibility against equity dilution by strategically choosing experiments along two critical dimensions: sample size (precision) and dimensionality (breadth of metrics). Our analysis reveals that for genuinely high-quality projects, increased precision helps by forcing VC beliefs to converge toward true quality. For low-quality projects, funding depends on preserving disagreement through sparse, high-dimensional experiments. The entrepreneur's optimal design depends critically on their prior beliefs: confident entrepreneurs choose high-precision, low-dimensional experiments that minimise equity dilution, while uncertain entrepreneurs opt for sparse, high-dimensional experiments that maximise the probability some VC will hold sufficiently optimistic beliefs. The framework provides a rigorous foundation for understanding how entrepreneurs and investors can rationally disagree when observing identical evidence, with significant implications for strategic information design in entrepreneurial settings.
 
-**摘要**: 本文考察了委托决策中的一个新的道德风险：作者可以嵌入隐藏指令——被称为提示注入——以在学术同行评审中操纵人工智能审稿人，从而劫持机器建议。由于与人工评估相比，人工智能评审相对便宜，审稿人本可以完全委托，这破坏了质量。文章表明，适度的操纵检测可以矛盾地改善福利。在中等检测概率下，只有低质量的作者进行操纵，检测成为关于质量的信息，促使审稿人在人工和人工智能评审之间混合。这种部分分离的均衡在人工智能质量中等时保留了同行评审的价值。当检测过低时，所有糟糕的论文都被操纵，市场崩溃；当检测完美时，审稿人只使用人工智能，接受度崩溃。因此，必须容忍一些提示注入以维持市场：它约束审稿人并产生信息。结果警告不要零容忍执法，并强调提示注入如何反直觉地在人工智能评审容易生产时发挥增强福利的作用。
+**摘要**: 本文考察了企业家如何策略性地设计实验来说服风险资本家（VC）资助他们的项目，特别是在投资者通过不同的统计框架来解读数据时。借鉴了梁（2021年）关于统计学习者进行的不完全信息博弈模型，我们将她的抽象理论框架转化为实际的风险资本环境。我们描述了企业家如何在两个关键维度上策略性地选择实验：样本量（精确度）和维度（指标的广度），以平衡资金的可行性和股权稀释。我们的分析揭示了对于真正高质量的项目，增加精确度有助于迫使VC的信念向真实质量靠拢。对于低质量的项目，资金依赖于通过稀疏的、高维度的实验来保持分歧。企业家的最优设计严重依赖于他们之前的信仰：自信的企业家选择高精确度、低维度的实验，以最小化股权稀释，而不确定的企业家则选择稀疏的、高维度的实验，以最大化某些VC持有足够乐观信念的概率。该框架为理解企业家和投资者在观察相同证据时如何合理地产生分歧提供了严格的基础，对于创业环境中的战略信息设计具有重要意义。
+
+---
+### 零售投资者围绕新闻、注意力和动量效应的逆向行为
+**[Retail Investors’ Contrarian Behavior Around News, Attention, and the Momentum Effect](https://www.nber.org/papers/w34086)**
+
+**Authors**: Patrick Luo, Enrichetta Ravina, Marco C. Sammon, Luis M. Viceira
+
+**Abstract**: Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD).  We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm’s dividend yield, leverage, size, book to market, and analyst coverage are associated with the fraction of contrarian trades they face around earnings announcements.  The disposition effect and stale limit orders, while present in our sample, do not explain our results. Our findings are consistent with investors’ conservatism, sticky beliefs, and cognitive uncertainty, as well as an incorrect belief in the Law of Small Numbers.
+
+**摘要**: 利用一个庞大且具有代表性的美国经纪账户面板数据，我们展示了零售投资者在大型盈利惊喜之后进行反向交易，尤其是对于亏损股票，并且这种反向交易有助于价格动量和盈利公告后漂移（PEAD）。我们表明，极端的回报连串和惊喜并不足以使股票表现出PEAD和动量，而反向零售交易的强度起着关键作用：随着零售购买压力的增加，亏损股票的PEAD对于糟糕的盈利惊喜变得越来越负面，而对于过去回报最高和盈利惊喜最大的股票，PEAD在净零售流出最大的股票中最为积极。更细致的分类确认了结果，公司规模和机构持股水平的分类也是如此。年轻且更专注的个体更有可能成为反向交易者，而公司的股息收益率、杠杆率、规模、账面市值比和分析师覆盖范围与他们在盈利公告周围面临的反向交易比例有关。虽然处置效应和陈旧的限价订单在我们的样本中存在，但它们并不能解释我们的结果。我们的发现与投资者的保守主义、粘性信念和认知不确定性，以及对小数定律的错误信仰是一致的。
+
+---
+### 为灭绝而战：消灭麻雀和中国的大饥荒
+**[Campaigning for Extinction: Eradication of Sparrows and the Great Famine in China](https://www.nber.org/papers/w34087)**
+
+**Authors**: Eyal G. Frank, Qinyun Wang, Shaoda Wang, Xuebin Wang, Yang You
+
+**Abstract**: How do large disruptions to ecosystems affect human well-being? This paper tests the long-standing hypothesis that China's 1958 Four Pests Campaign, which exterminated sparrows despite scientists’ warnings about their pest-control role, exacerbated the Great Famine—the largest in human history. Combining newly digitized data on historical agricultural productivity in China with habitat suitability modeling methods in ecology, we find that, after sparrow eradication, a one-standard-deviation increase in sparrow suitability led to 5.3% larger rice and 8.7% larger wheat declines. State food procurement exacerbated these losses, resulting in a 9.6% higher mortality in high-suitability counties—implying nearly two million excess deaths.
+
+**摘要**: 大规模的生态系统破坏如何影响人类的福祉？本文测试了一个长期存在的假设，即1958年中国的“四害”运动消灭了麻雀，尽管科学家警告它们在控制害虫方面的作用，但这一行动加剧了大饥荒——人类历史上最大的饥荒。结合中国历史农业生产力的新数字化数据和生态学中的栖息地适宜性建模方法，我们发现，在消灭麻雀之后，麻雀适宜性每增加一个标准差，就会导致稻米产量下降5.3%，小麦产量下降8.7%。国家粮食采购加剧了这些损失，导致高适宜性县的死亡率提高了9.6%——意味着近两百万人的超额死亡。
+
+---
+### 新闻对通胀预期的因果效应
+**[The Causal Effect of News on Inflation Expectations](https://www.nber.org/papers/w34088)**
+
+**Authors**: Carola Binder, Pascal Frank, Jane M. Ryngaert
+
+**Abstract**: This paper studies the response of household inflation expectations to television news coverage of inflation.  We analyze news data from CNN, Fox News, and MSNBC alongside a daily measure of inflation expectations. Using a local projection instrumental variables approach, we estimate the dynamic causal effect of inflation news coverage on household inflation expectations at a daily frequency. Increased media coverage of inflation raises expectations, with effects peaking within a few days and fading after approximately 10 days. Additionally, we document a key nonlinearity: release days with positive CPI surprises—i.e., inflation exceeding market expectations—lead to stronger expectation responses than release days with negative surprises.
+
+**摘要**: 本文研究了家庭通胀预期对电视新闻报道通胀的反应。我们分析了CNN、福克斯新闻和MSNBC的新闻数据以及每日通胀预期的度量。使用局部投影工具变量方法，我们估计了通胀新闻报道对家庭通胀预期的动态因果效应，频率为每日。增加的媒体对通胀的报道提高了预期，效果在几天内达到峰值，并在大约10天后逐渐消失。此外，我们记录了一个关键的非线性关系：CPI出人意料的正向发布日——即通胀超过市场预期——比负向意外发布的日期待引发更强的预期反应。
+
+---
+### 一个减少高峰需求的信息提示
+**[An Informational Nudge to Shave Peak Demand](https://www.nber.org/papers/w34089)**
+
+**Authors**: Gilbert E. Metcalf
+
+**Abstract**: Informational nudges to encourage energy conservation or load shifting have been tried in various contexts. This paper studies a program run by a small municipally owned electric utility to reduce demand on certain peak demand days. An email alert is sent out to residential customers who sign up for the alerts. Some recipients of those alerts forward the alerts to other customers or community groups, making it difficult to determine how broadly the alerts are disseminated. The alerts encourage load shifting and energy saving during specific hours on the following day. Using hourly load data for the utility, I estimate the reduction in electricity load caused by the alert emails. Using an instrumental variables approach, estimates suggest that load is reduced by roughly 0.7 MWs per hour during the hours covered by the alert. This works out to a reduction in load on the order of 2 percent. I calculate the cost savings to the municipal utility and discuss social and private benefits of the program. The private benefits of the peak alert program swamp the social benefits.
+
+**摘要**: 在各种情境中尝试过使用信息提示来鼓励节能或负荷转移。本文研究了一个由小型市政拥有的电力公用事业公司运营的项目，旨在减少某些高峰需求日的需求。向注册接收警报的住宅客户发送电子邮件提醒。这些警报的一些接收者将警报转发给其他客户或社区团体，这使得很难确定警报的传播范围。警报鼓励在次日特定时段进行负荷转移和节能。利用该公用事业的小时负荷数据，我估算了警报电子邮件引起的电力负荷减少量。使用工具变量方法，估计结果表明，在警报覆盖的时段内，负荷每小时减少了大约0.7兆瓦，这相当于减少了约2%的负荷。我计算了市政公用事业的成本节省，并讨论了该计划的社会和私人效益。高峰警报计划的私人效益远远超过了社会效益。
+
+---
+### 创新价值分配背后的新经济力量
+**[New Economic Forces Behind the Value Distribution of Innovation](https://www.nber.org/papers/w34090)**
+
+**Authors**: Timothy F. Bresnahan, Shane Greenstein, Pai-Ling Yin
+
+**Abstract**: Advances in a general-purpose technology (GPT) enable many firms to invent complementary inventions, or co-inventions, making the GPT more valuable. This study examines the empirical implications of a straightforward model in which firms choose either incremental or novel co-invention.  Incremental co-inventors aspire to small gains at low costs and with less uncertainty. Novel co-inventors introduce new products or services with the potential for large returns, but do so at high costs and with uncertain outcomes. Similar firms investing in incremental co-invention will create value proportional to their existing business, a benchmark we illustrate with the experiences at local radio and newspapers. The study then examines the value of co-inventions for the World Wide Web and mobile ecosystems, focusing on success in 2013, using data from many sources. This data supports analysis comparing the incremental and novel regimes. The latter should display a distinctly different upper tail of the distribution of returns. We show that the value distributions for incremental and novel co-invention are far apart.  Incremental co-invention is more widely distributed across regions, industries, and firms. Success from novel co-invention is rare, challenging, and the source of the largest value. In the aggregate, novel co-invention creates the most value, so the overall value distribution remains concentrated in a few industries, regions, and firms.
+
+**摘要**: 通用技术（GPT）的进步使得许多公司能够发明互补性的发明或共同发明，这使得GPT变得更有价值。本研究检验了一个简单模型的实证含义，在这个模型中，公司选择进行增量型或新颖型的共同发明。增量型共同发明者渴望以低成本和较少的不确定性获得小额收益。而新颖型共同发明者引入新的产品或服务，这些产品或服务有潜力带来巨大的回报，但成本高昂且结果不确定。投资于增量型共同发明的类似公司将创造与其现有业务成比例的价值，我们用当地广播和报纸的经验来说明这一基准。然后，研究检查了万维网和移动生态系统共同发明的价值，重点关注2013年的成功案例，使用来自多个来源的数据。这些数据支持比较增量型和新颖型制度的分析。后者应该显示出明显不同的回报分布的上尾。我们展示出增量型和新颖型共同发明的价值分布相距甚远。增量型共同发明在各个地区、行业和公司中分布更广。从新颖型共同发明中获得的成功是罕见的、具有挑战性的，并且是最大价值的来源。总体而言，新颖型共同发明创造了最多的价值，因此总体价值分布仍然集中在少数行业、地区和公司中。
+
+---
+### 战略复杂性促进立法谈判中的平等主义
+**[Strategic Complexity Promotes Egalitarianism in Legislative Bargaining](https://www.nber.org/papers/w34083)**
+
+**Authors**: Marina Agranov, S. Nageeb Ali, B. Douglas Bernheim, Thomas R. Palfrey
+
+**Abstract**: Strategic models of legislative bargaining predict that proposers can extract high shares of economic surplus by identifying and exploiting weak coalition partners. However, strength and weakness can be difficult to assess even with relatively simple bargaining protocols. We evaluate experimentally how strategic complexity affects the ability to identify weak coalition partners, and for the partners themselves to determine whether their positions are weak or strong. We find that, as strategic complexity progressively obscures bargaining strength, proposers migrate to egalitarianism, in significant part because non-proposers begin placing substantial weight on fairness. Greater analytic skill dampens but does not eliminate these patterns.
+
+**摘要**: 立法协商的战略模型预测，提议者可以通过识别和利用弱势联盟伙伴来获取高额的经济剩余。然而，即使在相对简单的协商协议下，强弱也难以评估。我们通过实验评估了战略复杂性如何影响识别弱势联盟伙伴的能力，以及伙伴们自己判断他们的地位是弱还是强。我们发现，随着战略复杂性逐渐掩盖了协商力量，提议者转向平等主义，这在很大程度上是因为非提议者开始重视公平。更高的分析技能减弱但并未消除这些模式。
+
+---
+### 最优的学校系统与课程设计：理论与证据
+**[Optimal School System and Curriculum Design: Theory and Evidence](https://www.nber.org/papers/w34091)**
+
+**Authors**: Glenn Ellison, Parag A. Pathak
+
+**Abstract**: This paper develops a model of education production and uses it to study optimal school system and curriculum design. Curriculum design is modeled as a time-allocation problem. A school teaches students many skills and allocates time to different skills based on student characteristics.  Our framework provides a novel interpretation of studies that find zero achievement effects at selective school admission cutoffs. We show that such findings may be consistent with highly effective schools implementing optimal curricula, rather than necessarily indicating ineffective schools. The interpretation depends on the alignment between measured outcome skills and skills emphasized in the curriculum. We test several model predictions using data from a prominent exam school and find supporting evidence that would be difficult to rationalize if selective schools were ineffective.
+
+**摘要**: 本文建立了一个教育生产模型，并用它来研究最优的学校系统和课程设计。课程设计被建模为一个时间分配问题。学校教授学生许多技能，并根据学生特点分配不同技能的时间。我们的框架为那些发现在选拔性学校入学截止分数处零成就效应的研究提供了一种新颖的解释。我们展示了这样的发现可能与实施最优课程的高度有效的学校一致，而不一定表示学校无效。这种解释取决于测量结果技能和课程中强调的技能之间的一致性。我们使用一所著名考试学校的数据测试了几个模型预测，并发现了支持性的证据，如果选拔性学校无效，这些证据将很难合理化。
+
+---
+### 对债务的态度：道德价值的作用
+**[Attitudes to Debt: The Role of Moral Values](https://www.nber.org/papers/w34092)**
+
+**Authors**: Fiona Paine, Antoinette Schoar, David Thesmar
+
+**Abstract**: This paper tests how people’s moral values influence their views of debt contracts. We ask participants to make decisions about debt contracts in different hypothetical situations (vignettes). We separately measure their moral values using the Moral Foundations Questionnaire (Graham et al., 2009). We have three main sets of findings. First, differences in moral values strongly explain the cross-section of participants’ debt decisions. Participants with more conservative values show more support for credit score-based loan pricing, stricter forms of collateral, and tougher bankruptcy resolution. Second, when we randomly change the economic costs and benefits of debt within our vignettes, we find that participants change their answers in the direction predicted by economic theory. Third, participants’ beliefs of the functioning of the credit market strongly correlate with their moral values. Participants with conservative values are more likely to believe that strict enforcement and risk-based loan pricing provide incentives and are economically efficient. More liberal participants believe that insurance against unlucky shocks are important. Consistent with moral values being distinct from Bayesian beliefs, financial literacy does not attenuate moral values in shaping beliefs about what is economically efficient.
+
+**摘要**: 本文测试了人们的道德价值观如何影响他们对债务合同的看法。我们要求参与者在不同的假设情境（小故事）中对债务合同做出决策。我们使用道德基础问卷（Graham等人，2009年）分别测量他们的道德价值观。我们有三个主要的发现集。首先，道德价值观的差异在很大程度上解释了参与者债务决策的横截面。持有更保守价值观的参与者更支持基于信用评分的贷款定价、更严格的抵押形式和更严厉的破产解决方案。其次，当我们随机改变我们小故事中债务的经济成本和收益时，我们发现参与者的回答方向与经济理论预测的方向一致。第三，参与者对信贷市场运作的信念与他们的道德价值观强烈相关。持有保守价值观的参与者更有可能相信严格的执行和基于风险的贷款定价提供了激励，并且在经济上是高效的。更自由的参与者则认为，防范不幸冲击的保险是重要的。与道德价值观与贝叶斯信念不同，金融知识并没有减弱道德价值观在塑造关于经济效率的信念方面的作用。
+
+---
+### 个人主义惩罚：独裁统治的多样性与经济增长
+**[The Personalist Penalty: Varieties of Autocracy and Economic Growth](https://www.nber.org/papers/w34093)**
+
+**Authors**: Christopher Blattman, Scott Gehlbach, Zeyang Yu
+
+**Abstract**: Studies of income and regime type typically contrast democracies and autocracies, ignoring heterogeneity in the character of authoritarian regimes. We focus on the consequences of personalist rule, where power is concentrated in an individual or small elite. Extending the dynamic panel strategy of Acemoglu, Naidu, Restrepo, and Robinson (2019), we estimate the differential growth performance of democracies, institutionalized autocracies, and personalist autocracies. Across eight GDP series, eight autocracy codings, and six measures of personalism, we observe a consistent pattern: Whenever an "autocratic penalty" emerges, it is concentrated in personalist regimes. The growth performance of institutionalized dictatorships, in contrast, is statistically indistinguishable from that of democracies. We document evidence that the "personalist penalty" is driven by some combination of low private investment, poor public-goods provision, and conflict. These findings emphasize the analytic payoff of unpacking autocracy and highlight the different incentives facing leaders with narrow and broad bases of power.
+
+**摘要**: 关于收入和政权类型研究通常对比民主政体和独裁政体，忽略了独裁政权性质的异质性。我们关注个人统治的后果，即权力集中在个人或小精英群体中。扩展了Acemoglu、Naidu、Restrepo和Robinson（2019）的动态面板策略，我们估计了民主政体、制度化独裁政体和个人独裁政体的不同增长表现。在八个GDP系列、八个独裁编码和六个个人主义衡量标准中，我们观察到一个一致的模式：每当出现“独裁惩罚”，它都集中在个人独裁政权中。相比之下，制度化独裁政权的增长表现在统计上与民主政体无法区分。我们记录了证据，表明“个人独裁惩罚”是由低私人投资、公共物品供给不足和冲突的某种组合驱动的。这些发现强调了拆解独裁政体的分析收益，并突出了面对权力基础狭窄和广泛的领导人所面临的不同激励。
+
+---
+### 经济制裁的解除：来自俄乌冲突的证据
+**[The Undoing of Economic Sanctions: Evidence from the Russia-Ukraine Conflict](https://www.nber.org/papers/w34097)**
+
+**Authors**: Raymond Fisman, Giovanna Marcolongo, Meng Wu
+
+**Abstract**: We examine the effects of Ukraine’s economic blockade of the anthracite-rich Donbas region, to demonstrate how trade sanctions’ efficacy can be undermined by trade through non-participatory nations. We document that after the blockade was imposed in March 2017, Russia reported a sharp increase in anthracite imports from Ukraine, while Ukraine reported no exports to Russia at all. We interpret this gap in “mirror statistics” as reflecting a shift in Donbas trade through Russia. Concurrently, Ukraine anthracite imports from Russia increased sharply (from near-zero), indicating that some of the increased supply of anthracite in Russia was exported back to Ukraine. We provide suggestive evidence that Russian traders benefited from monopsony rents, buying low-priced anthracite from Donbas while Russia sold anthracite to Ukraine at prices comparable to other export markets. Overall, our findings highlight some of the economic and geographic features that may raise the cost and limit the efficacy of sanctions.
+
+**摘要**: 我们研究了乌克兰对富含无烟煤的顿巴斯地区实施经济封锁的影响，以展示贸易制裁的有效性如何因通过非参与国的贸易而受到削弱。我们记录到，在2017年3月实施封锁后，俄罗斯报告从乌克兰进口的无烟煤急剧增加，而乌克兰报告对俄罗斯没有任何出口。我们将“镜像统计”中的这一差距解释为顿巴斯贸易通过俄罗斯的转移。与此同时，乌克兰从俄罗斯进口的无烟煤急剧增加（从接近零开始），这表明俄罗斯增加的无烟煤供应中有一部分被重新出口到乌克兰。我们提供了一些暗示性的证据，表明俄罗斯交易商从垄断租金中受益，他们以低价从顿巴斯购买无烟煤，同时以与其他出口市场相当的价格向乌克兰出售无烟煤。总体而言，我们的发现突出了一些可能提高成本并限制制裁有效性的经济和地理特征。
+
+---
+### 城乡迁移与市场一体化
+**[Rural-Urban Migration and Market Integration](https://www.nber.org/papers/w34098)**
+
+**Authors**: Dennis Egger, Benjamin Faber, Ming Li, Wei Lin
+
+**Abstract**: We combine a new collection of microdata from China with a natural policy experiment to investigate the extent to which reductions in rural-urban migration barriers affect flows of trade and investments between cities and the countryside. We find that increases in worker eligibility for urban residence registration (Hukou) across origin-destination pairs increase rural-urban exports, imports, capital inflows and outflows, both in terms of bilateral transaction values and the number of unique buyer-seller matches. To quantify the implications at the regional level, we interpret these estimates through the lens of a spatial equilibrium model in which migrants can reduce buyer-seller matching frictions. We find that a 10% increase in a rural county's migration market access on average leads to a 1.5% increase in the county's trade market access and a 2% increase in investment market access. In the context of China's recent Hukou reforms, we find that these knock-on effects on market integration were on average larger among the urban destinations compared to the rural origins, reinforcing incentives for rural-urban migration.
+
+**摘要**: 我们将来自中国的新微观数据集与一项自然政策实验相结合，以调查减少农村到城市迁移障碍对城市与农村之间贸易和投资流动的影响程度。我们发现，跨原籍地-目的地对的工人获得城市居住登记（户籍）资格的增加，增加了农村到城市的出口、进口、资本流入和流出，无论是在双边交易价值方面还是在独特的买卖匹配数量方面。为了在区域层面量化这些影响，我们通过一个空间均衡模型来解释这些估计，在这个模型中，移民可以减少买卖匹配的摩擦。我们发现，农村县迁移市场准入平均增加10%，会导致该县贸易市场准入增加1.5%，投资市场准入增加2%。在中国近期户籍改革的背景下，我们发现这些对市场一体化的连锁效应在城市目的地相比农村起源地平均更大，这加强了农村到城市迁移的激励。
 
 ---
 <!-- NBER_PAPERS_END -->
