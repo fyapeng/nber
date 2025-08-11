@@ -1,216 +1,228 @@
 # 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
-*(Updated on: 2025-08-04)*
+*(Updated on: 2025-08-11)*
 
-1. **[Accounting for Global Supply Chains: An Integrated Framework That Incorporates Foreign Invested Firms](https://www.nber.org/papers/w34073)**<br/>全球供应链会计：一个整合框架，包括外国投资企业
-    - *Authors: Zhi Wang, Shang-Jin Wei, Xinding Yu, Kunfu Zhu*
-2. **[Reskilling and Resilience](https://www.nber.org/papers/w34095)**<br/>再技能培训与韧性
-    - *Authors: Anders Humlum, Pernille Plato*
-3. **[Feeling Rich or Looking Rich? Quantifying Self-Image and Social-Image Motives](https://www.nber.org/papers/w34094)**<br/>感觉富有还是看起来富有？量化自我形象和社会形象动机
-    - *Authors: Nicolas L. Bottan, Ricardo Perez-Truglia, Hitoshi Shigeoka, Katsunori Yamada*
-4. **[Transport Infrastructure and Policy Evaluation](https://www.nber.org/papers/w34096)**<br/>交通基础设施与政策评估
-    - *Authors: Dave Donaldson*
-5. **[International Climate News](https://www.nber.org/papers/w34084)**<br/>国际气候新闻
-    - *Authors: María José Arteaga Garavito, Riccardo Colacito, Mariano Max Croce, Biao Yang*
-6. **[Entrepreneurial Experimentation Design for Venture Finance](https://www.nber.org/papers/w34085)**<br/>创业实验设计在风险融资中的应用
-    - *Authors: Joshua S. Gans*
-7. **[Retail Investors’ Contrarian Behavior Around News, Attention, and the Momentum Effect](https://www.nber.org/papers/w34086)**<br/>零售投资者围绕新闻、注意力和动量效应的逆向行为
-    - *Authors: Patrick Luo, Enrichetta Ravina, Marco C. Sammon, Luis M. Viceira*
-8. **[Campaigning for Extinction: Eradication of Sparrows and the Great Famine in China](https://www.nber.org/papers/w34087)**<br/>为灭绝而战：消灭麻雀和中国的大饥荒
-    - *Authors: Eyal G. Frank, Qinyun Wang, Shaoda Wang, Xuebin Wang, Yang You*
-9. **[The Causal Effect of News on Inflation Expectations](https://www.nber.org/papers/w34088)**<br/>新闻对通胀预期的因果效应
-    - *Authors: Carola Binder, Pascal Frank, Jane M. Ryngaert*
-10. **[An Informational Nudge to Shave Peak Demand](https://www.nber.org/papers/w34089)**<br/>一个减少高峰需求的信息提示
-    - *Authors: Gilbert E. Metcalf*
-11. **[New Economic Forces Behind the Value Distribution of Innovation](https://www.nber.org/papers/w34090)**<br/>创新价值分配背后的新经济力量
-    - *Authors: Timothy F. Bresnahan, Shane Greenstein, Pai-Ling Yin*
-12. **[Strategic Complexity Promotes Egalitarianism in Legislative Bargaining](https://www.nber.org/papers/w34083)**<br/>战略复杂性促进立法谈判中的平等主义
-    - *Authors: Marina Agranov, S. Nageeb Ali, B. Douglas Bernheim, Thomas R. Palfrey*
-13. **[Optimal School System and Curriculum Design: Theory and Evidence](https://www.nber.org/papers/w34091)**<br/>最优的学校系统与课程设计：理论与证据
-    - *Authors: Glenn Ellison, Parag A. Pathak*
-14. **[Attitudes to Debt: The Role of Moral Values](https://www.nber.org/papers/w34092)**<br/>对债务的态度：道德价值的作用
-    - *Authors: Fiona Paine, Antoinette Schoar, David Thesmar*
-15. **[The Personalist Penalty: Varieties of Autocracy and Economic Growth](https://www.nber.org/papers/w34093)**<br/>个人主义惩罚：独裁统治的多样性与经济增长
-    - *Authors: Christopher Blattman, Scott Gehlbach, Zeyang Yu*
-16. **[The Undoing of Economic Sanctions: Evidence from the Russia-Ukraine Conflict](https://www.nber.org/papers/w34097)**<br/>经济制裁的解除：来自俄乌冲突的证据
-    - *Authors: Raymond Fisman, Giovanna Marcolongo, Meng Wu*
-17. **[Rural-Urban Migration and Market Integration](https://www.nber.org/papers/w34098)**<br/>城乡迁移与市场一体化
-    - *Authors: Dennis Egger, Benjamin Faber, Ming Li, Wei Lin*
+1. **[When is Less More? Bank Arrangements for Liquidity vs Central Bank Support](https://www.nber.org/papers/w34099)**<br/>何时少即是多？银行流动性安排与中央银行支持的比较
+    - *Authors: Viral V. Acharya, Raghuram Rajan, Zhi Quan (Bill) Shu*
+2. **[GenAI Misinformation, Trust, and News Consumption: Evidence from a Field Experiment](https://www.nber.org/papers/w34100)**<br/>GenAI 错误信息、信任和新闻消费：来自现场实验的证据
+    - *Authors: Filipe R. Campante, Ruben Durante, Felix Hagemeister, Ananya Sen*
+3. **[Why Did Air Conditioning Adoption Accelerate Faster Than Predicted? Evidence from Mexico](https://www.nber.org/papers/w34101)**<br/>为什么空调的普及速度比预测的要快？来自墨西哥的证据
+    - *Authors: Lucas W. Davis, Paul Gertler*
+4. **[Turning Points in Inflation: A Structural Breaks Approach with Micro Data](https://www.nber.org/papers/w34102)**<br/>通胀的转折点：基于微观数据的结构性断裂方法
+    - *Authors: Alberto Cavallo, Gaston Garcia Zavaleta*
+5. **[Seemingly Virtuous Complexity in Return Prediction](https://www.nber.org/papers/w34104)**<br/>看似美德的复杂性在回报预测中
+    - *Authors: Stefan Nagel*
+6. **[Sequential College Admission Mechanisms and Off-Platform Options](https://www.nber.org/papers/w34105)**<br/>顺序大学录取机制与平台外选项
+    - *Authors: Olivier De Groote, Anaïs Fabre, Margaux Luflade, Arnaud Maurel*
+7. **[Are Juries Racially Discriminatory? Evidence from the Race-Blind Charging of Grand Jury Defendants with and without Racially Distinctive Names](https://www.nber.org/papers/w34106)**<br/>陪审团存在种族歧视吗？来自对大陪审团被告进行种族盲指控的证据，这些被告有无种族特征明显的名字。
+    - *Authors: Mark Hoekstra, Suhyeon Oh, Meradee Tangvatcharapong*
+8. **[The Legacy of High Inflation on Monetary Policy Rules](https://www.nber.org/papers/w34107)**<br/>高通胀对货币政策规则的遗产
+    - *Authors: Luis I. Jacome, Nicolas E. Magud, Samuel Pienknagura, Martín Uribe*
+9. **[Optimal Tariffs with Geopolitical Alignment](https://www.nber.org/papers/w34108)**<br/>具有地缘政治对齐的最优关税
+    - *Authors: John S. Becko, Gene M. Grossman, Elhanan Helpman*
+10. **[The Social Lifecycle Impacts of Power Plant Siting in the Historical United States](https://www.nber.org/papers/w34109)**<br/>美国历史上电厂选址的社会生命周期影响
+    - *Authors: Karen Clay, Danae Hernandez-Cortes, Akshaya Jha, Joshua A. Lewis, Noah S. Miller, Edson R. Severnini*
+11. **[Markups and Cost Pass-through Along the Supply Chain](https://www.nber.org/papers/w34110)**<br/>供应链中的加价和成本传导
+    - *Authors: Santiago Alvarez-Blaser, Alberto Cavallo, Alexander MacKay, Paolo Mengano*
+12. **[Do Environmental Markets Improve Allocative Efficiency? Evidence from U.S. Air Pollution](https://www.nber.org/papers/w34111)**<br/>环境市场是否提高了配置效率？来自美国空气污染的证据
+    - *Authors: Kyle C. Meng, Vincent Thivierge*
+13. **[Market Rents and CPI Shelter Inflation](https://www.nber.org/papers/w34113)**<br/>市场租金与CPI住房通胀
+    - *Authors: Laurence M. Ball, Kyung Woong Koh*
+14. **[Random Walk Forecasts of Stationary Processes Have Low Bias](https://www.nber.org/papers/w34112)**<br/>随机游走预测对平稳过程的低偏差
+    - *Authors: Kenneth D. West, Kurt G. Lunsford*
+15. **[Concentration and Markups in International Trade](https://www.nber.org/papers/w34114)**<br/>国际贸易中的集中度和加成率
+    - *Authors: Vanessa I. Alviarez, Michele Fioretti, Ken Kikkawa, Monica Morlacco*
+16. **[Fear and Risk Perception: Understanding Physicians' Dynamic Responses to Malpractice Lawsuits](https://www.nber.org/papers/w34115)**<br/>恐惧与风险感知：理解医生对医疗事故诉讼的动态反应
+    - *Authors: Hanming Fang, Ming Li, Jia Xiang*
+17. **[Misperceptions About Air Pollution: Implications for Willingness to Pay and Environmental Inequality](https://www.nber.org/papers/w34116)**<br/>关于空气污染的误解：对支付意愿和环境不平等的影响
+    - *Authors: Matthew A. Tarduno, Reed Walker*
+18. **[Implications of Fiscal-Monetary Interaction from HANK Models](https://www.nber.org/papers/w34117)**<br/>基于HANK模型的财政-货币政策互动的影响
+    - *Authors: Greg Kaplan*
 
 
 ---
 
 ## 文章概览
 
-### 全球供应链会计：一个整合框架，包括外国投资企业
-**[Accounting for Global Supply Chains: An Integrated Framework That Incorporates Foreign Invested Firms](https://www.nber.org/papers/w34073)**
+### 何时少即是多？银行流动性安排与中央银行支持的比较
+**[When is Less More? Bank Arrangements for Liquidity vs Central Bank Support](https://www.nber.org/papers/w34099)**
 
-**Authors**: Zhi Wang, Shang-Jin Wei, Xinding Yu, Kunfu Zhu
+**Authors**: Viral V. Acharya, Raghuram Rajan, Zhi Quan (Bill) Shu
 
-**Abstract**: This paper proposes a new unified accounting framework to measure Global Supply Chain (GSC) activities. It integrates decomposition frameworks on gross output, trade, and value added, and formally incorporates the role of Foreign Invested Enterprises (FIEs). Compared to the existing Global Value Chain (GVC) metrics that do not distinguish FIEs from domestic firms, the estimate of GSC activities in our approach is three times as large. The key contributions of our approach are: (1) distinguishing GSC activities based on their positions along production chains (upstream, downstream, or both) and mode of engagement (trade, FDI, or both); (2) extending Vertical Specialization (VS) measures to domestic supply chains, bridging trade-only and production-based analyses; and (3) reconciling net and gross decompositions to provide a comprehensive view of GSC participation and exposures.
+**Abstract**: Theory suggests that in the face of fire sale externalities, banks have incentives to overinvest in order to issue excessive money-like deposit liabilities. The existence of a private market for insurance such as contingent capital can eliminate the overinvestment incentives, leading to efficient outcomes. However, it does not eliminate fire sales. A central bank that can infuse liquidity cheaply may be motivated to intervene in the face of fire sales. If so, it can crowd out the private market and, if liquidity intervention is not priced at higher-than-breakeven rates, induce overinvestment. We examine various forms of public intervention to identify the least distortionary ones. Our analysis helps understand the historical prevalence of private insurance in the era preceding central banks and deposit insurance, their subsequent disappearance, as well as the continuing incidence of banking crises and speculative excesses.
 
-**摘要**: 本文提出了一个新的统一核算框架，用于衡量全球供应链（GSC）活动。它整合了关于总产出、贸易和增加值的分解框架，并正式纳入了外商投资企业（FIEs）的作用。与现有不区分外商投资企业和国内企业的全球价值链（GVC）指标相比，我们的方法估计的GSC活动规模是其三倍。我们方法的关键贡献包括：（1）根据其在生产链中的位置（上游、下游或两者兼有）和参与方式（贸易、外国直接投资或两者兼有）区分GSC活动；（2）将垂直专业化（VS）措施扩展到国内供应链，连接仅涉及贸易和基于生产的分析；以及（3）协调净和总分解，提供对GSC参与和风险的全面视角。
-
----
-### 再技能培训与韧性
-**[Reskilling and Resilience](https://www.nber.org/papers/w34095)**
-
-**Authors**: Anders Humlum, Pernille Plato
-
-**Abstract**: This paper shows that effective reskilling can have profound mental health benefits for workers and their partners. Using institutional variation in access to higher education after work accidents in Denmark, we find that reskilling prevents one case of depression for every three injured workers. Strikingly, the spillover effects on partners are just as large. These mental health gains are accompanied by higher partner employment and increased separation rates, suggesting that reskilling frees partners from costly relationship commitments. Together, the mental health and partner benefits add 83% to the direct labor earnings gains from reskilling.
-
-**摘要**: 本文表明，有效的再培训对工人及其伴侣的心理健康有着深远的益处。利用丹麦在工作事故后接受高等教育机会的制度差异，我们发现再培训可以预防每三名受伤工人中的一例抑郁症。引人注目的是，对伴侣的溢出效应同样巨大。这些心理健康收益伴随着伴侣就业率的提高和分离率的增加，这表明再培训使伴侣摆脱了代价高昂的关系承诺。总的来说，心理健康和伴侣福利使再培训带来的直接劳动收入收益增加了83%。
+**摘要**: 理论表明，在面对火灾销售外部性时，银行有动机过度投资，以发行过多的类似货币的存款负债。存在一个私人保险市场，如或有资本，可以消除过度投资的动机，导致有效的结果。然而，它并没有消除火灾销售。一个能够以低成本注入流动性的中央银行可能在面对火灾销售时有动机进行干预。如果是这样，它可以挤出私人市场，并且如果流动性干预的价格不是高于盈亏平衡率，就会诱导过度投资。我们检查各种形式的公共干预，以确定最少扭曲的形式。我们的分析有助于理解在中央银行和存款保险出现之前的时代私人保险的历史普遍性，它们随后的消失，以及银行危机和投机过度的持续发生。
 
 ---
-### 感觉富有还是看起来富有？量化自我形象和社会形象动机
-**[Feeling Rich or Looking Rich? Quantifying Self-Image and Social-Image Motives](https://www.nber.org/papers/w34094)**
+### GenAI 错误信息、信任和新闻消费：来自现场实验的证据
+**[GenAI Misinformation, Trust, and News Consumption: Evidence from a Field Experiment](https://www.nber.org/papers/w34100)**
 
-**Authors**: Nicolas L. Bottan, Ricardo Perez-Truglia, Hitoshi Shigeoka, Katsunori Yamada
+**Authors**: Filipe R. Campante, Ruben Durante, Felix Hagemeister, Ananya Sen
 
-**Abstract**: Preferences for status are typically attributed to two distinct channels: self-image, in which individuals derive utility from being richer than others, and social-image, in which individuals value being seen as richer by others. While both channels are believed to be at play, little is known about their relative importance. We address this gap using a hypothetical discrete choice experiment. Our findings indicate that self-image is at most 19.3% as important as social-image. Additionally, we document substantial heterogeneity in the strength of these preferences across individuals and domains.
+**Abstract**: We study how AI-generated misinformation affects demand for trustworthy news, using data from a field experiment by a major German outlet, Süddeutsche Zeitung (SZ). Readers were randomly assigned to a treatment highlighting the challenge of distinguishing real from AI-generated images. The treatment raised concern with misinformation (0.3 s.d.) and reduced trust in news (0.1 s.d.), including SZ. Importantly, it affected post-survey browsing behavior: daily visits to SZ digital content rose by 2.5% in the immediate aftermath of the treatment. Moreover, we find that subscriber retention increased by 1.1% after five months, corresponding to about a one-third drop in attrition rate. Results are consistent with a model where the relative value of trustworthy news sources increases with the prevalence of misinformation, which may thus boost engagement with those sources even while lowering trust in news content.
 
-**摘要**: 对地位的偏好通常归因于两个不同的渠道：自我形象，即个体从比别人更富有中获得效用；社会形象，即个体重视被别人视为更富有。尽管人们认为这两个渠道都在起作用，但关于它们的相对重要性知之甚少。我们通过一个假设性的离散选择实验来填补这一空白。我们的发现表明，自我形象的重要性最多只有社会形象的19.3%。此外，我们记录了这些偏好在不同个体和领域中的强度存在显著的异质性。
-
----
-### 交通基础设施与政策评估
-**[Transport Infrastructure and Policy Evaluation](https://www.nber.org/papers/w34096)**
-
-**Authors**: Dave Donaldson
-
-**Abstract**: How beneficial are transport infrastructure investments and other transport policies? This chapter develops a framework whose goal is to survey and synthesize the answers that regional and urban economists have given to this question. Emphasis is placed on theoretical results about sufficient statistics that capture approximate impacts in both distorted and undistorted economies, as well as how new advances in data collection and causal inference are poised to leverage these theoretical results and thereby modernize and extend standard templates for infrastructure and policy evaluation. The chapter concludes with discussions of optimal policy, political economy, and practical matters of infrastructure provision.
-
-**摘要**: 交通基础设施投资和其他交通政策的益处有多大？本章构建了一个框架，旨在调查并综合区域和城市经济学家对这一问题的回答。重点放在理论上的结果上，这些结果涉及在扭曲和未扭曲经济中捕捉近似影响的充分统计量，以及数据收集和因果推断的新进展如何准备利用这些理论结果，从而现代化并扩展基础设施和政策评估的标准模板。本章以对最优政策、政治经济学和基础设施供应的实际问题的讨论结束。
+**摘要**: 我们研究了人工智能生成的虚假信息如何影响对可信新闻的需求，使用了德国主要媒体《南德意志报》（Süddeutsche Zeitung，简称SZ）进行的现场实验的数据。读者被随机分配到一个强调区分真实与人工智能生成图像挑战的处理组。这种处理提高了对虚假信息的担忧（0.3个标准差）并降低了对新闻的信任（0.1个标准差），包括对SZ的信任。重要的是，它影响了调查后的浏览行为：在处理后的立即时期，每日访问SZ数字内容的次数增加了2.5%。此外，我们发现在五个月后，订阅者保留率增加了1.1%，相当于流失率下降了约三分之一。结果与一个模型一致，即随着虚假信息的流行，可信新闻来源的相对价值增加，这可能会提高与这些来源的互动，尽管同时降低了对新闻内容的信任。
 
 ---
-### 国际气候新闻
-**[International Climate News](https://www.nber.org/papers/w34084)**
+### 为什么空调的普及速度比预测的要快？来自墨西哥的证据
+**[Why Did Air Conditioning Adoption Accelerate Faster Than Predicted? Evidence from Mexico](https://www.nber.org/papers/w34101)**
 
-**Authors**: María José Arteaga Garavito, Riccardo Colacito, Mariano Max Croce, Biao Yang
+**Authors**: Lucas W. Davis, Paul Gertler
 
-**Abstract**: We develop novel high-frequency indices that measure climate attention across a wide range of developed and emerging economies. By analyzing the text of over 23 million Tweets published by leading national newspapers, we find that a country experiencing more severe climate news shocks tends to see both an inflow of capital and an appreciation of its currency. In addition, brown stocks experience large and persistent negative returns after a global climate news shock if located in highly exposed countries. A risk-sharing model in which investors price climate news shocks and trade consumption and investment goods in global markets rationalizes these findings.
+**Abstract**: A common theme in the vast literature on climate change is the estimation of models using historical data to make predictions many decades into the future. Although there is a large and growing number of these types of studies, researchers rarely return later to check the accuracy of their predictions. In this paper, we perform such an exercise. In Davis and Gertler (2015), we used household-level microdata from Mexico to predict future air conditioning adoption as a function of income and temperature. Revisiting these predictions with 12 years of additional data, we find that air conditioning in Mexico has accelerated, significantly exceeding our predictions. Neither errors in predicting income growth or rising temperatures, nor migration patterns, nor an overly restrictive model can explain the large prediction gap. Instead, our results point to the failure to account for falling electricity prices and technological changes in air conditioner eﬀiciency as key drivers of the prediction gap.
 
-**摘要**: 我们开发了新的高频指数，用于衡量发达和新兴经济体范围内的气候关注度。通过分析领先国家报纸发布的超过2300万条推文的文本，我们发现，经历更严重气候新闻冲击的国家往往会出现资本流入和货币升值。此外，如果全球气候新闻冲击发生在高度暴露的国家，棕色股票会经历大且持续的负回报。一个风险分担模型，其中投资者对气候新闻冲击进行定价，并在全球市场上交易消费和投资商品，可以合理解释这些发现。
-
----
-### 创业实验设计在风险融资中的应用
-**[Entrepreneurial Experimentation Design for Venture Finance](https://www.nber.org/papers/w34085)**
-
-**Authors**: Joshua S. Gans
-
-**Abstract**: This paper examines how entrepreneurs strategically design experiments to convince venture capitalists (VCs) to fund their projects when investors interpret data through heterogeneous statistical frameworks. Drawing on Liang (2021)'s model of games with incomplete information played by statistical learners, we translate her abstract theoretical framework into a practical venture capital setting. We characterise how entrepreneurs balance funding plausibility against equity dilution by strategically choosing experiments along two critical dimensions: sample size (precision) and dimensionality (breadth of metrics). Our analysis reveals that for genuinely high-quality projects, increased precision helps by forcing VC beliefs to converge toward true quality. For low-quality projects, funding depends on preserving disagreement through sparse, high-dimensional experiments. The entrepreneur's optimal design depends critically on their prior beliefs: confident entrepreneurs choose high-precision, low-dimensional experiments that minimise equity dilution, while uncertain entrepreneurs opt for sparse, high-dimensional experiments that maximise the probability some VC will hold sufficiently optimistic beliefs. The framework provides a rigorous foundation for understanding how entrepreneurs and investors can rationally disagree when observing identical evidence, with significant implications for strategic information design in entrepreneurial settings.
-
-**摘要**: 本文考察了企业家如何策略性地设计实验来说服风险资本家（VC）资助他们的项目，特别是在投资者通过不同的统计框架来解读数据时。借鉴了梁（2021年）关于统计学习者进行的不完全信息博弈模型，我们将她的抽象理论框架转化为实际的风险资本环境。我们描述了企业家如何在两个关键维度上策略性地选择实验：样本量（精确度）和维度（指标的广度），以平衡资金的可行性和股权稀释。我们的分析揭示了对于真正高质量的项目，增加精确度有助于迫使VC的信念向真实质量靠拢。对于低质量的项目，资金依赖于通过稀疏的、高维度的实验来保持分歧。企业家的最优设计严重依赖于他们之前的信仰：自信的企业家选择高精确度、低维度的实验，以最小化股权稀释，而不确定的企业家则选择稀疏的、高维度的实验，以最大化某些VC持有足够乐观信念的概率。该框架为理解企业家和投资者在观察相同证据时如何合理地产生分歧提供了严格的基础，对于创业环境中的战略信息设计具有重要意义。
+**摘要**: 在关于气候变化的大量文献中，一个常见的主题是使用历史数据来估计模型，以对未来几十年进行预测。尽管这类研究的数量庞大且不断增加，但研究人员很少回来检查他们预测的准确性。在本文中，我们进行了这样的练习。在Davis和Gertler（2015）中，我们使用了墨西哥的家庭级微观数据来预测空调的采用情况，作为收入和温度的函数。通过额外的12年数据重新审视这些预测，我们发现墨西哥的空调普及速度加快了，显著超过了我们的预测。无论是预测收入增长或气温上升的错误，还是迁移模式，还是模型过于限制性，都不能解释预测差距之大。相反，我们的结果指向未能考虑到电力价格下降和技术变化在空调效率方面是预测差距的关键驱动因素。
 
 ---
-### 零售投资者围绕新闻、注意力和动量效应的逆向行为
-**[Retail Investors’ Contrarian Behavior Around News, Attention, and the Momentum Effect](https://www.nber.org/papers/w34086)**
+### 通胀的转折点：基于微观数据的结构性断裂方法
+**[Turning Points in Inflation: A Structural Breaks Approach with Micro Data](https://www.nber.org/papers/w34102)**
 
-**Authors**: Patrick Luo, Enrichetta Ravina, Marco C. Sammon, Luis M. Viceira
+**Authors**: Alberto Cavallo, Gaston Garcia Zavaleta
 
-**Abstract**: Using a large and representative panel of U.S. brokerage accounts, we show that retail investors trade as contrarians after large earnings surprises, especially for loser stocks, and that such contrarian trading contributes to price momentum and post earnings announcement drift (PEAD).  We show that extreme return streaks and surprises are not enough for stocks to exhibit PEAD and momentum and that the intensity of contrarian retail trading plays a key role: the PEAD of loser stocks with bad earnings surprises becomes increasingly more negative as retail buying pressure increases, and he PEAD of the stocks with the highest past returns and largest earnings surprises is the most positive for the stocks with the biggest net retail outflow. Finer sorts confirm the results, as do sorts by firm size and institutional ownership level. Younger and more attentive individuals are more likely to be contrarian, and a firm’s dividend yield, leverage, size, book to market, and analyst coverage are associated with the fraction of contrarian trades they face around earnings announcements.  The disposition effect and stale limit orders, while present in our sample, do not explain our results. Our findings are consistent with investors’ conservatism, sticky beliefs, and cognitive uncertainty, as well as an incorrect belief in the Law of Small Numbers.
+**Abstract**: We introduce a novel methodology for detecting inflation turning points that com-bines high-frequency, disaggregated price data with standard structural break techniques to provide policymakers with more timely and precise signals of inflation dynamics. The methodology consists of three key components: measuring inflation as the slope of the log price index rather than using conventional inflation rates, employing structural break techniques to detect shifts in this slope, and leveraging highly disaggregated price indexes to identify trend breaks at a granular level. We apply this approach to study two critical recent episodes: Argentina’s 2024–2025 disinflation and the inflationary impact of U.S. tariff adjustments in 2025. For Argentina, we detect a broad-based disinflationary turning point in May 2024. For the U.S., we find evidence of a turning point in February 2025, with significant sectoral inflation accelerations despite stable aggregate inflation measures. These applications demonstrate the utility of our approach for enhancing real-time inflation monitoring and policy decision-making.
 
-**摘要**: 利用一个庞大且具有代表性的美国经纪账户面板数据，我们展示了零售投资者在大型盈利惊喜之后进行反向交易，尤其是对于亏损股票，并且这种反向交易有助于价格动量和盈利公告后漂移（PEAD）。我们表明，极端的回报连串和惊喜并不足以使股票表现出PEAD和动量，而反向零售交易的强度起着关键作用：随着零售购买压力的增加，亏损股票的PEAD对于糟糕的盈利惊喜变得越来越负面，而对于过去回报最高和盈利惊喜最大的股票，PEAD在净零售流出最大的股票中最为积极。更细致的分类确认了结果，公司规模和机构持股水平的分类也是如此。年轻且更专注的个体更有可能成为反向交易者，而公司的股息收益率、杠杆率、规模、账面市值比和分析师覆盖范围与他们在盈利公告周围面临的反向交易比例有关。虽然处置效应和陈旧的限价订单在我们的样本中存在，但它们并不能解释我们的结果。我们的发现与投资者的保守主义、粘性信念和认知不确定性，以及对小数定律的错误信仰是一致的。
-
----
-### 为灭绝而战：消灭麻雀和中国的大饥荒
-**[Campaigning for Extinction: Eradication of Sparrows and the Great Famine in China](https://www.nber.org/papers/w34087)**
-
-**Authors**: Eyal G. Frank, Qinyun Wang, Shaoda Wang, Xuebin Wang, Yang You
-
-**Abstract**: How do large disruptions to ecosystems affect human well-being? This paper tests the long-standing hypothesis that China's 1958 Four Pests Campaign, which exterminated sparrows despite scientists’ warnings about their pest-control role, exacerbated the Great Famine—the largest in human history. Combining newly digitized data on historical agricultural productivity in China with habitat suitability modeling methods in ecology, we find that, after sparrow eradication, a one-standard-deviation increase in sparrow suitability led to 5.3% larger rice and 8.7% larger wheat declines. State food procurement exacerbated these losses, resulting in a 9.6% higher mortality in high-suitability counties—implying nearly two million excess deaths.
-
-**摘要**: 大规模的生态系统破坏如何影响人类的福祉？本文测试了一个长期存在的假设，即1958年中国的“四害”运动消灭了麻雀，尽管科学家警告它们在控制害虫方面的作用，但这一行动加剧了大饥荒——人类历史上最大的饥荒。结合中国历史农业生产力的新数字化数据和生态学中的栖息地适宜性建模方法，我们发现，在消灭麻雀之后，麻雀适宜性每增加一个标准差，就会导致稻米产量下降5.3%，小麦产量下降8.7%。国家粮食采购加剧了这些损失，导致高适宜性县的死亡率提高了9.6%——意味着近两百万人的超额死亡。
+**摘要**: 我们引入了一种新颖的方法论，用于检测通货膨胀的转折点，该方法将高频、细分的价格数据与标准的结构性断裂技术相结合，为政策制定者提供更及时、更精确的通货膨胀动态信号。这种方法包括三个关键组成部分：将通货膨胀测量为对数价格指数的斜率，而不是使用传统的通货膨胀率；采用结构性断裂技术来检测这一斜率的变化；利用高度细分的价格指数来识别在细粒度层面的趋势断裂。我们将这种方法应用于研究两个关键的近期事件：阿根廷2024-2025年的通货膨胀下降和2025年美国关税调整的通货膨胀影响。对于阿根廷，我们检测到2024年5月出现了广泛的通货膨胀下降转折点。对于美国，我们发现2025年2月出现了一个转折点，尽管总体通货膨胀措施保持稳定，但部门通货膨胀加速显著。这些应用展示了我们的方法在增强实时通货膨胀监测和政策决策中的实用性。
 
 ---
-### 新闻对通胀预期的因果效应
-**[The Causal Effect of News on Inflation Expectations](https://www.nber.org/papers/w34088)**
+### 看似美德的复杂性在回报预测中
+**[Seemingly Virtuous Complexity in Return Prediction](https://www.nber.org/papers/w34104)**
 
-**Authors**: Carola Binder, Pascal Frank, Jane M. Ryngaert
+**Authors**: Stefan Nagel
 
-**Abstract**: This paper studies the response of household inflation expectations to television news coverage of inflation.  We analyze news data from CNN, Fox News, and MSNBC alongside a daily measure of inflation expectations. Using a local projection instrumental variables approach, we estimate the dynamic causal effect of inflation news coverage on household inflation expectations at a daily frequency. Increased media coverage of inflation raises expectations, with effects peaking within a few days and fading after approximately 10 days. Additionally, we document a key nonlinearity: release days with positive CPI surprises—i.e., inflation exceeding market expectations—lead to stronger expectation responses than release days with negative surprises.
+**Abstract**: Return prediction with Random Fourier Features (RFF)—a very large number, P , of nonlinear trans-formations of a small number, K, of predictor variables—has become popular recently. Surprisingly, this approach appears to yield a successful out-of-sample stock market index timing strategy even when trained in rolling windows as small as T = 12 months with P in the thousands. However, when P ≫ T , the RFF-based forecast becomes a weighted average of the T training sample returns, with weights determined by the similarity between the predictor vectors in the training data and the current predictor vector. In short training windows, similarity primarily reflects temporal proximity, so the forecast reduces to a recency-weighted average of the T return observations in the training data—essentially a momentum strategy. Moreover, because similarity declines with predictor volatility, the result is a volatility-timed momentum strategy. The strong performance of the RFF-based strategy thus stems not from its ability to extract predictive signals from the training data, but from the fact that a volatility-timed momentum strategy happened to perform well in historical data. This point becomes clear when applying the same method to artificial data in which returns exhibit reversals rather than momentum: the RFF approach still constructs the same volatility-timed momentum strategy, which then performs poorly.
 
-**摘要**: 本文研究了家庭通胀预期对电视新闻报道通胀的反应。我们分析了CNN、福克斯新闻和MSNBC的新闻数据以及每日通胀预期的度量。使用局部投影工具变量方法，我们估计了通胀新闻报道对家庭通胀预期的动态因果效应，频率为每日。增加的媒体对通胀的报道提高了预期，效果在几天内达到峰值，并在大约10天后逐渐消失。此外，我们记录了一个关键的非线性关系：CPI出人意料的正向发布日——即通胀超过市场预期——比负向意外发布的日期待引发更强的预期反应。
-
----
-### 一个减少高峰需求的信息提示
-**[An Informational Nudge to Shave Peak Demand](https://www.nber.org/papers/w34089)**
-
-**Authors**: Gilbert E. Metcalf
-
-**Abstract**: Informational nudges to encourage energy conservation or load shifting have been tried in various contexts. This paper studies a program run by a small municipally owned electric utility to reduce demand on certain peak demand days. An email alert is sent out to residential customers who sign up for the alerts. Some recipients of those alerts forward the alerts to other customers or community groups, making it difficult to determine how broadly the alerts are disseminated. The alerts encourage load shifting and energy saving during specific hours on the following day. Using hourly load data for the utility, I estimate the reduction in electricity load caused by the alert emails. Using an instrumental variables approach, estimates suggest that load is reduced by roughly 0.7 MWs per hour during the hours covered by the alert. This works out to a reduction in load on the order of 2 percent. I calculate the cost savings to the municipal utility and discuss social and private benefits of the program. The private benefits of the peak alert program swamp the social benefits.
-
-**摘要**: 在各种情境中尝试过使用信息提示来鼓励节能或负荷转移。本文研究了一个由小型市政拥有的电力公用事业公司运营的项目，旨在减少某些高峰需求日的需求。向注册接收警报的住宅客户发送电子邮件提醒。这些警报的一些接收者将警报转发给其他客户或社区团体，这使得很难确定警报的传播范围。警报鼓励在次日特定时段进行负荷转移和节能。利用该公用事业的小时负荷数据，我估算了警报电子邮件引起的电力负荷减少量。使用工具变量方法，估计结果表明，在警报覆盖的时段内，负荷每小时减少了大约0.7兆瓦，这相当于减少了约2%的负荷。我计算了市政公用事业的成本节省，并讨论了该计划的社会和私人效益。高峰警报计划的私人效益远远超过了社会效益。
+**摘要**: 随机傅里叶特征（RFF）的回报预测——一个非常大的数字P，对一小部分预测变量K进行非线性变换——最近变得流行起来。令人惊讶的是，即使在训练窗口小至T=12个月且P达到数千的情况下，这种方法似乎也能成功地实现样本外的股票市场指数择时策略。然而，当P远大于T时，基于RFF的预测变成了T个训练样本回报的加权平均，权重由训练数据中的预测向量与当前预测向量的相似性决定。在短暂的训练窗口中，相似性主要反映了时间上的接近性，因此预测归结为训练数据中T个回报观测值的最近权重平均——本质上是一种动量策略。此外，由于相似性随着预测变量的波动性而下降，结果是一种波动性定时的动量策略。基于RFF的策略之所以表现出色，并不是因为它能够从训练数据中提取预测信号，而是因为波动性定时的动量策略在历史数据中碰巧表现良好。当将同样的方法应用于回报表现出反转而非动量的艺术数据时，这一点变得清晰：RFF方法仍然构建了相同的波动性定时动量策略，然后表现不佳。
 
 ---
-### 创新价值分配背后的新经济力量
-**[New Economic Forces Behind the Value Distribution of Innovation](https://www.nber.org/papers/w34090)**
+### 顺序大学录取机制与平台外选项
+**[Sequential College Admission Mechanisms and Off-Platform Options](https://www.nber.org/papers/w34105)**
 
-**Authors**: Timothy F. Bresnahan, Shane Greenstein, Pai-Ling Yin
+**Authors**: Olivier De Groote, Anaïs Fabre, Margaux Luflade, Arnaud Maurel
 
-**Abstract**: Advances in a general-purpose technology (GPT) enable many firms to invent complementary inventions, or co-inventions, making the GPT more valuable. This study examines the empirical implications of a straightforward model in which firms choose either incremental or novel co-invention.  Incremental co-inventors aspire to small gains at low costs and with less uncertainty. Novel co-inventors introduce new products or services with the potential for large returns, but do so at high costs and with uncertain outcomes. Similar firms investing in incremental co-invention will create value proportional to their existing business, a benchmark we illustrate with the experiences at local radio and newspapers. The study then examines the value of co-inventions for the World Wide Web and mobile ecosystems, focusing on success in 2013, using data from many sources. This data supports analysis comparing the incremental and novel regimes. The latter should display a distinctly different upper tail of the distribution of returns. We show that the value distributions for incremental and novel co-invention are far apart.  Incremental co-invention is more widely distributed across regions, industries, and firms. Success from novel co-invention is rare, challenging, and the source of the largest value. In the aggregate, novel co-invention creates the most value, so the overall value distribution remains concentrated in a few industries, regions, and firms.
+**Abstract**: The optimal functioning of centralized allocation systems is undermined by the presence of institutions operating off-platform—a feature common to virtually all real-world implementations. These off-platform options generate justified envy, as students may reject their centralized assignment in favor of an outside offer, leaving vacant seats in programs that others would have preferred to their current match. We examine whether sequential assignment procedures can mitigate this inefficiency: they allow students to delay their enrollment decision to potentially receive a better offer later, at the cost of waiting before knowing their final admission outcome. To quantify this trade-off, we estimate a dynamic model of application and acceptance decisions using rich administrative data from the French college admission system, which include rank-ordered lists and waiting decisions. We find that waiting costs are large. Yet, by improving students’ assignment outcomes relative to a standard single-round system, the sequential mechanism decreases the share of students who leave the higher education system without a degree by 5.4% and leads to large welfare gains.
 
-**摘要**: 通用技术（GPT）的进步使得许多公司能够发明互补性的发明或共同发明，这使得GPT变得更有价值。本研究检验了一个简单模型的实证含义，在这个模型中，公司选择进行增量型或新颖型的共同发明。增量型共同发明者渴望以低成本和较少的不确定性获得小额收益。而新颖型共同发明者引入新的产品或服务，这些产品或服务有潜力带来巨大的回报，但成本高昂且结果不确定。投资于增量型共同发明的类似公司将创造与其现有业务成比例的价值，我们用当地广播和报纸的经验来说明这一基准。然后，研究检查了万维网和移动生态系统共同发明的价值，重点关注2013年的成功案例，使用来自多个来源的数据。这些数据支持比较增量型和新颖型制度的分析。后者应该显示出明显不同的回报分布的上尾。我们展示出增量型和新颖型共同发明的价值分布相距甚远。增量型共同发明在各个地区、行业和公司中分布更广。从新颖型共同发明中获得的成功是罕见的、具有挑战性的，并且是最大价值的来源。总体而言，新颖型共同发明创造了最多的价值，因此总体价值分布仍然集中在少数行业、地区和公司中。
-
----
-### 战略复杂性促进立法谈判中的平等主义
-**[Strategic Complexity Promotes Egalitarianism in Legislative Bargaining](https://www.nber.org/papers/w34083)**
-
-**Authors**: Marina Agranov, S. Nageeb Ali, B. Douglas Bernheim, Thomas R. Palfrey
-
-**Abstract**: Strategic models of legislative bargaining predict that proposers can extract high shares of economic surplus by identifying and exploiting weak coalition partners. However, strength and weakness can be difficult to assess even with relatively simple bargaining protocols. We evaluate experimentally how strategic complexity affects the ability to identify weak coalition partners, and for the partners themselves to determine whether their positions are weak or strong. We find that, as strategic complexity progressively obscures bargaining strength, proposers migrate to egalitarianism, in significant part because non-proposers begin placing substantial weight on fairness. Greater analytic skill dampens but does not eliminate these patterns.
-
-**摘要**: 立法协商的战略模型预测，提议者可以通过识别和利用弱势联盟伙伴来获取高额的经济剩余。然而，即使在相对简单的协商协议下，强弱也难以评估。我们通过实验评估了战略复杂性如何影响识别弱势联盟伙伴的能力，以及伙伴们自己判断他们的地位是弱还是强。我们发现，随着战略复杂性逐渐掩盖了协商力量，提议者转向平等主义，这在很大程度上是因为非提议者开始重视公平。更高的分析技能减弱但并未消除这些模式。
+**摘要**: 集中分配系统的最佳运作受到平台外运作机构的影响，这几乎是所有现实世界实施中的共同特征。这些平台外选项产生了合理的嫉妒，因为学生可能会拒绝他们的集中分配，转而选择外部提供，这使得其他人更倾向于他们当前匹配的程序中出现空缺。我们检验顺序分配程序是否可以减轻这种效率低下：它们允许学生推迟他们的入学决定，以潜在地在之后获得更好的提供，代价是在知道他们最终录取结果之前需要等待。为了量化这种权衡，我们使用法国大学录取系统的丰富行政数据估计了一个动态申请和接受决定模型，其中包含了排名列表和等待决定。我们发现等待成本是巨大的。然而，通过改善学生相对于标准单轮系统的分配结果，顺序机制将离开高等教育系统而没有获得学位的学生比例降低了5.4%，并带来了巨大的福利收益。
 
 ---
-### 最优的学校系统与课程设计：理论与证据
-**[Optimal School System and Curriculum Design: Theory and Evidence](https://www.nber.org/papers/w34091)**
+### 陪审团存在种族歧视吗？来自对大陪审团被告进行种族盲指控的证据，这些被告有无种族特征明显的名字。
+**[Are Juries Racially Discriminatory? Evidence from the Race-Blind Charging of Grand Jury Defendants with and without Racially Distinctive Names](https://www.nber.org/papers/w34106)**
 
-**Authors**: Glenn Ellison, Parag A. Pathak
+**Authors**: Mark Hoekstra, Suhyeon Oh, Meradee Tangvatcharapong
 
-**Abstract**: This paper develops a model of education production and uses it to study optimal school system and curriculum design. Curriculum design is modeled as a time-allocation problem. A school teaches students many skills and allocates time to different skills based on student characteristics.  Our framework provides a novel interpretation of studies that find zero achievement effects at selective school admission cutoffs. We show that such findings may be consistent with highly effective schools implementing optimal curricula, rather than necessarily indicating ineffective schools. The interpretation depends on the alignment between measured outcome skills and skills emphasized in the curriculum. We test several model predictions using data from a prominent exam school and find supporting evidence that would be difficult to rationalize if selective schools were ineffective.
+**Abstract**: We implement five different tests of whether grand juries, which are drawn from a representative cross-section of the public, discriminate against Black defendants when deciding to prosecute felony cases. Three tests exploit that while jurors do not directly observe defendant race, jurors do observe the “Blackness” of defendants’ names. All three tests—an audit-study-style test, a traditional outcome-based test, and a test that estimates racial bias using blinded/unblinded comparisons after purging omitted variable bias—indicate juries do not discriminate based on race. Two additional tests indicate racial bias explains at most 0.3 percent of the Black-White felony conviction gap.
 
-**摘要**: 本文建立了一个教育生产模型，并用它来研究最优的学校系统和课程设计。课程设计被建模为一个时间分配问题。学校教授学生许多技能，并根据学生特点分配不同技能的时间。我们的框架为那些发现在选拔性学校入学截止分数处零成就效应的研究提供了一种新颖的解释。我们展示了这样的发现可能与实施最优课程的高度有效的学校一致，而不一定表示学校无效。这种解释取决于测量结果技能和课程中强调的技能之间的一致性。我们使用一所著名考试学校的数据测试了几个模型预测，并发现了支持性的证据，如果选拔性学校无效，这些证据将很难合理化。
-
----
-### 对债务的态度：道德价值的作用
-**[Attitudes to Debt: The Role of Moral Values](https://www.nber.org/papers/w34092)**
-
-**Authors**: Fiona Paine, Antoinette Schoar, David Thesmar
-
-**Abstract**: This paper tests how people’s moral values influence their views of debt contracts. We ask participants to make decisions about debt contracts in different hypothetical situations (vignettes). We separately measure their moral values using the Moral Foundations Questionnaire (Graham et al., 2009). We have three main sets of findings. First, differences in moral values strongly explain the cross-section of participants’ debt decisions. Participants with more conservative values show more support for credit score-based loan pricing, stricter forms of collateral, and tougher bankruptcy resolution. Second, when we randomly change the economic costs and benefits of debt within our vignettes, we find that participants change their answers in the direction predicted by economic theory. Third, participants’ beliefs of the functioning of the credit market strongly correlate with their moral values. Participants with conservative values are more likely to believe that strict enforcement and risk-based loan pricing provide incentives and are economically efficient. More liberal participants believe that insurance against unlucky shocks are important. Consistent with moral values being distinct from Bayesian beliefs, financial literacy does not attenuate moral values in shaping beliefs about what is economically efficient.
-
-**摘要**: 本文测试了人们的道德价值观如何影响他们对债务合同的看法。我们要求参与者在不同的假设情境（小故事）中对债务合同做出决策。我们使用道德基础问卷（Graham等人，2009年）分别测量他们的道德价值观。我们有三个主要的发现集。首先，道德价值观的差异在很大程度上解释了参与者债务决策的横截面。持有更保守价值观的参与者更支持基于信用评分的贷款定价、更严格的抵押形式和更严厉的破产解决方案。其次，当我们随机改变我们小故事中债务的经济成本和收益时，我们发现参与者的回答方向与经济理论预测的方向一致。第三，参与者对信贷市场运作的信念与他们的道德价值观强烈相关。持有保守价值观的参与者更有可能相信严格的执行和基于风险的贷款定价提供了激励，并且在经济上是高效的。更自由的参与者则认为，防范不幸冲击的保险是重要的。与道德价值观与贝叶斯信念不同，金融知识并没有减弱道德价值观在塑造关于经济效率的信念方面的作用。
+**摘要**: 我们进行了五项不同的测试，以检验大陪审团是否在决定起诉重罪案件时歧视黑人被告，这些陪审团是从公众中具有代表性的横截面中抽取的。三项测试利用了尽管陪审员不能直接观察被告的种族，但他们可以观察到被告名字的“黑人特征”。所有三项测试——一项审计研究风格的测试、一项传统的基于结果的测试，以及一项在剔除遗漏变量偏差后使用盲测/非盲测比较来估计种族偏见的测试——都表明陪审团不会基于种族进行歧视。另外两项测试表明，种族偏见最多解释了黑人-白人重罪定罪差距的0.3%。
 
 ---
-### 个人主义惩罚：独裁统治的多样性与经济增长
-**[The Personalist Penalty: Varieties of Autocracy and Economic Growth](https://www.nber.org/papers/w34093)**
+### 高通胀对货币政策规则的遗产
+**[The Legacy of High Inflation on Monetary Policy Rules](https://www.nber.org/papers/w34107)**
 
-**Authors**: Christopher Blattman, Scott Gehlbach, Zeyang Yu
+**Authors**: Luis I. Jacome, Nicolas E. Magud, Samuel Pienknagura, Martín Uribe
 
-**Abstract**: Studies of income and regime type typically contrast democracies and autocracies, ignoring heterogeneity in the character of authoritarian regimes. We focus on the consequences of personalist rule, where power is concentrated in an individual or small elite. Extending the dynamic panel strategy of Acemoglu, Naidu, Restrepo, and Robinson (2019), we estimate the differential growth performance of democracies, institutionalized autocracies, and personalist autocracies. Across eight GDP series, eight autocracy codings, and six measures of personalism, we observe a consistent pattern: Whenever an "autocratic penalty" emerges, it is concentrated in personalist regimes. The growth performance of institutionalized dictatorships, in contrast, is statistically indistinguishable from that of democracies. We document evidence that the "personalist penalty" is driven by some combination of low private investment, poor public-goods provision, and conflict. These findings emphasize the analytic payoff of unpacking autocracy and highlight the different incentives facing leaders with narrow and broad bases of power.
+**Abstract**: This paper shows the key, yet overlooked, role played by the legacy of a high inflation history on the strength of the monetary policy response to inflationary shocks. To rationalize this, we propose a New Keynesian model that diverges from the existing workhorse model by adding path-dependence (to a forward-looking model) and potentially imperfect central bank credibility. We show that achieving low inflation (hitting the target) requires more aggressive monetary policy reactions, and is costlier from an output point of view, when individuals’ past inflationary experiences shape their inflation expectation formation. In turn, we provide empirical evidence of the need for these two theoretical additions. Countries that experienced a high level of inflation before adopting the IT regime tend to respond more aggressively to deviations of inflation expectations from the central bank’s target. We also point to the existence of a credibility puzzle, whereby the strength of a central bank’s monetary policy response to deviations from the inflation target remains broadly unchanged even as central banks gain credibility over time. Put differently, a country’s inflationary past casts a long and persistent shadow on central banks.
 
-**摘要**: 关于收入和政权类型研究通常对比民主政体和独裁政体，忽略了独裁政权性质的异质性。我们关注个人统治的后果，即权力集中在个人或小精英群体中。扩展了Acemoglu、Naidu、Restrepo和Robinson（2019）的动态面板策略，我们估计了民主政体、制度化独裁政体和个人独裁政体的不同增长表现。在八个GDP系列、八个独裁编码和六个个人主义衡量标准中，我们观察到一个一致的模式：每当出现“独裁惩罚”，它都集中在个人独裁政权中。相比之下，制度化独裁政权的增长表现在统计上与民主政体无法区分。我们记录了证据，表明“个人独裁惩罚”是由低私人投资、公共物品供给不足和冲突的某种组合驱动的。这些发现强调了拆解独裁政体的分析收益，并突出了面对权力基础狭窄和广泛的领导人所面临的不同激励。
-
----
-### 经济制裁的解除：来自俄乌冲突的证据
-**[The Undoing of Economic Sanctions: Evidence from the Russia-Ukraine Conflict](https://www.nber.org/papers/w34097)**
-
-**Authors**: Raymond Fisman, Giovanna Marcolongo, Meng Wu
-
-**Abstract**: We examine the effects of Ukraine’s economic blockade of the anthracite-rich Donbas region, to demonstrate how trade sanctions’ efficacy can be undermined by trade through non-participatory nations. We document that after the blockade was imposed in March 2017, Russia reported a sharp increase in anthracite imports from Ukraine, while Ukraine reported no exports to Russia at all. We interpret this gap in “mirror statistics” as reflecting a shift in Donbas trade through Russia. Concurrently, Ukraine anthracite imports from Russia increased sharply (from near-zero), indicating that some of the increased supply of anthracite in Russia was exported back to Ukraine. We provide suggestive evidence that Russian traders benefited from monopsony rents, buying low-priced anthracite from Donbas while Russia sold anthracite to Ukraine at prices comparable to other export markets. Overall, our findings highlight some of the economic and geographic features that may raise the cost and limit the efficacy of sanctions.
-
-**摘要**: 我们研究了乌克兰对富含无烟煤的顿巴斯地区实施经济封锁的影响，以展示贸易制裁的有效性如何因通过非参与国的贸易而受到削弱。我们记录到，在2017年3月实施封锁后，俄罗斯报告从乌克兰进口的无烟煤急剧增加，而乌克兰报告对俄罗斯没有任何出口。我们将“镜像统计”中的这一差距解释为顿巴斯贸易通过俄罗斯的转移。与此同时，乌克兰从俄罗斯进口的无烟煤急剧增加（从接近零开始），这表明俄罗斯增加的无烟煤供应中有一部分被重新出口到乌克兰。我们提供了一些暗示性的证据，表明俄罗斯交易商从垄断租金中受益，他们以低价从顿巴斯购买无烟煤，同时以与其他出口市场相当的价格向乌克兰出售无烟煤。总体而言，我们的发现突出了一些可能提高成本并限制制裁有效性的经济和地理特征。
+**摘要**: 本文展示了高通胀历史遗留问题对货币政策应对通胀冲击反应强度的关键但被忽视的作用。为了合理化这一点，我们提出了一个新凯恩斯模型，该模型通过增加路径依赖性（到一个前瞻性模型）和潜在的不完全中央银行可信度，与现有的主流模型不同。我们展示了，当个体过去的通胀经历塑造了他们的通胀预期形成时，实现低通胀（达到目标）需要更激进的货币政策反应，并且从产出的角度来看成本更高。反过来，我们提供了这两个理论补充的实证证据。在采用IT制度之前经历高水平通胀的国家往往对通胀预期偏离中央银行目标的反应更为激进。我们还指出存在一个可信度难题，即即使中央银行随着时间的推移获得更多的可信度，其货币政策对通胀目标偏离的反应强度仍然基本不变。换句话说，一个国家的通胀历史对中央银行投下了漫长而持久的阴影。
 
 ---
-### 城乡迁移与市场一体化
-**[Rural-Urban Migration and Market Integration](https://www.nber.org/papers/w34098)**
+### 具有地缘政治对齐的最优关税
+**[Optimal Tariffs with Geopolitical Alignment](https://www.nber.org/papers/w34108)**
 
-**Authors**: Dennis Egger, Benjamin Faber, Ming Li, Wei Lin
+**Authors**: John S. Becko, Gene M. Grossman, Elhanan Helpman
 
-**Abstract**: We combine a new collection of microdata from China with a natural policy experiment to investigate the extent to which reductions in rural-urban migration barriers affect flows of trade and investments between cities and the countryside. We find that increases in worker eligibility for urban residence registration (Hukou) across origin-destination pairs increase rural-urban exports, imports, capital inflows and outflows, both in terms of bilateral transaction values and the number of unique buyer-seller matches. To quantify the implications at the regional level, we interpret these estimates through the lens of a spatial equilibrium model in which migrants can reduce buyer-seller matching frictions. We find that a 10% increase in a rural county's migration market access on average leads to a 1.5% increase in the county's trade market access and a 2% increase in investment market access. In the context of China's recent Hukou reforms, we find that these knock-on effects on market integration were on average larger among the urban destinations compared to the rural origins, reinforcing incentives for rural-urban migration.
+**Abstract**: As geopolitical tensions intensify, great powers often turn to trade policy to influence international alignment. We examine the optimal design of tariffs in a world where large countries care not only about economic welfare but also about the political allegiance of smaller states. We consider both a unipolar setting, where a single hegemon uses preferential trade agreements to attract partners, and a bipolar world, where two great powers compete for influence. In both scenarios, we derive optimal tariffs that balance terms-of-trade considerations with strategic incentives to encourage political alignment. We find that when geopolitical concerns are active, the optimal tariff exceeds the classic Mill-Bickerdike level. In a bipolar world, optimal tariffs reflect both economic and political rivalry, and may be strategic complements or substitutes. A calibration exercise using U.N. voting patterns, an estimate of the cost of buying votes in the U.N., and military spending suggests that geopolitical motives can significantly amplify protectionist pressures and that the emergence of a second great power can contribute to a retreat from globalization.
 
-**摘要**: 我们将来自中国的新微观数据集与一项自然政策实验相结合，以调查减少农村到城市迁移障碍对城市与农村之间贸易和投资流动的影响程度。我们发现，跨原籍地-目的地对的工人获得城市居住登记（户籍）资格的增加，增加了农村到城市的出口、进口、资本流入和流出，无论是在双边交易价值方面还是在独特的买卖匹配数量方面。为了在区域层面量化这些影响，我们通过一个空间均衡模型来解释这些估计，在这个模型中，移民可以减少买卖匹配的摩擦。我们发现，农村县迁移市场准入平均增加10%，会导致该县贸易市场准入增加1.5%，投资市场准入增加2%。在中国近期户籍改革的背景下，我们发现这些对市场一体化的连锁效应在城市目的地相比农村起源地平均更大，这加强了农村到城市迁移的激励。
+**摘要**: 随着地缘政治紧张局势的加剧，大国经常利用贸易政策来影响国际立场。我们研究了一个大国不仅关心经济福利，还关心小国政治忠诚度的世界中关税的最佳设计。我们考虑了单极设置，即单一霸主使用优惠贸易协定来吸引伙伴，以及双极世界，即两个大国争夺影响力。在这两种情况下，我们都推导出了最佳关税，这些关税在权衡贸易条件考虑和鼓励政治结盟的战略激励之间取得平衡。我们发现，当地缘政治关切活跃时，最佳关税超过了经典的米尔-比克迪克水平。在双极世界中，最佳关税反映了经济和政治竞争，可能是战略互补或替代品。使用联合国投票模式、联合国购买选票成本的估计和军事开支进行的校准练习表明，地缘政治动机可以显著放大保护主义压力，而第二个大国的出现有助于从全球化中撤退。
+
+---
+### 美国历史上电厂选址的社会生命周期影响
+**[The Social Lifecycle Impacts of Power Plant Siting in the Historical United States](https://www.nber.org/papers/w34109)**
+
+**Authors**: Karen Clay, Danae Hernandez-Cortes, Akshaya Jha, Joshua A. Lewis, Noah S. Miller, Edson R. Severnini
+
+**Abstract**: This paper examines the relative contributions of siting decisions and post-siting demo-graphic shifts to current disparities in exposure to polluting fossil-fuel plants in the United States. Our analysis leverages newly digitized data on power plant siting and operations from 1900-2020, combined with spatially resolved demographics and population data from the U.S Census from 1870-2020. We find little evidence that fossil-fuel plants were disproportionately sited in counties with higher Black population shares on average. However, event study estimates indicate that Black population share grows in the decades after the first fossil-fuel plant is built in a county, with average increases in Black population share of 4 percentage points in the 50-70 years after first siting. These long-run demographic shifts are driven by counties that first hosted a fossil-fuel plant between 1900-1949. We close by exploring how these long-run demographic shifts were shaped by the Great Migration, differential sorting in response to pollution, and other factors. Our findings highlight that the equity implications of siting long-lived infrastructure can differ dramatically depending on the time span considered.
+
+**摘要**: 本文考察了选址决策和选址后人口统计变化对当前美国暴露于污染性化石燃料电厂的差异的相对贡献。我们的分析利用了1900-2020年新数字化的电厂选址和运营数据，结合了1870-2020年美国人口普查的空间解析人口统计和人口数据。我们发现，平均而言，化石燃料电厂并没有不成比例地建在黑人人口比例较高的县。然而，事件研究估计表明，在县内建立第一个化石燃料电厂后的几十年里，黑人人口比例增长，黑人人口比例平均增加了4个百分点，在首次选址后的50-70年里。这些长期人口统计变化是由1900-1949年间首次接待化石燃料电厂的县驱动的。我们最后探讨了这些长期人口统计变化是如何受到大迁移、对污染的不同排序反应以及其他因素的影响。我们的发现强调，考虑到时间跨度，选址长期基础设施的公平性影响可能会截然不同。
+
+---
+### 供应链中的加价和成本传导
+**[Markups and Cost Pass-through Along the Supply Chain](https://www.nber.org/papers/w34110)**
+
+**Authors**: Santiago Alvarez-Blaser, Alberto Cavallo, Alexander MacKay, Paolo Mengano
+
+**Abstract**: We use a novel dataset of production costs, wholesale prices, and retail prices from a large global manufacturer to study markups and pricing behavior along the supply chain. We document several facts about markups covering the period July 2018 through June 2023, and we propose a model of supply chain pricing behavior that rationalizes key pat-terns in our data. We find substantial dispersion in markups across products at each supply chain level. Manufacturer and retail markups are negatively correlated in the cross section and over time. Despite time-series variation in firm-level markups, total markups—reflecting the relationship between retail prices and production costs—are stable over time, even when prices increased along with inflation in the United States in 2022. We apply our model to quantify factors that determine relative bargaining power between the manufacturer and retailers, leveraging variation across countries, products, and time. Finally, we consider the dynamics of cost pass-through and the mediating role of manufacturer-retailer bargaining in price dynamics, with implications for current policy debates, including trade policy and tariffs.
+
+**摘要**: 我们使用了一家大型全球制造商的生产成本、批发价格和零售价格的新数据集，来研究供应链中加价和定价行为。我们记录了从2018年7月到2023年6月期间关于加价的几个事实，并提出了一个供应链定价行为的模型，该模型合理化了我们数据中的关键模式。我们发现，在供应链的每个层面上，不同产品之间的加价存在相当大的差异。制造商和零售商的加价在横截面和时间序列上呈负相关。尽管公司层面的加价存在时间序列变化，但总加价——反映零售价格与生产成本之间的关系——即使在2022年美国物价随着通货膨胀上涨时，总体上也是稳定的。我们应用我们的模型来量化决定制造商和零售商之间相对议价能力的因素，利用跨国、产品和时间的变化。最后，我们考虑了成本传递的动态性，以及制造商-零售商议价在价格动态中的中介作用，这对当前的政策辩论，包括贸易政策和关税，具有重要意义。
+
+---
+### 环境市场是否提高了配置效率？来自美国空气污染的证据
+**[Do Environmental Markets Improve Allocative Efficiency? Evidence from U.S. Air Pollution](https://www.nber.org/papers/w34111)**
+
+**Authors**: Kyle C. Meng, Vincent Thivierge
+
+**Abstract**: The central appeal of environmental markets – efficient allocation of emission reductions – has been difficult to establish empirically. We develop a framework linking the theoretical change in allocative efficiency following a market-based policy to a quasi-experimental estimator. We apply this framework with administrative data to two major U.S. air pollution markets. We find allocative efficiency for pollution improved by 3.3 percentage points annually under California’s RECLAIM program but do not detect a change under the U.S.’ NOx Budget Trading Program. These results are supported by greater heterogeneity in baseline facility characteristics under RECLAIM and differences in program implementation.
+
+**摘要**: 环境市场的核心吸引力——有效分配减排——在实证上一直难以确立。我们开发了一个框架，将基于市场的政策后分配效率的理论变化与准实验估计器联系起来。我们将这个框架应用于美国两个主要的空气污染市场的行政数据。我们发现，在加州的RECLAIM计划下，污染的分配效率每年提高了3.3个百分点，但在美国的NOx预算交易计划下没有检测到变化。这些结果得到了RECLAIM下基线设施特征更大的异质性和计划实施差异的支持。
+
+---
+### 市场租金与CPI住房通胀
+**[Market Rents and CPI Shelter Inflation](https://www.nber.org/papers/w34113)**
+
+**Authors**: Laurence M. Ball, Kyung Woong Koh
+
+**Abstract**: Recent research finds that the shelter component of CPI inflation responds with a lag to movements in market rents—the rents that tenants pay when they move into a new dwelling. This paper seeks to improve our understanding of this fact. We start by identifying three sources of lags between market rents and CPI shelter: the rents of most tenants are set in long-term leases; rents are smoothed for continuing tenants who renew leases; and CPI shelter inflation is measured with rent changes over six months. We incorporate these lags in a model of shelter inflation and compare the model to monthly data since 2015, using the Zillow Observed Rent Index to measure market rents. We find that the model performs fairly well, suggesting that it may be useful for understanding and forecasting inflation.
+
+**摘要**: 最近的研究显示，消费者价格指数（CPI）中的住房部分对市场租金的变动存在滞后反应——市场租金是指租户在搬入新住所时支付的租金。本文旨在加深我们对这一现象的理解。我们首先确定了市场租金与CPI住房之间的三个滞后来源：大多数租户的租金是在长期租约中设定的；对于续租的租户，租金会进行平滑处理；CPI住房通胀是通过六个月的租金变化来衡量的。我们将这些滞后纳入住房通胀模型中，并使用Zillow观察租金指数来衡量市场租金，将模型与2015年以来的月度数据进行比较。我们发现模型表现相当好，表明它可能有助于理解和预测通胀。
+
+---
+### 随机游走预测对平稳过程的低偏差
+**[Random Walk Forecasts of Stationary Processes Have Low Bias](https://www.nber.org/papers/w34112)**
+
+**Authors**: Kenneth D. West, Kurt G. Lunsford
+
+**Abstract**: We study the use of a misspecified overdifferenced model to forecast the level of a stationary scalar time series. Let x(t) be the series, and let bias be the sample average of a series of forecast errors. Then, the bias of forecasts of x(t) generated by a misspecified overdifferenced ARMA model for Δx(t) will tend to be smaller in magnitude than the bias of forecasts of x(t) generated by a correctly specified model for x(t). Formally, let P be the number of forecasts. The bias from the model for Δx(t) has a variance that is O(1/P^2), while the variance of the bias from the model for x(t) generally is O(1/P). With a driftless random walk as our baseline overdifferenced model, we confirm this theoretical result with simulations and empirical work: random walk bias is generally one-tenth to one-half that of an appropriately specified model fit to levels.
+
+**摘要**: 我们研究了使用一个设定不当的过度差分模型来预测一个平稳标量时间序列的水平。设x(t)为该序列，设偏差为一系列预测误差的样本平均值。那么，由一个设定不当的过度差分ARMA模型为Δx(t)生成的x(t)预测的偏差，其幅度往往会比由一个正确设定的模型为x(t)生成的预测偏差小。正式地，设P为预测的数量。对于Δx(t)的模型偏差具有O(1/P^2)的方差，而x(t)的模型偏差的方差通常是O(1/P)。以无漂移的随机游走作为我们的基线过度差分模型，我们通过模拟和实证工作证实了这一理论结果：随机游走偏差通常是一个适当设定的模型拟合水平的十分之一到一半。
+
+---
+### 国际贸易中的集中度和加成率
+**[Concentration and Markups in International Trade](https://www.nber.org/papers/w34114)**
+
+**Authors**: Vanessa I. Alviarez, Michele Fioretti, Ken Kikkawa, Monica Morlacco
+
+**Abstract**: This paper derives a closed-form expression linking aggregate markups on imported inputs to concentration in a model of firm-to-firm trade with two-sided market power. Our theory extends standard oligopoly insights in two dimensions. First, it reveals that markups increase with exporter concentration and decrease with importer concentration, reflecting the balance of oligopoly and oligopsony forces. Second, it adapts conventional market definitions to reflect rigid trading relationships, yielding new concentration measures that capture competition in firm-to-firm trade. Analysis of Colombian transaction-level import data shows these differences are key to understanding markup dynamics in international trade.
+
+**摘要**: 本文推导出一个封闭形式的表达式，将进口投入品的总体加成与具有双向市场力量的公司间贸易模型中的集中度联系起来。我们的理论在两个维度上扩展了标准的寡头垄断洞见。首先，它揭示了加成随着出口商集中度的增加而增加，随着进口商集中度的减少而减少，反映了寡头垄断和寡头买方力量的平衡。其次，它调整了传统的市场定义以反映僵化的交易关系，产生了新的集中度度量，这些度量捕捉了公司间贸易中的竞争。对哥伦比亚交易级进口数据的分析表明，这些差异是理解国际贸易中加成动态的关键。
+
+---
+### 恐惧与风险感知：理解医生对医疗事故诉讼的动态反应
+**[Fear and Risk Perception: Understanding Physicians' Dynamic Responses to Malpractice Lawsuits](https://www.nber.org/papers/w34115)**
+
+**Authors**: Hanming Fang, Ming Li, Jia Xiang
+
+**Abstract**: This paper investigates how physicians adjust their clinical decision-making following medical malpractice lawsuits and how these responses are driven by mental rather than ﬁnancial costs, and do not align with rational expectations. We combine a comprehensive health insurance claim database from a Chinese city with the universe of malpractice lawsuits to study changes in physician behavior and patient outcomes. We ﬁnd that physicians respond to lawsuits by practicing more conservatively, rejecting high-risk patients, reducing surgery rates, and increasing the use of diagnostic tests and traditional Chinese medicine. These changes are associated with worse patient outcomes, consistent with defensive medicine. The eﬀects are not limited to the directly involved departments but spill over to other departments within the same hospital. In addition, the changes are short-lived, with physicians reverting to their pre-lawsuit treatment patterns in eight weeks. We provide evidence that such responses are likely driven by mental cost (including fear) and deviate from rational expectations. First, physicians in hospitals with more and less frequent lawsuits exhibit similar responses to a new lawsuit; moreover, they respond similarly to winning and losing cases. Second, physicians’ reactions to a patient’s death vary depending on the recency of a salient lawsuit. Lastly, physician responses are especially strong following criminal violence against physicians, which is emotionally and psychologically salient.
+
+**摘要**: 本文研究了医生在医疗事故诉讼后如何调整其临床决策，以及这些反应是如何由心理而非财务成本驱动的，并且与理性预期不符。我们将一个中国城市的全面健康保险索赔数据库与医疗事故诉讼的全集结合起来，研究医生行为和患者结果的变化。我们发现，医生通过更加保守地执业、拒绝高风险患者、降低手术率以及增加诊断测试和传统中医的使用来应对诉讼。这些变化与患者结果的恶化有关，与防御性医疗行为一致。这些影响不仅限于直接涉及的部门，还波及到同一家医院的其他部门。此外，这些变化是短暂的，医生在八周内恢复到诉讼前的治疗方案。我们提供的证据表明，这些反应可能是由心理成本（包括恐惧）驱动的，并且偏离了理性预期。首先，在诉讼更频繁和较少发生的医院中，医生对新诉讼的反应相似；此外，他们对胜诉和败诉案件的反应也相似。其次，医生对患者死亡的反应取决于最近一次显著诉讼的近况。最后，在针对医生的刑事暴力事件之后，医生的反应尤为强烈，这在情感和心理上是显著的。
+
+---
+### 关于空气污染的误解：对支付意愿和环境不平等的影响
+**[Misperceptions About Air Pollution: Implications for Willingness to Pay and Environmental Inequality](https://www.nber.org/papers/w34116)**
+
+**Authors**: Matthew A. Tarduno, Reed Walker
+
+**Abstract**: This paper explores whether misperceptions about air pollution contribute to environmental inequality in the United States. We use a two-part survey experiment to elicit respondents' beliefs about local air quality and pollution's effects on life expectancy. We document how misperception differs across demographic groups and then how this misperception affects willingness to pay (WTP) for cleaner air. Since misperception or beliefs may be correlated with other unobservable determinants of WTP, we randomly show selected participants customized information about their actual air pollution. This allows us to trace out how experimentally induced changes in beliefs affect WTP for air quality. Our results suggest significant misperceptions about air pollution in the US. Respondents, on average, overestimate both their air pollution exposure and its impact on life expectancy. Beliefs about relative air pollution are not systematically biased but are noisy. Despite some differences in misperceptions between Black and White respondents, counterfactual exercises do not suggest that rectifying these misperceptions would meaningfully close the observed gap in WTP and/or pollution exposure.
+
+**摘要**: 本文探讨了对空气污染的误解是否导致了美国的环境不平等。我们使用两部分调查实验来了解受访者对当地空气质量和污染对寿命影响的看法。我们记录了不同人群之间误解的差异，以及这种误解如何影响他们为清洁空气支付的意愿（WTP）。由于误解或信念可能与其他不可观察的WTP决定因素相关，我们随机向选定的参与者展示了他们实际空气污染的定制信息。这使我们能够追踪实验性信念变化如何影响对空气质量的WTP。我们的结果表明，美国对空气污染存在重大误解。平均而言，受访者高估了他们接触空气污染的程度及其对寿命的影响。相对空气污染的信念没有系统性偏差，但存在噪音。尽管黑人和白人受访者之间的误解存在一些差异，但反事实练习并不表明纠正这些误解会显著缩小观察到的WTP和/或污染暴露的差距。
+
+---
+### 基于HANK模型的财政-货币政策互动的影响
+**[Implications of Fiscal-Monetary Interaction from HANK Models](https://www.nber.org/papers/w34117)**
+
+**Authors**: Greg Kaplan
+
+**Abstract**: I describe nine implications of the interconnectedness of fiscal and monetary policy that surface in Heterogeneous Agent New Keynesian (HANK) models. Not all are unique to HANK models. (i) Long run fiscal changes force monetary adjustments. (ii) Sustainable permanent deficits are feasible. (iii) Monetary policy leaves fiscal footprints, even with passive fiscal policy. (iv) Fewer controversies around active fiscal policy. (v) Equilibria are unique under a wider class of fiscal and monetary rules. (vi) With short-term debt, raising nominal rates without a fiscal contraction raises inflation. (vii) Unfunded fiscal stimulus is more inflationary. (viii) Even fully funded fiscal stimulus is inflationary. (ix) Fiscal transfers can substitute for monetary policy in the aggregate.
+
+**摘要**: 我描述了在异质性代理新凯恩斯（HANK）模型中出现的财政和货币政策相互联系的九个含义。并非所有的含义都是HANK模型独有的。（i）长期财政变化迫使货币政策调整。（ii）可持续的永久性赤字是可行的。（iii）即使在被动财政政策下，货币政策也会留下财政足迹。（iv）围绕积极财政政策的争议较少。（v）在更广泛的财政和货币政策规则下，均衡是唯一的。（vi）在短期债务的情况下，不通过财政紧缩提高名义利率会提高通胀。（vii）无资金支持的财政刺激措施更具通胀性。（viii）即使是完全资金支持的财政刺激措施也具有通胀性。（ix）财政转移可以在总体上替代货币政策。
 
 ---
 <!-- NBER_PAPERS_END -->
