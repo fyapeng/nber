@@ -1,240 +1,324 @@
 # 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
-*(Updated on: 2025-10-27)*
+*(Updated on: 2025-11-03)*
 
-1. **[LLM Survey Framework: Coverage, Reasoning, Dynamics, Identification](https://www.nber.org/papers/w34308)**<br/>LLM调查框架：覆盖范围、推理、动态、识别
-    - *Authors: Jing Cynthia Wu, Jin Xi, Shihan Xie*
-2. **[The Austerity Threshold](https://www.nber.org/papers/w34397)**<br/>紧缩门槛
-    - *Authors: Vadim Elenev, Tim Landvoigt, Stijn Van Nieuwerburgh*
-3. **[GDP Growth Expectations and Cash-flow Risk Premium](https://www.nber.org/papers/w34402)**<br/>GDP增长预期与现金流风险溢价
-    - *Authors: William N. Goetzmann, Akiko Watanabe, Masahiro Watanabe*
-4. **[Biased Party Nominations as a Source of Women's Electoral Underperformance](https://www.nber.org/papers/w34396)**<br/>有偏见的政党提名作为女性选举表现不佳的根源
-    - *Authors: Thomas Fujiwara, Hanno Hilbig, Pia Raffler*
-5. **[Working it out: Randomized Modification and Entrepreneurial Effort in a Collateralized Debt Market](https://www.nber.org/papers/w34398)**<br/>解决之道：在担保债务市场中的随机修改与创业努力
-    - *Authors: Christopher Eaglin, Apoorv Gupta, Filippo Mezzanotti, Jonathan Zinman*
-6. **[Stimulus through Insurance: the Marginal Propensity to Repay Debt](https://www.nber.org/papers/w34399)**<br/>通过保险刺激：边际偿还债务倾向
-    - *Authors: Gizem Koşar, Davide Melcangi, Laura Pilossoph, David G. Wiczer*
-7. **[Does Increasing Financial Access to Contraception in the U.S. Reduce Undesired Pregnancies? Evidence from the M-CARES Randomized Control Trial at Two Years](https://www.nber.org/papers/w34400)**<br/>增加美国对避孕措施的财政获取途径是否减少了意外怀孕？来自两年期M-CARES随机对照试验的证据
-    - *Authors: Martha J. Bailey, Emilia Brito Rebolledo, Deniz Gorgulu, Kelsey Figone, Vanessa W. Lang, Alexa Prettyman, Vanessa Dalton*
-8. **[Strategic Avoidance and the Welfare Impacts of U.S. Solar Panel Tariffs](https://www.nber.org/papers/w34401)**<br/>战略回避与美国太阳能电池板关税的福利影响
-    - *Authors: Todd D. Gerarden, Bryan K. Bollinger, Kenneth Gillingham, Daniel Xu*
-9. **[The Relationship Between Certificate of Need Laws and Mortality](https://www.nber.org/papers/w34403)**<br/>《需要证明法》与死亡率之间的关系
-    - *Authors: Jonathan H. Cantor, Jill Horwitz, Christopher M. Whaley, Anthony Yu*
-10. **[Monetary Policy and Housing Overvaluation](https://www.nber.org/papers/w34404)**<br/>货币政策与住房高估
-    - *Authors: Nina Biljanovska, Eduardo Espuny Diaz, Amir Kermani, Rui C. Mano*
-11. **[Careers of Minimum Wage Workers](https://www.nber.org/papers/w34405)**<br/>最低工资工人的职业
-    - *Authors: Sari Pekkala Kerr, William R. Kerr, Louis J. Maiden*
-12. **[Carbon Taxation and Firm Behavior in Emerging Economies: Evidence from South Africa](https://www.nber.org/papers/w34406)**<br/>碳税与新兴经济体企业行为：来自南非的证据
-    - *Authors: Johannes Gallé, Rodrigo Oliveira, Daniel Overbeck, Nadine Riedel, Edson R. Severnini*
-13. **[Intergenerational Mobility in Measures of Wellbeing: Consumption, Health and Life Satisfaction](https://www.nber.org/papers/w34407)**<br/>代际流动性在幸福感衡量指标中的体现：消费、健康和生活满意度
-    - *Authors: Jonathan Davis, Nathan Deutscher, Bhashkar Mazumder*
-14. **[Trade Policy Ambiguity](https://www.nber.org/papers/w34408)**<br/>贸易政策模糊性
-    - *Authors: Joseph B. Steinberg*
-15. **[Interpreting Turbulent Episodes in International Finance](https://www.nber.org/papers/w34409)**<br/>解读国际金融中的动荡时期
-    - *Authors: Hélène Rey, Vania Stavrakeva*
-16. **[Managing Financial Crises](https://www.nber.org/papers/w34410)**<br/>管理金融危机
-    - *Authors: Gianluca Benigno, Alessandro Rebucci, Aliaksandr Zaretski*
-17. **[Lessons for Automatic Fiscal Stabilizers from the Great Recession and the COVID Recession](https://www.nber.org/papers/w34411)**<br/>从大萧条和新冠疫情衰退中自动财政稳定器的教训
-    - *Authors: Karen Dynan, Douglas Elmendorf*
-18. **[The Cook County Tax on Sweetened Beverages: The Impact on Purchases of its Announcement, Implementation, and Repeal](https://www.nber.org/papers/w34412)**<br/>库克县对含糖饮料征税：其公告、实施和废止对购买的影响
-    - *Authors: Felipe Lozano Rojas, John Cawley, David E. Frisvold*
-19. **[The Musk Partisan Effect on Tesla Sales](https://www.nber.org/papers/w34413)**<br/>马斯克党派效应对特斯拉销量的影响
-    - *Authors: Kenneth T. Gillingham, Matthew Kotchen, James A. Levinsohn, Barry J. Nalebuff*
+1. **[Ideology in Government: Evidence from the Office of Indian Affairs and the Assimilation Era](https://www.nber.org/papers/w34415)**<br/>政府中的意识形态：来自印第安事务办公室和同化时代的证据
+    - *Authors: Eric Chyn, Kareem Haggag, Christian Maruthiah*
+2. **[The International Monetary System in the Last and Next 20 Years Redux](https://www.nber.org/papers/w34416)**<br/>过去和未来20年的国际货币体系重探
+    - *Authors: Barry Eichengreen, Raul Razo-Garcia*
+3. **[Fraud at a Distance? How Remote Work Shapes Financial Misconduct](https://www.nber.org/papers/w34417)**<br/>远程欺诈？远程工作如何塑造金融不当行为
+    - *Authors: John M. Barrios, Jessie Jianwen Guo, Yanping Zhu*
+4. **[Optimal Dual-Regime Business Tax Systems](https://www.nber.org/papers/w34418)**<br/>最优双制度商业税制
+    - *Authors: Rishi R. Sharma, Joel Slemrod, Michael Stimmelmayr, John D. Wilson, Peter Choi*
+5. **[An Inverse-Ramsey Tax Rule](https://www.nber.org/papers/w34419)**<br/>一个逆拉姆齐税规则
+    - *Authors: Luca Micheletto, Dylan T. Moore, Daniel Reck, Joel Slemrod*
+6. **[The Prestakes of Stock Market Investing](https://www.nber.org/papers/w34420)**<br/>股市投资的前提
+    - *Authors: Francesco Bianchi, Do Q. Lee, Sydney C. Ludvigson, Sai Ma*
+7. **[The (In)effectiveness of Targeted Payroll Tax Reductions](https://www.nber.org/papers/w34437)**<br/>针对性工资税减免的（不）有效性
+    - *Authors: Alessandra Fenizia, Nicholas Y. Li, Luca Citino*
+8. **[Environmental Catastrophe and the Direction of Invention: Evidence from the American Dust Bowl](https://www.nber.org/papers/w34438)**<br/>环境灾难与发明方向：来自美国尘碗的证据
+    - *Authors: Jacob Moscona*
+9. **[Employment Relationships, Wage Setting, and Labor Market Power](https://www.nber.org/papers/w34439)**<br/>雇佣关系、工资设定和劳动市场权力
+    - *Authors: Francesco Agostinelli, Domenico Ferraro, Giuseppe Sorrenti, Leonard Treuren*
+10. **[Vulnerability of the Public Safety System: Evidence from Micro-Shocks](https://www.nber.org/papers/w34428)**<br/>公共安全系统的脆弱性：来自微观冲击的证据
+    - *Authors: Shooshan Danagoulian, Monica Deza, Johanna Catherine Maclean, Alberto Ortega*
+11. **[The GATT vs Inflation: Tokyo Drift](https://www.nber.org/papers/w34429)**<br/>《关税及贸易总协定对抗通货膨胀：东京漂移》
+    - *Authors: Andrew Greenland, James Lake, John Lopresti*
+12. **[Political Information and Network Effects](https://www.nber.org/papers/w34430)**<br/>政治信息与网络效应
+    - *Authors: Georgy Egorov, Sergei Guriev, Maxim Mironov, Ekaterina Zhuravskaya*
+13. **[Planes Overhead: How Airplane Noise Impacts Home Values](https://www.nber.org/papers/w34431)**<br/>头顶上的飞机：飞机噪音如何影响房屋价值
+    - *Authors: Florian Allroggen, R. John Hansman, Christopher R. Knittel, Jing Li, Xibo Wan, Juju Wang*
+14. **[Voting with Their Feet: Democratic Backsliding and Market-Minded Migration - Evidence from Israel and Europe](https://www.nber.org/papers/w34432)**<br/>用脚投票：民主倒退与市场导向型移民 - 来自以色列和欧洲的证据
+    - *Authors: Assaf Razin*
+15. **[Political Power and Mortality: Heterogeneous Effects of the U.S. Voting Rights Act](https://www.nber.org/papers/w34421)**<br/>政治权力与死亡率：美国投票权法案的异质性效应
+    - *Authors: Atheendar Venkataramani, Rourke O'Brien, Elizabeth F. Bair, Christopher A. Lowenstein*
+16. **[The Value of Banking Relationships](https://www.nber.org/papers/w34422)**<br/>银行关系的价值
+    - *Authors: Howard Bodenhorn, Youwei Xing*
+17. **[We Won't be Missed: Work and Growth in the AGI World](https://www.nber.org/papers/w34423)**<br/>我们不会被怀念：在通用人工智能世界中的工作与增长
+    - *Authors: Pascual Restrepo*
+18. **[The Price of Intelligence: How Should Socially-minded Firms Price and Deploy AI?](https://www.nber.org/papers/w34424)**<br/>智能的代价：具有社会意识的企业应如何定价和部署人工智能？
+    - *Authors: Nils H. Lehr, Pascual Restrepo*
+19. **[Pushing Back Against Private Practice: The Unintended Effects of Paying Public Doctors More](https://www.nber.org/papers/w34433)**<br/>反击私人执业：给公立医院医生支付更多薪酬的意外效果
+    - *Authors: Jonathan Gruber, Núria Mas, Judit Vall Castelló, Jaume Vives-i-Bastida*
+20. **[Same Crime, Different Time: Disparities in Judicial Outcomes for DWI Offenders](https://www.nber.org/papers/w34425)**<br/>同一罪行，不同时间：酒后驾车罪犯司法结果的差异
+    - *Authors: Jeffrey T. Denning, Benjamin Hansen, Lars Lefgren, Emily C. Leslie, Cody Tuttle*
+21. **[The Role of Private Debt in the Financial Ecosystem](https://www.nber.org/papers/w34426)**<br/>私人债务在金融生态系统中的作用
+    - *Authors: Victoria Ivashina*
+22. **[Modeling and Measuring the Genetic Determinants of Child Development](https://www.nber.org/papers/w34427)**<br/>建模与测量儿童发展的遗传决定因素
+    - *Authors: Francesco Agostinelli, Zach Weingarten*
+23. **[The Financial Consequences of Being Denied Benefit Access](https://www.nber.org/papers/w34434)**<br/>被拒绝福利准入的财务后果
+    - *Authors: Tatiana Homonoff, Min S. Lee, Katherine Meckel*
+24. **[Cannabis and Respiratory Health](https://www.nber.org/papers/w34435)**<br/>大麻与呼吸健康
+    - *Authors: Jayani Jayawardhana, Jialin Hou, Johanna Catherine Maclean*
+25. **[Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal](https://www.nber.org/papers/w34414)**<br/>快速应对洪水：来自孟加拉国和尼泊尔的随机对照试验证据，关于基于预测的现金转移支付
+    - *Authors: Paul J. Christian, Felipe A. Dunsch, Jonas Heirman, Erin M. Kelley, Florence Kondylis, Gregory Lane, Jennifer Waidler, Nidhila Adusumalli, Odbayar Batmunkh, Kriti Malhotra*
+26. **[Monetary Policy without an Anchor](https://www.nber.org/papers/w34436)**<br/>无锚的货币政策
+    - *Authors: Luigi Bocola, Alessandro Dovis, Kasper Jørgensen, Rishabh Kirpalani*
 
 
 ---
 
 ## 文章概览
 
-### LLM调查框架：覆盖范围、推理、动态、识别
-**[LLM Survey Framework: Coverage, Reasoning, Dynamics, Identification](https://www.nber.org/papers/w34308)**
+### 政府中的意识形态：来自印第安事务办公室和同化时代的证据
+**[Ideology in Government: Evidence from the Office of Indian Affairs and the Assimilation Era](https://www.nber.org/papers/w34415)**
 
-**Authors**: Jing Cynthia Wu, Jin Xi, Shihan Xie
+**Authors**: Eric Chyn, Kareem Haggag, Christian Maruthiah
 
-**Abstract**: We propose a new LLM-based survey framework that enables retrospective coverage, economic reasoning, dynamic effects, and clean identification. We recover human-comparable treatment effects in a multi-wave randomized controlled trial of inflation expectations surveys, at 1/1000 the cost. To demonstrate the framework’s full potential, we extend the benchmark human survey (10 waves, 2018–2023) to over 50 waves dating back to 1990. We further examine the economic mechanisms underlying agents’ expectation formation, identifying the mean-reversion and individual-attention channels. Finally, we trace dynamic treatment effects and demonstrate clean identification. Together, these innovations demonstrate that LLM surveys enable research designs unattainable with human surveys.
+**Abstract**: This paper studies the ideology of government officials and coercive policymaking by examining the Office of Indian Affairs, an institution that held broad authority over the land, education, and legal governance of Indigenous populations in the United States. We digitize the detailed reports of the agency's bureaucrats and use computational tools to measure the strength of their support for assimilationist policies during the 19th and early 20th centuries. We document major shifts in ideological commitments that coincide with the entry—and eventual exit—of social reformers nominated for high-level agency positions by religious organizations. We find that ideology within the bureaucracy appears to moderate around the turn of the century despite the organization's overall continued pursuit of major assimilation policies, such as the promotion of farming and enrollment in off-reservation Indian boarding schools. To examine performance implications of ideology within the bureaucracy, we conclude with an analysis of policy implementation after the passage of the Dawes Act, a landmark law that aimed to dismantle collective land holdings. We provide evidence showing that the agencies with local staff who express greater past commitment to assimilationist goals carried out more land redistribution immediately after Dawes became law.
 
-**摘要**: 我们提出了一个新的基于大型语言模型（LLM）的调查框架，它能够实现回溯性覆盖、经济推理、动态效应和清晰的识别。我们在一项关于通货膨胀预期调查的多波次随机对照试验中，以千分之一的成本恢复了与人类相当的处理效应。为了展示框架的全部潜力，我们将基准的人类调查（10波，2018-2023年）扩展到50多波，追溯至1990年。我们进一步检验了影响代理人预期形成的经济机制，识别了均值回归和个体关注渠道。最后，我们追踪了动态处理效应，并展示了清晰的识别。这些创新共同证明，LLM调查使得研究设计在人类调查中无法实现。
-
----
-### 紧缩门槛
-**[The Austerity Threshold](https://www.nber.org/papers/w34397)**
-
-**Authors**: Vadim Elenev, Tim Landvoigt, Stijn Van Nieuwerburgh
-
-**Abstract**: We introduce a new indicator of fiscal capacity—the “austerity threshold”: the debt-to-GDP level above which the government must raise fiscal surpluses to ensure debt safety. In a model with realistic risk premia, nominal rigidities, and an intermediary sector, calibrated to the U.S., we estimate this threshold at 189%. We highlight the roles of safety premia and intermediation-driven convenience yields. The threshold varies with the source of surpluses: spending cuts reduce inflation and allow low interest rates, while tax increases distort labor supply and raise inflation. Uncertainty over the austerity regime—spending cuts or tax increases—sharply lowers fiscal capacity. The expected austerity regime affects asset prices and macro outcomes even when debt-to-GDP is well below the threshold.
-
-**摘要**: 我们引入了一个新的财政能力指标——“紧缩阈值”：即政府必须提高财政盈余以确保债务安全的债务与GDP比率水平。在一个包含现实风险溢价、名义刚性和中介部门的模型中，我们针对美国进行了校准，估计这个阈值为189%。我们强调了安全溢价和中介驱动的便利收益的作用。阈值随着盈余来源的不同而变化：削减支出会降低通货膨胀并允许低利率，而增加税收会扭曲劳动力供应并提高通货膨胀。对紧缩制度的不确定性——削减支出还是增加税收——显著降低了财政能力。即使债务与GDP比率远低于阈值，预期的紧缩制度也会影响资产价格和宏观结果。
+**摘要**: 本文研究了政府官员的思想意识和强制性政策制定，通过检查拥有广泛权力的美国印第安事务办公室，该机构对美国原住民的土地、教育和法律治理拥有广泛权力。我们数字化了该机构官员的详细报告，并使用计算工具来衡量他们在19世纪和20世纪初对同化政策的支持力度。我们记录了与宗教组织提名的高级机构职位的社会改革者进入——以及最终退出——相吻合的主要意识形态承诺转变。我们发现，尽管该组织总体上继续追求重大同化政策，如促进农业和在保留地外的印第安寄宿学校的入学，但官僚机构内部的意识形态似乎在世纪之交有所缓和。为了检验官僚机构内部意识形态对绩效的影响，我们以对道斯法案通过后政策实施的分析作为结论，该法案是一项旨在拆除集体土地持有的里程碑式法律。我们提供的证据表明，那些表达对同化目标更大过去承诺的地方工作人员所在的机构，在道斯法案成为法律后立即进行了更多的土地重新分配。
 
 ---
-### GDP增长预期与现金流风险溢价
-**[GDP Growth Expectations and Cash-flow Risk Premium](https://www.nber.org/papers/w34402)**
+### 过去和未来20年的国际货币体系重探
+**[The International Monetary System in the Last and Next 20 Years Redux](https://www.nber.org/papers/w34416)**
 
-**Authors**: William N. Goetzmann, Akiko Watanabe, Masahiro Watanabe
+**Authors**: Barry Eichengreen, Raul Razo-Garcia
 
-**Abstract**: We show that procyclical stocks–those whose cash flows rise with expected economic growth–earn higher average returns than countercyclical stocks. Leveraging nearly 75 years of economist survey data on real GDP growth expectations, we identify economic states while sidestepping model-driven forecast error. GDP forecasts comove with consumption and predict the market return, real GDP growth, and consumption growth. This approach builds on the literatures on both the Intertemporal and Consumption Capital Asset Pricing Models. We document a statistically significant, economically meaningful procyclicality premium that remains robust to standard factor controls.
+**Abstract**: In a paper 20 years ago, we analyzed the evolution of the international monetary system over the preceding 20 years and projected its evolution 20 years into the future, on the assumption of unchanged transition probabilities.  Here we compare those projections with outcomes and provide new projections, again 20 years into the future.  Although the world as a whole has seen financial opening and movement away from intermediate exchange rate regimes, as projected, movement has been slower than projected on the basis of observed transition probabilities in the 20 years preceding our forecast.  New projections again based on unchanged transition probabilities but allowing countries to shift between advanced, emerging and developing country groupings and reclassifying exchange rate regimes to accord with current practice again suggest that policy regimes will be modestly different in 2045 than today.  There will be a continued decline in intermediate exchange rate arrangements, and gains for hard pegs, as emerging markets move in this direction, and for more freely floating rates, driven by developing countries.  There will be a further increase in the share of countries with open capital accounts, driven by emerging markets and developing countries.
 
-**摘要**: 我们展示了顺周期股票——那些现金流随预期经济增长而上升的股票——比逆周期股票获得更高的平均回报。利用近75年的经济学家对实际GDP增长预期的调查数据，我们识别经济状态，同时避免了模型驱动的预测误差。GDP预测与消费同步变动，并预测市场回报、实际GDP增长和消费增长。这种方法建立在跨时期和消费资本资产定价模型的文献之上。我们记录了一个统计上显著、经济上有意义的顺周期溢价，即使在标准因子控制下也依然稳健。
-
----
-### 有偏见的政党提名作为女性选举表现不佳的根源
-**[Biased Party Nominations as a Source of Women's Electoral Underperformance](https://www.nber.org/papers/w34396)**
-
-**Authors**: Thomas Fujiwara, Hanno Hilbig, Pia Raffler
-
-**Abstract**: What accounts for differences in electoral success between male and female candidates? We argue that parties systematically nominate female candidates to districts where the party is less popular, making it harder for women to get elected. Our empirical strategy uses the German mixed electoral system to create counterfactual gender vote gaps. These gaps represent the scenario where male and female candidates are nominated in districts where their respective parties have equal popularity. Using data on all candidates for the German Bundestag across eleven elections, we document that female underperformance, and its variation across parties and election years, is explained almost entirely by women running in districts where their party is less popular. In contrast, we find no evidence that voter bias or candidate characteristics play a substantial role. Our argument highlights gendered party gatekeeping that increases in district strength as an important driver of female underrepresentation.
-
-**摘要**: 男女候选人在选举成功方面的差异是什么？我们认为，政党系统性地将女性候选人提名到该党不太受欢迎的选区，这使得女性更难当选。我们的经验策略利用德国混合选举制度来创建反事实的性别投票差距。这些差距代表了男性和女性候选人在各自政党受欢迎程度相等的选区被提名的情况。利用涵盖德国联邦议院所有候选人的十一届选举数据，我们记录了女性表现不佳及其在政党和选举年份间的变化，几乎完全可以用女性在政党不太受欢迎的选区竞选来解释。相比之下，我们没有发现选民偏见或候选人特征发挥了重要作用的证据。我们的论点强调了随着选区实力增加的性别化政党守门人，这是女性代表性不足的一个重要驱动因素。
+**摘要**: 在20年前的一篇论文中，我们分析了前20年国际货币体系的演变，并基于不变的过渡概率假设，预测了未来20年的演变。在这里，我们将这些预测与结果进行比较，并提供新的预测，同样是未来20年。尽管整个世界总体上经历了金融开放和从中间汇率制度的转变，如我们预测的那样，但根据我们预测前20年观察到的过渡概率，转变的速度比预测的要慢。新的预测再次基于不变的过渡概率，但允许国家在先进、新兴和发展国家群体之间转移，并根据当前实践重新分类汇率制度，再次表明2045年的政策制度将与今天略有不同。中间汇率安排将继续减少，硬钉住汇率制度将有所增加，因为新兴市场正朝这个方向发展，而更自由浮动的汇率制度将增加，这是由发展中国家推动的。开放资本账户的国家份额将进一步增加，这是由新兴市场和发展国家推动的。
 
 ---
-### 解决之道：在担保债务市场中的随机修改与创业努力
-**[Working it out: Randomized Modification and Entrepreneurial Effort in a Collateralized Debt Market](https://www.nber.org/papers/w34398)**
+### 远程欺诈？远程工作如何塑造金融不当行为
+**[Fraud at a Distance? How Remote Work Shapes Financial Misconduct](https://www.nber.org/papers/w34417)**
 
-**Authors**: Christopher Eaglin, Apoorv Gupta, Filippo Mezzanotti, Jonathan Zinman
+**Authors**: John M. Barrios, Jessie Jianwen Guo, Yanping Zhu
 
-**Abstract**: We enrich a standard debt overhang model with liquidity constraints to guide the design and interpretation of a collateralized debt modification experiment on a publicly traded lender’s delinquent vehicle loans to minibus entrepreneurs. Liquidity constraints add another borrower incentive compatibility constraint that interacts with debt overhang to shape repayment and effort. Consistent with model predictions, we find: debt reduction does not affect liquidity constrained borrowers; payment reduction improves both repayment and effort for borrowers with sufficient vehicle equity; payment reduction induces repayment without effort increases for low-equity borrowers. These results suggest a pecking order strategy for modification practice and policy.
+**Abstract**: Financial misconduct is often a team activity, facilitated by face-to-face interactions, shared norms, and trust. We exploit the sudden shift to remote work during COVID-19 to examine how workplace organization shapes collusion and financial misconduct. Using a novel firm-level measure of work-from-home feasibility, we find that firms that are more able to operate remotely experienced large post-2020 declines in misconduct. This decline is found across multiple misreporting proxies and is robust to various alternative measures of remote work. Cross-sectional tests indicate stronger declines in teamwork-intensive firms, firms with effective internal controls, and firms with weaker pre-COVID employee perceptions of culture and leadership. Overall, our findings reflect that financial misconduct is a team activity, sensitive to the organizational structure of the firm, with important implications for governance and organizational design.
 
-**摘要**: 我们在标准的债务积压模型中加入了流动性约束，以指导对一家公开交易的贷款机构对小型巴士企业家的逾期汽车贷款进行担保债务修改实验的设计和解释。流动性约束增加了另一个借款人激励相容性约束，与债务积压相互作用，影响还款和努力。与模型预测一致，我们发现：债务减免对受流动性约束的借款人没有影响；对于拥有足够车辆权益的借款人，支付减免可以改善还款和努力；对于低权益借款人，支付减免可以诱导还款而不增加努力。这些结果为修改实践和政策提出了一种优先顺序策略。
-
----
-### 通过保险刺激：边际偿还债务倾向
-**[Stimulus through Insurance: the Marginal Propensity to Repay Debt](https://www.nber.org/papers/w34399)**
-
-**Authors**: Gizem Koşar, Davide Melcangi, Laura Pilossoph, David G. Wiczer
-
-**Abstract**: Using detailed microdata, we document that households often use “stimulus” checks to pay down debt, especially those with low net wealth-to-income ratios. To rationalize these patterns, we introduce an empirically plausible borrowing price schedule into an otherwise standard incomplete markets model. Because interest rates rise with debt, borrowers have increasingly larger incentives to use an additional dollar to reduce debt service payments rather than consume. Using our calibrated model, we then study whether and how this marginal propensity to repay debt (MPRD) alters the aggregate implications of fiscal transfers. We uncover a trade-off between stimulus and insurance, as high–debt individuals gain considerably from transfers, but consume relatively little immediately. This mechanism lowers the immediate stimulus effect of fiscal transfers, but sustains aggregate consumption for longer.
-
-**摘要**: 利用详细的微观数据，我们记录了家庭经常使用“刺激”支票来偿还债务，特别是那些净资产收入比低的家庭。为了解释这些模式，我们在标准的不完全市场模型中引入了一个经验上合理的借贷价格表。由于利率随债务增加而上升，借贷者越来越有动力使用额外的一美元来减少债务服务支付，而不是消费。使用我们校准的模型，我们接着研究这种偿还债务的边际倾向（MPRD）如何改变财政转移的总体影响。我们发现刺激和保险之间存在权衡，因为高债务个体从转移中获得相当大的好处，但立即消费相对较少。这种机制降低了财政转移的即时刺激效果，但使总体消费持续更长时间。
+**摘要**: 金融不当行为通常是团队活动，通过面对面互动、共享规范和信任来促进。我们利用COVID-19期间突然转向远程工作的情况来检验工作场所组织如何塑造合谋和金融不当行为。使用一种新的公司层面的在家工作可行性度量，我们发现能够更灵活地远程运营的公司在2020年后的不当行为大幅下降。这种下降在多个虚假报告代理中都有所发现，并且对各种替代的远程工作度量都具有稳健性。横截面测试表明，在团队工作密集型公司、具有有效内部控制的公司以及员工对文化和领导力感知较弱的公司中，下降更为明显。总体而言，我们的发现反映出金融不当行为是一项团队活动，对公司的组织结构敏感，对治理和组织设计具有重要意义。
 
 ---
-### 增加美国对避孕措施的财政获取途径是否减少了意外怀孕？来自两年期M-CARES随机对照试验的证据
-**[Does Increasing Financial Access to Contraception in the U.S. Reduce Undesired Pregnancies? Evidence from the M-CARES Randomized Control Trial at Two Years](https://www.nber.org/papers/w34400)**
+### 最优双制度商业税制
+**[Optimal Dual-Regime Business Tax Systems](https://www.nber.org/papers/w34418)**
 
-**Authors**: Martha J. Bailey, Emilia Brito Rebolledo, Deniz Gorgulu, Kelsey Figone, Vanessa W. Lang, Alexa Prettyman, Vanessa Dalton
+**Authors**: Rishi R. Sharma, Joel Slemrod, Michael Stimmelmayr, John D. Wilson, Peter Choi
 
-**Abstract**: We use a randomized controlled trial to examine how the costs of contraception affect method choice, pregnancy, abortion, and childbirth among U.S. women. The study recruited women seeking care through Title X—a national family planning program subsidizing reproductive health services for low-income Americans—and randomized vouchers making the full spectrum of available contraception highly discounted or free. We find that subsidizing contraception has large and persistent effects on the choice of contraceptive method, resulting in significantly fewer pregnancies and abortions within two years. Subsidizing contraception negatively affected births, but the effect was not significant at two years.
+**Abstract**: Dual-regime business tax systems typically subject smaller firms to an output (turnover) tax and larger firms to a profit (corporate) tax. Despite their prevalence, there is little formal analysis of their optimal design. This paper addresses this gap by developing a theoretical framework to analyze the optimal tax parameters and the relative performance of two types of dual-regime systems: threshold and minimum tax systems. We show that either type of dual regime system can yield lower social costs than a single regime system. Using parameter values from recent empirical studies, we also show that a generalized minimum tax system we propose would outperform other dual regime systems under most parameter values. These findings carry important policy implications, particularly as many countries currently employ either threshold or minimum tax systems, but none have yet implemented a generalized minimum tax.
 
-**摘要**: 我们使用随机对照试验来检验避孕成本如何影响美国女性的避孕方法选择、怀孕、堕胎和生育。该研究招募了通过Title X（一个为低收入美国人提供生殖健康服务补贴的国家家庭规划项目）寻求护理的女性，并对她们进行了随机发放优惠券，使所有可用的避孕方法大幅打折或免费。我们发现，补贴避孕对避孕方法的选择产生了巨大且持久的影响，导致两年内怀孕和堕胎的数量显著减少。补贴避孕对生育产生了负面影响，但在两年内这种影响并不显著。
-
----
-### 战略回避与美国太阳能电池板关税的福利影响
-**[Strategic Avoidance and the Welfare Impacts of U.S. Solar Panel Tariffs](https://www.nber.org/papers/w34401)**
-
-**Authors**: Todd D. Gerarden, Bryan K. Bollinger, Kenneth Gillingham, Daniel Xu
-
-**Abstract**: This study examines the effects of tariffs imposed by the U.S. on imported solar panels. We first provide clear evidence that tariff-exposed firms shifted production to locations that did not face tariffs, and that domestic prices increased relative to other markets. We then develop a structural model to analyze welfare effects. We find that the tariffs generated modest gains for domestic manufacturers and for government revenues, but larger losses in domestic consumer surplus and environmental benefits, thereby reducing domestic welfare. Furthermore, the tariffs reduced domestic solar industry employment and wages. By contrast, subsidizing solar panel manufacturing could increase domestic production, employment, and welfare.
-
-**摘要**: 本研究考察了美国对进口太阳能电池板征收关税的影响。我们首先提供了清晰的证据，表明面临关税的公司将生产转移到了不受关税影响的地区，并且国内市场价格相对于其他市场有所上涨。然后我们开发了一个结构模型来分析福利效应。我们发现，关税为国内制造商和政府收入带来了适度的收益，但在消费者剩余和环境效益方面造成了更大的损失，从而降低了国内福利。此外，关税还降低了国内太阳能行业的就业和工资。相比之下，补贴太阳能电池板制造可以增加国内生产、就业和福利。
+**摘要**: 双制度商业税制通常对较小的公司征收产出（营业额）税，对较大的公司征收利润（公司）税。尽管它们很普遍，但对它们的最佳设计几乎没有正式的分析。本文通过开发一个理论框架来填补这一空白，分析最优税收参数和两种类型的双制度系统：阈值和最低税制系统。我们展示了任何类型的双制度系统都可以比单一制度系统产生更低的社会成本。使用最近实证研究中的参数值，我们还展示了我们提出的广义最低税制系统将在大多数参数值下优于其他双制度系统。这些发现具有重要的政策含义，特别是因为许多国家目前采用阈值或最低税制系统，但还没有实施广义最低税制。
 
 ---
-### 《需要证明法》与死亡率之间的关系
-**[The Relationship Between Certificate of Need Laws and Mortality](https://www.nber.org/papers/w34403)**
+### 一个逆拉姆齐税规则
+**[An Inverse-Ramsey Tax Rule](https://www.nber.org/papers/w34419)**
 
-**Authors**: Jonathan H. Cantor, Jill Horwitz, Christopher M. Whaley, Anthony Yu
+**Authors**: Luca Micheletto, Dylan T. Moore, Daniel Reck, Joel Slemrod
 
-**Abstract**: Certificate of Need (CON) laws regulate entry and capital investments in healthcare with the goal of containing costs while preserving access and quality. This paper examines the relationship between these laws and overall mortality as well as leading causes of mortality: cancer and cardiovascular disease. Using county-level death records, we conducted an event-study analysis comparing mortality rates in states that repealed their CON laws to states that did not between 1979 and 2004. The repeal of CON laws was associated with short-run reductions in cancer mortality, primarily from reductions in lung cancer mortality. Cardiovascular mortality and all-cause mortality rates were unchanged.
+**Abstract**: Traditional optimal commodity tax analysis, dating back to Ramsey (1927), prescribes that to maximize welfare one should impose higher taxes on goods with lower demand elasticities. Yet policy makers do not stress minimizing efficiency costs as a desideratum. In this note we revisit the commodity tax problem, and show that the attractiveness of the Ramsey inverse-elasticity prescription can itself be inverted if the tax system is chosen – or at least strongly influenced – by taxpayers who are overly confident of their ability, relative to others, to substitute away from taxed goods.
 
-**摘要**: 需求证书（CON）法规通过控制医疗保健领域的进入和资本投资来控制成本，同时保持接触和质量。本文研究了这些法律与总体死亡率以及主要死因：癌症和心血管疾病之间的关系。利用县级死亡记录，我们进行了一项事件研究分析，比较了1979年至2004年间废除CON法律的州与未废除的州的死亡率。废除CON法律与短期内癌症死亡率的降低有关，主要是由于肺癌死亡率的降低。心血管疾病死亡率和全因死亡率保持不变。
-
----
-### 货币政策与住房高估
-**[Monetary Policy and Housing Overvaluation](https://www.nber.org/papers/w34404)**
-
-**Authors**: Nina Biljanovska, Eduardo Espuny Diaz, Amir Kermani, Rui C. Mano
-
-**Abstract**: This paper examines how housing market overvaluation—measured by the price-to-rent ratio and its deviations from long-term trends—affects the transmission of monetary policy. Using U.S. metropolitan-level data and three measures of monetary policy shocks, we find that house prices respond more strongly to policy rate changes in overvalued markets. Examining buyer heterogeneity, we show that investor demand, proxied by non-owner-occupied purchases, declines more sharply after monetary tightening in these markets. These results are consistent with models of extrapolative beliefs and suggest that monetary policy can serve a stabilizing role during housing booms.
-
-**摘要**: 本文研究了房地产市场高估——通过价格租金比率及其与长期趋势的偏离来衡量——如何影响货币政策的传导。利用美国大都会级别的数据和三种货币政策冲击的度量，我们发现在高估市场中，房价对政策利率变化的反应更为强烈。通过考察购房者异质性，我们展示了在这些市场中，投资者需求（以非自住购房者购买为代表）在货币紧缩后下降得更为急剧。这些结果与外推信念模型一致，并表明货币政策可以在房地产繁荣期间发挥稳定作用。
+**摘要**: 传统的最优商品税分析，可以追溯到拉姆齐（1927年），建议为了最大化福利，应该对需求弹性较低的商品征收更高的税。然而，政策制定者并不强调将效率成本最小化作为一个理想目标。在这篇文章中，我们重新审视商品税问题，并展示了如果税制是由纳税人选择——或者至少受到纳税人强烈影响——而这些纳税人过于自信地认为自己相对于他人有能力从被征税商品中替代出去，那么拉姆齐的逆弹性处方的吸引力本身可以被颠覆。
 
 ---
-### 最低工资工人的职业
-**[Careers of Minimum Wage Workers](https://www.nber.org/papers/w34405)**
+### 股市投资的前提
+**[The Prestakes of Stock Market Investing](https://www.nber.org/papers/w34420)**
 
-**Authors**: Sari Pekkala Kerr, William R. Kerr, Louis J. Maiden
+**Authors**: Francesco Bianchi, Do Q. Lee, Sydney C. Ludvigson, Sai Ma
 
-**Abstract**: We characterize the careers of minimum wage workers by merging SIPP panels covering 1992-2016 into the LEHD. A long-run analysis shows strong earnings growth for these workers in subsequent decades, becoming indistinguishable from peers earning modestly more initially. Most of this growth is due to the steep earnings trajectories of young workers. Older workers earning minimum wages show a modest dip in earnings at that moment compared to earlier and later periods. Increases in state minimum wages do not significantly alter the future careers of workers who are on the minimum wage when the increases occur.
+**Abstract**: How rational is the stock market and how efficiently does it process information? We use machine learning to establish a practical measure of rational and efficient expectation formation while identifying distortions and inefficiencies in the subjective beliefs of market participants. The algorithm independently learns, stays attentive to fundamentals, credit risk, and sentiment, and makes abrupt course-corrections at critical junctures. By contrast, the subjective beliefs of investors, professionals, and equity analysts do little of this and instead contain predictable mistakes–prestakes–that are especially prevalent in times of market turbulence. Trading schemes that bet against prestakes deliver defensive strategies with large CAPM and Fama-French 5-factor alphas.
 
-**摘要**: 我们通过将1992-2016年的SIPP面板数据与LEHD合并来描述最低工资工人的职业发展。长期分析显示，这些工人在随后的几十年里收入增长强劲，最终与最初收入略高的同龄人无法区分。这种增长的大部分是由于年轻工人的收入轨迹陡峭。年长的最低工资工人在那一刻的收入与早期和晚期相比略有下降。州最低工资的提高并没有显著改变那些在提高时处于最低工资水平的工人的未来职业发展。
-
----
-### 碳税与新兴经济体企业行为：来自南非的证据
-**[Carbon Taxation and Firm Behavior in Emerging Economies: Evidence from South Africa](https://www.nber.org/papers/w34406)**
-
-**Authors**: Johannes Gallé, Rodrigo Oliveira, Daniel Overbeck, Nadine Riedel, Edson R. Severnini
-
-**Abstract**: This paper provides the first comprehensive evidence on how firms in emerging economies respond to carbon taxation. Using detailed administrative data, we study the announcement and implementation of South Africa’s 2019 carbon tax—a potential trailblazer for other developing countries with limited state capacity amid the global expansion of carbon pricing. Contrary to concerns that carbon taxes might hinder growth or employment, we find no negative effects on firm performance or jobs. Firms facing higher effective tax rates increased activity following the tax’s announcement, four years before implementation, likely reflecting the resolution of regulatory uncertainty and efforts to mitigate stranded asset costs. While we find no measurable reduction in emissions—likely due to this anticipatory behavior—our results suggest that carbon taxation can be implemented without harming economic outcomes, even in the short term and in low- and middle-income settings.
-
-**摘要**: 本文首次全面提供了新兴经济体企业如何应对碳税的证据。利用详细的行政数据，我们研究了南非2019年碳税的宣布和实施——这可能是其他在全球碳定价扩张中国家能力有限的发展中国家的先行者。与担心碳税可能阻碍增长或就业的担忧相反，我们发现对企业绩效或就业没有负面影响。面临更高有效税率的企业在税宣布后增加了活动，这在实施前四年就发生了，很可能反映了监管不确定性的解决和努力减轻搁浅资产成本。虽然我们没有发现排放量的可测量减少——很可能是由于这种预期行为——但我们的结果表明，即使在短期内和中低收入环境中，也可以实施碳税而不会损害经济结果。
+**摘要**: 股市的理性程度如何，它处理信息的效率又如何？我们利用机器学习建立了一个实用的衡量理性和有效预期形成的指标，同时识别市场参与者主观信念中的扭曲和低效。该算法独立学习，关注基本面、信用风险和情绪，并在关键时刻进行突然的路线修正。相比之下，投资者、专业人士和股票分析师的主观信念很少这样做，反而包含了可预测的错误——预设错误——这些错误在市场动荡时期尤为普遍。与预设错误对赌的交易策略提供了具有较大CAPM和Fama-French五因子阿尔法的防御性策略。
 
 ---
-### 代际流动性在幸福感衡量指标中的体现：消费、健康和生活满意度
-**[Intergenerational Mobility in Measures of Wellbeing: Consumption, Health and Life Satisfaction](https://www.nber.org/papers/w34407)**
+### 针对性工资税减免的（不）有效性
+**[The (In)effectiveness of Targeted Payroll Tax Reductions](https://www.nber.org/papers/w34437)**
 
-**Authors**: Jonathan Davis, Nathan Deutscher, Bhashkar Mazumder
+**Authors**: Alessandra Fenizia, Nicholas Y. Li, Luca Citino
 
-**Abstract**: Studies of intergenerational mobility have begun to expand outside of the traditional outcomes such as income, education and occupation, into using alternative measures of wellbeing. In this chapter we survey the evidence on studies of these alternative measures with a focus on health, consumption and life satisfaction. We also incorporate lessons from the income mobility literature that may be relevant for how we think about these alternative measures both conceptually and empirically. We highlight a few approaches that researchers can consider to incorporate alternative measures and we conclude that a widening of our conception of  intergenerational mobility to incorporate measures of wellbeing may identify shortfalls in some of our current approaches.
+**Abstract**: This paper studies the cost-effectiveness of targeted payroll taxes for stimulating labor demand. It uses rich administrative data to study the effects of an Italian reform that raised social security contributions for apprenticeship contracts but granted a substantial discount for firms with 9 employees or less. The discount does not increase demand for apprenticeship contracts. Instead, it subsidizes inframarginal hiring. This reform is not cost-effective. Point estimates imply that each million euros of foregone social security contributions supports the employment of 29 apprentices for one year and no permanent contracts (these estimates are not statistically different from zero).
 
-**摘要**: 对代际流动性的研究已经开始从传统的结果如收入、教育和职业扩展到使用替代的幸福度量。在本章中，我们调查了这些替代度量的研究证据，重点关注健康、消费和生活满意度。我们还结合了收入流动性文献中的教训，这些教训可能与我们如何从概念上和实证上思考这些替代度量有关。我们强调了研究人员可以考虑的几种方法来纳入替代度量，并得出结论，将我们对代际流动性的概念扩展到纳入幸福度量，可能会发现我们当前一些方法的不足。
-
----
-### 贸易政策模糊性
-**[Trade Policy Ambiguity](https://www.nber.org/papers/w34408)**
-
-**Authors**: Joseph B. Steinberg
-
-**Abstract**: This paper studies how Knightian uncertainty about the distribution of future trade policies affects current trade flows using a dynamic trade model with a sunk cost of exporting. Qualitatively, trade-policy ambiguity reduces export participation in a similar manner to standard trade-policy risk, but also increases sensitivity to tariff bounds, decreases sensitivity to the likelihood of a tariff increase, and can either increase or decrease sensitivity to tariff persistence. Quantitatively, ambiguity dampens the response of trade to persistent reforms and strengthens the response to transitory reforms.
-
-**摘要**: 本文研究了关于未来贸易政策分布的奈特不确定性如何通过一个包含出口沉没成本的动态贸易模型影响当前的贸易流量。从定性上看，贸易政策的模糊性以类似于标准贸易政策风险的方式减少了出口参与度，同时也增加了对关税界限的敏感性，降低了对关税增加可能性的敏感性，并且可能增加或减少对关税持续性的敏感性。从定量上看，模糊性减弱了贸易对持久改革的反应，并加强了对暂时改革的反应。
+**摘要**: 本文研究了针对性工资税对刺激劳动力需求的成本效益。它利用丰富的行政数据研究了意大利一项改革的影响，该改革提高了学徒合同的社会保障缴款，但对员工人数不超过9人的公司给予了大幅度的折扣。这种折扣并没有增加对学徒合同的需求。相反，它补贴了边际内的招聘。这项改革并不具有成本效益。点估计表明，每放弃一百万欧元的社会保障缴款，可以支持29名学徒一年的就业，且没有永久合同（这些估计值与零没有统计学上的显著差异）。
 
 ---
-### 解读国际金融中的动荡时期
-**[Interpreting Turbulent Episodes in International Finance](https://www.nber.org/papers/w34409)**
+### 环境灾难与发明方向：来自美国尘碗的证据
+**[Environmental Catastrophe and the Direction of Invention: Evidence from the American Dust Bowl](https://www.nber.org/papers/w34438)**
 
-**Authors**: Hélène Rey, Vania Stavrakeva
+**Authors**: Jacob Moscona
 
-**Abstract**: We study the anatomy of the international portfolio finance network. As global financial linkages have become denser over time, cross-border portfolio equity positions have grown in importance relative to debt for Emerging markets and Advanced economies. Using the framework developed by Stavrakeva and Rey (2024), we construct a novel proxy of daily foreign investor holdings in both equity and long-term sovereign debt markets across 32 currency areas. Leveraging an instrumental variable strategy, we identify an effect of foreign equity ETF inflows on exchange rates and local stock market prices. Our high-frequency proxy enables us to interpret episodes of turbulence in international finance. It should prove useful to assess how persistent the current shocks to the international financial system are likely to be.
+**Abstract**: This paper investigates how innovation responded to and shaped the economic impact of the American Dust Bowl, an environmental catastrophe that led to widespread soil erosion on the US Plains during the 1930s. Combining data on county-level erosion, the historical geography of crop production, and crop-specific innovation, I document that in the wake of the environmental crisis, agricultural technology development was strongly and persistently re-directed toward more Dust Bowl-exposed crops and, within crops, toward bio-chemical and planting technologies that could directly mitigate economic losses from environmental distress. County-level exposure to Dust Bowl-induced innovation significantly dampened the effect of land erosion on agricultural land values and revenue. These results highlight the role of crises in spurring innovation and the importance of endogenous technological progress as an adaptive force in the face of disasters.
 
-**摘要**: 我们研究了国际投资组合金融网络的结构。随着全球金融联系随时间变得更加紧密，跨境股权投资头寸相对于债务对新兴市场和发达经济体的重要性日益增加。利用Stavrakeva和Rey（2024年）开发的框架，我们构建了一个新颖的代理变量，用于衡量32个货币区域的外国投资者在股票和长期主权债务市场上的日常持股情况。通过利用工具变量策略，我们确定了外国股票ETF流入对汇率和当地股票市场价格的影响。我们的高频代理变量使我们能够解释国际金融中的动荡时期。它将有助于评估当前对国际金融体系的冲击可能持续多久。
-
----
-### 管理金融危机
-**[Managing Financial Crises](https://www.nber.org/papers/w34410)**
-
-**Authors**: Gianluca Benigno, Alessandro Rebucci, Aliaksandr Zaretski
-
-**Abstract**: In this paper, we revisit the question of how to manage financial crises using the framework proposed by Bianchi and Mendoza (2018). We show that this model economy exhibits a multiplicity of constrained-efficient equilibria, which arises because the private shadow value of collateral influences the forward-looking asset price. Among these equilibria, the specific one studied in Bianchi and Mendoza (2018) can be implemented using a tax/subsidy on debt alone. In that case, both the ex ante tax and ex post subsidy are quantitatively important for welfare under the optimal time-consistent policy. Limiting either component can lead to a welfare loss relative to the unregulated competitive equilibrium, highlighting the complementarity between crisis prevention and crisis resolution tools. We also show that, under certain conditions, all Pareto-dominant constrained-efficient equilibria entail the unconstrained allocation chosen by a social planner subject to the country budget constraint, and this allocation can be implemented with purely ex post policies.
-
-**摘要**: 在本文中，我们重新审视了如何使用Bianchi和Mendoza（2018年）提出的框架来管理金融危机的问题。我们展示了这个模型经济表现出多重受限效率均衡，这是因为抵押品的私人影子价值影响了前瞻性资产价格。在这些均衡中，Bianchi和Mendoza（2018年）特别研究的那一个可以通过仅对债务征税/补贴来实施。在这种情况下，无论是事前税收还是事后补贴，在最优的时间一致政策下对福利都是定量重要的。限制这两个组成部分中的任何一个都可能导致相对于无监管竞争均衡的福利损失，这突出了危机预防和危机解决工具之间的互补性。我们还展示了，在某些条件下，所有帕累托占优的受限效率均衡都意味着社会规划者在国家预算约束下选择的无约束分配，这种分配可以通过纯粹的事后政策来实施。
+**摘要**: 本文研究了创新是如何响应并塑造了美国尘碗对经济的影响，尘碗是一场环境灾难，导致20世纪30年代美国大平原地区普遍发生土壤侵蚀。结合县级侵蚀数据、作物生产的历史地理和特定作物的创新，我记录了在环境危机之后，农业技术开发强烈且持续地重新定向到更多受尘碗影响的作物，并且在作物内部，转向了可以直接减轻环境压力造成的经济损失的生物化学和种植技术。县级对尘碗引发的创新的暴露显著减弱了土地侵蚀对农业土地价值和收入的影响。这些结果突出了危机在刺激创新中的作用，以及内生技术进步作为面对灾难时的适应力量的重要性。
 
 ---
-### 从大萧条和新冠疫情衰退中自动财政稳定器的教训
-**[Lessons for Automatic Fiscal Stabilizers from the Great Recession and the COVID Recession](https://www.nber.org/papers/w34411)**
+### 雇佣关系、工资设定和劳动市场权力
+**[Employment Relationships, Wage Setting, and Labor Market Power](https://www.nber.org/papers/w34439)**
 
-**Authors**: Karen Dynan, Douglas Elmendorf
+**Authors**: Francesco Agostinelli, Domenico Ferraro, Giuseppe Sorrenti, Leonard Treuren
 
-**Abstract**: This paper simulates economic developments as if the discretionary fiscal stimulus enacted in the past two recessions had not occurred and additional automatic fiscal stabilizers had been deployed instead. For the calibration of key economic relationships most consistent with the empirical literature, we find that more sustained fiscal stimulus would have pushed unemployment down more rapidly following the Great Recession and that more limited stimulus would have caused inflation to increase much less following the COVID recession. We caution, though, that our estimates are uncertain given the large number of assumptions embedded in the calculations. Under different assumptions about the supply side of the economy when resource utilization is high, the stimulus enacted in early 2021 was not a significant cause of the observed runup in inflation that followed, and substituting an automatic stabilizer would have made little difference to inflation.
+**Abstract**: We ask to what extent the quantification of labor market power depends on the modeling of the long-term worker-firm employment relationship. We develop an oligopsony model with dynamic wage contracts. Workers decide whether and where to work, choosing among firms providing different amenities and solving a dynamic discrete choice labor supply problem with firm-specific human capital. As a result, firms optimally choose wage-tenure contracts to attract and retain workers. We find that such contracts mitigate firms' incentives to impose large instantaneous wage markdowns—compared to standard static wage-setting models—thereby reducing the share of socially inefficient worker-firm separations. As a consequence, we show that the empirical approaches based on "sufficient statistics" tend to overestimate the extent of labor market power: low levels of firm-specific labor supply elasticities do not necessarily indicate rent extraction, but instead reflect firms’ ability to retain workers by offering long-term value through human capital accumulation.
 
-**摘要**: 本文模拟了如果在过去两次经济衰退中没有实施自由裁量的财政刺激措施，而是部署了额外的自动财政稳定器，经济发展将会如何。在与实证文献最一致的关键经济关系的校准中，我们发现更持久的财政刺激本可以更快地降低大萧条后的失业率，而更有限的刺激将导致COVID衰退后通货膨胀的增加要少得多。然而，我们提醒说，由于计算中嵌入的假设数量众多，我们的估计存在不确定性。在对经济供给侧的不同假设下，当资源利用高时，2021年初实施的刺激并不是随后观察到的通货膨胀上升的显著原因，而用自动稳定器替代也不会对通货膨胀产生太大影响。
-
----
-### 库克县对含糖饮料征税：其公告、实施和废止对购买的影响
-**[The Cook County Tax on Sweetened Beverages: The Impact on Purchases of its Announcement, Implementation, and Repeal](https://www.nber.org/papers/w34412)**
-
-**Authors**: Felipe Lozano Rojas, John Cawley, David E. Frisvold
-
-**Abstract**: Taxes on sweetened beverages have been widely adopted in response to increases in diet-related chronic disease.  An episode of particular interest occurred in Cook County, Illinois, where a beverage tax was announced, implemented, and then repealed. This paper is the first to estimate the effects of this tax using household-level data on purchases. We estimate difference-in-differences models that compare the change in beverage purchases over time in Cook County to that in comparison areas. The results indicate that consumer purchases did not detectably respond to the announcement of the tax. Implementation of the tax reduced purchases by 22.5% for all taxed beverages, 16.5% for high-calorie taxed beverages and a 33% for low-calorie (e.g. diet) taxed beverages. This implies a price elasticity of demand of -0.66 for all taxed beverages, -0.48 for high-calorie taxed beverages and -0.97 for low-calorie taxed beverages. The impact of the tax did not vary by household income, and there is no detectable impact of the tax on purchases of possible substitutes (bottled water, fruit juice, milk). After repeal of the tax, purchases of taxed beverages returned to their baseline quantities; there was no evidence of habit formation.
-
-**摘要**: 对含糖饮料征税已被广泛采用，以应对饮食相关慢性疾病的增加。一个特别值得关注的事件是在美国伊利诺伊州库克县，那里宣布、实施然后废除了饮料税。本文是第一个使用家庭层面购买数据来估计这种税收影响的研究。我们估计了差异中的差异模型，比较了库克县饮料购买随时间的变化与比较区域的变化。结果表明，消费者购买对税收公告的反应并不明显。税收的实施将所有征税饮料的购买量减少了22.5%，高热量征税饮料减少了16.5%，低热量（例如，减肥）征税饮料减少了33%。这意味着所有征税饮料的需求价格弹性为-0.66，高热量征税饮料为-0.48，低热量征税饮料为-0.97。税收的影响并不因家庭收入而异，且税收对可能的替代品（瓶装水、果汁、牛奶）的购买没有明显影响。废除税收后，征税饮料的购买量恢复到基线水平；没有习惯形成的证据。
+**摘要**: 我们探讨劳动市场力量的量化在多大程度上取决于长期工人-企业雇佣关系的建模。我们开发了一个具有动态工资合同的寡卖模型。工人决定是否以及在哪里工作，选择提供不同便利设施的企业，并解决一个具有企业特定人力资本的动态离散选择劳动供给问题。结果，企业选择最优的工资-任期合同来吸引和留住工人。我们发现，与标准静态工资设定模型相比，这类合同减少了企业施加大幅度即时工资折扣的动机，从而降低了社会效率低下的工人-企业分离的比例。因此，我们展示了基于“充分统计量”的实证方法倾向于高估劳动市场力量的程度：低水平的企业特定劳动供给弹性并不一定表明租金提取，而是反映了企业通过提供长期价值，通过人力资本积累来留住工人的能力。
 
 ---
-### 马斯克党派效应对特斯拉销量的影响
-**[The Musk Partisan Effect on Tesla Sales](https://www.nber.org/papers/w34413)**
+### 公共安全系统的脆弱性：来自微观冲击的证据
+**[Vulnerability of the Public Safety System: Evidence from Micro-Shocks](https://www.nber.org/papers/w34428)**
 
-**Authors**: Kenneth T. Gillingham, Matthew Kotchen, James A. Levinsohn, Barry J. Nalebuff
+**Authors**: Shooshan Danagoulian, Monica Deza, Johanna Catherine Maclean, Alberto Ortega
 
-**Abstract**: We study how Elon Musk's polarizing and partisan actions have impacted Tesla vehicle sales in the United States. Using county-level, monthly data on new vehicle registrations, we leverage how changes in vehicle sales over time diverge across counties with differing shares of Democratic and Republican voters. Without the Musk partisan effect, Tesla sales between October 2022 and April 2025 would have been 67-83% higher, equivalent to 1-1.26 million more vehicles. Musk’s partisan activities also increased the sales of other automakers' electric and hybrid vehicles 17-22% because of substitution, and undermined California’s progress in meeting its zero-emissions vehicle target.
+**Abstract**: The 911 system, a vital component of public safety, responds to over 210 million emergency calls each year. We examine the effect of small exogenous public health stressors – pollen emissions – on the operation of the 911 call system in Seattle, Washington. Leveraging daily variation in pollen levels, we evaluate pollen’s impact on the volume of 911 calls. We find that a 100% increase in pollen levels – the modal day-over-day variation we observe in our data – results in six additional 911 calls per day. We further show that elevated pollen levels influence the quality of emergency and non-emergency response. The 911 system responds to increased strain by prioritizing more urgent calls – and as a result, increasing response time to non-urgent calls. Though all calls are connected to a dispatcher, there are increased missed connections – canceled emergency response, missing records of response, and false reports. Despite the prioritization of urgent calls, these additional daily calls lead to reallocation of resources in ways that potentially impede service quality. Thus, our findings suggest that common and small shocks may lead to under-provision of valuable services to communities across the U.S.
 
-**摘要**: 我们研究了埃隆·马斯克的两极分化和党派行为如何影响了特斯拉在美国的汽车销量。利用县级、月度新车注册数据，我们利用不同县民主党和共和党选民比例变化对车辆销售随时间变化的影响。如果没有马斯克党派效应，2022年10月至2025年4月的特斯拉销量将高出67-83%，相当于多卖出100万至126万辆汽车。马斯克的党派活动还因为替代效应，使其他制造商的电动和混合动力汽车销量增加了17-22%，并且破坏了加利福尼亚州实现其零排放车辆目标的进展。
+**摘要**: 911系统是公共安全的重要组成部分，每年响应超过2.1亿紧急呼叫。我们研究了小型外生公共卫生压力因素——花粉排放——对华盛顿州西雅图市911呼叫系统运作的影响。利用花粉水平的日变化，我们评估了花粉对911呼叫量的影响。我们发现，花粉水平增加100%——这是我们在数据中观察到的最常见的日变化——会导致每天额外增加六个911呼叫。我们进一步表明，花粉水平的升高影响了紧急和非紧急响应的质量。911系统通过优先处理更紧急的呼叫来应对增加的压力——结果，非紧急呼叫的响应时间增加。尽管所有呼叫都连接到了调度员，但增加了未接通的连接——取消紧急响应、缺少响应记录和虚假报告。尽管优先处理紧急呼叫，但这些额外的每日呼叫导致资源重新分配，可能会阻碍服务质量。因此，我们的发现表明，常见和小规模的冲击可能导致美国各地社区对有价值服务的供应不足。
+
+---
+### 《关税及贸易总协定对抗通货膨胀：东京漂移》
+**[The GATT vs Inflation: Tokyo Drift](https://www.nber.org/papers/w34429)**
+
+**Authors**: Andrew Greenland, James Lake, John Lopresti
+
+**Abstract**: This paper demonstrates that ignoring the source of variation in tariff levels yields misleading conclusions regarding the effects of tariff changes. Specifically, we show that changes in the ad valorem equivalent (AVE) tariff are insufficient to quantify the magnitude or sign of the effect of tariff changes on economic outcomes. To illustrate this point, we construct the first database of annual US statutory tariffs from 1972 to 1988 and use it to explore the consequences of liberalization in the years spanning the Tokyo Round of the General Agreement on Tariffs and Trade (GATT). Decomposing the aggregate AVE into its statutory and endogenous components, we document two distinct liberalizations in our sample. Prior to 1979, inflation combines with specific tariffs to create an “accidental liberalization”, despite the absence of widespread statutory tariff changes. After 1979, endogenous changes in the composition of imports mask the large Tokyo Round statutory tariff liberalization. Generalizing an exact hat framework to accommodate specific tariffs, we show that inflation-driven reductions in AVEs account for roughly half of the tariff liberalization in our sample, but these changes ultimately reduce imports and welfare. Finally, we show that specific tariffs remain an important determinant of cross-sectional variation in AVEs: between 2000 and 2017, one-third to one-half of the annual cross-sectional variance in good-level AVEs is driven by variation in the AVE of specific tariffs.
+
+**摘要**: 本文表明，忽视关税水平变化的来源会导致关于关税变化影响的错误结论。具体来说，我们展示了变化中的从价关税等值（AVE）关税不足以量化关税变化对经济结果的影响程度或符号。为了说明这一点，我们构建了第一个从1972年到1988年的美国法定关税年度数据库，并使用它来探索在涵盖关税和贸易总协定（GATT）东京回合的年份中的自由化后果。将总体AVE分解为其法定和内生组成部分，我们记录了样本中的两次不同的自由化。在1979年之前，通货膨胀与特定关税结合，创造了一个“偶然的自由化”，尽管没有广泛的法定关税变化。1979年之后，进口商品组成的内生变化掩盖了东京回合法定关税自由化的大规模影响。将一个精确的帽子框架推广到适应特定关税，我们展示了由通货膨胀驱动的AVE减少占我们样本中关税自由化的大约一半，但这些变化最终减少了进口和福利。最后，我们展示了特定关税仍然是跨截面AVE变化的重要决定因素：在2000年到2017年之间，年度商品级AVE的跨截面方差的三分之一到一半是由特定关税的AVE变化驱动的。
+
+---
+### 政治信息与网络效应
+**[Political Information and Network Effects](https://www.nber.org/papers/w34430)**
+
+**Authors**: Georgy Egorov, Sergei Guriev, Maxim Mironov, Ekaterina Zhuravskaya
+
+**Abstract**: Why do political campaigns so often yield unexpected results? We address this question by separately estimating the direct effect of a campaign on targeted voters and the indirect effect on others in the same social environment. Partnering with a local NGO during Argentina’s 2023 presidential election, we randomized the distribution of leaflets providing an expert assessment of the likely consequences of certain proposals by the outsider candidate Javier Milei. Exploiting Argentina’s unique sub-precinct election reporting system, we show that the campaign reduced Milei’s support among directly treated voters, as expected, but increased his support among untreated voters in treated precincts, producing a backfiring, net-positive effect for Milei. A pre-registered replication confirmed these opposite-signed effects. Using theory and a survey experiment, we show that the minority of voters who disbelieved the campaign were more motivated to discuss it with peers, convincing them to support Milei. This mobilization effect appears especially likely when campaigns criticize outsider candidates. Our results highlight how campaigns aimed at anti-elite candidates can unintentionally mobilize support for them.
+
+**摘要**: 为什么政治竞选常常产生出人意料的结果？我们通过分别估计竞选活动对目标选民的直接影响和对同一社会环境中其他人的间接影响来探讨这个问题。在2023年阿根廷总统选举期间，我们与当地一个非政府组织合作，随机分发了传单，提供了专家对局外人候选人哈维尔·米莱可能提出的某些提案后果的评估。利用阿根廷独特的小选区选举报告系统，我们展示了竞选活动如预期般减少了直接接受处理的选民对米莱的支持，但在处理过的选区中未接受处理的选民中增加了对他的支持，为米莱产生了适得其反的净正面效果。一个预先注册的复制研究证实了这些相反的效果。通过理论和一项调查实验，我们展示了一小部分不相信竞选活动的选民更有动力与同伴讨论它，说服他们支持米莱。当竞选活动批评局外人候选人时，这种动员效应似乎特别可能发生。我们的结果突出了针对反精英候选人的竞选活动如何无意中动员对他们的支持。
+
+---
+### 头顶上的飞机：飞机噪音如何影响房屋价值
+**[Planes Overhead: How Airplane Noise Impacts Home Values](https://www.nber.org/papers/w34431)**
+
+**Authors**: Florian Allroggen, R. John Hansman, Christopher R. Knittel, Jing Li, Xibo Wan, Juju Wang
+
+**Abstract**: Air transportation supports economic growth and global connectivity but imposes localized environmental costs, particularly through aircraft noise. We estimate the causal effect of aviation noise on housing prices using quasi-experimental variation from the Federal Aviation Administration's rollout of performance-based navigation (PBN) procedures and runway reconfigurations at three major U.S. airports. Combining high-resolution flight trajectory data with geocoded housing transactions, we apply a difference-in-differences hedonic framework to identify changes in exposure unanticipated by residents. A one-decibel increase in annual day-night average sound level reduces house prices by 0.6 to 1.0 percent. Among alternative noise metrics, average exposure explains property value impacts most strongly. Willingness to pay for quieter conditions varies systematically with income and race, indicating that aircraft noise externalities have meaningful distributional consequences. Our results highlight the need to incorporate localized environmental costs into aviation and urban land-use policy.
+
+**摘要**: 航空运输支持经济增长和全球连通性，但对环境造成了局部影响，特别是通过飞机噪音。我们利用联邦航空管理局（FAA）在美国三个主要机场推出基于性能的导航（PBN）程序和跑道重新配置的准实验变化，估计航空噪音对房价的因果效应。我们将高分辨率的飞行轨迹数据与地理编码的房屋交易数据结合起来，应用差异中的差异的享乐框架，以识别居民未预料到的暴露变化。年日夜间平均声级每增加一分贝，房价就会下降0.6%至1.0%。在替代的噪音指标中，平均暴露最强烈地解释了财产价值的影响。为更安静的条件支付的意愿会随着收入和种族系统地变化，表明飞机噪音的外部性具有重要的分配后果。我们的结果强调了需要将局部环境成本纳入航空和城市土地使用政策的必要性。
+
+---
+### 用脚投票：民主倒退与市场导向型移民 - 来自以色列和欧洲的证据
+**[Voting with Their Feet: Democratic Backsliding and Market-Minded Migration - Evidence from Israel and Europe](https://www.nber.org/papers/w34432)**
+
+**Authors**: Assaf Razin
+
+**Abstract**: Using a comparative framework, the study examines how variations in political regimes across Israel and Europe shape patterns of international migration. In both contexts, episodes of democratic backsliding serve as quasi-exogenous shocks that reveal the causal link between institutional erosion and outward mobility. In Israel, the origin of democratic backsliding lies in a corruption shock—the criminal indictment of the prime minister—which escalated into an executive–judicial shock as the government launched an anti-democratic judicial overhaul. This confrontation between the executive and judiciary provides a natural experiment for identifying how institutional breakdowns shape migration decisions. In Europe, the origin of democratic backsliding stems from a “Syrian shock”—a massive refugee inflow that strained administrative capacity, polarized politics, and weakened liberal institutions. The resulting governance erosion triggered emigration responses structurally like those observed in Israel. Using a difference-in-differences (DiD) estimation, the study identifies causal effects of democratic erosion on migration flows. Across both settings, out-migration emerges as a market-minded response to illiberal regime change—a behavioral signal of sensitivity to policies that features nationalizing industries, restrict free speech, and undermine the rule of law. Together, the Israeli and European experiences demonstrate that illiberal governance functions as a systemic push factor for emigration, beyond standard economic explanations.
+
+**摘要**: 使用比较框架，本研究考察了以色列和欧洲不同政治体制如何塑造国际移民模式。在这两种情况下，民主倒退的事件作为准外生冲击，揭示了制度侵蚀与外向流动性之间的因果联系。在以色列，民主倒退的根源在于一场腐败冲击——总理的刑事起诉——随着政府发起反民主的司法改革，这一冲击升级为行政-司法冲击。行政与司法之间的这种对抗提供了一个自然实验，用以识别制度崩溃如何塑造移民决策。在欧洲，民主倒退的根源来自于“叙利亚冲击”——大规模难民流入，这加剧了行政能力的压力，使政治两极化，并削弱了自由主义制度。由此产生的治理侵蚀触发了与以色列观察到的结构类似的移民反应。通过使用差异中的差异（DiD）估计，研究识别了民主侵蚀对移民流动的因果效应。在这两种背景下，外迁作为一种对非自由主义政权更迭的市场导向反应而出现——这是一种对那些具有民族化产业、限制言论自由和破坏法治政策的敏感性的行为信号。总体而言，以色列和欧洲的经验表明，非自由主义治理作为一种系统性的移民推动因素，超越了标准的经济解释。
+
+---
+### 政治权力与死亡率：美国投票权法案的异质性效应
+**[Political Power and Mortality: Heterogeneous Effects of the U.S. Voting Rights Act](https://www.nber.org/papers/w34421)**
+
+**Authors**: Atheendar Venkataramani, Rourke O'Brien, Elizabeth F. Bair, Christopher A. Lowenstein
+
+**Abstract**: We study the health consequences of redistributing political power through the 1975 extension of the Voting Rights Act, which eliminated barriers to voting for previously disenfranchised nonwhite populations. The intervention led to broad declines in under-five mortality but sharply contrasting effects in other age groups: mortality fell among non-white children, younger adults, and older women, yet rose among whites and older non-white men. These differences cannot be reconciled by changes in population composition or material conditions. Instead, we present evidence suggesting psychosocial stress and retaliatory responses arising from perceived status threat as key mechanisms.
+
+**摘要**: 我们研究了通过1975年《投票权法》的扩展重新分配政治权力对健康后果的影响，该法案消除了以前被剥夺选举权的非白人群体的投票障碍。这一干预导致了五岁以下儿童死亡率的普遍下降，但在其他年龄组中产生了截然不同的效果：非白人儿童、年轻人和老年女性的死亡率下降，而白人和老年非白人男性的死亡率上升。这些差异不能通过人口构成或物质条件的变化来解释。相反，我们提供的证据表明，由于感知到的地位威胁而产生的心理社会压力和报复性反应是关键机制。
+
+---
+### 银行关系的价值
+**[The Value of Banking Relationships](https://www.nber.org/papers/w34422)**
+
+**Authors**: Howard Bodenhorn, Youwei Xing
+
+**Abstract**: Commercial banking is an industry in which long-term, nonexclusive relationships between bankers and their borrowers are governed by short-term contracts. This paper documents the nature of bank-borrower relationships in a historical setting. We use a new dataset of 55,000 loans to 10,000 unique borrowers over 35 years in the mid-nineteenth century. Two-way fixed effects models reveal that a one standard deviation increase in the number of previous loans leads to an increase in loan size by 4.72%. A one-year increase in the duration of a relationship leads to an increase in loan size of 5.6%. Relationships have small effects on loan rates, but substantial effects on collateral. Borrowers with relationships with competing banks receive substantially smaller loans. Propensity score matching reveals that banks learn about borrowers early in the relationship. Finally, the bank severed relationships with about half of the borrowers who defaulted on a loan. A surviving relationship becomes more valuable after default.
+
+**摘要**: 商业银行是一个行业，银行家与借款人之间的长期、非独家关系受短期合同的约束。本文在一个历史背景下记录了银行与借款人关系的性质。我们使用了一个新的数据集，涵盖了19世纪中叶35年内，向1万名独特借款人发放的5.5万笔贷款。双向固定效应模型显示，之前贷款数量每增加一个标准差，贷款规模就会增加4.72%。关系持续时间每增加一年，贷款规模就会增加5.6%。关系对贷款利率的影响较小，但对抵押品的影响较大。与竞争银行有关系的借款人获得的贷款规模要小得多。倾向得分匹配显示，银行在关系早期就了解了借款人。最后，银行与大约一半违约的借款人终止了关系。在违约后，存续的关系变得更有价值。
+
+---
+### 我们不会被怀念：在通用人工智能世界中的工作与增长
+**[We Won't be Missed: Work and Growth in the AGI World](https://www.nber.org/papers/w34423)**
+
+**Authors**: Pascual Restrepo
+
+**Abstract**: This chapter explores the long-run implications of Artificial General Intelligence (AGI) for economic growth and labor markets. AGI makes it feasible to perform all economically valuable work using compute. I distinguish between bottleneck and supplementary work—tasks that are essential versus non-essential for unhindered growth. As computational resources expand: (i) the economy automates all bottleneck work, (ii) some supplementary work may be left exclusively to humans, (iii) output becomes linear in compute and labor and its growth is driven by the expansion of compute, (iv) wages converge to the opportunity cost of computational resources required to reproduce human work, and (v) the share of labor income in GDP converges to zero.
+
+**摘要**: 本章探讨了人工通用智能（AGI）对经济增长和劳动市场的长期影响。AGI使得使用计算资源来执行所有具有经济价值的工作成为可能。我区分了瓶颈工作和补充工作——对于无阻碍增长至关重要与非必需的任务。随着计算资源的扩展：（i）经济自动化了所有瓶颈工作，（ii）一些补充工作可能专门留给人类，（iii）产出与计算和劳动力呈线性关系，其增长由计算资源的扩展驱动，（iv）工资趋同于复制人类工作所需的计算资源的机会成本，以及（v）劳动收入在GDP中的份额趋近于零。
+
+---
+### 智能的代价：具有社会意识的企业应如何定价和部署人工智能？
+**[The Price of Intelligence: How Should Socially-minded Firms Price and Deploy AI?](https://www.nber.org/papers/w34424)**
+
+**Authors**: Nils H. Lehr, Pascual Restrepo
+
+**Abstract**: Leading AI firms claim to prioritize social welfare. How should firms with a social mandate price and deploy AI? We derive pricing formulas that depart from profit maximization by incorporating incentives to improve welfare and reduce labor disruptions. Using US data, we evaluate several scenarios. A welfarist firm that values both profit and welfare should price closer to marginal cost, as efficiency gains outweigh distributional concerns. A conservative firm focused on labor-market stability should price above the profit-maximizing level in the short run, especially when its AI may displace low-income workers. Overall, socially minded firms face a trade-off between expanding access to AI and the resulting loss in profits and labor market risks.
+
+**摘要**: 领先的人工智能公司声称将社会福利作为优先事项。那么，承担社会责任的公司应该如何定价和部署人工智能呢？我们推导出了不同于利润最大化的定价公式，这些公式纳入了提高福利和减少劳动中断的激励措施。利用美国数据，我们评估了几种情况。一个既重视利润又重视福利的福利主义公司应该将价格定得更接近边际成本，因为效率收益超过了分配关注。一个专注于劳动市场稳定的保守公司应该在短期内将价格定在利润最大化水平之上，特别是当其人工智能可能取代低收入工人时。总体而言，有社会意识的公司在扩大人工智能获取与由此导致的利润损失和劳动市场风险之间面临权衡。
+
+---
+### 反击私人执业：给公立医院医生支付更多薪酬的意外效果
+**[Pushing Back Against Private Practice: The Unintended Effects of Paying Public Doctors More](https://www.nber.org/papers/w34433)**
+
+**Authors**: Jonathan Gruber, Núria Mas, Judit Vall Castelló, Jaume Vives-i-Bastida
+
+**Abstract**: Most nations in the world have side-by-side private and public health care systems. Policymakers worry that “dual practice” across sectors might reduce care to the public sector. This concern led regions in Spain to offer “exclusivity bonuses” to physicians who practice exclusively in the public sector. We show theoretically that the impact of these bonuses on the public sector is ambiguous. We demonstrate empirically that the bonuses backfired: they did increase exclusive participation in the public sector, but significantly reduced hours of work. When regions added offsetting bonuses for dual practice, they were largely ineffective.
+
+**摘要**: 世界上大多数国家都有并存的私营和公共医疗保健系统。政策制定者担心跨部门的“双重执业”可能会减少对公共部门的护理。这种担忧导致西班牙的一些地区为仅在公共部门执业的医生提供“独家奖金”。我们从理论上表明，这些奖金对公共部门的影响是不确定的。我们通过实证证明，这些奖金适得其反：它们确实增加了对公共部门的独家参与，但显著减少了工作时间。当地区增加了对双重执业的抵消奖金时，它们在很大程度上是无效的。
+
+---
+### 同一罪行，不同时间：酒后驾车罪犯司法结果的差异
+**[Same Crime, Different Time: Disparities in Judicial Outcomes for DWI Offenders](https://www.nber.org/papers/w34425)**
+
+**Authors**: Jeffrey T. Denning, Benjamin Hansen, Lars Lefgren, Emily C. Leslie, Cody Tuttle
+
+**Abstract**: We examine disparities in judicial outcomes among people charged with Driving While Intoxicated (DWI), a setting in which legal guilt is objectively determined by breath alcohol content (BrAC). Focusing on first-time offenders with no aggravating circumstances and BrAC above the legal threshold, we find that race, gender, and financial resources strongly predict the likelihood of incarceration and case dismissal. Defendants with greater socioeconomic advantage are more likely to access rehabilitative alternatives and avoid criminal records. We discuss how these outcome differences may reflect not only disparities in options offered by the court, but also in defendants’ choices among them.
+
+**摘要**: 我们研究了被控酒后驾车（DWI）的人之间司法结果的差异，这是一个通过呼吸酒精含量（BrAC）客观确定法律罪责的情境。关注首次犯罪者且没有加重情节、BrAC超过法定阈值的情况，我们发现种族、性别和财务资源强烈预测入狱的可能性和案件驳回的可能性。具有更大社会经济优势的被告更有可能获得康复替代方案并避免刑事记录。我们讨论了这些结果差异如何不仅反映了法院提供的选项差异，还反映了被告在选择这些选项时的差异。
+
+---
+### 私人债务在金融生态系统中的作用
+**[The Role of Private Debt in the Financial Ecosystem](https://www.nber.org/papers/w34426)**
+
+**Authors**: Victoria Ivashina
+
+**Abstract**: This paper provides a comprehensive introduction to private debt, examines the key drivers behind its expansion, and frames the discussion around potential risk accumulation in the broader economy. Overall, the development of private debt can be viewed as the emergence of a new technology that facilitated the expansion of the high-yield corporate debt market into the middle market. Throughout its history, the evolution of the high-yield debt and the rise of private debt have been closely intertwined with the growth of private equity. Historically, banks have not had significant exposure to financing buyouts or other highly leveraged transactions, whether in the large-cap or mid-cap segments.
+
+**摘要**: 本文全面介绍了私人债务，审视了其扩张背后的主要驱动因素，并围绕更广泛经济中潜在的风险积累进行了讨论。总体而言，私人债务的发展可以被视为一项新技术的出现，促进了高收益公司债务市场向中等市场扩张。在其历史上，高收益债务的演变和私人债务的兴起与私募股权的增长密切相关。从历史上看，银行在融资收购或其他高杠杆交易方面并没有显著的风险敞口，无论是在大型股还是中型股领域。
+
+---
+### 建模与测量儿童发展的遗传决定因素
+**[Modeling and Measuring the Genetic Determinants of Child Development](https://www.nber.org/papers/w34427)**
+
+**Authors**: Francesco Agostinelli, Zach Weingarten
+
+**Abstract**: The longstanding debate over whether human capabilities and skills are shaped more by “nature” or “nurture” has been revitalized by recent advances in genetics, particularly in the use of polygenic scores (PGSs) to proxy for genetic endowments. Yet, we argue that PGSs embed not only direct genetic effects but also indirect environmental influences, raising questions about their validity for causal analysis. We show that these conflated measures can mislead studies of gene–environment interactions, especially when parental behavior responds to children’s genetic risk. To address this issue, we construct a new latent measure of genetic risk that integrates individual genotypes with diagnostic symptoms, using data from the National Longitudinal Study of Adolescent to Adult Health linked to restricted individual SNP-level genotypes from dbGaP. Exploiting multiple sources of variation—including the Mendelian within-family genetic randomization among siblings—we find consistent evidence that parents compensate by investing more in children with higher genetic risk for ADHD. Strikingly, these compensatory responses disappear when genetic risk is proxied by the conventional ADHD PGS, which also yields weaker—and in some cases reversed—predictions for long-run outcomes. Finally, we embed our latent measure of genetic endowments into a standard dynamic structural model of child development. The model shows that both parental investments and latent genetic risk jointly shape children’s cognitive and mental health development, underscoring the importance of modeling the dynamic interplay between genes and environments in the formation of human capital.
+
+**摘要**: 关于人类能力和技能更多是由“先天”还是“后天”塑造的长期争论，由于遗传学的最新进展，特别是在使用多基因评分（PGSs）作为遗传天赋的代理时，这一争论得到了新的活力。然而，我们认为PGSs不仅嵌入了直接的遗传效应，还嵌入了间接的环境影响，这引发了关于它们用于因果分析的有效性的问题。我们展示这些混淆的度量可能会误导基因-环境相互作用的研究，特别是当父母的行为对孩子的遗传风险做出反应时。为了解决这个问题，我们构建了一个新的潜在遗传风险度量，它将个体基因型与诊断症状结合起来，使用的数据来自全国青少年到成人健康纵向研究，并与dbGaP中受限的个体SNP水平基因型数据相关联。利用多种变异来源——包括兄弟姐妹之间孟德尔家族内遗传随机化——我们发现一致的证据表明，父母通过在遗传风险更高的ADHD儿童身上投入更多来进行补偿。令人惊讶的是，当遗传风险由传统的ADHD PGS代理时，这些补偿性反应消失了，这也导致了对长期结果的预测更弱——在某些情况下甚至出现了逆转。最后，我们将我们的潜在遗传天赋度量嵌入到儿童发展的标准化动态结构模型中。该模型显示，父母的投资和潜在的遗传风险共同塑造了儿童的认知和心理健康发展，强调了在人类资本形成中对基因与环境之间动态相互作用进行建模的重要性。
+
+---
+### 被拒绝福利准入的财务后果
+**[The Financial Consequences of Being Denied Benefit Access](https://www.nber.org/papers/w34434)**
+
+**Authors**: Tatiana Homonoff, Min S. Lee, Katherine Meckel
+
+**Abstract**: We examine the causal impact of being denied benefit access on the financial well-being of marginally-excluded households. Using experimental and quasi-random variation in the flexibility of mandatory intake interviews and a unique linkage between administrative Supplemental Nutrition Assistance Program (SNAP) and credit report data, we find that households screened out of SNAP due to administrative barriers suffer tangible downstream economic consequences. Specifically, we find that process-related denials increase debt and delinquencies, and decrease credit scores. These results highlight the economic importance of implementation design and its role in strengthening (or undermining) the financial protection provided by social insurance programs.
+
+**摘要**: 我们研究了被拒绝获得福利对边缘排除家庭财务状况的因果影响。利用强制性接待访谈灵活性的实验和准随机变化，以及行政补充营养援助计划（SNAP）和信用报告数据之间的独特联系，我们发现因行政障碍被排除在SNAP之外的家庭遭受了切实的下游经济后果。具体来说，我们发现与流程相关的拒绝增加了债务和拖欠，降低了信用评分。这些结果强调了实施设计的经济重要性及其在加强（或破坏）社会保险计划提供的财务保护方面的作用。
+
+---
+### 大麻与呼吸健康
+**[Cannabis and Respiratory Health](https://www.nber.org/papers/w34435)**
+
+**Authors**: Jayani Jayawardhana, Jialin Hou, Johanna Catherine Maclean
+
+**Abstract**: Cannabis legalization has increased substantially in the past two decades with state-level policies that permit possession this product. A potential concern with cannabis legalization and the corresponding increase in consumption is that – because smoking is the most common consumption mode – respiratory health could worsen. In this study, we offer new evidence on the impact of recreational cannabis laws on asthma outcomes. To do so, we combine commercial health insurance claims and survey data over the period 2008 to 2022 with difference-in-differences and event-study methods. Our findings suggest that asthma diagnoses do not change following legalization of recreational cannabis, while asthma-related dispensed prescription medications decline, and asthma-related outpatient visits and inpatient hospitalizations are stable. An analysis of changes in use of smoked and non-smoked cannabis post-law suggests that, on net, the increase in overall cannabis use attributable to legalization is driven by use of non-smoked cannabis, which may explain why we find limited evidence that asthma outcomes worsen post-law. Collectively, these results suggest that expanded access to legal cannabis has not worsened respiratory health overall, and hint that some patients may use cannabis to manage asthma symptoms.
+
+**摘要**: 在过去二十年中，随着各州层面政策允许持有大麻产品，大麻合法化已经大幅增加。大麻合法化及其相应的消费增加可能引起人们担忧的是，由于吸烟是最常见的消费方式，呼吸系统健康可能会恶化。在这项研究中，我们提供了关于娱乐性大麻法律对哮喘结果影响的新证据。为此，我们将2008年至2022年期间的商业健康保险索赔和调查数据与差异-差异和事件研究方法结合起来。我们的发现表明，在娱乐性大麻合法化之后，哮喘诊断没有变化，而与哮喘相关的分发处方药物减少，与哮喘相关的门诊访问和住院治疗保持稳定。对法律实施后吸烟和非吸烟大麻使用变化的分析表明，总体上，归因于合法化的大麻使用增加是由非吸烟大麻的使用推动的，这可能解释了为什么我们发现法律实施后哮喘结果恶化的证据有限。总的来说，这些结果表明，扩大合法大麻的获取并没有恶化总体的呼吸系统健康，并暗示一些患者可能使用大麻来管理哮喘症状。
+
+---
+### 快速应对洪水：来自孟加拉国和尼泊尔的随机对照试验证据，关于基于预测的现金转移支付
+**[Fast Action for Floods: RCT Evidence on Forecast-based Cash Transfers from Bangladesh and Nepal](https://www.nber.org/papers/w34414)**
+
+**Authors**: Paul J. Christian, Felipe A. Dunsch, Jonas Heirman, Erin M. Kelley, Florence Kondylis, Gregory Lane, Jennifer Waidler, Nidhila Adusumalli, Odbayar Batmunkh, Kriti Malhotra
+
+**Abstract**: As increasingly frequent extreme weather events disrupt lives, institutions are turning to early-warning systems and advance preparation to accelerate aid delivery. We present evidence from a randomized controlled trial in Bangladesh and Nepal testing whether providing cash within days of a flood leads to greater benefits than delivering the same assistance months later—or if it simply shifts the timing of benefits without improving overall welfare. Results suggest that timely cash assistance leads to overall gains in food security and psychosocial well-being. This evidence supports efforts to forecast crises and release disaster relief quickly.
+
+**摘要**: 随着越来越频繁的极端天气事件扰乱生活，各机构正转向早期预警系统和预先准备，以加快援助的交付。我们从在孟加拉国和尼泊尔进行的随机对照试验中提供证据，测试在洪水发生后的几天内提供现金是否比几个月后提供相同援助能带来更大的好处——或者它是否只是改变了好处的时间而没有提高整体福利。结果表明，及时的现金援助有助于提高食物安全和心理社会福祉的整体收益。这一证据支持预测危机并迅速释放救灾工作的努力。
+
+---
+### 无锚的货币政策
+**[Monetary Policy without an Anchor](https://www.nber.org/papers/w34436)**
+
+**Authors**: Luigi Bocola, Alessandro Dovis, Kasper Jørgensen, Rishabh Kirpalani
+
+**Abstract**: Policymakers often cite the risk that inflation expectations might “de-anchor” as a key reason for responding forcefully to inflationary shocks. We develop a model to analyze this trade-off and to quantify the benefits of stable long-run inflation expectations. In our framework, households and firms are imperfectly informed about the central bank’s objective and learn from its policy choices. Recognizing this interaction, the central bank raises interest rates more aggressively after adverse supply shocks and accepts short-run output costs to secure more stable inflation expectations. The strength of this reputation channel depends on how sensitive long-run inflation expectations are to surprises in interest rates. Using high-frequency identification, we estimate these elasticities for emerging and advanced economies and find large negative values for Brazil. We fit our model to these findings and use it to quantify how reputation building motives affect monetary policy decisions, and the role of central bank's credibility in promoting macroeconomic stability.
+
+**摘要**: 政策制定者经常引用通货膨胀预期可能“脱锚”的风险，作为对通货膨胀冲击做出有力回应的关键理由。我们开发了一个模型来分析这种权衡，并量化稳定长期通货膨胀预期的好处。在我们的框架中，家庭和企业对中央银行的目标了解不完全，并从其政策选择中学习。认识到这种互动，中央银行在不利的供应冲击后更积极地提高利率，并接受短期产出成本，以确保更稳定的通货膨胀预期。这种声誉渠道的强度取决于长期通货膨胀预期对利率意外变化的敏感性。利用高频识别，我们估计了新兴和发达经济体的这些弹性，并发现巴西有较大的负值。我们将模型拟合到这些发现上，并用它来量化声誉建设动机如何影响货币政策决策，以及中央银行的信誉在促进宏观经济稳定中的作用。
 
 ---
 <!-- NBER_PAPERS_END -->
