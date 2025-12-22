@@ -1,396 +1,264 @@
 # 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
-*(Updated on: 2025-12-15)*
+*(Updated on: 2025-12-22)*
 
-1. **[Predictably Unpredictable Inspections](https://www.nber.org/papers/w34491)**<br/>可预测的不可预测检查
-    - *Authors: Ashvin Gandhi, Andrew Olenski, Maggie Shi*
-2. **[Fiscal Policy: Financing and Indebtedness](https://www.nber.org/papers/w34551)**<br/>财政政策：融资与债务
-    - *Authors: Jing Cynthia Wu, Shihan Xie, Yinxi Xie, Ji Zhang*
-3. **[The Effect of Online Sales Bans on E-Cigarette Use](https://www.nber.org/papers/w34565)**<br/>在线销售禁令对电子烟使用的影响
-    - *Authors: Ege Aksu, Charles J. Courtemanche, Dhaval M. Dave, Daniel L. Dench, Michael Grossman, Jooyoung Kim, Selen Ozdogan, Shubhsri Rajendra, Joseph J. Sabia, Henry Saffer*
-4. **[The Consequences of Abortion Funding Bans](https://www.nber.org/papers/w34548)**<br/>禁止堕胎资金的后果
-    - *Authors: Lauren Hoehn-Velasco, Nikita Dhingra, Mayra Pineda-Torres*
-5. **[Division of Labor in the Global Economy](https://www.nber.org/papers/w34549)**<br/>全球经济中的劳动分工
-    - *Authors: Sascha O. Becker, Hartmut Egger, Michael Koch, Marc-Andreas Muendler*
-6. **[Harvesting Differences-in-Differences and Event-Study Evidence](https://www.nber.org/papers/w34550)**<br/>利用双重差分和事件研究的证据
-    - *Authors: Alberto Abadie, Joshua Angrist, Brigham Frandsen, Jörn-Steffen Pischke*
-7. **[Long-run Effects of Universal Pre-Primary Education Expansion: Evidence from Argentina](https://www.nber.org/papers/w34552)**<br/>普遍学前教育扩展的长期效应：来自阿根廷的证据
-    - *Authors: Samuel Berlinski, Guillermo Cruces, Sebastian Galiani, Paul Gertler, Fabian Gonzalez*
-8. **[Explaining the Widening Divides in US Midlife Mortality: Is There a Smoking Gun?](https://www.nber.org/papers/w34553)**<br/>解释美国中年死亡率不断扩大的差距：有没有明显的罪魁祸首？
-    - *Authors: Christopher L. Foote, Ellen Meara, Jonathan S. Skinner, Luke R. Stewart*
-9. **[Overlapping Policy Interventions: Evidence from Home Health](https://www.nber.org/papers/w34554)**<br/>重叠政策干预：来自家庭保健的证据
-    - *Authors: Liran Einav, Amy Finkelstein, Yunan Ji, Neale Mahoney*
-10. **[Default and Interest Rate Shocks: Renegotiation Matters](https://www.nber.org/papers/w34555)**<br/>违约和利率冲击：重新谈判很重要
-    - *Authors: Victor Almeida, Carlos Esquivel, Timothy J. Kehoe, Juan Pablo Nicolini*
-11. **[The Labor Market and Health Impacts of Reducing Cesarean Section Deliveries](https://www.nber.org/papers/w34556)**<br/>降低剖宫产分娩的劳动市场和健康影响
-    - *Authors: Sarah Miller, Petra Persson, Maya Rossin-Slater, Laura R. Wherry*
-12. **[Impacts of Contemporaneous Air Pollution Exposure on Cognitive Performance in Kenya](https://www.nber.org/papers/w34557)**<br/>肯尼亚同期空气污染暴露对认知表现的影响
-    - *Authors: Xuqian Ma, Michelle N. Layvant, Edward Miguel, Eric Ochieng, Ajay Pillarisetti, Michael W. Walker*
-13. **[Anatomy of US Inequality](https://www.nber.org/papers/w34558)**<br/>美国不平等的剖析
-    - *Authors: Oded Galor, Daniel C. Wainstock*
-14. **[Experiencing Carbon Pricing](https://www.nber.org/papers/w34559)**<br/>体验碳定价
-    - *Authors: Stefano Carattini, Ian Fletcher, Chad W. Kendall, Michael K. Price, Arthur Vu*
-15. **[In-situ Upgrading or Population Relocation? Direct Impacts and Spatial Spillovers of Slum Renewal Policies](https://www.nber.org/papers/w34560)**<br/>就地升级还是人口迁移？贫民窟改造政策的直接影响和空间溢出效应
-    - *Authors: Paul Gertler, Marco Gonzalez-Navarro, Raimundo Undurraga, Joaquin A. Urrego*
-16. **[The Role of Insurers in Health Care Spending and Production: Evidence from Utah](https://www.nber.org/papers/w34561)**<br/>保险公司在医疗保健支出和生产中的作用：来自犹他州的证据
-    - *Authors: Benjamin R. Handel, Jonathan A. Holmes, Jonathan T. Kolstad, Kurt J. Lavetti*
-17. **[Monthly Earnings Volatility and Household Pooling](https://www.nber.org/papers/w34563)**<br/>月收入波动与家庭资金池
-    - *Authors: Martin E. Andresen, Andreas R. Kostøl, Ross T. Milton, Corina Mommaerts, Luisa Wallossek*
-18. **[Learning to Work Towards Goals: A Sequential Evaluation of the Effect of a Goal-Setting Course on Academic and Soft Skills](https://www.nber.org/papers/w34562)**<br/>学习努力实现目标：对目标设定课程对学术和软技能影响的顺序评估
-    - *Authors: Anaya Dam, Guthrie Gray-Lobe, Michael Kremer, Joost de Laat, Karlijn Morsink*
-19. **[Round Bidding in Auctions](https://www.nber.org/papers/w34564)**<br/>拍卖中的轮流出价
-    - *Authors: Mark van Oldeniel, Christopher M. Snyder, Adriaan R. Soetevent*
-20. **[Electoral Margins and Political Competition](https://www.nber.org/papers/w34566)**<br/>选举差距与政治竞争
-    - *Authors: Clemence Tricaud, Romain Wacziarg*
-21. **[Examining the Effect of Cannabis Legalization on Youth Cannabis Use: Evidence on the Importance of Enforcing Retailer Compliance](https://www.nber.org/papers/w34567)**<br/>审查大麻合法化对青少年大麻使用的影响：关于执行零售商合规性重要性的证据
-    - *Authors: Rahi Abouk, Johanna Catherine Maclean, Rosalie Liccardo Pacula*
-22. **[Medium-Term Impacts of Integrated Social Safety Nets: Cash Transfers, Information Meetings, and Home Visits for Child Development](https://www.nber.org/papers/w34578)**<br/>综合社会安全网的中期影响：现金转移、信息会议和家访对儿童发展的影响
-    - *Authors: Richard Akresh, Damien de Walque, Harounan Kazianga, Abigail Stocker*
-23. **[Financializing the Professions: The Rise of Private Equity in Accounting](https://www.nber.org/papers/w34575)**<br/>金融化职业：私募股权在会计行业的兴起
-    - *Authors: Inna Abramova, John M. Barrios*
-24. **[Pension Reforms and Inequalities in France](https://www.nber.org/papers/w34576)**<br/>法国的养老金改革与不平等
-    - *Authors: Antoine Bozio, Maxime Tô, Julie Tréguier*
-25. **[Social Security Reforms and Inequality among Older Workers in Spain](https://www.nber.org/papers/w34577)**<br/>社会保障改革与西班牙老年工人中的不平等
-    - *Authors: Cristina Bellés-Obrero, Manuel Flores Mallo, Pilar García-Gómez, Sergi Jimenez-Martin, Judit Vall Castelló*
-26. **[Lenin's Shadow on the Istanbul Convention: The Legacy of Communism and Attitudes Toward Violence Against Women in Europe](https://www.nber.org/papers/w34568)**<br/>列宁对伊斯坦布尔公约的影响：共产主义遗产和欧洲对针对妇女暴力的态度
-    - *Authors: Naci H. Mocan, Nur Orak*
-27. **[The State Pension Age and Inequality in Old-age Social Security Wealth in the Netherlands](https://www.nber.org/papers/w34569)**<br/>荷兰国家养老金年龄与老年社会保障财富不平等
-    - *Authors: Adriaan Kalwij, Arie Kapteyn*
-28. **[Social Security and Inequality in Belgium](https://www.nber.org/papers/w34579)**<br/>比利时的社会保障与不平等
-    - *Authors: Giulia Klinges, Alain Jousten, Mathieu Lefebvre*
-29. **[Joint Child Custody and Interstate Migration](https://www.nber.org/papers/w34571)**<br/>共同子女监护权与跨州迁移
-    - *Authors: Abi Adams, Oğuz Bayraktar, Thomas H. Jørgensen, Hamish Low, Alessandra Voena*
-30. **[Antitrust Enforcement in Labor Markets](https://www.nber.org/papers/w34572)**<br/>劳动市场的反垄断执法
-    - *Authors: Elena Prager*
-31. **[On Productivity and Distortions across Countries](https://www.nber.org/papers/w34573)**<br/>关于各国生产力和扭曲现象
-    - *Authors: Diego Restuccia*
-32. **[Social Security Reforms and Inequality in Japan](https://www.nber.org/papers/w34574)**<br/>日本社会保障改革与不平等
-    - *Authors: Takashi Oshio, Satoshi Shimizutani, Akiko S. Oishi*
+1. **[Worker Preparedness Across the Marshallian Runs Survey Instruments and Early Evidence from the Copenhagen Life Panel](https://www.nber.org/papers/w34570)**<br/>马歇尔运行中的工人准备情况调查工具和哥本哈根生活小组的早期证据
+    - *Authors: Andrew Caplin, Søren Leth-Petersen, Victoria Gregory, Ida Maria Hartmann, Eungik Lee, Johan Sæverud*
+2. **[Who Chooses and Who Benefits? The Design of Public School Choice Systems](https://www.nber.org/papers/w34581)**<br/>谁选择，谁受益？公立学校选择系统的设计与分析
+    - *Authors: Christopher Campos, Jesse Bruhn, Eric Chyn, Antonia Vazquez*
+3. **[Exporting, Wage Profiles, and Human Capital: Evidence from Brazil](https://www.nber.org/papers/w34580)**<br/>出口、工资曲线和人力资本：来自巴西的证据
+    - *Authors: Xiao Ma, Marc-Andreas Muendler, Alejandro Nakab*
+4. **[Agglomeration, Segregation and Imperial Origins](https://www.nber.org/papers/w34582)**<br/>集聚、分离和帝国起源
+    - *Authors: Ester Faia, Edward L. Glaeser, Saverio Simonelli, Martina Viarengo*
+5. **[Rebuilding Ukraine's Cities: Maximizing Benefits and Minimizing Costs](https://www.nber.org/papers/w34598)**<br/>重建乌克兰城市：最大化利益与最小化成本
+    - *Authors: Edward L. Glaeser, Martina Kirchberger, Andrii Parkhomenko*
+6. **[Generous Long-Term Contracts](https://www.nber.org/papers/w34593)**<br/>慷慨的长期合同
+    - *Authors: Sylvain Chassang*
+7. **[From RANK to HANK, without FIRE](https://www.nber.org/papers/w34596)**<br/>从排名到汉克，不涉及解雇
+    - *Authors: George-Marios Angeletos, Joao Guerreiro, Dalton Rongxuan Zhang*
+8. **[What Would it Cost to End Extreme Poverty?](https://www.nber.org/papers/w34583)**<br/>结束极端贫困需要花费多少成本？
+    - *Authors: Roshni Sahoo, Joshua Blumenstock, Paul Niehaus, Leo Selker, Stefan Wager*
+9. **[Learning and the Emergence of Nonlinearity in Financial Markets](https://www.nber.org/papers/w34584)**<br/>学习和金融市场中非线性的出现
+    - *Authors: Ian Dew-Becker, Stefano Giglio, Pooya Molavi*
+10. **[Elections and Political Investment](https://www.nber.org/papers/w34585)**<br/>选举与政治投资
+    - *Authors: Patrick A. Testa*
+11. **[The Cost of State-Building: Evidence from Germany](https://www.nber.org/papers/w34586)**<br/>国家建设的成本：来自德国的证据
+    - *Authors: Leander Heldring*
+12. **[How Good is International Risk Sharing? Stepping Outside the Shadow of the Welfare Theorems](https://www.nber.org/papers/w34587)**<br/>国际风险分担有多好？走出福利定理的阴影
+    - *Authors: Mark A. Aguiar, Oleg Itskhoki, Dmitry Mukhin*
+13. **[Understanding the Employment Effects of Opportunity Zones](https://www.nber.org/papers/w34589)**<br/>理解机会区域的就业效应
+    - *Authors: Matthew Freedman, Noah Arman Kouchekinia, David Neumark*
+14. **[Identity and Ideology in the School Boardroom](https://www.nber.org/papers/w34590)**<br/>学校董事会中的身份与意识形态
+    - *Authors: Barbara Biasi, Minseon Park, John D. Singleton, Seth D. Zimmerman*
+15. **[Multidimensional Sorting: Comparative Statics](https://www.nber.org/papers/w34591)**<br/>多维排序：比较静态学
+    - *Authors: Job Boerma, Andrea Ottolini, Aleh Tsyvinski*
+16. **[Patents to Products: Product Innovation and Firm Dynamics](https://www.nber.org/papers/w34592)**<br/>专利转化为产品：产品创新与公司动态
+    - *Authors: David Argente, Salomé Baslandze, Douglas Hanley, Sara Moreira*
+17. **[The Rise of Specialized Financial Products](https://www.nber.org/papers/w34594)**<br/>专业金融产品的兴起
+    - *Authors: Ana Babus, Matias Marzani, Sara Moreira*
+18. **[Volatile Rates, Fragile Growth: Global Financial Risk and Productivity Dynamics](https://www.nber.org/papers/w34595)**<br/>波动的利率，脆弱的增长：全球金融风险与生产力动态
+    - *Authors: Nils Gornemann, Eugenio I. Rojas, Felipe Saffie*
+19. **[An Evaluation of Biases in Wellbeing Estimates Using Interviewers Versus Online Data Collection in the Global Flourishing Study](https://www.nber.org/papers/w34599)**<br/>使用访谈者与在线数据收集在“全球繁荣研究”中对幸福感估计偏差的评估
+    - *Authors: David G. Blanchflower, Alex Bryson, Alan J. Cui*
+20. **[Sources of Evidence for Evidence-based Policymaking: Journals, Articles and Scholarly Structures in the Economic Report of the President 2010-2025](https://www.nber.org/papers/w34597)**<br/>循证政策制定的证据来源：2010-2025年《总统经济报告》中的期刊、文章和学术结构
+    - *Authors: Richard V. Burkhauser, Ji Ma*
+21. **[The Impact of Dynamic Prices on Electric Vehicle Public Charging Demand: Evidence from a Nationwide Natural Field Experiment](https://www.nber.org/papers/w34600)**<br/>动态定价对电动汽车公共充电需求的影响：来自全国自然实地实验的证据
+    - *Authors: Louise Bernard, Andy Hackett, Robert D. Metcalfe, Luca Panzone, Andrew Schein*
 
 
 ---
 
 ## 文章概览
 
-### 可预测的不可预测检查
-**[Predictably Unpredictable Inspections](https://www.nber.org/papers/w34491)**
+### 马歇尔运行中的工人准备情况调查工具和哥本哈根生活小组的早期证据
+**[Worker Preparedness Across the Marshallian Runs Survey Instruments and Early Evidence from the Copenhagen Life Panel](https://www.nber.org/papers/w34570)**
 
-**Authors**: Ashvin Gandhi, Andrew Olenski, Maggie Shi
+**Authors**: Andrew Caplin, Søren Leth-Petersen, Victoria Gregory, Ida Maria Hartmann, Eungik Lee, Johan Sæverud
 
-**Abstract**: Inspections are a common tool for acquiring information and incentivizing compliance. Although inspections are typically unannounced, their timing often follows a predictable schedule. We study how this predictability shapes firm effort and patient outcomes in U.S. nursing homes, leveraging detailed administrative data on staffing, care, and health outcomes. Nursing homes "slack" in the low-risk period following an inspection and ramp up effort as their next inspection approaches. Patient survival mirrors this pattern, suggesting that these fluctuations in effort have meaningful consequences for the quality of patient care. We embed these estimates in a dynamic model capturing how inspection regimes incentivize effort and provide information about quality. Our estimates indicate that moving to unpredictable inspections could induce as much additional effort as increasing the frequency of inspections by 12%, while only minimally reducing their informational value.
+**Abstract**: Worker preparedness is a missing transmission channel in macroeconomics. Alfred Marshall’s taxonomy of short-, medium-, and long-run adjustment was developed to analyse how firms respond to shocks when different inputs can or cannot adjust. We extend this logic to workers by adding an element Marshall’s framework leaves implicit: anticipation. Preparedness refers to the buffers, search strategies, fallback plans, and retraining intentions individuals form before disruption occurs. These forward-looking margins shape both microeconomic outcomes and the effectiveness of macroeconomic policy. The registry-linked Copenhagen Life Panel (CLP) provides a data architecture for making preparedness observable. By embedding belief and strategy elicitation within administrative records, the CLP makes it possible to test whether workers’ expectations and contingency plans are calibrated to the risks they face. Early evidence shows that short-run preparedness—liquidity, earnings-risk beliefs, and separation expectations—is measurable and predictive, and that miscalibration is a key source of vulnerability. The broader agenda is to measure preparedness across Marshallian runs and across the worker life cycle. In the medium run, adjustment depends on search strategies and fallback planning; in the long run, retraining and occupational reorientation determine whether technological disruption becomes renewal or decline. We outline survey instruments for each run that can be integrated with registry data, transforming preparedness from conjecture into measurable and model-ready constructs.
 
-**摘要**: 检查是获取信息和激励遵守规则的常用工具。尽管检查通常是不预先通知的，但它们的时机往往遵循一个可预测的时间表。我们研究了这种可预测性如何影响美国养老院的努力和病人结果，利用关于人员配备、护理和健康结果的详细行政数据。养老院在检查后的低风险期间“松懈”，随着下一次检查的临近而加大努力。病人的生存反映了这种模式，表明这些努力的波动对病人护理的质量有重要的影响。我们将这些估计嵌入一个动态模型中，捕捉检查制度如何激励努力并提供有关质量的信息。我们的估计表明，转向不可预测的检查可以诱导相当于增加检查频率12%的额外努力，同时只略微降低它们的信息价值。
-
----
-### 财政政策：融资与债务
-**[Fiscal Policy: Financing and Indebtedness](https://www.nber.org/papers/w34551)**
-
-**Authors**: Jing Cynthia Wu, Shihan Xie, Yinxi Xie, Ji Zhang
-
-**Abstract**: We conduct a large-scale information randomized controlled trial to study fiscal policy impacts. Surveying approximately 9,000 households across five eurozone countries with varying debt-to-GDP ratios enables a clean cross-country comparison. The key finding is that the fiscal multiplier depends jointly on the financing method and the country’s debt burden: multipliers are smaller in high-debt countries when debt-financed but remain similar across countries when tax-financed. Finally, we develop a New Keynesian model featuring fiscal discipline, which reproduces the empirical patterns observed in the survey and highlights their underlying economic mechanisms.
-
-**摘要**: 我们进行了一项大规模的信息随机对照试验，以研究财政政策的影响。调查了五个欧元区国家约9000户家庭，这些国家的债务与GDP比率各不相同，从而能够进行清晰的跨国比较。关键发现是，财政乘数同时取决于融资方式和国家的债务负担：在高债务国家，如果以债务融资，乘数较小；但如果以税收融资，则各国之间的乘数保持相似。最后，我们开发了一个包含财政纪律特征的新凯恩斯模型，该模型再现了调查中观察到的经验模式，并突出了它们背后的经济机制。
+**摘要**: 工人准备状态是宏观经济学中缺失的传导渠道。阿尔弗雷德·马歇尔关于短期、中期和长期调整的分类法，是为了分析企业在不同输入可以或不能调整时如何应对冲击而发展起来的。我们将这种逻辑扩展到工人身上，增加了马歇尔框架中隐含的一个要素：预期。准备状态指的是个体在中断发生之前形成的缓冲、搜索策略、备选计划和再培训意图。这些前瞻性边际既塑造了微观经济结果，也影响了宏观经济政策的有效性。与注册系统链接的哥本哈根生活小组（CLP）提供了一个使准备状态可观察的数据架构。通过在行政记录中嵌入信念和策略征询，CLP使得测试工人的预期和应急计划是否与他们面临的风险相匹配成为可能。早期证据表明，短期准备状态——流动性、收入风险信念和分离预期——是可测量和可预测的，而校准失误是脆弱性的关键来源。更广泛的议程是测量马歇尔周期和工人生命周期中的准备状态。在中期，调整取决于搜索策略和备选计划；在长期，再培训和职业重新定位决定了技术中断是成为更新还是衰退。我们为每个周期概述了调查工具，这些工具可以与注册数据集成，将准备状态从猜想转变为可测量和模型就绪的构建。
 
 ---
-### 在线销售禁令对电子烟使用的影响
-**[The Effect of Online Sales Bans on E-Cigarette Use](https://www.nber.org/papers/w34565)**
+### 谁选择，谁受益？公立学校选择系统的设计与分析
+**[Who Chooses and Who Benefits? The Design of Public School Choice Systems](https://www.nber.org/papers/w34581)**
 
-**Authors**: Ege Aksu, Charles J. Courtemanche, Dhaval M. Dave, Daniel L. Dench, Michael Grossman, Jooyoung Kim, Selen Ozdogan, Shubhsri Rajendra, Joseph J. Sabia, Henry Saffer
+**Authors**: Christopher Campos, Jesse Bruhn, Eric Chyn, Antonia Vazquez
 
-**Abstract**: Policymakers at the state and federal levels have argued that restricting online sales of e-cigarettes is a crucial policy tool to curb youth vaping. This study is the first to explore the effectiveness of statewide restrictions on online sales of electronic nicotine delivery systems (ENDS) on teen and young adult ENDS use. Using data from four national datasets (Monitoring the Future, State and Combined Youth Risk Behavior Surveillance System surveys, Population Assessment of Tobacco and Health, and Behavioral Risk Factor Surveillance System survey) and a generalized difference-in-differences approach, we find no evidence that such laws are effective at curbing youth ENDS use. With 95 percent confidence, we can rule out that online sales restrictions reduced prior-month ENDS use by more than 3.6 percent of the pre-treatment mean vaping rate. An exploration of mechanisms suggests that (1) while restrictions on online sales may have a small negative effect on online purchases, youths are able to substitute to other sources for ENDS products to compensate for reduced online access, and (2) online sources are a very rare source of e-cigarettes for youths. Finally, we also find no evidence that online sales restrictions reduce adult ENDS use.
+**Abstract**: Public school choice has evolved rapidly in the past two decades, as districts roll out new magnet, dual-language, and themed programs to broaden educational opportunity. We use newly collected national data to document that opt-in (voluntary) systems: (i) are the modal design; (ii) are harder to navigate; and (iii) have participation that is concentrated among more advantaged students. These facts suggest a striking inconsistency: districts have largely adopted centralized assignment algorithms to broaden access, but most rely on optional participation that fragments public education. We study the implications of this design choice in the Los Angeles Unified School District, the largest opt-in system in the country, combining nearly two decades of administrative data, randomized lotteries, and quasi-experimental expansions in access. Participation is highly selective, consistent with national evidence, and lottery estimates suggest that the students with the lowest demand for choice schools are the ones who gain the most from attending. Opt-in participation therefore embeds a selection mechanism that screens out high-return students and leaves many effective programs with unused capacity. To evaluate system-level implications, we estimate a structural model linking applications, enrollment, and achievement. Choice schools are vertically differentiated and generate meaningful gains, but the opt-in participation rule—through high application costs and negative selection on gains—prevents these benefits from reaching the students who need them most. Counterfactual simulations make the design stakes clear: information and travel-cost reductions have limited effects, whereas reforms that change the participation architecture eliminate core inefficiencies and deliver the largest district-wide achievement gains. These results underscore that system design— not school effectiveness alone—shapes who benefits from public school choice and to what extent.
 
-**摘要**: 州和联邦层面的政策制定者认为，限制在线销售电子烟是遏制青少年吸电子烟的关键政策工具。这项研究首次探讨了全州范围限制在线销售电子尼古丁输送系统（ENDS）对青少年和年轻成年人ENDS使用的有效性。我们使用了四个国家数据集（未来监测、州和综合青少年风险行为监测系统调查、烟草健康人口评估和行为风险因素监测系统调查）和广义差异-差异方法，发现没有证据表明这些法律能有效遏制青少年ENDS使用。我们有95%的信心排除在线销售限制将上个月ENDS使用量减少超过预处理平均吸烟率的3.6%以上。对机制的探索表明，（1）虽然在线销售的限制可能对在线购买产生小的负面影响，但青少年能够转向其他来源的ENDS产品以补偿在线获取的减少，以及（2）在线来源对青少年来说是电子烟的非常罕见的来源。最后，我们也没有发现在线销售限制减少成人ENDS使用的证据。
-
----
-### 禁止堕胎资金的后果
-**[The Consequences of Abortion Funding Bans](https://www.nber.org/papers/w34548)**
-
-**Authors**: Lauren Hoehn-Velasco, Nikita Dhingra, Mayra Pineda-Torres
-
-**Abstract**: Do restrictions on public funding create unintended reliance on social assistance? In this paper, we study the 1976 Hyde Amendment, which barred federal funding for abortion. Using county-level data and an event-study design, we show that reduced federal funding for abortion increased fertility among young women by 2%. These effects were concentrated among non-white women, who subsequently experienced greater welfare participation in states with larger abortion funding declines. The consequences extend into the next generation: non-white girls born after Hyde were more likely to rely on public assistance in adulthood. Abortion funding restrictions reinforce long-run economic inequality across generations.
-
-**摘要**: 对公共资金的限制是否造成了对社会援助的无意依赖？在本文中，我们研究了1976年的海德修正案，该修正案禁止联邦资金用于堕胎。利用县级数据和事件研究设计，我们展示了减少联邦资金对堕胎的影响，使年轻女性的生育率增加了2%。这些影响主要集中在非白人女性中，她们随后在堕胎资金减少较大的州经历了更高的福利参与度。这些后果延续到下一代：在海德修正案之后出生的非白人女孩在成年后更有可能依赖公共援助。堕胎资金限制加强了代际间长期的经济不平等。
+**摘要**: 在过去二十年中，公立学校选择迅速发展，各学区推出了新的磁石学校、双语和主题项目，以扩大教育机会。我们利用新收集的全国数据记录了以下事实：（i）选择性加入（自愿）系统是主要的设计模式；（ii）这些系统更难导航；（iii）参与主要集中在更有优势的学生中。这些事实表明了一个惊人的矛盾：学区大多采用了集中分配算法来扩大入学机会，但大多数依赖于可选参与，这使得公立教育变得支离破碎。我们研究了这种设计选择在洛杉矶联合学区的影响，这是全国最大的选择性加入系统，结合了近二十年的行政数据、随机抽签和准实验性的入学扩展。参与高度选择性，与全国证据一致，抽签估计表明，对选择学校需求最低的学生是从中获益最多的。因此，选择性参与内嵌了一个筛选机制，筛选出高回报学生，并留下许多有效项目未充分利用。为了评估系统层面的影响，我们估计了一个结构模型，将申请、入学和成绩联系起来。选择学校是垂直差异化的，并产生了有意义的收益，但选择性参与规则——通过高申请成本和对收益的负面选择——阻止了这些好处到达最需要它们的学生。反事实模拟使设计风险变得清晰：信息和旅行成本的降低效果有限，而改变参与架构的改革消除了核心低效，并带来了最大的学区范围的成绩提升。这些结果强调了系统设计——而不仅仅是学校的效能——决定了谁从公立学校选择中受益以及受益程度。
 
 ---
-### 全球经济中的劳动分工
-**[Division of Labor in the Global Economy](https://www.nber.org/papers/w34549)**
+### 出口、工资曲线和人力资本：来自巴西的证据
+**[Exporting, Wage Profiles, and Human Capital: Evidence from Brazil](https://www.nber.org/papers/w34580)**
 
-**Authors**: Sascha O. Becker, Hartmut Egger, Michael Koch, Marc-Andreas Muendler
+**Authors**: Xiao Ma, Marc-Andreas Muendler, Alejandro Nakab
 
-**Abstract**: This paper links globalization, worker efficiency, and wage inequality within plants to internal labor market organization. Using German plant-worker data and information on the task content of occupations, we document that larger plants (i) use more occupations, (ii) assign fewer tasks per occupation, and (iii) exhibit greater wage dispersion. We develop a model where plants endogenously bundle tasks into occupations, improving worker-task matching at the cost of higher fixed span-of-control costs. Embedding this into a Melitz framework, we show that trade increases worker efficiency and wage inequality in exporting plants, whereas non-exporting plants experience the opposite effects. Structural estimation and simulations confirm the model’s predictions and point to non-monotonic economy-wide effects.
+**Abstract**: Export activity shapes workers’ experience-wage profiles. Using employer-employee and customs data for Brazilian manufacturing, we document that workers' experience wage profiles are steeper at exporters than at non-exporters and, among exporters, steeper at exporters shipping to high-income destinations. We develop and quantify a model featuring worker-firm wage bargaining, export-market entry by multi-worker firms, and human capital accumulation by workers to interpret the data. Human capital growth can explain one-half of the differences in wage profiles between exporters and non-exporters. We show that increased human capital per worker can account for one-half of the overall gains in real income from trade openness.
 
-**摘要**: 本文将全球化、工人效率和工厂内部的工资不平等与内部劳动力市场组织联系起来。利用德国工厂-工人数据和职业任务内容的信息，我们记录了大型工厂（i）使用更多的职业，（ii）每个职业分配的任务更少，以及（iii）表现出更大的工资差异。我们开发了一个模型，其中工厂内生地将任务捆绑成职业，以提高工人-任务匹配效率为代价，增加了更高的固定控制范围成本。将此嵌入到Melitz框架中，我们展示了贸易如何提高出口工厂工人的效率和工资不平等，而非出口工厂则经历了相反的效果。结构估计和模拟证实了模型的预测，并指出了非单调的全局经济效应。
-
----
-### 利用双重差分和事件研究的证据
-**[Harvesting Differences-in-Differences and Event-Study Evidence](https://www.nber.org/papers/w34550)**
-
-**Authors**: Alberto Abadie, Joshua Angrist, Brigham Frandsen, Jörn-Steffen Pischke
-
-**Abstract**: This paper surveys econometric innovations related to differences-in-differences estimators and event-study models with time-varying treatment effects. Our discussion highlights tricky normalization issues, heterogeneous policy effects, the interpretation of exposure designs, pretrends pretesting, and the ever-bothersome question of logs versus levels. Key ideas are illustrated with applications.
-
-**摘要**: 本文综述了与差异中的差异估计器和具有时变处理效应的事件研究模型相关的计量经济学创新。我们的讨论重点包括棘手的标准化问题、异质性政策效应、暴露设计解释、趋势前测试和预测试，以及始终令人烦恼的对数与水平问题。通过应用实例来说明关键思想。
+**摘要**: 出口活动塑造了工人的经验-工资曲线。利用巴西制造业的雇主-雇员和海关数据，我们记录了工人在出口商处的经验工资曲线比非出口商处更陡峭，而在出口商中，向高收入目的地出口的公司工人的经验工资曲线更陡。我们开发并量化了一个模型，该模型以工人-公司工资谈判、多工人公司的出口市场进入以及工人的人力资本积累为特点，以解释数据。人力资本增长可以解释出口商和非出口商之间工资曲线差异的一半。我们展示了每个工人的人力资本增加可以解释贸易开放带来的实际收入总增长的一半。
 
 ---
-### 普遍学前教育扩展的长期效应：来自阿根廷的证据
-**[Long-run Effects of Universal Pre-Primary Education Expansion: Evidence from Argentina](https://www.nber.org/papers/w34552)**
+### 集聚、分离和帝国起源
+**[Agglomeration, Segregation and Imperial Origins](https://www.nber.org/papers/w34582)**
 
-**Authors**: Samuel Berlinski, Guillermo Cruces, Sebastian Galiani, Paul Gertler, Fabian Gonzalez
+**Authors**: Ester Faia, Edward L. Glaeser, Saverio Simonelli, Martina Viarengo
 
-**Abstract**: We study the long-run effects of a large public expansion of pre-primary educa- tion in Argentina. Between 1993 and 1999 the federal government financed the construction of new preschool classrooms targeted to departments with low base- line enrollment and high poverty, creating roughly 186,000 additional places. We link administrative records on classroom construction to four population censuses and estimate difference-in-differences models that compare treated and untreated cohorts across high- and low-construction departments. An additional preschool seat per child increases post-kindergarten schooling by about 0.5 years, raising the probability of completing secondary school by 11.9 percentage points and of enrolling in post-secondary education by 7.1 percentage points. For women, access to the program also reduces completed fertility: an additional seat lowers the number of live births per woman by 0.18, and we find no evidence that selective migration biases these estimates. We find little impact on labor-market outcomes at the census date, consistent with beneficiaries still being in school or in the early stages of their careers. A benefit-cost analysis based on the estimated schooling gains, standard Mincer returns, and observed construction and operating costs yields a benefit-cost ratio of about 11 and an internal rate of return of 13%. Our findings show that universal at-scale pre-primary expansions in middle-income countries can generate sizable improvements in human capital and demographic outcomes at relatively low fiscal cost.
+**Abstract**: What explains the dramatic differences in earnings across locations? We employ an administrative employer-employee linked dataset from Italy that includes the country’s entire workforce to estimate firm-worker or location-worker effects. We also estimate differences in human capital accumulation across firms and cities. We find that the elasticity of the location premia to density is smaller than in other settings and that other locational characteristics, such as segregation in school or the workplace and inter-generational mobility, are more strongly correlated with earnings and earnings growth. Our place-based estimates are similar if we focus on movers who were forced to relocate after the L’Aquila Earthquake. Using a regression discontinuity design, we find that density levels jump up at the historic border between House of Savoy-ruled Piedmont and the Hapsburg Empire. Earnings today also jump at the border. This finding suggests that there may be some unintended effects of being a far-flung province of a distant empire, perhaps because of access to larger markets or the administrative and educational reforms that began under Empress Maria Theresa.
 
-**摘要**: 我们研究了阿根廷大规模公共扩张学前教育的长期效应。在1993年至1999年期间，联邦政府资助了针对低基线入学率和高贫困率的部门的新学前教室建设，创造了大约186,000个额外的学位。我们将教室建设的行政记录与四次人口普查联系起来，并估计了差异中的差异模型，比较了高建设和低建设部门中接受和未接受治疗的队列。每个儿童增加一个学前座位，可以增加大约0.5年的幼儿园后教育，将完成中学教育的概率提高11.9个百分点，将接受高等教育的概率提高7.1个百分点。对于女性来说，接触该计划还减少了完成的生育率：每个额外的座位将每位女性的活产数量降低0.18，我们没有发现选择性迁移偏倚这些估计的证据。我们发现，在人口普查日期，对劳动力市场结果的影响很小，这与受益者仍在学校或职业生涯的早期阶段是一致的。基于估计的教育收益、标准的Mincer回报和观察到的建设及运营成本进行的成本效益分析，得出的成本效益比约为11，内部回报率为13%。我们的发现表明，在中等收入国家进行普遍的大规模学前教育扩张，可以在相对较低的财政成本下，在人力资本和人口结果方面产生相当大的改善。
-
----
-### 解释美国中年死亡率不断扩大的差距：有没有明显的罪魁祸首？
-**[Explaining the Widening Divides in US Midlife Mortality: Is There a Smoking Gun?](https://www.nber.org/papers/w34553)**
-
-**Authors**: Christopher L. Foote, Ellen Meara, Jonathan S. Skinner, Luke R. Stewart
-
-**Abstract**: The education-mortality gradient has increased sharply in the last three decades, with the life-expectancy gap between people with and without a college degree widening from 2.6 years in 1992 to 6.3 years in 2019 (Case and Deaton 2023). During the same period, mortality inequality across counties rose 30 percent, accompanied by an increasing rural health penalty. Using county- and state-level data from the 1992–2019 period, we demonstrate that these three trends arose due to a fundamental shift in the geographic patterns of mortality among college and non-college populations. First, we find a sharp decline in both mortality rates and geographic inequality for college graduates. Second, the reverse was true for people without a college degree; spatial inequality became amplified. Third, we find that rates of smoking play a key role in explaining all three empirical puzzles, with secondary roles attributed to income, other health behaviors, and state policies. Less well-understood is why “place effects” matter so much for smoking (and mortality) for those without a college degree.
-
-**摘要**: 在过去三十年中，教育与死亡率之间的梯度急剧增加，拥有和没有大学学位人群之间的预期寿命差距从1992年的2.6年扩大到2019年的6.3年（Case和Deaton 2023）。在同一时期，各县之间的死亡率不平等上升了30%，伴随着日益增加的农村健康惩罚。利用1992-2019年期间的县级和州级数据，我们展示了这三个趋势的出现是由于大学和非大学人群死亡率地理模式的根本转变。首先，我们发现大学毕业生的死亡率和地理不平等都急剧下降。其次，对于没有大学学位的人来说，情况正好相反；空间不平等被放大。第三，我们发现吸烟率在解释所有三个经验难题中起着关键作用，次要角色归因于收入、其他健康行为和州政策。不太为人所理解的是，为什么“地方效应”对于那些没有大学学位的人来说对吸烟（和死亡率）如此重要。
+**摘要**: 是什么导致了不同地区收入的显著差异？我们使用了意大利的一个行政雇主-雇员链接的数据集，该数据集包含了全国所有的劳动力，来估计公司-工人或地点-工人效应。我们还估计了不同公司和城市之间的人力资本积累差异。我们发现，地点溢价对密度的弹性比其他情况下要小，而其他地点特征，如学校或工作场所的隔离以及代际流动性，与收入和收入增长的相关性更强。如果我们关注在拉奎拉地震后被迫搬迁的搬迁者，我们的地方基础估计也是相似的。使用回归不连续设计，我们发现在历史上萨瓦家族统治的皮埃蒙特和哈布斯堡帝国之间的边界，密度水平会上升。今天的收入也在边界处跳跃。这一发现表明，作为一个遥远帝国的边远省份可能有一些意想不到的影响，也许是因为能够接触到更大的市场，或者是在玛丽亚·特蕾莎女皇时期开始的行政和教育改革。
 
 ---
-### 重叠政策干预：来自家庭保健的证据
-**[Overlapping Policy Interventions: Evidence from Home Health](https://www.nber.org/papers/w34554)**
+### 重建乌克兰城市：最大化利益与最小化成本
+**[Rebuilding Ukraine's Cities: Maximizing Benefits and Minimizing Costs](https://www.nber.org/papers/w34598)**
 
-**Authors**: Liran Einav, Amy Finkelstein, Yunan Ji, Neale Mahoney
+**Authors**: Edward L. Glaeser, Martina Kirchberger, Andrii Parkhomenko
 
-**Abstract**: Governments often concurrently deploy multiple policy instruments to tackle a common objective, yet researchers typically analyze each policy's impacts independently. We study interactions across policies and their implications within the context of efforts to reduce Medicare-financed home health services. We consider two geographically targeted policies:  strike force prosecutions of suspected fraud and moratoria on the entry of new home health agencies. Depending on location and time, we observe either both, one, or neither policy in place. Individually, each policy reduced home health use substantially, and was well-targeted to places with higher treatment effects. Although we estimate only a modest interaction between the two policies, we find that optimally allocating them across the areas that received at least one policy could have increased their total impact by about 20% relative to the observed placement. Our exercise highlights the potential gains from coordination across different policy instruments pursuing similar objectives.
+**Abstract**: This paper discusses the rebuilding of Ukrainian cities. We start by outlining key facts about Ukraine and its cities: (i) the country’s population is declining; (ii) there is a shift in demand for housing from east to west; (iii) Kyiv’s advantage is growing; (iv) house prices are rising in Kyiv and western cities, (v) Ukraine’s cities are slow and congested. We then present a theoretical framework for maximizing the benefits of Ukraine’s rebuilding effort to highlight the welfare effects of different allocations of post-war infrastructure. Finally, we consider the cost curve for reconstruction, as determined, in particular, by the cost of materials, labor, the industrial organization of the building industry and public practices in procurement and regulation. We highlight three broad strategies for shifting the cost curve: openness, standardization and investing-in-investing. We conclude by outlining areas for future research.
 
-**摘要**: 政府经常同时部署多种政策工具来实现共同目标，然而研究人员通常独立分析每项政策的影响。我们研究了政策间的互动及其在减少由医疗保险资助的家庭医疗服务努力中的含义。我们考虑了两项地理针对性政策：打击疑似欺诈行为的打击小组起诉和暂停新家庭服务机构的进入。根据地点和时间的不同，我们观察到要么两项政策都存在，要么只有一项政策存在，要么两项政策都不存在。单独来看，每项政策都显著减少了家庭医疗的使用，并且很好地针对了治疗效果更高的地方。尽管我们估计两项政策之间的互动仅是适度的，但我们发现，在至少接受了一项政策的地区中，对它们进行最优分配，可以将它们的总影响提高约20%，相对于观察到的布局。我们的练习突出了在追求类似目标的不同政策工具之间协调的潜在收益。
-
----
-### 违约和利率冲击：重新谈判很重要
-**[Default and Interest Rate Shocks: Renegotiation Matters](https://www.nber.org/papers/w34555)**
-
-**Authors**: Victor Almeida, Carlos Esquivel, Timothy J. Kehoe, Juan Pablo Nicolini
-
-**Abstract**: We develop a sovereign default model with debt renegotiation in which interest-rate shocks affect default incentives through two mechanisms. Under the standard mechanism, higher interest rates tighten the government’s budget constraint. Under the renegotiation mechanism, higher rates increase lenders’ opportunity cost of holding delinquent debt, which makes lenders accept larger haircuts and makes default more attractive for the government. We argue that our novel renegotiation mechanism reconciles standard sovereign default models with the narrative that the sharp increase in the real interest rate in the United States was a relevant factor in the defaults of the early 1980s.
-
-**摘要**: 我们开发了一个包含债务重组的主权违约模型，其中利率冲击通过两种机制影响违约激励。在标准机制下，更高的利率收紧了政府的预算约束。在重组机制下，更高的利率增加了债权人持有拖欠债务的机会成本，这使得债权人接受更大的减免，使得违约对政府更具吸引力。我们认为，我们新颖的重组机制将标准主权违约模型与叙述协调一致，即美国实际利率的急剧上升是1980年代早期违约的一个相关因素。
+**摘要**: 本文讨论了乌克兰城市的重建问题。我们首先概述了关于乌克兰及其城市的一些关键事实：（i）该国人口正在下降；（ii）对住房的需求从东部向西部转移；（iii）基辅的优势正在增强；（iv）基辅和西部城市的房价正在上涨；（v）乌克兰的城市发展缓慢且拥堵。然后，我们提出了一个理论框架，以最大化乌克兰重建工作的利益，并强调了战后基础设施不同分配方式的福利效应。最后，我们考虑了重建成本曲线，特别是由材料成本、劳动力成本、建筑行业的产业组织以及采购和监管中的公共实践所决定。我们强调了三种广泛的策略来转移成本曲线：开放性、标准化和投资-再投资。我们最后概述了未来研究的领域。
 
 ---
-### 降低剖宫产分娩的劳动市场和健康影响
-**[The Labor Market and Health Impacts of Reducing Cesarean Section Deliveries](https://www.nber.org/papers/w34556)**
+### 慷慨的长期合同
+**[Generous Long-Term Contracts](https://www.nber.org/papers/w34593)**
 
-**Authors**: Sarah Miller, Petra Persson, Maya Rossin-Slater, Laura R. Wherry
+**Authors**: Sylvain Chassang
 
-**Abstract**: One in three births in the United States is delivered by cesarean section (c-section). This paper studies the labor market and health effects of c-sections, using newly linked administrative data that combines the universe of California birth records with mothers’ quarterly earnings. We analyze the impact of an intervention that reduced c-section rates among low-risk first-time births, and find that mothers exposed to the intervention appear to have a higher likelihood of employment in the quarter following birth, as well as a higher likelihood of returning to their pre-birth employer. These impacts attenuate over time—suggesting that a c-section primarily delays return to the labor market following childbirth—but attachment to the pre-birth employer remains higher five quarters post-birth. We find no evidence of significant impacts on maternal or infant health, indicating that the intervention-induced decline in c-sections did not come at the cost of worse outcomes. Further, among mothers who have another child, we find that exposure to the intervention at the first birth leads to a lower likelihood of c-section and preterm delivery at the second one, implying that both the economic and health benefits of reduced c-sections may compound with birth order.
+**Abstract**: This paper argues that in long-term consumer–producer relationships, menus of contracts can often be advantageously replaced by a single generous contract such that, at any point in time, a consumer’s cumulative transfers equal the cumulative transfers they would have made under the contract that would have been best for them in hindsight. Such generous long-term contracts can increase skeptical consumers’ demand for complex and higher-powered contracts while approximately implementing the same outcomes as the underlying menu evaluated by a rational decision maker. Applications include voluntary load shedding in retail electricity markets and cost sharing in health insurance.
 
-**摘要**: 在美国，三分之一的分娩是通过剖宫产（C-section）进行的。本文利用新近链接的行政数据，结合了加利福尼亚州所有出生记录和母亲的季度收入，研究了剖宫产对劳动力市场和健康的影响。我们分析了一项降低低风险初产妇剖宫产率的干预措施的影响，并发现接触到该干预措施的母亲在分娩后的那个季度就业的可能性更高，同时返回到分娩前雇主的可能性也更高。这些影响随时间减弱——表明剖宫产主要延迟了产后重返劳动力市场的时间——但在分娩后五个季度内，与分娩前雇主的联系仍然更高。我们没有发现对母婴健康有显著影响的证据，这表明干预措施导致的剖宫产减少并没有以更糟糕的结果为代价。此外，在有另一个孩子的母亲中，我们发现在第一次分娩时接触到该干预措施会导致第二次分娩时剖宫产和早产的可能性降低，这意味着减少剖宫产的经济和健康效益可能会随着出生顺序而累积。
-
----
-### 肯尼亚同期空气污染暴露对认知表现的影响
-**[Impacts of Contemporaneous Air Pollution Exposure on Cognitive Performance in Kenya](https://www.nber.org/papers/w34557)**
-
-**Authors**: Xuqian Ma, Michelle N. Layvant, Edward Miguel, Eric Ochieng, Ajay Pillarisetti, Michael W. Walker
-
-**Abstract**: We estimate the short-term cognitive effects of fine particulate matter (PM2.5) exposure using highly time-resolved, individual-level data collected during cognitive testing in Kenya. By linking real-time portable monitor readings to Harmonized Cognitive Assessment Protocol (HCAP) scores, we identify acute impacts of pollution on general and domain-specific cognition. Higher PM2.5 exposure during testing is associated with lower cognitive performance, particularly in memory, executive function, and visuospatial tasks. Nonlinear models suggest threshold effects, with larger declines at higher exposure levels. Notably, effects are significantly larger among more educated individuals, possibly due to greater task demands or lower chronic exposure that limits physiological adaptation. Given that cognitive impairment is evident even at PM2.5 levels below Kenya’s annual regulatory threshold of 35 μg/m³, the findings suggest that short-term exposure may impose underappreciated human capital costs that current regulatory standards fail to mitigate. The results highlight the potential cognitive and economic returns to interventions that reduce air pollution exposures in low-resource settings.
-
-**摘要**: 我们利用在肯尼亚进行的认知测试期间收集的高时间分辨率、个体层面数据，估计了细颗粒物（PM2.5）暴露对短期认知效应的影响。通过将实时便携式监测器读数与协调认知评估协议（HCAP）得分相联系，我们识别了污染对一般和特定领域认知的急性影响。测试期间较高的PM2.5暴露与较低的认知表现相关，特别是在记忆、执行功能和视觉空间任务方面。非线性模型表明存在阈值效应，在较高暴露水平下下降幅度更大。值得注意的是，受教育程度较高的个体中效应显著更大，可能由于任务要求更高或长期暴露较低限制了生理适应。鉴于认知障碍在PM2.5水平低于肯尼亚年度监管阈值35微克/立方米时就已显现，这些发现表明短期暴露可能会带来当前监管标准未能减轻的被低估的人力资本成本。结果强调了在资源匮乏的环境中减少空气污染暴露的干预措施可能带来的潜在认知和经济回报。
+**摘要**: 本文认为，在长期消费者与生产者关系中，合同菜单通常可以被一个单一的慷慨合同所替代，以至于在任何时候，消费者的累积转移等于他们在事后看来最佳合同下的累积转移。这种慷慨的长期合同可以增加怀疑性消费者对复杂和更高权力合同的需求，同时大致实现理性决策者评估的潜在菜单的相同结果。应用包括零售电力市场中的自愿负荷削减和健康保险中的费用分担。
 
 ---
-### 美国不平等的剖析
-**[Anatomy of US Inequality](https://www.nber.org/papers/w34558)**
+### 从排名到汉克，不涉及解雇
+**[From RANK to HANK, without FIRE](https://www.nber.org/papers/w34596)**
 
-**Authors**: Oded Galor, Daniel C. Wainstock
+**Authors**: George-Marios Angeletos, Joao Guerreiro, Dalton Rongxuan Zhang
 
-**Abstract**: Is income inequality in the United States primarily driven by disparities between ethnic groups or within them? The evidence reveals a striking pattern: 96% of U.S. income inequality arises from variation within groups sharing common ancestral origins, far overshadowing the comparatively small share attributable to differences between these groups. This pattern remains remarkably stable across time and regions.
+**Abstract**: We offer guidance and tools for augmenting macroeconomic models with a realistic friction in expectations and for quantifying its implications. We start by distilling the common essence of a few popular alternatives to FIRE (Full Information Rational Expectations), including noisy or sticky information, rational or behavioral inattention, level-k thinking and cognitive discounting. We then develop a new specification, which captures the same essence while maximizing tractability. We show how this works in both RANK (the Representative-Agent New Keynesian model) and HANK (Heterogeneous-Agent New Keynesian models). We further clarify the separate partial- and general-equilibrium effects of informational frictions or bounded rationality; emphasize the interaction of such frictions with the Intertemporal Keynesian Cross and other forms of strategic complementarity; review concrete lessons for business cycles and macroeconomic policy; and discuss how to discipline the theory with appropriate survey evidence.
 
-**摘要**: 美国的贫富差距主要是由不同种族之间的差异造成的，还是同一种族内部的不平等造成的？证据揭示了一个惊人的模式：96%的美国收入不平等源于具有共同祖先起源的群体内部的差异，远远超过了可以归因于这些群体之间差异的相对较小的份额。这一模式在时间和地区上都保持着惊人的稳定性。
-
----
-### 体验碳定价
-**[Experiencing Carbon Pricing](https://www.nber.org/papers/w34559)**
-
-**Authors**: Stefano Carattini, Ian Fletcher, Chad W. Kendall, Michael K. Price, Arthur Vu
-
-**Abstract**: Many socially desirable policies are not implemented because of their ex-ante unpopularity, but this unpopularity may be overcome through experience with the policy. In this paper, we examine how opposition to carbon pricing in the state of Washington turned into support after voters experienced a cap-and-trade policy with revenues earmarked for environmental purposes – "cap-and-invest." Analyzing voting behavior at the census block group level, we observe that support varies by political affiliation as expected, but experience consistently increases support across the board. Using a proprietary survey, we further show that the increase in support among voters in Washington state is specific to the cap-and invest policy they experienced; support for carbon pricing or climate policies more generally remained unchanged.
-
-**摘要**: 许多社会期望的政策由于事先的不受欢迎而未能实施，但这种不受欢迎可能通过政策实施后的经验而得到克服。在本文中，我们考察了华盛顿州对碳定价的反对是如何在选民经历了一个收入专门用于环保目的的上限和交易政策——“上限和投资”后转变为支持的。通过分析人口普查区块级别的投票行为，我们观察到支持度如预期那样因政治派别而异，但经验一致地提高了所有人的支持度。利用一项专有调查，我们进一步表明，华盛顿州选民支持度的提高是针对他们所经历的上限和投资政策的；对碳定价或更广泛的气候政策的支持度保持不变。
+**摘要**: 我们提供指导和工具，用于在宏观经济模型中加入现实的预期摩擦，并量化其影响。我们首先提炼几种流行的FIRE（完全信息理性预期）替代方案的共同本质，包括噪声或粘性信息、理性或行为性疏忽、层次k思维和认知折扣。然后，我们开发了一种新的规范，它捕捉了相同的精髓，同时最大化了可操作性。我们展示了这在RANK（代表性代理新凯恩斯模型）和HANK（异质代理新凯恩斯模型）中的工作原理。我们进一步阐明了信息摩擦或有限理性的独立和一般均衡效应；强调了这些摩擦与跨时期凯恩斯交叉和其他形式的战略互补性的相互作用；回顾了对商业周期和宏观经济政策的具体教训；并讨论了如何用适当的调查证据来规范理论。
 
 ---
-### 就地升级还是人口迁移？贫民窟改造政策的直接影响和空间溢出效应
-**[In-situ Upgrading or Population Relocation? Direct Impacts and Spatial Spillovers of Slum Renewal Policies](https://www.nber.org/papers/w34560)**
+### 结束极端贫困需要花费多少成本？
+**[What Would it Cost to End Extreme Poverty?](https://www.nber.org/papers/w34583)**
 
-**Authors**: Paul Gertler, Marco Gonzalez-Navarro, Raimundo Undurraga, Joaquin A. Urrego
+**Authors**: Roshni Sahoo, Joshua Blumenstock, Paul Niehaus, Leo Selker, Stefan Wager
 
-**Abstract**: Slums are widely viewed as disadvantaged areas characterized by substandard housing and negative neighborhood spillovers that constrain local economic development. Governments typically respond with one of two place-based interventions: (a) in-situ upgrading that improves infrastructure and housing conditions within existing settlements, or (b) relocation of slum households to formal housing elsewhere in the city, freeing valuable urban land for alternative uses. We compare the direct effects and local spatial spillovers of these two approaches in Chile. We construct a 20-year national panel of slum polygons that integrates satellite imagery, census microdata, construction permits, administrative records, crime reports, and property-tax data. Using this dataset, we estimate how each policy affects the physical characteristics of slums and adjacent areas, and whether either intervention shifts the socioeconomic composition of residents. Our empirical strategy relies on Synthetic Difference-in-Differences for causal identification. We find that both policies reduce the share of land devoted to housing within the original slum perimeter — in-situ upgrading by reallocating land toward neighborhood infrastructure, and population relocation by reducing the number of slum households and housing structures. However, only in-situ upgrading generates durable improvements in housing quality and the socioeconomic status of residents. In addition, upgrading produces substantial positive spillovers in nearby neighborhoods, increasing formal housing investment and reducing crime. Moreover, administrative cost data show that in-situ upgrading is roughly one-third less expensive per household than population relocation, underscoring its greater cost-effectiveness.
+**Abstract**: We study poverty minimization via direct transfers, framing this as a statistical learning problem while retaining the information constraints faced by real-world programs. Using nationally representative household consumption surveys from 23 countries that together account for 50% of the world’s poor, we estimate that reducing the poverty rate to 1% (from a baseline of 12% at the time of last survey) would cost $170B nominal per year. This is 5.5 times the corresponding reduction in the aggregate poverty gap, but only 19% of the cost of universal basic income. Extrapolated globally, the results correspond to a cost of (approximately) ending extreme poverty of roughly 0.3% of global GDP.
 
-**摘要**: 贫民区通常被视为劣势地区，其特征是住房条件低于标准，以及对邻里产生的负面外溢效应，限制了当地的经济发展。政府通常采取两种基于地点的干预措施之一：（a）就地改造，改善现有定居点内的基础设施和住房条件；或（b）将贫民区家庭搬迁到城市其他地方的正规住房，释放宝贵的城市土地以供其他用途。我们在智利比较这两种方法的直接影响和局部空间外溢效应。我们构建了一个20年的国家贫民区多边形面板数据集，整合了卫星图像、人口普查微观数据、建筑许可证、行政记录、犯罪报告和财产税数据。利用这个数据集，我们估计每项政策如何影响贫民区及其邻近地区的物理特征，以及任何干预措施是否改变了居民的社会经济构成。我们的经验策略依赖于合成差异中的差异法进行因果识别。我们发现，这两项政策都减少了原始贫民区边界内用于住房的土地份额——就地改造通过重新分配土地用于邻里基础设施，人口搬迁通过减少贫民区家庭和住房结构的数量。然而，只有就地改造产生了住房质量和居民社会经济地位的持久改善。此外，改造在邻近社区产生了显著的正面外溢效应，增加了正规住房投资并减少了犯罪。此外，行政成本数据显示，就地改造每户的成本大约比人口搬迁少三分之一，突出了其更高的成本效益。
-
----
-### 保险公司在医疗保健支出和生产中的作用：来自犹他州的证据
-**[The Role of Insurers in Health Care Spending and Production: Evidence from Utah](https://www.nber.org/papers/w34561)**
-
-**Authors**: Benjamin R. Handel, Jonathan A. Holmes, Jonathan T. Kolstad, Kurt J. Lavetti
-
-**Abstract**: Private health insurers play a central role in determining the cost and quantity of health care in the United States. Despite this centrality, there has been limited empirical work studying how insurers differentially affect spending and consumption, especially for expensive and pervasive chronic conditions. We use hundreds of natural experiments involving employers switching their primary health insurer, together with a movers design, to estimate these causal effects. We find meaningful differences in total cost and prices for medical and pharmaceutical spending. Within-person changes in spending caused by forced reassignment across pairs of insurers, holding fixed plan generosity, are as large as 30% of total medical spending and 37% of drug spending. We also find substantial dispersion in insurer causal effects on health care spending and quantities for patients with diabetes, hypertension, and other chronic conditions. We find strong evidence for drug offsets as insurers who causally increase drug utilization also reduce medical costs and quantities overall and by condition. Finally, we find that employers do not select plans that reduce costs for their employees based on the match between employee conditions and estimated plan treatment effects, leaving significant cost savings on the table.
-
-**摘要**: 私人健康保险公司在美国医疗保健成本和数量的确定中扮演着核心角色。尽管具有这种核心地位，但对保险公司如何差异化地影响支出和消费，尤其是对于昂贵和普遍的慢性疾病，实证研究却相对有限。我们利用涉及雇主更换主要健康保险公司的数百个自然实验，以及搬迁者设计，来估计这些因果效应。我们发现，在固定计划慷慨度的情况下，由于被迫在保险公司之间重新分配而造成的个人支出变化，占医疗总支出的30%和药品支出的37%。我们还发现，保险公司对糖尿病患者、高血压患者和其他慢性病患者的医疗保健支出和数量的因果效应存在显著差异。我们为药品抵消提供了强有力的证据，因为那些因果上增加药品利用的保险公司也减少了总体和按条件划分的医疗成本和数量。最后，我们发现雇主并没有根据员工状况与估计的计划治疗效果之间的匹配来选择降低员工成本的计划，从而留下了显著的成本节省空间。
+**摘要**: 我们通过直接转移支付来研究贫困最小化问题，将其构建为一个统计学习问题，同时保留现实世界计划所面临的信息约束。我们使用了来自23个国家的全国代表性家庭消费调查数据，这些国家共同占全球贫困人口的50%。我们估计，将贫困率从上次调查时的12%降低到1%，每年需要花费1700亿美元。这相当于减少总体贫困差距的5.5倍，但仅相当于全民基本收入成本的19%。在全球范围内进行外推，这些结果对应于（大约）结束极端贫困的成本约为全球GDP的0.3%。
 
 ---
-### 月收入波动与家庭资金池
-**[Monthly Earnings Volatility and Household Pooling](https://www.nber.org/papers/w34563)**
+### 学习和金融市场中非线性的出现
+**[Learning and the Emergence of Nonlinearity in Financial Markets](https://www.nber.org/papers/w34584)**
 
-**Authors**: Martin E. Andresen, Andreas R. Kostøl, Ross T. Milton, Corina Mommaerts, Luisa Wallossek
+**Authors**: Ian Dew-Becker, Stefano Giglio, Pooya Molavi
 
-**Abstract**: This paper examines monthly earnings volatility and its transmission to household earnings volatility using Norwegian data on the universe of monthly pay histories. We document substantial month-to-month earnings changes: within a job, while over one-quarter of months have no earnings changes, another quarter have at least a 23% change. Accounting for multiple jobs and non-employment increases volatility, while aggregating to households reduces volatility by 12-35%. Event studies around job loss and couple formation, along with decomposition and bounding exercises, show that most of this decline reflects pooling effects rather than sorting or responses to shocks.
+**Abstract**: Financial markets (and more generally the real economy) display a wide range of important nonlinearities. This paper focuses on stock returns, which are skewed left – generating crashes – and whose volatility moves over time, is itself skewed, is strongly related to the level of prices, and displays long memory. This paper shows that such behavior is almost inevitable when prices are formed by investors acquiring information about the true, but latent, value of stocks. It studies a general model of filtering in which agents receive signals about the fundamental value of the stock market and dynamically update their beliefs (potentially with biases). When those beliefs are non-normal and investors believe crashes can happen, prices generically display the range of nonlinearities observed in the data. While the model does not explain where crashes come from, it shows that investors believing that prices can crash is sufficient to generate the rich higher-order dynamics observed empirically. In a simple calibration with iid shocks to fundamentals, the model fits well quantitatively, and regression-based tests support the model’s mechanism.
 
-**摘要**: 本文利用挪威关于所有月度薪酬历史的数据，研究了月收入波动及其向家庭收入波动的传导。我们记录了显著的月度收入变化：在一份工作中，超过四分之一的月份没有收入变化，而另一个四分之一的月份至少有23%的变化。考虑到多份工作和非就业状态会增加波动性，而将数据聚合到家庭层面则可以减少12-35%的波动性。围绕失业和夫妻形成事件的研究，以及分解和界定练习表明，这种下降的大部分反映了汇集效应，而不是排序或对冲击的反应。
-
----
-### 学习努力实现目标：对目标设定课程对学术和软技能影响的顺序评估
-**[Learning to Work Towards Goals: A Sequential Evaluation of the Effect of a Goal-Setting Course on Academic and Soft Skills](https://www.nber.org/papers/w34562)**
-
-**Authors**: Anaya Dam, Guthrie Gray-Lobe, Michael Kremer, Joost de Laat, Karlijn Morsink
-
-**Abstract**: This study sequentially evaluates a soft-skills course implemented in Ugandan and Kenyan primary schools that replaced academic review time with lessons on goal-setting and related skills as students prepared for high-stakes primary school-leaving exams. An exploratory evaluation in Uganda provided evidence of positive impacts on girls’ test scores. A confirmatory evaluation in Kenya found that the course led to improvements in self-reported soft skills, especially among girls, although no gains in test scores. The study illustrates the utility of sequential evaluation, with exploratory analysis to identify promising hypotheses, followed by out-of-sample testing, as a tool to uncover heterogeneous effects.
-
-**摘要**: 这项研究依次评估了在乌干达和肯尼亚的小学实施的一项软技能课程，该课程用关于目标设定和相关技能的课程取代了学术复习时间，作为学生准备高风险的小学离校考试。在乌干达进行的探索性评估提供了对女孩考试成绩产生积极影响的证据。在肯尼亚进行的确认性评估发现，该课程导致了自我报告的软技能的提高，尤其是在女孩中，尽管考试成绩没有提高。该研究展示了顺序评估的实用性，通过探索性分析来识别有希望的假设，然后进行样本外测试，作为一种揭示异质效应的工具。
+**摘要**: 金融市场（更广泛地来说，实体经济）表现出多种重要的非线性特征。本文关注股票回报，它们呈现左偏态——引发崩溃——其波动性随时间变化，本身也是偏斜的，与价格水平密切相关，并显示出长记忆性。本文表明，当价格由投资者获取关于股票真实但潜在价值的信息形成时，这种行为几乎是不可避免的。它研究了一个通用的过滤模型，其中代理人接收关于股票市场基本价值的信号，并动态更新他们的信念（可能带有偏见）。当这些信念是非正态的，并且投资者相信崩溃可能发生时，价格通常显示出数据中观察到的一系列非线性特征。虽然该模型没有解释崩溃的来源，但它表明，投资者相信价格可能崩溃就足以产生实证观察到的丰富的高阶动态。在一个简单的校准中，对基本面的独立同分布冲击，模型在定量上拟合得很好，基于回归的测试支持模型的机制。
 
 ---
-### 拍卖中的轮流出价
-**[Round Bidding in Auctions](https://www.nber.org/papers/w34564)**
+### 选举与政治投资
+**[Elections and Political Investment](https://www.nber.org/papers/w34585)**
 
-**Authors**: Mark van Oldeniel, Christopher M. Snyder, Adriaan R. Soetevent
+**Authors**: Patrick A. Testa
 
-**Abstract**: Our analysis of novel data from hundreds of thousands of online auctions on a large platform operating in the Netherlands uncovers a tendency to bid round numbers. Round winning bids are higher than average for a given item and are eschewed by bidders as they gain experience. These findings lead us to hypothesize that, rather than delivering a strategic benefit (say, adding salience to a jump bid), round bidding is a symptom of a behavioral bias. We construct a structural model of behavioral bidding in auctions, estimated for each of a subsample of the most frequently auctioned items. Our median estimate is that 21% of bidders are prone to round-number bias, reducing their expected surplus by nearly 10%.
+**Abstract**: Elections select officeholders and policies, but they also signal to political actors where to invest their time and money. This paper presents a framework for understanding these effects, in which political investors (e.g., donors, activists) allocate resources where expected political fundamentals favor their party. Investors possess idiosyncratic local knowledge but also public information in the form of recent election results. These signals are complementary: where local knowledge is good, even the narrowest vote-share majorities can align beliefs and concentrate investment. I apply this framework to the changing political geography of the United States between 1940 and 1972, when urban and minority areas came into play for the Democratic Party. A regression discontinuity design based on close presidential elections shows that counties narrowly won by Democrats saw pronounced increases in Democratic local officeholding and voter support in subsequent election periods. This does not reflect direct impacts of presidential elections on local offices, but rather indirect shifts through political investment, including heightened activity in newspaper advertising, phone banking, and civil rights mobilization. Effects are concentrated in urban, Black, and union areas where dense organizational networks enhanced local political knowledge. Together, the findings show how elections organize political actors not only at the ballot box but through the information they convey.
 
-**摘要**: 我们对荷兰一个大型平台上数十万次在线拍卖的新数据的分析揭示了出价倾向为整数的现象。整数获胜出价对于特定商品来说高于平均水平，并且随着竞拍者获得经验，他们避免出整数。这些发现使我们假设，整数出价并不是带来战略利益（比如，增加跳跃出价的显著性），而是行为偏差的一种表现。我们构建了一个拍卖中行为出价的结构模型，针对最常拍卖商品的子样本进行估计。我们的中位数估计表明，21%的竞拍者容易受到整数偏差的影响，这使他们的预期剩余减少了近10%。
-
----
-### 选举差距与政治竞争
-**[Electoral Margins and Political Competition](https://www.nber.org/papers/w34566)**
-
-**Authors**: Clemence Tricaud, Romain Wacziarg
-
-**Abstract**: In this paper, we argue that recent trends in party seat margins and election vote margins result from structural changes in the nature of US political competition. We assemble a comprehensive database of electoral results for the House, Senate and presidential contests, from the 19th century until today. Seat margins declined in the recent period, so the margins of control of the House, Senate, and Electoral College by either party have become smaller. However, this was not accompanied by a decline in the margins of victory at the constituency level. We propose a model of electoral competition with multiple districts that can rationalize these trends. We show theoretically that an increase in politicians’ information about voter preferences, together with the growing nationalization of politics, can account for the decrease in seat margins and the concurrent stability in vote margins. As implied by the model, we document that campaign contributions received by House and Senate candidates are increasingly concentrated in a dwindling set of swing constituencies.
-
-**摘要**: 在本文中，我们认为近期政党席位差距和选举投票差距的趋势源于美国政治竞争性质的结构性变化。我们构建了一个全面的数据库，收录了从19世纪至今的众议院、参议院和总统选举结果。近期的席位差距有所下降，这意味着任一政党对众议院、参议院和选举团的控制差距变得更小。然而，这并没有伴随着选区层面胜利差距的下降。我们提出了一个包含多个选区的选举竞争模型，可以合理解释这些趋势。我们从理论上展示了政治家对选民偏好信息的增加，以及政治日益国家化，可以解释席位差距的减少和投票差距的同时稳定。正如模型所暗示的，我们记录了众议院和参议院候选人收到的竞选捐款越来越集中在越来越少的摇摆选区。
+**摘要**: 选举选择公职人员和政策，但它们也向政治行为者发出信号，告诉他们应该在哪里投入时间和金钱。本文提出了一个框架，以理解这些效应，在这个框架中，政治投资者（例如，捐赠者、活动家）在预期的政治基本面有利于他们政党的地方分配资源。投资者拥有独特的地方知识，但也拥有公共信息，形式为最近的选举结果。这些信号是互补的：在地方知识良好的地方，即使是最微小的投票份额多数也可以对齐信念并集中投资。我将这个框架应用于1940年至1972年间美国政治地理的变化，当时城市和少数族裔地区开始对民主党发挥作用。基于接近的总统选举的回归不连续设计表明，民主党以微弱优势赢得的县在随后的选举周期中，民主党的地方公职和选民支持显著增加。这并不反映总统选举对地方公职的直接影响，而是通过政治投资的间接转变，包括在报纸广告、电话银行和民权动员中的活动增加。这些效应集中在城市、黑人和工会地区，那里密集的组织网络增强了地方政治知识。综合来看，这些发现表明，选举不仅在投票箱中组织政治行为者，还通过它们传达的信息来组织。
 
 ---
-### 审查大麻合法化对青少年大麻使用的影响：关于执行零售商合规性重要性的证据
-**[Examining the Effect of Cannabis Legalization on Youth Cannabis Use: Evidence on the Importance of Enforcing Retailer Compliance](https://www.nber.org/papers/w34567)**
+### 国家建设的成本：来自德国的证据
+**[The Cost of State-Building: Evidence from Germany](https://www.nber.org/papers/w34586)**
 
-**Authors**: Rahi Abouk, Johanna Catherine Maclean, Rosalie Liccardo Pacula
+**Authors**: Leander Heldring
 
-**Abstract**: Studies show that U.S. state cannabis legalization has increased adult cannabis use, but the effects on youth use are mixed. This study considers whether omission of enforcement of the minimum legal sales age (MLSA) might help explain prior mixed findings. We combine biennial survey data for 6th, 8th, 10th, and 12th grade students from the 2010-2023 Washington Healthy Youth Survey with administrative data on premise and compliance checks from the Washington State Liquor and Cannabis Board (WSLCB). Premise checks educate retailers on any potential violations but do not involve penalties or fines. Compliance checks, on the other hand, involve increasing penalties imposed on retailers if they are found to be noncompliant with sales to minors. We use difference-in-differences (DID) methods that are robust to a staggered policy rollout with dynamic and heterogeneous treatment effects and assess impacts of both types of inspections on past month cannabis use. We conduct a series of sensitivity and robustness checks of the impact of both types of inspections based on student’s grade, length of time since inspection, inclusion of alcohol/tobacco retail compliance checks, and alternative measures of cannabis use. Our research suggests that the implementation of regular random compliance checks with stiff penalties on retailers for noncompliance may help reduce the influence of legal markets on youth use. Unobserved heterogeneity within and across states in the enforcement of MLSAs may contribute to mixed findings of the impact of legalization on youth cannabis use.
+**Abstract**: I examine the potential of pro-development state (capacity) building projects to be coopted for repression. I leverage the natural experiment created by the differential build-up of capacity between formerly Prussian and formerly non-Prussian parts of unified Germany, and the radical policy shifts instigated by the Nazi regime. Across a geographical discontinuity, and across different stops of the same train transport to the East, I find that Prussian municipalities were significantly more efficient at deporting Germany's Jews. They were also better at providing public goods and at collecting taxes. Just before the Nazis came to power, Prussian municipalities also provided public goods more efficiently, but were not differentially involved with anti-Semitism. I show that democratic oversight and aspects of bureaucratic culture can mitigate the potential for future abuse of state building projects.
 
-**摘要**: 研究表明，美国各州对大麻合法化增加了成年人的大麻使用，但对青少年使用的影响则参差不齐。本研究考虑了是否省略执行最低法定销售年龄（MLSA）可能有助于解释之前的混合发现。我们将2010-2023年华盛顿健康青年调查中6年级、8年级、10年级和12年级学生的双年调查数据与华盛顿州酒类和大麻委员会（WSLCB）的场所和合规检查的行政数据结合起来。场所检查教育零售商关于任何潜在违规行为，但不涉及处罚或罚款。另一方面，合规检查涉及对被发现不遵守向未成年人销售规定的零售商增加处罚。我们使用差异中的差异（DID）方法，这些方法对错开政策推出具有动态和异质性处理效应是稳健的，并评估两种类型的检查对过去一个月大麻使用的影响。我们根据学生的年级、检查后的时间长度、包括酒精/烟草零售合规检查以及大麻使用的替代措施，进行了一系列敏感性和稳健性检查，以评估两种类型的检查的影响。我们的研究表明，实施定期随机合规检查，并对不遵守规定的零售商施加严厉处罚，可能有助于减少合法市场对青少年使用的影响。在各州内部和跨州执行MLSA时的未观察到的异质性可能有助于合法化对青少年大麻使用影响的混合发现。
-
----
-### 综合社会安全网的中期影响：现金转移、信息会议和家访对儿童发展的影响
-**[Medium-Term Impacts of Integrated Social Safety Nets: Cash Transfers, Information Meetings, and Home Visits for Child Development](https://www.nber.org/papers/w34578)**
-
-**Authors**: Richard Akresh, Damien de Walque, Harounan Kazianga, Abigail Stocker
-
-**Abstract**: Cash transfers are a critical part of social safety nets. However, integrated programs combining cash and parenting interventions through either group-based information meetings or home visits are recently being adopted to improve child development. Working with the Burkina Faso government, we conduct a randomized experiment in 225 rural villages to assess the impact of an integrated social safety net over the child’s life cycle. Villages were randomized to a control group or one of the following treatments: cash transfers; cash transfers plus government-run group-based information meetings focused on children’s health and psychosocial development; or cash transfers, information, and home visits reinforcing the information meetings. Fifteen months after treatment ended, households receiving cash, information, and home visits have fewer pregnancies, more medically assisted childbirths, enhanced health behaviors, and better educational outcomes. Adding home visits is essential for improving childhood development, while cash, with or without information, produces no lasting impacts.
-
-**摘要**: 现金转移是社会安全网的关键部分。然而，最近通过团体信息会议或家庭访问相结合的现金和育儿干预措施被采用，以改善儿童发展。我们与布基纳法索政府合作，在225个农村村庄进行随机实验，以评估综合社会安全网在儿童生命周期中的影响。村庄被随机分配到对照组或以下治疗之一：现金转移；现金转移加上政府运营的以儿童健康和心理社会发展为重点的团体信息会议；或现金转移、信息和加强信息会议的家庭访问。治疗结束15个月后，接受现金、信息和家庭访问的家庭怀孕次数更少，医疗辅助分娩更多，健康行为得到加强，教育成果更好。增加家庭访问对于改善儿童发展至关重要，而现金，无论是否提供信息，都不会产生持久影响。
+**摘要**: 我研究了促进发展型国家（能力）建设项目被用于镇压的潜力。我利用统一德国前普鲁士地区和非普鲁士地区之间能力建设的差异所创造的自然实验，以及纳粹政权引发的激进政策转变。在地理上的不连续性，以及同一趟前往东方的火车运输的不同站点，我发现普鲁士市镇在驱逐德国犹太人方面效率显著更高。它们在提供公共产品和征税方面也做得更好。就在纳粹上台之前，普鲁士市镇在提供公共产品方面也更有效率，但并没有特别涉及反犹太主义。我展示了民主监督和官僚文化的一些方面可以减轻未来滥用国家建设项目的潜力。
 
 ---
-### 金融化职业：私募股权在会计行业的兴起
-**[Financializing the Professions: The Rise of Private Equity in Accounting](https://www.nber.org/papers/w34575)**
+### 国际风险分担有多好？走出福利定理的阴影
+**[How Good is International Risk Sharing? Stepping Outside the Shadow of the Welfare Theorems](https://www.nber.org/papers/w34587)**
 
-**Authors**: Inna Abramova, John M. Barrios
+**Authors**: Mark A. Aguiar, Oleg Itskhoki, Dmitry Mukhin
 
-**Abstract**: Private equity (PE) has moved rapidly into professional services, yet its impact on accounting, where licensing regimes, reputational capital, and partnership governance traditionally limit external ownership, remains poorly understood. We examine how PE ownership alters the organization and market structure of accounting firms using data from 1999-2024 that link more than 3,600 PE transactions to detailed information on mergers and acquisitions (M&A), labor markets, and audit pricing. PE investment increases sharply after 2020 and extends to both CPA-licensed audit firms and non-CPA advisory practices, with most activity in large mid-tier PCAOB-registered firms. After PE entry, firms grow faster: non-audit revenues rise, employment expands, and cross-state M&A accelerates, consistent with platform-building and consolidation. These adjustments have market-level implications. PE investment raises labor-market concentration in key accounting occupations and drives up ERISA audit fees in a standardized setting, as confirmed by a synthetic difference-in-differences design. Our results reveal a key tension at the core of professions: preserving independence and competition in a market increasingly driven by financial capital.
+**Abstract**: We revisit whether global output is (Pareto) efficiently distributed across countries over time. The efficient allocation of goods across regions requires that the relative marginal utilities of consumption across countries comoves with the relative costs of the country-specific consumption bundles.  Standard approaches to evaluating this property exploit the Welfare Theorems and equate the observed real exchange rate with the social relative costs of consumption.  Given the large literature documenting the disconnect between exchange rates, relative prices faced by consumers in a given market, and relative quantities consumed, we develop a methodology that measures relative costs that is robust to this disconnect.  We find that relative consumption growth across regions is significantly more correlated with our computed shadow prices than it is with observed real exchange rates, suggesting an allocation closer to efficient risk sharing.  Moreover, we provide a decentralization that matches observed prices and quantities, enabling us to rationalize the better implied risk sharing with the failure of the standard correlations.  The decentralization involves a combination of segmented foreign exchange markets and pricing-to-market behavior in goods markets.  The model implies that consumption allocations are insulated from excess fluctuations in the exchange rate via the equilibrium pricing behavior of exporters.
 
-**摘要**: 私募股权（PE）迅速进入专业服务领域，但其对会计行业的影响仍然不甚明了，因为在会计行业中，传统的许可证制度、声誉资本和合伙治理限制了外部所有权。我们利用1999-2024年的数据，这些数据将超过3600宗PE交易与并购（M&A）、劳动市场和审计定价的详细信息联系起来，研究PE所有权如何改变会计师事务所的组织和市场结构。PE投资在2020年后急剧增加，扩展到注册会计师（CPA）执照的审计公司和非CPA咨询实践，大多数活动发生在大型中型PCAOB注册公司。PE进入后，公司增长更快：非审计收入上升，就业扩大，跨州并购加速，这与平台建设和整合一致。这些调整对市场层面有影响。PE投资提高了关键会计职业的劳动市场集中度，并在标准化环境中推高了ERISA审计费用，这一点通过合成差异设计得到证实。我们的结果揭示了职业核心的一个关键紧张关系：在越来越受金融资本驱动的市场中，保持独立和竞争。
-
----
-### 法国的养老金改革与不平等
-**[Pension Reforms and Inequalities in France](https://www.nber.org/papers/w34576)**
-
-**Authors**: Antoine Bozio, Maxime Tô, Julie Tréguier
-
-**Abstract**: This study analyzes the distributional effects of French pension reforms from 1993 to 2014 across different socioeconomic groups. Using administrative data for individuals born between 1934 and 1950, we examine the impact on social security wealth (SSW) across lifetime earnings deciles and genders. Our methodology incorporates differential life expectancy and exploits the PENSIPP model for counterfactual scenarios. Results show that reforms generally decreased SSW across all income groups, with regressive tendencies. The 1993 reform had the most significant impact, reducing SSW by over 15% for men in the lowest earnings decile compared to 5% for the highest. Subsequent reforms had milder effects. These findings contribute to understanding the long-term consequences of pension reforms on inequality and inform future policy decisions in countries facing similar demographic challenges.
-
-**摘要**: 这项研究分析了1993年至2014年法国养老金改革对不同社会经济群体的分配效应。利用1934年至1950年间出生个体的行政数据，我们考察了社会保障财富（SSW）在终身收入十分位数和性别间的影响。我们的方法论考虑了不同的预期寿命，并利用PENSIPP模型进行反事实情景分析。结果显示，改革普遍降低了所有收入群体的SSW，呈现出递减趋势。1993年的改革影响最为显著，将最低收入十分位数男性的SSW降低了超过15%，而最高收入群体仅降低了5%。随后的改革影响较小。这些发现有助于理解养老金改革对不平等的长期后果，并为面临类似人口挑战的国家未来的政策决策提供信息。
+**摘要**: 我们重新审视了全球产出是否（帕累托）在不同国家之间随时间高效分配的问题。不同地区间商品的有效分配需要各国消费的相对边际效用与国家特定消费组合的相对成本同步变动。评估这一属性的标准方法利用福利定理，并将观察到的实际汇率等同于消费的社会相对成本。鉴于大量文献记录了汇率、消费者面临的相对价格和消费的相对数量之间的脱节，我们开发了一种衡量相对成本的方法，该方法对这种脱节具有鲁棒性。我们发现，各地区相对消费增长与我们计算的影子价格的关联度明显高于与观察到的实际汇率的关联度，这表明分配更接近于有效的风险分担。此外，我们提供了一个与观察到的价格和数量相匹配的去中心化方案，使我们能够用标准相关性的失败来合理化更好的隐含风险分担。去中心化涉及外汇市场的分割和商品市场中的市场价格行为。该模型意味着，通过出口商的均衡定价行为，消费分配免受汇率过度波动的影响。
 
 ---
-### 社会保障改革与西班牙老年工人中的不平等
-**[Social Security Reforms and Inequality among Older Workers in Spain](https://www.nber.org/papers/w34577)**
+### 理解机会区域的就业效应
+**[Understanding the Employment Effects of Opportunity Zones](https://www.nber.org/papers/w34589)**
 
-**Authors**: Cristina Bellés-Obrero, Manuel Flores Mallo, Pilar García-Gómez, Sergi Jimenez-Martin, Judit Vall Castelló
+**Authors**: Matthew Freedman, Noah Arman Kouchekinia, David Neumark
 
-**Abstract**: This chapter studies social security reforms and trends in inequalities among older workers over the last decades in Spain. Its main goal is to analyze the redistributive impact of the various pension reforms on older income inequality. Compared to the rules in 1985, recent pension reforms have led to an average increase on Social Security Wealth of approximately 18,000€ for men and 15,000€ for women. This represents a ten and eight percent increase, respectively. This effect is mostly driven by the mechanical or direct effect (e.g. via benefit adjustments), while changes in retirement probability (secondary or behavioral effect) are close to zero. Furthermore, we find striking differences across income quartiles, for both men and women. In both cases, there is a clear income gradient, where the richest quartile has benefitted the most with an increase close to twenty percent, or over €50,000, for both men and women. Conversely, the change for the poorest income quartile for men and the two poorest income quartiles for women is close to zero or even slightly negative. This is likely due to the effect of minimum benefits (that mark the generosity of the system, see Boldrin et al, 1999) that automatically absorb any other effect for low-income individuals.
+**Abstract**: The Opportunity Zone program was designed to encourage investment in distressed communities across the United States. Early research found no evidence of impacts of the program on employment, earnings, or poverty of zone residents, but some evidence of positive effects on employment among businesses in zones. Using the latest survey-based as well as administrative data, we adopt a longer-run and more comprehensive perspective on the labor market impacts of OZs. We find that OZ designation increases job creation among businesses within zones. However, a large share of the newly created jobs in zones is offset by declines in nearby low-income communities. While we detect gains in OZ resident employment over the longer run, the increase comes from jobs with workplaces outside of OZs that, in light of the changing demographic composition of zones, are likely held by new as opposed to existing residents. Overall, our results suggest that OZs have limited benefits for existing residents of targeted areas and are associated mainly with a spatial reallocation of jobs and households.
 
-**摘要**: 本章研究了西班牙在过去几十年中对老年工人的社会安全改革和不平等现象的趋势。其主要目标是分析各种养老金改革对老年收入不平等的再分配影响。与1985年的规则相比，最近的养老金改革导致男性社会保障财富平均增加了大约18,000欧元，女性增加了15,000欧元。这分别代表了10%和8%的增长。这种效应主要是由机械或直接效应（例如，通过福利调整）驱动的，而退休概率的变化（次级或行为效应）接近零。此外，我们在收入四分位数中发现了显著的差异，对于男性和女性都是如此。在这两种情况下，都存在一个清晰的收入梯度，其中最富有的四分位数受益最多，对于男性和女性来说，收入增长接近20%，或超过50,000欧元。相反，对于男性最贫穷的收入四分位数和女性两个最贫穷的收入四分位数的变化接近零甚至略为负。这很可能是因为最低福利（标志着系统的慷慨程度，见Boldrin等人，1999年）自动吸收了低收入个体的任何其他效应。
-
----
-### 列宁对伊斯坦布尔公约的影响：共产主义遗产和欧洲对针对妇女暴力的态度
-**[Lenin's Shadow on the Istanbul Convention: The Legacy of Communism and Attitudes Toward Violence Against Women in Europe](https://www.nber.org/papers/w34568)**
-
-**Authors**: Naci H. Mocan, Nur Orak
-
-**Abstract**: The Istanbul Convention is an international treaty aimed at protecting women against violence. We employ survey datasets and investigate its effect on attitudes toward violence against women in Europe. Using difference-in-differences models we compare individuals in countries that signed and ratified the Convention with those in countries that signed but either never ratified or did so after the surveys were fielded. Entry into the Convention significantly reduced the likelihood that lower-educated individuals view violence against women as acceptable, but only in countries outside the former Eastern Bloc. In former Eastern Bloc countries, the Convention affected attitudes only among younger less-educated individuals who had limited exposure to communism—those who were no older than teenagers when the Soviet Union collapsed in 1990. We show that younger cohorts in these countries tend to hold more individualistic and less pro-government attitudes and express greater trust in the courts and the justice system than older individuals. Finally, we find no effect of the Convention on attitudes toward other forms of norm-violating behavior, such as tax evasion, bribery, fare evasion, or drug use. These results indicate that the Convention had a targeted impact, and that its influence on shaping preferences depends on the broader cultural context which is itself shaped by institutions.
-
-**摘要**: 《伊斯坦布尔公约》是一项旨在保护妇女免受暴力侵害的国际条约。我们利用调查数据集，研究其对欧洲对妇女暴力态度的影响。通过使用双重差分模型，我们比较了签署并批准该公约的国家与签署但从未批准或在调查进行后才批准的国家中的个体。加入该公约显著降低了受教育程度较低的个体认为对妇女的暴力行为是可以接受的可能性，但这只发生在前东欧集团国家之外的国家。在前东欧集团国家，公约只影响了受教育程度较低的年轻人的态度，这些人对共产主义的接触有限——那些在1990年苏联解体时不超过青少年的人。我们发现，这些国家的年轻一代往往持有更加个人主义和反对政府的态度，并且比老年人更信任法院和司法系统。最后，我们发现该公约对其他违反规范行为的态度没有影响，例如逃税、贿赂、逃票或吸毒。这些结果表明，该公约具有针对性的影响，其在塑造偏好方面的影响取决于更广泛的文化背景，而文化背景本身又受到制度的影响。
+**摘要**: 机会区域计划旨在鼓励对美国各地贫困社区的投资。早期研究发现，该计划对区域居民的就业、收入或贫困没有影响，但有一些证据表明对区域内企业的就业有积极影响。利用最新的基于调查的以及行政数据，我们采取了更长远、更全面的视角来评估OZs对劳动力市场的影响。我们发现，OZ的指定增加了区域内企业的就业创造。然而，区域内新创造的大量就业岗位被附近低收入社区的下降所抵消。尽管我们检测到OZ居民就业在长期内有所增加，但这种增加来自于工作地点在OZs之外的工作岗位，鉴于区域人口构成的变化，这些岗位很可能是由新居民而非现有居民所占据。总体而言，我们的结果表明，OZs对目标区域现有居民的好处有限，主要与工作和家庭的空间重新分配有关。
 
 ---
-### 荷兰国家养老金年龄与老年社会保障财富不平等
-**[The State Pension Age and Inequality in Old-age Social Security Wealth in the Netherlands](https://www.nber.org/papers/w34569)**
+### 学校董事会中的身份与意识形态
+**[Identity and Ideology in the School Boardroom](https://www.nber.org/papers/w34590)**
 
-**Authors**: Adriaan Kalwij, Arie Kapteyn
+**Authors**: Barbara Biasi, Minseon Park, John D. Singleton, Seth D. Zimmerman
 
-**Abstract**: Since the early 2010s, the state pension age (SPA) is one of the main public policy instruments in the Netherlands for inducing people to postpone retirement. The SPA has gradually increased from 65 years in 2012 to 66 years and 4 months in 2021. In the context of the Dutch old-age social security system, an increase in the SPA is hypothesized to decrease the retirement probability and to increase inequality in pension benefits entitlements. Empirical support for the two hypotheses is found with data on individuals aged 55–69 over the period 2011-2021. Inequality in old-age social security wealth has increased after 2015 for non-retirees. However, the findings do not support that this increase is because of the SPA increase.
+**Abstract**: School boards have statutory authority over most elementary and secondary education policies, but receive little attention compared to other actors in education systems. A fundamental challenge to understanding the importance of boards is the absence of data on the policy goals of board members—i.e., their ideologies—forcing researchers to conduct tests based on demographic and professional characteristics—i.e., identities—with which ideology is presumed to correlate. This paper uses new data on the viewpoints and policy actions of school board members, coupled with a regression discontinuity design that generates quasi-random variation in board composition, to establish two results. The first is that the priorities of board members have large causal effects across many domains. For example, the effect of electing an equity-focused board member on test scores for low-income students is roughly equivalent to assigning every such student a teacher who is 0.3 to 0.4 SDs higher in the distribution of teacher value-added. The second is that observing policy priorities is crucial. Identity turns out to be a poor proxy for ideology, with limited governance effects that are fully explained by differences in policy priorities. Our findings challenge the belief that school boards are unimportant, showing that who serves on the board and what they prioritize can have far-reaching consequences for students.
 
-**摘要**: 自2010年代初以来，国家退休年龄（SPA）一直是荷兰诱导人们推迟退休的主要公共政策工具之一。SPA从2012年的65岁逐渐增加到2021年的66岁零4个月。在荷兰老年社会保障体系的背景下，假设提高SPA会降低退休概率，并增加养老金福利权益的不平等。通过对2011-2021年期间55-69岁个体的数据进行分析，为这两个假设提供了经验支持。2015年后，非退休人员的老年社会保障财富不平等有所增加。然而，研究结果并不支持这种增加是因为SPA的提高。
-
----
-### 比利时的社会保障与不平等
-**[Social Security and Inequality in Belgium](https://www.nber.org/papers/w34579)**
-
-**Authors**: Giulia Klinges, Alain Jousten, Mathieu Lefebvre
-
-**Abstract**: Over the years, the Belgian social security system has undergone substantial reform with a prime focus on increasing older worker labor force participation. The paper explores the effect of past reforms on inequality in old age.  We distinguish two separate effects: The mechanical effect considers the change in inequality and expected benefit levels due to the reforms for a fixed retirement age distribution. The behavioral effect accounts for the endogenous change caused by changes in the incentives to work. Our results show that mechanically, reforms have led to losses in expected benefits for all but the lowest income quintile. Behavioral changes had a positive but orders of magnitude smaller effect. Overall, inequality decreased as a result of reforms.
-
-**摘要**: 多年来，比利时社会保障体系经历了重大改革，主要关注点是提高老年工人的劳动力参与度。本文探讨了以往改革对老年时期不平等的影响。我们区分了两种独立的效果：机械效应考虑了由于改革导致的不平等和预期福利水平的变化，而假设退休年龄分布是固定的。行为效应考虑了由于工作激励变化引起的内生变化。我们的结果显示，从机械角度来看，改革导致了除最低收入五分位数外，所有群体预期福利的损失。行为变化产生了积极但数量级小得多的影响。总体而言，改革导致不平等减少。
+**摘要**: 学校董事会对大多数小学和中学教育政策拥有法定权威，但与其他教育系统中的参与者相比，它们受到的关注很少。理解董事会重要性的基本挑战是缺乏关于董事会成员政策目标的数据——即他们的意识形态——这迫使研究人员基于人口统计和专业特征——即身份——进行测试，这些特征被假定与意识形态相关。本文使用了关于学校董事会成员的观点和政策行动的新数据，并结合了一个回归不连续设计，该设计在董事会组成中产生了准随机变化，以建立两个结果。第一，董事会成员的优先事项在许多领域都有大的因果效应。例如，选举一个关注公平的董事会成员对低收入学生考试成绩的影响，大致相当于为每个这样的学生分配一个在教师价值增加分布中高出0.3到0.4个标准差的教师。第二，观察政策优先事项至关重要。身份结果是一个意识形态的差代理，其治理效应有限，完全可以通过政策优先事项的差异来解释。我们的发现挑战了学校董事会不重要的信念，表明谁在董事会服务以及他们优先考虑什么，对学生可能产生深远的影响。
 
 ---
-### 共同子女监护权与跨州迁移
-**[Joint Child Custody and Interstate Migration](https://www.nber.org/papers/w34571)**
+### 多维排序：比较静态学
+**[Multidimensional Sorting: Comparative Statics](https://www.nber.org/papers/w34591)**
 
-**Authors**: Abi Adams, Oğuz Bayraktar, Thomas H. Jørgensen, Hamish Low, Alessandra Voena
+**Authors**: Job Boerma, Andrea Ottolini, Aleh Tsyvinski
 
-**Abstract**: Joint custody following divorce is widespread, but implementation is costly when individuals live in different states and so affects interstate mobility. Migration of separated fathers has fallen significantly more than that of married fathers. We show the causal effect of joint custody using two strategies. First, we survey separated parents to elicit beliefs about the likelihood of interstate moves. Second, we use the staggered adoption of joint custody laws across US states, and show a reduction in actual migration of 11 percentage points for fathers. For mothers, there is no impact on mobility but suggestive evidence of beneficial labor market outcomes.
+**Abstract**: In sorting literature, comparative statics for multidimensional assignment models with general output functions and input distributions is an important open question. We provide a complete theory of comparative statics for technological change in general multidimensional assignment models. Our main result is that any technological change is uniquely decomposed into two distinct components. The first component (gradient) gives a characterization of changes in marginal earnings through a Poisson equation. The second component (divergence-free) gives a characterization of labor reallocation. For U.S. data, we quantify equilibrium responses in sorting and earnings with respect to cognitive skill-biased technological change.
 
-**摘要**: 离婚后的共同监护很普遍，但当个体居住在不同的州时，实施起来成本很高，因此影响了州际流动性。分居父亲的迁移率比已婚父亲的迁移率显著下降。我们使用两种策略来展示共同监护的因果效应。首先，我们调查分居的父母，以了解他们对州际迁移可能性的看法。其次，我们利用美国各州逐步采用共同监护法律的情况，显示父亲的实际迁移减少了11个百分点。对于母亲来说，流动性没有影响，但有迹象表明劳动市场结果有益。
-
----
-### 劳动市场的反垄断执法
-**[Antitrust Enforcement in Labor Markets](https://www.nber.org/papers/w34572)**
-
-**Authors**: Elena Prager
-
-**Abstract**: Until recently, antitrust laws were rarely enforced in labor markets. Although the existence of labor market power has long been recognized, evidence only recently emerged that such market power regularly arises from sources that are actionable under antitrust law. Since 2010, antitrust agencies have substantially increased labor market enforcement actions. However, many questions relevant to enforcement remain unanswered, such as how to conduct market definition for labor markets, and how best to incorporate concentration into models of the labor market. This article reviews how antitrust is beginning to be used in labor markets, the evidence for and against its use, and the remaining evidence gaps standing in the way of more effective use.
-
-**摘要**: 直到最近，反垄断法很少在劳动市场中执行。尽管劳动市场势力的存在早已被认识到，但直到最近才有证据显示，这种市场势力经常来自可以根据反垄断法采取行动的源头。自2010年以来，反垄断机构已大幅增加对劳动市场的执法行动。然而，许多与执法相关的问题仍未得到解答，例如如何对劳动市场进行市场界定，以及如何最好地将集中度纳入劳动市场模型。本文回顾了反垄断如何开始在劳动市场中使用，支持和反对其使用的证据，以及阻碍更有效使用的剩余证据缺口。
+**摘要**: 在文献整理中，对于具有一般输出函数和输入分布的多维分配模型的比较静态学是一个重要的开放性问题。我们为一般多维分配模型中的技术变革提供了一个完整的比较静态学理论。我们的主要结果是，任何技术变革都可以唯一地分解为两个不同的组成部分。第一个组成部分（梯度）通过泊松方程给出了边际收益变化的特征描述。第二个组成部分（无散度）给出了劳动力重新分配的特征描述。对于美国数据，我们量化了在认知技能偏向型技术变革下，排序和收入方面的均衡响应。
 
 ---
-### 关于各国生产力和扭曲现象
-**[On Productivity and Distortions across Countries](https://www.nber.org/papers/w34573)**
+### 专利转化为产品：产品创新与公司动态
+**[Patents to Products: Product Innovation and Firm Dynamics](https://www.nber.org/papers/w34592)**
 
-**Authors**: Diego Restuccia
+**Authors**: David Argente, Salomé Baslandze, Douglas Hanley, Sara Moreira
 
-**Abstract**: I examine the empirical properties of firm-level productivity and distortions across countries using the newly released World Bank Enterprise Surveys (WBES). Using a standard framework of production heterogeneity, I show that the gap in productivity and distortions between high and low productivity firms is larger in developing countries, generating large aggregate productivity losses from misallocation. A key empirical property of distortions in developing countries is that they systematically weaken the relationship between firm size and firm productivity. I exploit a unique feature of the WBES data to document which specific aspects of the economic environment faced by firms, such as financial constraints, regulation, corruption, and weak infrastructure, are consistent with the empirical pattern of distortions across countries.
+**Abstract**: We match patents to products using natural language methods applied to detailed product descriptions and patent texts in the consumer goods sector. While more than half of product innovations originate from non-patenting firms, patent filings are on average followed by subsequent product introductions. Yet this relationship weakens with firm size. Patents held by market leaders also yield revenue premiums beyond what can be explained by their own product introductions and are associated with stronger deterrence of competitors’ innovations. To interpret these findings, we develop a simple growth model in which larger firms have stronger incentives to engage in strategic patenting—filing for protection rather than market innovation—which dampens innovation and slows creative destruction.
 
-**摘要**: 我利用新发布的世界银行企业调查（WBES）数据，研究了跨国公司层面生产率和扭曲的实证特性。使用一个标准的生产异质性框架，我展示了高生产率和低生产率企业之间在生产率和扭曲方面的差距在发展中国家更大，从而造成了由于资源错配导致的大量总体生产率损失。发展中国家扭曲的一个关键经验特性是，它们系统性地削弱了企业规模与企业生产率之间的关系。我利用WBES数据的一个独特特点，记录了企业面临的经济环境的具体哪些方面，例如财务约束、监管、腐败和薄弱的基础设施，与跨国扭曲的经验模式一致。
+**摘要**: 我们使用自然语言方法将专利与产品匹配，这些方法应用于消费品领域的详细产品描述和专利文本。虽然超过一半的产品创新来自非专利公司，但专利申请平均上会随后带来产品推出。然而，这种关系随着公司规模的增大而减弱。市场领导者持有的专利也会产生超出自身产品推出的收入溢价，并且与竞争对手创新的更强威慑力相关。为了解释这些发现，我们开发了一个简单的增长模型，其中较大的公司有更强的动机从事战略性专利申请——为了保护而非市场创新——这抑制了创新并减缓了创造性破坏。
 
 ---
-### 日本社会保障改革与不平等
-**[Social Security Reforms and Inequality in Japan](https://www.nber.org/papers/w34574)**
+### 专业金融产品的兴起
+**[The Rise of Specialized Financial Products](https://www.nber.org/papers/w34594)**
 
-**Authors**: Takashi Oshio, Satoshi Shimizutani, Akiko S. Oishi
+**Authors**: Ana Babus, Matias Marzani, Sara Moreira
 
-**Abstract**: We examined the heterogeneous impacts of social security reforms in Japan over the past 40 years. We utilize a nationwide large-scale micro-dataset to compute individual-level social security wealth (SSW) and mortality rates by lifetime earning groups. We found that SSW declined for all groups after the social security reforms, which aimed to reduce generosity; however, the size of the negative impact was larger for richer individuals. These results indicate that a series of recent social security reforms have reduced inequality in SSW.
+**Abstract**: The variety of financial products available for firms to raise funds has expanded rapidly in recent decades. This paper studies the role of innovations that introduce specialized financial products using a combination of granular data and a parsimonious model of security issuance. We present three key findings. First, differential product adoption across firms explains most of the observed variation in the amounts of funds raised. Second, firms that adopt new products are more successful in raising funds. Third, the funds raised from new financial products are often sourced from numerous highly specialized products, each used by only a few firms.
 
-**摘要**: 我们研究了过去40年日本社会保障改革的异质性影响。我们利用全国性的大规模微观数据集计算了按终身收入群体划分的个人层面的社会保障财富（SSW）和死亡率。我们发现，在旨在减少慷慨度的社会保障改革之后，所有群体的SSW都有所下降；然而，对较富裕个体的负面影响更大。这些结果表明，最近的一系列社会保障改革减少了SSW的不平等。
+**摘要**: 近几十年来，企业筹集资金可用的金融产品种类迅速扩大。本文利用精细数据和简约的证券发行模型，研究引入专业金融产品的创新所发挥的作用。我们提出三个关键发现。首先，不同企业对产品的不同采用解释了观察到的筹资金额变化的大部分。其次，采用新产品的企业在筹资方面更为成功。第三，从新金融产品中筹集的资金往往来源于众多高度专业化的产品，每种产品仅被少数企业使用。
+
+---
+### 波动的利率，脆弱的增长：全球金融风险与生产力动态
+**[Volatile Rates, Fragile Growth: Global Financial Risk and Productivity Dynamics](https://www.nber.org/papers/w34595)**
+
+**Authors**: Nils Gornemann, Eugenio I. Rojas, Felipe Saffie
+
+**Abstract**: We document that rising volatility in U.S. interest rates, a key dimension of global financial risk, notably depresses the trend of economic activity in emerging market economies (EMEs) but not in advanced economies (AEs). Using a panel state-space model, we show that a one standard- deviation shock to U.S. monetary policy uncertainty permanently lowers the level of GDP in EMEs by about 25 basis points after three years, with negligible effects in AEs. We rationalize this fact in a small open economy model where firms borrow against future profits to finance innovation. Higher volatility compresses firm values, tightens collateral constraints, and endogenously slows productivity growth, especially when financial frictions are severe.
+
+**摘要**: 我们记录了美国利率波动性的上升，这是全球金融风险的一个关键维度，显著地抑制了新兴市场经济体（EMEs）的经济活动趋势，但在发达经济体（AEs）中却没有这种影响。利用面板状态空间模型，我们展示了美国货币政策不确定性的一个标准差冲击在三年后永久性地降低了EMEs的GDP水平约25个基点，而在AEs中影响微不足道。我们在一个小开放经济模型中合理化了这一事实，在这个模型中，企业通过未来利润借款来资助创新。更高的波动性压缩了企业价值，收紧了抵押品约束，并在金融摩擦严重时内生地减缓了生产率增长。
+
+---
+### 使用访谈者与在线数据收集在“全球繁荣研究”中对幸福感估计偏差的评估
+**[An Evaluation of Biases in Wellbeing Estimates Using Interviewers Versus Online Data Collection in the Global Flourishing Study](https://www.nber.org/papers/w34599)**
+
+**Authors**: David G. Blanchflower, Alex Bryson, Alan J. Cui
+
+**Abstract**: Survey mode is a critical consideration in well-being research using the 22 country Global Flourishing Study (GFS).  We find marked differences in responses to well-being questions if they are obtained via a telephone interviewer (CATI) or online (CAWI).  In fifteen countries in the GFS both survey modes are used.  In seven of the most advanced countries, only CAWI is used.  Well-being responses are markedly different across survey modes within countries using both modes and compared to countries only using CAWI.  On average, CATI tends to produce higher well-being scores.  Failure to account for these sampling differences biases results.  This is the case in twenty-three prior studies that used the GFS and took no account of survey mode.  We examine each of these studies and show the findings differ by survey mode.  Combined with the presence of other unobservable country-level confounders, the differences between survey modes substantively weakens the internal validity of cross-country comparisons and random effects meta-analysis conducted with the GFS.
+
+**摘要**: 调查方式是使用22个国家的全球繁荣研究（GFS）进行幸福感研究时的一个重要考量。我们发现，如果幸福感问题是通过电话访问员（CATI）或在线（CAWI）获得的，那么对这些问题的回答存在明显差异。在GFS中的15个国家，同时使用了这两种调查方式。在7个最先进的国家中，仅使用了CAWI。在使用两种模式的国家中，幸福感反应在调查方式之间存在明显差异，与仅使用CAWI的国家相比也是如此。平均而言，CATI倾向于产生更高的幸福感得分。未能考虑这些抽样差异会导致结果偏差。在使用GFS的23项先前研究中，这种情况普遍存在，这些研究没有考虑调查方式。我们检查了这些研究中的每一项，并展示了调查方式不同的发现。结合其他不可观察的国家层面混杂因素的影响，调查方式之间的差异显著削弱了使用GFS进行的跨国比较和随机效应元分析的内部有效性。
+
+---
+### 循证政策制定的证据来源：2010-2025年《总统经济报告》中的期刊、文章和学术结构
+**[Sources of Evidence for Evidence-based Policymaking: Journals, Articles and Scholarly Structures in the Economic Report of the President 2010-2025](https://www.nber.org/papers/w34597)**
+
+**Authors**: Richard V. Burkhauser, Ji Ma
+
+**Abstract**: How does academic research inform presidential economic policy? This paper investigates the sources of evidence in the Economic Report of the President from 2010 to 2025. We construct a novel dataset of 4,140 unique references cited across the Obama, Trump, and Biden administrations to map the evidence base used by the Council of Economic Advisers. Our analysis shows that peer-reviewed articles, comprising 66.62% of all these references, are heavily concentrated in top-tier economics journals. While the specific articles cited change with policy priorities, the hierarchy of journals remains moderately stable across years and administrations. A co-author network analysis reveals a scholarly landscape of distinct intellectual camps. Crucially, a small number of high-centrality scholars act as brokers, connecting these disparate research communities. Together, our findings illuminate the social structure of evidence-based policymaking, demonstrating how journal hierarchies and scholarly networks shape the flow of economic knowledge to the White House.
+
+**摘要**: 学术研究如何影响总统的经济政策？本文调查了2010年至2025年《总统经济报告》中的证据来源。我们构建了一个包含4,140个独特引用的新数据集，这些引用跨越了奥巴马、特朗普和拜登政府，以映射经济顾问委员会使用的证据基础。我们的分析显示，同行评审文章占所有这些引用的66.62%，并且高度集中在顶级经济学期刊中。虽然随着政策优先事项的变化，引用的具体文章会发生变化，但期刊的层级在不同年份和政府之间保持适度稳定。合作者网络分析揭示了一个由不同知识阵营组成的学术景观。至关重要的是，少数高中心性的学者充当中介，连接这些不同的研究社区。总体而言，我们的发现揭示了基于证据的政策制定的社会结构，展示了期刊层级和学术网络如何塑造经济知识流向白宫的过程。
+
+---
+### 动态定价对电动汽车公共充电需求的影响：来自全国自然实地实验的证据
+**[The Impact of Dynamic Prices on Electric Vehicle Public Charging Demand: Evidence from a Nationwide Natural Field Experiment](https://www.nber.org/papers/w34600)**
+
+**Authors**: Louise Bernard, Andy Hackett, Robert D. Metcalfe, Luca Panzone, Andrew Schein
+
+**Abstract**: Understanding how to effectively influence electric vehicle (EV) charging behavior is critical for managing electricity grids powered by high levels of variable renewable generation. We present results from a large-scale natural field experiment conducted in the United Kingdom, involving approximately 110,000 EV customers and 60% of the country’s public charging infrastructure. Within this network, we applied a price decrease to approximately one-fifth of chargers to bring their prices closer to the marginal cost of electricity in low-cost hours in Great Britain. Customers were randomly assigned to different price levels, allowing us to estimate the causal effect of price on charging demand and derive elasticities of short-run behavioral responses. Customers were highly responsive to price: a 40% reduction in charging costs increased platform-wide charging activity by 117%, while a 15% price cut led to a 30% increase. Decomposing the increase in charging, we estimate that approximately half reflected substitution between charging apps. Our findings suggest that dynamic pricing for public EV charging generated large consumer welfare gains.
+
+**摘要**: 了解如何有效地影响电动汽车（EV）充电行为对于管理由高水平可变可再生能源供电的电网至关重要。我们介绍了在英国进行的一项大规模自然现场实验的结果，涉及大约110,000名电动汽车客户和该国60%的公共充电基础设施。在这个网络中，我们将大约五分之一的充电站的价格降低了，以使它们的价格更接近英国低成本时段电力的边际成本。客户被随机分配到不同的价格水平，使我们能够估计价格对充电需求的因果效应，并得出短期行为反应的弹性。客户对价格非常敏感：充电成本降低40%使平台范围内的充电活动增加了117%，而15%的价格削减导致增加了30%。分解充电量的增加，我们估计大约一半反映了充电应用程序之间的替代。我们的发现表明，公共电动汽车充电的动态定价产生了巨大的消费者福利收益。
 
 ---
 <!-- NBER_PAPERS_END -->
