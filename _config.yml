@@ -2,7 +2,9 @@
 theme: jekyll-theme-minimal
 
 # 设置网站的标题，会显示在浏览器标签页和页面顶部
-title: 芾椿YA
+title: 申椿
 
 # 设置网站的描述，会显示在标题下方
-description: 每周一14：00自动抓取最新NBER工作论文，中文内容由Kimi翻译。欢迎关注微信公众号：芾椿YA
+description: 每周一14：00自动抓取最新NBER工作论文，中文内容由Kimi翻译。欢迎关注微信公众号：申椿（ID: E-SChun）
+
+<img src="https://fyapeng.com/assets/img/qr.png" width="150" alt="公众号二维码" style="border: 1px solid #ddd; padding: 5px;">
