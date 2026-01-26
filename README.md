@@ -1,396 +1,456 @@
 # 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
-*(Updated on: 2026-01-19)*
+*(Updated on: 2026-01-26)*
 
-1. **[Topography of the FX Derivatives Market: A View from London](https://www.nber.org/papers/w34588)**<br/>外汇衍生品市场地形图：来自伦敦的视角
-    - *Authors: Sinem Hacioglu Hoke, Daniel A. Ostry, Hélène Rey, Adrien Rousset Planat, Vania Stavrakeva, Jenny Tang*
-2. **[Subcontracting in Federal Spending: Micro and Macro Implications](https://www.nber.org/papers/w34686)**<br/>联邦支出中的分包：微观与宏观影响
-    - *Authors: Geumbi Park, Xiaoqing Zhou, Sarah Zubairy*
-3. **[Monopsony, Markdowns, and Minimum Wages](https://www.nber.org/papers/w34699)**<br/>垄断买方、降价和最低工资
-    - *Authors: Ester Faia, Benjamin Lochner, Benjamin Schoefer*
-4. **[Community College Bachelor’s Degrees: How CCB Graduates’ Earnings Compare to AAs and BAs](https://www.nber.org/papers/w34684)**<br/>社区学院学士学位：CCB毕业生的收入与副学士和学士相比如何
-    - *Authors: Riley K. Acton, Camila Morales, Kalena Cortes, Julia A. Turner, Lois Miller*
-5. **[Unlocking Occupational Opportunity: The Labor Market Effects of DACA](https://www.nber.org/papers/w34685)**<br/>开启职业机会：DACA对劳动市场的影响
-    - *Authors: Aimee Chin, Kalena Cortes, Camila Morales*
-6. **[How Restrictive is U.S. Trade Policy?](https://www.nber.org/papers/w34687)**<br/>美国贸易政策有多限制性？
-    - *Authors: Michael E. Waugh*
-7. **[Capital Flows in a World Starved for Liquidity: Analysis and Policy Implications](https://www.nber.org/papers/w34688)**<br/>在流动性匮乏的世界中的资本流动：分析与政策含义
-    - *Authors: Enrique G. Mendoza, Vincenzo Quadrini*
-8. **[Financial Globalization: Risk Sharing or Risk Exposure?](https://www.nber.org/papers/w34689)**<br/>金融全球化：风险分担还是风险暴露？
-    - *Authors: Enrique G. Mendoza, Vincenzo Quadrini*
-9. **[AI-Enhanced Handheld ECGs to Screen for Prior Myocardial Infarction in Rural India](https://www.nber.org/papers/w34690)**<br/>人工智能增强型手持心电图仪用于筛查印度农村地区的既往心肌梗死
-    - *Authors: Jenny Wang, Alexander Schubert, Nikhil Kanakamedala, Madeline McKelway, Luke Messac, Cyrus Reginald, Frank Schilbach, T.S. Selvavinayagam, Girija Vaidyanathan, Esther Duflo, Ziad Obermeyer*
-10. **[Ricardian Non-Equivalence](https://www.nber.org/papers/w34691)**<br/>李嘉图非等价
-    - *Authors: Martin S. Eichenbaum, Joao Guerreiro, Jana Obradovic*
-11. **[Skipping the Factory: Service-Led Growth and Structural Transformation in the Developing World](https://www.nber.org/papers/w34692)**<br/>跳过工厂：发展中国家的服务引领增长和结构转型
-    - *Authors: Michael Peters, Youdan Zhang, Fabrizio Zilibotti*
-12. **[Customer Overlap and Diversion Ratios](https://www.nber.org/papers/w34693)**<br/>客户重叠与分流比率
-    - *Authors: Liran Einav, Mariana D. Guido, Peter J. Klenow*
-13. **[The Geography of Science](https://www.nber.org/papers/w34694)**<br/>科学的地理学
-    - *Authors: Abhishek Nagaraj, Randol Yao*
-14. **[Hitting Rock Bottom: Economic Hardship and Cheating](https://www.nber.org/papers/w34695)**<br/>跌入谷底：经济困难与作弊
-    - *Authors: Livia Alfonsi, Michal Bauer, Julie Chytilová, Edward Miguel*
-15. **[Why is the Mental Health of the Youngest American Workers in Decline?](https://www.nber.org/papers/w34696)**<br/>为什么最年轻的美国工人的心理健康正在下降？
-    - *Authors: David G. Blanchflower, Alex Bryson*
-16. **[Party Pressure and Representation](https://www.nber.org/papers/w34697)**<br/>党派压力与代表性
-    - *Authors: Chad W. Kendall*
-17. **[The Distributional Effects of Cost-Sharing in a Universal Healthcare System](https://www.nber.org/papers/w34700)**<br/>在全民医疗保健系统中成本分担的分配效应
-    - *Authors: Simon S. Bensnes, Ingrid Huitfeldt, Victoria Marone*
-18. **[SNAP Work Requirements, Administrative Burden and Procedural Denials](https://www.nber.org/papers/w34698)**<br/>SNAP工作要求、行政负担和程序性拒绝
-    - *Authors: Jason B. Cook, Elizabeth Cox, Chloe N. East*
-19. **[Research to Improve the Quality, Impact, and Value of Home and Community-Based Services](https://www.nber.org/papers/w34701)**<br/>提高家庭和社区基础服务的质量和影响力以及价值的研究
-    - *Authors: Jacob M. Sims Speyer, Ari Ne'eman, Norma B. Coe, Ellen Meara*
-20. **[Kalshi and the Rise of Macro Markets](https://www.nber.org/papers/w34702)**<br/>卡尔希与宏观市场的兴起
-    - *Authors: Anthony M. Diercks, Jared Dean Katz, Jonathan H. Wright*
-21. **[Aggregate Productivity with Discrete Choice](https://www.nber.org/papers/w34703)**<br/>离散选择下的总体生产力
-    - *Authors: David Baqaee, Ariel Burstein*
-22. **[Tenure-Dependent Severance Costs and Labor Market Dynamics over the Life Cycle](https://www.nber.org/papers/w34704)**<br/>任期依赖的遣散费用与生命周期中的劳动市场动态
-    - *Authors: Calebe Figueiredo, Neville Francis*
-23. **[How Adaptable Are American Workers to AI-Induced Job Displacement?](https://www.nber.org/papers/w34705)**<br/>美国工人对人工智能引起的工作流失的适应性如何？
-    - *Authors: Sam J. Manning, Tomás Aguirre*
-24. **[Marginal Admission to Elite High Schools: Long-run Effects on Labor Market Outcomes](https://www.nber.org/papers/w34706)**<br/>精英高中边际录取：对劳动市场结果的长期影响
-    - *Authors: Francisco J. Cabrera-Hernández, Andrew Dustan, Daniel Osuna Gomez, María Padilla-Romo*
-25. **[Never Enough: Dynamic Status Incentives in Organizations](https://www.nber.org/papers/w34707)**<br/>永无止境：组织中的动态地位激励
-    - *Authors: Leonardo Bursztyn, Ewan Rawcliffe, Hans-Joachim Voth*
-26. **[Business Concentration around the World: 1900-2020](https://www.nber.org/papers/w34711)**<br/>全球商业集中度：1900-2020
-    - *Authors: Yueran Ma, Mengdi Zhang, Kaspar Zimmermann*
-27. **[Pricing Residential Mortgage Credit Risk in the Post-GFC Era](https://www.nber.org/papers/w34708)**<br/>后全球金融危机时代住宅抵押贷款信用风险定价
-    - *Authors: Agostino Capponi, Stijn Van Nieuwerburgh, Xinkai Wu*
-28. **[AI in Charge: Large-Scale Experimental Evidence on Electric Vehicle Charging Demand](https://www.nber.org/papers/w34709)**<br/>AI掌管：关于电动汽车充电需求的大规模实验证据
-    - *Authors: Robert D. Metcalfe, Andrew Schein, Cohen R. Simpson, Yixin Sun*
-29. **[FinTech and Customer Capital](https://www.nber.org/papers/w34710)**<br/>金融科技与客户资本
-    - *Authors: Bianca He, Lauren Mostrom, Amir Sufi*
-30. **[Teaching Economics to the Machines](https://www.nber.org/papers/w34713)**<br/>向机器教授经济学
-    - *Authors: Hui Chen, Yuhan Cheng, Yanchu Liu, Ke Tang*
-31. **[A Model of Artificial Jagged Intelligence](https://www.nber.org/papers/w34712)**<br/>人工锯齿智能模型
-    - *Authors: Joshua S. Gans*
-32. **[Measuring Efficiency and Equity Framing in Economics Research: LLM-Based Evidence from 1950 to 2021](https://www.nber.org/papers/w34714)**<br/>从1950年到2021年基于LLM的经济学研究中衡量效率与公平框架的证据
-    - *Authors: Sebastian Galiani, Ramiro H. Gálvez, Franco Mettola La Giglia, Raul A. Sosa*
+1. **[Senior Migration, Local Economic Development and Spatial Concentration](https://www.nber.org/papers/w34725)**<br/>翻译失败
+    - *Authors: Marco A. Badilla Maroto, Benjamin Faber, Antoine B. Levy, Mathilde Muñoz*
+2. **[Technology and Economic Development](https://www.nber.org/papers/w34730)**<br/>翻译失败
+    - *Authors: Daron Acemoglu, Ufuk Akcigit, Simon Johnson*
+3. **[The Contribution of College Majors to Gender and Racial Earnings Differences](https://www.nber.org/papers/w34726)**<br/>翻译失败
+    - *Authors: Scott A. Imberman, Michael F. Lovenheim, Patrick Massey, Kevin M. Stange, Rodney J. Andrews*
+4. **[Rational Disagreement](https://www.nber.org/papers/w34727)**<br/>翻译失败
+    - *Authors: Nabil Al-Najjar, Harald Uhlig*
+5. **[Global Trade, Tariff Uncertainty and the U.S. Dollar](https://www.nber.org/papers/w34728)**<br/>翻译失败
+    - *Authors: Ṣebnem Kalemli-Özcan, Can Soylu, Muhammed A. Yildirim*
+6. **[No Taxation Without Administration: Bringing The State Back Into The Public Finance Of Developing Countries](https://www.nber.org/papers/w34729)**<br/>翻译失败
+    - *Authors: Anders Jensen, Jonathan L. Weigel*
+7. **[Salience and the Elasticity of Taxable Income: Evidence from Top-bracket Tax Reforms](https://www.nber.org/papers/w34731)**<br/>翻译失败
+    - *Authors: Xavier Dufour, Pierre-Carl Michaud, Michael G. Smart*
+8. **[The Twenty-four Hour Economy or Rolled-up Sidewalks: Trends in Work Timing and Their Causes](https://www.nber.org/papers/w34732)**<br/>翻译失败
+    - *Authors: Jeff Biddle, Daniel S. Hamermesh*
+9. **[Does Generative AI Crowd Out Human Creators? Evidence from Pixiv](https://www.nber.org/papers/w34733)**<br/>翻译失败
+    - *Authors: Sueyoul Kim, Ginger Zhe Jin, Eungik Lee*
+10. **[War and Democratic Backsliding](https://www.nber.org/papers/w34734)**<br/>翻译失败
+    - *Authors: Efraim Benmelech, Joao Monteiro*
+11. **[Economic Development and the Environment](https://www.nber.org/papers/w34735)**<br/>翻译失败
+    - *Authors: B. Kelsey Jack, Nicholas Ryan*
+12. **[College Major Choice, Payoffs, and Gender Gaps](https://www.nber.org/papers/w34736)**<br/>翻译失败
+    - *Authors: Christopher Campos, Pablo Muñoz, Alonso Bucarey, Dante Contreras*
+13. **[Measuring the Growth of Skills](https://www.nber.org/papers/w34737)**<br/>翻译失败
+    - *Authors: James J. Heckman, Haihan Tian, Jin Zhou, Zijian Zhang*
+14. **[The Informational Role of Emission Markets: Prices vs Quantities with Dispersed Information About Externalities](https://www.nber.org/papers/w34738)**<br/>翻译失败
+    - *Authors: Derek Lemoine*
+15. **[The Dynamics of Retail Deposit Balances](https://www.nber.org/papers/w34742)**<br/>翻译失败
+    - *Authors: Bronson Argyle, Benjamin Iverson, Jason D. Kotter, Taylor D. Nadauld, Christopher Palmer*
+16. **[The Demand for Grandchildren: Children as Family Public Goods and Implications for Cooperative Bargaining](https://www.nber.org/papers/w34741)**<br/>翻译失败
+    - *Authors: Janice Compton, Robert A. Pollak*
+17. **[Consumer Demand and Market Competition with Time-Intensive Goods](https://www.nber.org/papers/w34743)**<br/>翻译失败
+    - *Authors: Joseph Goodman, Lancelot Henry de Frahan, Justin E. Holz, John A. List, Niall MacMenamin, Evan C. McKay, Magne Mogstad, Sally Sadoff, Hal Sider*
+18. **[The United States as an Active Industrial Policy Nation](https://www.nber.org/papers/w34744)**<br/>翻译失败
+    - *Authors: Jiandong Ju, Yuankun Li, Shang-Jin Wei*
+19. **[Behavioral Economics of AI: LLM Biases and Corrections](https://www.nber.org/papers/w34745)**<br/>翻译失败
+    - *Authors: Pietro Bini, Lin William Cong, Xing Huang, Lawrence J. Jin*
+20. **[Scaling Sustainable Investing in Emerging and Developing Economies: Frictions and Opportunities](https://www.nber.org/papers/w34746)**<br/>翻译失败
+    - *Authors: Caroline Flammer, Thomas Giroux, Geoffrey Heal*
+21. **[Effective and Scalable Programs to Facilitate Labor Market Transitions for Women in Technology](https://www.nber.org/papers/w34750)**<br/>翻译失败
+    - *Authors: Susan Athey, Emil Palikot*
+22. **[A Few Bad Apples? Academic Dishonesty, Political Selection, and Institutional Performance in China](https://www.nber.org/papers/w34747)**<br/>翻译失败
+    - *Authors: Zhuang Liu, Wenwei Peng, Shaoda Wang*
+23. **[A Macroeconomic Perspective on Stock Market Valuation Ratios](https://www.nber.org/papers/w34748)**<br/>翻译失败
+    - *Authors: Andrew Atkeson, Jonathan Heathcote, Fabrizio Perri*
+24. **[Industrial Activity, State Capacity, and Deforestation: Evidence from Brazil](https://www.nber.org/papers/w34751)**<br/>翻译失败
+    - *Authors: Daniel Da Mata, Mario Dotta, Edson R. Severnini*
+25. **[The Response of Debtors to Rate Changes](https://www.nber.org/papers/w34752)**<br/>翻译失败
+    - *Authors: Andreas Fuster, Virginia Gianinazzi, Andreas Hackethal, Philip Schnorpfeil, Michael Weber*
+26. **[Gender Norms and the Labor Market](https://www.nber.org/papers/w34716)**<br/>翻译失败
+    - *Authors: Patricia Cortés, Jisoo Hwang, Jessica Pan, Uta Schönberg*
+27. **[Global Imbalances and Power Imbalances](https://www.nber.org/papers/w34717)**<br/>翻译失败
+    - *Authors: Christopher Clayton, Matteo Maggiori, Jesse Schreger*
+28. **[Structural Change and Jobless Development](https://www.nber.org/papers/w34718)**<br/>翻译失败
+    - *Authors: Franziska L. Ohnsorge, Richard Rogerson, Zoe Xie*
+29. **[Financial Crises: History, Theory and New Insights](https://www.nber.org/papers/w34719)**<br/>翻译失败
+    - *Authors: Eric Hilt*
+30. **[Modeling the Labor Implications of the Energy Transition](https://www.nber.org/papers/w34723)**<br/>翻译失败
+    - *Authors: Marc A.C. Hafstead, Roberton C. Williams III*
+31. **[Speculative Growth and the AI "Bubble"](https://www.nber.org/papers/w34722)**<br/>翻译失败
+    - *Authors: Ricardo J. Caballero*
+32. **[Understanding Latin America’s Fertility Decline: Age, Education, and Cohort Dynamics](https://www.nber.org/papers/w34749)**<br/>翻译失败
+    - *Authors: Milagros Onofri, Inés Berniell, Raquel Fernández, Azul Menduiña*
+33. **[Psychology and Development: Applications from Cognitive and Social Psychology](https://www.nber.org/papers/w34753)**<br/>翻译失败
+    - *Authors: Emily Breza, Supreet Kaur*
+34. **[Current Account Deficits and the Welfare of Future Generations](https://www.nber.org/papers/w34740)**<br/>翻译失败
+    - *Authors: Christopher Phelan*
+35. **[Missing Black Men? The Impact of Non-Reporting on Estimates of Labor Market Outcomes for Black Men](https://www.nber.org/papers/w34724)**<br/>翻译失败
+    - *Authors: Adrienne Sabety, Ariella K. Spitzer*
+36. **[Migration and the Making of the English Middle Class](https://www.nber.org/papers/w34721)**<br/>翻译失败
+    - *Authors: Vasiliki Fouka, Theo Serlin*
+37. **[You Only Live Twice: Financial Inflows and Growth in a Westward-Facing Ukraine](https://www.nber.org/papers/w34715)**<br/>翻译失败
+    - *Authors: Yuriy Gorodnichenko, Maurice Obstfeld*
 
 
 ---
 
 ## 文章概览
 
-### 外汇衍生品市场地形图：来自伦敦的视角
-**[Topography of the FX Derivatives Market: A View from London](https://www.nber.org/papers/w34588)**
+### 翻译失败
+**[Senior Migration, Local Economic Development and Spatial Concentration](https://www.nber.org/papers/w34725)**
 
-**Authors**: Sinem Hacioglu Hoke, Daniel A. Ostry, Hélène Rey, Adrien Rousset Planat, Vania Stavrakeva, Jenny Tang
+**Authors**: Marco A. Badilla Maroto, Benjamin Faber, Antoine B. Levy, Mathilde Muñoz
 
-**Abstract**: Drawing on 100 million transactions, we show how speculators, hedgers, and market makers interact in the world’s largest FX derivatives market, and that derivatives trading can affect exchange rates. Firms in the largest client sectors—pension and investment funds, insurers, and nonfinancials—use FX derivatives primarily to hedge currency risk, with dealer banks providing the liquidity. Hedge funds, with comparatively smaller net exposures, trade speculatively, whereas dealer banks insulate themselves from changes in speculative demand by taking offsetting positions with hedgers, especially nonfinancials. Non-bank market makers, instead, take residual exchange-rate exposures “on the margin”. Hedge funds’ speculative flows help transmit monetary policy shocks to exchange rates, while investment funds' unwinding of hedges contribute to dollar appreciations when credit risk rises. Our results highlight that exchange rates depend on the composition of trading activities in FX derivatives markets.
+**Abstract**: We document that migration flows upon retirement are predominantly from richer, more urban to poorer, more rural regions. In theory, the local economic implications of senior in-migration are ambiguous, while empirically there is little existing evidence on whether attracting mobile seniors can be an effective tool to promote economic development among lagging regions. We combine a unique collection of microdata from France with a new empirical strategy to fill this gap. We find that senior inflows have significant positive effects on the local economy over the course of a decade, including increases in the working-age population, total employment, GDP, average incomes, fiscal revenues and housing construction. These effects are particularly pronounced among initially poorer regions. They are accompanied by an increase in the share of services in the local economy, driven by employment growth in health, food services and retail sectors. Combining these estimates with observed region-to-region net migration flows, we find that mobile seniors have become a significant force for reducing the concentration of employment and GDP across regions.
 
-**摘要**: 基于1亿笔交易，我们展示了投机者、对冲者和做市商在全球最大的外汇衍生品市场中如何相互作用，以及衍生品交易如何影响汇率。最大的客户部门——养老和投资基金、保险公司和非金融公司——主要使用外汇衍生品来对冲货币风险，而做市银行提供流动性。对冲基金的净敞口相对较小，它们进行投机性交易，而做市银行则通过与对冲者，特别是非金融公司，采取对冲头寸来隔离投机需求的变化。而非银行做市商则承担剩余的汇率风险“在边际上”。对冲基金的投机性流动有助于将货币政策冲击传递给汇率，而投资基金解除对冲头寸则有助于在信贷风险上升时美元升值。我们的结果强调，汇率取决于外汇衍生品市场中交易活动的构成。
-
----
-### 联邦支出中的分包：微观与宏观影响
-**[Subcontracting in Federal Spending: Micro and Macro Implications](https://www.nber.org/papers/w34686)**
-
-**Authors**: Geumbi Park, Xiaoqing Zhou, Sarah Zubairy
-
-**Abstract**: This paper studies the critical but underexplored role of subcontracting in shaping the spatial and firm-level effects of federal government spending. Using newly available data on defense subcontract awards linked to establishment-level data from NETS, we examine prime–subcontractor relationships across regions, industries, and over time. We document three key facts. First, subcontracting reallocates a substantial share of federal dollars across geographic areas, weakening the link between the location of prime contracts and where spending ultimately occurs. Second, subcontracting shifts spending across industries, notably from service-sector primes to manufacturing subcontractors. Third, large firms dominate subcontracting networks, including by receiving subcontracts from smaller primes. Accounting for geographic reallocation implies that conventional estimates understate local fiscal multipliers by about 20%. Furthermore, local multipliers are smaller for subcontracting than for prime contracting, partly because subcontracted spending is concentrated among large manufacturing firms that exhibit more muted employment responses. Establishment-level evidence further shows that subcontracting generates weaker employment effects, even conditional on firm size and industry, reflecting the less stable nature of subcontracting relationships. Overall, our findings show that subcontracting fundamentally reshapes the transmission of procurement spending through the private sector, with important implications for the local and aggregate effects of federal spending.
-
-**摘要**: 本文研究了分包在塑造联邦政府支出的空间和企业层面效应中的关键但未被充分探讨的作用。利用新近可用的国防分包奖项数据，并将其与NETS的建立级别数据相联系，我们检查了跨地区、跨行业以及随时间变化的总包-分包商关系。我们记录了三个关键事实。首先，分包在地理区域之间重新分配了很大一部分联邦资金，削弱了总包合同所在地与支出最终发生地之间的联系。其次，分包将支出转移到不同行业，特别是从服务行业的总包商转移到制造业的分包商。第三，大公司主导着分包网络，包括从小的总包商那里获得分包合同。考虑到地理重新分配意味着传统的估计低估了地方财政乘数约20%。此外，与总包合同相比，分包的地方乘数较小，部分原因是分包支出集中在表现出更温和就业反应的大型制造公司。建立级别的证据进一步表明，分包产生了更弱的就业效应，即使在控制公司规模和行业的情况下也是如此，反映了分包关系的不稳定性。总体而言，我们的发现表明，分包从根本上重塑了通过私营部门传递采购支出的方式，对联邦支出的地方和总体效应具有重要的影响。
+**摘要**: 翻译失败
 
 ---
-### 垄断买方、降价和最低工资
-**[Monopsony, Markdowns, and Minimum Wages](https://www.nber.org/papers/w34699)**
+### 翻译失败
+**[Technology and Economic Development](https://www.nber.org/papers/w34730)**
 
-**Authors**: Ester Faia, Benjamin Lochner, Benjamin Schoefer
+**Authors**: Daron Acemoglu, Ufuk Akcigit, Simon Johnson
 
-**Abstract**: This paper presents the first direct test of two interlinked predictions at the core of the monopsony theory of the labor market: (i) that firms exploit wage-setting power by marking down wages below the marginal revenue product of labor, and (ii) that exogenous wage constraints, if binding, eliminate markdowns. Our research design revisits the 2015 introduction of a high minimum wage in Germany. Drawing on a monopsony model, we derive an empirically tractable difference-in-differences specification that provides a quantitative benchmark for the firm-level markdown response. Our main result is that empirical markdowns respond only 0–25% as much as the monopsony model would have predicted. Hence, at least for the labor market segment we study, (i) markdowns largely reflect other distortions than monopsony, (ii) markdowns are mismeasured, (iii) minimum wages induce widespread labor shortages, or (iv) the standard monopsony model does not provide a full, realistic account of the labor market.
+**Abstract**: This chapter presents a tractable framework for the study of technology adoption and diffusion in the context of economic development. Firms in countries behind the world technology frontier can rapidly adopt new techniques from the world frontier. Lower absorptive capacity (because of weak education systems, poor management practices, or barriers to technology adoption), institutional distortions, mismatch between frontier technologies and the needs of firms in the country (i.e., “inappropriate technology”), and credit market frictions slow down technology adoption and cause the economy in question to have a greater distance to the frontier and thus lower income per capita—although the long-run growth rate of the country still remains equal to that of the frontier. This framework is extended to study the choice between innovation and imitation, as well as the role of selection for higher-productivity and higher-absorptive capacity firms during the process of economic development. We illustrate the main comparative statics of our framework with a number of correlations based on cross-country and firm-level data. The tractability of the framework makes it amenable to a range of additional extensions.
 
-**摘要**: 本文首次直接检验了劳动市场垄断买方理论核心的两个相互关联的预测：（i）企业通过将工资压低至劳动的边际收益产品以下来利用其工资设定能力，以及（ii）如果外生工资约束具有约束力，则消除了压低。我们研究设计重新审视了2015年德国引入高最低工资的情况。基于垄断买方模型，我们推导出了一个经验上可行的差异-差异规范，为公司层面的压低响应提供了量化基准。我们的主要结果是，经验上的压低响应仅为垄断买方模型预测的0-25%。因此，至少对于我们研究的劳动市场部分来说，（i）压低在很大程度上反映了除垄断买方之外的其他扭曲，（ii）压低被错误测量，（iii）最低工资导致广泛的劳动力短缺，或者（iv）标准的垄断买方模型没有提供劳动市场的完整、现实账户。
-
----
-### 社区学院学士学位：CCB毕业生的收入与副学士和学士相比如何
-**[Community College Bachelor’s Degrees: How CCB Graduates’ Earnings Compare to AAs and BAs](https://www.nber.org/papers/w34684)**
-
-**Authors**: Riley K. Acton, Camila Morales, Kalena Cortes, Julia A. Turner, Lois Miller
-
-**Abstract**: We provide the first descriptive analysis of the economic value of Community College Baccalaureate (CCB) degrees by examining graduates’ early-career earnings, the costs of completing these programs, and the alignment between field of study and subsequent employment. Using administrative data and controlling for institution and field, we find that CCB graduates earn $4,000 to $9,000 more annually than Associate’s (AA) degree holders one year after graduation but experience average earnings penalties of roughly $2,000 relative to traditional Bachelor’s (BA) recipients. These averages mask substantial heterogeneity: penalties are largest in Computer and Information Technology and Engineering Technology, whereas CCB graduates in Nursing, other Healthcare fields, Business, and Criminal Justice exhibit minimal or no penalties. To contextualize these returns, we analyze tuition and fee structures across CCB-granting institutions and identify two dominant pricing models—constant and escalating. Total CCB program costs fall between those of AA and BA degrees, with escalating structures increasing upper-division prices by about 40 percent. Finally, we examine field-to-industry match patterns and find that CCB graduates in fields with well-defined occupational pathways, such as Health Professions and Education, are highly concentrated in aligned industries, while graduates in more diffuse fields, such as Computer Science, are more broadly dispersed.
-
-**摘要**: 我们通过检查毕业生的早期职业收入、完成这些课程的成本以及学习领域与随后就业之间的一致性，首次对社区学院学士学位（CCB）学位的经济价值进行了描述性分析。利用行政数据并控制机构和领域变量，我们发现CCB毕业生在毕业后一年内比副学士学位（AA）持有者每年多赚4,000至9,000美元，但与传统学士学位（BA）获得者相比，平均收入平均减少约2,000美元。这些平均值掩盖了巨大的异质性：计算机和信息技术以及工程技术领域的惩罚最大，而护理、其他医疗保健领域、商业和刑事司法领域的CCB毕业生几乎没有或没有惩罚。为了使这些回报具体化，我们分析了授予CCB学位的机构的学费和费用结构，并确定了两种主要的定价模型——恒定和递增。CCB项目的总成本介于AA和BA学位之间，递增结构将高年级价格提高了约40%。最后，我们检查了领域到行业的匹配模式，发现在具有明确职业路径的领域，如医疗专业和教育，CCB毕业生高度集中在对齐的行业中，而在更分散的领域，如计算机科学，毕业生更广泛地分散。
+**摘要**: 翻译失败
 
 ---
-### 开启职业机会：DACA对劳动市场的影响
-**[Unlocking Occupational Opportunity: The Labor Market Effects of DACA](https://www.nber.org/papers/w34685)**
+### 翻译失败
+**[The Contribution of College Majors to Gender and Racial Earnings Differences](https://www.nber.org/papers/w34726)**
 
-**Authors**: Aimee Chin, Kalena Cortes, Camila Morales
+**Authors**: Scott A. Imberman, Michael F. Lovenheim, Patrick Massey, Kevin M. Stange, Rodney J. Andrews
 
-**Abstract**: U.S. laws make it illegal for employers to knowingly hire undocumented migrants. This legal constraint affects which firms will employ unauthorized workers and what jobs undocumented migrants can expect to get. As a result, unauthorized migrants are more likely to end up in jobs that have a lower risk of detection of immigration status and are less desirable. The Deferred Action for Childhood Arrivals (DACA) policy, which began in August 2012, gave temporary legal authorization to work in the U.S. to a subset of undocumented migrants – those who arrived in the U.S. as children meeting certain other eligibility criteria. In this paper, we use a difference-in-differences strategy to estimate the effect of DACA on the occupational outcomes of young adults who arrived in the U.S. as children. Applying this strategy to individual-level data from the American Community Survey, we find that DACA eligibility decreases the likelihood that noncitizen childhood immigrants hold traditional immigrant jobs or jobs with a high risk of injury, and increases the likelihood of holding a government job or jobs that require occupational licensing. On the whole, DACA eligibility shifts noncitizen childhood immigrants to occupations that are higher-paying and employ more educated workers. These findings are consistent with legal barriers constraining undocumented childhood migrants from taking the jobs they are interested in and have the skills for. These workers are shunted to jobs they find less desirable and there are societal losses from the misallocation of talent.
+**Abstract**: Gender and racial/ethnic gaps in labor market earnings remain large, even among college-goers. Cross-gender and race/ethnic differences in choice of and returns to college major are potentially important contributors. Following Texas public high school graduates for up to 20 years through college and the labor market, we assess gender and racial differences in college major choices and the consequences of these choices. Women and underrepresented minorities are less likely than men, Whites, and Asians to major in high earning fields like business, economics, engineering, and computer science, however we also show that they experience lower returns to these majors. Differences in major-specific returns relative to liberal arts explain about one quarter of the gender, White-Black, and White-Hispanic (but not White-Asian) earnings gaps among four-year college students and become larger contributors to earnings gaps than differential major distributions as workers age. We present suggestive evidence that differences in occupation choices within field are a key driver of the differences in returns across groups. The work shines light on the roles that college major choice and returns by gender and race contribute to inequality.
 
-**摘要**: 美国法律禁止雇主故意雇佣无证移民。这一法律限制影响了哪些公司会雇佣未经授权的工人，以及无证移民可以期待获得哪些工作。结果，无证移民更有可能最终从事那些移民身份被检测的风险较低、不太受欢迎的工作。2012年8月开始的“童年抵达者暂缓行动”（DACA）政策为一部分无证移民——那些作为儿童抵达美国并满足其他资格标准的移民——提供了在美国合法工作的临时授权。在本文中，我们使用差异-差异策略来估计DACA对作为儿童抵达美国的年轻成年人职业结果的影响。将这一策略应用于美国社区调查的个人层面数据，我们发现DACA资格降低了非公民儿童移民从事传统移民工作或高受伤风险工作的可能性，并增加了从事政府工作或需要职业许可的工作的可能性。总体而言，DACA资格将非公民儿童移民转移到薪酬更高、雇佣更多受过教育的工人的职业。这些发现与法律障碍限制无证儿童移民从事他们感兴趣且具备技能的工作是一致的。这些工人被转移到他们认为不太理想的工作，从而造成了人才配置不当的社会损失。
-
----
-### 美国贸易政策有多限制性？
-**[How Restrictive is U.S. Trade Policy?](https://www.nber.org/papers/w34687)**
-
-**Authors**: Michael E. Waugh
-
-**Abstract**: This short note computes Trade Restrictiveness Index measures for current U.S. trade policy. Building on the ideas of Anderson and Neary (1996, 2005), the Trade Restrictiveness Index is the uniform tariff that leaves the U.S. consumer as well off as under actual policy. As of October 2025, U.S. trade policy is twice as restrictive as headline tariff numbers suggest. The Trade Restrictiveness Index is 23 percent, which stands in contrast to the 11 percent average tariff rate. Trade policy towards Canada and Mexico is two to three times more restrictive than average tariff rates suggest. Sectoral analysis shows that the restrictiveness is concentrated in vehicles, machinery, and electrical equipment.
-
-**摘要**: 这篇简短的笔记计算了当前美国贸易政策的贸易限制性指数。基于安德森和尼瑞（1996年，2005年）的观点，贸易限制性指数是一种统一关税，它使得美国消费者在实际政策下与在该关税下一样受益。截至2025年10月，美国贸易政策的限制性是头条关税数字所显示的两倍。贸易限制性指数为23%，与平均11%的关税率形成对比。对加拿大和墨西哥的贸易政策限制性是平均关税率的两到三倍。部门分析显示，限制性集中在车辆、机械和电气设备上。
+**摘要**: 翻译失败
 
 ---
-### 在流动性匮乏的世界中的资本流动：分析与政策含义
-**[Capital Flows in a World Starved for Liquidity: Analysis and Policy Implications](https://www.nber.org/papers/w34688)**
+### 翻译失败
+**[Rational Disagreement](https://www.nber.org/papers/w34727)**
 
-**Authors**: Enrique G. Mendoza, Vincenzo Quadrini
+**Authors**: Nabil Al-Najjar, Harald Uhlig
 
-**Abstract**: We propose a framework for studying financial and macroeconomic dynamics in an environment where liquid assets have a productive use but their supply is limited (i.e., the economy is starved for liquidity). The private demand for financial assets arises from the need to hold them for production. The private supply of financial assets is limited and unstable because of borrowing constraints and default risk. We discuss open-economy applications that analyze the accumulation of foreign reserves by emerging economies, the increase in public debt issued by advanced economies, the rapid growth of emerging economies, structural changes in financial markets, and financial globalization. A key result is that most of these developments led to a decline in interest rates and an increase in global macroeconomic volatility, driven by riskier borrower portfolios.
+**Abstract**: We propose rational disagreement as a formal framework for analyzing seemingly irrational behavior that can persist despite the wide availability of objective information in a steady-state. Agents are rational in that they correctly anticipate the distribution of aggregate outcomes, yet disagree about which specific individuals perform better than others. Notably, the subjective belief of any individual may be objectively correct. We illustrate the key concepts with a simple entry game. We show how unordered individual outcome distributions can be identified solely from aggregate statistics. We then characterize the resulting game, define its Nash equilibria, and develop a statistical test for the null hypothesis of agreement. Finally, we situate our framework within the broader literature on Bayesian games, behavioral biases, and the rational expectations hypothesis.
 
-**摘要**: 我们提出了一个框架，用于研究在流动性资产具有生产性用途但其供应有限（即，经济缺乏流动性）的环境中的金融和宏观经济动态。私人对金融资产的需求源于持有它们进行生产的需求。由于借款限制和违约风险，私人对金融资产的供应有限且不稳定。我们讨论了开放经济应用，分析了新兴经济体积累外汇储备、发达经济体发行的公共债务增加、新兴经济体的快速增长、金融市场的结构变化以及金融全球化。一个关键结果是，这些发展大多导致了利率的下降和全球宏观经济波动性的增加，这是由风险更高的借款人组合驱动的。
-
----
-### 金融全球化：风险分担还是风险暴露？
-**[Financial Globalization: Risk Sharing or Risk Exposure?](https://www.nber.org/papers/w34689)**
-
-**Authors**: Enrique G. Mendoza, Vincenzo Quadrini
-
-**Abstract**: We study how the increased cross-country ownership of financial assets between advanced and emerging economies impacted their financial and macroeconomic volatility. While cross-country ownership improved risk-sharing and reduced volatility associated with financial crises, it also increased the exposure of countries to foreign crises, leading to higher international co-movement. Through quantitative applications of a two-region model representative of advanced and emerging economies, we find that financial globalization reduced volatility worldwide, but significantly more in emerging economies.
-
-**摘要**: 我们研究了发达国家和新兴经济体之间金融资产的增加对它们的金融和宏观经济波动性的影响。虽然跨国所有权改善了风险分担，并减少了与金融危机相关的波动性，但它也增加了国家对外国危机的暴露，导致国际联动性更高。通过定量应用一个代表发达国家和新兴经济体的双区域模型，我们发现金融全球化降低了全球波动性，但在新兴经济体中更为显著。
+**摘要**: 翻译失败
 
 ---
-### 人工智能增强型手持心电图仪用于筛查印度农村地区的既往心肌梗死
-**[AI-Enhanced Handheld ECGs to Screen for Prior Myocardial Infarction in Rural India](https://www.nber.org/papers/w34690)**
+### 翻译失败
+**[Global Trade, Tariff Uncertainty and the U.S. Dollar](https://www.nber.org/papers/w34728)**
 
-**Authors**: Jenny Wang, Alexander Schubert, Nikhil Kanakamedala, Madeline McKelway, Luke Messac, Cyrus Reginald, Frank Schilbach, T.S. Selvavinayagam, Girija Vaidyanathan, Esther Duflo, Ziad Obermeyer
+**Authors**: Ṣebnem Kalemli-Özcan, Can Soylu, Muhammed A. Yildirim
 
-**Abstract**: Efforts to move care out of hospitals and into the community face a hard constraint: while most medications can be delivered anywhere, diagnosis is still mostly trapped inside the formal health system—clinics, hospitals, and the people and machines inside them. This is especially binding in low- and middle-income countries due to distance, cost, and limited health system capacity. Low-cost data collection devices (e.g., handheld electrocardiograms (ECGs), retinal cameras) are promising, but do not solve the bottleneck: their outputs still require expert interpretation. Artificial intelligence (AI) could turn these raw signals into actionable outputs at scale, but most medical AI is trained in high-income settings and deteriorates in different populations and settings. We assemble a new dataset in rural Tamil Nadu, India that links low-cost device signals to hospital-grade reference testing. We use it to build a proof-of-concept screening tool: an algorithm that predicts the result of a hospital-based reference-standard test (regional wall motion abnormality on echocardiography), using only data from a handheld ECG device (cost: $60). This would allow targeting of secondary prevention medications—high-dose statins, antiplatelet agents, and beta blockers—proven to be cost-effective in both high- and low-resource settings. We evaluate predictive performance and cost-effectiveness of such screening, benchmarking against common clinical risk scores (including the American Heart Association 10-year risk score). In a held-out test set, our model identifies subgroups with rates high enough to make screening very cost-effective: the top 2.5% have a 9.3% rate of evidence consistent with prior heart attack—about six times the base rate—delivering benefits at US$1,999 per life-year saved. The model also flags high-yield patients who would be missed by standard clinical scores, underscoring the limits of transporting Western-derived risk tools to low- and middle-income settings. To enable extensions to other conditions in the dataset, we make all data freely available for research.
+**Abstract**: We analyze how tariff uncertainty affects exchange rates, motivated by the U.S. dollar’s depreciation after the 2025 tariff announcements. Standard macro-trade models predict that unilateral tariffs appreciate the implementing country’s currency, but we show this result can be overturned by policy uncertainty. We build a two-country general equilibrium model with risk-averse agents and segmented financial markets, where tariff volatility enters uncovered interest parity through a risk-premium wedge. Higher tariff uncertainty increases precautionary savings and risk premia, leading to immediate currency depreciation even as tariffs rise. Quantitatively, the model replicates the size and timing of the observed dollar depreciation episode dynamics.
 
-**摘要**: 将护理从医院转移到社区的努力面临一个硬性约束：虽然大多数药物可以随时随地提供，但诊断仍然大多局限在正式的卫生系统内——诊所、医院以及其中的人和机器。这在低收入和中等收入国家尤其具有约束力，因为距离、成本和有限的卫生系统能力。低成本的数据收集设备（例如，手持心电图（ECG）、视网膜相机）是有希望的，但并没有解决瓶颈问题：它们的输出仍然需要专家解释。人工智能（AI）可以将这些原始信号转化为大规模的可操作输出，但大多数医疗AI是在高收入环境中训练的，在不同的人群和环境中会退化。我们在印度泰米尔纳德邦农村组装了一个新的数据集，将低成本设备信号与医院级别的参考测试联系起来。我们用它来构建一个概念验证筛查工具：一个算法，使用仅来自手持心电图设备（成本：60美元）的数据，预测基于医院的参考标准测试结果（超声心动图上的区域壁运动异常）。这将允许针对二级预防药物——高剂量他汀类药物、抗血小板药物和β受体阻滞剂——在高资源和低资源环境中都已被证明是成本效益的。我们评估了这种筛查的预测性能和成本效益，与常见的临床风险评分（包括美国心脏协会10年风险评分）进行基准比较。在一个保留的测试集中，我们的模型识别出足够高的比率的子组，使筛查非常具有成本效益：前2.5%有9.3%的证据与以前的心脏病发作一致——大约是基础率的六倍——每节省一个生命年的成本为1999美元。该模型还标记了高收益的患者，这些患者将被标准临床评分遗漏，强调了将西方衍生的风险工具转移到低收入和中等收入环境的局限性。为了使数据集能够扩展到其他条件，我们使所有数据免费提供给研究。
-
----
-### 李嘉图非等价
-**[Ricardian Non-Equivalence](https://www.nber.org/papers/w34691)**
-
-**Authors**: Martin S. Eichenbaum, Joao Guerreiro, Jana Obradovic
-
-**Abstract**: This paper presents new survey evidence on how household spending changes in response to fiscal transfers. Our key finding is that the planned propensity to spend out of transfers equals the marginal propensity to consume (MPC). This result implies that households do not incorporate future tax liabilities into their spending plans. The canonical HANK model cannot account for our survey results because people in that model are overly sensitive to future tax liabilities. We develop an extended HANK model in which households are partially inattentive to future tax liabilities and to the general-equilibrium consequences of fiscal policy. This inattention dampens forward-looking intertemporal MPCs, bringing the model into line with our survey evidence. We use the model to analyze the aggregate effects of fiscal policy changes and find that both transfer and government spending multipliers are larger in the inattentive HANK model than in the canonical HANK framework.
-
-**摘要**: 本文提供了新的调查证据，说明了家庭支出如何响应财政转移而变化。我们的关键发现是，计划中的转移支付支出倾向等于边际消费倾向（MPC）。这一结果意味着家庭在支出计划中没有考虑未来的税收负债。经典的HANK模型无法解释我们的调查结果，因为该模型中的人对未来税收负债过于敏感。我们开发了一个扩展的HANK模型，其中家庭对未来税收负债和财政政策的一般均衡后果部分不关注。这种不关注降低了前瞻性的跨时MPCs，使模型与我们的调查证据一致。我们使用该模型分析财政政策变化的总体效应，并发现在不关注的HANK模型中，转移支付和政府支出的乘数都比经典HANK框架中的要大。
+**摘要**: 翻译失败
 
 ---
-### 跳过工厂：发展中国家的服务引领增长和结构转型
-**[Skipping the Factory: Service-Led Growth and Structural Transformation in the Developing World](https://www.nber.org/papers/w34692)**
+### 翻译失败
+**[No Taxation Without Administration: Bringing The State Back Into The Public Finance Of Developing Countries](https://www.nber.org/papers/w34729)**
 
-**Authors**: Michael Peters, Youdan Zhang, Fabrizio Zilibotti
+**Authors**: Anders Jensen, Jonathan L. Weigel
 
-**Abstract**: In today’s developing world, many economies appear to bypass industrialization and transition directly from agriculture to services. The largest rise in service employment has occurred in non-tradable consumer services, such as retail and hospitality, especially in urban areas, where many cities resemble consumer hubs built around local demand. These patterns of growth raise fundamental questions: Can service-led growth sustain a growth of living standards over time? Is service-led growth inherently biased toward affluent urban consumers? What role should policy play? We propose a parsimonious general equilibrium framework that incorporates non-homothetic preferences and locally non-tradable consumer services. Our framework bridges macro and micro perspectives, and enables counterfactual and welfare analysis that accounts for both individual and spatial heterogeneity. We relate our framework to the recent literature and suggest several extensions and directions of future research.
+**Abstract**: The empirical economics literature on taxation in developing countries has centered on the importance of third-party information for enforcement. Yet, while surely a long-run objective, leveraging such information remains out of reach in many developing countries due to largely informal economies and low state capacity. This article examines an emerging complementary literature focused on strengthening the 'sinews' of state capacity: tax administration. We argue that reforms to the organizational structure, personnel management, and task management of tax authorities have potential to raise tax capacity in developing countries. We also argue that efforts to improve the state's legitimacy – popular acceptance of its right to tax – can increase capacity and may complement investments in tax administration. Our approach bridges a long-standing divide between how scholars in public finance and political economy approach tax capacity building in developing countries.
 
-**摘要**: 在当今发展中的世界里，许多经济体似乎跳过了工业化阶段，直接从农业过渡到服务业。服务业就业的最大增长发生在非贸易性消费服务业，如零售和酒店业，特别是在城市地区，许多城市看起来像是围绕本地需求建立的消费中心。这些增长模式引发了一些基本问题：以服务业为主导的增长能否随着时间的推移维持生活标准的增长？以服务业为主导的增长是否天生偏向于富裕的城市消费者？政策应该扮演什么角色？我们提出了一个简洁的一般均衡框架，该框架结合了非齐次偏好和本地非贸易性消费服务。我们的框架连接了宏观和微观视角，并能够进行反事实和福利分析，同时考虑到个体和空间异质性。我们将我们的框架与最近的文献联系起来，并提出了几个扩展和未来研究方向。
-
----
-### 客户重叠与分流比率
-**[Customer Overlap and Diversion Ratios](https://www.nber.org/papers/w34693)**
-
-**Authors**: Liran Einav, Mariana D. Guido, Peter J. Klenow
-
-**Abstract**: We define the concept of customer overlap of product j with product k as the share of j's customers who buy k. We then argue that, in appropriate contexts, customer overlaps are an excellent proxy for diversion ratios, a useful and popular way to summarize competition between sellers of substitute products. Unlike diversion ratios, which are often challenging to estimate, customer overlaps are straightforwardly observed in many data sets. We show theoretically, and then validate empirically, the close connection between customer overlaps and diversion ratios. We then illustrate the potential use of customer overlap in contexts where estimation of diversion ratios could be prohibitive.
-
-**摘要**: 我们定义产品j与产品k的客户重叠概念为购买k的客户中j的客户所占的份额。然后我们论证，在适当的情境下，客户重叠是分流比率的一个极好的代理变量，分流比率是总结替代产品销售者之间竞争的一种有用且流行的方法。与通常难以估计的分流比率不同，客户重叠在许多数据集中可以直接观察到。我们从理论上展示，然后通过实证验证，客户重叠与分流比率之间的密切联系。然后我们展示了在估计分流比率可能成本过高的情境中，客户重叠的潜在用途。
+**摘要**: 翻译失败
 
 ---
-### 科学的地理学
-**[The Geography of Science](https://www.nber.org/papers/w34694)**
+### 翻译失败
+**[Salience and the Elasticity of Taxable Income: Evidence from Top-bracket Tax Reforms](https://www.nber.org/papers/w34731)**
 
-**Authors**: Abhishek Nagaraj, Randol Yao
+**Authors**: Xavier Dufour, Pierre-Carl Michaud, Michael G. Smart
 
-**Abstract**: Science has long been concentrated in the Western world, but the global research landscape is undergoing a profound reorganization. Using data on 44 million publications from 1980 to 2022, we document the geography of science in terms of who produces it, what it studies, and where it diffuses. The share of publications produced in the United States has fallen from 40% in 1980 to 15% in 2022, while China’s share has risen from near-zero to 32%. This pattern extends even to elite outlets, with China now producing over 35% of top-journal publications. Notably, this is driven not only by an expanding researcher base but also—to a large extent—by increases in individual productivity. This growth varies by fields: China leads in the Engineering and Physical Sciences (such as Chemistry), while the US retains its lead in Biomedical and Health Sciences. Moreover, China’s expanding leadership in scientific production has not translated into a commensurate shift in global diffusion and integration. Elite research remains disproportionately focused on US topics (40% of breakthrough publications), and citations to Chinese research disproportionately come from within China rather than from other regions, even for top-tier science. Similar to China, other middle- and low-income countries (including India, Russia, and Brazil) have also expanded output producing as much research as high-income European Union countries combined (about 21% overall) but they remain underrepresented in top-tier journals. Overall, our findings highlight both the democratization and fragmentation of global science, raising important questions about the future of the global scientific enterprise.
+**Abstract**: We estimate heterogeneous responses to top-bracket tax reforms using a triple-difference design that exploits variation in tax rate changes and the thresholds at which they apply. This strategy identifies behavioral responses even in the presence of unobservable shocks to the income distribution. Higher-income taxpayers respond more to top-rate changes, but our results indicate that this reflects the salience of the reforms—the larger mechanical change in average tax rates at higher incomes—rather than heterogeneity in substitution elasticities. We discuss implications for the revenue and distributional effects of top-bracket tax reforms.
 
-**摘要**: 长期以来，科学一直集中在西方世界，但全球研究格局正在经历深刻的重组。利用1980年至2022年的4400万篇出版物数据，我们记录了科学地理学，即谁在生产它、研究什么以及在哪里传播。美国生产的出版物份额从1980年的40%下降到2022年的15%，而中国的份额则从接近零上升到32%。这一模式甚至延伸到精英刊物，中国现在生产超过35%的顶级期刊出版物。值得注意的是，这不仅仅是由研究人员基础的扩大驱动的，而且在很大程度上是由个人生产力的提高驱动的。这种增长因领域而异：中国在工程和物理科学（如化学）领域领先，而美国在生物医学和健康科学领域保持领先。此外，中国在科学生产方面的领导地位扩大，并没有转化为全球传播和整合的相应转变。精英研究仍然过分关注美国主题（40%的突破性出版物），引用中国研究的比例过高地来自中国而不是其他地区，即使是在顶级科学中也是如此。与中国类似，其他中低收入国家（包括印度、俄罗斯和巴西）也扩大了产出，生产的研究量与高收入欧盟国家总和相当（总体约21%），但它们在顶级期刊中的代表性仍然不足。总体而言，我们的发现突出了全球科学的民主化和碎片化，提出了关于全球科学事业未来的重大问题。
-
----
-### 跌入谷底：经济困难与作弊
-**[Hitting Rock Bottom: Economic Hardship and Cheating](https://www.nber.org/papers/w34695)**
-
-**Authors**: Livia Alfonsi, Michal Bauer, Julie Chytilová, Edward Miguel
-
-**Abstract**: This paper investigates whether economic hardship undermines preferences for honesty. We use controlled, high-stake measures of cheating for private benefit in a large sample of 5,664 Kenyans, exploiting three complementary sources of variation: experimentally manipulated monetary incentives to cheat, a randomized increase in the salience of one’s own financial situation, and the Covid‐19 income shock (exploiting randomized survey timing, with respondents interviewed before vs. during the crisis). We find that cheating behavior is highly responsive to financial incentives in the experiment. Covid-19 economic hardship—marked by a 51% drop in monthly earnings—leads to a sharp increase in the prevalence of cheating, and the effect increases gradually with prolonged hardship. The effects are largest among the most economically impacted and are amplified when the salience of one’s own financial situation is experimentally increased. The results demonstrate that while most individuals exhibit a strong preference against cheating under normal conditions (in line with the existing body of work), economic forces can account for a substantial share of variation in dishonesty: the estimated cheating rate rises from 29% under low stakes in normal times to 86% under high stakes during the crisis.
-
-**摘要**: 本文研究了经济困难是否削弱了对诚实的偏好。我们利用对5,664名肯尼亚人进行的受控、高风险的作弊行为的测量，利用三种互补的变化来源：实验操纵的作弊的金钱激励、随机增加个人财务状况显著性的实验，以及Covid-19收入冲击（利用随机调查时间，比较危机前后受访者的差异）。我们发现，在实验中，作弊行为对财务激励高度敏感。Covid-19经济困难——以月收入下降51%为标志——导致作弊行为的普遍性急剧增加，并且随着困难的延长，这种影响逐渐增加。在经济上受影响最大的人群中，这些效应最为显著，并且当实验增加个人财务状况的显著性时，这些效应会被放大。结果表明，尽管大多数个体在正常条件下表现出强烈的反对作弊的偏好（与现有研究一致），但经济力量可以解释不诚实行为变化的很大一部分：估计的作弊率从正常时期低风险下的29%上升到危机期间高风险下的86%。
+**摘要**: 翻译失败
 
 ---
-### 为什么最年轻的美国工人的心理健康正在下降？
-**[Why is the Mental Health of the Youngest American Workers in Decline?](https://www.nber.org/papers/w34696)**
+### 翻译失败
+**[The Twenty-four Hour Economy or Rolled-up Sidewalks: Trends in Work Timing and Their Causes](https://www.nber.org/papers/w34732)**
 
-**Authors**: David G. Blanchflower, Alex Bryson
+**Authors**: Jeff Biddle, Daniel S. Hamermesh
 
-**Abstract**: The worsening mental health of young workers in the United States drives the disappearance of the U-shape in wellbeing and the hump-shape in illbeing in the last decade.  Illbeing declines in age among workers but is hump-shaped among non-workers across all US states. This has been the case for some time and is apparent in our analyses of two large US datasets with long time runs - the Behavioral Risk Survey System 1993-2025 and the National Health Interview Survey of 1997-2024. Although the mental health of workers and non-workers has been declining it has been deteriorating most quickly among young workers, leading to a steepening in the age gradient of mental illbeing for workers. Improvements in worker wellbeing (and declines in worker illbeing) with age are mirrored in age differences in reported working conditions in the American Job Quality Survey of 2025: six measures of job quality rise with age.  Declines in mental health are most pronounced among the youngest workers ages 18-22 who are likely drawn from lower socio-economic classes and report the greatest difficulties making ends meet.
+**Abstract**: We demonstrate nearly steady trends from 1973-2023 in the U.S. in the timing of when people work for pay, away from evening and night hours toward “usual” daytime hours. The trend is related to changes in rising educational attainment, to increased real incomes, and the increased wage premium for undesirable work times—evenings and nights—that we document. The trend exists in all major industries except retail, in which changes in technology biased work away from daytime hours. The trend was accelerated by the sharp increase in telework that occurred after the Covid pandemic, an increase that was especially concentrated during daytime hours. While we observe the same phenomenon in France from 1966 to 2010, we do not in the U.K. from 1974-2015, arguably because of the very sharp decline in unionization in the U.K. and the changes in retailing.
 
-**摘要**: 美国年轻工人心理健康的恶化导致了过去十年中幸福感的U形消失和疾病感的驼峰形。在所有美国州中，工人的年龄增长时疾病感下降，但在非工人中呈驼峰形。这种情况已经存在一段时间，并且在我们的分析中很明显，我们分析了两个大型美国数据集的长时间运行——1993-2025年的行为风险调查系统和1997-2024年的国家健康访谈调查。尽管工人和非工人的心理健康一直在下降，但在年轻工人中下降得最快，导致工人心理疾病年龄梯度的陡峭化。根据2025年美国工作质量调查报告的工作条件年龄差异，工人幸福感的提高（和工人疾病感的下降）得到了反映：六项工作质量指标随年龄增长而上升。心理健康下降在最年轻的工人中最为明显，年龄在18-22岁之间，他们可能来自较低的社会经济阶层，并报告说在维持生计方面遇到最大的困难。
-
----
-### 党派压力与代表性
-**[Party Pressure and Representation](https://www.nber.org/papers/w34697)**
-
-**Authors**: Chad W. Kendall
-
-**Abstract**: I study how political parties affect representation in the U.S. House. To do so, I account for party pressure on the votes of members in an otherwise standard spatial model that uses roll call voting patterns to identify member ideologies. I simultaneously estimate voter ideologies from survey responses, leveraging their responses on issues before Congress to bridge voters and members into the same ideological space. I find that, relative to a model without party pressure, member ideologies and those of their constituents are much more closely aligned. The results imply that, in terms of actual votes, parties drive a wedge between members and those they represent. I provide evidence that parties do so strategically, balancing the need for legislative wins and the electoral concerns of their members.
-
-**摘要**: 我研究了政党如何影响美国众议院中的代表性。为此，我在一个标准的空问模型中考虑了政党对成员投票的压力，该模型使用投票记录模式来识别成员的意识形态。我同时从调查回应中估计选民的意识形态，利用他们对国会议题的回应将选民和成员联系起来，置于同一意识形态空间中。我发现，相对于没有政党压力的模型，成员的意识形态和他们选民的意识形态更加紧密地对齐。结果意味着，在实际投票方面，政党在成员和他们所代表的人之间制造了隔阂。我提供了证据表明，政党这样做是出于战略考虑，平衡了立法胜利和成员选举关切的需要。
+**摘要**: 翻译失败
 
 ---
-### 在全民医疗保健系统中成本分担的分配效应
-**[The Distributional Effects of Cost-Sharing in a Universal Healthcare System](https://www.nber.org/papers/w34700)**
+### 翻译失败
+**[Does Generative AI Crowd Out Human Creators? Evidence from Pixiv](https://www.nber.org/papers/w34733)**
 
-**Authors**: Simon S. Bensnes, Ingrid Huitfeldt, Victoria Marone
+**Authors**: Sueyoul Kim, Ginger Zhe Jin, Eungik Lee
 
-**Abstract**: Patient cost-sharing is used as a tool to limit over-utilization of insured healthcare services in almost all high-income countries. We study its distributional consequences in the context of a publicly-funded universal health insurance system, where consumers (as tax-payers) are residual claimants on insurer spending. We highlight the distinction between consumers' elasticity of demand for healthcare services—which moderates how cost-sharing rules affect healthcare utilization—and their baseline level of demand—which moderates how cost-sharing rules affect out-of-pocket costs. Using detailed administrative data on the Norwegian national health insurance scheme, we study a 2010 policy change that raised the age threshold for cost-sharing exemption, thereby increasing patient cost-sharing substantially for adolescents. We find that females and native-born Norwegians have higher average utilization and thus have more at stake financially from cost-sharing, but are relatively less responsive to cost-sharing. In contrast, lower-income individuals as well as individuals with a chronic health condition have both higher average healthcare utilization as well as higher responsiveness. Cost-sharing therefore places a larger burden on these groups both in terms of the financial cost of out-of-pocket spending and in terms of reduced quantities of healthcare used.
+**Abstract**: Using a comprehensive dataset of posts from a major platform for anime- and manga-style artwork, we study the impact of the launch of a prominent text-to-image generative AI. Focusing on the majority of incumbent creators who do not adopt AI as a primary tool, we show that the AI launch led to a significant decline in post uploads by illustrators, whereas comic artists were less affected, reflecting the need for tight stylistic alignment across sequential images in comics. We present empirical evidence for two underlying mechanisms. First, illustration posts experience a loss of viewer attention, measured by bookmarks, following the AI launch, which can significantly harm creators’ business models. Second, direct competition from AI-generated content plays an important role: illustrators working on intellectual properties (IPs, such as Pokémon) that are more heavily invaded by AI reduce their uploads disproportionately more. We further examine creators’ responses and show that illustrators with greater exposure to AI avoid using tags favored by AI-generated content after the AI launch and broaden the range of IPs they work on, consistent with a risk-hedging response to AI invasion.
 
-**摘要**: 在几乎所有高收入国家，患者共付被用作限制过度使用保险医疗服务的工具。我们研究了在公共资助的全民健康保险体系背景下，其分配后果，其中消费者（作为纳税人）是保险公司支出的剩余索赔人。我们强调了消费者对医疗服务需求的弹性——这调节了共付规则如何影响医疗服务利用——以及他们的基本需求水平——这调节了共付规则如何影响自付成本。利用挪威国家健康保险计划的详细行政数据，我们研究了2010年的政策变化，该变化提高了共付豁免的年龄门槛，从而显著增加了青少年患者的共付。我们发现，女性和挪威本地出生的人平均使用率更高，因此在财务上受共付影响更大，但对共付的反应相对较小。相比之下，低收入个人以及患有慢性病的个人，不仅平均医疗利用更高，而且反应性也更高。因此，共付在财务成本方面，即自付支出的财务成本，以及在减少使用的医疗服务数量方面，给这些群体带来了更大的负担。
-
----
-### SNAP工作要求、行政负担和程序性拒绝
-**[SNAP Work Requirements, Administrative Burden and Procedural Denials](https://www.nber.org/papers/w34698)**
-
-**Authors**: Jason B. Cook, Elizabeth Cox, Chloe N. East
-
-**Abstract**: Work requirements are often criticized for imposing administrative burdens that reduce access to benefits, yet prior research has struggled to isolate this mechanism from other sources of disenrollment. This paper provides direct evidence by examining procedural denials in the Supplemental Nutrition Assistance Program (SNAP). We study work requirements for Able-Bodied Adults Without Dependents (ABAWDs) and exploit age-based exemptions that apply to individuals aged 50 and older. Using administrative data and difference-in-differences models leveraging waiver periods, we find that work requirements significantly increase procedural and overall denials. Our results indicate that these policies deter participation through imposed administrative burdens.
-
-**摘要**: 工作要求常常因为增加行政负担而受到批评，这些负担降低了人们获得福利的机会，然而先前的研究努力将这种机制与其他退保来源隔离开来。本文通过检查补充营养援助计划（SNAP）中的程序性拒绝，提供了直接证据。我们研究了对无抚养责任的健全成年人（ABAWDs）的工作要求，并利用适用于50岁及以上个体的年龄基础豁免。利用行政数据和差异-差异模型，我们发现工作要求显著增加了程序性和总体拒绝。我们的结果表明，这些政策通过增加行政负担来阻止参与。
+**摘要**: 翻译失败
 
 ---
-### 提高家庭和社区基础服务的质量和影响力以及价值的研究
-**[Research to Improve the Quality, Impact, and Value of Home and Community-Based Services](https://www.nber.org/papers/w34701)**
+### 翻译失败
+**[War and Democratic Backsliding](https://www.nber.org/papers/w34734)**
 
-**Authors**: Jacob M. Sims Speyer, Ari Ne'eman, Norma B. Coe, Ellen Meara
+**Authors**: Efraim Benmelech, Joao Monteiro
 
-**Abstract**: Nearly eight million Americans use Medicaid home and community-based services (HCBS) to support long-term services and supports for people with disabilities. Recent legislative changes to Medicaid will require states to make difficult choices about how best to meet these long-term services and supports needs. This paper first characterizes the unique goals of HCBS, which differ from those of traditional medical care services, and the state-federal financing and administrative structure of HCBS. Next, based on a review of the literature and input from a panel of experts in HCBS policy and research, we summarize existing evidence and knowledge gaps regarding the quality and cost implications of HCBS at the federal, state, and direct service provision levels. Based on gaps in the evidence, we propose a research agenda related to state-federal incentives, state program choices regarding HCBS financing and delivery models, and the settings and supports for direct service provision. Finally, we describe existing and novel data sources and other opportunities that could accelerate research to fill these evidence gaps and support states and others in designing, implementing, and delivering sustainable, high-quality HCBS.
+**Abstract**: We provide the first global, long-run evidence on how war reshapes democratic institutions. Using data on all conflicts since 1948, we show that the onset of conflict causes a large and persistent decline in democracy: institutions weaken immediately, continue to erode for nearly a decade, and do not recover. Yet this deterioration is highly selective. It appears only in first-time conflicts, intrastate wars, highly fractionalized societies, and conflicts that governments win. The decline operates through political channels – media censorship, judicial purges, curtailed civil liberties, irregular leadership turnover, and constitutional suspensions - rather than through any functional requirement of war-making. Autocratization does not increase the probability of victory, and institutional instability reduces it. Taken together, the findings show that war does not require autocracy; it enables executives to expand their authority and implement institutional changes that would be difficult to enact in peacetime.
 
-**摘要**: 近八百万美国人使用医疗补助家庭和社区基础服务（HCBS）来支持残疾人的长期服务和支持。最近对医疗补助的立法变更将要求各州做出艰难的选择，以最佳方式满足这些长期服务和支持需求。本文首先描述了HCBS的独特目标，这些目标与传统医疗服务的目标不同，以及HCBS的州联邦融资和行政结构。接下来，基于对文献的审查以及来自HCBS政策和研究专家小组的意见，我们总结了关于HCBS在联邦、州和直接服务提供层面的质量与成本影响的现有证据和知识空白。基于证据的空白，我们提出了一个与州联邦激励措施、州项目关于HCBS融资和交付模式的选择，以及直接服务提供的设置和支持相关的研究议程。最后，我们描述了现有的和新颖的数据来源以及其他机会，这些机会可以加速研究以填补这些证据空白，并支持各州和其他组织设计、实施和提供可持续、高质量的HCBS。
-
----
-### 卡尔希与宏观市场的兴起
-**[Kalshi and the Rise of Macro Markets](https://www.nber.org/papers/w34702)**
-
-**Authors**: Anthony M. Diercks, Jared Dean Katz, Jonathan H. Wright
-
-**Abstract**: Prediction markets offer a new market-based approach to measuring macroeconomic expectations in real-time. We evaluate the accuracy of prediction market-implied forecasts from Kalshi, the largest federally regulated prediction market overseen by the CFTC. We compare Kalshi with more traditional survey and market-implied forecasts, examine how expectations respond to macroeconomic and financial news, and how policy signals are interpreted by market participants. Our results suggest that Kalshi markets provide a high-frequency, continuously updated, distributionally rich benchmark that is valuable to both researchers and policymakers.
-
-**摘要**: 预测市场提供了一种新的基于市场的实时衡量宏观经济预期的方法。我们评估了由商品期货交易委员会（CFTC）监管的最大的联邦监管预测市场Kalshi所隐含的预测的准确性。我们将Kalshi与传统的调查和市场隐含预测进行比较，检验预期如何响应宏观经济和金融新闻，以及市场参与者如何解读政策信号。我们的结果表明，Kalshi市场提供了一个高频率、持续更新、分布丰富的基准，对研究人员和政策制定者都具有价值。
+**摘要**: 翻译失败
 
 ---
-### 离散选择下的总体生产力
-**[Aggregate Productivity with Discrete Choice](https://www.nber.org/papers/w34703)**
+### 翻译失败
+**[Economic Development and the Environment](https://www.nber.org/papers/w34735)**
 
-**Authors**: David Baqaee, Ariel Burstein
+**Authors**: B. Kelsey Jack, Nicholas Ryan
 
-**Abstract**: This paper quantifies aggregate productivity in general equilibrium economies where agents with heterogeneous preferences make discrete choices between locations and occupations. We show how the conventional tools of welfare economics, like cost-benefit analysis, can be extended to these settings. Following Debreu (1951), we measure the change in aggregate productivity as the maximum reduction in total factor productivity such that it is possible to make every household at least indifferent to their status quo allocation. Aggregate productivity rises if primary factors can be saved while keeping every household at least indifferent. We characterize this measure of efficiency in terms of compensated supply and demand curves. We show that, to a first-order approximation, the elasticity of aggregate productivity to productivity shocks is given by sales shares (regardless of preferences and technologies). We also provide second-order approximations in terms of elasticities of uncompensated supply and demand curves. We contrast our approach with some popular alternative measures of aggregate efficiency and welfare: real GDP, the cross-sectional average of utilities, and the sum of compensating variations, and show that these alternative measures have serious flaws.
+**Abstract**: Economic development relies on and transforms the environment. The transformation is evident in the poor environmental quality in many developing countries. For example, air quality in Southeast Asia is three times worse than in the United States, in sub-Saharan Africa four times worse and in South Asia more than six times worse. We model how environmental quality affects health, productivity and well-being and how individuals privately adapt to environmental hazards. We also model how collective action and formal regulation contribute to environmental quality. We draw three main findings from a review of empirical research on these mechanisms. First, individual adaptation to environmental hazards is both inadequate as a remedy and inefficiently low. Second, collective action, without the state, to manage resources or address externalities has been outstripped by the scale of environmental problems. Third, state action through formal regulation works better than it looks. Many formal regulations are coarse, poorly targeted and inefficient, but nonetheless yield benefits in excess of their costs.
 
-**摘要**: 本文量化了在一般均衡经济中，具有不同偏好的代理人在不同地点和职业之间做出离散选择时的总体生产率。我们展示了如何将福利经济学的传统工具，如成本效益分析，扩展到这些设置中。遵循Debreu（1951）的方法，我们通过测量总体生产率的变化来衡量，即在不使每个家庭对其现状分配产生不满的情况下，总要素生产率的最大降低幅度。如果能够在保持每个家庭至少不反感的情况下节省初级生产要素，总体生产率就会上升。我们用补偿供应和需求曲线来描述这种效率度量。我们展示了，对于一阶近似，总体生产率对生产率冲击的弹性由销售份额给出（无论偏好和技术如何）。我们还提供了以未补偿供应和需求曲线的弹性为条件的二阶近似。我们将我们的方法与一些流行的总体效率和福利替代度量进行了对比：实际GDP、效用截面平均值和补偿变化之和，并展示了这些替代度量存在严重缺陷。
-
----
-### 任期依赖的遣散费用与生命周期中的劳动市场动态
-**[Tenure-Dependent Severance Costs and Labor Market Dynamics over the Life Cycle](https://www.nber.org/papers/w34704)**
-
-**Authors**: Calebe Figueiredo, Neville Francis
-
-**Abstract**: We study the labor market effects of tenure-dependent severance pay systems that tie firing costs to workers’ accumulated earnings histories. We develop an overlapping-generations search-and-matching model in which firms face increasing separation costs over the employment relationship. Using administrative employer–employee data from Brazil, we estimate the model and show that tenure-dependent severance costs induce labor hoarding among low-productivity, long-tenured workers who would not be hired if unemployed. These distortions are strongest late in the life cycle, when firms optimally delay separation to avoid severance obligations, while simultaneously imposing higher hiring thresholds on older unemployed workers with shorter continuation values. These forces imply that tenure-based severance policies protect employment histories rather than productivity, shaping labor market dynamics over the life cycle and generating allocative inefficiencies.
-
-**摘要**: 我们研究了与工作年限相关的遣散费制度对劳动力市场的影响，这种制度将解雇成本与工人累积的收入历史挂钩。我们开发了一个重叠代际的搜索与匹配模型，其中企业在雇佣关系中面临不断增加的分离成本。利用巴西的行政雇主-雇员数据，我们估计了该模型，并表明与工作年限相关的遣散成本导致低生产力、长期雇员的劳动力囤积，这些雇员如果失业将不会被雇佣。这些扭曲在生命周期的后期最为严重，当时企业为了规避遣散义务而选择延迟解雇，同时对年长的失业工人设置更高的招聘门槛，这些工人的继续价值较低。这些力量意味着基于工作年限的遣散政策保护的是就业历史而非生产力，塑造了生命周期内的劳动力市场动态，并产生了配置效率低下的问题。
+**摘要**: 翻译失败
 
 ---
-### 美国工人对人工智能引起的工作流失的适应性如何？
-**[How Adaptable Are American Workers to AI-Induced Job Displacement?](https://www.nber.org/papers/w34705)**
+### 翻译失败
+**[College Major Choice, Payoffs, and Gender Gaps](https://www.nber.org/papers/w34736)**
 
-**Authors**: Sam J. Manning, Tomás Aguirre
+**Authors**: Christopher Campos, Pablo Muñoz, Alonso Bucarey, Dante Contreras
 
-**Abstract**: We construct an occupation-level adaptive capacity index that measures a set of worker characteristics relevant for navigating job transitions if displaced, covering 356 occupations that represent 95.9% of the U.S. workforce. We find that AI exposure and adaptive capacity are positively correlated: many occupations highly exposed to AI contain workers with relatively strong means to manage a job transition. Of the 37.1 million workers in the top quartile of AI exposure, 26.5 million are in occupations that also have above-median adaptive capacity, leaving them comparatively well-equipped to handle job transitions if displacement occurs. At the same time, 6.1 million workers (4.2% of the workforce in our sample) work in occupations that are both highly exposed and where workers have low expected adaptive capacity. These workers are concentrated in clerical and administrative roles. Importantly, AI exposure reflects potential changes to work tasks, not inevitable displacement; only some of the changes brought on by AI will result in job loss. By distinguishing between highly exposed workers with relatively strong means to adjust and those with limited adaptive capacity, our analysis shows that exposure measures alone can obscure both areas of resilience to technological change and concentrated pockets of elevated vulnerability if displacement were to occur.
+**Abstract**: This paper studies how college major choices shape earnings and fertility outcomes. Using administrative data that link students' preferences, random assignment to majors, and post-college outcomes, we estimate the causal pecuniary and non-pecuniary returns to different fields of study. We document substantial heterogeneity in these returns across majors and show that such variation helps explain gender gaps in labor market outcomes: women place greater weight on balancing career and family in their major choices, and these preference differences account for about 30% of the gender earnings gap among college graduates. Last, we use our causal estimates to evaluate the effects of counterfactual assignment rules that target representation gaps in settings with centralized assignment systems. We find that gender quotas in high-return fields can significantly reduce representation and earnings gaps with minimal impacts on efficiency and aggregate fertility.
 
-**摘要**: 我们构建了一个职业级别的适应能力指数，该指数衡量了一组与工人在被解雇后应对工作转换相关的特征，涵盖了代表美国95.9%劳动力的356个职业。我们发现，人工智能（AI）暴露和适应能力呈正相关：许多高度暴露于AI的职业中，工人拥有相对较强的管理工作转换的手段。在AI暴露度最高的37.1百万工人中，有26.5百万人的职业也具有高于中位数的适应能力，这使得他们在发生工作置换时相对更有能力应对工作转换。与此同时，有6.1百万工人（占我们样本中劳动力的4.2%）在既高度暴露于AI，又预期工人适应能力低的职业中工作。这些工人主要集中在文书和行政角色中。重要的是，AI暴露反映了工作任务的潜在变化，而不是不可避免的置换；只有部分由AI带来的变化会导致失业。通过区分那些有相对较强的调整手段的高度暴露工人和那些适应能力有限的工人，我们的分析表明，仅暴露度指标可能会掩盖对技术变化的弹性区域和集中的高风险区域，如果发生置换的话。
-
----
-### 精英高中边际录取：对劳动市场结果的长期影响
-**[Marginal Admission to Elite High Schools: Long-run Effects on Labor Market Outcomes](https://www.nber.org/papers/w34706)**
-
-**Authors**: Francisco J. Cabrera-Hernández, Andrew Dustan, Daniel Osuna Gomez, María Padilla-Romo
-
-**Abstract**: We estimate the long-run effects of marginal admission to elite public high schools on students' labor supply in the context of Mexico City's centralized high school admission system. Using a regression discontinuity approach, we compare students whose placement exam scores are just above and just below the elite admission threshold. We find that five and ten years after the admission exam, marginally admitted students are less likely to be employed in the formal private sector, and, if employed, they earn lower wages. However, these employment and wage gaps close after 15 years. Moreover, we find that marginal admission to elite high schools leads to delayed entry into the formal labor market, and, at least in the short run, students in elite high schools seem to sort into lower-productivity firms and industries.
-
-**摘要**: 我们估计在墨西哥城集中高中招生系统的背景下，边际录取到精英公立高中对学生劳动供应的长期影响。利用回归不连续方法，我们比较了那些录取考试成绩刚好高于和刚好低于精英录取门槛的学生。我们发现，在录取考试后的五年和十年，边际录取的学生在正规私营部门就业的可能性较低，如果就业，他们的工资也较低。然而，这些就业和工资差距在15年后缩小。此外，我们发现，边际录取到精英高中导致进入正规劳动市场的时间推迟，并且至少在短期内，精英高中的学生似乎被分配到生产率较低的公司和行业。
+**摘要**: 翻译失败
 
 ---
-### 永无止境：组织中的动态地位激励
-**[Never Enough: Dynamic Status Incentives in Organizations](https://www.nber.org/papers/w34707)**
+### 翻译失败
+**[Measuring the Growth of Skills](https://www.nber.org/papers/w34737)**
 
-**Authors**: Leonardo Bursztyn, Ewan Rawcliffe, Hans-Joachim Voth
+**Authors**: James J. Heckman, Haihan Tian, Jin Zhou, Zijian Zhang
 
-**Abstract**: We study the ability of a firm to elicit repeated effort from workers by creating a “rat race” of hierarchical status-based incentives. We examine performance using data on over 5,000 German air force pilots during World War II. Pilots’ effort is hard to monitor; motivation is key to success. Fighter pilot performance increases markedly as they approach eligibility for a medal before falling off upon receipt of the award. The same effort path repeats itself as the pilot nears the next higher-prestige medal. Status-conscious pilots also exert more effort when new medals are introduced. We show that medals serve as substitutes for other forms of status. Medal cachet declines over time as lower-ability pilots receive them, making the introduction of new medals desirable. These results suggest that a tiered, expanding system of status-based incentives can repeatedly leverage worker status concerns to extract effort.
+**Abstract**: This paper discusses a fundamental problem in measuring the growth of knowledge and comparing the skills of people. New skills emerge that are not just more of the previously acquired skills. Psychometric convention forces these skills into arbitrarily constructed scales, which can severely distort measurement. To formally address this problem, we measure skills using a novel measurement scheme, estimate a stochastic learning process and reject the common scale assumption across levels for language and cognitive skills. Furthermore, we estimate dynamic complementarity without imposing arbitrary scales for skills.
 
-**摘要**: 我们研究了公司通过创造基于等级地位的激励机制来激发员工的重复努力的能力。我们使用第二次世界大战期间超过5000名德国空军飞行员的数据来检验绩效。飞行员的努力很难监控；动机是成功的关键。飞行员的表现在他们接近获得奖章资格时显著提高，而在获得奖项后则下降。当飞行员接近下一个更高声望的奖章时，同样的努力路径会重复出现。注重地位的飞行员在引入新奖章时也会付出更多努力。我们展示了奖章可以作为其他形式地位的替代品。随着时间的推移，由于能力较低的飞行员获得奖章，奖章的声望逐渐下降，这使得引入新奖章变得可取。这些结果表明，一个分层、不断扩大的地位激励系统可以反复利用员工对地位的关注来提取努力。
-
----
-### 全球商业集中度：1900-2020
-**[Business Concentration around the World: 1900-2020](https://www.nber.org/papers/w34711)**
-
-**Authors**: Yueran Ma, Mengdi Zhang, Kaspar Zimmermann
-
-**Abstract**: We collect new data to document the long-run evolution of the firm size distribution in ten market-based economies in Asia, Europe, North America, and Oceania, where we can obtain comprehensive coverage of the population of firms. Around the world, we observe prevalent increases in the concentration of sales, net income, and equity capital over the past century. These trends hold in the aggregate and at the industry level. Meanwhile, employment concentration has been stable over the long run in most cases. The evidence shows that the rising dominance of large firms is a pervasive phenomenon, not limited to the recent decades or the United States, and that large firms often achieve greater scale without proportionally more workers.
-
-**摘要**: 我们收集了新的数据，以记录亚洲、欧洲、北美和大洋洲十个市场经济体中企业规模分布的长期演变，这些地区我们能够获得企业群体的全面覆盖。在全球范围内，我们观察到过去一个世纪销售集中度、净收入和股本的普遍增加。这些趋势在总体和行业层面都存在。与此同时，在大多数情况下，长期来看就业集中度保持稳定。证据表明，大企业的崛起是一个普遍现象，不仅限于近几十年或美国，而且大企业往往在不增加相应工人数量的情况下实现更大的规模。
+**摘要**: 翻译失败
 
 ---
-### 后全球金融危机时代住宅抵押贷款信用风险定价
-**[Pricing Residential Mortgage Credit Risk in the Post-GFC Era](https://www.nber.org/papers/w34708)**
+### 翻译失败
+**[The Informational Role of Emission Markets: Prices vs Quantities with Dispersed Information About Externalities](https://www.nber.org/papers/w34738)**
 
-**Authors**: Agostino Capponi, Stijn Van Nieuwerburgh, Xinkai Wu
+**Authors**: Derek Lemoine
 
-**Abstract**: Following the Great Financial Crisis (GFC), the Credit Risk Transfer (CRT) bond market emerged as a new asset class in U.S.  mortgage market. We develop an asset pricing framework for CRTs consistent with Treasury, corporate bond, and housing markets. Our analysis reveals that the Government-Sponsored Enterprises compensate investors approximately fairly on average, though they overpay for low-risk tranches and underpay for high-risk ones. Additionally, the post-GFC guarantee fee increases broadly align with underlying credit risk. We find significant reverse cross-subsidization, where high-credit-risk borrowers subsidize low-risk ones. The 2023 reform partially corrected this cross-subsidization.
+**Abstract**: I study asymmetric information about the social cost of an externality, as opposed to asymmetric information about private costs of abatement. I show that quantity regulation with bankable permits has an informational advantage because the permit market aggregates dispersed information about social costs. It has the disadvantage of making private costs more uncertain ex ante. I analytically derive the expression for the (dis)advantage of prices over quantities in this setting. I show that a quantity policy can dominate a price policy for any slope of marginal private costs and always dominates when marginal private costs are sufficiently flat.
 
-**摘要**: 在大金融危机（GFC）之后，信用风险转移（CRT）债券市场作为美国抵押贷款市场的一个新资产类别出现。我们为CRT开发了一个与国债、公司债券和住房市场一致的资产定价框架。我们的分析显示，政府赞助企业平均而言对投资者的补偿大致公平，尽管他们为低风险部分支付过多，而对高风险部分支付不足。此外，后GFC的担保费增加大体上与潜在的信用风险一致。我们发现有显著的反向交叉补贴，即高信用风险借款人为低风险借款人提供补贴。2023年的改革部分纠正了这种交叉补贴。
-
----
-### AI掌管：关于电动汽车充电需求的大规模实验证据
-**[AI in Charge: Large-Scale Experimental Evidence on Electric Vehicle Charging Demand](https://www.nber.org/papers/w34709)**
-
-**Authors**: Robert D. Metcalfe, Andrew Schein, Cohen R. Simpson, Yixin Sun
-
-**Abstract**: One of the promising opportunities offered by AI to support the decarbonization of electricity grids is to align demand with low-carbon supply. We evaluated the effects of one of the world’s largest AI managed EV charging tariffs (a retail electricity pricing plan) using a large-scale natural field experiment. The tariff dynamically controlled vehicle charging to follow real-time wholesale electricity prices and coordinate and optimize charging for the grid and the consumer through AI. We randomized financial incentives to encourage enrollment onto the tariff. Over more than a year, we found that the tariff led to a 42% reduction in household electricity demand during peak hours, with 100% of this demand shifted to lower-cost and lower-carbon-intensity periods. The tariff generated substantial consumer savings, while demonstrating potential to lower producer costs, energy system costs, and carbon emissions through significant load shifting. Overrides of the AI algorithm were low, suggesting that this tariff was likely more efficient than a real-time-pricing tariff without AI, given our theoretical framework. We found similar plug-in and override behavior in several markets, including the UK, US, Germany, and Spain, implying the potential for comparable demand and welfare effects. Our findings highlight the potential for scalable AI managed charging and its substantial welfare gains for the electricity system and society. We also show that experimental estimates differed meaningfully from those obtained via non-randomized difference-in-differences analysis, due to differences in the samples in the two evaluation strategies, although we can reconcile the estimates with observables.
-
-**摘要**: 人工智能为支持电网脱碳提供的有前景的机会之一是将需求与低碳供应对齐。我们通过大规模自然现场实验评估了世界上最大的人工智能管理电动汽车充电费率（一种零售电力定价计划）之一的效果。该费率通过人工智能动态控制车辆充电以跟随实时批发电力价格，并通过人工智能协调和优化电网和消费者的充电。我们随机化了财务激励措施以鼓励加入该费率。在一年多的时间里，我们发现该费率在高峰时段导致家庭电力需求减少了42%，其中100%的需求转移到了成本更低、碳强度更低的时期。该费率为消费者节省了大量资金，同时展示了通过显著的负荷转移降低生产者成本、能源系统成本和碳排放的潜力。人工智能算法的覆盖率很低，表明鉴于我们的理论框架，该费率可能比没有人工智能的实时定价费率更有效。我们在包括英国、美国、德国和西班牙在内的几个市场中发现了类似的插入和覆盖行为，意味着有潜力产生类似的需求和福利效应。我们的发现强调了可扩展的人工智能管理充电的潜力，以及它为电力系统和社会带来的巨大福利收益。我们还展示了实验估计与通过非随机差异差异分析获得的估计之间存在显著差异，这是由于两种评估策略中的样本差异造成的，尽管我们可以用可观察到的数据来调和这些估计。
+**摘要**: 翻译失败
 
 ---
-### 金融科技与客户资本
-**[FinTech and Customer Capital](https://www.nber.org/papers/w34710)**
+### 翻译失败
+**[The Dynamics of Retail Deposit Balances](https://www.nber.org/papers/w34742)**
 
-**Authors**: Bianca He, Lauren Mostrom, Amir Sufi
+**Authors**: Bronson Argyle, Benjamin Iverson, Jason D. Kotter, Taylor D. Nadauld, Christopher Palmer
 
-**Abstract**: Financial Technology (“FinTech”) firms invest significantly more in customer capital relative to traditional financial firms, and such investment builds valuable customer capital. Higher investment by FinTech firms is not accounted for by sectoral focus or differences in firm age. Reasons for higher customer capital investment are explored, including the need to build trust with customers, the focus on downstream segments of the financial marketplace, the operation of platform-based business models, and a heavier reliance on valuable customer data.
+**Abstract**: We investigate the dynamics of household deposits using account-level data from 12 million accounts across 154 U.S. credit unions. Significant skewness in the retail deposit distribution–with 10% of depositors controlling 70% of total deposits–means large-balance accounts drive aggregate retail deposit flows. On average, high-balance accounts become large after significant one-time inflows and are more likely to experience large, idiosyncratic drawdowns. Unlike low-balance households, high-balance retail depositors are not sensitive to interest rate shocks. Additional evidence suggests that overall retail deposit stickiness is driven by high-balance accounts that are used as medium-run liquidity stores rather than for interest income.
 
-**摘要**: 金融科技（“FinTech”）公司在客户资本上的投资远高于传统金融公司，这种投资构建了宝贵的客户资本。FinTech公司更高的投资并非由行业专注或公司年龄差异所解释。探讨了FinTech公司在客户资本上更高投资的原因，包括与客户建立信任的需求、专注于金融市场的下游细分市场、基于平台的商业模式的运作，以及对有价值客户数据的更大依赖。
-
----
-### 向机器教授经济学
-**[Teaching Economics to the Machines](https://www.nber.org/papers/w34713)**
-
-**Authors**: Hui Chen, Yuhan Cheng, Yanchu Liu, Ke Tang
-
-**Abstract**: Structural economic models, while parsimonious and interpretable, often exhibit poor data fit and limited forecasting performance. Machine learning models, by contrast, offer substantial flexibility but are prone to overfitting and weak out-of-distribution generalization. We propose a theory-guided transfer learning framework that integrates structural restrictions from economic theory into machine learning models. The approach pre-trains a neural network on synthetic data generated by a structural model and then fine-tunes it using empirical data, allowing potentially misspecified economic restrictions to inform and regularize learning on empirical data. Applied to option pricing, our model substantially outperforms both structural and purely data-driven benchmarks, with especially large gains in small samples, under unstable market conditions, and when model misspecification is limited. Beyond performance, the framework provides diagnostics for improving structural models and introduces a new model-comparison metric based on data-model complementarity.
-
-**摘要**: 结构经济模型虽然简洁且易于解释，但往往数据拟合效果差，预测性能有限。相比之下，机器学习模型提供了巨大的灵活性，但容易过拟合，且在分布外泛化能力弱。我们提出了一个以理论为指导的迁移学习框架，将经济理论中的结构性限制整合到机器学习模型中。该方法首先在由结构模型生成的合成数据上预训练神经网络，然后使用实证数据进行微调，允许可能被误设定的经济限制来指导和规范实证数据上的学习。将此模型应用于期权定价，我们的模型在小样本、市场不稳定条件下以及模型误设定有限时，显著优于结构性和纯数据驱动的基准模型。除了性能之外，该框架还提供了改进结构模型的诊断工具，并引入了一种基于数据-模型互补性的新模型比较指标。
+**摘要**: 翻译失败
 
 ---
-### 人工锯齿智能模型
-**[A Model of Artificial Jagged Intelligence](https://www.nber.org/papers/w34712)**
+### 翻译失败
+**[The Demand for Grandchildren: Children as Family Public Goods and Implications for Cooperative Bargaining](https://www.nber.org/papers/w34741)**
 
-**Authors**: Joshua S. Gans
+**Authors**: Janice Compton, Robert A. Pollak
 
-**Abstract**: Generative AI systems often display highly uneven performance across tasks that appear “nearby”: they can be excellent on one prompt and confidently wrong on another with only small changes in wording or context. We call this phenomenon Artificial Jagged Intelligence (AJI). This paper develops a tractable economic model of AJI that treats adoption as an information problem: users care about local reliability, but typically observe only coarse, global quality signals. In a baseline one-dimensional landscape, truth is a rough Brownian process, and the model “knows” scattered points drawn from a Poisson process. The model interpolates optimally, and the local error is measured by posterior variance. We derive an adoption threshold for a blind user, show that experienced errors are amplified by the inspection paradox, and interpret scaling laws as denser coverage that improves average quality without eliminating jaggedness. We then study mastery and calibration: a calibrated user who can condition on local uncertainty enjoys positive expected value even in domains that fail the blind adoption test. Modelling mastery as learning a reliability map via Gaussian process regression yields a learning-rate bound driven by information gain, clarifying when discovering “where the model works” is slow. Finally, we study how scaling interacts with discoverability: when calibrated signals and user mastery accelerate the harvesting of scale improvements, and when opacity can make gains from scaling effectively invisible.
+**Abstract**: The title says it all. Well, almost all. To economists, the situation suggests bargaining between parents and grandparents, where the grandparents can "bribe" the parents to have more children or to have children sooner than they otherwise would. Because cash transfers seem inappropriate, bribes are likely to take the form of promises of child care or down payments on houses. Coasian bargaining or, more generally, cooperative bargaining models with their explicit assumption of Pareto efficiency offer accessible off-the shelf models. Larger family size (e.g., the participation of both pairs of grandparents) and family complexity (e.g., resulting from divorce and repartnering in the parents' generation or the grandparents' generation) threaten the assumption of zero or low transaction costs. Low transaction costs, explicit in the Coasian analysis and implicit in cooperative game theory's assumption of Pareto efficiency, play a crucial role. The generalization of family economics from the analysis of bargaining between spouses to include family members beyond the household will at some point require replacing Coasian and cooperative bargaining with models of noncooperative bargaining.
 
-**摘要**: 生成性人工智能系统在看似“相近”的任务上常常表现出高度不均匀的性能：它们可能在一个提示上表现出色，而在另一个只有微小措辞或上下文变化的提示上却自信地出错。我们将这种现象称为人工锯齿智能（AJI）。本文发展了一个关于AJI的可行经济模型，将采用视为一个信息问题：用户关心局部可靠性，但通常只能观察到粗糙的、全局的质量信号。在一个基线一维景观中，真理是一个粗糙的布朗过程，模型“知道”从泊松过程中抽取的零散点。模型进行最优插值，局部误差通过后验方差来衡量。我们为一个盲目用户推导出一个采用阈值，展示经验错误如何被检查悖论放大，并解释规模法则作为更密集的覆盖，提高了平均质量而没有消除锯齿性。然后我们研究掌握和校准：一个能够根据局部不确定性进行条件判断的校准用户即使在那些未通过盲目采用测试的领域也能享受正的预期价值。将掌握建模为通过高斯过程回归学习可靠性图，得出一个由信息增益驱动的学习率界限，阐明了发现“模型在哪里工作”是缓慢的。最后，我们研究规模如何与可发现性相互作用：当校准信号和用户掌握加速收获规模改进时，以及当不透明性可以使规模收益实际上看不见时。
+**摘要**: 翻译失败
 
 ---
-### 从1950年到2021年基于LLM的经济学研究中衡量效率与公平框架的证据
-**[Measuring Efficiency and Equity Framing in Economics Research: LLM-Based Evidence from 1950 to 2021](https://www.nber.org/papers/w34714)**
+### 翻译失败
+**[Consumer Demand and Market Competition with Time-Intensive Goods](https://www.nber.org/papers/w34743)**
 
-**Authors**: Sebastian Galiani, Ramiro H. Gálvez, Franco Mettola La Giglia, Raul A. Sosa
+**Authors**: Joseph Goodman, Lancelot Henry de Frahan, Justin E. Holz, John A. List, Niall MacMenamin, Evan C. McKay, Magne Mogstad, Sally Sadoff, Hal Sider
 
-**Abstract**: We measure how frontier research frames what is normatively at stake along the efficiency and equity dimension. We develop and validate an LLM-based measurement pipeline and apply it to 27,464 full-text journal articles from 1950 to 2021. Efficiency focused framing rises through the late 1980s, then declines as equity related framing expands after 1990, especially in applied work and policy evaluations. By 2021, papers with an equity component are about as common as papers framed purely around efficiency. President transmittal letters in the Economic Report of the President show a similar post 1990 shift toward equity, providing an external benchmark.
+**Abstract**: We leverage Becker’s time allocation theory to examine consumer demand and market competition for time-intensive goods. The Beckerian model predicts higher diversion ratios for goods with substantial time shares and those with high time costs relative to monetary prices. Applying this model to data from two field experiments, we analyze demand for Facebook and Instagram, focusing on substitution patterns across online activities and offline time use. Our findings indicate that users exhibit low elasticity to ad load, the primary user cost, and that time shares and time costs significantly influence diversion ratios. We explore the implications for user costs and benefits on these platforms and assess the potential impact of a Federal Trade Commission-proposed de-merger of Facebook and Instagram.
 
-**摘要**: 我们衡量前沿研究如何围绕效率和公平维度界定规范性的利益。我们开发并验证了一个基于大型语言模型（LLM）的测量流程，并将之应用于1950年至2021年间的27,464篇全文期刊文章。以效率为重点的框架在20世纪80年代末上升，然后在1990年后随着与公平相关的框架扩展而下降，特别是在应用工作和政策评估中。到了2021年，包含公平成分的论文与纯粹围绕效率框架的论文一样常见。总统经济报告中的总统传递信件也显示出1990年后向公平的类似转变，提供了一个外部基准。
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[The United States as an Active Industrial Policy Nation](https://www.nber.org/papers/w34744)**
+
+**Authors**: Jiandong Ju, Yuankun Li, Shang-Jin Wei
+
+**Abstract**: We document and characterize a new history of U.S. federal-level industrial policies by scanning all 12,167 Congressional Acts and 6,030 Presidential Orders from 1973 through 2022. We find several interesting patterns. First, contrary to a common perception, the United States has always been an active industrial policy nation throughout the period, regardless of which party is in power, with 5.4 laws and 3.4 Presidential Orders per year on average containing new industrial policies. Second, we identify roughly 300% more instances of industrial policies than those in the Global Trade Alert (GTA) database during 2008-2022, despite using essentially the same definition. Third, industrial policies in practice are as likely to be justified by national security as by economic competitiveness. Fourth, many U.S. industrial policies incorporate design features that help mitigate potential drawbacks, such as explicit expiration dates and pilot programs for emerging technologies. Finally, based on stock market reactions and firm performance, the identified policies are recognized as economically significant in shifting resource allocations.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Behavioral Economics of AI: LLM Biases and Corrections](https://www.nber.org/papers/w34745)**
+
+**Authors**: Pietro Bini, Lin William Cong, Xing Huang, Lawrence J. Jin
+
+**Abstract**: Do generative AI models, particularly large language models (LLMs), exhibit systematic behavioral biases in economic and financial decisions? If so, how can these biases be mitigated? Drawing on the cognitive psychology and experimental economics literatures, we conduct the most comprehensive set of experiments to date—originally designed to document human biases—on prominent LLM families across model versions and  scales. We document systematic patterns in LLM behavior. In preference-based tasks, responses become more human-like as models become more advanced or larger, while in belief-based tasks, advanced large-scale models frequently generate rational responses. Prompting LLMs to make rational decisions reduces biases.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Scaling Sustainable Investing in Emerging and Developing Economies: Frictions and Opportunities](https://www.nber.org/papers/w34746)**
+
+**Authors**: Caroline Flammer, Thomas Giroux, Geoffrey Heal
+
+**Abstract**: Mobilizing private capital at scale is critical for financing sustainable development, particularly in emerging and developing economies (EMDEs), where capital is most needed. We conduct a global survey of senior investment decision-makers across a broad spectrum of capital providers, including asset managers, pension and sovereign wealth funds, development finance institutions, philanthropic investors, and others. The survey provides novel evidence on investors’ risk-return expectations, risk perceptions, and investment practices in EMDEs and in blended finance structures. We document four main findings. First, conditional on investor type, return expectations in EMDEs are comparable to those in developed markets, suggesting that categorical exclusions of EMDE assets might be inefficient. Second, investors’ dominant risk perceptions—particularly currency and political risks—are poorly aligned with the de-risking tools commonly employed in blended finance. Third, prevailing approaches to evaluating blended finance rely on both input- and outcome-based metrics, yet with limited measurement of financial and impact additionality. Fourth, our results highlight organizational and informational frictions, rather than unattractive financial fundamentals, as key barriers to scaling sustainable investing in EMDEs.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Effective and Scalable Programs to Facilitate Labor Market Transitions for Women in Technology](https://www.nber.org/papers/w34750)**
+
+**Authors**: Susan Athey, Emil Palikot
+
+**Abstract**: We evaluate two interventions facilitating technology-sector transitions for women in Poland: Mentoring, focused on expanding professional networks, and Challenges, focused on building credible skill signals. Randomizing oversubscribed admissions, we find both programs substantially increase technology employment at twelve months-by 15 percentage points for Mentoring and 11 p.p. for Challenges. The distinct mechanisms through which the programs operate translate to heterogeneous treatment effects across geography, career stage, and baseline credentials. These differential effects create scope for improved allocation: algorithmic targeting across programs outperforms random assignment by 86% and outperforms experts' selection into Mentoring by 11%.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[A Few Bad Apples? Academic Dishonesty, Political Selection, and Institutional Performance in China](https://www.nber.org/papers/w34747)**
+
+**Authors**: Zhuang Liu, Wenwei Peng, Shaoda Wang
+
+**Abstract**: Honesty is perceived as fundamental to societal functioning, motivating education systems worldwide to enforce strict oversight and heavy penalties for dishonest behavior. Yet much academic misconduct remains unexposed, and its broader consequences are further obscured by the sorting of individuals into careers based on probity. Applying advanced plagiarism-detection algorithms to half a million publicly available graduate dissertations in China, we uncover hidden misconduct and validate it against incentivized measures of honesty. Linking plagiarism records to rich administrative data, we document four main findings. First, plagiarism is pervasive and predicts adverse political selection: plagiarists are more likely to enter and advance in the public sector. Second, plagiarists perform worse when holding power: focusing on the judiciary and exploiting quasi-random case assignments, we find that judges with plagiarism histories issue more preferential rulings and attract a greater number of appeals — effects partly mitigated by trial livestreaming. Third, plagiarizing judges generate spillovers onto other judges and lawyers. Fourth, exploiting the staggered adoption of detection tools, we demonstrate that enforcing academic integrity leads to modest improvements in future professional conduct.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[A Macroeconomic Perspective on Stock Market Valuation Ratios](https://www.nber.org/papers/w34748)**
+
+**Authors**: Andrew Atkeson, Jonathan Heathcote, Fabrizio Perri
+
+**Abstract**: Traditional valuation metrics for the U.S. stock market based on a comparison of the aggregate market value of U.S. corporations to measures of dividends, earnings, output, and the replacement cost of measured capital have been above historical norms for the past 25–30 years. Will they return to their historical means? We use macroeconomic data to argue that the observed decline in labor’s share of corporate output in conjunction with relatively weak corporate investment mechanically generates a persistent rise in the ratio of corporate valuation relative to corporate earnings, even absent any changes in expected returns or growth rates.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Industrial Activity, State Capacity, and Deforestation: Evidence from Brazil](https://www.nber.org/papers/w34751)**
+
+**Authors**: Daniel Da Mata, Mario Dotta, Edson R. Severnini
+
+**Abstract**: Does industrial activity drive deforestation and land degradation, and can limited state capacity be overcome to decouple economic growth from environmental harm? We examine these questions in the context of slaughterhouse plant openings in Brazil from 1994 to 2019. Guided by a simple conceptual framework and using a staggered difference-in-differences approach, we show that plant openings increase livestock production while reducing forest cover and degrading pastureland. However, following the introduction of legally enforceable, incentive-compatible agreements between slaughterhouses and federal prosecutors—which penalize purchases of livestock from illegally deforested areas but act as a green certification mechanism—plant openings increase productivity without driving deforestation. Our findings suggest that tying firm performance to environmental goals through market-aligned legal mechanisms can generate economic and environmental gains at low cost to the government.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[The Response of Debtors to Rate Changes](https://www.nber.org/papers/w34752)**
+
+**Authors**: Andreas Fuster, Virginia Gianinazzi, Andreas Hackethal, Philip Schnorpfeil, Michael Weber
+
+**Abstract**: How borrowers respond to future changes in the interest rate on their debt matters for the transmission of monetary policy and for household financial stability. Combining bank data, a letter RCT, and a survey, we study this question in the context of the German mortgage market, where since 2022 borrowers have faced high interest rates when their rate fixation period ends. We find that borrower actions substantially reduce the impact of higher rates on monthly payments. Survey responses corroborate high informedness and a strong propensity to prepare for rate changes. The letter intervention does not affect rate beliefs but increases awareness of available options and refinancing among borrowers close to expiration of their rate fixation.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Gender Norms and the Labor Market](https://www.nber.org/papers/w34716)**
+
+**Authors**: Patricia Cortés, Jisoo Hwang, Jessica Pan, Uta Schönberg
+
+**Abstract**: Despite substantial convergence in men’s and women’s economic roles, gender gaps in labor market outcomes persist across countries. This article provides a unified framework for understanding how gender norms shape economic behavior, distinguishing between internalized norms—preferences and beliefs tied to gender identity—and external norms arising from peer pressure and social coordination. We first document cross-country and within-country variation in gender attitudes, alongside gradual but uneven shifts toward more egalitarian views. We then review empirical evidence on the origins, persistence, and transmission of gender norms, and their effects on human capital accumulation, labor supply, wages, and policy take-up. The review highlights both the durability of gender norms and the mechanisms through which policies, institutions, and media can induce norm change, with implications for the design of effective interventions.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Global Imbalances and Power Imbalances](https://www.nber.org/papers/w34717)**
+
+**Authors**: Christopher Clayton, Matteo Maggiori, Jesse Schreger
+
+**Abstract**: We discuss the conditions under which global imbalances, such as China being a large foreign creditor and the United States being a large foreign debtor, might also generate power imbalances. We highlight possible theoretical channels and empirical measures that the future literature could investigate in a full treatment of this topic.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Structural Change and Jobless Development](https://www.nber.org/papers/w34718)**
+
+**Authors**: Franziska L. Ohnsorge, Richard Rogerson, Zoe Xie
+
+**Abstract**: Benchmark models of structural transformation focus on the reallocation of employment across sectors while assuming that overall employment stays constant. We show that this assumption does not match facts for developing economies. We study a panel of 48 mostly developing economies over the period 1990--2018 and document a strong positive relationship between the share of the population employed in agriculture and the overall employment rate. That is, the early part of the development process is associated with a substantial decline in the total employment rate. Motivated by this finding, we extend a benchmark model of structural change featuring Stone-Geary preferences to allow for endogenous labor supply. We show that this model can account for the patterns we document in the data both qualitatively and quantitatively. We use a calibrated version of our model to study the employment dynamics in several developing economies and show that structural change is a quantitatively important source of employment changes during the early stages of development.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Financial Crises: History, Theory and New Insights](https://www.nber.org/papers/w34719)**
+
+**Authors**: Eric Hilt
+
+**Abstract**: This review essay discusses the history, causes and consequences of financial crises. In recent years scholars have assembled new sources of data and utilized new empirical designs to analyze crises, shedding light on old questions and producing new insights. This essay highlights those new insights, and uses the historical record of crises in the United States to put those insights into perspective. I begin with a discussion of the defining characteristics of financial crises and their evolution, both in the U.S. and in the rest of the world. I then revisit the chronology of crises in the U.S. since 1870. Data on bank failure rates and large-bank equity losses suggest that some panics were not full-blown financial crises, and also identify episodes when no panic occurred that could potentially be considered crises. I then turn to two categories of theoretical models developed to analyze the mechanisms responsible for crises. The first focuses on asset price bubbles, which have been associated with many crises. The second is focused on the dynamics of bank runs and panics, which have been especially common in the United States. Finally, I present an overview of the effects of crises and the mechanisms transmitting financial distress in the banking system into the rest of the economy.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Modeling the Labor Implications of the Energy Transition](https://www.nber.org/papers/w34723)**
+
+**Authors**: Marc A.C. Hafstead, Roberton C. Williams III
+
+**Abstract**: The energy transition away from fossil fuels toward alternative energy sources will, like every significant economic transition, disrupt existing economic relationships and markets. Disruption in the labor market is of particular concern due to the distributional and political importance of energy jobs and the potential concentration of risks on workers in carbon-intensive sectors and regions that are particularly reliant on fossil-fuel industries. We look at modeling the labor implications of the energy transition. We outline a conceptual framework for analyzing the labor-market risks, focusing on obstacles to labor-market adjustments during the transition. We then review empirical research on such barriers to labor-market adjustments, with a focus on evidence that can inform modeling efforts. We also survey the literature on ex-ante modeling of the effects of the energy transition on labor markets, identifying both the challenges and opportunities for new research in this field.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Speculative Growth and the AI "Bubble"](https://www.nber.org/papers/w34722)**
+
+**Authors**: Ricardo J. Caballero
+
+**Abstract**: AI technology can generate speculative-growth equilibria. These are rational but fragile: elevated valuations support rapid capital accumulation, yet persist only as long as beliefs remain coordinated. Because AI capital is labor-like, it expands effective labor and dampens the normal decline in the marginal product of capital as the capital stock grows. The gains from this expansion accrue disproportionately to capitalists, whose saving rate rises with wealth, raising aggregate saving.  Building on Caballero et al (2006), I show that these features generate a funding feedback—rising capitalist wealth lowers the required return—that can produce multiple equilibria. With intermediate adjustment costs, elevated valuations are the mechanism that sustains a transition toward a high-capital equilibrium; a loss of confidence can precipitate a self-fulfilling crash and reversal.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Understanding Latin America’s Fertility Decline: Age, Education, and Cohort Dynamics](https://www.nber.org/papers/w34749)**
+
+**Authors**: Milagros Onofri, Inés Berniell, Raquel Fernández, Azul Menduiña
+
+**Abstract**: This paper examines the sharp decline in fertility across Latin America using both period and cohort measures. Combining Vital Statistics, Census microdata, and UN population data, we decompose changes in fertility by age, education, and joint age–education groups. We show that the decline in period fertility between 2000 and 2022 is driven primarily by reductions in within-group birth rates rather than by changes in population composition, with the largest contributions coming from younger and less-educated women. Comparing the cohort born in the mid 1950s and the one born in the mid 1970s, we find that the decline in completed fertility reflects not only delayed childbearing but also substantial reductions in the average number of children per woman. This is driven primarily by lower fertility among mothers rather than by rising childlessness. Our findings provide new evidence on the nature of Latin America’s transition to below-replacement fertility and highlight several open questions for future research.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Psychology and Development: Applications from Cognitive and Social Psychology](https://www.nber.org/papers/w34753)**
+
+**Authors**: Emily Breza, Supreet Kaur
+
+**Abstract**: We outline a research agenda for behavioral development economics that seeks to understand the role of psychological channels in: (i) impeding individuals' ability to climb out of poverty, and (ii) shaping the organization of production, functioning of markets, and role of informal institutions in developing countries.  We apply a missing markets lens to rationalize why tools, products and services that help individuals overcome their biases will be under-supplied by the market and why behavioral biases can have large impacts in steady state, even among highly experienced agents. We argue that these biases are especially likely to matter for the field of development because core features of poverty---proximity to subsistence, high volatility,  market failures,  weak formal institutions, and reliance on social ties---amplify the impact of psychological constraints. We organize our review around a core set of psychological constructs: self-control, cognitive constraints, self-beliefs, mental health, and social norms. For each construct, we highlight places where there is only a proof of concept versus evidence of meaningful impacts, and the resultant implications for future research. We also highlight where social capital can be deployed to mitigate the impacts of missing markets. The field research to date has only begun to scratch the surface in document how psychological mechanisms affect behavior and decision-making, and substantial scope remains for future work to determine whether these constraints play a first-order role in shaping poverty.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Current Account Deficits and the Welfare of Future Generations](https://www.nber.org/papers/w34740)**
+
+**Authors**: Christopher Phelan
+
+**Abstract**: This paper explores the effects of one nation's  taxation of consumption on the welfare of future generations of other countries. To do this, it presents an otherwise standard one-good, two-country optimal growth model with free capital markets, but where each date represents the lifetime of a generation which cares not only about its own consumption and leisure, but also that of its descendants. Relative to a no tax benchmark, a policy of one country taxing consumption of its initial generations has ambiguous welfare effects for future generations of the other country, as long as those future generations are not too far in the future.   Higher initial savings in the first country raises capital levels, and thus wages, in both countries, raising welfare of future generations in the second country, but also induces lower bequests in the second country, lowering the welfare of its future generations.  In the long run, or for generations born near the steady state, the welfare effects of the first country inducing lower consumption of its initial generations are unambiguous: future generations of the second country are made worse off.  Households born in the second country will regret that their ancestors allowed such policy-induced intertemporal trade.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Missing Black Men? The Impact of Non-Reporting on Estimates of Labor Market Outcomes for Black Men](https://www.nber.org/papers/w34724)**
+
+**Authors**: Adrienne Sabety, Ariella K. Spitzer
+
+**Abstract**: Adult Black men persistently do not report to household-based surveys, with demographers estimating non-reporting rates of 7-14% from 1970-2020. We derive a method to account for incomplete data and show that non-reporting rates are up to 5.5 percentage points (pp) larger than prior estimates, with significant heterogeneity by year. We then show that Black men at risk of incarceration drive non-reporting. We use state-year variation in incarceration rates to estimate that 35-83% of the incarcerated population would have been non-reporting if not incarcerated. Adjusting for previously uncorrected non-reporting shows that the Black-white gap in high-school completion is 20-39% (3.0-5.9 pp) larger, college attendance is 8-18% (3.1-6.1 pp) larger, and earnings is 10-20% (2.8-5.7 pp) larger. In contrast, the gap in  employment is 4-8% (0.6-1.6 pp) smaller than previously thought.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[Migration and the Making of the English Middle Class](https://www.nber.org/papers/w34721)**
+
+**Authors**: Vasiliki Fouka, Theo Serlin
+
+**Abstract**: When do people identify with their class? Evidence from social psychology shows that individuals are more likely to identify with a group if they are similar to its members. We study early 20th century Britain and show that regional cultural heterogeneity combined with internal migration influenced class identity. We develop and validate a measure of class identity using naming decisions. Exploiting within-household variation, we show that migration patterns that increased the local share of culturally-distant workers reduced working class identification. Where migration increased the cultural distance of the working class, workers were less likely to join unions, voters were less likely to support the nascent Labour Party, and parliamentary candidates were less likely to target working class voters. By 1911, slower in-migration and rising local population growth reduced working class distance in urban areas, which also became strongholds of support for Labour. Migration alters social identity and creates political cleavages.
+
+**摘要**: 翻译失败
+
+---
+### 翻译失败
+**[You Only Live Twice: Financial Inflows and Growth in a Westward-Facing Ukraine](https://www.nber.org/papers/w34715)**
+
+**Authors**: Yuriy Gorodnichenko, Maurice Obstfeld
+
+**Abstract**: The monumental task of rebuilding postwar Ukraine requires early planning and identification of growth strategies. The earlier accession of Eastern European countries to the European Union and NATO offers a template that relies on massive foreign direct investment and public structural funds. This approach helps to raise incomes directly and can create a virtuous circle where capital deepening facilitates technological upgrades and repatriation of war refugees, which in turn stimulate more investment. We show theoretically that the government can refine this strategy by internalizing positive externalities from having a higher capital stock: Investment in physical capital relaxes borrowing constraints (thus allowing more capital inflows) and raises wages (thus encouraging more Ukrainian refugees to return home).
+
+**摘要**: 翻译失败
 
 ---
 <!-- NBER_PAPERS_END -->
