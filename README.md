@@ -1,276 +1,408 @@
 # 本周NBER论文
 
 <!-- NBER_PAPERS_START -->
-*(Updated on: 2026-04-06)*
+*(Updated on: 2026-04-13)*
 
-1. **[Thinking versus Doing: Cognitive Capacity, Decision Making and Medical Diagnosis](https://www.nber.org/papers/w35034)**<br/>思考与行动：认知能力、决策制定和医学诊断
-    - *Authors: Benjamin R. Handel, Louis-Jonas Heizlsperger, Jonas Knecht, Jonathan T. Kolstad, Ulrike Malmendier, Filip Matějka*
-2. **[Liquidity-Driven Growth Cycles in Small Open Economies](https://www.nber.org/papers/w35035)**<br/>小型开放经济体中的流动性驱动增长周期
-    - *Authors: Jess Benhabib, Feng Dong, Pengfei Wang, Zhenyang Xu*
-3. **[Measuring Organizational Capital](https://www.nber.org/papers/w35039)**<br/>衡量组织资本
-    - *Authors: Wei Cai, Andrea Prat, Jiehang Yu*
-4. **[Investment-based Costs of Equity](https://www.nber.org/papers/w35040)**<br/>基于投资的股权成本
-    - *Authors: Yicheng Liu, Chen Xue, Lu Zhang*
-5. **[Capital in the Capitol: Congressional Trades Resemble Uninformed Retail Trading](https://www.nber.org/papers/w35041)**<br/>国会山的资本：国会交易类似于无知的零售交易
-    - *Authors: Haotian Chen, Bruce Sacerdote*
-6. **[Can Personal Access to Medical Expertise Overcome Vaccine Hesitancy?](https://www.nber.org/papers/w35019)**<br/>个人获得医学专家知识能否克服对疫苗的犹豫？
-    - *Authors: D. Mark Anderson, Ron Diris, Raymond Montizaan, Daniel I. Rees*
-7. **[Why Do Americans No Longer Work So Much More Than Non-Americans?](https://www.nber.org/papers/w35020)**<br/>为什么美国人不再比非美国人工作得更多？
-    - *Authors: Serdar Birinci, Loukas Karabarbounis, Kurt See*
-8. **[AI Patents in the United States and China: Measurement, Organization, and Knowledge Flows](https://www.nber.org/papers/w35022)**<br/>美国和中国的人工智能专利：测量、组织和知识流动
-    - *Authors: Hanming Fang, Xian Gu, Hanyin Yan, Wu Zhu*
-9. **[Tariffs, Global Value Chains, and the Incidence of Protection: Evidence from US Automobiles](https://www.nber.org/papers/w35023)**<br/>关税、全球价值链和保护措施的实施：来自美国汽车业的证据
-    - *Authors: Luke Heeney, Christopher R. Knittel, Jasdeep Mandia*
-10. **[Learning How To Borrow in a Fintech World: Consumer Behavior When Search Costs Are (Near) Zero](https://www.nber.org/papers/w35024)**<br/>在金融科技世界中学习如何借贷：当搜索成本接近零时的消费者行为
-    - *Authors: Alex Günsberg, Camelia M. Kuhnen*
-11. **[Pharmaceutical Advertising in Dynamic Equilibrium](https://www.nber.org/papers/w35025)**<br/>动态均衡中的药品广告
-    - *Authors: Pierre Dubois, Ariel Pakes*
-12. **[How Responsive are Durables Expenditures to Transitory Income Shocks?](https://www.nber.org/papers/w35026)**<br/>耐用品支出对暂时性收入冲击的反应性如何？
-    - *Authors: Christoph E. Boehm, Changseok Ma*
-13. **[Subjective Earnings and Employment Dynamics](https://www.nber.org/papers/w35027)**<br/>主观收入与就业动态
-    - *Authors: Manuel Arellano, Orazio Attanasio, Margherita Borella, Mariacristina De Nardi, Gonzalo Paz-Pardo*
-14. **[Which U.S. States Suffered a Greater Great Depression and Why?](https://www.nber.org/papers/w35028)**<br/>哪些美国州在大萧条中遭受了更大的打击，以及为什么？
-    - *Authors: Dong Cheng, Mario J. Crucini, Hanjo T. Kim*
-15. **[Climate Change, Deforestation, and the Expansion of the Global Agricultural Frontier](https://www.nber.org/papers/w35029)**<br/>气候变化、森林砍伐和全球农业前沿的扩张
-    - *Authors: Allan Hsiao, Jacob Moscona, Benjamin A. Olken, Karthik A. Sastry*
-16. **[A Gender Quota for Top Executives: Diversity without Disruption](https://www.nber.org/papers/w35030)**<br/>高层管理人员的性别配额：不打乱秩序的多样性
-    - *Authors: David A. Matsa, Amalia R. Miller*
-17. **[Adversarial Selection](https://www.nber.org/papers/w35031)**<br/>对抗性选择
-    - *Authors: Alma Cohen, Alon Klement, Zvika Neeman, Eilon Solan*
-18. **[Skill Formation, Child Labor, and the Schooling Consequences of the World War I Agricultural Boom](https://www.nber.org/papers/w35032)**<br/>技能形成、童工和第一次世界大战农业繁荣对学校教育的影响
-    - *Authors: Taylor Jaworski, Carl T. Kitchens, Luke P. Rodgers*
-19. **[Real Effects of Nominal Interest Rates](https://www.nber.org/papers/w35033)**<br/>名义利率的实际效应
-    - *Authors: Joshua K. Hausman, John V. Leahy, John Mondragon, Johannes Wieland*
-20. **[How AI Aggregation Affects Knowledge](https://www.nber.org/papers/w35036)**<br/>人工智能聚合如何影响知识
-    - *Authors: Daron Acemoglu, Tianyi Lin, Asuman Ozdaglar, James Siderius*
-21. **[Amortized Inference for Correlated Discrete Choice Models via Equivariant Neural Networks](https://www.nber.org/papers/w35037)**<br/>通过等变神经网络对相关离散选择模型的摊销推理
-    - *Authors: Easton K. Huch, Michael P. Keane*
-22. **[Immigrants at the Margin: Labor Market Effects of the Minimum Wage](https://www.nber.org/papers/w35038)**<br/>边缘移民：最低工资对劳动市场的影响
-    - *Authors: Mark Borgschulte, Heepyung Cho, Darren Lubotsky*
+1. **[Beyond Demo Day: Sorting and Value Added in Startup Accelerators](https://www.nber.org/papers/w35063)**<br/>超越演示日：创业加速器中的筛选和增值
+    - *Authors: Youn Baek, Deepak Hegde*
+2. **[Exploring Trends in Severe Maternal Morbidity in the U.S.](https://www.nber.org/papers/w35062)**<br/>探索美国严重孕产妇发病率的趋势
+    - *Authors: Pinka Chatterji, Fangning Li, Sara Markowitz*
+3. **[High Schools and the Uneven Rise in American Opportunity](https://www.nber.org/papers/w35068)**<br/>高中与美国机会不均的增长
+    - *Authors: Alison Doxey, Ezra Karger, Peter Nencka*
+4. **[Who Pays for Payments?](https://www.nber.org/papers/w35067)**<br/>谁为支付买单？
+    - *Authors: Mark L. Egan, Gregor Matvos, Amit Seru, Lulu Wang, Vincent Yao*
+5. **[Birthright Citizenship and Youth Crime](https://www.nber.org/papers/w35070)**<br/>出生公民权与青少年犯罪
+    - *Authors: Leander Andres, Stefan Bauernschuster, Gordon B. Dahl, Helmut Rainer, Simone Schüller*
+6. **[Reason for Treason](https://www.nber.org/papers/w35069)**<br/>叛国的理由
+    - *Authors: Xinyu Fan, Gary Richardson, Zhihao Xu, Sicheng Zhao*
+7. **[The Macroeconomic Effects of Bank Regulation: New Evidence from a High-Frequency Approach](https://www.nber.org/papers/w35071)**<br/>银行监管的宏观经济效应：来自高频方法的新证据
+    - *Authors: Thomas Drechsel, Ko Miura*
+8. **[Identification and Estimation of Labor Supply Elasticities from Kinked Budget Sets](https://www.nber.org/papers/w35047)**<br/>从弯曲预算集中识别和估计劳动供给弹性
+    - *Authors: Deniz Dutz, Morten Håvarstein, Magne Mogstad, Alexander Torgovitsky*
+9. **[Risk Preferences and the Willingness to Relocate to Danger: Evidence from Wartime Ukraine](https://www.nber.org/papers/w35072)**<br/>风险偏好与搬迁至危险地区的意愿：来自战时乌克兰的证据
+    - *Authors: Yuriy Gorodnichenko, Marianna Kudlyak, Sophia Lobozynska, Iryna Skomorovych, Ulyana Vladychyn, Andriy Kovalyuk, Iryna Snovydovych*
+10. **[Understanding Support for Inefficient Environmental Policy Instruments](https://www.nber.org/papers/w35073)**<br/>理解对低效环境政策工具的支持
+    - *Authors: Chenxi Jiang, Maximiliano Lauletta, Ro’ee Levy, Joseph S. Shapiro, Dmitry Taubinsky*
+11. **[When Does Acquisition Integration Succeed? Evidence from Inside the Integration Black Box](https://www.nber.org/papers/w35074)**<br/>收购整合何时成功？来自整合黑箱内部的证据
+    - *Authors: Sinan Gokkaya, Xi Liu, René M. Stulz*
+12. **[Bad News and Policy Views: Expectations, Disappointment, and Opposition to Affirmative Action](https://www.nber.org/papers/w35045)**<br/>坏消息与政策观点：预期、失望和对平权行动的反对
+    - *Authors: Louis-Pierre Lepage, Heather Sarsons, Michael Thaler*
+13. **[Forecasting the Economic Effects of AI](https://www.nber.org/papers/w35046)**<br/>预测人工智能对经济的影响
+    - *Authors: Ezra Karger, Otto Kuusela, Jason Abaluck, Kevin A. Bryan, Basil Halperin, Todd R. Jones, Connacher Murphy, Philip Trammell, Matt Reynolds, Dan Mayland, Ria Viswanathan, Ananaya Mittal, Rebecca Ceppas de Castro, Josh Rosenberg, Philip Tetlock*
+14. **[Consumer Tobacco Product Choices in China: The Impact of a Ban on Flavored E-cigarettes](https://www.nber.org/papers/w35048)**<br/>中国消费者烟草产品选择：禁止加味电子烟的影响
+    - *Authors: Hua Wang, Yuhan Deng, Donald S. Kenkel, Alan D. Mathios, Sen Zeng*
+15. **[Disagreement of Disagreement](https://www.nber.org/papers/w35049)**<br/>意见分歧
+    - *Authors: Christian L. Goulding, Campbell R. Harvey, Hrvoje Kurtović*
+16. **[A Model of Leveraged Bubbles](https://www.nber.org/papers/w35050)**<br/>杠杆泡沫模型
+    - *Authors: Nina Biljanovska, Jordi Galí, Lucyna Górnicka, Alexandros P. Vardoulakis*
+17. **[The Economic Value of Eliminating Cancer](https://www.nber.org/papers/w35052)**<br/>消除癌症的经济价值
+    - *Authors: Tomas J. Philipson, Deyu Zhang, Shumaila Abbasi, Noah Fisher*
+18. **[The Chinese Current Account Imbalances: Puzzles, Patterns, and Possible Causes](https://www.nber.org/papers/w35056)**<br/>中国的经常账户失衡：谜题、模式和可能的原因
+    - *Authors: Chang Ma, Shang-Jin Wei*
+19. **[A Tale of Two Countries – The Real Estate Crises in 1990s Japan and Contemporary China](https://www.nber.org/papers/w35054)**<br/>两个国家的故事——1990年代日本的房地产危机与当代中国的房地产危机
+    - *Authors: Kenneth S. Rogoff, Yuanchen Yang*
+20. **[Trade in AI-Related Products](https://www.nber.org/papers/w35053)**<br/>人工智能相关产品的贸易
+    - *Authors: Michael E. Waugh*
+21. **[The Impacts of Medicaid's Managed Long-Term Services and Supports on Health Outcomes in Medicare](https://www.nber.org/papers/w35055)**<br/>医疗补助计划管理的长期服务和支持对医疗保险健康结果的影响
+    - *Authors: Ajin Lee, Maya Rossin-Slater, Becky Staiger, Amanda Su*
+22. **[Credit Crunches and the Great Stagflation](https://www.nber.org/papers/w35057)**<br/>信贷紧缩与大滞胀
+    - *Authors: Itamar Drechsler, Alexi Savov, Philipp Schnabl*
+23. **[Wellbeing, Youth and Survey Mode: Comparisons across 23 Countries Using Three International Datasets](https://www.nber.org/papers/w35058)**<br/>福祉、青年与调查方式：使用三个国际数据集对23个国家进行比较
+    - *Authors: David G. Blanchflower, Alex Bryson*
+24. **[The Empathy Channel in Fertility](https://www.nber.org/papers/w35021)**<br/>生育中的共情渠道
+    - *Authors: Sebastian Galiani, Raul A. Sosa*
+25. **[Profit Regulation and Strategic Transfer Pricing by Vertically Integrated Firms: Evidence from Health Care](https://www.nber.org/papers/w35043)**<br/>纵向整合企业的利润调节和战略转移定价：来自医疗保健的证据
+    - *Authors: Pragya Kakani, Eric Yde, Genevieve P. Kanter, Richard G. Frank, Amelia M. Bond*
+26. **[Predicted Incrementality by Experimentation (PIE) for Ad Measurement](https://www.nber.org/papers/w35044)**<br/>通过实验预测增量性（PIE）用于广告测量
+    - *Authors: Brett R. Gordon, Robert Moakler, Florian Zettelmeyer*
+27. **[When Policy Shapes Perception: The 2021 Child Tax Credit and Consumer Sentiment](https://www.nber.org/papers/w35059)**<br/>当政策塑造感知：2021年儿童税收抵免与消费者情绪
+    - *Authors: Jacob Bastian, Melody Harvey*
+28. **[Tariffs in 2025: Short-Run Impacts on the U.S. Economy](https://www.nber.org/papers/w35064)**<br/>2025年的关税：对美国经济的短期影响
+    - *Authors: Pablo D. Fajgelbaum, Amit Khandelwal*
+29. **[Multimodal Transport Networks](https://www.nber.org/papers/w35065)**<br/>多式联运网络
+    - *Authors: Simon Fuchs, Woan Foong Wong*
+30. **[Zero Energy Day: How Nationwide Blackouts Affect the Economy](https://www.nber.org/papers/w35066)**<br/>零能耗日：全国性停电如何影响经济
+    - *Authors: Luis E. Gonzales, Koichiro Ito, Mar Reguant*
+31. **[Tracking the Credibility Revolution across Fields](https://www.nber.org/papers/w35051)**<br/>追踪跨领域的信誉革命
+    - *Authors: Paul Goldsmith-Pinkham*
+32. **[The Emergence of the Poverty–Mental Health Gradient and the Great Pakistan Earthquake of 2005](https://www.nber.org/papers/w35060)**<br/>贫困与心理健康梯度的出现与2005年巴基斯坦大地震
+    - *Authors: Tahir Andrabi, Benjamin Daniels, Jishnu Das*
+33. **[Human Capital Markets](https://www.nber.org/papers/w35061)**<br/>人力资本市场
+    - *Authors: Jishnu Das, Cauê Dobbin*
 
 
 ---
 
 ## 文章概览
 
-### 思考与行动：认知能力、决策制定和医学诊断
-**[Thinking versus Doing: Cognitive Capacity, Decision Making and Medical Diagnosis](https://www.nber.org/papers/w35034)**
+### 超越演示日：创业加速器中的筛选和增值
+**[Beyond Demo Day: Sorting and Value Added in Startup Accelerators](https://www.nber.org/papers/w35063)**
 
-**Authors**: Benjamin R. Handel, Louis-Jonas Heizlsperger, Jonas Knecht, Jonathan T. Kolstad, Ulrike Malmendier, Filip Matějka
+**Authors**: Youn Baek, Deepak Hegde
 
-**Abstract**: We study how situational fluctuations in cognitive capacity shape behavior in high-stakes, real-time decision-making. Drawing on recent advances in behavioral economics that revolve around inattention, cognition and complexity, we show that cognitive load influences how physicians in emergency departments allocate mental effort and attention when making diagnostic and treatment decisions. We use quasi-random variation in patient-physician pairings, along with granular electronic medical record and audit-log data from many clinical interactions, to show that, under higher cognitive load, physicians substitute mental deliberation with more numerous but less precise diagnostic actions. Specifically, we document that higher load (i) increases the total number of orders of diagnostic tests (ii) reduces the use of targeted, but more uncommon tests (iii) increases the use of common tests and (iv) increases uncertainty in diagnostic beliefs. Cognitive load impacts downstream inpatient admission from the emergency department: a physician in the highest cognitive load decile increases admissions by 28% relative to the same physician in the lowest cognitive load decile, for the exact same kind of patient. These results offer novel field-based evidence on the dynamics of attention and belief formation, and shed light on how cognitive constraints shape diagnostic behavior in complex, real-world environments.
+**Abstract**: We study who joins startup accelerators, how founders sort across programs, and which accelerators improve startup outcomes. Using a comprehensive sample of about 750,000 U.S. startups linked to 329 accelerators, we adapt the teacher value-added framework from education economics to estimate accelerator value added (AVA) while accounting for sorting. Selection is systematic: observably better ventures are more likely to enter accelerators and to sort into higher-AVA programs. Yet accelerator performance is highly dispersed. Most accelerators have negative value added relative to a no-accelerator benchmark, while a small right tail generates large gains. High-AVA accelerators predict better long-term outcomes, including acquisition, employment, revenue, and valuation, and are also more likely to accelerate the shutdown of weaker ventures. We validate AVA using internal applicant data from a large U.S. non-equity accelerator.
 
-**摘要**: 我们研究了认知能力在高风险、实时决策中的行为如何受到情境波动的影响。借鉴了围绕注意力、认知和复杂性的最新行为经济学进展，我们展示了认知负荷如何影响急诊科医生在做出诊断和治疗决策时分配心理努力和注意力。我们利用患者-医生配对中的准随机变化，以及来自许多临床互动的详细电子病历和审计日志数据，表明在更高的认知负荷下，医生用更多但精确度较低的诊断行为替代了心理审议。具体来说，我们记录了更高负荷（i）增加了诊断测试的总订单数（ii）减少了针对性但较少使用的测试的使用（iii）增加了常用测试的使用（iv）增加了诊断信念的不确定性。认知负荷影响急诊科下游的住院入院：在认知负荷最高的十分位数的医生，与在认知负荷最低的十分位数的同一医生相比，对于完全相同类型的患者，入院增加了28%。这些结果提供了关于注意力和信念形成动态的新颖实地证据，并揭示了认知限制如何在复杂、现实世界环境中塑造诊断行为。
-
----
-### 小型开放经济体中的流动性驱动增长周期
-**[Liquidity-Driven Growth Cycles in Small Open Economies](https://www.nber.org/papers/w35035)**
-
-**Authors**: Jess Benhabib, Feng Dong, Pengfei Wang, Zhenyang Xu
-
-**Abstract**: While standard sudden-stop models explain well the sharpness of financial crises, it remains challenging to account for the persistent growth stagnation that typically follows credit-driven capital account liberalizations in emerging markets. This paper presents a small open economy model with endogenous growth and borrowing constraints to ex- plain this phenomenon. The model highlights a valuation optimistic growth expectations, fueled by foreign credit with perfectly elastic supply, raise asset prices and relax liquidity constraints, inducing investment that validates the initial optimism. This positive feed- back loop generates multiple balanced growth paths and self-fulfilling cycles. However, in closed economies or with only FDI inflows, funding supply for investment is limited by consumption smoothing, dampening this feedback and leading to a unique growth path. Belief-driven regime switches can replicate crisis dynamics, including sharp drops in asset prices and growth. The framework also exhibits periodic orbits, producing endogenous deterministic fluctuations under perfect foresight. Countercyclical macroprudential measures can disrupt the detrimental feedback loop, while policies prioritizing FDI over credit prevent bad equilibria altogether, guiding the economy toward a stable, high-growth trajectory.
-
-**摘要**: 虽然标准的突然停止模型很好地解释了金融危机的严重性，但要解释新兴市场信贷驱动的资本账户自由化后通常出现的持续增长停滞仍然是一个挑战。本文提出了一个小国开放经济模型，该模型具有内生增长和借款约束，以解释这一现象。模型强调，由外国信贷（供应完全弹性）引发的估值乐观增长预期，提高了资产价格并放松了流动性约束，诱导了验证最初乐观情绪的投资。这种正反馈循环产生了多重平衡增长路径和自我实现的周期。然而，在封闭经济体或仅有外国直接投资（FDI）流入的情况下，投资的资金供应受到消费平滑的限制，抑制了这种反馈，导致唯一的增长路径。由信念驱动的制度转换可以复制危机动态，包括资产价格和增长的急剧下降。该框架还表现出周期性轨道，在完美预见下产生内生确定性波动。反周期宏观审慎措施可以打破有害的反馈循环，而优先考虑FDI而非信贷的政策则可以完全防止不良均衡，引导经济走向稳定、高增长的轨迹。
+**摘要**: 我们研究了谁加入了创业加速器，创始人如何在不同项目中做出选择，以及哪些加速器能够改善创业成果。利用大约750,000家与329家加速器关联的美国创业公司的全面样本，我们借鉴了教育经济学中的教师增值框架，估计了加速器的增值（AVA），同时考虑了选择性问题。选择是有系统的：明显更好的创业项目更有可能加入加速器，并选择进入高AVA项目。然而，加速器的表现差异很大。大多数加速器相对于没有加速器的基准线具有负增值，而一小部分右尾项目产生了巨大的收益。高AVA加速器预示着更好的长期成果，包括被收购、就业、收入和估值，也更有可能加速较弱项目的关闭。我们使用一家大型美国非股权加速器的内部申请者数据来验证AVA。
 
 ---
-### 衡量组织资本
-**[Measuring Organizational Capital](https://www.nber.org/papers/w35039)**
+### 探索美国严重孕产妇发病率的趋势
+**[Exploring Trends in Severe Maternal Morbidity in the U.S.](https://www.nber.org/papers/w35062)**
 
-**Authors**: Wei Cai, Andrea Prat, Jiehang Yu
+**Authors**: Pinka Chatterji, Fangning Li, Sara Markowitz
 
-**Abstract**: Prior research has pointed to differences in organizational capital as a reason for the persistent performance discrepancies among otherwise similar firms. In this paper, we develop and validate a new measure of organizational capital. Based on over a million crowd-sourced employee reviews scraped from Glassdoor, we construct the measure of organizational capital at the firm-year level using the word embedding model and ChatGPT-generated synthetic reviews. Our measure varies over time in accordance with macro trends, and differs both across and within firms, reflecting firm heterogeneity and major internal changes. We validate our measure by testing empirical predictions of the properties of organizational capital discussed in prior literature. Our findings suggest that this measure captures a slowly evolving intangible asset that is significantly associated with firm performance and top management’s influence, aligning with the conceptualization of organizational capital by Dessein and Prat (2022). We further showcase applications of our measure in accounting, economics, finance, and management literature. Taken together, the paper provides implications for various stakeholders who are interested in assessing and managing firms’ organizational capital.
+**Abstract**: The incidence of severe maternal morbidity (SMM) in the U.S. has been rising among mothers over time, with especially pronounced increases among Black mothers.  In this paper, we examine why this might be happening.  Previous literature takes a limited-scope approach by focusing on select variables as determinants of SMM.  We take a broader approach and evaluate the contributions of a large set of variables over a long time span to let the data inform us what factors may be most influential in determining SMM.  We use inpatient data from 1998-2019 to see how maternal, hospital, and county-level characteristics may be associated with both the rising trends and the racial disparity in SMM.  Decomposition methods show that the observed characteristics explain very little of the overall variation of SMM, but account for a substantial share of the Black-White SMM gap.  Medical and pregnancy-related comorbid conditions are the largest drivers of the observed variations. The associational findings indicate that focusing on patients with comorbid conditions and delving more deeply into the features of hospital environments may help researchers identify policy-relevant drivers of SMM and SMM disparities.
 
-**摘要**: 先前的研究指出，组织资本的差异是导致表面上相似公司之间持续绩效差异的一个原因。在本文中，我们开发并验证了一种新的组织资本度量方法。基于从Glassdoor上抓取的超过一百万条众包员工评论，我们使用词嵌入模型和ChatGPT生成的合成评论构建了公司-年度级别的组织资本度量。我们的度量随着宏观趋势的变化而变化，并在不同公司以及公司内部有所不同，反映了公司的异质性和重大内部变化。我们通过测试先前文献中讨论的组织资本属性的实证预测来验证我们的度量。我们的发现表明，这种度量捕捉到了一个缓慢演变的无形资产，与公司绩效和高层管理的影响显著相关，符合Dessein和Prat（2022）对组织资本的概念化。我们进一步展示了我们的度量在会计、经济学、金融和管理文献中的应用。综合来看，本文为对评估和管理公司组织资本感兴趣的各方利益相关者提供了含义。
-
----
-### 基于投资的股权成本
-**[Investment-based Costs of Equity](https://www.nber.org/papers/w35040)**
-
-**Authors**: Yicheng Liu, Chen Xue, Lu Zhang
-
-**Abstract**: The q5-characteristics model estimates costs of equity as Lewellen’s (2015) out-of-sample forecasts from cross-sectional regressions. The q5-cost of equity is competitive in evaluation tests, outperforming the accounting implied cost of equity in predicting cross-sectional returns. The q5-cost of equity is precise at the industry level and aligned with average factor premiums. Its firm-level distribution is weakly left-skewed, whereas the accounting implied cost of equity is right-skewed. However, the accounting cost of equity outperforms in the time series. Factor models perform poorly in out-of-sample tests. Gradient-boosted trees improve on cross-sectional regressions, but not reliably.
-
-**摘要**: q5特征模型估计的股权成本是Lewellen（2015）在横截面回归中的样本外预测。q5股权成本在评估测试中具有竞争力，优于会计隐含的股权成本，能更好地预测横截面回报。q5股权成本在行业层面精确，并且与平均因子溢价一致。其在公司层面的分布是轻微左偏的，而会计隐含的股权成本是右偏的。然而，会计股权成本在时间序列上表现更好。因子模型在样本外测试中表现不佳。梯度提升树在横截面回归上有所改进，但并不可靠。
+**摘要**: 在美国，严重孕产妇发病率（SMM）随时间在母亲中上升，特别是在黑人母亲中增长尤为明显。在本文中，我们探讨了为什么会发生这种情况。以往的文献采取有限范围的方法，关注特定变量作为SMM的决定因素。我们采取更广泛的方法，评估大量变量在长时间跨度内的贡献，让数据告诉我们哪些因素可能在决定SMM方面最有影响力。我们使用1998-2019年的住院数据，看看母亲、医院和县级特征如何与SMM的上升趋势和种族差异相关联。分解方法表明，观察到的特征解释了SMM总体变异的很小一部分，但占黑人-白人SMM差距的很大一部分。医疗和妊娠相关共病状况是观察到变异的最大驱动因素。关联性发现表明，关注有共病状况的患者，并更深入地研究医院环境的特征，可能有助于研究人员识别与SMM和SMM差异相关的政策驱动因素。
 
 ---
-### 国会山的资本：国会交易类似于无知的零售交易
-**[Capital in the Capitol: Congressional Trades Resemble Uninformed Retail Trading](https://www.nber.org/papers/w35041)**
+### 高中与美国机会不均的增长
+**[High Schools and the Uneven Rise in American Opportunity](https://www.nber.org/papers/w35068)**
 
-**Authors**: Haotian Chen, Bruce Sacerdote
+**Authors**: Alison Doxey, Ezra Karger, Peter Nencka
 
-**Abstract**: Do elected officials exploit informational advantages for personal financial gain? This question has attracted heightened attention amid increased scrutiny of congressional stock trading, particularly following the COVID-19 pandemic. Prior research finds little evidence that legislators outperform the market, but existing studies rely on limited time periods and offer limited insight into the mechanisms underlying trade timing. We revisit this question by constructing a novel dataset covering the stock trading activity of all U.S. members of Congress and their immediate families from 2012 to 2023. We find that, on average, legislators’ portfolios underperform or, at best, match market benchmarks after the STOCK Act. What explains this mediocre performance? We show that legislators’ positions track financial professionals’ recommendations, and that their timing largely reflects prevailing market sentiment, estimated from retail investors’ social media posts, rather than anticipating future price changes. Together, these results suggest that legislators’ observable trading behavior is more consistent with public-signal-following than with systematically profitable use of private information.
+**Abstract**: Between 1850 and 1910, the share of young Americans living in towns with high schools increased from 17% to 46%—the fastest expansion of school access in U.S. history. Using new data on every high school in the United States, we show that this expansion transformed economic opportunities for many young adults but widened class and racial inequalities. We find sharp increases in school attendance rates for high school-aged children in towns that opened a high school relative to children in nearby towns without one. Linking children to adult outcomes, we show that high schools increased women's labor force participation and job quality, while reducing the probability of early marriage and childbearing. Increased access to high school accounts for a third of the increase in women's labor force participation between 1870 and 1930. High schools had the largest effects on children from already-wealthy families, and did not, on average, benefit Black children. While the high school movement substantially narrowed gender gaps in labor market outcomes, it also widened existing race- and class-based disparities.
 
-**摘要**: 民选官员是否利用信息优势为个人经济利益服务？在对国会股票交易的审查日益严格，特别是在COVID-19大流行之后，这个问题引起了越来越多的关注。先前的研究发现，立法者的表现很少超过市场，但现有研究依赖于有限的时间段，并且对交易时机背后的机制提供了有限的见解。我们通过构建一个新颖的数据集重新审视这个问题，该数据集涵盖了2012年至2023年所有美国国会议员及其直系亲属的股票交易活动。我们发现，在STOCK法案之后，平均而言，立法者的组合表现不佳，或者充其量与市场基准持平。什么解释了这种平庸的表现？我们展示了立法者的位置跟踪金融专业人士的建议，并且他们的时机在很大程度上反映了从散户投资者的社交媒体帖子中估计出的普遍市场情绪，而不是预测未来价格变化。综合这些结果表明，立法者的可观察交易行为更符合跟随公共信号，而不是系统性地利用私人信息以获得利润。
-
----
-### 个人获得医学专家知识能否克服对疫苗的犹豫？
-**[Can Personal Access to Medical Expertise Overcome Vaccine Hesitancy?](https://www.nber.org/papers/w35019)**
-
-**Authors**: D. Mark Anderson, Ron Diris, Raymond Montizaan, Daniel I. Rees
-
-**Abstract**: Using data on applicants to Dutch medical schools and their older relatives (i.e., parents, aunts, and uncles ages 60+), we estimate the effect of personal access to medical expertise on vaccine hesitancy.  Leveraging variation in lottery outcomes that determine admission to medical schools, we find that having a physician in the family increases the likelihood of complying with government recommendations that anyone over the age of 59 receive a second booster dose of a COVID-19 vaccine.  Our estimated effects are strongest for having a female physician in the family, suggesting important gender-based differences in how medical expertise is communicated.
-
-**摘要**: 利用申请荷兰医学院的学生及其年长的亲戚（即父母、姑姑和60岁以上的叔叔）的数据，我们估计了个人获得医学专业知识对疫苗犹豫的影响。利用决定医学院录取的彩票结果的变化，我们发现家庭中有医生会增加遵守政府建议59岁以上人群接种第二剂加强针COVID-19疫苗的可能性。我们估计的效果对于家庭中有女性医生最为强烈，这表明在医学专业知识的传播中存在重要的基于性别的差异。
+**摘要**: 在1850年到1910年之间，居住在拥有高中的城镇中的年轻美国人的比例从17%增加到了46%——这是美国历史上学校入学机会扩张最快的时期。利用关于美国每一所高中的新数据，我们展示了这种扩张为许多年轻成年人转变了经济机会，但也加剧了阶级和种族不平等。我们发现，在开设高中的城镇中，与附近没有高中的城镇的孩子相比，高中年龄段儿童的入学率急剧上升。将儿童与成人结果联系起来，我们展示了高中如何增加了女性的劳动力参与度和工作质量，同时降低了早婚和生育的可能性。高中入学机会的增加占1870年到1930年间女性劳动力参与度增加的三分之一。高中对于已经富裕家庭的孩子影响最大，平均而言，并没有使黑人儿童受益。尽管高中运动大大缩小了劳动力市场结果中的性别差距，但它也加剧了现有的基于种族和阶级的差异。
 
 ---
-### 为什么美国人不再比非美国人工作得更多？
-**[Why Do Americans No Longer Work So Much More Than Non-Americans?](https://www.nber.org/papers/w35020)**
+### 谁为支付买单？
+**[Who Pays for Payments?](https://www.nber.org/papers/w35067)**
 
-**Authors**: Serdar Birinci, Loukas Karabarbounis, Kurt See
+**Authors**: Mark L. Egan, Gregor Matvos, Amit Seru, Lulu Wang, Vincent Yao
 
-**Abstract**: In the 1990s, Americans used to work much more than non-Americans. Nowadays, about half of the gap in hours worked has reversed. To evaluate the convergence of working hours, we develop a tractable  model of labor supply enriched with multiple sources of heterogeneity across individuals, an extensive margin of participation, multi-member households, and an elaborate system of taxes and benefits upon non-employment. Using detailed measurements from micro-level and aggregate datasets, we identify model parameters and sources of heterogeneity across individuals for various countries. We run a horse race between competing explanations and find that U.S. hours per person declined after 2000 owing mainly to the rise of government health benefits provided to the non-employed. Non-U.S. countries have generous benefits for the non-employed, but this generosity has not changed as much over time as in the United States, and public health coverage does not depend on employment status or income levels. For these countries, the rise of labor supply is generally accounted for by a mix of factors, such as the rise of wages and the falling disutility of work.
+**Abstract**: We use novel data on the composition and cost of payments across U.S. merchants to quantify consumer redistribution in the payment system. Cards charge interchange fees to merchants to fund consumer rewards. When merchants raise prices for all consumers in response to these costs, users of low-cost payment methods (e.g., cash and debit) cross-subsidize high-reward credit card users who shop at the same merchant. This standard mechanism implicitly assumes that consumers using different payment methods shop at the same merchants and that merchants face similar fees. We show instead that incidence depends on the joint distribution of payment choices across merchants. We document two key forces that shape redistribution. First, consumer sorting—where consumers who use different payment methods shop at different merchants—limits the exposure of cash and debit users to the effects of high interchange fees. Second, interchange fees vary across merchants; where users of different payment methods overlap, such as at large grocery stores, fees are lower due to sector discounts and private negotiations. We embed these forces in a sufficient-statistics framework that maps observed heterogeneity directly into redistribution. We estimate that interchange fees transfer approximately $30 billion every year from cash and debit users to credit card users. Consumer sorting and merchant fee heterogeneity reduce the magnitude of this regressive transfer by 25%, but do not eliminate it. Finally, we show that both the Durbin Amendment and the rise of premium credit cards have been regressive, highlighting how policy and innovation can reshape the incidence of platform fees.
 
-**摘要**: 在1990年代，美国人的工作时间远多于非美国人。如今，工作时间的差距大约有一半已经逆转。为了评估工作时间的收敛性，我们开发了一个可行的劳动供给模型，该模型包含了个体间的多重异质性、广泛的参与边际、多成员家庭以及对非就业者的复杂税收和福利体系。利用微观层面和宏观数据集的详细测量，我们确定了不同国家的模型参数和个体间的异质性来源。我们在竞争性解释之间进行了一场竞赛，发现2000年后美国人均工作时间的下降主要是由于向非就业者提供的政府健康福利的增加。非美国国家对非就业者有慷慨的福利，但这种慷慨程度随时间的变化没有美国那么大，公共健康覆盖也不依赖于就业状况或收入水平。对于这些国家，劳动供给的增加通常是由多种因素共同解释的，例如工资的上升和工作不悦感的下降。
-
----
-### 美国和中国的人工智能专利：测量、组织和知识流动
-**[AI Patents in the United States and China: Measurement, Organization, and Knowledge Flows](https://www.nber.org/papers/w35022)**
-
-**Authors**: Hanming Fang, Xian Gu, Hanyin Yan, Wu Zhu
-
-**Abstract**: We develop a high-precision classifier to measure artificial intelligence (AI) patents by fine-tuning PatentSBERTa on manually labeled data from the USPTO’s AI Patent Dataset. Our classifier substantially improves the existing USPTO approach, achieving 97.0% precision, 91.3% recall, and a 94.0% F1 score, and it generalizes well to Chinese patents based on citation and lexical validation. Applying it to granted U.S. patents (1976–2023) and Chinese patents (2010–2023), we document rapid growth in AI patenting in both countries and broad convergence in AI patenting intensity and subfield composition, even as China surpasses the United States in recent annual patent counts. The organization of AI innovation nevertheless differs sharply: U.S. AI patenting is concentrated among large private incumbents and established hubs, whereas Chinese AI patenting is more geographically diffuse and institutionally diverse, with larger roles for universities and state-owned enterprises. For listed firms, AI patents command a robust market-value premium in both countries. Cross-border citations show continued technological interdependence rather than decoupling, with Chinese AI inventors relying more heavily on U.S. frontier knowledge than vice versa.
-
-**摘要**: 我们开发了一种高精度分类器，通过在USPTO的人工智能专利数据集上微调PatentSBERTa，并使用人工标记的数据来衡量人工智能（AI）专利。我们的分类器显著改进了现有的USPTO方法，实现了97.0%的精确度、91.3%的召回率和94.0%的F1分数，并且它在基于引用和词汇验证的中国专利上表现良好。将其应用于美国授权专利（1976-2023年）和中国专利（2010-2023年），我们记录了两国AI专利申请的快速增长以及AI专利强度和子领域组成的广泛趋同，尽管中国在最近的年度专利计数中超过了美国。然而，AI创新的组织方式差异显著：美国的AI专利申请集中在大型私营企业和已建立的中心，而中国的AI专利申请在地理上更加分散，在机构上更加多样化，大学和国有企业发挥了更大的作用。对于上市公司而言，AI专利在两国都获得了稳健的市场价值溢价。跨境引用显示了持续的技术相互依存而不是脱钩，中国AI发明者比美国更依赖美国的前沿知识。
+**摘要**: 我们利用美国商户支付构成和成本的新数据来量化支付系统中的消费者再分配。卡片向商户收取交换费用以资助消费者奖励。当商户因这些成本提高所有消费者的价格时，使用低成本支付方式的用户（例如现金和借记卡）为在同一商户购物的高奖励信用卡用户提供交叉补贴。这种标准机制隐含地假设使用不同支付方式的消费者在同一商户购物，并且商户面临类似的费用。我们展示的是，事件的发生取决于商户支付选择的联合分布。我们记录了塑造再分配的两个关键力量。首先，消费者排序——使用不同支付方式的消费者在不同的商户购物——限制了现金和借记卡用户对高交换费用的影响。其次，交换费用在商户之间有所不同；在使用不同支付方式的用户重叠的地方，例如大型杂货店，由于行业折扣和私人谈判，费用较低。我们将这些力量嵌入到一个充分统计框架中，该框架将观察到的异质性直接映射到再分配中。我们估计，交换费用每年大约从现金和借记卡用户转移到信用卡用户大约300亿美元。消费者排序和商户费用异质性将这种倒退转移的幅度减少了25%，但并未消除。最后，我们展示杜宾修正案和高级信用卡的兴起都是倒退的，突出了政策和创新如何重塑平台费用的影响。
 
 ---
-### 关税、全球价值链和保护措施的实施：来自美国汽车业的证据
-**[Tariffs, Global Value Chains, and the Incidence of Protection: Evidence from US Automobiles](https://www.nber.org/papers/w35023)**
+### 出生公民权与青少年犯罪
+**[Birthright Citizenship and Youth Crime](https://www.nber.org/papers/w35070)**
 
-**Authors**: Luke Heeney, Christopher R. Knittel, Jasdeep Mandia
+**Authors**: Leander Andres, Stefan Bauernschuster, Gordon B. Dahl, Helmut Rainer, Simone Schüller
 
-**Abstract**: In many modern industries, firms compete in differentiated-product markets while relying on complex global value chains for intermediate inputs. In such settings, trade policies such as tariffs on vehicles and parts operate not only through consumer substitution and firm pricing, but also through firms’ cost structures and sourcing decisions. We develop a structural model of the U.S. automobile market that integrates random-coefficients demand, multiproduct firm pricing, and a flexible supply-side framework in which shocks to the cost of imported parts transmit imperfectly into manufacturers’ marginal costs. The model is disciplined by novel model-level data on imported-parts exposure and exploits exchange-rate variation to identify cost pass-through. Our counterfactual analysis quantifies the effects of alternative tariff policies on prices, profits, and welfare. First, tariffs on imported vehicles alone reallocate demand toward domestically assembled products and increase U.S. producer surplus, generating a gain of approximately $1 billion for U.S.-headquartered firms, while reducing consumer surplus by about $14 billion. Second, extending tariffs to imported intermediate inputs fundamentally alters these effects: consumer surplus losses roughly double, and producer surplus for U.S.-headquartered firms declines by about $2.6 billion. These aggregate effects mask substantial heterogeneity: firms with greater exposure to imported parts experience losses, whereas those relying more on domestic inputs are better able to increase profits. Overall, the results show that tariff incidence depends critically on firms’ exposure to global value chains and cannot be inferred from final assembly locations alone.
+**Abstract**: This paper studies the impact of birthright citizenship on youth crime. We leverage a German reform which automatically granted birthright citizenship to eligible immigrant children born in Germany after January 1, 2000 and administrative crime data from three federal states. We find that immigrant youth who acquired citizenship at birth are substantially less likely to engage in criminal activity, with estimates indicating a 70% reduction in crime. These results are particularly relevant in light of ongoing debates in the U.S. about abolishing birthright citizenship. Our findings suggest that inclusive citizenship policies can reduce crime and its associated costs, which in turn could strengthen social cohesion.
 
-**摘要**: 在许多现代产业中，企业在差异化产品市场上竞争，同时依赖复杂的全球价值链获取中间产品。在这样的环境下，贸易政策，比如对车辆和零部件征收的关税，不仅通过消费者替代和企业定价发挥作用，还通过企业的成本结构和采购决策产生影响。我们开发了一个整合随机系数需求、多产品企业定价以及灵活供应侧框架的美国汽车市场结构模型，其中对进口零部件成本的冲击不完全转化为制造商的边际成本。该模型受到进口零部件暴露度的新颖模型级数据的约束，并利用汇率变动来识别成本传递。我们的反事实分析量化了不同关税政策对价格、利润和福利的影响。首先，仅对进口车辆征收关税会重新分配需求，使其倾向于国内组装的产品，并增加美国生产者剩余，为美国总部企业带来大约10亿美元的收益，同时减少消费者剩余约140亿美元。其次，将关税扩展到进口中间产品会根本改变这些效应：消费者剩余损失大约翻倍，美国总部企业的生产商剩余下降约26亿美元。这些总体效应掩盖了相当大的异质性：对进口零部件依赖度更高的企业会经历损失，而更多依赖国内输入的企业则更能增加利润。总体而言，结果表明关税的影响在很大程度上取决于企业对全球价值链的暴露程度，而不能仅从最终组装地点推断出来。
-
----
-### 在金融科技世界中学习如何借贷：当搜索成本接近零时的消费者行为
-**[Learning How To Borrow in a Fintech World: Consumer Behavior When Search Costs Are (Near) Zero](https://www.nber.org/papers/w35024)**
-
-**Authors**: Alex Günsberg, Camelia M. Kuhnen
-
-**Abstract**: Online loan marketplaces are changing consumer lending. Here we investigate consumer behavior in these markets with near-zero search costs. Using administrative data on 730,000 applications, 750,000 offers, and 200,000 individuals, together with credit registry records, we document four facts. First, substantial within-applicant dispersion in offered terms makes search highly valuable. Second, marketplace nudges mitigate choice complexity. Third, applicants search significantly, applying repeatedly, asking for different terms, and rejecting offers, in ways consistent with their creditworthiness. Fourth, dynamic adverse selection constrains search, as lenders penalize repeat applicants. Our findings highlight trade-offs between informational gains from search, and reputational and cognitive costs.
-
-**摘要**: 在线借贷市场正在改变消费者借贷。在这里，我们研究了在这些几乎零搜索成本的市场中的消费者行为。利用关于730,000份申请、750,000份报价和200,000个个体的行政数据，以及信用登记记录，我们记录了四个事实。首先，对同一申请人提供的条款存在显著的内部差异，这使得搜索非常有价值。其次，市场推动减轻了选择的复杂性。第三，申请人显著地进行搜索，反复申请，要求不同的条款，并拒绝报价，这与他们的信用状况一致。第四，动态的逆向选择限制了搜索，因为贷方惩罚重复申请者。我们的发现突出了搜索的信息收益与声誉和认知成本之间的权衡。
+**摘要**: 本文研究了与生俱来的公民身份对青少年犯罪的影响。我们利用德国的一项改革，该改革自2000年1月1日起自动授予在德国出生的符合条件的移民儿童公民身份，并利用来自三个联邦州的行政犯罪数据。我们发现，在出生时获得公民身份的移民青少年参与犯罪的可能性要小得多，估计犯罪率降低了70%。这些结果在美国关于废除与生俱来的公民身份的持续辩论中特别相关。我们的发现表明，包容性的公民政策可以减少犯罪及其相关成本，这反过来又可以加强社会凝聚力。
 
 ---
-### 动态均衡中的药品广告
-**[Pharmaceutical Advertising in Dynamic Equilibrium](https://www.nber.org/papers/w35025)**
+### 叛国的理由
+**[Reason for Treason](https://www.nber.org/papers/w35069)**
 
-**Authors**: Pierre Dubois, Ariel Pakes
+**Authors**: Xinyu Fan, Gary Richardson, Zhihao Xu, Sicheng Zhao
 
-**Abstract**: Direct-to-consumer advertising (DTCA) of prescription drugs may expand treatment access but also risks promoting overuse and business stealing without generating welfare gains. Among developed nations, only the United States and New Zealand permit DTCA, whereas detailing - promotion aimed at prescribers - is widely practiced. This paper analyzes the impact of DTCA on profits by modeling a counterfactual environment in which DTCA is banned. This is implemented through a dynamic equilibrium framework that adapts the Experience-Based Equilibrium (Fershtman and Pakes, 2012) for empirical analysis. EBE incorporates constraints on the cognitive abilities of decision-makers and mitigates researchers’ computational concerns. Using data from four therapeutic markets, we first validate the EBE’s ability to replicate observed advertising patterns, then simulate counterfactual DTCA bans. Both the data and our empirical work indicate that DTCA and detailing are strong complements, and our results illuminate the need to account for this when evaluating the ban. The ban leads firms to reduce detailing and has a negative effect on profits in all markets, but the magnitude of the effect varies from under 5% in the market for Ulcer to 27.5% for Asthma medications.
+**Abstract**: We thank Ying Bai, Joy Chen, Quoc-Anh Do, Pauline Grosjean, Bishnupriya Gupta, Yu Hao, Timothy Hatton, James Kung, Motohiro Kumagai, Jin Li, Peiyuan Li, Debin Ma, Chicheng Ma, Ahmed S. Rahman, Tomoko Shiroyama, Vladimir Tyazhelnikov, Erik H. Wang, and Yiling Zhao for their invaluable suggestions. We are indebted to Shih-Chung Chang for searching the KMT archives at the National Development Commission. We also benefit from valuable feedback from discussions with participants in the Tsinghua-Peking Joint Economic History Workshop, the Asia-Pacific Economic and Business History Conference, the 10th International Symposium on Quantitative History, the 11th Australian Cliometrics Workshop, the Workshop on the Economic History of China, the Econometric Society 2024 Australasia Meeting, the 8th Asian Historical Economics Conference, the World Economic History Congress 2025, the 2025 World Congress of the Econometric Society, the Economic History Association Annual Meeting 2025. We gratefully acknowledge the excellent research assistance of Mengyu Chen, Ge Gao, Ruidong Liang, Zhenyu Luo, Yimin Shi, and Dan Zhang. This research is supported by the Beijing Social Science Foundation for Young Scholars (grant no. 22ZGC007). All remaining errors are our own.
 
-**摘要**: 处方药的直接面向消费者广告（DTCA）可能扩大治疗获取范围，但也存在促进过度使用和商业窃取的风险，而不会创造福利收益。在发达国家中，只有美国和新西兰允许DTCA，而针对开处方者的推广——详细说明——被广泛实践。本文通过模拟一个假设环境中DTCA被禁止的情况，分析了DTCA对利润的影响。这是通过一个动态均衡框架实现的，该框架适应了基于经验的均衡（Fershtman和Pakes，2012）进行实证分析。EBE包含了对决策者认知能力的限制，并减轻了研究者的计算问题。利用四个治疗市场的数据，我们首先验证了EBE复制观察到的广告模式的能力，然后模拟了假设的DTCA禁令。数据和我们的实证工作都表明，DTCA和详细说明是强大的补充，我们的结果阐明了在评估禁令时需要考虑这一点。禁令导致公司减少详细说明，并在所有市场中对利润产生负面影响，但影响的大小从溃疡市场的不到5%到哮喘药物的27.5%不等。
-
----
-### 耐用品支出对暂时性收入冲击的反应性如何？
-**[How Responsive are Durables Expenditures to Transitory Income Shocks?](https://www.nber.org/papers/w35026)**
-
-**Authors**: Christoph E. Boehm, Changseok Ma
-
-**Abstract**: We estimate how expenditures on durable goods respond to transitory income shocks using variation from the Economic Stimulus Act of 2008. The estimated responses are large: Households spent about 80 percent of their stimulus payment within three months of receiving the income transfer on durables alone. Most of this spending was on motor vehicles, either financed, used, or both, and about 20 percent of the total durables response was on smaller items. To purchase motor vehicles the average household levered up by 40 cents on the dollar using vehicle loans. Our findings suggest that durable goods and their financing are key to understanding the link between current income and spending.
-
-**摘要**: 我们通过2008年经济刺激法案的变化来估计耐用品支出对暂时性收入冲击的反应。估计的响应是巨大的：家庭在收到收入转移后的三个月内，大约将刺激支付的80%用于购买耐用品。这些支出大部分用于购买机动车辆，无论是融资、二手还是两者兼有，大约20%的总耐用品反应用于较小的物品。为了购买机动车辆，平均家庭通过使用车辆贷款，每花费1美元就增加了40美分的杠杆。我们的发现表明，耐用品及其融资是理解当前收入与支出之间联系的关键。
+**摘要**: 我们感谢白颖、陈乔伊、杜国庆、格罗让、毕诗妮普里亚·古普塔、郝宇、哈顿、詹姆斯·孔、熊诚、李晋、李培源、马德斌、马驰程、艾哈迈德·S·拉赫曼、白冈知代、泰兹赫尔尼科夫、王奕涵和赵怡玲提供的宝贵建议。我们对张世中在国家发展委员会查找国民党档案的工作表示感激。我们还从与清华-北大联合经济史研讨会、亚太经济与商业史会议、第十届国际计量历史学研讨会、第十一届澳大利亚计量经济学研讨会、中国经济史研讨会、计量经济学2024年澳大利亚会议、第八届亚洲历史经济学会议、2025年世界经济史大会、2025年世界计量经济学大会、经济史协会2025年年会的参与者讨论中获得了宝贵的反馈。我们衷心感谢陈梦雨、高歌、梁瑞东、罗振宇、石一民和张丹的优秀研究助理工作。本研究得到了北京市社科基金青年项目（批准号22ZGC007）的支持。所有剩余的错误由我们自己承担。
 
 ---
-### 主观收入与就业动态
-**[Subjective Earnings and Employment Dynamics](https://www.nber.org/papers/w35027)**
+### 银行监管的宏观经济效应：来自高频方法的新证据
+**[The Macroeconomic Effects of Bank Regulation: New Evidence from a High-Frequency Approach](https://www.nber.org/papers/w35071)**
 
-**Authors**: Manuel Arellano, Orazio Attanasio, Margherita Borella, Mariacristina De Nardi, Gonzalo Paz-Pardo
+**Authors**: Thomas Drechsel, Ko Miura
 
-**Abstract**: We develop a new approach to estimating earnings, job, and employment dynamics using subjective expectations data from the NY Fed Survey of Consumer Expectations. These data provide beliefs about future earnings offers and acceptance probabilities, offering direct information on counterfactual outcomes and enabling identification under weaker assumptions. Our framework avoids biases from selection and unobserved heterogeneity that affect models using realized outcomes. First-step fixed-effects regressions identify risk, persistence, and transition effects; second-step GMM recovers the covariance structure of unobserved heterogeneities such as ability, mobility, and match quality. We find lower risk and persistence of the individual productivity component than in prior work, but greater heterogeneity in ability and match quality. Simulations show that reduced-form estimates overstate persistence and volatility on individual-level productivity due to job transitions and sorting. After accounting for heterogeneity, volatility declines and becomes flat across the earnings distribution. These results underscore the value of expectations data.
+**Abstract**: Bank regulation supports financial stability, but might constrain economic activity. This paper estimates the macroeconomic effects of bank regulation using a high-frequency identification approach. We measure market surprises in a bank stock price index during a narrow time window around Federal Reserve speeches that discuss the US banking system and its regulation. We then develop a sign restriction procedure to elicit the variation in these market surprises that can be interpreted as news about bank regulation. News that bank regulation will be tighter than expected mitigates risk in the banking sector, but reduces economic activity by increasing banks' funding costs and tightening loan supply. A 10 basis point regulation-induced peak reduction in bank risk premiums is accompanied by a 15 basis point peak increase in the unemployment rate. Compared to previous studies, these magnitudes suggest a relatively high macroeconomic cost of tightening bank regulation, at least in the short run.
 
-**摘要**: 我们开发了一种新的方法，利用纽约联邦储备银行消费者预期调查中的主观预期数据来估算收入、工作和就业动态。这些数据提供了对未来收入报价和接受概率的信念，提供了关于反事实结果的直接信息，并在较弱的假设下实现了识别。我们的框架避免了影响使用实现结果模型的选择偏差和未观察到的异质性。第一步固定效应回归识别了风险、持续性和转换效应；第二步广义矩估计（GMM）恢复了诸如能力、流动性和匹配质量等未观察到的异质性的协方差结构。我们发现，与先前的工作相比，个体生产力组成部分的风险和持续性较低，但能力差异和匹配质量的异质性更大。模拟表明，由于工作转换和排序，简化形式的估计夸大了个体层面生产力的持续性和波动性。在考虑异质性之后，波动性下降并在收入分布中变得平坦。这些结果强调了预期数据的价值。
-
----
-### 哪些美国州在大萧条中遭受了更大的打击，以及为什么？
-**[Which U.S. States Suffered a Greater Great Depression and Why?](https://www.nber.org/papers/w35028)**
-
-**Authors**: Dong Cheng, Mario J. Crucini, Hanjo T. Kim
-
-**Abstract**: Aggregate real U.S. GDP fell by roughly 26 percent between 1929 and 1932, yet the severity of the Great Depression varied dramatically across states: CPI-deflated income per capita declined by 15 percent in Maryland but by 48 percent in South Dakota. To analyze this heterogeneity, we digitize Slaughter’s (1937) panel of state-by-sector production income for all 48 U.S. states and construct a novel set of sector- and state-specific deflators, allowing us to separate movements in physical quantities produced from the large relative price changes that occurred during the Great Depression. We then discipline a three-sector, 48-region dynamic spatial stochastic general equilibrium model and recover sequences of sector-state productivity shocks that exactly reproduce the observed sector-state quantity paths. The choice of deflators proves central, as correct deflation shifts the aggregate contraction away from agriculture and toward manufacturing while preserving idiosyncratic income variation across agricultural-dependent states. We further show that narratives based on common or even sector-specific shocks are inconsistent with the observed evolutions of state-level quantities and relative prices. Explaining the geography of the Great Depression therefore requires a high-dimensional sector-state shock structure.
-
-**摘要**: 1929年至1932年间，美国实际国内生产总值总体下降了大约26%，然而大萧条的严重程度在各州之间差异巨大：以消费者价格指数（CPI）平减后的人均收入在马里兰州下降了15%，但在南达科他州下降了48%。为了分析这种异质性，我们将斯劳特（1937年）的各州按行业生产收入面板数据数字化，涵盖了所有48个美国州，并构建了一套新的行业和州特定的平减指数，使我们能够将实际产量的变动与大萧条期间发生的相对价格变动区分开来。然后，我们对一个三部门、48区域的动态空间随机一般均衡模型进行规范，并恢复了一系列部门-州生产率冲击序列，这些序列精确地再现了观察到的部门-州数量路径。平减指数的选择证明是核心，因为正确的平减将总体收缩从农业转移到制造业，同时保持了依赖农业的州之间的特有收入变化。我们进一步表明，基于共同或甚至是行业特定冲击的叙述与观察到的州级数量和相对价格的演变不一致。因此，解释大萧条的地理分布需要一个高维的部门-州冲击结构。
+**摘要**: 银行监管支持金融稳定，但可能会限制经济活动。本文使用高频识别方法估计银行监管的宏观经济效应。我们在美国联邦储备系统讨论美国银行体系及其监管的演讲期间，围绕一个狭窄的时间窗口内，测量银行股价指数中的市场意外。然后，我们开发了一个符号限制程序，以引出可以被解释为银行监管新闻的市场意外的变化。银行监管将比预期更严格的新闻减轻了银行业的风险，但通过提高银行的资金成本和收紧贷款供应，减少了经济活动。银行风险溢价因监管引起的10个基点的峰值降低伴随着失业率峰值增加15个基点。与以往的研究相比，这些幅度表明，在短期内，收紧银行监管的宏观经济成本相对较高。
 
 ---
-### 气候变化、森林砍伐和全球农业前沿的扩张
-**[Climate Change, Deforestation, and the Expansion of the Global Agricultural Frontier](https://www.nber.org/papers/w35029)**
+### 从弯曲预算集中识别和估计劳动供给弹性
+**[Identification and Estimation of Labor Supply Elasticities from Kinked Budget Sets](https://www.nber.org/papers/w35047)**
 
-**Authors**: Allan Hsiao, Jacob Moscona, Benjamin A. Olken, Karthik A. Sastry
+**Authors**: Deniz Dutz, Morten Håvarstein, Magne Mogstad, Alexander Torgovitsky
 
-**Abstract**: This paper studies how global warming affects deforestation and agricultural land use. Using high-resolution satellite data on global temperature, deforestation, and land cover from 2001 to 2019, we find that extreme heat shocks to agricultural productivity cause large and persistent forest loss on the world’s agricultural frontier. This effect is strongest in the tropics, in areas growing the most temperature-sensitive crops, and in regions with the most inelastic demand for agricultural products, and it does not seem to be offset by international spillovers. Moreover, we show that deforestation in response to extreme heat can be explained almost entirely by cropland expansion. We corroborate these findings using agricultural census data from Brazil, where we find evidence for a mechanism whereby heat reduces yields and raises local agricultural prices, driving cropland expansion but little land use or input adjustment along other margins. Our estimates imply that extreme heat has driven substantial forest loss and that projected warming through 2100 could lead to an additional 28 million hectares of deforestation. Our findings challenge the view that reallocation will soften the environmental consequences of climate change, suggesting instead that farmers double down and expand cropland locally when productivity falls.
+**Abstract**: We study the identification of labor supply elasticities from kinked budget sets in a model with income effects and individual heterogeneity in the elasticities. We provide point and partial identification results for compensated elasticities, uncompensated elasticities, and income effects. We use administrative data to apply our results to the Norwegian tax system, which exhibits a kink for the self-employed. There is clear bunching around the kink point, suggesting that the self-employed respond to the change in incentives created by the kink. We find that the bounds are often tight even under weak assumptions. Our results show that uncompensated elasticities are close to zero and compensated elasticities are sufficiently small to conclude that the excess burden of taxation is low.
 
-**摘要**: 本文研究了全球变暖如何影响森林砍伐和农业土地使用。利用2001年至2019年全球温度、森林砍伐和土地覆盖的高分辨率卫星数据，我们发现对农业生产力的极端热冲击在世界农业前沿地区造成了大规模且持续的森林损失。这种影响在热带地区最为强烈，在种植最温度敏感作物的地区，以及对农产品需求最无弹性的地区，并且似乎没有被国际溢出效应所抵消。此外，我们展示了对极端热响应的森林砍伐几乎完全可以通过耕地扩张来解释。我们使用巴西的农业普查数据来证实这些发现，在那里我们找到了证据，表明热量降低了产量并提高了当地农业价格，推动了耕地扩张，但在其他土地使用或投入调整方面几乎没有变化。我们的估计意味着极端热已经导致了大量森林损失，而到2100年的预计变暖可能导致额外的2800万公顷森林砍伐。我们的发现挑战了重新分配将减轻气候变化环境后果的观点，反而表明当生产力下降时，农民会在当地加倍努力并扩大耕地。
-
----
-### 高层管理人员的性别配额：不打乱秩序的多样性
-**[A Gender Quota for Top Executives: Diversity without Disruption](https://www.nber.org/papers/w35030)**
-
-**Authors**: David A. Matsa, Amalia R. Miller
-
-**Abstract**: We study Germany’s landmark quota requiring major public companies to include at least one woman on their top executive teams. The quota increased female representation among top executives by about two-thirds. Firms largely recruited women from outside their networks and without prior public-company top-executive experience, choosing them over male candidates with similar profiles. Most were appointed to HR or niche roles, and there was no increase in female CEOs. We find no significant effects on the female share of managers in lower ranks, policies promoting gender equality, firm value, or performance. Overall, the quota boosted diversity without causing much disruption.
-
-**摘要**: 我们研究了德国的一项标志性配额制度，该制度要求大型上市公司在其高层管理团队中至少包括一名女性。这一配额使得高层管理人员中的女性比例增加了大约三分之二。公司主要从外部招聘女性，且这些女性没有先前的上市公司高层管理经验，公司选择了她们而不是具有类似背景的男性候选人。大多数女性被任命为人力资源或专业角色，女性CEO的数量并没有增加。我们发现这一配额对低级别管理人员中的女性比例、促进性别平等的政策、公司价值或绩效没有显著影响。总体而言，配额提高了多样性，而没有造成太大的干扰。
+**摘要**: 我们研究了在具有收入效应和个体异质性的弹性模型中，如何从弯曲的预算集中识别劳动供给弹性。我们为补偿弹性、非补偿弹性和收入效应提供了点识别和部分识别结果。我们使用行政数据将我们的结果应用于挪威的税收体系，该体系对自雇人士有一个弯曲点。在弯曲点周围有明显的聚集现象，表明自雇人士对弯曲产生的激励变化做出了反应。我们发现，即使在较弱的假设下，界限通常也是紧密的。我们的结果表明，非补偿弹性接近零，补偿弹性足够小，可以得出税收的超额负担很低的结论。
 
 ---
-### 对抗性选择
-**[Adversarial Selection](https://www.nber.org/papers/w35031)**
+### 风险偏好与搬迁至危险地区的意愿：来自战时乌克兰的证据
+**[Risk Preferences and the Willingness to Relocate to Danger: Evidence from Wartime Ukraine](https://www.nber.org/papers/w35072)**
 
-**Authors**: Alma Cohen, Alon Klement, Zvika Neeman, Eilon Solan
+**Authors**: Yuriy Gorodnichenko, Marianna Kudlyak, Sophia Lobozynska, Iryna Skomorovych, Ulyana Vladychyn, Andriy Kovalyuk, Iryna Snovydovych
 
-**Abstract**: In many institutional settings, k items are selected with the goal of representing the underlying distribution of claims, opinions, or characteristics in a large population. We study environments with two adversarial parties whose preferences over the selected items are commonly known and opposed. We propose the Quantile Mechanism: one party partitions the population into k disjoint subsets, and the other selects one item from each subset. We show that this procedure is optimally representative among all feasible mechanisms, and illustrate its use in jury selection, multi-district litigation, and committee formation.
+**Abstract**: We elicit reservation wage premia for relocating to two Ukrainian cities, using a household survey conducted in mid-April to mid-July 2024 during the Russian invasion of Ukraine: high-risk Kharkiv (near the frontline) and moderate-risk Kyiv. Risk tolerance is a strong predictor of willingness to move to Kharkiv—the most risk-averse have roughly half the odds of the most risk-tolerant—but matters much less for Kyiv. This asymmetry is difficult to reconcile with the hypothesis that risk tolerance merely proxies for general mobility preferences. Separately estimating the elasticity of intertemporal substitution (EIS≈0.04), we find that including it renders risk tolerance insignificant for Kyiv but not for Kharkiv—a pattern illuminated by the Epstein-Zin separation of risk aversion and the EIS: risk aversion adds predictive power only when danger is high, while the EIS operates equally for both cities as a common relocation-cost channel. The very low EIS implies that relocation incentives structured as future benefits may be ineffective; front-loaded subsidies are more likely to influence behavior.
 
-**摘要**: 在许多制度环境中，选择k个项目的目标是代表一个大群体中索赔、意见或特征的潜在分布。我们研究了两个对抗性团体的环境，他们对所选项目的偏好是众所周知且相对立的。我们提出了分位数机制：一方将人群划分为k个不相交的子集，另一方从每个子集中选择一个项目。我们展示了这一程序在所有可行机制中具有最佳的代表性，并说明了其在陪审团选拔、多地区诉讼和委员会组建中的使用。
-
----
-### 技能形成、童工和第一次世界大战农业繁荣对学校教育的影响
-**[Skill Formation, Child Labor, and the Schooling Consequences of the World War I Agricultural Boom](https://www.nber.org/papers/w35032)**
-
-**Authors**: Taylor Jaworski, Carl T. Kitchens, Luke P. Rodgers
-
-**Abstract**: We examine how the World War I agricultural commodity price boom affected human capital accumulation during the early decades of the high school movement in the United States. First, based on newly collected county-level enrollment data, we show that enrollment and average daily attendance fell sharply at the peak of the boom. Second, using linked census data between 1910 and 1940, we find that greater exposure during teenage years reduced completed schooling by 0.27 to 0.47 years, with the largest effects concentrated in high school. For younger children, the net effect of increased household resources depends on local child labor intensity: the positive effect of higher parental income on completed schooling is offset in counties where child labor was prevalent. Our results are consistent with dynamic complementarities in skill formation whose effects on lifetime schooling are mediated by the opportunity cost of child labor.
-
-**摘要**: 我们研究了第一次世界大战期间农产品价格的繁荣如何影响了美国高中运动初期的人力资本积累。首先，基于新收集的县级入学数据，我们发现在繁荣达到顶峰时，入学率和平均日出席率急剧下降。其次，利用1910年到1940年间的联合人口普查数据，我们发现在青少年时期更大的暴露减少了0.27至0.47年的完成学业年限，其中最大的影响集中在高中。对于年幼的孩子来说，增加的家庭资源的净效应取决于当地的童工强度：在童工普遍的县，更高的父母收入对完成学业的积极影响被抵消了。我们的结果与技能形成的动态互补性一致，其对终身教育的影响通过童工的机会成本来调节。
+**摘要**: 我们通过在2024年4月中旬至7月中旬俄罗斯入侵乌克兰期间进行的家庭调查，为搬迁到乌克兰两个城市设定了保留工资溢价：高风险的哈尔科夫（靠近前线）和中等风险的基辅。风险承受能力是搬迁到哈尔科夫意愿的强有力预测因素——最不愿意承担风险的人大约只有最愿意承担风险的人的一半几率——但对于基辅来说，这一点就没那么重要了。这种不对称性很难与风险承受能力仅仅是代表一般流动性偏好的假设相协调。我们单独估计了时间替代弹性（EIS约为0.04），发现包含它使得风险承受能力对基辅不再显著，但对哈尔科夫仍然显著——这种模式通过Epstein-Zin将风险厌恶和EIS分离开来得到了阐释：只有当危险很高时，风险厌恶才增加了预测能力，而EIS对两个城市都同样适用，作为一个共同的搬迁成本渠道。极低的EIS意味着以未来福利为结构的搬迁激励可能无效；预先加载的补贴更有可能影响行为。
 
 ---
-### 名义利率的实际效应
-**[Real Effects of Nominal Interest Rates](https://www.nber.org/papers/w35033)**
+### 理解对低效环境政策工具的支持
+**[Understanding Support for Inefficient Environmental Policy Instruments](https://www.nber.org/papers/w35073)**
 
-**Authors**: Joshua K. Hausman, John V. Leahy, John Mondragon, Johannes Wieland
+**Authors**: Chenxi Jiang, Maximiliano Lauletta, Ro’ee Levy, Joseph S. Shapiro, Dmitry Taubinsky
 
-**Abstract**: Nominal interest rates have real effects. Residential mortgages and other real world debt contracts require a sequence of constant nominal payments. Combined with payment-to-income constraints, these nominal payments force borrowers to take on less debt when nominal interest rates rise, regardless of the behavior of the real interest rate. Survey data shows that conditional on the real rate, higher nominal mortgage interest rates reduce home buying sentiment. And increases in nominal mortgage rates reduce mortgage origination more in cities where payment-to-income constraints are more likely to bind. We explore the macroeconomic implications of payment-to-income constraints in a new Keynesian model modified to include a credit good. The payment-to-income constraint amplifies the effect of current short-term nominal interest rates on output and inflation, making the model less forward-looking than the standard new Keynesian model.
+**Abstract**: Many governments use environmental standards rather than more cost-effective market-based instruments like pollution taxes or cap-and-trade markets. Using a nationally representative survey experiment, we study whether and why limited understanding of economic principles helps explain this practice. Holding environmental impacts constant, respondents prefer standards over market-based instruments, and prefer producer taxes and cap-and-trade over consumer taxes. These preferences reflect consumers’ beliefs about how these policies will affect electricity bills. Respondents also prefer the weakest environmental targets for consumer taxes and the strongest targets for standards, which suggests that policymakers face a tradeoff between policy stringency and cost effectiveness. A separate survey of environmental economists shows that they have strikingly different beliefs about the effects of environmental policies than the respondents in our representative survey. For example, typical respondents—in contrast to environmental economists—believe that environmental standards increase consumer energy bills less than market-based instruments do. Educational videos on pass-through and cost-effectiveness of policies affect policy support and close some of the gap between nationally representative respondents and experts, which suggests that economic literacy is a factor in voters’ preferences.
 
-**摘要**: 名义利率具有实际效应。住宅抵押贷款和其他现实世界的债务合同需要一系列恒定的名义支付。结合支付与收入的约束，这些名义支付迫使借款人在名义利率上升时承担较少的债务，无论实际利率的行为如何。调查数据显示，在给定实际利率的情况下，更高的名义抵押贷款利率降低了购房情绪。名义抵押贷款利率的增加在支付与收入约束更有可能生效的城市中减少了抵押贷款的发放。我们在一个新的凯恩斯主义模型中探讨了支付与收入约束的宏观经济影响，该模型被修改以包括一个信贷商品。支付与收入约束放大了当前短期名义利率对产出和通胀的影响，使模型比标准凯恩斯主义模型更少前瞻性。
-
----
-### 人工智能聚合如何影响知识
-**[How AI Aggregation Affects Knowledge](https://www.nber.org/papers/w35036)**
-
-**Authors**: Daron Acemoglu, Tianyi Lin, Asuman Ozdaglar, James Siderius
-
-**Abstract**: Artificial intelligence (AI) changes social learning when aggregated outputs become training data for future predictions. To study this, we extend the DeGroot model by introducing an AI aggregator that trains on population beliefs and feeds synthesized signals back to agents. We define the learning gap as the deviation of long-run beliefs from the efficient benchmark, allowing us to capture how AI aggregation affects learning. Our main result identifies a threshold in the speed of updating: when the aggregator updates too quickly, there is no positive-measure set of training weights that robustly improves learning across a broad class of environments, whereas such weights exist when updating is sufficiently slow. We then compare global and local architectures. Local aggregators trained on proximate or topic-specific data robustly improve learning in all environments. Consequently, replacing specialized local aggregators with a single global aggregator worsens learning in at least one dimension of the state.
-
-**摘要**: 当聚合输出成为未来预测的训练数据时，人工智能（AI）改变了社会学习。为了研究这一点，我们通过引入一个AI聚合器来扩展DeGroot模型，该聚合器基于人群信念进行训练，并将合成信号反馈给代理。我们定义学习差距为长期信念与高效基准的偏差，使我们能够捕捉AI聚合如何影响学习。我们的主要结果确定了更新速度的阈值：当聚合器更新得太快时，没有一组训练权重能在广泛的环境类别中稳健地改善学习，而当更新足够慢时，这样的权重就存在。然后，我们比较了全球和本地架构。在邻近或特定主题数据上训练的本地聚合器在所有环境中都能稳健地改善学习。因此，用单一的全球聚合器替换专门的本地聚合器至少在一个状态维度上恶化了学习。
+**摘要**: 许多政府使用环境标准，而不是更具有成本效益的市场工具，如污染税或总量控制与交易市场。通过一项全国代表性的调查实验，我们研究了对经济原则理解有限是否有助于解释这种做法，以及为何会这样。在保持环境影响不变的情况下，受访者更倾向于选择标准而非市场工具，并倾向于选择生产者税和总量控制与交易而非消费者税。这些偏好反映了消费者对这些政策将如何影响电费账单的看法。受访者还倾向于为消费者税选择最弱的环境目标，而为标准选择最强的目标，这表明政策制定者在政策严格性和成本效益之间面临权衡。另一项针对环境经济学家的调查显示，他们对环境政策的影响有着与我们代表性调查中的受访者截然不同的信念。例如，与环境经济学家相比，典型的受访者认为环境标准比市场工具更少增加消费者能源账单。关于政策传导和成本效益的教育视频影响了政策支持，并缩小了全国代表性受访者与专家之间的差距，这表明经济素养是选民偏好中的一个因素。
 
 ---
-### 通过等变神经网络对相关离散选择模型的摊销推理
-**[Amortized Inference for Correlated Discrete Choice Models via Equivariant Neural Networks](https://www.nber.org/papers/w35037)**
+### 收购整合何时成功？来自整合黑箱内部的证据
+**[When Does Acquisition Integration Succeed? Evidence from Inside the Integration Black Box](https://www.nber.org/papers/w35074)**
 
-**Authors**: Easton K. Huch, Michael P. Keane
+**Authors**: Sinan Gokkaya, Xi Liu, René M. Stulz
 
-**Abstract**: Discrete choice models are fundamental tools in management science, economics, and marketing for understanding and predicting decision-making. Logit-based models are dominant in applied work, largely due to their convenient closed-form expressions for choice probabilities. However, these models entail restrictive assumptions on the stochastic utility component, constraining our ability to capture realistic and theoretically grounded choice behavior—most notably, substitution patterns. In this work, we propose an amortized inference approach using a neural network emulator to approximate choice probabilities for general error distributions, including those with correlated errors. Our proposal includes a specialized neural network architecture and accompanying training procedures designed to respect the invariance properties of discrete choice models. We provide group-theoretic foundations for the architecture, including a proof of universal approximation given a minimal set of invariant features. Once trained, the emulator enables rapid likelihood evaluation and gradient computation. We use Sobolev training, augmenting the likelihood loss with a gradient-matching penalty so that the emulator learns both choice probabilities and their derivatives. We show that emulator-based maximum likelihood estimators are consistent and asymptotically normal under mild approximation conditions, and we provide sandwich standard errors that remain valid even with imperfect likelihood approximation. Simulations show significant gains over the GHK simulator in accuracy and speed.
+**Abstract**: We penetrate the black box of post-acquisition integration by examining whether business unit leaders (BULs)—executives responsible for integrating and operating acquired targets—shape integration outcomes. Using natural language processing-based measures of realized integration outcomes and financial metrics, we find that BULs’ target-industry experience increases (decreases) integration success (failures) through superior realization of transaction synergies. Other BUL attributes are unrelated to integration outcomes. Consistent with the importance of integration for acquisition success, such experience enhances acquisition performance. BULs’ target-industry experience improves integration planning and their post-acquisition career outcomes but is unrelated to earlier stages of the acquisition process.
 
-**摘要**: 离散选择模型是管理科学、经济学和市场营销中用于理解和预测决策的基本工具。基于Logit的模型在应用工作中占据主导地位，这主要是因为它们为选择概率提供了方便的封闭形式表达。然而，这些模型对随机效用部分提出了限制性假设，限制了我们捕捉现实和理论上有根据的选择行为的能力——尤其是替代模式。在这项工作中，我们提出了一种使用神经网络仿真器的摊销推理方法，来近似一般误差分布的选择概率，包括那些具有相关误差的分布。我们的提议包括一个专门的神经网络架构和相应的训练程序，旨在尊重离散选择模型的不变性质。我们为架构提供了群论基础，包括在给定最小一组不变特征的情况下的通用近似证明。一旦训练完成，仿真器可以快速评估似然并计算梯度。我们使用Sobolev训练，通过梯度匹配惩罚增强似然损失，使仿真器学习选择概率及其导数。我们展示了基于仿真器的最大似然估计器在轻微近似条件下是一致的，并且渐近正态，我们提供了即使在不完美的似然近似下仍然有效的三明治标准误差。模拟显示，在准确性和速度上比GHK模拟器有显著提高。
+**摘要**: 我们通过检查业务部门领导（BULs）——负责整合和运营被收购目标的高管——是否影响整合结果，来揭开收购后整合的黑箱。利用基于自然语言处理的实现整合结果的度量和财务指标，我们发现BULs的目标行业经验通过更好地实现交易协同效应，增加了（减少了）整合成功（失败）。其他BUL属性与整合结果无关。与整合对收购成功的重要性一致，这种经验提高了收购绩效。BULs的目标行业经验改善了整合规划和他们收购后的职业结果，但与收购过程的早期阶段无关。
 
 ---
-### 边缘移民：最低工资对劳动市场的影响
-**[Immigrants at the Margin: Labor Market Effects of the Minimum Wage](https://www.nber.org/papers/w35038)**
+### 坏消息与政策观点：预期、失望和对平权行动的反对
+**[Bad News and Policy Views: Expectations, Disappointment, and Opposition to Affirmative Action](https://www.nber.org/papers/w35045)**
 
-**Authors**: Mark Borgschulte, Heepyung Cho, Darren Lubotsky
+**Authors**: Louis-Pierre Lepage, Heather Sarsons, Michael Thaler
 
-**Abstract**: We examine the differential effects of minimum wages on immigrant and native workers in the United States. We find that minimum wage increases lead to reduced hours of work among immigrants with no effect on their employment. The effects are concentrated among recently-arrived, likely-undocumented workers in high turnover industries. Native workers show no such response, even when examining native subgroups with similar characteristics to the most affected immigrants.  We conclude that affected immigrant labor markets feature low-surplus, low-investment employment relationships with flexible hours, but they are embedded in labor markets where replacement is unusually costly.
+**Abstract**: There is widespread opposition to affirmative action policies. We study whether personal disappointments shape preferences for such policies. Specifically, we test whether individuals' college admissions outcomes, relative to their expectations, influence their attitudes toward affirmative action policies. Using a retrospective survey among recent White and Asian college applicants, we find that disappointed individuals—those who were admitted to fewer schools than anticipated—are relatively more likely to believe that affirmative action played an important role in their admissions outcomes, have the lowest support for affirmative action policies, and are more willing to donate to an anti-affirmative action organization. They also hold more negative views about the academic qualifications of under-represented minorities. To isolate the causal effect of "bad news" from selection, we conduct a complementary survey experiment with parents of future college applicants. We randomize whether parents receive information about their child's admissions prospects. Providing bad news to overconfident parents causes them to increase opposition to affirmative action and donate to an anti-affirmative action organization. Results suggest that some individuals attribute bad news to external factors, specifically policies that benefit out-groups.
 
-**摘要**: 我们研究了美国最低工资对移民和本地工人的不同影响。我们发现，最低工资的提高导致移民的工作时间减少，但对他们的就业没有影响。这种影响集中在最近到达的、可能是无证件的工人身上，这些工人在高流动率的行业中。即使是在具有与受影响移民相似特征的本地工人亚组中，也没有观察到类似的反应。我们得出结论，受影响的移民劳动力市场以低剩余、低投资的就业关系为特征，工作时间灵活，但它们嵌入在替代成本异常高的劳动力市场中。
+**摘要**: 普遍存在对平权行动政策的反对。我们研究个人失望是否塑造了对这类政策的偏好。具体来说，我们测试个体的大学录取结果，相对于他们的预期，是否影响了他们对平权行动政策的态度。通过一项针对近期白人和亚裔大学申请者的回顾性调查，我们发现失望的个体——那些被录取的学校少于预期的人——更有可能相信平权行动在他们的录取结果中扮演了重要角色，对平权行动政策的支持度最低，并且更愿意向反平权行动组织捐款。他们对代表性不足的少数群体的学术资格也持有更负面的看法。为了从选择中分离出“坏消息”的因果效应，我们对将来大学申请者的家长进行了一项补充调查实验。我们随机决定家长是否收到关于他们孩子录取前景的信息。向过于自信的家长提供坏消息导致他们增加对平权行动的反对，并捐款给反平权行动组织。结果表明，一些个体将坏消息归因于外部因素，特别是那些使外群体受益的政策。
+
+---
+### 预测人工智能对经济的影响
+**[Forecasting the Economic Effects of AI](https://www.nber.org/papers/w35046)**
+
+**Authors**: Ezra Karger, Otto Kuusela, Jason Abaluck, Kevin A. Bryan, Basil Halperin, Todd R. Jones, Connacher Murphy, Philip Trammell, Matt Reynolds, Dan Mayland, Ria Viswanathan, Ananaya Mittal, Rebecca Ceppas de Castro, Josh Rosenberg, Philip Tetlock
+
+**Abstract**: We elicit forecasts of how AI will affect the U.S. economy, comparing the beliefs of five groups: academic economists, employees at AI companies, policy researchers focused on AI, highly accurate forecasters, and the general public. The median respondent in each group expects substantial advances in AI capabilities by 2030, small declines in labor force participation consistent with demographic shifts, and an annual GDP growth rate of 2.5%, which exceeds both the typical medium-run (2.0%) and long-run (1.7%) baseline forecasts from government agencies and private-sector forecasters. Conditional on a “rapid” AI progress scenario, in which AI systems surpass human performance on many cognitive and physical tasks, experts forecast substantial, though not historically unprecedented, economic shifts: annualized GDP growth rising to around 4% and the labor force participation rate falling from its current level of 62% to 55% by 2050, with roughly half of that decline—equivalent to around 10 million lost jobs—attributable to AI. A variance decomposition suggests that expert disagreement about these effects is driven primarily by different beliefs about the economic effects of highly capable AI systems rather than by disagreement about the pace of AI progress. These forecasts map onto notably different policy preferences across groups: experts strongly favor targeted measures such as worker retraining, whereas the general public supports both targeted programs and broader interventions, including a job guarantee and universal basic income.
+
+**摘要**: 我们调查了人工智能将如何影响美国经济的预测，比较了五组人的观点：学术经济学家、人工智能公司的员工、专注于人工智能的政策研究人员、预测准确性高的专家和普通公众。每组中位数受访者预计到2030年人工智能能力将取得重大进步，劳动力参与率将小幅下降，与人口结构变化一致，年GDP增长率为2.5%，超过了政府机构和私营部门预测者典型的中期（2.0%）和长期（1.7%）基线预测。在“快速”人工智能进步情景下，即人工智能系统在许多认知和体力任务上超越人类表现的情况下，专家们预测经济将发生重大但并非历史上前所未有的转变：年化GDP增长上升到约4%，劳动力参与率从当前的62%下降到2050年的55%，其中大约一半的下降——相当于约1000万个工作岗位的丧失——归因于人工智能。方差分解表明，专家们对这些影响的分歧主要是由于对高能力人工智能系统经济效应的不同信念，而不是对人工智能进步速度的分歧。这些预测映射到各组之间明显不同的政策偏好：专家们强烈支持针对性措施，如工人再培训，而普通公众则支持包括工作保障和普遍基本收入在内的针对性计划和更广泛的干预措施。
+
+---
+### 中国消费者烟草产品选择：禁止加味电子烟的影响
+**[Consumer Tobacco Product Choices in China: The Impact of a Ban on Flavored E-cigarettes](https://www.nber.org/papers/w35048)**
+
+**Authors**: Hua Wang, Yuhan Deng, Donald S. Kenkel, Alan D. Mathios, Sen Zeng
+
+**Abstract**: A growing body of economic research explores the impacts of U.S. e-cigarette regulations on consumer tobacco choices, but less is known about e-cigarette regulation in China, the world’s largest tobacco market. We study China’s ban of flavored e-cigarettes. The ban of all flavors in e-cigarettes other than tobacco was part of a comprehensive package of regulatory policies adopted in 2022. We collected stated preference data through two discrete choice experiments conducted in 2021 and 2023, with about 600 subjects each. All subjects were adult current smokers. In the experiments, subjects made hypothetical choices between cigarettes, e-cigarettes, and quitting. Product prices and the attributes of e-cigarettes were experimentally varied, allowing us to identify the impact of flavor availability on stated preferences. We use the data to estimate conditional logit models and to predict the impact of the flavor ban and other policies. The empirical results suggest that a ban of flavored e-cigarettes decreases stated preferences for e-cigarettes but also has the unintended consequence to increase stated preferences for cigarettes. Despite the predicted decrease in e-cigarette choices, the predicted choice share of flavored e-cigarettes when they are illegal but loosely enforced is 53% of the predicted share when legal. This large illegal share is consistent with anecdotal evidence and with the evidence from our 2023 background survey that flavored e-cigarettes remain popular after the ban although fewer vapers reported getting their e-cigarettes from specialty or general retailers.
+
+**摘要**: 越来越多的经济研究探讨了美国电子烟法规对消费者烟草选择的影响，但对于中国电子烟法规的了解相对较少，中国是世界上最大的烟草市场。我们研究了中国对调味电子烟的禁令。除了烟草口味外，所有电子烟的调味禁令是2022年采用的一系列监管政策的一部分。我们通过在2021年和2023年进行的两个离散选择实验收集了声明偏好数据，每个实验大约有600名受试者。所有受试者都是成年当前吸烟者。在实验中，受试者在香烟、电子烟和戒烟之间做出了假设性选择。产品价格和电子烟的属性在实验中有所变化，使我们能够识别口味可用性对声明偏好的影响。我们使用数据估计条件对数模型，并预测口味禁令和其他政策的影响。实证结果表明，调味电子烟的禁令降低了对电子烟的声明偏好，但也意外地增加了对香烟的声明偏好。尽管预测电子烟选择会减少，但预测在非法但执行不严的情况下调味电子烟的选择份额是合法时预测份额的53%。这一较大的非法份额与轶事证据一致，也与我们2023年背景调查的证据一致，即尽管较少的电子烟用户报告从专业或普通零售商那里获得电子烟，但调味电子烟在禁令后仍然受欢迎。
+
+---
+### 意见分歧
+**[Disagreement of Disagreement](https://www.nber.org/papers/w35049)**
+
+**Authors**: Christian L. Goulding, Campbell R. Harvey, Hrvoje Kurtović
+
+**Abstract**: We show that major investor disagreement proxies have near zero correlation – making disagreement pricing inferences challenging. We develop a frictionless model that generates overpricing from latent disagreement, jointly rationalizes major proxies, and generates new testable predictions. Equilibrium interrelationships motivate a new disagreement measure, DIS, which is more predictive of returns cross-sectionally than major proxies and more consistently predictive across macroeconomic regimes. We provide evidence that the friction-based channel of Miller (1977) and a frictionless mechanism coexist and are empirically separable. DIS also provides a micro-founded, disagreement-based account of the IVOL puzzle, absorbing IVOL's predictability while revealing its regime and friction dependence.
+
+**摘要**: 我们展示了主要投资者分歧代理之间的相关性接近于零——这使得对分歧定价的推断变得具有挑战性。我们开发了一个无摩擦模型，该模型通过潜在分歧产生高估，共同合理化了主要代理，并产生了新的可测试预测。均衡的相互关系激发了一个新的分歧度量，DIS，它在横截面上比主要代理更能预测回报，并且在宏观经济制度中更一致地具有预测力。我们提供了证据，表明基于摩擦的米勒（1977年）渠道和无摩擦机制共存，并且在实证上是可分离的。DIS还提供了一个基于微观基础的、基于分歧的IVOL谜题解释，吸收了IVOL的可预测性，同时揭示了其制度和摩擦依赖性。
+
+---
+### 杠杆泡沫模型
+**[A Model of Leveraged Bubbles](https://www.nber.org/papers/w35050)**
+
+**Authors**: Nina Biljanovska, Jordi Galí, Lucyna Górnicka, Alexandros P. Vardoulakis
+
+**Abstract**: Recessions that follow asset price booms accompanied by high credit growth are deeper and longer-lasting than those following asset price booms without strong debt accumulation. We develop a dynamic general equilibrium model with a rational asset bubble and an occasionally binding borrowing constraint that reproduces these empirical regularities. The bubble raises collateral values and relaxes borrowing limits during upswings, but tightens them when it bursts. We derive the time-consistent optimal policy and characterize simple borrowing-tax rules approximating it, showing such policies substantially reduce frequency and severity of recessions triggered by bursting of leveraged bubbles.
+
+**摘要**: 紧随资产价格泡沫和高信贷增长之后的衰退比那些没有强烈债务积累的资产价格泡沫之后的衰退更深、更持久。我们开发了一个具有理性资产泡沫和偶尔约束的借款限制的动态一般均衡模型，这些模型复制了这些经验规律。在经济繁荣时期，泡沫提高了抵押品价值并放宽了借款限制，但在泡沫破裂时却收紧了这些限制。我们推导出了时间一致的最优政策，并描述了简单借款税规则来近似这些政策，表明这样的政策可以大幅减少由杠杆泡沫破裂引发的衰退的频率和严重性。
+
+---
+### 消除癌症的经济价值
+**[The Economic Value of Eliminating Cancer](https://www.nber.org/papers/w35052)**
+
+**Authors**: Tomas J. Philipson, Deyu Zhang, Shumaila Abbasi, Noah Fisher
+
+**Abstract**: This paper estimates the economic value to the United States of eliminating cancer mortality over a 35-year horizon beginning in 2030, which would eliminate 30.7 million cancer deaths with a total mortality burden of 380 million life-years.  We quantify the economic value of this substantial reduction in cancer mortality by incorporating the monetized value of increased longevity. To value the longevity gains in monetary terms, we utilize the valuations used by the U.S. federal government in its cost-benefit evaluations of regulations. Eliminating cancer mortality generates $197 trillion in economic benefits over 35 years, corresponding to approximately $16,282 per American per year, or $41,684 per American household per year. If cancer elimination is viewed as an R&D investment, it yields an enormous internal rate of return, ranging from 570% to 1,024%, based on benchmarked R&D costs. In addition, we perform a sensitivity analysis by varying the elimination durations and the degree of success, using the benchmark case scenario in which cancer mortality is reduced by 80 percent over a 20-year transition. This achieves about 70 percent of the total economic value of full elimination above, corresponding to aggregate benefits of about $134 trillion, or approximately $11,112 per person per year.
+
+**摘要**: 本文估算了从2030年开始的35年时间跨度内消除癌症死亡对美国的经济效益，这将消除3070万癌症死亡，总死亡负担为3.8亿寿命年。我们通过纳入增加寿命的货币化价值来量化这一显著降低癌症死亡率的经济价值。为了用货币术语衡量寿命增长的价值，我们使用了美国联邦政府在其对法规的成本效益评估中使用的估值。消除癌症死亡在35年内产生了197万亿美元的经济效益，相当于每个美国人每年约16282美元，或每个美国家庭每年约41684美元。如果将消除癌症视为研发投资，它将带来巨大的内部回报率，根据基准研发成本，范围从570%到1024%。此外，我们通过改变消除持续时间和成功程度进行敏感性分析，使用癌症死亡率在20年过渡期内减少80%的基准案例场景。这大约实现了完全消除的总经济价值的70%，相当于总计约134万亿美元的总体效益，或大约每人每年11112美元。
+
+---
+### 中国的经常账户失衡：谜题、模式和可能的原因
+**[The Chinese Current Account Imbalances: Puzzles, Patterns, and Possible Causes](https://www.nber.org/papers/w35056)**
+
+**Authors**: Chang Ma, Shang-Jin Wei
+
+**Abstract**: China's large current account surplus has been an irritant to its trading partners. While industrial and trade policies often lead to sector-level imbalances, they play a relatively limited role in the economy-wide surplus. Structural factors such as an unbalanced sex ratio and uneven access to financing by state-owned and non-state firms are more important determinants of the current account imbalance. While macroeconomic stimulus can boost imports and reduce the surplus in the short run, any long-term solution would need to involve reforms aiming at addressing the structural problems.
+
+**摘要**: 中国庞大的经常账户顺差一直是其贸易伙伴的眼中钉。尽管工业和贸易政策常常导致部门层面的不平衡，但它们在经济范围广泛的顺差中扮演的角色相对有限。结构性因素，比如性别比例失衡和国有企业与非国有企业融资机会的不均等，是经常账户不平衡的更重要的决定因素。虽然宏观经济刺激可以在短期内促进进口和减少顺差，但任何长期的解决方案都需要涉及旨在解决结构性问题的改革。
+
+---
+### 两个国家的故事——1990年代日本的房地产危机与当代中国的房地产危机
+**[A Tale of Two Countries – The Real Estate Crises in 1990s Japan and Contemporary China](https://www.nber.org/papers/w35054)**
+
+**Authors**: Kenneth S. Rogoff, Yuanchen Yang
+
+**Abstract**: Real estate has long been central to China’s growth model, yet since 2018 its contribution has declined sharply, turning the sector from a key engine of expansion into a major drag on economic activity. While policy tightening might have triggered the downturn, it reflects deeper structural imbalances in a sector that, together with its upstream and downstream linkages and infrastructure, accounts for nearly one-third of aggregate demand. With housing comprising nearly 70 percent of household wealth, the ongoing price correction has generated sizable negative wealth effects, amplifying the contraction through depressed consumption, investment, and sentiment. We document the macroeconomic propagation of China’s real estate downturn and assess the risks of prolonged stagnation should the sector continue to deteriorate. To provide perspective, we compare China’s experience with Japan’s real estate collapse in the 1990s, uncovering striking parallels in investment dynamics and consumption responses despite profound institutional differences. Our findings highlight the importance of real-side channels, including alternative amplification mechanisms (in addition to banking), in generating persistent output losses following real estate busts.
+
+**摘要**: 房地产长期以来一直是中国增长模式的核心，但自2018年以来，其贡献急剧下降，将该行业从扩张的关键引擎转变为经济活动的沉重负担。尽管政策收紧可能触发了经济衰退，但它反映了一个更深层次的结构性失衡问题，这个领域及其上下游联系和基础设施几乎占总需求的三分之一。住房几乎占家庭财富的70%，持续的价格调整产生了巨大的负面财富效应，通过抑制消费、投资和情绪放大了收缩。我们记录了中国房地产低迷对宏观经济的传播，并评估了如果该行业继续恶化，长期停滞的风险。为了提供视角，我们将中国的经验与1990年代日本的房地产崩溃进行比较，发现尽管制度差异巨大，但在投资动态和消费反应上有着惊人的相似之处。我们的发现强调了实体经济渠道的重要性，包括替代放大机制（除了银行业），在房地产泡沫破裂后产生持续的产出损失。
+
+---
+### 人工智能相关产品的贸易
+**[Trade in AI-Related Products](https://www.nber.org/papers/w35053)**
+
+**Authors**: Michael E. Waugh
+
+**Abstract**: This paper documents facts about international trade in AI-related products. I develop a large language model (LLM) classification tool that maps HS10 codes in U.S. trade data to products used in the construction and operation of AI infrastructure. AI-related products account for 23 percent of U.S. imports in 2025, and imports of these products have grown by 73 percent since 2023. Over the same period, imports of non-AI-related products have grown by only 3 percent, with the divergence between the two categories beginning in early 2024. Mexico is a key market on both the import and export side, and together with Taiwan these two countries account for about half of all U.S. trade in AI-related products. Trade policy has treated these products lightly with product-level exemptions shielding much of AI-related imports from tariffs. Absent the AI boom, a simple accounting exercise suggests that the U.S. goods trade deficit would have been nearly $200 billion smaller in 2025.
+
+**摘要**: 本文记录了有关人工智能（AI）相关产品国际贸易的事实。我开发了一个大型语言模型（LLM）分类工具，将美国贸易数据中的HS10编码映射到用于构建和运营AI基础设施的产品上。到2025年，AI相关产品占美国进口的23%，自2023年以来这些产品的进口增长了73%。在同一时期，非AI相关产品的进口仅增长了3%，两类产品之间的差异始于2024年初。墨西哥在进口和出口方面都是一个关键市场，与台湾一起，这两个国家约占美国所有AI相关产品贸易的一半。贸易政策对这些产品处理较轻，产品级别的豁免使得大部分AI相关进口产品免于关税。如果没有AI的繁荣，一个简单的会计练习表明，到2025年美国的货物贸易逆差将减少近2000亿美元。
+
+---
+### 医疗补助计划管理的长期服务和支持对医疗保险健康结果的影响
+**[The Impacts of Medicaid's Managed Long-Term Services and Supports on Health Outcomes in Medicare](https://www.nber.org/papers/w35055)**
+
+**Authors**: Ajin Lee, Maya Rossin-Slater, Becky Staiger, Amanda Su
+
+**Abstract**: An aging US population has raised important questions regarding the organization, delivery, and funding of long-term services and supports (LTSS), prompting many state Medicaid programs to shift from fee-for-service to managed care models for LTSS delivery. We analyze the effects of transitioning to managed LTSS (MLTSS) on health outcomes among dual-eligible Medicare-Medicaid beneficiaries aged 65 and older in Florida and New York. Using Medicare claims data and a differences-in-differences design leveraging county-by-county MLTSS rollouts, we find that MLTSS leads to a 4.2 percent increase in hospitalizations in Florida, but no significant change in New York. Analysis of preventive care suggests that declining flu vaccination rates in Florida may have contributed to increased hospitalizations from respiratory causes. These findings highlight important differences in MLTSS effects across states and underscore the value of Medicare data for measuring health effects in the dual-eligible population.
+
+**摘要**: 美国人口老龄化提出了关于长期服务和支持（LTSS）的组织、提供和资金的重要问题，促使许多州的医疗补助计划从按服务收费转向管理型护理模式来提供LTSS。我们分析了向管理型长期服务和支持（MLTSS）过渡对65岁及以上的双重资格医疗保险-医疗补助受益者的健康结果的影响，以佛罗里达州和纽约州为例。利用医疗保险索赔数据和差异-差异设计，利用县级MLTSS的推广，我们发现MLTSS导致佛罗里达州的住院率增加了4.2%，但在纽约州没有显著变化。对预防性护理的分析表明，佛罗里达州流感疫苗接种率的下降可能促成了因呼吸系统疾病而增加的住院率。这些发现突出了MLTSS在各州之间的效果存在重要差异，并强调了医疗保险数据在衡量双重资格人群健康效果中的价值。
+
+---
+### 信贷紧缩与大滞胀
+**[Credit Crunches and the Great Stagflation](https://www.nber.org/papers/w35057)**
+
+**Authors**: Itamar Drechsler, Alexi Savov, Philipp Schnabl
+
+**Abstract**: We argue that severe credit crunches in the banking system contributed to the Great Stagflation of the 1970s. The credit crunches were due to Regulation Q, a banking law that capped deposit rates. Under Reg Q, Fed tightening triggered large deposit outflows that led banks to contract lending. The credit crunches line up closely with stagflation in the time series. To explain this, we add Reg Q to a standard model where firms use bank loans to finance working capital. When Reg Q binds and credit contracts, working capital becomes more expensive, leading firms to raise prices and shrink output. The model implies an augmented Phillips curve where monetary tightening reduces aggregate supply in addition to demand. The impact on supply is increasing in the severity of the credit crunches, firms' external finance dependence, and their working capital intensity. We test all three predictions in the cross section of manufacturing industries. In each case, we find that more exposed industries raise prices and cut output relative to others. Our results imply that under severe financial frictions monetary policy affects aggregate supply and not just demand.
+
+**摘要**: 我们认为，银行系统中严重的信贷紧缩对1970年代的大滞胀起到了推动作用。信贷紧缩是由于Q条例，一项限制存款利率的银行法规。在Q条例下，美联储的紧缩政策引发了大规模的存款外流，导致银行收缩贷款。信贷紧缩与时间序列上的滞胀紧密对应。为了解释这一点，我们在标准模型中加入了Q条例，其中企业使用银行贷款来融资营运资本。当Q条例生效且信贷收缩时，营运资本变得更昂贵，导致企业提高价格并缩减产出。该模型意味着一个增强的菲利普斯曲线，其中货币紧缩除了减少需求外，还减少了总供给。对供给的影响随着信贷紧缩的严重程度、企业的外部融资依赖性和它们的营运资本强度而增加。我们在制造业行业的横截面上测试了所有三个预测。在每种情况下，我们都发现，相对于其他行业，更多暴露的行业提高了价格并削减了产出。我们的结果意味着，在严重的金融摩擦下，货币政策影响总供给而不仅仅是需求。
+
+---
+### 福祉、青年与调查方式：使用三个国际数据集对23个国家进行比较
+**[Wellbeing, Youth and Survey Mode: Comparisons across 23 Countries Using Three International Datasets](https://www.nber.org/papers/w35058)**
+
+**Authors**: David G. Blanchflower, Alex Bryson
+
+**Abstract**: Although there is growing evidence that the subjective wellbeing among the young declined in recent years, the evidence is not consistent across surveys. We examine the relationship between age and various measures of wellbeing and illbeing across three major surveys – the Gallup World Poll (GWP, Global Minds (GM) and the Global Flourishing Survey (GFS). The GWP is conducted via face-to-face and telephone surveys; GM surveys are web-based; and GFS uses both telephone and web-based surveys. We focus on 23 countries appearing in all three surveys.  The clearest evidence that wellbeing rises with age and illbeing declines with age comes from the web-based surveys in both GM and GFS. The age profiles look very different when surveys are conducted by telephone: the higher rates of illbeing among the young are far less apparent in these surveys. Because survey mode is not randomly assigned, we cannot be sure differences in age profiles of wellbeing and illbeing are causally affected by survey mode. Selection into survey mode, both across and within country, plus differential non-response by survey across the age range, may be playing a role. However, the evidence indicates very different age patterns in wellbeing and illbeing emerge across different survey modes.
+
+**摘要**: 尽管越来越多的证据表明，年轻人的主观幸福感在近年来有所下降，但这些证据在不同调查中并不一致。我们研究了年龄与三个主要调查中的各种幸福感和不幸感指标之间的关系——盖洛普世界民意调查（GWP，全球心智（GM）和全球繁荣调查（GFS）。GWP通过面对面和电话调查进行；GM调查是基于网络的；GFS则同时使用电话和基于网络的调查。我们关注在所有三个调查中都出现的23个国家。最明显的证据表明，幸福感随年龄增长而上升，不幸感随年龄增长而下降，来自GM和GFS中的基于网络的调查。当调查通过电话进行时，年龄分布看起来非常不同：在这些调查中，年轻人中较高的不幸感率远没有那么明显。由于调查方式并非随机分配，我们不能确定幸福感和不幸感的年龄分布差异是否受到调查方式的因果影响。调查方式的选择，无论是跨国家还是国内，加上不同年龄段对调查的不同响应率，可能都在起作用。然而，证据表明，在不同的调查方式中，幸福感和不幸感的年龄模式出现了非常不同的情况。
+
+---
+### 生育中的共情渠道
+**[The Empathy Channel in Fertility](https://www.nber.org/papers/w35021)**
+
+**Authors**: Sebastian Galiani, Raul A. Sosa
+
+**Abstract**: Being around babies makes people want babies. We formalize this observation as the empathy channel: exposure to infants in the social environment activates neurobiological mechanisms that increase the desire for parenthood. As children become scarcer, this affective stimulus weakens, further eroding the motivation to have children. We embed the mechanism in a two-group overlapping-generations quantity-quality model. The empathy channel generates a positive externality, since each birth raises others’ desire for children, making the decentralized equilibrium inefficient. We characterize the optimal per-child subsidy and show that the first-order Pigouvian rate substantially overshoots the general-equilibrium optimum. The optimal targeting rule follows a Ramsey-like logic, directing the subsidy at the group with the most externality per fiscal dollar, not the group with the largest externality per child. The calibrated model suggests that the empathy channel can account for 3–33% of the fertility decline, with 13.4% at the baseline. At this baseline, the Pigouvian overshoot is 23–32% and the optimal subsidy raises welfare by 0.22% in consumption-equivalent terms.
+
+**摘要**: 围绕婴儿的环境让人们想要拥有婴儿。我们将这一观察形式化为共情渠道：在社会环境中接触婴儿会激活增加对生育渴望的神经生物学机制。随着孩子变得稀少，这种情感刺激减弱，进一步侵蚀了生育的动机。我们将这种机制嵌入到一个两组重叠代际的数量-质量模型中。共情渠道产生了正外部性，因为每一次生育都提高了其他人对孩子的渴望，使得分散化的均衡变得低效。我们描述了每个孩子的最优补贴，并表明一阶庇古税率大大超过了一般均衡最优。最优的定向规则遵循类似拉姆齐的逻辑，将补贴指向每财政美元外部性最大的群体，而不是每个孩子外部性最大的群体。校准模型表明，共情渠道可以解释3-33%的生育率下降，基线为13.4%。在这个基线上，庇古税的超调是23-32%，最优补贴以消费等价形式提高了0.22%的福利。
+
+---
+### 纵向整合企业的利润调节和战略转移定价：来自医疗保健的证据
+**[Profit Regulation and Strategic Transfer Pricing by Vertically Integrated Firms: Evidence from Health Care](https://www.nber.org/papers/w35043)**
+
+**Authors**: Pragya Kakani, Eric Yde, Genevieve P. Kanter, Richard G. Frank, Amelia M. Bond
+
+**Abstract**: We provide evidence of strategic transfer pricing by vertically integrated health care firms in response to insurer profit regulations. Insurers increased prices at vertically integrated pharmacies by 9.5% following the introduction of caps on insurer profits in Medicare Part D. We detect larger price increases by insurers that were at greatest risk of exceeding the allowable profit level. More than one-fifth of these higher prices were borne by the federal government. Our analysis illustrates that vertically integrated firms can evade profit regulation by “tunneling” profits to unregulated subsidiaries, undermining regulatory intent and increasing health care spending.
+
+**摘要**: 我们提供了证据，表明在医疗保险D部分对保险公司利润进行限制后，垂直整合的医疗保健公司通过战略性转移定价来应对保险公司利润监管。在医疗保险D部分对保险公司利润设定上限后，保险公司在垂直整合的药房提高了9.5%的价格。我们发现，那些最有可能超过允许利润水平的保险公司提高了更大的价格。这些更高的价格中，超过五分之一是由联邦政府承担的。我们的分析表明，垂直整合的公司可以通过“隧道”将利润转移到未受监管的子公司来规避利润监管，破坏监管意图，并增加医疗保健支出。
+
+---
+### 通过实验预测增量性（PIE）用于广告测量
+**[Predicted Incrementality by Experimentation (PIE) for Ad Measurement](https://www.nber.org/papers/w35044)**
+
+**Authors**: Brett R. Gordon, Robert Moakler, Florian Zettelmeyer
+
+**Abstract**: Randomized controlled trials (RCTs) provide the most credible estimates of advertising incrementality but are difficult to scale. We propose Predicted Incrementality by Experimentation (PIE), which reframes ad measurement as a campaign-level prediction problem. PIE uses a sample of RCTs to learn a mapping from campaign features to causal effects, then applies it to campaigns not run as RCTs. Because the RCTs identify the causal effects, PIE can incorporate post-determined features—campaign-level aggregates such as test-group outcomes, exposure rates, and last-click conversions, computed after campaign completion. These metrics reflect the consumer behaviors that generate treatment effects, so they carry predictive information about incrementality even though they would be invalid controls in a causal model. Using 2,226 Meta ad experiments, PIE achieves an out-of-sample R2 = 0.88 for incremental conversions per dollar, compared to R2 = 0.19 for industry-standard 7-day last-click attribution. In a decision-making framework, PIE disagrees with RCT-based decisions in only 8–12% of campaigns, compared to 12–20% for last-click attribution. We conclude that PIE can help scale causal measurement from a limited number of RCTs to a large set of non-experimental campaigns.
+
+**摘要**: 随机对照试验（RCTs）提供了广告增量效应最可信的估计，但难以扩大规模。我们提出了实验预测增量（PIE），它将广告测量重新定义为一个活动级别的预测问题。PIE利用一组RCT样本学习从活动特征到因果效应的映射，然后将其应用于未作为RCT运行的活动。由于RCTs识别了因果效应，PIE可以纳入事后确定的特征——活动级别的聚合数据，如测试组结果、曝光率和最后点击转化，这些数据在活动完成后计算。这些指标反映了产生治疗效果的消费者行为，因此它们即使在因果模型中是无效的控制变量，也携带了关于增量效应的预测信息。使用2,226个Meta广告实验，PIE实现了每美元增量转化的样本外R²=0.88，相比之下，行业标准的7天最后点击归因的R²=0.19。在一个决策框架中，PIE与基于RCT的决策在仅有8-12%的活动中不一致，而最后点击归因则为12-20%。我们得出结论，PIE可以帮助将因果测量从有限数量的RCTs扩展到大量非实验性活动。
+
+---
+### 当政策塑造感知：2021年儿童税收抵免与消费者情绪
+**[When Policy Shapes Perception: The 2021 Child Tax Credit and Consumer Sentiment](https://www.nber.org/papers/w35059)**
+
+**Authors**: Jacob Bastian, Melody Harvey
+
+**Abstract**: Consumer sentiment influences household behavior in important ways, yet we lack causal evidence on whether government policies themselves shape these perceptions. We help fill this gap by studying the expiration of the expanded 2021 Child Tax Credit (CTC), which abruptly reduced household income for millions of families. Using monthly microdata from the University of Michigan's Consumer Sentiment Survey and plausibly exogenous variation in benefit losses across households, we implement continuous difference-in-differences and instrumental variables strategies. We find that each $1,000 in lost CTC benefits reduces sentiment by 1.7 points (or about 2.4%), with largest effects among lower-income families with multiple children. These effects persist two years after expiration and remain robust to controls for inflation, interest rates, and macroeconomic conditions. The results suggest that fiscal policy impacts perceived economic well-being beyond contemporaneous income effects, with potential implications for household economic activity, political attitudes, and voting behavior.
+
+**摘要**: 消费者情绪以重要的方式影响家庭行为，然而我们缺乏政府政策是否塑造这些感知的因果证据。我们通过研究2021年扩大的儿童税收抵免（CTC）的到期来填补这一空白，这突然减少了数百万家庭的家庭收入。我们使用密歇根大学消费者情绪调查的月度微观数据，以及家庭间福利损失的合理外生变化，实施了连续的差异-差异和工具变量策略。我们发现，每失去1000美元的CTC福利，情绪就降低1.7个百分点（或大约2.4%），在有多个孩子的低收入家庭中效果最大。这些影响在到期后两年仍然持续，并且在控制通货膨胀、利率和宏观经济条件后仍然稳健。结果表明，财政政策影响感知的经济福祉超出了同期收入效应，可能对家庭经济活动、政治态度和投票行为产生影响。
+
+---
+### 2025年的关税：对美国经济的短期影响
+**[Tariffs in 2025: Short-Run Impacts on the U.S. Economy](https://www.nber.org/papers/w35064)**
+
+**Authors**: Pablo D. Fajgelbaum, Amit Khandelwal
+
+**Abstract**: In 2025, the U.S. raised average tariff duties from 2.4% to 9.6%, bringing protectionism to its highest level in eighty years. We explore the structure of these tariffs, estimate their short-run impacts, and summarize the growing literature on their effects. Across trade partners, the tariffs are correlated with trade deficits but not with geopolitical or strategic industrial goals, other than targeting China. In our baseline estimate, 90% of the tariffs are passed through to tariff-inclusive prices paid by U.S. importers. Incorporating the estimated price and trade responses into a static trade framework, we find an overall welfare impact ranging from a loss of 0.13% of GDP to a gain of 0.10%. These small net welfare impacts reflect sizable consumption losses roughly offset by income and revenue gains, with their sign hinging on whether U.S. terms-of-trade adjusted (on which the data are inconclusive). Among their stated rationales, the tariffs have been effective at raising federal revenue and diverting trade from China. However, it remains uncertain whether they will reduce the trade deficit, lower prices set by foreign exporters, promote manufacturing jobs, increase “friend-shoring” among aligned countries, or reshore key sectors; evidence from 2018-19 and 2025 indicators suggests a narrow path towards achieving these goals.
+
+**摘要**: 在2025年，美国将平均关税从2.4%提高到9.6%，使保护主义达到八十年来的最高水平。我们探讨了这些关税的结构，估计了它们的短期影响，并总结了关于它们效果的日益增长的文献。在贸易伙伴之间，关税与贸易赤字相关，但与地缘政治或战略产业目标无关，除了针对中国。在我们基线估计中，90%的关税被转嫁到美国进口商支付的包含关税的价格中。将估计的价格和贸易反应纳入静态贸易框架，我们发现整体福利影响从GDP损失0.13%到增加0.10%不等。这些小的净福利影响反映了巨大的消费损失，大致被收入和收入增长所抵消，其符号取决于美国贸易条件是否调整（数据对此尚无定论）。在它们所声明的理由中，关税在提高联邦收入和转移对中国的贸易方面是有效的。然而，它们是否会减少贸易赤字、降低外国出口商设定的价格、促进制造业就业、增加与对齐国家之间的“友岸外包”或将关键部门重新外包回国；2018-19年和2025年的指标表明，实现这些目标的道路很狭窄。
+
+---
+### 多式联运网络
+**[Multimodal Transport Networks](https://www.nber.org/papers/w35065)**
+
+**Authors**: Simon Fuchs, Woan Foong Wong
+
+**Abstract**: Over half of distance-weighted U.S. freight is shipped using more than one transport mode. We examine how multimodal transport networks shape the economic and environmental impacts of infrastructure investments and disruptions. We develop a tractable spatial equilibrium model of multimodal routing with mode-specific congestion at intermodal terminals. We estimate a modal substitution elasticity using road and rail data, and a terminal congestion elasticity using vessel-positioning data. Calibrated to the U.S. freight network, the model identifies key bottlenecks and quantifies $.46-$1.85 billion in real GDP gains from intermodal terminal improvements, with additional environmental benefits from shifting away from carbon-intensive road transport. Ignoring mode-specific congestion overstates welfare gains from highway improvements by 85%, while ignoring multimodal flexibility understates them by 22%. Losing rail network access is estimated to reduce real GDP by $230 billion.
+
+**摘要**: 超过一半的美国货物运输是采用多种运输方式进行的。我们研究了多式联运网络如何影响基础设施投资和中断的经济和环境影响。我们开发了一个可行的空间均衡模型，用于多式联运路线选择，该模型在多式联运终端具有特定模式的拥堵。我们使用道路和铁路数据估算了一种模式替代弹性，使用船舶定位数据估算了终端拥堵弹性。模型校准到美国货运网络，识别了关键瓶颈，并量化了多式联运终端改进带来的实际GDP增长46亿至185亿美元，以及从碳密集型道路运输转移带来的额外环境效益。忽视特定模式的拥堵会高估公路改进的福利收益85%，而忽视多式联运的灵活性会低估它们22%。估计失去铁路网络访问将使实际GDP减少2300亿美元。
+
+---
+### 零能耗日：全国性停电如何影响经济
+**[Zero Energy Day: How Nationwide Blackouts Affect the Economy](https://www.nber.org/papers/w35066)**
+
+**Authors**: Luis E. Gonzales, Koichiro Ito, Mar Reguant
+
+**Abstract**: Electricity reliability is a central challenge for the energy transition, as growing energy demand, renewable energy integration, and natural disasters increase the risk of large-scale black- outs. However, the economic impacts of large-scale blackouts remain largely unknown. Combining electricity market data with high-frequency economic transaction data from Chile, we find that economic activity declined by 35 percent on the nationwide blackout day, but half of this loss was recovered on subsequent days, highlighting the importance of intertemporal substitution. Exploiting spatial variation in blackout severity, we show that accounting for endogenous recovery is critical when estimating the marginal value of lost load.
+
+**摘要**: 电力可靠性是能源转型的一个核心挑战，因为不断增长的能源需求、可再生能源的整合以及自然灾害增加了大规模停电的风险。然而，大规模停电的经济影响在很大程度上仍然是未知的。通过结合智利的电力市场数据和高频经济交易数据，我们发现在全国范围内停电的那一天，经济活动下降了35%，但在随后的日子里，这一损失的一半得到了恢复，这突出了跨时期替代的重要性。利用停电严重程度的空间变化，我们展示了在估计失去负荷的边际价值时，考虑内生恢复至关重要。
+
+---
+### 追踪跨领域的信誉革命
+**[Tracking the Credibility Revolution across Fields](https://www.nber.org/papers/w35051)**
+
+**Authors**: Paul Goldsmith-Pinkham
+
+**Abstract**: How far has the credibility revolution spread beyond applied microeconomics? I update Currie, Kleven, and Zwiers (2020b) using approximately 44,000 papers—31,500 NBER working papers (1982–2025) and 12,300 articles from eleven top economics and finance journals (2011–2024)—measuring mentions of empirical methods through keyword matching. Three findings emerge. First, finance and macro/other fields differ substantially from applied micro in their mention of credibility revolution methods: as of 2024, 63 percent of applied micro papers mention experimental or quasi-experimental methods, compared to 47 percent in finance and 39 percent in macro/other. The current levels in finance and macro/other are comparable to where applied micro was in 2008–2010, though the long-run trajectories may differ. Second, growth outside applied micro is driven overwhelmingly by difference-in-differences; including DiD raises the share of finance papers mentioning any experimental or quasi-experimental method by roughly 55 percent versus 30 percent for applied micro. Other quasi-experimental methods—instrumental variables, regression discontinuity, experiments—have seen far less growth. Third, I document a striking gap between the methods studied in the Journal of Econometrics—where nonparametric estimation and asymptotic theory dominate—and those used by applied researchers, where DiD and identification strategies dominate. Published journal articles confirm these patterns are not artifacts of the NBER sample.
+
+**摘要**: 信誉革命在应用微观经济学之外传播了多远？我更新了Currie、Kleven和Zwiers（2020b）的研究，使用了大约44,000篇论文——31,500篇NBER工作论文（1982-2025年）和来自11个顶级经济和金融期刊的12,300篇文章（2011-2024年）——通过关键词匹配来衡量对实证方法的提及。三个发现浮现出来。首先，金融和宏观/其他领域在提及信誉革命方法方面与应用微观经济学有显著不同：截至2024年，63%的应用微观论文提到了实验性或准实验性方法，相比之下金融领域为47%，宏观/其他领域为39%。金融和宏观/其他领域当前的水平与2008-2010年应用微观经济学的水平相当，尽管长期轨迹可能有所不同。其次，应用微观经济学之外的增长主要由差异中的差异（DiD）推动；包括DiD在内，提到任何实验性或准实验性方法的金融论文比例大约提高了55%，而应用微观经济学为30%。其他准实验性方法——工具变量、回归不连续性、实验——增长要小得多。第三，我记录了计量经济学杂志中研究的方法与应用研究者使用的方法之间惊人的差距——在计量经济学杂志中，非参数估计和渐近理论占主导地位——而在应用研究者中，DiD和识别策略占主导地位。发表的期刊文章证实这些模式不是NBER样本的人工产物。
+
+---
+### 贫困与心理健康梯度的出现与2005年巴基斯坦大地震
+**[The Emergence of the Poverty–Mental Health Gradient and the Great Pakistan Earthquake of 2005](https://www.nber.org/papers/w35060)**
+
+**Authors**: Tahir Andrabi, Benjamin Daniels, Jishnu Das
+
+**Abstract**: The poverty–mental health gradient varies substantially across populations, far more than sampling variation alone would predict. We treat this heterogeneity as a primary object of empirical interest. Using data collected four years after the 2005 Great Pakistan Earthquake from 126 villages spanning 0–75 km from the  activated fault line, we show that in unaffected populations there is no correlation between consumption poverty and mental health. By contrast, among those nearest the fault, mental health improves by 0.12 standard deviations per log unit of consumption, while the relationship is a precise zero beyond 20 km. This gradient is robust to  alternative distance thresholds, sample splits, and binary mental health measures, and is not mediated by acute household trauma. These results suggest that mass adversity can activate the poverty–mental health gradient, helping explain heterogeneity in the broader literature.
+
+**摘要**: 贫困与心理健康之间的梯度在不同人群中的差异非常大，远远超过了抽样变异所能预测的范围。我们将这种异质性视为实证研究的主要对象。利用2005年巴基斯坦大地震后四年收集的数据，涵盖了0-75公里范围内的126个村庄，我们发现在未受影响的人群中，消费贫困与心理健康之间没有相关性。相比之下，在最接近断层线的人中，心理健康随着消费的对数单位每增加一个单位而提高0.12个标准差，而在20公里之外，这种关系精确地为零。这个梯度对于替代的距离阈值、样本分割和二元心理健康测量都是稳健的，并且不是通过急性家庭创伤来中介的。这些结果表明，大规模的逆境可以激活贫困与心理健康之间的梯度，有助于解释更广泛文献中的异质性。
+
+---
+### 人力资本市场
+**[Human Capital Markets](https://www.nber.org/papers/w35061)**
+
+**Authors**: Jishnu Das, Cauê Dobbin
+
+**Abstract**: In many low- and middle-income countries, consumers access education and health services in environments characterized by substantial provider choice. In these settings, a dense landscape of fee-charging private providers has emerged, often located near public facilities and competing for the same clientele. We refer to these environments as human capital markets. This chapter begins by documenting that such markets are now pervasive. We present empirical evidence that human capital markets share many features with conventional product markets: households choose among a wide range of public and private providers with heterogeneous attributes, and providers respond strategically to policy interventions and competitive pressures. We then assess the extent to which canonical models from industrial organization can account for observed behavior, highlighting both their insights and their limitations. Next, we examine the key ways in which human capital markets depart from standard product-market benchmarks—most notably that education and health are both consumption goods and investments, and that quality is often difficult to observe—and review empirical and conceptual approaches developed to address these features. We conclude by outlining the major unresolved questions and promising directions for future research.
+
+**摘要**: 在许多低收入和中等收入国家，消费者在具有大量提供者选择的环境中获得教育和卫生服务。在这些环境中，出现了一个密集的收费私立提供者格局，这些提供者通常位于公共设施附近，并争夺相同的客户群。我们将这些环境称为人力资本市场。本章首先记录了这样的市场现在已经无处不在。我们提供了实证证据，表明人力资本市场与常规产品市场有许多共同特征：家庭在具有不同属性的公立和私立提供者之间做出选择，提供者对政策干预和竞争压力做出战略性回应。接下来，我们评估了来自产业组织的典型模型在多大程度上能够解释观察到的行为，既突出了它们的洞见，也指出了它们的局限性。然后，我们检查了人力资本市场与标准产品市场基准的主要区别——最明显的是教育和卫生既是消费品也是投资品，而且质量往往难以观察——并回顾了为解决这些特征而发展起来的实证和概念方法。最后，我们概述了尚未解决的主要问题和未来研究的有希望的方向。
 
 ---
 <!-- NBER_PAPERS_END -->
