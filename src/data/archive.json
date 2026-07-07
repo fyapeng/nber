@@ -1,7 +1,7 @@
 [
   {
     "batch_date": "2026-07-06",
-    "last_updated": "2026-07-07T06:59:59Z",
+    "last_updated": "2026-07-07T07:06:40Z",
     "paper_count": 34,
     "papers": [
       {
@@ -22,7 +22,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35398",
@@ -43,7 +43,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35405",
@@ -64,7 +64,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35429",
@@ -84,7 +84,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35404",
@@ -107,7 +107,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35423",
@@ -127,7 +127,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35416",
@@ -149,7 +149,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35412",
@@ -171,7 +171,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35410",
@@ -193,7 +193,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35414",
@@ -217,7 +217,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35424",
@@ -237,7 +237,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35395",
@@ -257,7 +257,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35399",
@@ -278,7 +278,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35420",
@@ -298,7 +298,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35422",
@@ -319,7 +319,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35409",
@@ -340,7 +340,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35407",
@@ -362,7 +362,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35403",
@@ -383,7 +383,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35402",
@@ -404,7 +404,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35415",
@@ -425,7 +425,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35400",
@@ -445,7 +445,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35417",
@@ -464,7 +464,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35419",
@@ -483,7 +483,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35401",
@@ -505,7 +505,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35408",
@@ -525,7 +525,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35428",
@@ -555,7 +555,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35421",
@@ -575,7 +575,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35418",
@@ -595,7 +595,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35427",
@@ -616,7 +616,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35396",
@@ -637,7 +637,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35426",
@@ -658,7 +658,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35413",
@@ -681,7 +681,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35425",
@@ -700,7 +700,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       },
       {
         "id": "w35411",
@@ -721,7 +721,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v3",
-        "fetched_at": "2026-07-07T06:59:59Z"
+        "fetched_at": "2026-07-07T07:06:40Z"
       }
     ]
   },
