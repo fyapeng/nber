@@ -2,7 +2,7 @@
 
 这个项目会自动获取最新一期 NBER Working Papers，抓取论文标题、作者、摘要和原文链接，并用 Kimi API 生成中文标题与中文摘要。最终数据会写入 Astro 静态站点并发布到 GitHub Pages。
 
-网站地址：`https://fyapeng.github.io/nber/`
+网站地址：`https://fyapeng.com/nber/`
 
 ## 功能概览
 
