@@ -1,0 +1,56 @@
+---
+import Layout from "../components/Layout.astro";
+import PaperList from "../components/PaperList.astro";
+import papers from "../data/papers.json";
+import meta from "../data/update-meta.json";
+
+const formatDateTime = (value: string | null) => {
+  if (!value) return "尚未更新";
+  const date = new Date(value);
+  if (Number.isNaN(date.valueOf())) return value;
+  return new Intl.DateTimeFormat("zh-CN", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    timeZone: "Asia/Shanghai",
+  }).format(date);
+};
+
+const batchDate = meta.batch_date || "尚未获取";
+const paperCount = meta.paper_count ?? papers.length;
+const failedTranslations = meta.failed_translations ?? 0;
+---
+
+<Layout title="本周 NBER 工作论文">
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NBER Working Papers</p>
+        <h1>本周 NBER 工作论文</h1>
+        <p>
+          最新批次工作论文的英文摘要、中文翻译和原文链接集中展示，便于快速浏览近期经济学研究。
+        </p>
+      </div>
+
+      <dl class="stats-grid">
+        <div>
+          <dt>更新时间</dt>
+          <dd>{formatDateTime(meta.last_updated)}</dd>
+        </div>
+        <div>
+          <dt>批次日期</dt>
+          <dd>{batchDate}</dd>
+        </div>
+        <div>
+          <dt>论文数量</dt>
+          <dd>{paperCount}</dd>
+        </div>
+        <div>
+          <dt>翻译失败</dt>
+          <dd>{failedTranslations}</dd>
+        </div>
+      </dl>
+    </section>
+
+    <PaperList papers={papers} />
+  </main>
+</Layout>

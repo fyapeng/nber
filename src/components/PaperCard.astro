@@ -1,0 +1,84 @@
+---
+type Paper = {
+  id: string;
+  title: string;
+  title_cn?: string;
+  authors?: string[];
+  abstract?: string;
+  abstract_cn?: string;
+  url: string;
+  public_date?: string;
+  translation_status?: {
+    title?: string;
+    abstract?: string;
+  };
+};
+
+interface Props {
+  paper: Paper;
+  index: number;
+}
+
+const { paper, index } = Astro.props;
+const authors = Array.isArray(paper.authors) && paper.authors.length ? paper.authors.join(", ") : "Unknown authors";
+const status = paper.translation_status || {};
+const titleStatus = status.title || "unknown";
+const abstractStatus = status.abstract || "unknown";
+const statusLabels: Record<string, string> = {
+  success: "翻译完成",
+  failed: "翻译未完成",
+  skipped_no_api_key: "未配置 API key",
+  skipped_dry_run: "Dry run 未翻译",
+  skipped_empty: "无内容可翻译",
+  pending: "待翻译",
+  unknown: "状态未知",
+};
+const statusClass = (value: string) => {
+  if (value === "success") return "status-pill is-success";
+  if (value === "failed") return "status-pill is-warning";
+  return "status-pill is-muted";
+};
+const titleCn = paper.title_cn || paper.title;
+const abstractEn = paper.abstract || "No abstract available.";
+const abstractCn = paper.abstract_cn || paper.abstract || "暂无摘要。";
+const searchText = [paper.title, titleCn, authors, abstractEn, abstractCn, paper.id].join(" ").toLocaleLowerCase();
+---
+
+<article class="paper-card" data-paper-card data-search={searchText}>
+  <header class="paper-card__header">
+    <div class="paper-index">{String(index).padStart(2, "0")}</div>
+    <div class="paper-heading">
+      <p class="paper-meta">{paper.public_date || "日期待确认"} · {paper.id}</p>
+      <h2>{paper.title}</h2>
+      <p class="paper-title-cn">{titleCn}</p>
+      {titleStatus !== "success" && (
+        <p class="paper-note">中文标题暂未完成翻译，当前显示英文标题。</p>
+      )}
+      <p class="paper-authors">{authors}</p>
+    </div>
+  </header>
+
+  <div class="translation-status" aria-label="翻译状态">
+    <span class={statusClass(titleStatus)}>标题：{statusLabels[titleStatus] || titleStatus}</span>
+    <span class={statusClass(abstractStatus)}>摘要：{statusLabels[abstractStatus] || abstractStatus}</span>
+  </div>
+
+  <div class="abstract-grid">
+    <section class="abstract-block abstract-block--en">
+      <h3>Abstract</h3>
+      <p>{abstractEn}</p>
+    </section>
+
+    <section class="abstract-block abstract-block--cn">
+      <h3>中文摘要</h3>
+      {abstractStatus !== "success" && (
+        <p class="paper-note">中文摘要暂未完成翻译，当前显示英文摘要。</p>
+      )}
+      <p>{abstractCn}</p>
+    </section>
+  </div>
+
+  <footer class="paper-card__footer">
+    <a class="paper-link" href={paper.url} target="_blank" rel="noreferrer noopener">查看 NBER 原文</a>
+  </footer>
+</article>

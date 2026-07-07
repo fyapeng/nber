@@ -1,0 +1,512 @@
+[
+  {
+    "batch_date": "2026-06-29",
+    "last_updated": "2026-07-07T04:43:29Z",
+    "paper_count": 22,
+    "papers": [
+      {
+        "id": "w35344",
+        "title": "AI and the Collapse of the www",
+        "title_cn": "AI and the Collapse of the www",
+        "authors": [
+          "Alex Chan"
+        ],
+        "abstract": "This paper studies market design for generative AI intermediation. AI answer systems can improve user experience while diverting visits that finance publisher content and generate source-level quality signals. I show that an AI platform that underinternalizes future content reproduction retains too little referral traffic and can make costly open-web information subcritical, even with truthful content, accurate answers, and rational users. The mechanism can be self-reinforcing: less source-level measurement weakens conventional search, inducing further AI reliance. Sustainable repair requires replacing displaced revenue and deleted measurement through visitor-replacement royalties, audited provenance, human-information audits, and keystone-topic compensation.",
+        "abstract_cn": "This paper studies market design for generative AI intermediation. AI answer systems can improve user experience while diverting visits that finance publisher content and generate source-level quality signals. I show that an AI platform that underinternalizes future content reproduction retains too little referral traffic and can make costly open-web information subcritical, even with truthful content, accurate answers, and rational users. The mechanism can be self-reinforcing: less source-level measurement weakens conventional search, inducing further AI reliance. Sustainable repair requires replacing displaced revenue and deleted measurement through visitor-replacement royalties, audited provenance, human-information audits, and keystone-topic compensation.",
+        "url": "https://www.nber.org/papers/w35344",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "abstract": "KIMI_API_KEY is not set.",
+          "title": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35391",
+        "title": "Government Funding Costs Under Financial Repression",
+        "title_cn": "Government Funding Costs Under Financial Repression",
+        "authors": [
+          "Roberto Gómez-Cram",
+          "Howard Kung",
+          "Hanno Lustig",
+          "David Zeke"
+        ],
+        "abstract": "We study the equilibrium effects of financial repression on government funding costs in an endowment economy with limited asset market participation. We show how a broad set of repression policies operates through a wedge in the Euler equation responsive to government size or by affecting fiscal redistribution between agents. Repression intensity is captured by a policy feedback rule that depends positively on net government spending. When fiscal policy is profligate and monetary policy accommodates, we show that such a repression policy raises bond values, reduces the inflationary cost of unfunded fiscal expansions, and lowers bond risk premia. Repression is not a free lunch for bondholders---they pay a lower inflation tax but also earn lower future real returns. When monetary policy does not accommodate fiscal policy, repression can provide stopgap funding for deficits, allowing the central bank to retain control over inflation while making government debt a hedge for fiscal inflation.",
+        "abstract_cn": "We study the equilibrium effects of financial repression on government funding costs in an endowment economy with limited asset market participation. We show how a broad set of repression policies operates through a wedge in the Euler equation responsive to government size or by affecting fiscal redistribution between agents. Repression intensity is captured by a policy feedback rule that depends positively on net government spending. When fiscal policy is profligate and monetary policy accommodates, we show that such a repression policy raises bond values, reduces the inflationary cost of unfunded fiscal expansions, and lowers bond risk premia. Repression is not a free lunch for bondholders---they pay a lower inflation tax but also earn lower future real returns. When monetary policy does not accommodate fiscal policy, repression can provide stopgap funding for deficits, allowing the central bank to retain control over inflation while making government debt a hedge for fiscal inflation.",
+        "url": "https://www.nber.org/papers/w35391",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35374",
+        "title": "A Practitioner's Guide to Using Large Language Models and Generative AI in Economic History",
+        "title_cn": "A Practitioner's Guide to Using Large Language Models and Generative AI in Economic History",
+        "authors": [
+          "Andreas Ferrara"
+        ],
+        "abstract": "Large language models (LLMs) are lowering the entry barriers to working with exciting data sources that used to require strong data science skills, such as handwritten ledgers, text, images, or sound recordings. This guide provides an introduction for researchers who are new to LLMs. It sets out a step-by-step workflow for turning a research idea into working code and data, and describes the four main ways of interacting with an LLM: the chat window, editor-integrated assistants, agentic coding tools, and the API. It then works through the decisions a practitioner meets in sequence, beginning with whether an LLM is the right tool and whether the data are allowed to be sent to one, then how to select models, write prompts, manage context limits, and control costs, and finally how to validate, reproduce, document, and correct LLM-generated measures in regression settings. A review of recent research shows how these tools already extract, link, harmonize, and classify historical data at scale. Four worked examples with replication files illustrate the use of LLMs. They classify emotions in paintings, link census records without names, measure newspaper salience and sentiment around the 1882 Chinese Exclusion Act, and score the emotional delivery of Franklin D. Roosevelt's wartime speeches. The guide also condenses the workflow, the best-practice recommendations, and the preparation of replication packages into summary tables and checklists to aid applied economists.",
+        "abstract_cn": "Large language models (LLMs) are lowering the entry barriers to working with exciting data sources that used to require strong data science skills, such as handwritten ledgers, text, images, or sound recordings. This guide provides an introduction for researchers who are new to LLMs. It sets out a step-by-step workflow for turning a research idea into working code and data, and describes the four main ways of interacting with an LLM: the chat window, editor-integrated assistants, agentic coding tools, and the API. It then works through the decisions a practitioner meets in sequence, beginning with whether an LLM is the right tool and whether the data are allowed to be sent to one, then how to select models, write prompts, manage context limits, and control costs, and finally how to validate, reproduce, document, and correct LLM-generated measures in regression settings. A review of recent research shows how these tools already extract, link, harmonize, and classify historical data at scale. Four worked examples with replication files illustrate the use of LLMs. They classify emotions in paintings, link census records without names, measure newspaper salience and sentiment around the 1882 Chinese Exclusion Act, and score the emotional delivery of Franklin D. Roosevelt's wartime speeches. The guide also condenses the workflow, the best-practice recommendations, and the preparation of replication packages into summary tables and checklists to aid applied economists.",
+        "url": "https://www.nber.org/papers/w35374",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35375",
+        "title": "Compensation vs. Reinforcement: Experimental Identification of Parental Aversion to Inequality in Offspring",
+        "title_cn": "Compensation vs. Reinforcement: Experimental Identification of Parental Aversion to Inequality in Offspring",
+        "authors": [
+          "Felipe Barrera-Osorio",
+          "Leonardo Bonilla-Mejía",
+          "Matias Busso",
+          "Sebastian Galiani",
+          "Hyunjae Kang",
+          "Juan S. Muñoz-Morales",
+          "Juan Pantano"
+        ],
+        "abstract": "Parents may invest differently across children by compensating the disadvantaged child or by reinforcing the child with higher expected returns. We study this question using a conditional cash transfer experiment that uniquely randomized transfers at the student level, generating exogenous variation in transfer exposure across siblings within the same household. The transfers increased short-run attendance among treated students but generated negative spillovers on untreated siblings: untreated siblings of treated students were 3.7 percentage points less likely to graduate from college, a decline of about 30 percent relative to the control mean. We interpret these effects using a dynamic model of household schooling decisions that identifies parental aversion to inequality in children’s educational outcomes. The estimated model implies limited aversion to inequality in children’s educational outcomes and reproduces held-out treatment effects not used in estimation. A decomposition shows that the negative spillover is primarily driven by substitution in educational investments toward the treated child.",
+        "abstract_cn": "Parents may invest differently across children by compensating the disadvantaged child or by reinforcing the child with higher expected returns. We study this question using a conditional cash transfer experiment that uniquely randomized transfers at the student level, generating exogenous variation in transfer exposure across siblings within the same household. The transfers increased short-run attendance among treated students but generated negative spillovers on untreated siblings: untreated siblings of treated students were 3.7 percentage points less likely to graduate from college, a decline of about 30 percent relative to the control mean. We interpret these effects using a dynamic model of household schooling decisions that identifies parental aversion to inequality in children’s educational outcomes. The estimated model implies limited aversion to inequality in children’s educational outcomes and reproduces held-out treatment effects not used in estimation. A decomposition shows that the negative spillover is primarily driven by substitution in educational investments toward the treated child.",
+        "url": "https://www.nber.org/papers/w35375",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35376",
+        "title": "Prices Versus Quantities Revisited: What Do Policymakers Need to Know to Set Pigouvian Taxes and Subsidies?",
+        "title_cn": "Prices Versus Quantities Revisited: What Do Policymakers Need to Know to Set Pigouvian Taxes and Subsidies?",
+        "authors": [
+          "Denise Dipasquale",
+          "Edward L. Glaeser",
+          "Adam M. Guren",
+          "Paul S. Willen"
+        ],
+        "abstract": "What information do policymakers need to design Pigouvian taxes or subsidies? Standard logic suggests that it is sufficient to know the size of the externality and unnecessary to know about quantities. Yet this logic is incorrect if interventions have fixed costs, taxes create deadweight losses, or there are distributional concerns. We present a model in which these considerations can make it more valuable for policymakers to learn about equilibrium quantities. We apply the model to congestion pricing, which has high fixed costs, and to a proposed housing subsidy in Boston that features deadweight losses and distributional concerns.",
+        "abstract_cn": "What information do policymakers need to design Pigouvian taxes or subsidies? Standard logic suggests that it is sufficient to know the size of the externality and unnecessary to know about quantities. Yet this logic is incorrect if interventions have fixed costs, taxes create deadweight losses, or there are distributional concerns. We present a model in which these considerations can make it more valuable for policymakers to learn about equilibrium quantities. We apply the model to congestion pricing, which has high fixed costs, and to a proposed housing subsidy in Boston that features deadweight losses and distributional concerns.",
+        "url": "https://www.nber.org/papers/w35376",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35377",
+        "title": "Labor Market Responses to Tariffs: Frictions, Dynamics, and Policy Responses",
+        "title_cn": "Labor Market Responses to Tariffs: Frictions, Dynamics, and Policy Responses",
+        "authors": [
+          "Rafael Dix-Carneiro",
+          "Brian K. Kovak"
+        ],
+        "abstract": "This article introduces the evidence and associated modeling frameworks contemporary economists use to understand the effects of trade and trade policy on labor markets, with a particular emphasis on labor-market frictions and adjustment dynamics. The effects of trade shocks differ across industries, regions, and occupations, implying the presence of important adjustment frictions in labor markets, and these effects evolve slowly over time, implying the need for dynamic frameworks rationalizing slow transitions. After reviewing the key insights from this literature, we discuss policies aimed at mitigating costs to workers and ensuring that the gains from trade are shared more equitably.",
+        "abstract_cn": "This article introduces the evidence and associated modeling frameworks contemporary economists use to understand the effects of trade and trade policy on labor markets, with a particular emphasis on labor-market frictions and adjustment dynamics. The effects of trade shocks differ across industries, regions, and occupations, implying the presence of important adjustment frictions in labor markets, and these effects evolve slowly over time, implying the need for dynamic frameworks rationalizing slow transitions. After reviewing the key insights from this literature, we discuss policies aimed at mitigating costs to workers and ensuring that the gains from trade are shared more equitably.",
+        "url": "https://www.nber.org/papers/w35377",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35378",
+        "title": "The Incredible Flexibility of Moment Matching",
+        "title_cn": "The Incredible Flexibility of Moment Matching",
+        "authors": [
+          "Isaiah Andrews",
+          "Bas Sanders"
+        ],
+        "abstract": "We ask how far the choice of which moments to match can push estimates in misspecified structural models. The answer is: very far. Under regularity conditions, an adversarial researcher informed about the data distribution can choose moments that render any parameter value the unique solution to the population moment-matching problem. Moreover, in many cases they can do so with little increase in model-implied standard errors relative to maximum likelihood. We illustrate both results in a menu-cost model.",
+        "abstract_cn": "We ask how far the choice of which moments to match can push estimates in misspecified structural models. The answer is: very far. Under regularity conditions, an adversarial researcher informed about the data distribution can choose moments that render any parameter value the unique solution to the population moment-matching problem. Moreover, in many cases they can do so with little increase in model-implied standard errors relative to maximum likelihood. We illustrate both results in a menu-cost model.",
+        "url": "https://www.nber.org/papers/w35378",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35379",
+        "title": "Leaning Against Inflation Experiences",
+        "title_cn": "Leaning Against Inflation Experiences",
+        "authors": [
+          "Stefan Nagel"
+        ],
+        "abstract": "A large share of secular variation in real interest rates can be understood as the effect of monetary policy leaning against experience-based long-run inflation expectations. Survey microdata show that adaptive learning from experienced inflation generates highly persistent, slow-moving long-run inflation expectations. When expectations are shaped by experience, central banks cannot anchor them through communication. Instead, when expectations deviate from the inflation target, monetary policy must remain persistently hawkish or dovish to generate realized inflation outcomes that, through agents’ belief updating, gradually pull long-run expectations back toward the target. Consistent with this mechanism, I find a strong positive relationship between experience-based long-run inflation expectations and real interest rates in the U.S., Germany, the U.K., and Japan. Under their subjective expectations, private-sector agents do not anticipate future reversals in inflation and short-term real interest rates. As a result, long-term real interest rates move with experience-based long-run inflation expectations about as much as short-term real interest rates do, consistent with the data. Secular movements in real rates are also accompanied by persistent patterns in interest-rate forecast errors. Overall, the interaction of monetary policy and learning from experience generates a distinct source of secular real-rate variation, beyond movements in the natural rate of interest.",
+        "abstract_cn": "A large share of secular variation in real interest rates can be understood as the effect of monetary policy leaning against experience-based long-run inflation expectations. Survey microdata show that adaptive learning from experienced inflation generates highly persistent, slow-moving long-run inflation expectations. When expectations are shaped by experience, central banks cannot anchor them through communication. Instead, when expectations deviate from the inflation target, monetary policy must remain persistently hawkish or dovish to generate realized inflation outcomes that, through agents’ belief updating, gradually pull long-run expectations back toward the target. Consistent with this mechanism, I find a strong positive relationship between experience-based long-run inflation expectations and real interest rates in the U.S., Germany, the U.K., and Japan. Under their subjective expectations, private-sector agents do not anticipate future reversals in inflation and short-term real interest rates. As a result, long-term real interest rates move with experience-based long-run inflation expectations about as much as short-term real interest rates do, consistent with the data. Secular movements in real rates are also accompanied by persistent patterns in interest-rate forecast errors. Overall, the interaction of monetary policy and learning from experience generates a distinct source of secular real-rate variation, beyond movements in the natural rate of interest.",
+        "url": "https://www.nber.org/papers/w35379",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35380",
+        "title": "Health Care Reform and Firm Dynamics: Evidence from Medicare Part D and the Retail Pharmacy Industry",
+        "title_cn": "Health Care Reform and Firm Dynamics: Evidence from Medicare Part D and the Retail Pharmacy Industry",
+        "authors": [
+          "Brandyn F. Churchill",
+          "Georgina Cisneros",
+          "Kelli R. Marquardt"
+        ],
+        "abstract": "Health care reforms are often enacted before implementation, creating uncertainty that can shape firms’ decisions. We examine how Medicare Part D affected the retail pharmacy industry using 2000-2009 establishment-level data, leveraging the fact that Part D disproportionately affected counties with larger elderly populations. Consistent with predictions from a conceptual model in which pre-implementation uncertainty discourages entry and lower post-implementation margins prevent full recovery, we find that Part D was associated with a 5-percent reduction in pharmacies, driven by fewer openings rather than more closures. We also find suggestive evidence that reduced pharmacy access dampened Part D’s mortality benefits.",
+        "abstract_cn": "Health care reforms are often enacted before implementation, creating uncertainty that can shape firms’ decisions. We examine how Medicare Part D affected the retail pharmacy industry using 2000-2009 establishment-level data, leveraging the fact that Part D disproportionately affected counties with larger elderly populations. Consistent with predictions from a conceptual model in which pre-implementation uncertainty discourages entry and lower post-implementation margins prevent full recovery, we find that Part D was associated with a 5-percent reduction in pharmacies, driven by fewer openings rather than more closures. We also find suggestive evidence that reduced pharmacy access dampened Part D’s mortality benefits.",
+        "url": "https://www.nber.org/papers/w35380",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35381",
+        "title": "Dynamic Individuals, Static Neighborhoods: Migration and Earnings Changes in Poor Neighborhoods",
+        "title_cn": "Dynamic Individuals, Static Neighborhoods: Migration and Earnings Changes in Poor Neighborhoods",
+        "authors": [
+          "Andrew Garin",
+          "Ethan Jenkins",
+          "Evan E. Mast",
+          "Bryan A. Stuart"
+        ],
+        "abstract": "This paper studies migration and earnings dynamics in poor neighborhoods using new administrative data linking residential location and earnings. Out-migration rates are higher in poor neighborhoods than elsewhere, and the majority of people who leave a poor neighborhood move to a richer one. Residents of poor neighborhoods also see significant earnings mobility, with average growth rates similar to richer areas. Estimates based on idiosyncratic, firm-specific pay changes show that increases in earnings are linked to migration to better neighborhoods. This results in the earnings of the cohort who lived in a poor neighborhood at baseline growing more than twice as fast as the earnings of these neighborhoods' contemporaneous residents. Overall, our results highlight an underappreciated reason why poor neighborhoods stay poor: initial residents whose earnings grow tend to move away.",
+        "abstract_cn": "This paper studies migration and earnings dynamics in poor neighborhoods using new administrative data linking residential location and earnings. Out-migration rates are higher in poor neighborhoods than elsewhere, and the majority of people who leave a poor neighborhood move to a richer one. Residents of poor neighborhoods also see significant earnings mobility, with average growth rates similar to richer areas. Estimates based on idiosyncratic, firm-specific pay changes show that increases in earnings are linked to migration to better neighborhoods. This results in the earnings of the cohort who lived in a poor neighborhood at baseline growing more than twice as fast as the earnings of these neighborhoods' contemporaneous residents. Overall, our results highlight an underappreciated reason why poor neighborhoods stay poor: initial residents whose earnings grow tend to move away.",
+        "url": "https://www.nber.org/papers/w35381",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35382",
+        "title": "When GDP Misleads: Inferring Living Standards from the Value of a Statistical Life",
+        "title_cn": "When GDP Misleads: Inferring Living Standards from the Value of a Statistical Life",
+        "authors": [
+          "Philip Trammell",
+          "Charles I. Jones"
+        ],
+        "abstract": "Real GDP per person is a widely used proxy for living standards, but it can be a poor welfare measure when new goods or quality improvements matter, when nonmarket goods are significant, and when preferences are nonhomothetic --- all of which are true in practice. We propose an alternative that is robust to these concerns: under weak conditions, the growth rate of the value of a statistical life (VSL), together with standard Euler-equation objects, identifies the growth rate of lifetime utility. The intuition is that people routinely trade off consumption against mortality risk, and their willingness to pay for small risk reductions reveals the value of remaining lifetime utility. Implementing this approach for the United States suggests that lifetime utility may have risen by more than a factor of five since 1940, whereas conventional consumption-based calculations using a stable log/CRRA flow utility imply much smaller gains, on the order of a doubling. This calculation is sensitive to measures of the growth rate of the VSL, the rate of time preference, and the interest rate. For example, if the correct interest rate is 4 percentage points higher than the T-bill rate, then lifetime utility would be measured to have declined by more than half since 1940.",
+        "abstract_cn": "Real GDP per person is a widely used proxy for living standards, but it can be a poor welfare measure when new goods or quality improvements matter, when nonmarket goods are significant, and when preferences are nonhomothetic --- all of which are true in practice. We propose an alternative that is robust to these concerns: under weak conditions, the growth rate of the value of a statistical life (VSL), together with standard Euler-equation objects, identifies the growth rate of lifetime utility. The intuition is that people routinely trade off consumption against mortality risk, and their willingness to pay for small risk reductions reveals the value of remaining lifetime utility. Implementing this approach for the United States suggests that lifetime utility may have risen by more than a factor of five since 1940, whereas conventional consumption-based calculations using a stable log/CRRA flow utility imply much smaller gains, on the order of a doubling. This calculation is sensitive to measures of the growth rate of the VSL, the rate of time preference, and the interest rate. For example, if the correct interest rate is 4 percentage points higher than the T-bill rate, then lifetime utility would be measured to have declined by more than half since 1940.",
+        "url": "https://www.nber.org/papers/w35382",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35383",
+        "title": "Unilateral-Veto Mechanisms",
+        "title_cn": "Unilateral-Veto Mechanisms",
+        "authors": [
+          "Quitzé Valenzuela-Stookey",
+          "E. Jason Baron",
+          "Richard Lombardo"
+        ],
+        "abstract": "Unilateral vetoes, in which an agent takes an action that restricts the set of possible outcomes for themselves independent of what other agents do, are a frequently used tool in real-world approaches to multi-dimensional screening. We study how this tool works in a class of task-allocation problems. We characterize obvious strategy-proofness of unilateral-veto mechanisms, yielding structural insights into how veto rights shape incentives: obviously strategy-proof mechanisms consist of diverse menus of narrowly defined rights. We then examine the potential of this simple class of mechanisms as a practical market-design tool and provide empirical evidence of their efficacy in two applications.",
+        "abstract_cn": "Unilateral vetoes, in which an agent takes an action that restricts the set of possible outcomes for themselves independent of what other agents do, are a frequently used tool in real-world approaches to multi-dimensional screening. We study how this tool works in a class of task-allocation problems. We characterize obvious strategy-proofness of unilateral-veto mechanisms, yielding structural insights into how veto rights shape incentives: obviously strategy-proof mechanisms consist of diverse menus of narrowly defined rights. We then examine the potential of this simple class of mechanisms as a practical market-design tool and provide empirical evidence of their efficacy in two applications.",
+        "url": "https://www.nber.org/papers/w35383",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35384",
+        "title": "When Medicaid Pays the Bill: Routine Vision Benefits, Eye Care Use, and Eyeglasses Spending Among Dual-eligible Medicare Enrollees",
+        "title_cn": "When Medicaid Pays the Bill: Routine Vision Benefits, Eye Care Use, and Eyeglasses Spending Among Dual-eligible Medicare Enrollees",
+        "authors": [
+          "Michel H. Boudreaux",
+          "Brandy Lipton",
+          "Melissa McInerney"
+        ],
+        "abstract": "Vision problems are prevalent among Medicare beneficiaries, with the majority having treatable conditions including uncorrected refractive error and cataracts. However, traditional Medicare does not cover routine eye exams or eyeglasses, and Medicare Advantage supplemental vision benefits often include low annual limits. We examine the effects of Medicaid routine vision benefits among adults dually eligible for Medicare and Medicaid, a population with high rates of vision impairment, morbidity, and disability. Using 2002-2019 Medicare Current Beneficiary Survey data and a difference-in-differences design, we estimate that Medicaid routine vision benefits increase past-year eye exams, eyeglasses purchases, and Medicaid spending on eyeglasses while reducing out-of-pocket spending. We also find suggestive evidence of spillovers to Medicare Advantage spending on eyeglasses, consistent with Medicaid routine vision coverage inducing additional eyeglasses purchases among Medicare Advantage enrollees with supplemental vision benefits, although estimates are modest.",
+        "abstract_cn": "Vision problems are prevalent among Medicare beneficiaries, with the majority having treatable conditions including uncorrected refractive error and cataracts. However, traditional Medicare does not cover routine eye exams or eyeglasses, and Medicare Advantage supplemental vision benefits often include low annual limits. We examine the effects of Medicaid routine vision benefits among adults dually eligible for Medicare and Medicaid, a population with high rates of vision impairment, morbidity, and disability. Using 2002-2019 Medicare Current Beneficiary Survey data and a difference-in-differences design, we estimate that Medicaid routine vision benefits increase past-year eye exams, eyeglasses purchases, and Medicaid spending on eyeglasses while reducing out-of-pocket spending. We also find suggestive evidence of spillovers to Medicare Advantage spending on eyeglasses, consistent with Medicaid routine vision coverage inducing additional eyeglasses purchases among Medicare Advantage enrollees with supplemental vision benefits, although estimates are modest.",
+        "url": "https://www.nber.org/papers/w35384",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35387",
+        "title": "GLP-1–Induced Weight Loss and the Female Obesity Penalty",
+        "title_cn": "GLP-1–Induced Weight Loss and the Female Obesity Penalty",
+        "authors": [
+          "Rebecca Diamond"
+        ],
+        "abstract": "GLP-1 medications generate large weight loss and may also alter social and economic outcomes. Using the Understanding America Study, I compare women starting GLP-1s for weight loss with matched women who would like to start a GLP-1 but have not. Single women’s marriage/cohabitation rates rise by 29 percentage points and employment among baseline non-employed women rises 27 percentage points after six or more quarters. Existing partnerships do not dissolve, and already-employed women show no upward job mobility. The pattern suggests that part of the female obesity penalty operates at new-match formation rather than only through health or incumbent productivity.",
+        "abstract_cn": "GLP-1 medications generate large weight loss and may also alter social and economic outcomes. Using the Understanding America Study, I compare women starting GLP-1s for weight loss with matched women who would like to start a GLP-1 but have not. Single women’s marriage/cohabitation rates rise by 29 percentage points and employment among baseline non-employed women rises 27 percentage points after six or more quarters. Existing partnerships do not dissolve, and already-employed women show no upward job mobility. The pattern suggests that part of the female obesity penalty operates at new-match formation rather than only through health or incumbent productivity.",
+        "url": "https://www.nber.org/papers/w35387",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35389",
+        "title": "International Risk-Sharing in a Fragmented World",
+        "title_cn": "International Risk-Sharing in a Fragmented World",
+        "authors": [
+          "Javier Bianchi",
+          "Sebastian Horn",
+          "Giovanni Rosso",
+          "César Sosa-Padilla"
+        ],
+        "abstract": "This paper studies how geopolitical risk shapes financial fragmentation and international risk-sharing, using bilateral official lending data from 1910 to 2024. We document that when geopolitical risk is high, bilateral lending increasingly follows geopolitical alignment. Because geopolitically aligned countries experience more synchronized shocks, this fragmentation limits the effectiveness of international risk-sharing. To rationalize these patterns, we introduce geopolitical considerations into a limited-commitment model of sovereign borrowing. The model shows that, even with non-discriminatory default, higher geopolitical tensions redirect international lending toward allied countries and weaken risk-sharing.",
+        "abstract_cn": "This paper studies how geopolitical risk shapes financial fragmentation and international risk-sharing, using bilateral official lending data from 1910 to 2024. We document that when geopolitical risk is high, bilateral lending increasingly follows geopolitical alignment. Because geopolitically aligned countries experience more synchronized shocks, this fragmentation limits the effectiveness of international risk-sharing. To rationalize these patterns, we introduce geopolitical considerations into a limited-commitment model of sovereign borrowing. The model shows that, even with non-discriminatory default, higher geopolitical tensions redirect international lending toward allied countries and weaken risk-sharing.",
+        "url": "https://www.nber.org/papers/w35389",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35385",
+        "title": "The Fragility of Semi-Liquid Private Credit Funds",
+        "title_cn": "The Fragility of Semi-Liquid Private Credit Funds",
+        "authors": [
+          "Chuck Fang",
+          "Itay Goldstein",
+          "Yao Zeng"
+        ],
+        "abstract": "We study fragility in semi-liquid private credit funds, which have expanded rapidly and now manage over $300 billion in assets. These funds perform liquidity transformation by holding far more illiquid loans than traditional loan mutual funds while allowing investors to redeem at NAV through quarterly repurchase offers, typically capped at 5% of shares outstanding. We show that cash buffers and contractual loan repayments are insufficient to fund repeated 5% quarterly redemptions; inflows decline precisely when outflows rise; and net outflows are met with sales of illiquid loans, external borrowing, and delayed payments through repurchases payable. As a result, strategic complementarity arises, because redemptions impose liquidation and leverage costs on the remaining investors. We show that loan liquidation, leverage increase, and NAV inflation play an important role in amplifying the current episodes of run-like redemptions. Overall, our evidence suggests that quarterly gates and redemption caps do not eliminate run-like fragility in semi-liquid private credit funds, raising cautions about expanding retail access to private credit markets.",
+        "abstract_cn": "We study fragility in semi-liquid private credit funds, which have expanded rapidly and now manage over $300 billion in assets. These funds perform liquidity transformation by holding far more illiquid loans than traditional loan mutual funds while allowing investors to redeem at NAV through quarterly repurchase offers, typically capped at 5% of shares outstanding. We show that cash buffers and contractual loan repayments are insufficient to fund repeated 5% quarterly redemptions; inflows decline precisely when outflows rise; and net outflows are met with sales of illiquid loans, external borrowing, and delayed payments through repurchases payable. As a result, strategic complementarity arises, because redemptions impose liquidation and leverage costs on the remaining investors. We show that loan liquidation, leverage increase, and NAV inflation play an important role in amplifying the current episodes of run-like redemptions. Overall, our evidence suggests that quarterly gates and redemption caps do not eliminate run-like fragility in semi-liquid private credit funds, raising cautions about expanding retail access to private credit markets.",
+        "url": "https://www.nber.org/papers/w35385",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35386",
+        "title": "Openness, Integration, and the International Monetary Order",
+        "title_cn": "Openness, Integration, and the International Monetary Order",
+        "authors": [
+          "Tarek Alexander Hassan",
+          "Thomas M. Mertens",
+          "Jingye Wang",
+          "Tony Zhang"
+        ],
+        "abstract": "This paper develops a calibrated general-equilibrium model to study how different configurations of trade and financial policy reshape the hierarchy of global currencies—and the U.S. dollar's position at its anchor. Currency safety and anchor status arise endogenously from each economy's 'effective size'—the weight its domestic shocks carry in setting world prices. Tariffs reduce this effective size on the goods side; capital controls do the same on the financial side. A unifying result emerges: The economy that maintains the deepest integration with the global trading network retains the largest safety premium and gains anchor status. We use this framework to evaluate the effects of three policy levers for Europe that affect the effective size of the euro: internal harmonization and enlargement, trade openness, and capital-account openness. The stakes are large: In our model, shifts in currencies' safety can redirect global capital flows and alter sovereign borrowing costs by hundreds of billions of dollars annually.",
+        "abstract_cn": "This paper develops a calibrated general-equilibrium model to study how different configurations of trade and financial policy reshape the hierarchy of global currencies—and the U.S. dollar's position at its anchor. Currency safety and anchor status arise endogenously from each economy's 'effective size'—the weight its domestic shocks carry in setting world prices. Tariffs reduce this effective size on the goods side; capital controls do the same on the financial side. A unifying result emerges: The economy that maintains the deepest integration with the global trading network retains the largest safety premium and gains anchor status. We use this framework to evaluate the effects of three policy levers for Europe that affect the effective size of the euro: internal harmonization and enlargement, trade openness, and capital-account openness. The stakes are large: In our model, shifts in currencies' safety can redirect global capital flows and alter sovereign borrowing costs by hundreds of billions of dollars annually.",
+        "url": "https://www.nber.org/papers/w35386",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35388",
+        "title": "Fragmentation of Shareholder Power",
+        "title_cn": "Fragmentation of Shareholder Power",
+        "authors": [
+          "Andrey Malenko",
+          "Nadya Malenko",
+          "Anton Tsoy"
+        ],
+        "abstract": "The asset management industry is increasingly shifting toward tailored portfolios, fund proliferation, and decentralization of stewardship—trends partly driven by growing heterogeneity in investor preferences. While these developments better align investment products with investor demands, they also reshape ownership structures, potentially leading to more fragmented ownership and weaker managerial oversight. We develop a framework to evaluate these trade-offs and show that fund proliferation does not necessarily weaken governance: Stronger incentives for asset managers and concentrated portfolios of specialized funds can offset these effects, especially when investor preferences are intense. However, strong investor preferences can also induce asset managers to compete on a new margin—granting investors control by decentralizing stewardship and adopting pass-through voting—without internalizing the associated governance costs.",
+        "abstract_cn": "The asset management industry is increasingly shifting toward tailored portfolios, fund proliferation, and decentralization of stewardship—trends partly driven by growing heterogeneity in investor preferences. While these developments better align investment products with investor demands, they also reshape ownership structures, potentially leading to more fragmented ownership and weaker managerial oversight. We develop a framework to evaluate these trade-offs and show that fund proliferation does not necessarily weaken governance: Stronger incentives for asset managers and concentrated portfolios of specialized funds can offset these effects, especially when investor preferences are intense. However, strong investor preferences can also induce asset managers to compete on a new margin—granting investors control by decentralizing stewardship and adopting pass-through voting—without internalizing the associated governance costs.",
+        "url": "https://www.nber.org/papers/w35388",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35390",
+        "title": "Pricing and Production Without the Invisible Hand",
+        "title_cn": "Pricing and Production Without the Invisible Hand",
+        "authors": [
+          "Joel P. Flynn",
+          "George Nikolakoudis",
+          "Karthik Sastry"
+        ],
+        "abstract": "Modern theories of the business cycle do not allow for the simultaneous rational choice of both prices and quantities, instead assuming that an “invisible hand” determines one of these variables to clear markets. In this paper, we develop a macroeconomic model in which both prices and quantities are chosen optimally by firms and exchange is both voluntary and efficient. As a consequence, individual markets will generically be in Walrasian disequilibrium: either slack (over-supplied) or rationed (under-supplied). The absence of market clearing changes pricing and production in qualitatively important ways: markups are governed by the probability of rationing rather than the elasticity of demand, and higher uncertainty reduces production and increases markups. Marrying the Old and New Keynesian traditions, we study general Walrasian disequilibrium with rational expectations and optimal firm decisions. On a technical level, we characterize cross-market spillovers arising from rationed demand with differentiated goods, overcoming the standard combinatorial problem that arises when studying multi-market disequilibrium. Unlike in New Keynesian economies, monetary shocks propagate by reducing product-market slack, raising aggregate labor productivity and consumption with muted effects on employment, while uncertainty shocks act as stagflationary cost-push shocks.",
+        "abstract_cn": "Modern theories of the business cycle do not allow for the simultaneous rational choice of both prices and quantities, instead assuming that an “invisible hand” determines one of these variables to clear markets. In this paper, we develop a macroeconomic model in which both prices and quantities are chosen optimally by firms and exchange is both voluntary and efficient. As a consequence, individual markets will generically be in Walrasian disequilibrium: either slack (over-supplied) or rationed (under-supplied). The absence of market clearing changes pricing and production in qualitatively important ways: markups are governed by the probability of rationing rather than the elasticity of demand, and higher uncertainty reduces production and increases markups. Marrying the Old and New Keynesian traditions, we study general Walrasian disequilibrium with rational expectations and optimal firm decisions. On a technical level, we characterize cross-market spillovers arising from rationed demand with differentiated goods, overcoming the standard combinatorial problem that arises when studying multi-market disequilibrium. Unlike in New Keynesian economies, monetary shocks propagate by reducing product-market slack, raising aggregate labor productivity and consumption with muted effects on employment, while uncertainty shocks act as stagflationary cost-push shocks.",
+        "url": "https://www.nber.org/papers/w35390",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35392",
+        "title": "Immigration, Innovation, and the Geography of Growth",
+        "title_cn": "Immigration, Innovation, and the Geography of Growth",
+        "authors": [
+          "Costas Arkolakis",
+          "Sun Kyoung Lee",
+          "Michael Peters"
+        ],
+        "abstract": "Between 1880 and 1920, more than 20 million immigrants settled in the United States. We study how this migration wave affected innovation and growth. Using a newly constructed dataset linking individual census records to historical immigration records and the universe of US patents, we highlight a new channel through which immigrants contributed to growth: they disproportionately settled in urban innovation hubs. To quantify the aggregate and regional effects of this mass migration episode, we develop a new spatial growth model in which skilled workers have a comparative advantage in innovation and sort endogenously across space. We find that international arrivals after 1880 raised US income per capita by 8.2% by 1940. Removing the subsequent immigration restrictions of the 1920s would have raised income per capita by a further 1.7% by 2000. Immigrants' skill composition and their concentration in urban hubs are key drivers of these effects.",
+        "abstract_cn": "Between 1880 and 1920, more than 20 million immigrants settled in the United States. We study how this migration wave affected innovation and growth. Using a newly constructed dataset linking individual census records to historical immigration records and the universe of US patents, we highlight a new channel through which immigrants contributed to growth: they disproportionately settled in urban innovation hubs. To quantify the aggregate and regional effects of this mass migration episode, we develop a new spatial growth model in which skilled workers have a comparative advantage in innovation and sort endogenously across space. We find that international arrivals after 1880 raised US income per capita by 8.2% by 1940. Removing the subsequent immigration restrictions of the 1920s would have raised income per capita by a further 1.7% by 2000. Immigrants' skill composition and their concentration in urban hubs are key drivers of these effects.",
+        "url": "https://www.nber.org/papers/w35392",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35393",
+        "title": "Wealth Inequality and Safe Asset Demand",
+        "title_cn": "Wealth Inequality and Safe Asset Demand",
+        "authors": [
+          "Xuning Ding",
+          "Zhengyang Jiang"
+        ],
+        "abstract": "We study how wealth inequality shapes safe-asset demand in heterogeneous-agent economies. Asset bubbles arise when agents face sufficiently high probabilities of falling into extreme poverty. In such cases, assets insulated from idiosyncratic risk become infinitely large relative to agents' wealth ex-post, which makes them infinitely valuable ex-ante. This mechanism is fundamentally different from classic rational bubbles, generates bubbles even under stationary wealth distributions, and requires no aggregate uncertainty or growth. Using this insight, we revisit the pricing of aggregate assets in standard heterogeneous-agent economies, and show that prior analyses may be incomplete due to overlooked possibility of transversality condition violation.",
+        "abstract_cn": "We study how wealth inequality shapes safe-asset demand in heterogeneous-agent economies. Asset bubbles arise when agents face sufficiently high probabilities of falling into extreme poverty. In such cases, assets insulated from idiosyncratic risk become infinitely large relative to agents' wealth ex-post, which makes them infinitely valuable ex-ante. This mechanism is fundamentally different from classic rational bubbles, generates bubbles even under stationary wealth distributions, and requires no aggregate uncertainty or growth. Using this insight, we revisit the pricing of aggregate assets in standard heterogeneous-agent economies, and show that prior analyses may be incomplete due to overlooked possibility of transversality condition violation.",
+        "url": "https://www.nber.org/papers/w35393",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      },
+      {
+        "id": "w35394",
+        "title": "Safer Driving for a Price: Evidence on Behavior and Habits in Kenyan Minibuses",
+        "title_cn": "Safer Driving for a Price: Evidence on Behavior and Habits in Kenyan Minibuses",
+        "authors": [
+          "David Schönholzer",
+          "Gregory Lane",
+          "Erin M. Kelley"
+        ],
+        "abstract": "Road traffic injuries are the leading cause of death among people aged 5–29. Where traffic laws are weakly enforced, it is unclear whether road safety interventions can change behavior. We run a randomized controlled trial among 203 Kenyan minibuses, testing whether an incentive scheme improves safety overall or merely shifts unsafe driving to unmonitored times. Drivers reduce speeding by 29 percent and harsh braking by 13 percent, improving a safety index by 0.096 standard deviations. Labor-supply and earnings effects are modest, with little displacement across times or places. Improvements fade quickly, suggesting lasting change requires sustained enforcement or stronger incentives.",
+        "abstract_cn": "Road traffic injuries are the leading cause of death among people aged 5–29. Where traffic laws are weakly enforced, it is unclear whether road safety interventions can change behavior. We run a randomized controlled trial among 203 Kenyan minibuses, testing whether an incentive scheme improves safety overall or merely shifts unsafe driving to unmonitored times. Drivers reduce speeding by 29 percent and harsh braking by 13 percent, improving a safety index by 0.096 standard deviations. Labor-supply and earnings effects are modest, with little displacement across times or places. Improvements fade quickly, suggesting lasting change requires sustained enforcement or stronger incentives.",
+        "url": "https://www.nber.org/papers/w35394",
+        "public_date": "2026-06-29",
+        "translation_status": {
+          "title": "skipped_no_api_key",
+          "abstract": "skipped_no_api_key"
+        },
+        "translation_error": {
+          "title": "KIMI_API_KEY is not set.",
+          "abstract": "KIMI_API_KEY is not set."
+        },
+        "fetched_at": "2026-07-07T04:43:29Z"
+      }
+    ]
+  }
+]

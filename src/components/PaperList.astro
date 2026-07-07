@@ -1,0 +1,59 @@
+---
+import PaperCard from "./PaperCard.astro";
+
+interface Props {
+  papers: any[];
+}
+
+const { papers } = Astro.props;
+---
+
+<section class="papers-section" aria-labelledby="papers-heading">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Latest batch</p>
+      <h2 id="papers-heading">论文列表</h2>
+    </div>
+    {papers.length > 0 && <span id="paper-count" class="paper-count">{papers.length} 篇论文</span>}
+  </div>
+
+  {papers.length > 0 ? (
+    <>
+      <div class="search-row">
+        <label class="search-label" for="paper-search">检索</label>
+        <input id="paper-search" type="search" autocomplete="off" placeholder="标题、作者或摘要关键词" />
+      </div>
+      <div class="paper-list">
+        {papers.map((paper, index) => <PaperCard paper={paper} index={index + 1} />)}
+      </div>
+    </>
+  ) : (
+    <div class="empty-state">
+      <h2>暂无论文数据</h2>
+      <p>运行更新脚本后，最新批次会显示在这里。</p>
+    </div>
+  )}
+</section>
+
+<script>
+  const searchInput = document.querySelector<HTMLInputElement>("#paper-search");
+  const countEl = document.querySelector<HTMLElement>("#paper-count");
+  const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-paper-card]"));
+
+  const updateSearch = () => {
+    if (!searchInput || !countEl) return;
+    const query = searchInput.value.trim().toLocaleLowerCase();
+    let visible = 0;
+
+    for (const card of cards) {
+      const haystack = card.dataset.search || "";
+      const matched = !query || haystack.includes(query);
+      card.hidden = !matched;
+      if (matched) visible += 1;
+    }
+
+    countEl.textContent = query ? `${visible} / ${cards.length} 篇论文` : `${cards.length} 篇论文`;
+  };
+
+  searchInput?.addEventListener("input", updateSearch);
+</script>
