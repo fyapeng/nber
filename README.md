@@ -62,9 +62,9 @@ conda run -n codex python scripts/update_papers.py --dry-run
 真实密钥放在本地 `.env`，不要提交。仓库提供了 `.env.example` 作为模板。
 
 ```env
-NBER_EMAIL_IMAP_HOST=imap.qiye.aliyun.com
+NBER_EMAIL_IMAP_HOST=你的 IMAP 服务器地址
 NBER_EMAIL_IMAP_PORT=993
-NBER_EMAIL_IMAP_USER=nber@fyapeng.com
+NBER_EMAIL_IMAP_USER=your-email@example.com
 NBER_EMAIL_IMAP_PASSWORD=你的三方客户端安全密码
 NBER_EMAIL_IMAP_MAILBOX=INBOX
 NBER_EMAIL_IMAP_LOOKBACK=100
@@ -180,15 +180,15 @@ NBER_EMAIL_IMAP_USER
 NBER_EMAIL_IMAP_PASSWORD
 ```
 
-当前邮箱配置应为：
+示例配置：
 
 ```text
-NBER_EMAIL_IMAP_HOST = imap.qiye.aliyun.com
+NBER_EMAIL_IMAP_HOST = 你的 IMAP 服务器地址
 NBER_EMAIL_IMAP_PORT = 993
-NBER_EMAIL_IMAP_USER = nber@fyapeng.com
+NBER_EMAIL_IMAP_USER = your-email@example.com
 ```
 
-`NBER_EMAIL_IMAP_PASSWORD` 使用阿里邮箱生成的三方客户端安全密码，不要使用明文写入仓库。
+如果使用阿里企业邮箱，`NBER_EMAIL_IMAP_HOST` 通常是 `imap.qiye.aliyun.com`。`NBER_EMAIL_IMAP_PASSWORD` 使用邮箱服务商生成的三方客户端安全密码，不要使用明文写入仓库。
 
 ## 数据文件
 
@@ -205,7 +205,7 @@ NBER_EMAIL_IMAP_USER = nber@fyapeng.com
 
 - 确认阿里邮箱后台已允许该账号使用三方客户端。
 - 确认使用的是客户端安全密码，而不是网页登录密码。
-- 确认 host 是 `imap.qiye.aliyun.com`，端口是 `993`。
+- 确认 host 和端口与邮箱服务商的 IMAP SSL 设置一致；阿里企业邮箱通常使用 `imap.qiye.aliyun.com` 和 `993`。
 - 本地先运行 `python scripts/update_papers.py --test-email-login`。
 
 如果邮箱里没有解析出论文：
