@@ -85,7 +85,7 @@ ABSTRACT_SELECTORS = (
 MAX_TRANSLATION_WORKERS = 2
 TRANSLATION_ATTEMPTS = 3
 BACKOFF_SECONDS = (2, 5, 10)
-TRANSLATION_PROMPT_VERSION = "econ-zh-v3"
+TRANSLATION_PROMPT_VERSION = "econ-zh-v4"
 ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Working Papers 的中文翻译助手。
 请使用中国大陆经济学学术写作中常见、准确、克制的译法。只输出译文，不要添加解释、标题、引号或项目符号。
 
@@ -1124,9 +1124,28 @@ class TranslationService:
         key = make_cache_key(paper_id, field, source_text)
         cached = cache.get(key)
         if isinstance(cached, dict) and cached.get("translation"):
-            return TranslationResult(str(cached["translation"]), "success", None, key)
+            cached_text = str(cached["translation"])
+            translated = apply_translation_rules(source_text, cached_text)
+            cache_entry = None
+            if translated != cached_text:
+                cache_entry = {
+                    **cached,
+                    "translation": translated,
+                    "prompt_version": TRANSLATION_PROMPT_VERSION,
+                    "updated_at": utc_now_iso(),
+                }
+            return TranslationResult(translated, "success", None, key, cache_entry)
         if isinstance(cached, str) and cached:
-            return TranslationResult(cached, "success", None, key)
+            translated = apply_translation_rules(source_text, cached)
+            cache_entry = None
+            if translated != cached:
+                cache_entry = {
+                    "translation": translated,
+                    "model": "normalized-from-cache",
+                    "prompt_version": TRANSLATION_PROMPT_VERSION,
+                    "updated_at": utc_now_iso(),
+                }
+            return TranslationResult(translated, "success", None, key, cache_entry)
 
         if self.dry_run:
             return TranslationResult(source_text, "skipped_dry_run", None, key)
