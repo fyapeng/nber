@@ -9,7 +9,7 @@
 - 展示最新一期 NBER Working Papers。
 - 保留英文标题、英文摘要、作者、发布日期和 NBER 原文链接。
 - 使用 Kimi API 翻译标题和摘要。
-- 维护最近批次数据：`papers.json`、`update-meta.json`、`archive.json` 和 `translation-cache.json`。
+- 维护最近批次数据：`papers.json`、`update-meta.json`、`archive.json`、`translation-cache.json` 和 `translation-audit.md`。
 - 优先从邮箱 IMAP 读取 NBER 邮件中的论文链接。
 - 如果邮箱源不可用，会自动回退到 NBER Working Papers API。
 - GitHub Actions 每周一北京时间 13:00 和 18:00 自动运行更新。
@@ -107,6 +107,18 @@ python scripts/update_papers.py
 python scripts/update_papers.py --require-api-key
 ```
 
+只审计当前译文，不抓取论文、不调用 Kimi：
+
+```powershell
+python scripts/update_papers.py --audit-translations
+```
+
+审计报告默认写入 `src/data/translation-audit.md`。如果只想在终端查看：
+
+```powershell
+python scripts/update_papers.py --audit-translations --audit-output -
+```
+
 ## 邮箱源
 
 默认 `NBER_SOURCE=auto`，流程是：
@@ -155,10 +167,12 @@ GitHub cron 使用 UTC，因此配置为：
 
 1. 安装 Python 依赖。
 2. 运行 `python scripts/update_papers.py --require-api-key`。
-3. 如果 `src/data` 有变化，自动提交数据文件。
-4. 安装 Node 依赖。
-5. 构建 Astro 站点。
-6. 部署到 GitHub Pages。
+3. 生成 `src/data/translation-audit.md` 翻译审计报告。
+4. 如果 `src/data` 有变化，自动提交数据文件和审计报告。
+5. 上传 `translation-audit` artifact，方便在 Actions 页面下载。
+6. 安装 Node 依赖。
+7. 构建 Astro 站点。
+8. 部署到 GitHub Pages。
 
 普通 push 到 `main` 会触发 `.github/workflows/deploy.yml`，只构建并部署当前数据。
 
@@ -198,6 +212,7 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 - `update-meta.json`：最近一次更新时间、来源、批次日期和备注。
 - `archive.json`：历史批次归档。
 - `translation-cache.json`：翻译缓存，避免重复调用 Kimi。
+- `translation-audit.md`：自动生成的翻译审计报告，列出疑似错译、术语表未命中项和需要人工复核的英文片段。
 
 ## 常见排错
 
@@ -221,17 +236,27 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 
 ## 翻译质量
 
-翻译提示词内置了经济学术语约束，尽量使用中文经济学文献中的通行译法。本期 34 篇已纳入的约束包括：
+翻译质量采用“术语表 + 确定性后处理 + 审计报告”的长期维护方式。
 
-- 宏观与国际：`Ricardian equivalence` -> “李嘉图等价”；`Importing Aggregate Demand` -> “输入总需求”；`state-dependent pricing` -> “状态依赖定价”；`quantitative easing` -> “量化宽松”；`pass-through` -> “传导”。
-- 公共经济学：`benefit-based taxation` -> “基于受益原则的税收”；`benefit principle` -> “受益原则”；`fiscal spillover` -> “财政外溢”；`actuarially fair` -> “精算公平”；`moral hazard` -> “道德风险”。
-- 劳动与教育：`labor market` -> “劳动力市场”；`resume audit study` -> “简历审计研究”；`early childhood education` -> “幼儿教育”；`occupational licensing` -> “职业许可”。
-- 金融与资产定价：`Digital Safe Havens` -> “数字避风港”；`tokenized Treasuries` -> “代币化国债”；`total value locked` -> “总锁仓价值（TVL）”；`convenience yield` -> “便利收益率”；`QSBS Program` -> “合格小企业股票（QSBS）计划”；`term premia` -> “期限溢价”。
-- 健康、城市与环境：`congestion pricing` -> “拥堵收费”；`EMS response time` -> “急救服务响应时间”；`hospital congestion` -> “医院拥挤/容量压力”；`travel time` 改善译为“时间缩短/减少”；`morbidity valuation` -> “患病损失估值/疾病负担估值”；`dose-response relationship` -> “剂量-反应关系”。
-- 社会与人口：`missing markets for opportunity` -> “机会市场缺失”；`baby busts` -> “生育低潮”；`Imperial China` -> “帝制中国”；`health-status gradient` -> “健康-社会地位梯度”；`through 2025` -> “截至 2025 年”。
-- 方法与表述：`difference-in-differences` -> “双重差分”；`difference-in-discontinuities` -> “差异中的不连续设计”；`cross-sectional IV` -> “横截面工具变量”；`meta-analysis` -> “元分析”；`evidence aggregation` -> “证据整合”；`proxy` -> “代理变量/替代变量”。
+核心文件是 `scripts/translation_glossary.json`：
 
-脚本也会对少量高频错译做确定性修正。翻译缓存 key 包含提示词版本；如果术语表或提示词升级，下一次更新会重新翻译，而不是继续复用旧缓存。
+- `prompt_terms`：写入 Kimi system prompt，要求模型优先使用这些经济学译法。
+- `replacement_rules`：已知高频错译的确定性修正规则；缓存命中时也会执行。
+- `global_cleanup`：清理重复词、叠词等机械错误。
+- `audit.suspect_translations`：审计报告中高亮的疑似错译。
+- `audit.source_terms`：当英文原文出现某个术语、中文译文没有出现推荐译法时，列入人工复核。
+- `audit.allowed_english_terms`：允许保留的英文缩写或专名。
+
+维护流程：
+
+1. 每周自动更新论文和译文。
+2. 脚本生成 `src/data/translation-audit.md`。
+3. 人工优先检查审计报告里的 `High-Priority Suspect Terms` 和 `Preferred-Term Misses`。
+4. 如果发现通用错译，把术语加入 `scripts/translation_glossary.json`。
+5. 如果只是需要关注但不能确定替换，先加入 `audit` 区域，不直接改译文。
+6. 修改术语表后，脚本会根据术语表内容生成新的 `translation_prompt_version` 指纹，下一次更新会重新翻译或规范化缓存译文。
+
+代表性约束包括：`benefit-based taxation` -> “基于受益原则的税收”、`labor market` -> “劳动力市场”、`Digital Safe Havens` -> “数字避风港”、`Quantitative Easing` -> “量化宽松”、`QSBS Program` -> “合格小企业股票（QSBS）计划”。完整约束以 `scripts/translation_glossary.json` 为准。
 
 ## 免责声明
 

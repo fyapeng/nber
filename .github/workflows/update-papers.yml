@@ -54,9 +54,16 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/papers.json src/data/update-meta.json src/data/archive.json src/data/translation-cache.json
+          git add src/data/papers.json src/data/update-meta.json src/data/archive.json src/data/translation-cache.json src/data/translation-audit.md
           git commit -m "data: update weekly NBER papers"
           git push
+
+      - name: Upload translation audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-audit
+          path: src/data/translation-audit.md
+          if-no-files-found: warn
 
       - name: Set up Node
         uses: actions/setup-node@v4

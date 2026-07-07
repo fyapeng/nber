@@ -33,6 +33,8 @@ PAPERS_PATH = DATA_DIR / "papers.json"
 ARCHIVE_PATH = DATA_DIR / "archive.json"
 META_PATH = DATA_DIR / "update-meta.json"
 CACHE_PATH = DATA_DIR / "translation-cache.json"
+AUDIT_PATH = DATA_DIR / "translation-audit.md"
+GLOSSARY_PATH = ROOT / "scripts" / "translation_glossary.json"
 ENV_PATH = ROOT / ".env"
 
 NBER_API_URL = "https://www.nber.org/api/v1/working_page_listing/contentType/working_paper/_/_/search"
@@ -85,90 +87,66 @@ ABSTRACT_SELECTORS = (
 MAX_TRANSLATION_WORKERS = 2
 TRANSLATION_ATTEMPTS = 3
 BACKOFF_SECONDS = (2, 5, 10)
-TRANSLATION_PROMPT_VERSION = "econ-zh-v4"
-ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Working Papers 的中文翻译助手。
-请使用中国大陆经济学学术写作中常见、准确、克制的译法。只输出译文，不要添加解释、标题、引号或项目符号。
 
-翻译原则：
-1. 优先准确传达经济学含义，不做软件、日常口语或新闻化误译。
-2. 论文标题译成简洁的学术标题；摘要译成自然的中文学术段落。
-3. 保留作者名、模型名、数据集名、缩写和必要专有名词。
-4. 不确定的专有概念宁可保留英文括注，也不要生造术语。
-5. 同一段内术语保持一致。
 
-术语约束：
-- benefit-based taxation -> 基于受益原则的税收；不要译为“基于福利的税收”。
-- benefit principle -> 受益原则；welfare 才译为“福利”。
-- labor market -> 劳动力市场；不要译为“劳动市场”。
-- resume audit study / audit study -> 简历审计研究或审计研究；不要译为“简历审核研究”。
-- early childhood education -> 幼儿教育；不要译为“早期儿童教育”。
-- misspecified learning -> 错误设定学习。
-- marginal satisfaction from income -> 收入的边际满意度。
-- tractable model -> 易处理模型或可求解模型；不要译为“可处理模型”。
-- agents 在一般均衡或模型语境中 -> 经济主体；private agents -> 私人机构或私人经营者。
-- Ricardian equivalence -> 李嘉图等价；不要译为“里卡多等价”。
-- David Ricardo -> 大卫·李嘉图。
-- aggregate demand -> 总需求。
-- aggregate supply -> 总供给。
-- aggregate outcomes -> 总量结果；aggregate stabilization -> 总量稳定。
-- importing/import 在国际贸易、开放宏观或需求传导语境中译为“进口”或“输入”，不要译为“导入”。标题 Importing Aggregate Demand 译为“输入总需求”。
-- real exchange rate appreciation -> 实际汇率升值。
-- marginal propensity to consume -> 边际消费倾向。
-- financial market imperfections -> 金融市场不完全性。
-- incomplete markets -> 不完全市场。
-- state-dependent pricing -> 状态依赖定价。
-- strategic complementarities -> 策略互补性。
-- fiscal stimulus -> 财政刺激。
-- monetary easing -> 货币宽松。
-- monetary tightening -> 货币紧缩。
-- quantitative easing -> 量化宽松；不要笼统译为“货币宽松”。
-- contractionary policy -> 收缩性政策。
-- spending effect -> 支出效应。
-- quantity response -> 数量反应或数量调整。
-- price adjustment -> 价格调整。
-- flexible-price equilibrium -> 灵活价格均衡。
-- open economies -> 开放经济体。
-- global demand shocks -> 全球需求冲击。
-- idiosyncratic risk -> 个体特异性风险。
-- pass-through -> 传导；tariff pass-through -> 关税传导；exchange rate pass-through -> 汇率传导。
-- proxy / proxy variable -> 代理变量或替代变量；不要只译为“代理”。
-- producer currency pricing (PCP) -> 生产者货币定价；local/buyer currency pricing (LCP) -> 本地/买方货币定价；dominant currency pricing (DCP) -> 主导货币定价。
-- safe haven -> 避风港或避险资产；Digital Safe Havens -> 数字避风港。
-- yield-bearing dollar instruments -> 生息美元工具或计息美元工具。
-- total value locked -> 总锁仓价值（TVL）。
-- convenience yield -> 便利收益率。
-- basis-trade carry -> 基差交易套利收益。
-- congestion pricing 在交通政策语境中 -> 拥堵收费。
-- EMS / emergency medical services -> 急救服务或紧急医疗服务；EMS response time -> 急救服务响应时间。
-- travel speed -> 出行速度；travel time 改善应译为“时间缩短/减少”，不要译为“时间提高”。
-- cordon-based congestion pricing -> 区域收费式拥堵收费。
-- difference-in-discontinuities -> 差异中的不连续设计。
-- occupational licensing -> 职业许可；licensing prevalence -> 职业许可覆盖率；licensing wage premium -> 持证工资溢价。
-- inflation surprise -> 通胀意外冲击；inflation targeting -> 通胀目标制。
-- Medicaid enrollment -> Medicaid/医疗补助参保人数；continuous coverage requirement -> 连续覆盖要求；unwinding -> 解除或退出连续覆盖。
-- morbidity valuation -> 患病损失估值或疾病负担估值；cost-of-illness -> 疾病成本法；Quality-Adjusted Life Years -> 质量调整生命年；value of statistical life -> 统计生命价值。
-- certification markets with externalities -> 具有外部性的认证市场。
-- markets with externalities -> 具有外部性的市场。
-- smog and safety checks -> 尾气与安全检测。
-- misreporting -> 虚报或错报。
-- standardized tests -> 标准化考试；test-aware / test-blind models -> 纳入考试信息/不纳入考试信息的模型。
-- effect size -> 效应大小；selectivity bias -> 选择性偏差；meta-analysis -> 元分析；evidence aggregation -> 证据整合。
-- stepping-on-a-rake effect -> “踩耙子”效应；可以保留英文括注。
-- temporal variety -> 时间多样性；monetary equivalent -> 货币等价值。
-- missing markets for opportunity -> 机会市场缺失；place-based policies -> 基于地点的政策。
-- baby busts -> 生育低潮；completed cohort fertility -> 完成队列生育率；labor-saving -> 劳动节约型。
-- second-best -> 次优；ex ante -> 事前；ex post -> 事后；actuarially fair -> 精算公平；moral hazard -> 道德风险。
-- fiscal spillover -> 财政外溢；reclassification risk -> 重新分类风险。
-- dose-response relationship -> 剂量-反应关系；vital statistics -> 生命统计数据。
-- primary balance -> 基本财政余额；interest rate peg -> 利率钉住；default boundary -> 违约边界。
-- Qualified Small Business Stock -> 合格小企业股票；QSBS Program -> 合格小企业股票（QSBS）计划；bunching -> 扎堆或聚束；triple-differences -> 三重差分；holding-period requirement -> 持有期要求；co-invest -> 联合投资。
-- drug decriminalization -> 毒品非刑事化；overdose mortality -> 药物过量死亡；fentanyl-share control -> 芬太尼占比控制变量。
-- Imperial China -> 帝制中国；health-status gradient -> 健康-社会地位梯度。
-- patient selection -> 患者选择；capacity strain -> 容量压力；hospital congestion -> 医院拥挤或容量压力；distance instruments -> 距离工具变量。
-- difference-in-differences -> 双重差分；cross-sectional IV -> 横截面工具变量；price impact -> 价格影响；factor loadings -> 因子载荷；observables -> 可观测特征。
-- uncertain persistence -> 持续性不确定性；Forecasting with Uncertain Persistence -> 持续性不确定性下的预测；term premia -> 期限溢价；forward prices -> 远期价格。
-- through 2025 / through YEAR -> 截至 2025 年 / 截至某年；不要译为“之前”。
-"""
+def load_translation_glossary(path: Path = GLOSSARY_PATH) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as handle:
+        glossary = json.load(handle)
+    if not isinstance(glossary, dict):
+        raise RuntimeError(f"Translation glossary must be a JSON object: {path}")
+    return glossary
+
+
+def glossary_fingerprint(glossary: dict[str, Any]) -> str:
+    payload = json.dumps(
+        {
+            "version": glossary.get("version"),
+            "prompt_terms": glossary.get("prompt_terms"),
+            "replacement_rules": glossary.get("replacement_rules"),
+            "global_cleanup": glossary.get("global_cleanup"),
+        },
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:10]
+
+
+def build_translation_prompt(glossary: dict[str, Any]) -> str:
+    def glossary_text(value: Any) -> str:
+        return re.sub(r"\s+", " ", str(value or "")).strip()
+
+    lines = [
+        "你是给经济学研究者阅读 NBER Working Papers 的中文翻译助手。",
+        "请使用中国大陆经济学学术写作中常见、准确、克制的译法。只输出译文，不要添加解释、标题、引号或项目符号。",
+        "",
+        "翻译原则：",
+        "1. 优先准确传达经济学含义，不做软件、日常口语或新闻化误译。",
+        "2. 论文标题译成简洁的学术标题；摘要译成自然的中文学术段落。",
+        "3. 保留作者名、模型名、数据集名、缩写和必要专有名词。",
+        "4. 不确定的专有概念宁可保留英文括注，也不要生造术语。",
+        "5. 同一段内术语保持一致。",
+        "",
+        "术语约束：",
+    ]
+    for term in glossary.get("prompt_terms", []):
+        if not isinstance(term, dict):
+            continue
+        source = glossary_text(term.get("source"))
+        target = glossary_text(term.get("target"))
+        note = glossary_text(term.get("note"))
+        if not source or not target:
+            continue
+        line = f"- {source} -> {target}"
+        if note:
+            line = f"{line}；{note}"
+        lines.append(line)
+    return "\n".join(lines)
+
+
+TRANSLATION_GLOSSARY = load_translation_glossary()
+TRANSLATION_PROMPT_VERSION = f"{TRANSLATION_GLOSSARY.get('version', 'econ-zh')}-{glossary_fingerprint(TRANSLATION_GLOSSARY)}"
+ECON_TRANSLATION_SYSTEM_PROMPT = build_translation_prompt(TRANSLATION_GLOSSARY)
 IMAP_ENV_VARS = (
     "NBER_EMAIL_IMAP_HOST",
     "NBER_EMAIL_IMAP_PORT",
@@ -952,140 +930,57 @@ def make_cache_key(paper_id: str, field: str, source_text: str) -> str:
 def apply_translation_rules(source_text: str, translated: str) -> str:
     text = translated.strip()
     source_lower = source_text.lower()
+    source_exact = source_text.strip().lower()
 
-    def replace_when(trigger: str, replacements: tuple[tuple[str, str], ...]) -> None:
-        nonlocal text
-        if trigger in source_lower:
-            for old, new in replacements:
+    def rule_matches(rule: dict[str, Any]) -> bool:
+        exact = str(rule.get("source_exact") or "").strip().lower()
+        if exact and exact != source_exact:
+            return False
+
+        contains = str(rule.get("source_contains") or "").strip().lower()
+        if contains and contains not in source_lower:
+            return False
+
+        contains_all = rule.get("source_contains_all") or []
+        if isinstance(contains_all, list):
+            for item in contains_all:
+                needle = str(item).strip().lower()
+                if needle and needle not in source_lower:
+                    return False
+
+        contains_any = rule.get("source_contains_any") or []
+        if isinstance(contains_any, list) and contains_any:
+            needles = [str(item).strip().lower() for item in contains_any if str(item).strip()]
+            if needles and not any(needle in source_lower for needle in needles):
+                return False
+
+        return bool(exact or contains or contains_all or contains_any)
+
+    for rule in TRANSLATION_GLOSSARY.get("replacement_rules", []):
+        if not isinstance(rule, dict) or not rule_matches(rule):
+            continue
+        override = rule.get("override")
+        if isinstance(override, str) and override.strip():
+            text = override.strip()
+            continue
+        replacements = rule.get("replacements") or []
+        if not isinstance(replacements, list):
+            continue
+        for replacement in replacements:
+            if not isinstance(replacement, dict):
+                continue
+            old = str(replacement.get("bad") or "")
+            new = str(replacement.get("good") or "")
+            if old:
                 text = text.replace(old, new)
 
-    replace_when(
-        "benefit-based",
-        (
-            ("基于福利的税收", "基于受益原则的税收"),
-            ("基于福利的劳动收入征税", "基于受益原则的劳动收入税"),
-            ("福利原则", "受益原则"),
-        ),
-    )
-    replace_when("labor market", (("劳动市场", "劳动力市场"),))
-    replace_when(
-        "resume audit",
-        (
-            ("简历审核研究", "简历审计研究"),
-            ("简历审核", "简历审计"),
-        ),
-    )
-    replace_when("early childhood education", (("早期儿童教育", "幼儿教育"),))
-    replace_when("misspecified learning", (("错误学习", "错误设定学习"),))
-    replace_when("marginal satisfaction from income", (("收入的边际满足感", "收入的边际满意度"), ("边际满足感", "边际满意度")))
-    replace_when("tractable", (("可处理的", "易处理的"), ("可处理模型", "可求解模型")))
-    replace_when("proxy", (("适当代理", "合适代理变量"), ("适当的代理", "合适的代理变量")))
-
-    if source_text.strip().lower() == "the pass-through of tariffs and exchange rates":
-        text = "关税与汇率传导"
-    else:
-        replace_when("pass-through", (("传递效应", "传导"),))
-
-    if "ricardian equivalence" in source_lower:
-        text = text.replace("里卡多等价定理", "李嘉图等价定理")
-        text = text.replace("里卡多等价", "李嘉图等价")
-
-    if source_text.strip().lower() == "importing aggregate demand":
-        text = "输入总需求"
-    elif "importing aggregate demand" in source_lower:
-        text = text.replace("导入总需求", "输入总需求")
-
-    if "spending effect" in source_lower:
-        text = text.replace("消费效应", "支出效应")
-
-    replace_when("aggregate outcome", (("总体和分配", "总量和分配"), ("总体结果", "总量结果")))
-    replace_when("aggregate stabilization", (("总体稳定", "总量稳定"),))
-
-    if "state-dependent pricing" in source_lower:
-        text = text.replace("依赖状态定价", "状态依赖定价")
-
-    if "financial market imperfections" in source_lower:
-        text = text.replace("全球金融市场的不完善", "全球金融市场不完全性")
-        text = text.replace("金融市场的不完善", "金融市场不完全性")
-
-    replace_when("agents", (("代理人", "经济主体"),))
-    replace_when(
-        "digital safe havens",
-        (
-            ("数字安全港", "数字避风港"),
-            ("数字安全避风港", "数字避风港"),
-        ),
-    )
-    replace_when(
-        "yield-bearing dollar instruments",
-        (
-            ("产生收益的美元工具", "生息美元工具"),
-            ("带来收益的美元工具", "生息美元工具"),
-        ),
-    )
-    replace_when("total value locked", (("总锁定价值", "总锁仓价值（TVL）"),))
-    replace_when("convenience yield", (("便利收益", "便利收益率"),))
-
-    replace_when("congestion pricing", (("拥堵定价", "拥堵收费"),))
-    replace_when("ems", (("急救响应时间", "急救服务响应时间"),))
-    replace_when("travel speeds", (("旅行速度", "出行速度"),))
-    replace_when(
-        "travel times",
-        (
-            ("将总EMS行程时间提高了", "将总EMS出行时间缩短了"),
-            ("将总EMS行程时间改善了", "将总EMS出行时间缩短了"),
-            ("行程时间提高", "出行时间缩短"),
-        ),
-    )
-    replace_when("smog and safety checks", (("烟雾和安全检查", "尾气与安全检测"), ("烟雾和安全检测", "尾气与安全检测")))
-    if source_text.strip().lower() == "competition and misconduct in certification markets with externalities":
-        text = "具有外部性的认证市场中的竞争与不当行为"
-    else:
-        replace_when("certification markets with externalities", (("认证市场中的竞争与外部性下的不当行为", "具有外部性的认证市场中的竞争与不当行为"),))
-    replace_when("with externalities", (("外部性下的", "具有外部性的"),))
-    replace_when("private agents", (("私人代理", "私人机构"), ("这些代理", "这些机构"), ("代理竞争", "机构竞争")))
-    replace_when("licensing prevalence", (("职业许可普及度", "职业许可覆盖率"),))
-    replace_when("licensing wage", (("许可工资溢价", "持证工资溢价"),))
-    replace_when(
-        "through 2025",
-        (
-            ("2025年之前", "截至2025年"),
-            ("2025 年之前", "截至 2025 年"),
-            ("2025年前", "截至2025年"),
-            ("2025 年前", "截至 2025 年"),
-        ),
-    )
-    replace_when("evidence aggregation", (("证据聚合", "证据整合"),))
-    replace_when("quantitative easing", (("货币宽松与政府债务可持续性", "量化宽松与政府债务可持续性"), ("货币宽松", "量化宽松")))
-    replace_when("primary balance", (("初等预算平衡", "基本财政余额"),))
-    replace_when("stepping-on-a-rake", (("踩踏效应", "“踩耙子”效应"),))
-    replace_when("missing markets for opportunity", (("机会缺失市场", "机会市场缺失"), ("机会市场的缺失", "机会市场缺失")))
-    replace_when("baby busts", (("婴儿荒潮", "生育低潮"), ("婴儿荒", "生育低潮")))
-    replace_when("labor-saving", (("节省劳动力的", "劳动节约型"),))
-    replace_when(
-        "qsbs",
-        (
-            ("来自QSBS计划", "来自合格小企业股票（QSBS）计划"),
-            ("QSBS计划", "合格小企业股票（QSBS）计划"),
-            ("来自合格小企业股票计划", "来自合格小企业股票（QSBS）计划"),
-            ("合格小企业股票计划", "合格小企业股票（QSBS）计划"),
-        ),
-    )
-    replace_when("drug decriminalization", (("药物非刑事化", "毒品非刑事化"), ("药物逮捕", "毒品逮捕")))
-    replace_when("overdose", (("过量用药事件", "药物过量事件"), ("过量死亡", "药物过量死亡")))
-    replace_when("imperial china", (("帝国中国", "帝制中国"),))
-    replace_when("health-status gradient", (("健康状况梯度", "健康-社会地位梯度"),))
-    if "hospital" in source_lower and "congestion" in source_lower:
-        text = text.replace("拥堵", "拥挤")
-    replace_when("capacity strain", (("容量紧张", "容量压力"),))
-    replace_when("distance instruments", (("距离工具控制", "距离工具变量控制"), ("距离工具", "距离工具变量")))
-    replace_when("difference-in-differences", (("差异中的差异", "双重差分"),))
-    replace_when("forecasting with uncertain persistence", (("带有不确定性持续性的预测", "持续性不确定性下的预测"),))
-    replace_when("long horizons", (("长期范围", "长预测期"),))
-
-    text = text.replace("便利收益率率", "便利收益率")
-    text = text.replace("药物药物过量死亡", "药物过量死亡")
-    text = text.replace("距离工具变量变量", "距离工具变量")
+    for replacement in TRANSLATION_GLOSSARY.get("global_cleanup", []):
+        if not isinstance(replacement, dict):
+            continue
+        old = str(replacement.get("bad") or "")
+        new = str(replacement.get("good") or "")
+        if old:
+            text = text.replace(old, new)
 
     return text
 
@@ -1248,6 +1143,201 @@ def translate_records(
     return cache_updates
 
 
+def table_cell(value: Any) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).replace("|", "\\|").strip()
+
+
+def clipped(value: str, needle: str = "", radius: int = 54) -> str:
+    text = re.sub(r"\s+", " ", value).strip()
+    if not needle:
+        return text[: radius * 2]
+    index = text.find(needle)
+    if index < 0:
+        return text[: radius * 2]
+    start = max(0, index - radius)
+    end = min(len(text), index + len(needle) + radius)
+    prefix = "..." if start else ""
+    suffix = "..." if end < len(text) else ""
+    return f"{prefix}{text[start:end]}{suffix}"
+
+
+def build_translation_audit_report(records: list[dict[str, Any]], glossary: dict[str, Any], generated_at: str) -> str:
+    audit_config = glossary.get("audit") if isinstance(glossary.get("audit"), dict) else {}
+    suspect_terms = audit_config.get("suspect_translations") if isinstance(audit_config, dict) else []
+    source_terms = audit_config.get("source_terms") if isinstance(audit_config, dict) else []
+    allowed_english_terms = {
+        str(term).lower()
+        for term in (audit_config.get("allowed_english_terms") if isinstance(audit_config, dict) else []) or []
+    }
+
+    suspect_hits: list[dict[str, str]] = []
+    for suspect in suspect_terms if isinstance(suspect_terms, list) else []:
+        if not isinstance(suspect, dict):
+            continue
+        bad = str(suspect.get("bad") or "")
+        if not bad:
+            continue
+        for record in records:
+            for field in ("title_cn", "abstract_cn"):
+                value = str(record.get(field) or "")
+                if bad in value:
+                    suspect_hits.append(
+                        {
+                            "id": str(record.get("id") or ""),
+                            "field": field,
+                            "bad": bad,
+                            "suggestion": str(suspect.get("suggestion") or ""),
+                            "reason": str(suspect.get("reason") or ""),
+                            "context": clipped(value, bad),
+                        }
+                    )
+
+    missing_preferred: list[dict[str, str]] = []
+    for source_term in source_terms if isinstance(source_terms, list) else []:
+        if not isinstance(source_term, dict):
+            continue
+        term = str(source_term.get("term") or "").strip()
+        preferred = str(source_term.get("preferred") or "").strip()
+        if not term or not preferred:
+            continue
+        term_lower = term.lower()
+        for record in records:
+            english = f"{record.get('title') or ''}\n{record.get('abstract') or ''}".lower()
+            chinese = f"{record.get('title_cn') or ''}\n{record.get('abstract_cn') or ''}"
+            if term_lower in english and preferred not in chinese:
+                missing_preferred.append(
+                    {
+                        "id": str(record.get("id") or ""),
+                        "term": term,
+                        "preferred": preferred,
+                        "title": str(record.get("title") or ""),
+                        "title_cn": str(record.get("title_cn") or ""),
+                    }
+                )
+
+    failed_fields: list[dict[str, str]] = []
+    for record in records:
+        statuses = record.get("translation_status") if isinstance(record.get("translation_status"), dict) else {}
+        errors = record.get("translation_error") if isinstance(record.get("translation_error"), dict) else {}
+        for field in ("title", "abstract"):
+            status = str(statuses.get(field) or "")
+            if status == "failed" or status.startswith("skipped"):
+                error_value = errors.get(field, "") if isinstance(errors, dict) else ""
+                failed_fields.append(
+                    {
+                        "id": str(record.get("id") or ""),
+                        "field": field,
+                        "status": status,
+                        "error": str(error_value or ""),
+                    }
+                )
+
+    english_fragment_hits: dict[str, set[str]] = {}
+    english_pattern = re.compile(r"\b[A-Za-z][A-Za-z0-9+.-]{2,}(?:\s+[A-Za-z][A-Za-z0-9+.-]{2,}){0,2}\b")
+    for record in records:
+        chinese = f"{record.get('title_cn') or ''}\n{record.get('abstract_cn') or ''}"
+        for fragment in english_pattern.findall(chinese):
+            normalized = re.sub(r"\s+", " ", fragment).strip()
+            if not normalized or normalized.lower() in allowed_english_terms:
+                continue
+            if normalized.islower() and len(normalized) <= 4:
+                continue
+            english_fragment_hits.setdefault(normalized, set()).add(str(record.get("id") or ""))
+
+    lines = [
+        "# Translation Audit",
+        "",
+        f"- Generated at: `{generated_at}`",
+        f"- Paper count: `{len(records)}`",
+        f"- Glossary version: `{TRANSLATION_PROMPT_VERSION}`",
+        f"- Suspect translation hits: `{len(suspect_hits)}`",
+        f"- Preferred-term misses: `{len(missing_preferred)}`",
+        f"- Failed or skipped fields: `{len(failed_fields)}`",
+        "",
+        "## Review Workflow",
+        "",
+        "1. 先看 `High-Priority Suspect Terms`，这些通常是已知错译再次出现。",
+        "2. 再看 `Preferred-Term Misses`，这里是英文原文命中了术语表，但中文译文没有出现推荐译法，可能有误报。",
+        "3. 最后扫 `English Fragments`，确认保留英文是否合理；合理的缩写可以加入 `allowed_english_terms`。",
+        "4. 只有通用问题才写入 `scripts/translation_glossary.json`，不要为单篇做过拟合规则。",
+        "",
+        "## High-Priority Suspect Terms",
+        "",
+    ]
+
+    if suspect_hits:
+        lines.extend(["| Paper | Field | Found | Suggestion | Reason | Context |", "| --- | --- | --- | --- | --- | --- |"])
+        for hit in suspect_hits[:80]:
+            lines.append(
+                "| "
+                + " | ".join(
+                    table_cell(hit[key])
+                    for key in ("id", "field", "bad", "suggestion", "reason", "context")
+                )
+                + " |"
+            )
+        if len(suspect_hits) > 80:
+            lines.append(f"\nOnly the first 80 suspect hits are shown; total hits: {len(suspect_hits)}.")
+    else:
+        lines.append("No known high-priority suspect terms were found.")
+
+    lines.extend(["", "## Preferred-Term Misses", ""])
+    if missing_preferred:
+        lines.extend(["| Paper | Source term | Preferred Chinese | English title | Current Chinese title |", "| --- | --- | --- | --- | --- |"])
+        for miss in missing_preferred[:80]:
+            lines.append(
+                "| "
+                + " | ".join(
+                    table_cell(miss[key])
+                    for key in ("id", "term", "preferred", "title", "title_cn")
+                )
+                + " |"
+            )
+        if len(missing_preferred) > 80:
+            lines.append(f"\nOnly the first 80 preferred-term misses are shown; total misses: {len(missing_preferred)}.")
+    else:
+        lines.append("No preferred-term misses were found.")
+
+    lines.extend(["", "## Failed Or Skipped Fields", ""])
+    if failed_fields:
+        lines.extend(["| Paper | Field | Status | Error |", "| --- | --- | --- | --- |"])
+        for failure in failed_fields:
+            lines.append(
+                "| "
+                + " | ".join(table_cell(failure[key]) for key in ("id", "field", "status", "error"))
+                + " |"
+            )
+    else:
+        lines.append("No failed or skipped translation fields were found.")
+
+    lines.extend(["", "## English Fragments", ""])
+    if english_fragment_hits:
+        lines.extend(["| Fragment | Papers |", "| --- | --- |"])
+        for fragment, paper_ids in sorted(english_fragment_hits.items(), key=lambda item: (-len(item[1]), item[0].lower()))[:60]:
+            lines.append(f"| {table_cell(fragment)} | {table_cell(', '.join(sorted(paper_ids)))} |")
+    else:
+        lines.append("No unexpected English fragments were found.")
+
+    lines.extend(["", "## Maintenance Notes", ""])
+    lines.append("- 新术语优先加到 `prompt_terms`，让模型以后主动使用。")
+    lines.append("- 已知错译再加到 `replacement_rules`，保证缓存命中和模型偶发输出都能被修正。")
+    lines.append("- 如果只是需要人工关注但不能确定替换，加入 `audit.suspect_translations` 或 `audit.source_terms`。")
+    lines.append("- 修改术语表会自动改变 `translation_prompt_version` 指纹，下一次更新会重新翻译。")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def write_audit_report(report: str, output: str | Path) -> None:
+    if str(output) == "-":
+        print(report)
+        return
+    path = Path(output)
+    if not path.is_absolute():
+        path = ROOT / path
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(report, encoding="utf-8", newline="\n")
+
+
 def build_meta(
     records: list[dict[str, Any]],
     batch_date: str,
@@ -1304,6 +1394,21 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--require-api-key", action="store_true", help="Exit with an error if KIMI_API_KEY is missing.")
     parser.add_argument("--test-email-login", action="store_true", help="Connect to IMAP, log in, and report the INBOX count.")
     parser.add_argument(
+        "--audit-translations",
+        action="store_true",
+        help="Audit existing papers.json translations and write a Markdown report without fetching new papers.",
+    )
+    parser.add_argument(
+        "--audit-output",
+        default=str(AUDIT_PATH.relative_to(ROOT)),
+        help="Markdown audit report path; use '-' to print to stdout.",
+    )
+    parser.add_argument(
+        "--skip-audit-report",
+        action="store_true",
+        help="Do not write translation-audit.md after a normal update.",
+    )
+    parser.add_argument(
         "--source",
         choices=("auto", "email", "api"),
         default=os.environ.get("NBER_SOURCE", "auto"),
@@ -1337,6 +1442,16 @@ def run() -> int:
         except (OSError, imaplib.IMAP4.error, RuntimeError) as exc:
             logging.error("IMAP login test failed: %s", exc)
             return 1
+        return 0
+
+    if args.audit_translations:
+        records = load_json(PAPERS_PATH, [])
+        if not isinstance(records, list):
+            logging.error("%s is not a JSON list.", PAPERS_PATH)
+            return 1
+        report = build_translation_audit_report(records, TRANSLATION_GLOSSARY, utc_now_iso())
+        write_audit_report(report, args.audit_output)
+        logging.info("Wrote translation audit report to %s.", args.audit_output)
         return 0
 
     api_key = os.environ.get("KIMI_API_KEY")
@@ -1425,7 +1540,12 @@ def run() -> int:
     write_json(META_PATH, meta)
     write_json(CACHE_PATH, cache)
     write_json(ARCHIVE_PATH, archive)
-    logging.info("Wrote %s, %s, %s, and %s.", PAPERS_PATH, META_PATH, CACHE_PATH, ARCHIVE_PATH)
+    written_paths = [PAPERS_PATH, META_PATH, CACHE_PATH, ARCHIVE_PATH]
+    if not args.skip_audit_report:
+        report = build_translation_audit_report(records, TRANSLATION_GLOSSARY, fetched_at)
+        write_audit_report(report, args.audit_output)
+        written_paths.append(Path(args.audit_output) if str(args.audit_output) != "-" else Path("stdout"))
+    logging.info("Wrote %s.", ", ".join(str(path) for path in written_paths))
     return 0
 
 
