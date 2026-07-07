@@ -2,28 +2,25 @@
   {
     "id": "w35344",
     "title": "AI and the Collapse of the www",
-    "title_cn": "AI and the Collapse of the www",
+    "title_cn": "人工智能与万维网的崩溃",
     "authors": [
       "Alex Chan"
     ],
     "abstract": "This paper studies market design for generative AI intermediation. AI answer systems can improve user experience while diverting visits that finance publisher content and generate source-level quality signals. I show that an AI platform that underinternalizes future content reproduction retains too little referral traffic and can make costly open-web information subcritical, even with truthful content, accurate answers, and rational users. The mechanism can be self-reinforcing: less source-level measurement weakens conventional search, inducing further AI reliance. Sustainable repair requires replacing displaced revenue and deleted measurement through visitor-replacement royalties, audited provenance, human-information audits, and keystone-topic compensation.",
-    "abstract_cn": "This paper studies market design for generative AI intermediation. AI answer systems can improve user experience while diverting visits that finance publisher content and generate source-level quality signals. I show that an AI platform that underinternalizes future content reproduction retains too little referral traffic and can make costly open-web information subcritical, even with truthful content, accurate answers, and rational users. The mechanism can be self-reinforcing: less source-level measurement weakens conventional search, inducing further AI reliance. Sustainable repair requires replacing displaced revenue and deleted measurement through visitor-replacement royalties, audited provenance, human-information audits, and keystone-topic compensation.",
+    "abstract_cn": "本文研究了生成型人工智能中介的市场设计。人工智能问答系统可以改善用户体验，同时转移资助出版商内容的访问量，并产生来源级别的质量信号。我展示了一个未能充分内部化未来内容复制的人工智能平台保留了太少的转介流量，并且即使在内容真实、答案准确和用户理性的情况下，也可能使开放网络信息变得次临界，代价高昂。这种机制可能是自我加强的：较少的来源级测量削弱了传统搜索，导致进一步依赖人工智能。可持续的修复需要通过访客替代版税、审核来源、人类信息审计和关键主题补偿来替代被取代的收入和被删除的测量。",
     "url": "https://www.nber.org/papers/w35344",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "abstract": "KIMI_API_KEY is not set.",
-      "title": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35391",
     "title": "Government Funding Costs Under Financial Repression",
-    "title_cn": "Government Funding Costs Under Financial Repression",
+    "title_cn": "在金融压制下的政府资金成本",
     "authors": [
       "Roberto Gómez-Cram",
       "Howard Kung",
@@ -31,44 +28,38 @@
       "David Zeke"
     ],
     "abstract": "We study the equilibrium effects of financial repression on government funding costs in an endowment economy with limited asset market participation. We show how a broad set of repression policies operates through a wedge in the Euler equation responsive to government size or by affecting fiscal redistribution between agents. Repression intensity is captured by a policy feedback rule that depends positively on net government spending. When fiscal policy is profligate and monetary policy accommodates, we show that such a repression policy raises bond values, reduces the inflationary cost of unfunded fiscal expansions, and lowers bond risk premia. Repression is not a free lunch for bondholders---they pay a lower inflation tax but also earn lower future real returns. When monetary policy does not accommodate fiscal policy, repression can provide stopgap funding for deficits, allowing the central bank to retain control over inflation while making government debt a hedge for fiscal inflation.",
-    "abstract_cn": "We study the equilibrium effects of financial repression on government funding costs in an endowment economy with limited asset market participation. We show how a broad set of repression policies operates through a wedge in the Euler equation responsive to government size or by affecting fiscal redistribution between agents. Repression intensity is captured by a policy feedback rule that depends positively on net government spending. When fiscal policy is profligate and monetary policy accommodates, we show that such a repression policy raises bond values, reduces the inflationary cost of unfunded fiscal expansions, and lowers bond risk premia. Repression is not a free lunch for bondholders---they pay a lower inflation tax but also earn lower future real returns. When monetary policy does not accommodate fiscal policy, repression can provide stopgap funding for deficits, allowing the central bank to retain control over inflation while making government debt a hedge for fiscal inflation.",
+    "abstract_cn": "我们研究了在有限资产市场参与的禀赋经济中，金融压制对政府融资成本的均衡效应。我们展示了广泛的压制政策如何通过欧拉方程中的楔子响应政府规模，或通过影响财政在不同主体之间的再分配。压制强度由一个政策反馈规则来捕捉，该规则与净政府支出正相关。当财政政策挥霍无度且货币政策适应时，我们展示了这样的压制政策会提高债券价值，减少无资金支持的财政扩张的通胀成本，并降低债券风险溢价。对于债券持有者来说，压制并非免费午餐——他们支付的通胀税较低，但也获得较低的未来实际回报。当货币政策不适应财政政策时，压制可以为赤字提供权宜之计的资金，允许中央银行保持对通胀的控制，同时使政府债务成为财政通胀的对冲工具。",
     "url": "https://www.nber.org/papers/w35391",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35374",
     "title": "A Practitioner's Guide to Using Large Language Models and Generative AI in Economic History",
-    "title_cn": "A Practitioner's Guide to Using Large Language Models and Generative AI in Economic History",
+    "title_cn": "实践者指南：在经济史中使用大型语言模型和生成性人工智能",
     "authors": [
       "Andreas Ferrara"
     ],
     "abstract": "Large language models (LLMs) are lowering the entry barriers to working with exciting data sources that used to require strong data science skills, such as handwritten ledgers, text, images, or sound recordings. This guide provides an introduction for researchers who are new to LLMs. It sets out a step-by-step workflow for turning a research idea into working code and data, and describes the four main ways of interacting with an LLM: the chat window, editor-integrated assistants, agentic coding tools, and the API. It then works through the decisions a practitioner meets in sequence, beginning with whether an LLM is the right tool and whether the data are allowed to be sent to one, then how to select models, write prompts, manage context limits, and control costs, and finally how to validate, reproduce, document, and correct LLM-generated measures in regression settings. A review of recent research shows how these tools already extract, link, harmonize, and classify historical data at scale. Four worked examples with replication files illustrate the use of LLMs. They classify emotions in paintings, link census records without names, measure newspaper salience and sentiment around the 1882 Chinese Exclusion Act, and score the emotional delivery of Franklin D. Roosevelt's wartime speeches. The guide also condenses the workflow, the best-practice recommendations, and the preparation of replication packages into summary tables and checklists to aid applied economists.",
-    "abstract_cn": "Large language models (LLMs) are lowering the entry barriers to working with exciting data sources that used to require strong data science skills, such as handwritten ledgers, text, images, or sound recordings. This guide provides an introduction for researchers who are new to LLMs. It sets out a step-by-step workflow for turning a research idea into working code and data, and describes the four main ways of interacting with an LLM: the chat window, editor-integrated assistants, agentic coding tools, and the API. It then works through the decisions a practitioner meets in sequence, beginning with whether an LLM is the right tool and whether the data are allowed to be sent to one, then how to select models, write prompts, manage context limits, and control costs, and finally how to validate, reproduce, document, and correct LLM-generated measures in regression settings. A review of recent research shows how these tools already extract, link, harmonize, and classify historical data at scale. Four worked examples with replication files illustrate the use of LLMs. They classify emotions in paintings, link census records without names, measure newspaper salience and sentiment around the 1882 Chinese Exclusion Act, and score the emotional delivery of Franklin D. Roosevelt's wartime speeches. The guide also condenses the workflow, the best-practice recommendations, and the preparation of replication packages into summary tables and checklists to aid applied economists.",
+    "abstract_cn": "大型语言模型（LLM）降低了与以往需要强大数据科学技能的激动人心的数据源合作的入门门槛，例如手写账本、文本、图像或声音记录。本指南为新接触LLM的研究人员提供了入门介绍。它为将研究想法转化为工作代码和数据设定了逐步的工作流程，并描述了与LLM互动的四种主要方式：聊天窗口、编辑器集成助手、代理编码工具和API。然后，它按顺序讨论了实践者遇到的决策，从是否选择LLM作为正确的工具以及是否允许将数据发送给LLM开始，然后是如何选择模型、编写提示、管理上下文限制和控制成本，最后是如何在回归设置中验证、复制、记录和纠正LLM生成的度量。对最近的研究进行的回顾显示了这些工具如何在大规模上提取、链接、协调和分类历史数据。四个带有复制文件的工作示例说明了LLM的使用。它们对绘画中的情感进行分类，将没有名字的人口普查记录进行链接，测量1882年《排华法案》周围的报纸显著性和情感，并评估富兰克林·D·罗斯福战时演讲的情感表达。该指南还将工作流程、最佳实践建议和复制包的准备浓缩成摘要表和清单，以帮助应用经济学家。",
     "url": "https://www.nber.org/papers/w35374",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35375",
     "title": "Compensation vs. Reinforcement: Experimental Identification of Parental Aversion to Inequality in Offspring",
-    "title_cn": "Compensation vs. Reinforcement: Experimental Identification of Parental Aversion to Inequality in Offspring",
+    "title_cn": "补偿与强化：实验识别父母对子女不平等的厌恶",
     "authors": [
       "Felipe Barrera-Osorio",
       "Leonardo Bonilla-Mejía",
@@ -79,23 +70,20 @@
       "Juan Pantano"
     ],
     "abstract": "Parents may invest differently across children by compensating the disadvantaged child or by reinforcing the child with higher expected returns. We study this question using a conditional cash transfer experiment that uniquely randomized transfers at the student level, generating exogenous variation in transfer exposure across siblings within the same household. The transfers increased short-run attendance among treated students but generated negative spillovers on untreated siblings: untreated siblings of treated students were 3.7 percentage points less likely to graduate from college, a decline of about 30 percent relative to the control mean. We interpret these effects using a dynamic model of household schooling decisions that identifies parental aversion to inequality in children’s educational outcomes. The estimated model implies limited aversion to inequality in children’s educational outcomes and reproduces held-out treatment effects not used in estimation. A decomposition shows that the negative spillover is primarily driven by substitution in educational investments toward the treated child.",
-    "abstract_cn": "Parents may invest differently across children by compensating the disadvantaged child or by reinforcing the child with higher expected returns. We study this question using a conditional cash transfer experiment that uniquely randomized transfers at the student level, generating exogenous variation in transfer exposure across siblings within the same household. The transfers increased short-run attendance among treated students but generated negative spillovers on untreated siblings: untreated siblings of treated students were 3.7 percentage points less likely to graduate from college, a decline of about 30 percent relative to the control mean. We interpret these effects using a dynamic model of household schooling decisions that identifies parental aversion to inequality in children’s educational outcomes. The estimated model implies limited aversion to inequality in children’s educational outcomes and reproduces held-out treatment effects not used in estimation. A decomposition shows that the negative spillover is primarily driven by substitution in educational investments toward the treated child.",
+    "abstract_cn": "父母可能会通过补偿弱势儿童或加强预期回报更高的儿童来对子女进行不同的投资。我们利用一个有条件的现金转移实验来研究这个问题，该实验在学生层面随机分配转移，在同一家庭内不同兄弟姐妹之间产生了转移暴露的外生变化。转移增加了受治疗学生的短期出勤率，但对未治疗的兄弟姐妹产生了负面溢出效应：未受治疗的兄弟姐妹完成大学学业的可能性比受控组平均值低3.7个百分点，下降了约30%。我们使用一个动态的家庭教育决策模型来解释这些效应，该模型识别了父母对子女教育结果不平等的厌恶。估计的模型意味着对子女教育结果不平等的厌恶有限，并再现了未用于估计的保留治疗效果。分解表明，负面溢出效应主要是由于教育投资向受治疗儿童的替代。",
     "url": "https://www.nber.org/papers/w35375",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35376",
     "title": "Prices Versus Quantities Revisited: What Do Policymakers Need to Know to Set Pigouvian Taxes and Subsidies?",
-    "title_cn": "Prices Versus Quantities Revisited: What Do Policymakers Need to Know to Set Pigouvian Taxes and Subsidies?",
+    "title_cn": "价格与数量的再审视：政策制定者需要知道什么才能设定庇古税和补贴？",
     "authors": [
       "Denise Dipasquale",
       "Edward L. Glaeser",
@@ -103,111 +91,96 @@
       "Paul S. Willen"
     ],
     "abstract": "What information do policymakers need to design Pigouvian taxes or subsidies? Standard logic suggests that it is sufficient to know the size of the externality and unnecessary to know about quantities. Yet this logic is incorrect if interventions have fixed costs, taxes create deadweight losses, or there are distributional concerns. We present a model in which these considerations can make it more valuable for policymakers to learn about equilibrium quantities. We apply the model to congestion pricing, which has high fixed costs, and to a proposed housing subsidy in Boston that features deadweight losses and distributional concerns.",
-    "abstract_cn": "What information do policymakers need to design Pigouvian taxes or subsidies? Standard logic suggests that it is sufficient to know the size of the externality and unnecessary to know about quantities. Yet this logic is incorrect if interventions have fixed costs, taxes create deadweight losses, or there are distributional concerns. We present a model in which these considerations can make it more valuable for policymakers to learn about equilibrium quantities. We apply the model to congestion pricing, which has high fixed costs, and to a proposed housing subsidy in Boston that features deadweight losses and distributional concerns.",
+    "abstract_cn": "政策制定者需要哪些信息来设计庇古税或补贴？标准逻辑表明，只需知道外部性的大小就足够了，无需了解数量。然而，如果干预措施有固定成本，税收会产生无谓损失，或者存在分配问题，这种逻辑就是错误的。我们提出了一个模型，其中这些考虑因素可能使政策制定者更有价值地了解均衡数量。我们将模型应用于拥堵定价，这具有高固定成本，以及波士顿提出的住房补贴，后者涉及无谓损失和分配问题。",
     "url": "https://www.nber.org/papers/w35376",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35377",
     "title": "Labor Market Responses to Tariffs: Frictions, Dynamics, and Policy Responses",
-    "title_cn": "Labor Market Responses to Tariffs: Frictions, Dynamics, and Policy Responses",
+    "title_cn": "对关税的劳动力市场反应：摩擦、动态和政策响应",
     "authors": [
       "Rafael Dix-Carneiro",
       "Brian K. Kovak"
     ],
     "abstract": "This article introduces the evidence and associated modeling frameworks contemporary economists use to understand the effects of trade and trade policy on labor markets, with a particular emphasis on labor-market frictions and adjustment dynamics. The effects of trade shocks differ across industries, regions, and occupations, implying the presence of important adjustment frictions in labor markets, and these effects evolve slowly over time, implying the need for dynamic frameworks rationalizing slow transitions. After reviewing the key insights from this literature, we discuss policies aimed at mitigating costs to workers and ensuring that the gains from trade are shared more equitably.",
-    "abstract_cn": "This article introduces the evidence and associated modeling frameworks contemporary economists use to understand the effects of trade and trade policy on labor markets, with a particular emphasis on labor-market frictions and adjustment dynamics. The effects of trade shocks differ across industries, regions, and occupations, implying the presence of important adjustment frictions in labor markets, and these effects evolve slowly over time, implying the need for dynamic frameworks rationalizing slow transitions. After reviewing the key insights from this literature, we discuss policies aimed at mitigating costs to workers and ensuring that the gains from trade are shared more equitably.",
+    "abstract_cn": "本文介绍了当代经济学家用来理解贸易和贸易政策对劳动力市场影响的证据和相关建模框架，特别强调劳动力市场的摩擦和调整动态。贸易冲击对不同行业、地区和职业的影响各不相同，这意味着劳动力市场存在重要的调整摩擦，而这些影响随时间缓慢演变，意味着需要动态框架来合理化缓慢的过渡。在回顾了这一文献的关键见解之后，我们讨论了旨在减轻工人成本并确保贸易收益更公平共享的政策。",
     "url": "https://www.nber.org/papers/w35377",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35378",
     "title": "The Incredible Flexibility of Moment Matching",
-    "title_cn": "The Incredible Flexibility of Moment Matching",
+    "title_cn": "矩匹配的惊人灵活性",
     "authors": [
       "Isaiah Andrews",
       "Bas Sanders"
     ],
     "abstract": "We ask how far the choice of which moments to match can push estimates in misspecified structural models. The answer is: very far. Under regularity conditions, an adversarial researcher informed about the data distribution can choose moments that render any parameter value the unique solution to the population moment-matching problem. Moreover, in many cases they can do so with little increase in model-implied standard errors relative to maximum likelihood. We illustrate both results in a menu-cost model.",
-    "abstract_cn": "We ask how far the choice of which moments to match can push estimates in misspecified structural models. The answer is: very far. Under regularity conditions, an adversarial researcher informed about the data distribution can choose moments that render any parameter value the unique solution to the population moment-matching problem. Moreover, in many cases they can do so with little increase in model-implied standard errors relative to maximum likelihood. We illustrate both results in a menu-cost model.",
+    "abstract_cn": "我们探讨了在误设定的结构模型中，选择匹配哪些矩对估计结果的影响能有多大。答案是：非常大。在一定条件下，一个了解数据分布的敌对研究者可以选择那些使得任何参数值成为总体矩匹配问题的唯一解的矩。而且，在许多情况下，他们可以在相对于最大似然估计的标准误差增加很少的情况下做到这一点。我们在菜单成本模型中展示了这两个结果。",
     "url": "https://www.nber.org/papers/w35378",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35379",
     "title": "Leaning Against Inflation Experiences",
-    "title_cn": "Leaning Against Inflation Experiences",
+    "title_cn": "对抗通货膨胀的经历",
     "authors": [
       "Stefan Nagel"
     ],
     "abstract": "A large share of secular variation in real interest rates can be understood as the effect of monetary policy leaning against experience-based long-run inflation expectations. Survey microdata show that adaptive learning from experienced inflation generates highly persistent, slow-moving long-run inflation expectations. When expectations are shaped by experience, central banks cannot anchor them through communication. Instead, when expectations deviate from the inflation target, monetary policy must remain persistently hawkish or dovish to generate realized inflation outcomes that, through agents’ belief updating, gradually pull long-run expectations back toward the target. Consistent with this mechanism, I find a strong positive relationship between experience-based long-run inflation expectations and real interest rates in the U.S., Germany, the U.K., and Japan. Under their subjective expectations, private-sector agents do not anticipate future reversals in inflation and short-term real interest rates. As a result, long-term real interest rates move with experience-based long-run inflation expectations about as much as short-term real interest rates do, consistent with the data. Secular movements in real rates are also accompanied by persistent patterns in interest-rate forecast errors. Overall, the interaction of monetary policy and learning from experience generates a distinct source of secular real-rate variation, beyond movements in the natural rate of interest.",
-    "abstract_cn": "A large share of secular variation in real interest rates can be understood as the effect of monetary policy leaning against experience-based long-run inflation expectations. Survey microdata show that adaptive learning from experienced inflation generates highly persistent, slow-moving long-run inflation expectations. When expectations are shaped by experience, central banks cannot anchor them through communication. Instead, when expectations deviate from the inflation target, monetary policy must remain persistently hawkish or dovish to generate realized inflation outcomes that, through agents’ belief updating, gradually pull long-run expectations back toward the target. Consistent with this mechanism, I find a strong positive relationship between experience-based long-run inflation expectations and real interest rates in the U.S., Germany, the U.K., and Japan. Under their subjective expectations, private-sector agents do not anticipate future reversals in inflation and short-term real interest rates. As a result, long-term real interest rates move with experience-based long-run inflation expectations about as much as short-term real interest rates do, consistent with the data. Secular movements in real rates are also accompanied by persistent patterns in interest-rate forecast errors. Overall, the interaction of monetary policy and learning from experience generates a distinct source of secular real-rate variation, beyond movements in the natural rate of interest.",
+    "abstract_cn": "实际利率的长期变化在很大程度上可以理解为货币政策对抗基于经验的长期通胀预期的影响。调查微观数据显示，从经历的通胀中适应性学习产生了高度持久、缓慢变动的长期通胀预期。当预期受经验塑造时，中央银行无法通过沟通来锚定它们。相反，当预期偏离通胀目标时，货币政策必须持续保持鹰派或鸽派，以产生实际通胀结果，通过代理人的信念更新，逐渐将长期预期拉回到目标。与这种机制一致，我发现在美国、德国、英国和日本，基于经验的长期通胀预期与实际利率之间存在强烈的正相关关系。在他们主观预期下，私营部门代理人没有预测通胀和短期实际利率的未来逆转。因此，长期实际利率与基于经验的长期通胀预期的变动幅度与短期实际利率一样大，这与数据一致。实际利率的长期变动也伴随着利率预测误差的持续模式。总体而言，货币政策与从经验中学习之间的相互作用产生了一个独特的长期实际利率变化来源，超出了自然利率的变动。",
     "url": "https://www.nber.org/papers/w35379",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35380",
     "title": "Health Care Reform and Firm Dynamics: Evidence from Medicare Part D and the Retail Pharmacy Industry",
-    "title_cn": "Health Care Reform and Firm Dynamics: Evidence from Medicare Part D and the Retail Pharmacy Industry",
+    "title_cn": "医疗保健改革与企业动态：来自医疗保险D部分和零售药店行业的证据",
     "authors": [
       "Brandyn F. Churchill",
       "Georgina Cisneros",
       "Kelli R. Marquardt"
     ],
     "abstract": "Health care reforms are often enacted before implementation, creating uncertainty that can shape firms’ decisions. We examine how Medicare Part D affected the retail pharmacy industry using 2000-2009 establishment-level data, leveraging the fact that Part D disproportionately affected counties with larger elderly populations. Consistent with predictions from a conceptual model in which pre-implementation uncertainty discourages entry and lower post-implementation margins prevent full recovery, we find that Part D was associated with a 5-percent reduction in pharmacies, driven by fewer openings rather than more closures. We also find suggestive evidence that reduced pharmacy access dampened Part D’s mortality benefits.",
-    "abstract_cn": "Health care reforms are often enacted before implementation, creating uncertainty that can shape firms’ decisions. We examine how Medicare Part D affected the retail pharmacy industry using 2000-2009 establishment-level data, leveraging the fact that Part D disproportionately affected counties with larger elderly populations. Consistent with predictions from a conceptual model in which pre-implementation uncertainty discourages entry and lower post-implementation margins prevent full recovery, we find that Part D was associated with a 5-percent reduction in pharmacies, driven by fewer openings rather than more closures. We also find suggestive evidence that reduced pharmacy access dampened Part D’s mortality benefits.",
+    "abstract_cn": "医疗改革通常在实施前就已制定，这种不确定性可能会影响公司的决策。我们利用2000-2009年的机构级数据，研究了医疗保险D部分如何影响零售药店行业，利用D部分对老年人口较多的县影响较大的事实。与概念模型的预测一致，即实施前的不确定性抑制了进入，而实施后较低的利润率阻止了完全恢复，我们发现D部分与药店数量减少5%有关，这是由于新开药店减少而非关闭药店增多所驱动的。我们还发现了一些暗示性证据，表明减少药店的可及性减弱了D部分的降低死亡率的好处。",
     "url": "https://www.nber.org/papers/w35380",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35381",
     "title": "Dynamic Individuals, Static Neighborhoods: Migration and Earnings Changes in Poor Neighborhoods",
-    "title_cn": "Dynamic Individuals, Static Neighborhoods: Migration and Earnings Changes in Poor Neighborhoods",
+    "title_cn": "动态个体，静态社区：贫困社区中的迁移与收入变化",
     "authors": [
       "Andrew Garin",
       "Ethan Jenkins",
@@ -215,112 +188,97 @@
       "Bryan A. Stuart"
     ],
     "abstract": "This paper studies migration and earnings dynamics in poor neighborhoods using new administrative data linking residential location and earnings. Out-migration rates are higher in poor neighborhoods than elsewhere, and the majority of people who leave a poor neighborhood move to a richer one. Residents of poor neighborhoods also see significant earnings mobility, with average growth rates similar to richer areas. Estimates based on idiosyncratic, firm-specific pay changes show that increases in earnings are linked to migration to better neighborhoods. This results in the earnings of the cohort who lived in a poor neighborhood at baseline growing more than twice as fast as the earnings of these neighborhoods' contemporaneous residents. Overall, our results highlight an underappreciated reason why poor neighborhoods stay poor: initial residents whose earnings grow tend to move away.",
-    "abstract_cn": "This paper studies migration and earnings dynamics in poor neighborhoods using new administrative data linking residential location and earnings. Out-migration rates are higher in poor neighborhoods than elsewhere, and the majority of people who leave a poor neighborhood move to a richer one. Residents of poor neighborhoods also see significant earnings mobility, with average growth rates similar to richer areas. Estimates based on idiosyncratic, firm-specific pay changes show that increases in earnings are linked to migration to better neighborhoods. This results in the earnings of the cohort who lived in a poor neighborhood at baseline growing more than twice as fast as the earnings of these neighborhoods' contemporaneous residents. Overall, our results highlight an underappreciated reason why poor neighborhoods stay poor: initial residents whose earnings grow tend to move away.",
+    "abstract_cn": "本文利用新的行政数据，研究了贫困地区居民的迁移和收入动态，这些数据将居住地点和收入联系起来。贫困地区的外迁率高于其他地方，大多数离开贫困地区的人会搬到更富裕的地区。贫困地区的居民也经历了显著的收入流动性，平均增长率与更富裕的地区相似。基于个体特定、公司特定薪酬变化的估计显示，收入的增加与迁移到更好的社区有关。这导致在基线时居住在贫困地区的群体的收入增长速度是这些社区同期居民收入的两倍多。总体而言，我们的结果突出了一个被低估的原因，即为什么贫困地区保持贫困：那些收入增长的初始居民倾向于搬离。",
     "url": "https://www.nber.org/papers/w35381",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35382",
     "title": "When GDP Misleads: Inferring Living Standards from the Value of a Statistical Life",
-    "title_cn": "When GDP Misleads: Inferring Living Standards from the Value of a Statistical Life",
+    "title_cn": "当GDP误导：从统计生命的价值推断生活水平",
     "authors": [
       "Philip Trammell",
       "Charles I. Jones"
     ],
     "abstract": "Real GDP per person is a widely used proxy for living standards, but it can be a poor welfare measure when new goods or quality improvements matter, when nonmarket goods are significant, and when preferences are nonhomothetic --- all of which are true in practice. We propose an alternative that is robust to these concerns: under weak conditions, the growth rate of the value of a statistical life (VSL), together with standard Euler-equation objects, identifies the growth rate of lifetime utility. The intuition is that people routinely trade off consumption against mortality risk, and their willingness to pay for small risk reductions reveals the value of remaining lifetime utility. Implementing this approach for the United States suggests that lifetime utility may have risen by more than a factor of five since 1940, whereas conventional consumption-based calculations using a stable log/CRRA flow utility imply much smaller gains, on the order of a doubling. This calculation is sensitive to measures of the growth rate of the VSL, the rate of time preference, and the interest rate. For example, if the correct interest rate is 4 percentage points higher than the T-bill rate, then lifetime utility would be measured to have declined by more than half since 1940.",
-    "abstract_cn": "Real GDP per person is a widely used proxy for living standards, but it can be a poor welfare measure when new goods or quality improvements matter, when nonmarket goods are significant, and when preferences are nonhomothetic --- all of which are true in practice. We propose an alternative that is robust to these concerns: under weak conditions, the growth rate of the value of a statistical life (VSL), together with standard Euler-equation objects, identifies the growth rate of lifetime utility. The intuition is that people routinely trade off consumption against mortality risk, and their willingness to pay for small risk reductions reveals the value of remaining lifetime utility. Implementing this approach for the United States suggests that lifetime utility may have risen by more than a factor of five since 1940, whereas conventional consumption-based calculations using a stable log/CRRA flow utility imply much smaller gains, on the order of a doubling. This calculation is sensitive to measures of the growth rate of the VSL, the rate of time preference, and the interest rate. For example, if the correct interest rate is 4 percentage points higher than the T-bill rate, then lifetime utility would be measured to have declined by more than half since 1940.",
+    "abstract_cn": "人均实际GDP是衡量生活水平的常用指标，但在以下情况下它可能是一个较差的福利度量：当新产品或质量改进很重要时，当非市场商品很重要时，以及当偏好是非同质的——所有这些在实践中都是真实的。我们提出了一个解决这些问题的替代方案：在弱条件下，统计生命价值（VSL）的增长率，加上标准的欧拉方程对象，可以确定终身效用的增长率。直觉是人们经常在消费和死亡风险之间进行权衡，他们为小风险降低的支付意愿揭示了剩余终身效用的价值。将这种方法应用于美国表明，自1940年以来，终身效用可能增长了五倍以上，而使用稳定的对数/CRRA流量效用的传统消费基础计算则意味着增长较小，大约是翻倍。这个计算对VSL增长率的度量、时间偏好率和利率都很敏感。例如，如果正确的利率比国库券利率高出4个百分点，那么自1940年以来，终身效用将被测量为下降了一半以上。",
     "url": "https://www.nber.org/papers/w35382",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35383",
     "title": "Unilateral-Veto Mechanisms",
-    "title_cn": "Unilateral-Veto Mechanisms",
+    "title_cn": "单边否决机制",
     "authors": [
       "Quitzé Valenzuela-Stookey",
       "E. Jason Baron",
       "Richard Lombardo"
     ],
     "abstract": "Unilateral vetoes, in which an agent takes an action that restricts the set of possible outcomes for themselves independent of what other agents do, are a frequently used tool in real-world approaches to multi-dimensional screening. We study how this tool works in a class of task-allocation problems. We characterize obvious strategy-proofness of unilateral-veto mechanisms, yielding structural insights into how veto rights shape incentives: obviously strategy-proof mechanisms consist of diverse menus of narrowly defined rights. We then examine the potential of this simple class of mechanisms as a practical market-design tool and provide empirical evidence of their efficacy in two applications.",
-    "abstract_cn": "Unilateral vetoes, in which an agent takes an action that restricts the set of possible outcomes for themselves independent of what other agents do, are a frequently used tool in real-world approaches to multi-dimensional screening. We study how this tool works in a class of task-allocation problems. We characterize obvious strategy-proofness of unilateral-veto mechanisms, yielding structural insights into how veto rights shape incentives: obviously strategy-proof mechanisms consist of diverse menus of narrowly defined rights. We then examine the potential of this simple class of mechanisms as a practical market-design tool and provide empirical evidence of their efficacy in two applications.",
+    "abstract_cn": "单方面否决权，即代理人采取行动限制自己可能的结果集，而不考虑其他代理人的行为，是现实世界中多维筛选方法中常用的工具。我们研究了这个工具在一类任务分配问题中的工作原理。我们描述了单方面否决机制的明显策略证明性，提供了关于否决权如何塑造激励的结构性见解：明显的策略证明机制由多样化的菜单和狭义的权利组成。然后，我们检验了这个简单类别的机制作为实际市场设计工具的潜力，并提供了它们在两个应用中的有效性的实证证据。",
     "url": "https://www.nber.org/papers/w35383",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35384",
     "title": "When Medicaid Pays the Bill: Routine Vision Benefits, Eye Care Use, and Eyeglasses Spending Among Dual-eligible Medicare Enrollees",
-    "title_cn": "When Medicaid Pays the Bill: Routine Vision Benefits, Eye Care Use, and Eyeglasses Spending Among Dual-eligible Medicare Enrollees",
+    "title_cn": "当医疗补助支付账单时：双重资格医疗保险参保人的常规视力福利、眼部护理使用和眼镜支出",
     "authors": [
       "Michel H. Boudreaux",
       "Brandy Lipton",
       "Melissa McInerney"
     ],
     "abstract": "Vision problems are prevalent among Medicare beneficiaries, with the majority having treatable conditions including uncorrected refractive error and cataracts. However, traditional Medicare does not cover routine eye exams or eyeglasses, and Medicare Advantage supplemental vision benefits often include low annual limits. We examine the effects of Medicaid routine vision benefits among adults dually eligible for Medicare and Medicaid, a population with high rates of vision impairment, morbidity, and disability. Using 2002-2019 Medicare Current Beneficiary Survey data and a difference-in-differences design, we estimate that Medicaid routine vision benefits increase past-year eye exams, eyeglasses purchases, and Medicaid spending on eyeglasses while reducing out-of-pocket spending. We also find suggestive evidence of spillovers to Medicare Advantage spending on eyeglasses, consistent with Medicaid routine vision coverage inducing additional eyeglasses purchases among Medicare Advantage enrollees with supplemental vision benefits, although estimates are modest.",
-    "abstract_cn": "Vision problems are prevalent among Medicare beneficiaries, with the majority having treatable conditions including uncorrected refractive error and cataracts. However, traditional Medicare does not cover routine eye exams or eyeglasses, and Medicare Advantage supplemental vision benefits often include low annual limits. We examine the effects of Medicaid routine vision benefits among adults dually eligible for Medicare and Medicaid, a population with high rates of vision impairment, morbidity, and disability. Using 2002-2019 Medicare Current Beneficiary Survey data and a difference-in-differences design, we estimate that Medicaid routine vision benefits increase past-year eye exams, eyeglasses purchases, and Medicaid spending on eyeglasses while reducing out-of-pocket spending. We also find suggestive evidence of spillovers to Medicare Advantage spending on eyeglasses, consistent with Medicaid routine vision coverage inducing additional eyeglasses purchases among Medicare Advantage enrollees with supplemental vision benefits, although estimates are modest.",
+    "abstract_cn": "视力问题在医疗保险受益人中普遍存在，大多数人患有可治疗的疾病，包括未矫正的屈光不正和白内障。然而，传统的医疗保险不包括常规眼科检查或眼镜，而医疗保险优势补充视力福利通常包括低年度限额。我们研究了医疗补助计划对同时符合医疗保险和医疗补助资格的成年人的常规视力福利的影响，这是一个视力障碍、发病率和残疾率很高的人群。利用2002-2019年医疗保险当前受益人调查数据和差异-差异设计，我们估计医疗补助常规视力福利增加了过去一年的眼科检查、眼镜购买和医疗补助在眼镜上的支出，同时减少了自掏腰包的支出。我们还发现了对医疗保险优势在眼镜上的支出的暗示性证据，这与医疗补助常规视力覆盖诱导具有补充视力福利的医疗保险优势参保者额外购买眼镜是一致的，尽管估计值是适度的。",
     "url": "https://www.nber.org/papers/w35384",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35387",
     "title": "GLP-1–Induced Weight Loss and the Female Obesity Penalty",
-    "title_cn": "GLP-1–Induced Weight Loss and the Female Obesity Penalty",
+    "title_cn": "GLP-1诱导的体重减轻和女性肥胖惩罚",
     "authors": [
       "Rebecca Diamond"
     ],
     "abstract": "GLP-1 medications generate large weight loss and may also alter social and economic outcomes. Using the Understanding America Study, I compare women starting GLP-1s for weight loss with matched women who would like to start a GLP-1 but have not. Single women’s marriage/cohabitation rates rise by 29 percentage points and employment among baseline non-employed women rises 27 percentage points after six or more quarters. Existing partnerships do not dissolve, and already-employed women show no upward job mobility. The pattern suggests that part of the female obesity penalty operates at new-match formation rather than only through health or incumbent productivity.",
-    "abstract_cn": "GLP-1 medications generate large weight loss and may also alter social and economic outcomes. Using the Understanding America Study, I compare women starting GLP-1s for weight loss with matched women who would like to start a GLP-1 but have not. Single women’s marriage/cohabitation rates rise by 29 percentage points and employment among baseline non-employed women rises 27 percentage points after six or more quarters. Existing partnerships do not dissolve, and already-employed women show no upward job mobility. The pattern suggests that part of the female obesity penalty operates at new-match formation rather than only through health or incumbent productivity.",
+    "abstract_cn": "GLP-1类药物能产生显著的减重效果，还可能改变社会和经济结果。利用美国理解研究，我比较了开始使用GLP-1药物减重的女性与匹配的希望开始使用GLP-1但尚未开始的女性。单身女性的结婚/同居率上升了29个百分点，基线时未就业女性的就业率上升了27个百分点，这发生在六个或更多季度之后。现有的伴侣关系没有解散，而已就业的女性没有显示出向上的职业流动。这种模式表明，女性肥胖惩罚的一部分是在新匹配形成时发挥作用，而不仅仅是通过健康或现有生产力。",
     "url": "https://www.nber.org/papers/w35387",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35389",
     "title": "International Risk-Sharing in a Fragmented World",
-    "title_cn": "International Risk-Sharing in a Fragmented World",
+    "title_cn": "在一个分裂的世界中的国际风险分担",
     "authors": [
       "Javier Bianchi",
       "Sebastian Horn",
@@ -328,46 +286,40 @@
       "César Sosa-Padilla"
     ],
     "abstract": "This paper studies how geopolitical risk shapes financial fragmentation and international risk-sharing, using bilateral official lending data from 1910 to 2024. We document that when geopolitical risk is high, bilateral lending increasingly follows geopolitical alignment. Because geopolitically aligned countries experience more synchronized shocks, this fragmentation limits the effectiveness of international risk-sharing. To rationalize these patterns, we introduce geopolitical considerations into a limited-commitment model of sovereign borrowing. The model shows that, even with non-discriminatory default, higher geopolitical tensions redirect international lending toward allied countries and weaken risk-sharing.",
-    "abstract_cn": "This paper studies how geopolitical risk shapes financial fragmentation and international risk-sharing, using bilateral official lending data from 1910 to 2024. We document that when geopolitical risk is high, bilateral lending increasingly follows geopolitical alignment. Because geopolitically aligned countries experience more synchronized shocks, this fragmentation limits the effectiveness of international risk-sharing. To rationalize these patterns, we introduce geopolitical considerations into a limited-commitment model of sovereign borrowing. The model shows that, even with non-discriminatory default, higher geopolitical tensions redirect international lending toward allied countries and weaken risk-sharing.",
+    "abstract_cn": "本文研究了地缘政治风险如何塑造金融分裂和国际风险分担，使用了1910年至2024年的双边官方贷款数据。我们记录了当地缘政治风险高时，双边贷款越来越多地遵循地缘政治对齐。由于地缘政治对齐的国家经历更多同步冲击，这种分裂限制了国际风险分担的有效性。为了合理化这些模式，我们将地缘政治考虑引入到一个有限承诺的主权借款模型中。模型显示，即使在非歧视性违约的情况下，更高的地缘政治紧张局势也会将国际贷款转向盟国，并削弱风险分担。",
     "url": "https://www.nber.org/papers/w35389",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35385",
     "title": "The Fragility of Semi-Liquid Private Credit Funds",
-    "title_cn": "The Fragility of Semi-Liquid Private Credit Funds",
+    "title_cn": "半流动性私募信贷基金的脆弱性",
     "authors": [
       "Chuck Fang",
       "Itay Goldstein",
       "Yao Zeng"
     ],
     "abstract": "We study fragility in semi-liquid private credit funds, which have expanded rapidly and now manage over $300 billion in assets. These funds perform liquidity transformation by holding far more illiquid loans than traditional loan mutual funds while allowing investors to redeem at NAV through quarterly repurchase offers, typically capped at 5% of shares outstanding. We show that cash buffers and contractual loan repayments are insufficient to fund repeated 5% quarterly redemptions; inflows decline precisely when outflows rise; and net outflows are met with sales of illiquid loans, external borrowing, and delayed payments through repurchases payable. As a result, strategic complementarity arises, because redemptions impose liquidation and leverage costs on the remaining investors. We show that loan liquidation, leverage increase, and NAV inflation play an important role in amplifying the current episodes of run-like redemptions. Overall, our evidence suggests that quarterly gates and redemption caps do not eliminate run-like fragility in semi-liquid private credit funds, raising cautions about expanding retail access to private credit markets.",
-    "abstract_cn": "We study fragility in semi-liquid private credit funds, which have expanded rapidly and now manage over $300 billion in assets. These funds perform liquidity transformation by holding far more illiquid loans than traditional loan mutual funds while allowing investors to redeem at NAV through quarterly repurchase offers, typically capped at 5% of shares outstanding. We show that cash buffers and contractual loan repayments are insufficient to fund repeated 5% quarterly redemptions; inflows decline precisely when outflows rise; and net outflows are met with sales of illiquid loans, external borrowing, and delayed payments through repurchases payable. As a result, strategic complementarity arises, because redemptions impose liquidation and leverage costs on the remaining investors. We show that loan liquidation, leverage increase, and NAV inflation play an important role in amplifying the current episodes of run-like redemptions. Overall, our evidence suggests that quarterly gates and redemption caps do not eliminate run-like fragility in semi-liquid private credit funds, raising cautions about expanding retail access to private credit markets.",
+    "abstract_cn": "我们研究了半流动性私人信贷基金的脆弱性，这些基金迅速扩张，现在管理着超过3000亿美元的资产。这些基金通过持有比传统贷款共同基金更多的非流动性贷款来执行流动性转换，同时允许投资者通过季度回购要约以净资产价值赎回，通常限制在流通股份的5%。我们表明，现金缓冲和合同贷款偿还不足以资助重复的5%季度赎回；流入在流出增加时正好下降；净流出则通过出售非流动性贷款、外部借款和通过应付回购延迟支付来满足。因此，出现了战略互补性，因为赎回对剩余投资者施加了清算和杠杆成本。我们表明，贷款清算、杠杆增加和净资产价值膨胀在放大当前类似挤兑的赎回事件中扮演了重要角色。总体而言，我们的证据表明，季度闸门和赎回上限并未消除半流动性私人信贷基金中类似挤兑的脆弱性，这引发了对扩大零售渠道进入私人信贷市场的警告。",
     "url": "https://www.nber.org/papers/w35385",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35386",
     "title": "Openness, Integration, and the International Monetary Order",
-    "title_cn": "Openness, Integration, and the International Monetary Order",
+    "title_cn": "开放性、一体化与国际货币秩序",
     "authors": [
       "Tarek Alexander Hassan",
       "Thomas M. Mertens",
@@ -375,131 +327,113 @@
       "Tony Zhang"
     ],
     "abstract": "This paper develops a calibrated general-equilibrium model to study how different configurations of trade and financial policy reshape the hierarchy of global currencies—and the U.S. dollar's position at its anchor. Currency safety and anchor status arise endogenously from each economy's 'effective size'—the weight its domestic shocks carry in setting world prices. Tariffs reduce this effective size on the goods side; capital controls do the same on the financial side. A unifying result emerges: The economy that maintains the deepest integration with the global trading network retains the largest safety premium and gains anchor status. We use this framework to evaluate the effects of three policy levers for Europe that affect the effective size of the euro: internal harmonization and enlargement, trade openness, and capital-account openness. The stakes are large: In our model, shifts in currencies' safety can redirect global capital flows and alter sovereign borrowing costs by hundreds of billions of dollars annually.",
-    "abstract_cn": "This paper develops a calibrated general-equilibrium model to study how different configurations of trade and financial policy reshape the hierarchy of global currencies—and the U.S. dollar's position at its anchor. Currency safety and anchor status arise endogenously from each economy's 'effective size'—the weight its domestic shocks carry in setting world prices. Tariffs reduce this effective size on the goods side; capital controls do the same on the financial side. A unifying result emerges: The economy that maintains the deepest integration with the global trading network retains the largest safety premium and gains anchor status. We use this framework to evaluate the effects of three policy levers for Europe that affect the effective size of the euro: internal harmonization and enlargement, trade openness, and capital-account openness. The stakes are large: In our model, shifts in currencies' safety can redirect global capital flows and alter sovereign borrowing costs by hundreds of billions of dollars annually.",
+    "abstract_cn": "本文构建了一个校准的一般均衡模型，研究不同的贸易和金融政策配置如何重塑全球货币体系的层级结构，以及美元在其核心地位。货币的安全性和核心地位是由每个经济体的“有效规模”内生决定的——即其国内冲击在设定世界价格中的权重。关税减少了商品方面的有效规模；资本管制在金融方面也做了同样的事情。一个统一的结果出现了：保持与全球贸易网络最深度融合的经济体保留了最大的安全溢价，并获得了核心地位。我们使用这个框架来评估影响欧元有效规模的三个政策杠杆对欧洲的影响：内部协调和扩大、贸易开放度以及资本账户开放度。风险很大：在我们的模型中，货币安全性的转变可以重新引导全球资本流动，并每年改变主权借款成本高达数千亿美元。",
     "url": "https://www.nber.org/papers/w35386",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35388",
     "title": "Fragmentation of Shareholder Power",
-    "title_cn": "Fragmentation of Shareholder Power",
+    "title_cn": "股东权力的分散",
     "authors": [
       "Andrey Malenko",
       "Nadya Malenko",
       "Anton Tsoy"
     ],
     "abstract": "The asset management industry is increasingly shifting toward tailored portfolios, fund proliferation, and decentralization of stewardship—trends partly driven by growing heterogeneity in investor preferences. While these developments better align investment products with investor demands, they also reshape ownership structures, potentially leading to more fragmented ownership and weaker managerial oversight. We develop a framework to evaluate these trade-offs and show that fund proliferation does not necessarily weaken governance: Stronger incentives for asset managers and concentrated portfolios of specialized funds can offset these effects, especially when investor preferences are intense. However, strong investor preferences can also induce asset managers to compete on a new margin—granting investors control by decentralizing stewardship and adopting pass-through voting—without internalizing the associated governance costs.",
-    "abstract_cn": "The asset management industry is increasingly shifting toward tailored portfolios, fund proliferation, and decentralization of stewardship—trends partly driven by growing heterogeneity in investor preferences. While these developments better align investment products with investor demands, they also reshape ownership structures, potentially leading to more fragmented ownership and weaker managerial oversight. We develop a framework to evaluate these trade-offs and show that fund proliferation does not necessarily weaken governance: Stronger incentives for asset managers and concentrated portfolios of specialized funds can offset these effects, especially when investor preferences are intense. However, strong investor preferences can also induce asset managers to compete on a new margin—granting investors control by decentralizing stewardship and adopting pass-through voting—without internalizing the associated governance costs.",
+    "abstract_cn": "资产管理行业正越来越多地转向定制化投资组合、基金激增和治理权力的分散化——这些趋势部分是由投资者偏好的日益异质性所驱动的。虽然这些发展更好地将投资产品与投资者需求对齐，但它们也重塑了所有权结构，可能导致所有权更加分散和管理监督更弱。我们构建了一个框架来评估这些权衡，并表明基金激增并不一定削弱治理：资产管理者的更强激励和专业化基金的集中投资组合可以抵消这些影响，特别是在投资者偏好强烈时。然而，强烈的投资者偏好也可能导致资产管理者在一个新的维度上竞争——通过分散治理权力和采用直通式投票赋予投资者控制权——而没有内部化相关的治理成本。",
     "url": "https://www.nber.org/papers/w35388",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35390",
     "title": "Pricing and Production Without the Invisible Hand",
-    "title_cn": "Pricing and Production Without the Invisible Hand",
+    "title_cn": "无需“无形之手”的价格与生产",
     "authors": [
       "Joel P. Flynn",
       "George Nikolakoudis",
       "Karthik Sastry"
     ],
     "abstract": "Modern theories of the business cycle do not allow for the simultaneous rational choice of both prices and quantities, instead assuming that an “invisible hand” determines one of these variables to clear markets. In this paper, we develop a macroeconomic model in which both prices and quantities are chosen optimally by firms and exchange is both voluntary and efficient. As a consequence, individual markets will generically be in Walrasian disequilibrium: either slack (over-supplied) or rationed (under-supplied). The absence of market clearing changes pricing and production in qualitatively important ways: markups are governed by the probability of rationing rather than the elasticity of demand, and higher uncertainty reduces production and increases markups. Marrying the Old and New Keynesian traditions, we study general Walrasian disequilibrium with rational expectations and optimal firm decisions. On a technical level, we characterize cross-market spillovers arising from rationed demand with differentiated goods, overcoming the standard combinatorial problem that arises when studying multi-market disequilibrium. Unlike in New Keynesian economies, monetary shocks propagate by reducing product-market slack, raising aggregate labor productivity and consumption with muted effects on employment, while uncertainty shocks act as stagflationary cost-push shocks.",
-    "abstract_cn": "Modern theories of the business cycle do not allow for the simultaneous rational choice of both prices and quantities, instead assuming that an “invisible hand” determines one of these variables to clear markets. In this paper, we develop a macroeconomic model in which both prices and quantities are chosen optimally by firms and exchange is both voluntary and efficient. As a consequence, individual markets will generically be in Walrasian disequilibrium: either slack (over-supplied) or rationed (under-supplied). The absence of market clearing changes pricing and production in qualitatively important ways: markups are governed by the probability of rationing rather than the elasticity of demand, and higher uncertainty reduces production and increases markups. Marrying the Old and New Keynesian traditions, we study general Walrasian disequilibrium with rational expectations and optimal firm decisions. On a technical level, we characterize cross-market spillovers arising from rationed demand with differentiated goods, overcoming the standard combinatorial problem that arises when studying multi-market disequilibrium. Unlike in New Keynesian economies, monetary shocks propagate by reducing product-market slack, raising aggregate labor productivity and consumption with muted effects on employment, while uncertainty shocks act as stagflationary cost-push shocks.",
+    "abstract_cn": "现代商业周期理论不允许同时对价格和数量进行理性选择，而是假设有一个“无形之手”决定其中一个变量以清除市场。在本文中，我们发展了一个宏观经济模型，在这个模型中，价格和数量都由企业最优选择，并且交换既是自愿的也是高效的。因此，个别市场通常将处于瓦尔拉斯均衡之外：要么疲软（供应过剩），要么配给（供应不足）。市场清算的缺失以重要的定性方式改变了定价和生产：加价由配给的概率而非需求弹性决定，更高的不确定性降低了生产并增加了加价。我们将旧凯恩斯主义和新凯恩斯主义传统结合起来，研究了具有理性预期和企业最优决策的一般瓦尔拉斯均衡之外的情况。在技术层面上，我们描述了由于差异化商品的配给需求而产生的跨市场溢出效应，克服了研究多市场均衡之外时出现的标准的组合问题。与新凯恩斯主义经济不同，货币冲击通过减少产品市场疲软，提高总体劳动生产率和消费，对就业的影响较小，而不确定性冲击则表现为滞胀型成本推动冲击。",
     "url": "https://www.nber.org/papers/w35390",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35392",
     "title": "Immigration, Innovation, and the Geography of Growth",
-    "title_cn": "Immigration, Innovation, and the Geography of Growth",
+    "title_cn": "移民、创新与增长的地理学",
     "authors": [
       "Costas Arkolakis",
       "Sun Kyoung Lee",
       "Michael Peters"
     ],
     "abstract": "Between 1880 and 1920, more than 20 million immigrants settled in the United States. We study how this migration wave affected innovation and growth. Using a newly constructed dataset linking individual census records to historical immigration records and the universe of US patents, we highlight a new channel through which immigrants contributed to growth: they disproportionately settled in urban innovation hubs. To quantify the aggregate and regional effects of this mass migration episode, we develop a new spatial growth model in which skilled workers have a comparative advantage in innovation and sort endogenously across space. We find that international arrivals after 1880 raised US income per capita by 8.2% by 1940. Removing the subsequent immigration restrictions of the 1920s would have raised income per capita by a further 1.7% by 2000. Immigrants' skill composition and their concentration in urban hubs are key drivers of these effects.",
-    "abstract_cn": "Between 1880 and 1920, more than 20 million immigrants settled in the United States. We study how this migration wave affected innovation and growth. Using a newly constructed dataset linking individual census records to historical immigration records and the universe of US patents, we highlight a new channel through which immigrants contributed to growth: they disproportionately settled in urban innovation hubs. To quantify the aggregate and regional effects of this mass migration episode, we develop a new spatial growth model in which skilled workers have a comparative advantage in innovation and sort endogenously across space. We find that international arrivals after 1880 raised US income per capita by 8.2% by 1940. Removing the subsequent immigration restrictions of the 1920s would have raised income per capita by a further 1.7% by 2000. Immigrants' skill composition and their concentration in urban hubs are key drivers of these effects.",
+    "abstract_cn": "在1880年到1920年之间，超过2000万移民在美国定居。我们研究了这股移民潮如何影响创新和增长。利用一个新构建的数据集，将个人人口普查记录与历史移民记录和美国专利全集联系起来，我们强调了移民对增长贡献的一个新渠道：他们不成比例地定居在城市创新中心。为了量化这次大规模移民潮的总体和地区效应，我们开发了一个新的空间增长模型，其中技术工人在创新方面具有比较优势，并在空间上内生地进行排序。我们发现，1880年后的国际移民到1940年使美国人均收入提高了8.2%。如果取消随后1920年代的移民限制，到2000年人均收入将进一步增加1.7%。移民的技能构成和他们在城市中心的集中是这些效应的关键驱动因素。",
     "url": "https://www.nber.org/papers/w35392",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35393",
     "title": "Wealth Inequality and Safe Asset Demand",
-    "title_cn": "Wealth Inequality and Safe Asset Demand",
+    "title_cn": "财富不平等与安全资产需求",
     "authors": [
       "Xuning Ding",
       "Zhengyang Jiang"
     ],
     "abstract": "We study how wealth inequality shapes safe-asset demand in heterogeneous-agent economies. Asset bubbles arise when agents face sufficiently high probabilities of falling into extreme poverty. In such cases, assets insulated from idiosyncratic risk become infinitely large relative to agents' wealth ex-post, which makes them infinitely valuable ex-ante. This mechanism is fundamentally different from classic rational bubbles, generates bubbles even under stationary wealth distributions, and requires no aggregate uncertainty or growth. Using this insight, we revisit the pricing of aggregate assets in standard heterogeneous-agent economies, and show that prior analyses may be incomplete due to overlooked possibility of transversality condition violation.",
-    "abstract_cn": "We study how wealth inequality shapes safe-asset demand in heterogeneous-agent economies. Asset bubbles arise when agents face sufficiently high probabilities of falling into extreme poverty. In such cases, assets insulated from idiosyncratic risk become infinitely large relative to agents' wealth ex-post, which makes them infinitely valuable ex-ante. This mechanism is fundamentally different from classic rational bubbles, generates bubbles even under stationary wealth distributions, and requires no aggregate uncertainty or growth. Using this insight, we revisit the pricing of aggregate assets in standard heterogeneous-agent economies, and show that prior analyses may be incomplete due to overlooked possibility of transversality condition violation.",
+    "abstract_cn": "我们研究了财富不平等如何在异质性主体经济中塑造安全资产需求。当代理人面临足够高的概率陷入极端贫困时，资产泡沫就会出现。在这种情况下，免受特有风险影响的资产相对于代理人事后的财富变得无限大，这使得它们在事前变得无限有价值。这种机制与经典的理性泡沫根本不同，即使在财富分布保持不变的条件下也能产生泡沫，并且不需要总体不确定性或增长。利用这一洞见，我们重新审视了标准异质性主体经济中总体资产的定价，并展示了由于忽视了横截条件违规的可能性，先前的分析可能是不完整的。",
     "url": "https://www.nber.org/papers/w35393",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   },
   {
     "id": "w35394",
     "title": "Safer Driving for a Price: Evidence on Behavior and Habits in Kenyan Minibuses",
-    "title_cn": "Safer Driving for a Price: Evidence on Behavior and Habits in Kenyan Minibuses",
+    "title_cn": "为安全驾驶付费：肯尼亚小巴车行为与习惯的证据",
     "authors": [
       "David Schönholzer",
       "Gregory Lane",
       "Erin M. Kelley"
     ],
     "abstract": "Road traffic injuries are the leading cause of death among people aged 5–29. Where traffic laws are weakly enforced, it is unclear whether road safety interventions can change behavior. We run a randomized controlled trial among 203 Kenyan minibuses, testing whether an incentive scheme improves safety overall or merely shifts unsafe driving to unmonitored times. Drivers reduce speeding by 29 percent and harsh braking by 13 percent, improving a safety index by 0.096 standard deviations. Labor-supply and earnings effects are modest, with little displacement across times or places. Improvements fade quickly, suggesting lasting change requires sustained enforcement or stronger incentives.",
-    "abstract_cn": "Road traffic injuries are the leading cause of death among people aged 5–29. Where traffic laws are weakly enforced, it is unclear whether road safety interventions can change behavior. We run a randomized controlled trial among 203 Kenyan minibuses, testing whether an incentive scheme improves safety overall or merely shifts unsafe driving to unmonitored times. Drivers reduce speeding by 29 percent and harsh braking by 13 percent, improving a safety index by 0.096 standard deviations. Labor-supply and earnings effects are modest, with little displacement across times or places. Improvements fade quickly, suggesting lasting change requires sustained enforcement or stronger incentives.",
+    "abstract_cn": "道路交通伤害是5至29岁人群中死亡的主要原因。在交通执法不力的地方，尚不清楚道路安全干预措施是否能够改变行为。我们在肯尼亚203辆小巴中进行了一项随机对照试验，测试激励机制是否能够整体提高安全性，或者仅仅将不安全驾驶转移到未受监控的时间。司机们将超速行为减少了29%，猛烈刹车行为减少了13%，安全指数提高了0.096个标准差。劳动力供应和收入效应较小，几乎没有时间或地点的转移。改进很快消失，表明持久的改变需要持续的执法或更强的激励措施。",
     "url": "https://www.nber.org/papers/w35394",
     "public_date": "2026-06-29",
     "translation_status": {
-      "title": "skipped_no_api_key",
-      "abstract": "skipped_no_api_key"
+      "title": "success",
+      "abstract": "success"
     },
-    "translation_error": {
-      "title": "KIMI_API_KEY is not set.",
-      "abstract": "KIMI_API_KEY is not set."
-    },
-    "fetched_at": "2026-07-07T04:43:29Z"
+    "translation_error": null,
+    "fetched_at": "2026-07-07T04:54:30Z"
   }
 ]

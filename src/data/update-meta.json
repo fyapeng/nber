@@ -1,11 +1,9 @@
 {
-  "last_updated": "2026-07-07T04:43:29Z",
+  "last_updated": "2026-07-07T04:54:30Z",
   "source": "NBER",
   "source_url": "https://www.nber.org/papers",
   "batch_date": "2026-06-29",
   "paper_count": 22,
   "failed_translations": 0,
-  "notes": [
-    "44 translation fields were skipped."
-  ]
+  "notes": []
 }
