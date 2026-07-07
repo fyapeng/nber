@@ -139,6 +139,7 @@ ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Worki
 - convenience yield -> 便利收益率。
 - basis-trade carry -> 基差交易套利收益。
 - congestion pricing 在交通政策语境中 -> 拥堵收费。
+- EMS / emergency medical services -> 急救服务或紧急医疗服务；EMS response time -> 急救服务响应时间。
 - travel speed -> 出行速度；travel time 改善应译为“时间缩短/减少”，不要译为“时间提高”。
 - cordon-based congestion pricing -> 区域收费式拥堵收费。
 - difference-in-discontinuities -> 差异中的不连续设计。
@@ -160,7 +161,7 @@ ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Worki
 - fiscal spillover -> 财政外溢；reclassification risk -> 重新分类风险。
 - dose-response relationship -> 剂量-反应关系；vital statistics -> 生命统计数据。
 - primary balance -> 基本财政余额；interest rate peg -> 利率钉住；default boundary -> 违约边界。
-- Qualified Small Business Stock -> 合格小企业股票；QSBS -> 合格小企业股票（QSBS）；bunching -> 扎堆或聚束；triple-differences -> 三重差分；holding-period requirement -> 持有期要求；co-invest -> 联合投资。
+- Qualified Small Business Stock -> 合格小企业股票；QSBS Program -> 合格小企业股票（QSBS）计划；bunching -> 扎堆或聚束；triple-differences -> 三重差分；holding-period requirement -> 持有期要求；co-invest -> 联合投资。
 - drug decriminalization -> 毒品非刑事化；overdose mortality -> 药物过量死亡；fentanyl-share control -> 芬太尼占比控制变量。
 - Imperial China -> 帝制中国；health-status gradient -> 健康-社会地位梯度。
 - patient selection -> 患者选择；capacity strain -> 容量压力；hospital congestion -> 医院拥挤或容量压力；distance instruments -> 距离工具变量。
@@ -1026,6 +1027,7 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
     replace_when("convenience yield", (("便利收益", "便利收益率"),))
 
     replace_when("congestion pricing", (("拥堵定价", "拥堵收费"),))
+    replace_when("ems", (("急救响应时间", "急救服务响应时间"),))
     replace_when("travel speeds", (("旅行速度", "出行速度"),))
     replace_when(
         "travel times",
@@ -1052,7 +1054,15 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
     replace_when("missing markets for opportunity", (("机会缺失市场", "机会市场缺失"), ("机会市场的缺失", "机会市场缺失")))
     replace_when("baby busts", (("婴儿荒潮", "生育低潮"), ("婴儿荒", "生育低潮")))
     replace_when("labor-saving", (("节省劳动力的", "劳动节约型"),))
-    replace_when("qsbs", (("来自QSBS计划", "来自合格小企业股票（QSBS）计划"), ("QSBS计划", "合格小企业股票（QSBS）计划")))
+    replace_when(
+        "qsbs",
+        (
+            ("来自QSBS计划", "来自合格小企业股票（QSBS）计划"),
+            ("QSBS计划", "合格小企业股票（QSBS）计划"),
+            ("来自合格小企业股票计划", "来自合格小企业股票（QSBS）计划"),
+            ("合格小企业股票计划", "合格小企业股票（QSBS）计划"),
+        ),
+    )
     replace_when("drug decriminalization", (("药物非刑事化", "毒品非刑事化"), ("药物逮捕", "毒品逮捕")))
     replace_when("overdose", (("过量用药事件", "药物过量事件"), ("过量死亡", "药物过量死亡")))
     replace_when("imperial china", (("帝国中国", "帝制中国"),))
