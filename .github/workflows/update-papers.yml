@@ -3,7 +3,9 @@ name: Update NBER papers
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 2"
+    # GitHub cron uses UTC. These are Monday 13:00 and 18:00 in Asia/Shanghai.
+    - cron: "0 5 * * 1"
+    - cron: "0 10 * * 1"
 
 permissions:
   contents: write
