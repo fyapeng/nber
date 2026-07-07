@@ -252,41 +252,6 @@ main,
   font-size: 0.94rem;
 }
 
-.translation-status {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 18px 0;
-}
-
-.status-pill {
-  display: inline-flex;
-  align-items: center;
-  min-height: 28px;
-  padding: 4px 10px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  font-size: 0.84rem;
-  font-weight: 700;
-}
-
-.status-pill.is-success {
-  color: #0f5132;
-  background: #edf8f2;
-  border-color: #c7ead7;
-}
-
-.status-pill.is-warning {
-  color: #7c2d12;
-  background: #fff7ed;
-  border-color: #fed7aa;
-}
-
-.status-pill.is-muted {
-  color: #4b5563;
-  background: #f3f4f6;
-}
-
 .abstract-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

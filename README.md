@@ -219,6 +219,18 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 - 检查 `KIMI_API_KEY` 是否配置。
 - 脚本会保留英文原文，并在 `translation_status` 中记录失败或跳过状态。
 
+## 翻译质量
+
+翻译提示词内置了经济学术语约束，尽量使用中文经济学文献中的通行译法，例如：
+
+- `Ricardian equivalence` 译为“李嘉图等价”。
+- `aggregate demand` 译为“总需求”。
+- `Importing Aggregate Demand` 译为“输入总需求”。
+- `marginal propensity to consume` 译为“边际消费倾向”。
+- `state-dependent pricing` 译为“状态依赖定价”。
+
+脚本也会对少量高频错译做确定性修正。翻译缓存 key 包含提示词版本；如果术语表或提示词升级，下一次更新会重新翻译，而不是继续复用旧缓存。
+
 ## 免责声明
 
 论文内容来自 NBER。中文标题和中文摘要由 Kimi API 自动生成，仅供快速浏览参考；正式引用、研究判断和学术表达请以 NBER 原文为准。

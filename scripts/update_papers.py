@@ -85,6 +85,41 @@ ABSTRACT_SELECTORS = (
 MAX_TRANSLATION_WORKERS = 2
 TRANSLATION_ATTEMPTS = 3
 BACKOFF_SECONDS = (2, 5, 10)
+TRANSLATION_PROMPT_VERSION = "econ-zh-v2"
+ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Working Papers 的中文翻译助手。
+请使用中国大陆经济学学术写作中常见、准确、克制的译法。只输出译文，不要添加解释、标题、引号或项目符号。
+
+翻译原则：
+1. 优先准确传达经济学含义，不做软件、日常口语或新闻化误译。
+2. 论文标题译成简洁的学术标题；摘要译成自然的中文学术段落。
+3. 保留作者名、模型名、数据集名、缩写和必要专有名词。
+4. 不确定的专有概念宁可保留英文括注，也不要生造术语。
+5. 同一段内术语保持一致。
+
+术语约束：
+- Ricardian equivalence -> 李嘉图等价；不要译为“里卡多等价”。
+- David Ricardo -> 大卫·李嘉图。
+- aggregate demand -> 总需求。
+- aggregate supply -> 总供给。
+- importing/import 在国际贸易、开放宏观或需求传导语境中译为“进口”或“输入”，不要译为“导入”。标题 Importing Aggregate Demand 译为“输入总需求”。
+- real exchange rate appreciation -> 实际汇率升值。
+- marginal propensity to consume -> 边际消费倾向。
+- financial market imperfections -> 金融市场不完全性。
+- incomplete markets -> 不完全市场。
+- state-dependent pricing -> 状态依赖定价。
+- strategic complementarities -> 策略互补性。
+- fiscal stimulus -> 财政刺激。
+- monetary easing -> 货币宽松。
+- monetary tightening -> 货币紧缩。
+- contractionary policy -> 收缩性政策。
+- spending effect -> 支出效应。
+- quantity response -> 数量反应或数量调整。
+- price adjustment -> 价格调整。
+- flexible-price equilibrium -> 灵活价格均衡。
+- open economies -> 开放经济体。
+- global demand shocks -> 全球需求冲击。
+- idiosyncratic risk -> 个体特异性风险。
+"""
 IMAP_ENV_VARS = (
     "NBER_EMAIL_IMAP_HOST",
     "NBER_EMAIL_IMAP_PORT",
@@ -823,6 +858,7 @@ def build_records(
                     "abstract": "pending",
                 },
                 "translation_error": None,
+                "translation_prompt_version": TRANSLATION_PROMPT_VERSION,
                 "fetched_at": fetched_at,
             }
         )
@@ -861,7 +897,33 @@ def refine_to_latest_public_date(
 
 def make_cache_key(paper_id: str, field: str, source_text: str) -> str:
     digest = hashlib.sha256(source_text.encode("utf-8")).hexdigest()
-    return f"{paper_id}:{field}:{digest}"
+    return f"{TRANSLATION_PROMPT_VERSION}:{paper_id}:{field}:{digest}"
+
+
+def apply_translation_rules(source_text: str, translated: str) -> str:
+    text = translated.strip()
+    source_lower = source_text.lower()
+
+    if "ricardian equivalence" in source_lower:
+        text = text.replace("里卡多等价定理", "李嘉图等价定理")
+        text = text.replace("里卡多等价", "李嘉图等价")
+
+    if source_text.strip().lower() == "importing aggregate demand":
+        text = "输入总需求"
+    elif "importing aggregate demand" in source_lower:
+        text = text.replace("导入总需求", "输入总需求")
+
+    if "spending effect" in source_lower:
+        text = text.replace("消费效应", "支出效应")
+
+    if "state-dependent pricing" in source_lower:
+        text = text.replace("依赖状态定价", "状态依赖定价")
+
+    if "financial market imperfections" in source_lower:
+        text = text.replace("全球金融市场的不完善", "全球金融市场不完全性")
+        text = text.replace("金融市场的不完善", "金融市场不完全性")
+
+    return text
 
 
 def seed_cache_from_existing(cache: dict[str, Any], existing_papers: list[dict[str, Any]]) -> int:
@@ -869,6 +931,8 @@ def seed_cache_from_existing(cache: dict[str, Any], existing_papers: list[dict[s
     for paper in existing_papers:
         paper_id = str(paper.get("id") or "")
         if not paper_id:
+            continue
+        if paper.get("translation_prompt_version") != TRANSLATION_PROMPT_VERSION:
             continue
         status = paper.get("translation_status") or {}
         for field, translated_field in (("title", "title_cn"), ("abstract", "abstract_cn")):
@@ -883,6 +947,7 @@ def seed_cache_from_existing(cache: dict[str, Any], existing_papers: list[dict[s
                 cache[key] = {
                     "translation": translated,
                     "model": "seeded-from-existing-data",
+                    "prompt_version": TRANSLATION_PROMPT_VERSION,
                     "updated_at": utc_now_iso(),
                 }
                 seeded += 1
@@ -922,16 +987,16 @@ class TranslationService:
                     messages=[
                         {
                             "role": "system",
-                            "content": (
-                                "你是专业的经济学论文翻译助手。请把英文内容准确、流畅地翻译为中文；"
-                                "只输出译文，不要添加解释、标题或项目符号。"
-                            ),
+                            "content": ECON_TRANSLATION_SYSTEM_PROMPT,
                         },
-                        {"role": "user", "content": source_text},
+                        {
+                            "role": "user",
+                            "content": f"请翻译以下 NBER 论文{'标题' if field == 'title' else '摘要'}：\n\n{source_text}",
+                        },
                     ],
-                    temperature=0.2,
+                    temperature=0.1,
                 )
-                translated = (response.choices[0].message.content or "").strip()
+                translated = apply_translation_rules(source_text, response.choices[0].message.content or "")
                 if not translated:
                     raise RuntimeError("empty translation response")
                 return TranslationResult(
@@ -942,6 +1007,7 @@ class TranslationService:
                     {
                         "translation": translated,
                         "model": self.model,
+                        "prompt_version": TRANSLATION_PROMPT_VERSION,
                         "updated_at": utc_now_iso(),
                     },
                 )

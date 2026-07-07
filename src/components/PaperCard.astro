@@ -24,20 +24,6 @@ const authors = Array.isArray(paper.authors) && paper.authors.length ? paper.aut
 const status = paper.translation_status || {};
 const titleStatus = status.title || "unknown";
 const abstractStatus = status.abstract || "unknown";
-const statusLabels: Record<string, string> = {
-  success: "翻译完成",
-  failed: "翻译未完成",
-  skipped_no_api_key: "未配置 API key",
-  skipped_dry_run: "Dry run 未翻译",
-  skipped_empty: "无内容可翻译",
-  pending: "待翻译",
-  unknown: "状态未知",
-};
-const statusClass = (value: string) => {
-  if (value === "success") return "status-pill is-success";
-  if (value === "failed") return "status-pill is-warning";
-  return "status-pill is-muted";
-};
 const titleCn = paper.title_cn || paper.title;
 const abstractEn = paper.abstract || "No abstract available.";
 const abstractCn = paper.abstract_cn || paper.abstract || "暂无摘要。";
@@ -57,11 +43,6 @@ const searchText = [paper.title, titleCn, authors, abstractEn, abstractCn, paper
       <p class="paper-authors">{authors}</p>
     </div>
   </header>
-
-  <div class="translation-status" aria-label="翻译状态">
-    <span class={statusClass(titleStatus)}>标题：{statusLabels[titleStatus] || titleStatus}</span>
-    <span class={statusClass(abstractStatus)}>摘要：{statusLabels[abstractStatus] || abstractStatus}</span>
-  </div>
 
   <div class="abstract-grid">
     <section class="abstract-block abstract-block--en">
