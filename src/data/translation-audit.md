@@ -1,6 +1,6 @@
 # Translation Audit
 
-- Generated at: `2026-07-07T07:39:24Z`
+- Generated at: `2026-07-07T07:41:17Z`
 - Paper count: `34`
 - Glossary version: `econ-zh-v5-d82fa5f80c`
 - Suspect translation hits: `0`
