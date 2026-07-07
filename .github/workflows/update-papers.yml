@@ -37,6 +37,10 @@ jobs:
       - name: Update paper data
         env:
           KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+          NBER_EMAIL_IMAP_HOST: ${{ secrets.NBER_EMAIL_IMAP_HOST }}
+          NBER_EMAIL_IMAP_PORT: ${{ secrets.NBER_EMAIL_IMAP_PORT }}
+          NBER_EMAIL_IMAP_USER: ${{ secrets.NBER_EMAIL_IMAP_USER }}
+          NBER_EMAIL_IMAP_PASSWORD: ${{ secrets.NBER_EMAIL_IMAP_PASSWORD }}
         run: python scripts/update_papers.py --require-api-key
 
       - name: Commit data changes

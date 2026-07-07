@@ -2,17 +2,25 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures
+import email
 import hashlib
+import html
+import imaplib
 import json
 import logging
 import os
 import re
+import ssl
 import sys
 import time
+from collections import deque
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from email import policy, utils
+from email.header import decode_header, make_header
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qs, unquote, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -25,6 +33,7 @@ PAPERS_PATH = DATA_DIR / "papers.json"
 ARCHIVE_PATH = DATA_DIR / "archive.json"
 META_PATH = DATA_DIR / "update-meta.json"
 CACHE_PATH = DATA_DIR / "translation-cache.json"
+ENV_PATH = ROOT / ".env"
 
 NBER_API_URL = "https://www.nber.org/api/v1/working_page_listing/contentType/working_paper/_/_/search"
 NBER_ORIGIN = "https://www.nber.org"
@@ -47,6 +56,19 @@ PUBLICATION_META_NAMES = (
     "date",
 )
 
+TITLE_META_NAMES = (
+    "citation_title",
+    "DC.Title",
+    "og:title",
+    "twitter:title",
+)
+
+AUTHOR_META_NAMES = (
+    "citation_author",
+    "DC.Creator",
+    "author",
+)
+
 ABSTRACT_SELECTORS = (
     "div.page-header__intro-inner",
     "div.page-header__intro",
@@ -63,13 +85,31 @@ ABSTRACT_SELECTORS = (
 MAX_TRANSLATION_WORKERS = 2
 TRANSLATION_ATTEMPTS = 3
 BACKOFF_SECONDS = (2, 5, 10)
+IMAP_ENV_VARS = (
+    "NBER_EMAIL_IMAP_HOST",
+    "NBER_EMAIL_IMAP_PORT",
+    "NBER_EMAIL_IMAP_USER",
+    "NBER_EMAIL_IMAP_PASSWORD",
+)
+DEFAULT_EMAIL_LOOKBACK = 100
 
 
 @dataclass(frozen=True)
 class DetailResult:
+    title: str | None
+    authors: list[str]
     abstract: str
     public_date: str | None
     notes: list[str]
+
+
+@dataclass(frozen=True)
+class EmailSourceResult:
+    candidates: list[dict[str, Any]]
+    batch_date: str | None
+    message_id: str
+    subject: str
+    link_count: int
 
 
 @dataclass(frozen=True)
@@ -83,6 +123,35 @@ class TranslationResult:
 
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def load_local_env(path: Path = ENV_PATH) -> None:
+    if not path.exists():
+        return
+
+    with path.open("r", encoding="utf-8-sig") as handle:
+        for line_number, raw_line in enumerate(handle, start=1):
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if line.startswith("export "):
+                line = line[len("export ") :].strip()
+            if "=" not in line:
+                logging.warning("Ignoring malformed .env line %s.", line_number)
+                continue
+
+            key, value = line.split("=", 1)
+            key = key.strip()
+            if not re.match(r"^[A-Za-z_][A-Za-z0-9_]*$", key):
+                logging.warning("Ignoring .env line %s with invalid variable name.", line_number)
+                continue
+            if key in os.environ:
+                continue
+
+            value = value.strip()
+            if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+                value = value[1:-1]
+            os.environ[key] = value
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -204,6 +273,295 @@ def fetch_listing(session: requests.Session, per_page: int) -> dict[str, Any]:
         raise RuntimeError(f"NBER listing response is not valid JSON: {exc}") from exc
 
 
+def imap_config_from_env() -> tuple[str, int, str, str]:
+    missing = [name for name in IMAP_ENV_VARS if not os.environ.get(name)]
+    if missing:
+        raise RuntimeError(f"Missing required IMAP environment variables: {', '.join(missing)}")
+
+    host = os.environ["NBER_EMAIL_IMAP_HOST"].strip()
+    user = os.environ["NBER_EMAIL_IMAP_USER"].strip()
+    password = os.environ["NBER_EMAIL_IMAP_PASSWORD"]
+    port_text = os.environ["NBER_EMAIL_IMAP_PORT"].strip()
+
+    try:
+        port = int(port_text)
+    except ValueError as exc:
+        raise RuntimeError("NBER_EMAIL_IMAP_PORT must be an integer.") from exc
+
+    if not 1 <= port <= 65535:
+        raise RuntimeError("NBER_EMAIL_IMAP_PORT must be between 1 and 65535.")
+    if not host:
+        raise RuntimeError("NBER_EMAIL_IMAP_HOST must not be empty.")
+    if not user:
+        raise RuntimeError("NBER_EMAIL_IMAP_USER must not be empty.")
+    if not password:
+        raise RuntimeError("NBER_EMAIL_IMAP_PASSWORD must not be empty.")
+
+    return host, port, user, password
+
+
+def has_imap_config() -> bool:
+    return all(os.environ.get(name) for name in IMAP_ENV_VARS)
+
+
+def positive_int_from_env(name: str, default: int) -> int:
+    value = os.environ.get(name)
+    if not value:
+        return default
+    try:
+        parsed = int(value)
+    except ValueError:
+        logging.warning("%s must be an integer; using %s.", name, default)
+        return default
+    return max(1, parsed)
+
+
+def test_email_login() -> None:
+    host, port, user, password = imap_config_from_env()
+    context = ssl.create_default_context()
+    mailbox: imaplib.IMAP4_SSL | None = None
+
+    try:
+        mailbox = imaplib.IMAP4_SSL(host, port, ssl_context=context, timeout=30)
+        print(f"IMAP SSL connection successful: {host}:{port}")
+
+        status, _ = mailbox.login(user, password)
+        if status != "OK":
+            raise RuntimeError(f"IMAP login returned status {status}.")
+        print("IMAP login successful.")
+
+        status, data = mailbox.select("INBOX", readonly=True)
+        if status != "OK":
+            raise RuntimeError(f"INBOX select returned status {status}.")
+        count = data[0].decode("ascii", errors="replace") if data and data[0] else "0"
+        print(f"INBOX message count: {count}")
+    finally:
+        if mailbox is not None:
+            try:
+                mailbox.logout()
+            except imaplib.IMAP4.error:
+                pass
+
+
+def decode_mime_header(value: str | None) -> str:
+    if not value:
+        return ""
+    try:
+        return str(make_header(decode_header(value)))
+    except Exception:  # noqa: BLE001 - keep malformed message headers from aborting a run.
+        return value
+
+
+def normalize_email_date(value: str | None) -> str | None:
+    if not value:
+        return None
+    try:
+        parsed = utils.parsedate_to_datetime(value)
+    except (TypeError, ValueError, IndexError, OverflowError):
+        return normalize_date(value)
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc).date().isoformat()
+
+
+def batch_date_from_email(subjects: list[str], fallback_date_header: str | None) -> str | None:
+    for subject in subjects:
+        match = re.search(r"\((\d{4}-\d{2}-\d{2})\)", subject)
+        if match:
+            return match.group(1)
+        match = re.search(r"\b(\d{4}-\d{2}-\d{2})\b", subject)
+        if match:
+            return match.group(1)
+    return normalize_email_date(fallback_date_header)
+
+
+def expand_encoded_text(value: str) -> str:
+    current = value
+    for _ in range(5):
+        expanded = html.unescape(unquote(current))
+        if expanded == current:
+            break
+        current = expanded
+    return current
+
+
+def part_text(part: email.message.Message) -> str:
+    try:
+        content = part.get_content()
+        return content if isinstance(content, str) else str(content)
+    except Exception:  # noqa: BLE001 - handle unusual charsets and malformed MIME parts.
+        payload = part.get_payload(decode=True)
+        if not payload:
+            return ""
+        charset = part.get_content_charset() or "utf-8"
+        return payload.decode(charset, errors="replace")
+
+
+def nested_messages_from_part(part: email.message.Message) -> list[email.message.Message]:
+    content_type = part.get_content_type()
+    if content_type == "message/rfc822":
+        payload = part.get_payload()
+        if isinstance(payload, list):
+            return [item for item in payload if isinstance(item, email.message.Message)]
+
+    payload_bytes = part.get_payload(decode=True)
+    if not payload_bytes:
+        return []
+
+    filename = decode_mime_header(part.get_filename())
+    looks_like_eml = filename.lower().endswith(".eml") or content_type in {
+        "application/octet-stream",
+        "message/rfc822",
+    }
+    if not looks_like_eml:
+        return []
+    if b"Subject:" not in payload_bytes[:10000] and b"Content-Type:" not in payload_bytes[:10000]:
+        return []
+
+    try:
+        return [email.message_from_bytes(payload_bytes, policy=policy.default)]
+    except Exception:  # noqa: BLE001 - ignore bad attachments and continue with visible body text.
+        return []
+
+
+def collect_email_text(message: email.message.Message) -> tuple[list[str], list[str], list[str]]:
+    texts: list[str] = []
+    subjects: list[str] = []
+    attachments: list[str] = []
+    queue: deque[email.message.Message] = deque([message])
+
+    while queue:
+        current = queue.popleft()
+        subject = decode_mime_header(current.get("Subject"))
+        if subject:
+            subjects.append(subject)
+
+        for part in current.walk():
+            if part.get_content_maintype() == "multipart":
+                continue
+
+            filename = decode_mime_header(part.get_filename())
+            if filename:
+                attachments.append(filename)
+
+            if part.get_content_type() in {"text/plain", "text/html"}:
+                text = part_text(part)
+                if text:
+                    texts.append(text)
+
+            queue.extend(nested_messages_from_part(part))
+
+    return texts, subjects, attachments
+
+
+def extract_paper_links_from_text(text: str) -> list[str]:
+    expanded = expand_encoded_text(text)
+    candidates: list[str] = []
+    candidates.extend(re.findall(r"https?://[^\s<>'\")]+", expanded, flags=re.IGNORECASE))
+    candidates.extend(re.findall(r"href=[\"']([^\"']+)[\"']", expanded, flags=re.IGNORECASE))
+
+    links: list[str] = []
+    index = 0
+    while index < len(candidates):
+        raw = expand_encoded_text(candidates[index]).rstrip(".,;])}")
+        index += 1
+
+        parsed = urlparse(raw)
+        for values in parse_qs(parsed.query).values():
+            for value in values:
+                if "nber" in value.lower() or "/papers/" in value.lower():
+                    candidates.append(value)
+
+        match = re.search(r"(?:https?://(?:www\.)?nber\.org)?/papers/(w\d+)", raw, flags=re.IGNORECASE)
+        if match:
+            url = f"{NBER_ORIGIN}/papers/{match.group(1).lower()}"
+            if url not in links:
+                links.append(url)
+
+    for paper_id in re.findall(r"\bw\d{4,6}\b", expanded, flags=re.IGNORECASE):
+        url = f"{NBER_ORIGIN}/papers/{paper_id.lower()}"
+        if url not in links:
+            links.append(url)
+
+    return links
+
+
+def fetch_email_candidates(lookback: int = DEFAULT_EMAIL_LOOKBACK) -> EmailSourceResult:
+    host, port, user, password = imap_config_from_env()
+    mailbox_name = os.environ.get("NBER_EMAIL_IMAP_MAILBOX", "INBOX")
+    context = ssl.create_default_context()
+    mailbox: imaplib.IMAP4_SSL | None = None
+
+    try:
+        mailbox = imaplib.IMAP4_SSL(host, port, ssl_context=context, timeout=30)
+        status, _ = mailbox.login(user, password)
+        if status != "OK":
+            raise RuntimeError(f"IMAP login returned status {status}.")
+
+        status, _ = mailbox.select(mailbox_name, readonly=True)
+        if status != "OK":
+            raise RuntimeError(f"IMAP mailbox select returned status {status}.")
+
+        status, ids_data = mailbox.search(None, "ALL")
+        if status != "OK":
+            raise RuntimeError(f"IMAP search returned status {status}.")
+        message_ids = ids_data[0].split() if ids_data and ids_data[0] else []
+
+        for message_id in reversed(message_ids[-lookback:]):
+            status, header_data = mailbox.fetch(message_id, "(BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)])")
+            if status != "OK":
+                continue
+            header_bytes = b"".join(part[1] for part in header_data if isinstance(part, tuple) and part[1])
+            header = email.message_from_bytes(header_bytes, policy=policy.default)
+            subject = decode_mime_header(header.get("Subject"))
+            sender = decode_mime_header(header.get("From"))
+            date_header = decode_mime_header(header.get("Date"))
+
+            if not re.search(r"nber|working paper|research", f"{subject}\n{sender}", flags=re.IGNORECASE):
+                continue
+
+            status, full_data = mailbox.fetch(message_id, "(BODY.PEEK[])")
+            if status != "OK":
+                continue
+            raw_message = b"".join(part[1] for part in full_data if isinstance(part, tuple) and part[1])
+            message = email.message_from_bytes(raw_message, policy=policy.default)
+            texts, subjects, attachments = collect_email_text(message)
+            links = extract_paper_links_from_text("\n".join(texts))
+
+            if not links:
+                logging.info("NBER-like email %s had no paper links: %s", message_id.decode("ascii", "replace"), subject)
+                continue
+
+            logging.info(
+                "Selected %s paper links from email %s: %s",
+                len(links),
+                message_id.decode("ascii", "replace"),
+                subject,
+            )
+            if attachments:
+                logging.info("Parsed email attachments: %s", ", ".join(dict.fromkeys(attachments)))
+            if len(subjects) > 1:
+                logging.info("Parsed nested email subjects: %s", " | ".join(dict.fromkeys(subjects)))
+
+            batch_date = batch_date_from_email(subjects or [subject], date_header)
+            return EmailSourceResult(
+                candidates=[{"url": link, "source": "email", "public_date": batch_date} for link in links],
+                batch_date=batch_date,
+                message_id=message_id.decode("ascii", "replace"),
+                subject=subject,
+                link_count=len(links),
+            )
+
+    finally:
+        if mailbox is not None:
+            try:
+                mailbox.logout()
+            except imaplib.IMAP4.error:
+                pass
+
+    raise RuntimeError(f"No NBER email with paper links found in the latest {lookback} {mailbox_name} messages.")
+
+
 def extract_results(api_data: dict[str, Any]) -> list[dict[str, Any]]:
     results = api_data.get("results")
     if isinstance(results, list):
@@ -313,6 +671,58 @@ def meta_content(soup: BeautifulSoup, name: str) -> str:
     return str(tag.get("content") or "").strip()
 
 
+def meta_contents(soup: BeautifulSoup, name: str) -> list[str]:
+    values: list[str] = []
+    for attrs in ({"name": name}, {"property": name}):
+        for tag in soup.find_all("meta", attrs=attrs):
+            text = str(tag.get("content") or "").strip()
+            if text and text not in values:
+                values.append(text)
+    return values
+
+
+def extract_detail_title(soup: BeautifulSoup) -> str | None:
+    for name in TITLE_META_NAMES:
+        title = clean_text(meta_content(soup, name))
+        if title:
+            return re.sub(r"\s*\|\s*NBER.*$", "", title, flags=re.IGNORECASE).strip()
+
+    for selector in ("h1.page-header__title", "h1"):
+        node = soup.select_one(selector)
+        if node:
+            title = clean_text(node.get_text(" ", strip=True))
+            if title:
+                return title
+    return None
+
+
+def extract_detail_authors(soup: BeautifulSoup) -> list[str]:
+    authors: list[str] = []
+    for name in AUTHOR_META_NAMES:
+        for value in meta_contents(soup, name):
+            author = clean_text(value)
+            if author and author not in authors:
+                authors.append(author)
+
+    if authors:
+        return authors
+
+    for selector in (
+        ".page-header__authors a",
+        ".page-header__authors",
+        ".field--name-field-paper-authors a",
+        ".field--name-field-paper-authors",
+    ):
+        for node in soup.select(selector):
+            author = clean_text(node.get_text(" ", strip=True))
+            if author and author not in authors:
+                authors.append(author)
+        if authors:
+            return authors
+
+    return []
+
+
 def extract_abstract(soup: BeautifulSoup, paper_id: str) -> tuple[str, str | None]:
     primary_selector = ABSTRACT_SELECTORS[0]
     primary_node = soup.select_one(primary_selector)
@@ -345,9 +755,11 @@ def fetch_detail(session: requests.Session, paper_id: str, url: str) -> DetailRe
         response.raise_for_status()
     except requests.RequestException as exc:
         logging.warning("Detail request failed for %s: %s", paper_id, exc)
-        return DetailResult("", None, [f"{paper_id}: detail request failed: {exc}"])
+        return DetailResult(None, [], "", None, [f"{paper_id}: detail request failed: {exc}"])
 
     soup = BeautifulSoup(response.text, "html.parser")
+    title = extract_detail_title(soup)
+    authors = extract_detail_authors(soup)
 
     public_date = None
     for name in PUBLICATION_META_NAMES:
@@ -362,7 +774,7 @@ def fetch_detail(session: requests.Session, paper_id: str, url: str) -> DetailRe
     if not abstract:
         notes.append(f"{paper_id}: abstract not found; keeping an empty abstract.")
 
-    return DetailResult(abstract, public_date, notes)
+    return DetailResult(title, authors, abstract, public_date, notes)
 
 
 def build_records(
@@ -376,7 +788,7 @@ def build_records(
     for index, paper in enumerate(candidates, start=1):
         url = absolute_url(paper.get("url"))
         paper_id = paper_id_from_url(url, paper)
-        title = clean_text(paper.get("title")) or paper_id
+        api_title = clean_text(paper.get("title"))
         authors = parse_authors(paper.get("authors"))
         _, _, list_date = first_date_info(paper)
         api_abstract = clean_text(paper.get("abstract"))
@@ -384,6 +796,13 @@ def build_records(
         logging.info("Fetching detail page %s/%s: %s", index, len(candidates), paper_id)
         detail = fetch_detail(session, paper_id, url)
         notes.extend(detail.notes)
+
+        title = api_title or detail.title or paper_id
+        if not api_title and detail.title:
+            notes.append(f"{paper_id}: used title from the detail page.")
+        if authors == ["Unknown authors"] and detail.authors:
+            authors = detail.authors
+            notes.append(f"{paper_id}: used authors from the detail page.")
 
         abstract = detail.abstract or api_abstract
         if not detail.abstract and api_abstract:
@@ -421,7 +840,7 @@ def refine_to_latest_public_date(
             record["public_date"] = date_value
             date_groups.setdefault(date_value, []).append(record)
 
-    if selection_mode == "newthisweek":
+    if selection_mode in {"newthisweek", "email"}:
         batch_date = max(date_groups, key=date_sort_key, default=initial_batch_date)
         return records, batch_date
 
@@ -580,7 +999,13 @@ def translate_records(
     return cache_updates
 
 
-def build_meta(records: list[dict[str, Any]], batch_date: str, fetched_at: str, notes: list[str]) -> dict[str, Any]:
+def build_meta(
+    records: list[dict[str, Any]],
+    batch_date: str,
+    fetched_at: str,
+    notes: list[str],
+    source_mode: str,
+) -> dict[str, Any]:
     failed_count = 0
     skipped_count = 0
     for record in records:
@@ -597,7 +1022,8 @@ def build_meta(records: list[dict[str, Any]], batch_date: str, fetched_at: str, 
 
     return {
         "last_updated": fetched_at,
-        "source": "NBER",
+        "source": "NBER Email" if source_mode == "email" else "NBER",
+        "source_mode": source_mode,
         "source_url": SOURCE_URL,
         "batch_date": batch_date,
         "paper_count": len(records),
@@ -627,6 +1053,19 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Fetch NBER Working Papers and write Astro JSON data.")
     parser.add_argument("--dry-run", action="store_true", help="Fetch papers and use cache only; do not call Kimi or write files.")
     parser.add_argument("--require-api-key", action="store_true", help="Exit with an error if KIMI_API_KEY is missing.")
+    parser.add_argument("--test-email-login", action="store_true", help="Connect to IMAP, log in, and report the INBOX count.")
+    parser.add_argument(
+        "--source",
+        choices=("auto", "email", "api"),
+        default=os.environ.get("NBER_SOURCE", "auto"),
+        help="Paper source: email first with API fallback, email only, or API only.",
+    )
+    parser.add_argument(
+        "--email-lookback",
+        type=int,
+        default=positive_int_from_env("NBER_EMAIL_IMAP_LOOKBACK", DEFAULT_EMAIL_LOOKBACK),
+        help="Number of recent IMAP messages to inspect when using the email source.",
+    )
     parser.add_argument("--per-page", type=int, default=50, help="Number of NBER listing results to fetch.")
     parser.add_argument("--model", default=os.environ.get("KIMI_MODEL", "moonshot-v1-8k"), help="Kimi model name.")
     parser.add_argument(
@@ -640,7 +1079,17 @@ def parse_args() -> argparse.Namespace:
 
 def run() -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+    load_local_env()
     args = parse_args()
+
+    if args.test_email_login:
+        try:
+            test_email_login()
+        except (OSError, imaplib.IMAP4.error, RuntimeError) as exc:
+            logging.error("IMAP login test failed: %s", exc)
+            return 1
+        return 0
+
     api_key = os.environ.get("KIMI_API_KEY")
 
     if args.require_api_key and not api_key:
@@ -654,12 +1103,43 @@ def run() -> int:
 
     fetched_at = utc_now_iso()
     session = build_session()
-    api_data = fetch_listing(session, args.per_page)
-    papers = extract_results(api_data)
-    log_api_shape(api_data, papers)
+    notes: list[str] = []
+    source_mode = "api"
+    candidates: list[dict[str, Any]] | None = None
+    selection_mode = "api"
+    initial_batch_date: str | None = None
 
-    candidates, selection_mode, initial_batch_date = select_candidate_batch(papers)
-    records, notes = build_records(session, candidates, fetched_at)
+    if args.source in {"auto", "email"}:
+        if has_imap_config():
+            try:
+                email_result = fetch_email_candidates(max(1, args.email_lookback))
+                candidates = email_result.candidates
+                selection_mode = "email"
+                initial_batch_date = email_result.batch_date
+                source_mode = "email"
+                notes.append(
+                    f"Selected {email_result.link_count} paper links from IMAP email "
+                    f"{email_result.message_id}: {email_result.subject}"
+                )
+            except Exception as exc:  # noqa: BLE001 - auto mode should fall back to the public API.
+                if args.source == "email":
+                    raise
+                logging.warning("Email source failed; falling back to NBER API: %s", exc)
+                notes.append(f"Email source failed; used API fallback: {exc}")
+        elif args.source == "email":
+            raise RuntimeError(f"Email source requested but missing IMAP environment variables: {', '.join(IMAP_ENV_VARS)}")
+        else:
+            logging.info("IMAP environment variables are not fully set; using NBER API.")
+            notes.append("IMAP environment variables were not fully set; used API fallback.")
+
+    if candidates is None:
+        api_data = fetch_listing(session, args.per_page)
+        papers = extract_results(api_data)
+        log_api_shape(api_data, papers)
+        candidates, selection_mode, initial_batch_date = select_candidate_batch(papers)
+
+    records, record_notes = build_records(session, candidates, fetched_at)
+    notes.extend(record_notes)
     records, batch_date = refine_to_latest_public_date(records, selection_mode, initial_batch_date)
 
     if not records:
@@ -679,7 +1159,7 @@ def run() -> int:
     cache_updates = translate_records(records, cache, api_key, args.dry_run, args.model, args.translation_workers)
     cache.update(cache_updates)
 
-    meta = build_meta(records, batch_date, fetched_at, notes)
+    meta = build_meta(records, batch_date, fetched_at, notes, source_mode)
     logging.info(
         "Prepared %s papers for batch %s; failed translation fields: %s.",
         meta["paper_count"],
