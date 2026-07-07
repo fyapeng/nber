@@ -1556,10 +1556,10 @@
     "updated_at": "2026-07-07T07:11:15Z"
   },
   "econ-zh-v4:w35409:title:4be17619af32e40ed400f51d5925662913876d0f5a371e239a8a8ca142bc4e65": {
-    "translation": "疫情期间及之后的种族教育差异：2025年前的康涅狄格州证据",
+    "translation": "疫情期间及之后的种族教育差异：截至2025年的康涅狄格州证据",
     "model": "moonshot-v1-8k",
     "prompt_version": "econ-zh-v4",
-    "updated_at": "2026-07-07T07:11:15Z"
+    "updated_at": "2026-07-07T07:15:32Z"
   },
   "econ-zh-v4:w35407:title:eae244bdc0824e0bf5d38b54b0d723432ded1f9829a67779312af890111420de": {
     "translation": "重新评估标准化考试在大学招生中的作用",
