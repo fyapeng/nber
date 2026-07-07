@@ -85,7 +85,7 @@ ABSTRACT_SELECTORS = (
 MAX_TRANSLATION_WORKERS = 2
 TRANSLATION_ATTEMPTS = 3
 BACKOFF_SECONDS = (2, 5, 10)
-TRANSLATION_PROMPT_VERSION = "econ-zh-v2"
+TRANSLATION_PROMPT_VERSION = "econ-zh-v3"
 ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Working Papers 的中文翻译助手。
 请使用中国大陆经济学学术写作中常见、准确、克制的译法。只输出译文，不要添加解释、标题、引号或项目符号。
 
@@ -97,10 +97,20 @@ ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Worki
 5. 同一段内术语保持一致。
 
 术语约束：
+- benefit-based taxation -> 基于受益原则的税收；不要译为“基于福利的税收”。
+- benefit principle -> 受益原则；welfare 才译为“福利”。
+- labor market -> 劳动力市场；不要译为“劳动市场”。
+- resume audit study / audit study -> 简历审计研究或审计研究；不要译为“简历审核研究”。
+- early childhood education -> 幼儿教育；不要译为“早期儿童教育”。
+- misspecified learning -> 错误设定学习。
+- marginal satisfaction from income -> 收入的边际满意度。
+- tractable model -> 易处理模型或可求解模型；不要译为“可处理模型”。
+- agents 在一般均衡或模型语境中 -> 经济主体；private agents -> 私人机构或私人经营者。
 - Ricardian equivalence -> 李嘉图等价；不要译为“里卡多等价”。
 - David Ricardo -> 大卫·李嘉图。
 - aggregate demand -> 总需求。
 - aggregate supply -> 总供给。
+- aggregate outcomes -> 总量结果；aggregate stabilization -> 总量稳定。
 - importing/import 在国际贸易、开放宏观或需求传导语境中译为“进口”或“输入”，不要译为“导入”。标题 Importing Aggregate Demand 译为“输入总需求”。
 - real exchange rate appreciation -> 实际汇率升值。
 - marginal propensity to consume -> 边际消费倾向。
@@ -111,6 +121,7 @@ ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Worki
 - fiscal stimulus -> 财政刺激。
 - monetary easing -> 货币宽松。
 - monetary tightening -> 货币紧缩。
+- quantitative easing -> 量化宽松；不要笼统译为“货币宽松”。
 - contractionary policy -> 收缩性政策。
 - spending effect -> 支出效应。
 - quantity response -> 数量反应或数量调整。
@@ -119,6 +130,43 @@ ECON_TRANSLATION_SYSTEM_PROMPT = """你是给经济学研究者阅读 NBER Worki
 - open economies -> 开放经济体。
 - global demand shocks -> 全球需求冲击。
 - idiosyncratic risk -> 个体特异性风险。
+- pass-through -> 传导；tariff pass-through -> 关税传导；exchange rate pass-through -> 汇率传导。
+- proxy / proxy variable -> 代理变量或替代变量；不要只译为“代理”。
+- producer currency pricing (PCP) -> 生产者货币定价；local/buyer currency pricing (LCP) -> 本地/买方货币定价；dominant currency pricing (DCP) -> 主导货币定价。
+- safe haven -> 避风港或避险资产；Digital Safe Havens -> 数字避风港。
+- yield-bearing dollar instruments -> 生息美元工具或计息美元工具。
+- total value locked -> 总锁仓价值（TVL）。
+- convenience yield -> 便利收益率。
+- basis-trade carry -> 基差交易套利收益。
+- congestion pricing 在交通政策语境中 -> 拥堵收费。
+- travel speed -> 出行速度；travel time 改善应译为“时间缩短/减少”，不要译为“时间提高”。
+- cordon-based congestion pricing -> 区域收费式拥堵收费。
+- difference-in-discontinuities -> 差异中的不连续设计。
+- occupational licensing -> 职业许可；licensing prevalence -> 职业许可覆盖率；licensing wage premium -> 持证工资溢价。
+- inflation surprise -> 通胀意外冲击；inflation targeting -> 通胀目标制。
+- Medicaid enrollment -> Medicaid/医疗补助参保人数；continuous coverage requirement -> 连续覆盖要求；unwinding -> 解除或退出连续覆盖。
+- morbidity valuation -> 患病损失估值或疾病负担估值；cost-of-illness -> 疾病成本法；Quality-Adjusted Life Years -> 质量调整生命年；value of statistical life -> 统计生命价值。
+- certification markets with externalities -> 具有外部性的认证市场。
+- markets with externalities -> 具有外部性的市场。
+- smog and safety checks -> 尾气与安全检测。
+- misreporting -> 虚报或错报。
+- standardized tests -> 标准化考试；test-aware / test-blind models -> 纳入考试信息/不纳入考试信息的模型。
+- effect size -> 效应大小；selectivity bias -> 选择性偏差；meta-analysis -> 元分析；evidence aggregation -> 证据整合。
+- stepping-on-a-rake effect -> “踩耙子”效应；可以保留英文括注。
+- temporal variety -> 时间多样性；monetary equivalent -> 货币等价值。
+- missing markets for opportunity -> 机会市场缺失；place-based policies -> 基于地点的政策。
+- baby busts -> 生育低潮；completed cohort fertility -> 完成队列生育率；labor-saving -> 劳动节约型。
+- second-best -> 次优；ex ante -> 事前；ex post -> 事后；actuarially fair -> 精算公平；moral hazard -> 道德风险。
+- fiscal spillover -> 财政外溢；reclassification risk -> 重新分类风险。
+- dose-response relationship -> 剂量-反应关系；vital statistics -> 生命统计数据。
+- primary balance -> 基本财政余额；interest rate peg -> 利率钉住；default boundary -> 违约边界。
+- Qualified Small Business Stock -> 合格小企业股票；QSBS -> 合格小企业股票（QSBS）；bunching -> 扎堆或聚束；triple-differences -> 三重差分；holding-period requirement -> 持有期要求；co-invest -> 联合投资。
+- drug decriminalization -> 毒品非刑事化；overdose mortality -> 药物过量死亡；fentanyl-share control -> 芬太尼占比控制变量。
+- Imperial China -> 帝制中国；health-status gradient -> 健康-社会地位梯度。
+- patient selection -> 患者选择；capacity strain -> 容量压力；hospital congestion -> 医院拥挤或容量压力；distance instruments -> 距离工具变量。
+- difference-in-differences -> 双重差分；cross-sectional IV -> 横截面工具变量；price impact -> 价格影响；factor loadings -> 因子载荷；observables -> 可观测特征。
+- uncertain persistence -> 持续性不确定性；Forecasting with Uncertain Persistence -> 持续性不确定性下的预测；term premia -> 期限溢价；forward prices -> 远期价格。
+- through 2025 / through YEAR -> 截至 2025 年 / 截至某年；不要译为“之前”。
 """
 IMAP_ENV_VARS = (
     "NBER_EMAIL_IMAP_HOST",
@@ -904,6 +952,39 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
     text = translated.strip()
     source_lower = source_text.lower()
 
+    def replace_when(trigger: str, replacements: tuple[tuple[str, str], ...]) -> None:
+        nonlocal text
+        if trigger in source_lower:
+            for old, new in replacements:
+                text = text.replace(old, new)
+
+    replace_when(
+        "benefit-based",
+        (
+            ("基于福利的税收", "基于受益原则的税收"),
+            ("基于福利的劳动收入征税", "基于受益原则的劳动收入税"),
+            ("福利原则", "受益原则"),
+        ),
+    )
+    replace_when("labor market", (("劳动市场", "劳动力市场"),))
+    replace_when(
+        "resume audit",
+        (
+            ("简历审核研究", "简历审计研究"),
+            ("简历审核", "简历审计"),
+        ),
+    )
+    replace_when("early childhood education", (("早期儿童教育", "幼儿教育"),))
+    replace_when("misspecified learning", (("错误学习", "错误设定学习"),))
+    replace_when("marginal satisfaction from income", (("收入的边际满足感", "收入的边际满意度"), ("边际满足感", "边际满意度")))
+    replace_when("tractable", (("可处理的", "易处理的"), ("可处理模型", "可求解模型")))
+    replace_when("proxy", (("适当代理", "合适代理变量"), ("适当的代理", "合适的代理变量")))
+
+    if source_text.strip().lower() == "the pass-through of tariffs and exchange rates":
+        text = "关税与汇率传导"
+    else:
+        replace_when("pass-through", (("传递效应", "传导"),))
+
     if "ricardian equivalence" in source_lower:
         text = text.replace("里卡多等价定理", "李嘉图等价定理")
         text = text.replace("里卡多等价", "李嘉图等价")
@@ -916,12 +997,77 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
     if "spending effect" in source_lower:
         text = text.replace("消费效应", "支出效应")
 
+    replace_when("aggregate outcome", (("总体和分配", "总量和分配"), ("总体结果", "总量结果")))
+    replace_when("aggregate stabilization", (("总体稳定", "总量稳定"),))
+
     if "state-dependent pricing" in source_lower:
         text = text.replace("依赖状态定价", "状态依赖定价")
 
     if "financial market imperfections" in source_lower:
         text = text.replace("全球金融市场的不完善", "全球金融市场不完全性")
         text = text.replace("金融市场的不完善", "金融市场不完全性")
+
+    replace_when("agents", (("代理人", "经济主体"),))
+    replace_when(
+        "digital safe havens",
+        (
+            ("数字安全港", "数字避风港"),
+            ("数字安全避风港", "数字避风港"),
+        ),
+    )
+    replace_when(
+        "yield-bearing dollar instruments",
+        (
+            ("产生收益的美元工具", "生息美元工具"),
+            ("带来收益的美元工具", "生息美元工具"),
+        ),
+    )
+    replace_when("total value locked", (("总锁定价值", "总锁仓价值（TVL）"),))
+    replace_when("convenience yield", (("便利收益", "便利收益率"),))
+
+    replace_when("congestion pricing", (("拥堵定价", "拥堵收费"),))
+    replace_when("travel speeds", (("旅行速度", "出行速度"),))
+    replace_when(
+        "travel times",
+        (
+            ("将总EMS行程时间提高了", "将总EMS出行时间缩短了"),
+            ("将总EMS行程时间改善了", "将总EMS出行时间缩短了"),
+            ("行程时间提高", "出行时间缩短"),
+        ),
+    )
+    replace_when("smog and safety checks", (("烟雾和安全检查", "尾气与安全检测"), ("烟雾和安全检测", "尾气与安全检测")))
+    if source_text.strip().lower() == "competition and misconduct in certification markets with externalities":
+        text = "具有外部性的认证市场中的竞争与不当行为"
+    else:
+        replace_when("certification markets with externalities", (("认证市场中的竞争与外部性下的不当行为", "具有外部性的认证市场中的竞争与不当行为"),))
+    replace_when("with externalities", (("外部性下的", "具有外部性的"),))
+    replace_when("private agents", (("私人代理", "私人机构"), ("这些代理", "这些机构"), ("代理竞争", "机构竞争")))
+    replace_when("licensing prevalence", (("职业许可普及度", "职业许可覆盖率"),))
+    replace_when("licensing wage", (("许可工资溢价", "持证工资溢价"),))
+    replace_when("through 2025", (("2025年之前", "截至2025年"), ("2025 年之前", "截至 2025 年")))
+    replace_when("evidence aggregation", (("证据聚合", "证据整合"),))
+    replace_when("quantitative easing", (("货币宽松与政府债务可持续性", "量化宽松与政府债务可持续性"), ("货币宽松", "量化宽松")))
+    replace_when("primary balance", (("初等预算平衡", "基本财政余额"),))
+    replace_when("stepping-on-a-rake", (("踩踏效应", "“踩耙子”效应"),))
+    replace_when("missing markets for opportunity", (("机会缺失市场", "机会市场缺失"), ("机会市场的缺失", "机会市场缺失")))
+    replace_when("baby busts", (("婴儿荒潮", "生育低潮"), ("婴儿荒", "生育低潮")))
+    replace_when("labor-saving", (("节省劳动力的", "劳动节约型"),))
+    replace_when("qsbs", (("来自QSBS计划", "来自合格小企业股票（QSBS）计划"), ("QSBS计划", "合格小企业股票（QSBS）计划")))
+    replace_when("drug decriminalization", (("药物非刑事化", "毒品非刑事化"), ("药物逮捕", "毒品逮捕")))
+    replace_when("overdose", (("过量用药事件", "药物过量事件"), ("过量死亡", "药物过量死亡")))
+    replace_when("imperial china", (("帝国中国", "帝制中国"),))
+    replace_when("health-status gradient", (("健康状况梯度", "健康-社会地位梯度"),))
+    if "hospital" in source_lower and "congestion" in source_lower:
+        text = text.replace("拥堵", "拥挤")
+    replace_when("capacity strain", (("容量紧张", "容量压力"),))
+    replace_when("distance instruments", (("距离工具控制", "距离工具变量控制"), ("距离工具", "距离工具变量")))
+    replace_when("difference-in-differences", (("差异中的差异", "双重差分"),))
+    replace_when("forecasting with uncertain persistence", (("带有不确定性持续性的预测", "持续性不确定性下的预测"),))
+    replace_when("long horizons", (("长期范围", "长预测期"),))
+
+    text = text.replace("便利收益率率", "便利收益率")
+    text = text.replace("药物药物过量死亡", "药物过量死亡")
+    text = text.replace("距离工具变量变量", "距离工具变量")
 
     return text
 
