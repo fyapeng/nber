@@ -1046,7 +1046,15 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
     replace_when("private agents", (("私人代理", "私人机构"), ("这些代理", "这些机构"), ("代理竞争", "机构竞争")))
     replace_when("licensing prevalence", (("职业许可普及度", "职业许可覆盖率"),))
     replace_when("licensing wage", (("许可工资溢价", "持证工资溢价"),))
-    replace_when("through 2025", (("2025年之前", "截至2025年"), ("2025 年之前", "截至 2025 年")))
+    replace_when(
+        "through 2025",
+        (
+            ("2025年之前", "截至2025年"),
+            ("2025 年之前", "截至 2025 年"),
+            ("2025年前", "截至2025年"),
+            ("2025 年前", "截至 2025 年"),
+        ),
+    )
     replace_when("evidence aggregation", (("证据聚合", "证据整合"),))
     replace_when("quantitative easing", (("货币宽松与政府债务可持续性", "量化宽松与政府债务可持续性"), ("货币宽松", "量化宽松")))
     replace_when("primary balance", (("初等预算平衡", "基本财政余额"),))
