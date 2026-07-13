@@ -1,7 +1,7 @@
 [
   {
     "batch_date": "2026-07-06",
-    "last_updated": "2026-07-07T07:41:17Z",
+    "last_updated": "2026-07-13T08:17:09Z",
     "paper_count": 34,
     "papers": [
       {
@@ -22,7 +22,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35398",
@@ -43,7 +43,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35405",
@@ -64,7 +64,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35429",
@@ -84,7 +84,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35404",
@@ -107,7 +107,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35423",
@@ -127,7 +127,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35416",
@@ -149,7 +149,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35412",
@@ -171,7 +171,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35410",
@@ -193,12 +193,12 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35414",
-        "title": "Congestion Pricing and EMS Response Time: Evidence From New York City",
-        "title_cn": "拥堵收费与急救服务响应时间：来自纽约市的证据",
+        "title": "Congestion Pricing and Emergency Medical Service Response: Evidence from New York City",
+        "title_cn": "拥堵收费与急救服务响应：来自纽约市的证据",
         "authors": [
           "Yulia Chikish",
           "Gregory J. Colman",
@@ -207,8 +207,8 @@
           "Zachary Santamaria",
           "Zachary Winship"
         ],
-        "abstract": "Large cities worldwide have adopted congestion pricing to reduce urban traffic, with well-documented benefits for travel speeds, accident rates, and air quality. This paper identifies a novel external benefit: faster emergency medical service response times. We provide the first evidence on how the congestion pricing program in New York City – the first comprehensive cordon-based congestion pricing system in the U.S. that was implemented on January 5th 2025 – affects emergency medical service (EMS) response performance. Exploiting the sharp geographic boundary of New York City's congestion relief zone at 60th Street and a difference-in-discontinuities design applied to approximately 1.6 million EMS incidents, we find that the January 2025 implementation of congestion pricing reduced passenger vehicle traffic by roughly 21 percent near the boundary and improved total EMS travel times by 63–70 seconds, approximately 5–6 percent. Effects emerged quickly and show little evidence of displacement to adjacent areas. A concurrent FDNY directive requiring transport to the nearest hospital confounds standard difference-in-differences estimates but not our boundary-based design. These findings suggest that cost-benefit analyses of congestion pricing systematically understate net social benefits by omitting emergency response improvements.",
-        "abstract_cn": "全球范围内的大型城市已经采用拥挤收费来减少城市交通，对于出行速度、事故率和空气质量的益处已有充分记录。本文识别了一种新的外部效益：急救服务响应时间更快。我们提供了首个证据，展示了纽约市的拥挤收费计划——美国首个全面实施的区域收费式拥挤收费系统，于2025年1月5日实施——如何影响急救服务（EMS）的响应表现。利用纽约市拥挤缓解区在60街的明显地理边界和差异中的不连续设计，应用于大约160万个EMS事件，我们发现2025年1月实施的拥挤收费在边界附近减少了大约21%的乘用车流量，并改善了总EMS行程时间63-70秒，大约提高了5-6%。效果迅速显现，几乎没有证据表明转移到相邻区域。同时，纽约市消防局（FDNY）的一项指令要求将患者送往最近的医院，这混淆了标准的双重差分估计，但并未影响我们基于边界的设计。这些发现表明，拥挤收费的成本效益分析系统性地低估了净社会效益，因为它忽略了紧急响应改善。",
+        "abstract": "Large cities worldwide have adopted congestion pricing to reduce urban traffic, with well-documented benefits for travel speeds, accident rates, and air quality. This paper identifies a novel external benefit: faster emergency medical service (EMS) response times. We provide the first evidence on how the congestion pricing program in New York City – the first comprehensive cordon-based congestion pricing system in the U.S. that was implemented on January 5th, 2025 – affects EMS performance. Exploiting the sharp geographic boundary of New York City’s congestion relief zone at 60th Street and a difference-in-discontinuities design, we first document substantial changes in traffic and mobility near the boundary: vehicular traffic declines by roughly 18 to 21 percent, accompanied by increases in pedestrian and bicycle activity. Consistent with these first-stage mechanisms, we find that congestion pricing improves EMS performance, reducing total travel times by 63–70 seconds (approximately 5–6 percent). Effects emerged quickly and show little evidence of displacement to adjacent areas. A concurrent FDNY directive requiring transport to the nearest hospital confounds standard difference-in-differences estimates but not our boundary-based design. These findings suggest that cost-benefit analyses of congestion pricing systematically understate net social benefits by omitting emergency response improvements.",
+        "abstract_cn": "全球范围内的大型城市已经采用拥挤收费来减少城市交通，对于出行速度、事故率和空气质量的益处已有充分记录。本文识别了一种新的外部效益：急救服务（EMS）响应时间更快。我们提供了首个证据，说明纽约市的拥挤收费计划——美国首个全面实施的区域收费式拥挤收费系统，于2025年1月5日实施——如何影响EMS的表现。利用纽约市拥挤缓解区域在60街的明显地理边界和差异中的不连续设计，我们首先记录了边界附近交通和流动性的显著变化：车辆交通量下降了大约18%至21%，同时行人和自行车活动增加。与这些第一阶段机制一致，我们发现拥挤收费改善了EMS的表现，将总出行时间减少了63至70秒（约5-6%）。这些效应迅速显现，并且几乎没有证据表明转移到相邻区域。同时，FDNY的一项指令要求将患者送往最近的医院，这混淆了标准的双重差分估计，但并未影响我们基于边界的设计。这些发现表明，拥挤收费的成本效益分析系统性地低估了净社会效益，因为它忽略了紧急响应改善。",
         "url": "https://www.nber.org/papers/w35414",
         "public_date": "2026-07-06",
         "translation_status": {
@@ -217,7 +217,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35424",
@@ -227,8 +227,8 @@
           "Jonathan S. Hartley",
           "Morris M. Kleiner"
         ],
-        "abstract": "Relatively little is known about occupational licensing across nations. Despite a large literature on occupational licensing in the United States, cross-national evidence remains scarce, especially for developing economies. We assemble harmonized estimates of licensing prevalence for 44 countries by combining new nationally representative surveys (including newly conducted nationally representative surveys for a number of previously unstudied countries) for several Latin American, African, Asian, European, and North American estimates. We document substantial cross-country dispersion in occupational licensing prevalence, ranging from roughly 14 percent of workers in Denmark to more than 40 percent in India and South Africa, the two most heavily licensed labor markets in our sample. Across countries, licensed workers generally earn higher wages than comparable unlicensed workers, with pooled Mincerian regressions indicating licensing wage premia ranging from roughly 6 to 19 percent depending on weighting and specification choices. Occupational licensing prevalence is also negatively associated with GDP per capita and governance quality, and positively associated with informal employment. While these relationships are descriptive rather than causal, they suggest that occupational licensing may be intertwined with broader institutional characteristics affecting labor market efficiency, formal-sector participation, and long-run economic development.",
-        "abstract_cn": "关于跨国职业许可的情况，我们所知甚少。尽管有关美国职业许可的文献众多，但跨国证据仍然稀缺，尤其是对于发展中经济体而言。我们通过结合新的全国代表性调查（包括对一些以前未研究过的国家进行的新的全国代表性调查）为拉丁美洲、非洲、亚洲、欧洲和北美的44个国家编制了职业许可覆盖率的协调估计。我们记录了职业许可覆盖率在不同国家之间的巨大差异，从丹麦大约14%的工人到印度和南非超过40%的工人，这两个国家在我们的样本中是职业许可最重的劳动力市场。在各国，持证工人通常比可比的无证工人获得更高的工资，汇总的明瑟回归表明，根据加权和规范选择，职业持证工资溢价范围大约在6%到19%之间。职业许可覆盖率也与人均GDP和治理质量呈负相关，与非正规就业呈正相关。虽然这些关系是描述性的而非因果性的，但它们表明职业许可可能与影响劳动力市场效率、正规部门参与和长期经济发展的更广泛的制度特征交织在一起。",
+        "abstract": "Relatively little is known about occupational licensing across nations. We assemble harmonized estimates of licensing prevalence for 44 countries using nationally representative surveys, including new surveys for previously unstudied countries. Licensing ranges from roughly 14 percent of workers in Denmark to more than 40 percent in India and South Africa. Licensed workers earn 6 to 19 percent higher wages than comparable unlicensed workers across specifications. Licensing prevalence is negatively associated with GDP per capita and governance quality, and positively associated with informal employment, suggesting occupational licensing is intertwined with labor market efficiency, formalization, and long-run economic development.",
+        "abstract_cn": "关于各国职业许可的情况，我们所知甚少。我们利用包括之前未研究国家的新调查在内的全国代表性调查，汇编了44个国家职业许可覆盖率的协调估计。职业许可覆盖率从丹麦的大约14%到印度和南非的40%以上不等。在不同规格下，持证工人的收入比可比的无证工人高出6%到19%。职业许可覆盖率与人均GDP和治理质量呈负相关，与非正规就业呈正相关，这表明职业许可与劳动力市场效率、正规化和长期经济发展相互交织。",
         "url": "https://www.nber.org/papers/w35424",
         "public_date": "2026-07-06",
         "translation_status": {
@@ -237,7 +237,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35395",
@@ -257,7 +257,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35399",
@@ -278,7 +278,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35420",
@@ -298,7 +298,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35422",
@@ -319,7 +319,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35409",
@@ -340,7 +340,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35407",
@@ -362,7 +362,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35403",
@@ -383,7 +383,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35402",
@@ -404,7 +404,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35415",
@@ -425,7 +425,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35400",
@@ -445,7 +445,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35417",
@@ -464,7 +464,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35419",
@@ -483,7 +483,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35401",
@@ -505,7 +505,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35408",
@@ -525,7 +525,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35428",
@@ -555,7 +555,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35421",
@@ -563,7 +563,7 @@
         "title_cn": "量化宽松与政府债务可持续性",
         "authors": [
           "Wenhao Li",
-          "Sebastian A. Merkel"
+          "Sebastian Merkel"
         ],
         "abstract": "We show that quantitative easing (QE) worsens government debt sustainability. In our model, the government has a negative primary balance and downward-sloping debt demand that makes interest rates endogenous. The central bank has long-term capital and remits profits to the fiscal authority. QE depletes this capital stock, reducing future remittances and crisis-fighting reserves. Contrary to Sargent and Wallace (1981), where greater monetary accommodation lowers the steady-state debt level, we show that QE increases the steady-state level of debt and shifts the default boundary inward, thus heightening fragility and reducing debt sustainability. Moreover, while QE can keep interest rates low for extended periods, sustaining a QE-backed rate peg requires a growing central-bank footprint and accelerating capital depletion, until financing costs rise sharply. Under certain parameters, large-scale QE makes previously sustainable debt levels unsustainable, leading ultimately to sovereign default.",
         "abstract_cn": "我们展示了量化宽松（QE）会恶化政府债务的可持续性。在我们的模型中，政府拥有负的基本财政余额和向下倾斜的债务需求，这使得利率内生。中央银行拥有长期资本并将利润上缴给财政当局。量化宽松消耗了这一资本存量，减少了未来的上缴额和危机应对储备。与Sargent和Wallace（1981）的观点相反，他们认为更大的量化宽松会降低稳态债务水平，我们展示了量化宽松增加了稳态债务水平并使违约边界向内移动，从而增加了脆弱性并降低了债务的可持续性。此外，尽管量化宽松可以在较长时期内保持低利率，但维持一个由量化宽松支持的利率挂钩需要中央银行不断扩大的足迹和加速资本消耗，直到融资成本急剧上升。在某些参数下，大规模量化宽松使得先前可持续的债务水平变得不可持续，最终导致主权违约。",
@@ -575,7 +575,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35418",
@@ -595,7 +595,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35427",
@@ -616,7 +616,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35396",
@@ -637,7 +637,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35426",
@@ -658,7 +658,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35413",
@@ -681,7 +681,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35425",
@@ -700,7 +700,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       },
       {
         "id": "w35411",
@@ -721,7 +721,7 @@
         },
         "translation_error": null,
         "translation_prompt_version": "econ-zh-v5-d82fa5f80c",
-        "fetched_at": "2026-07-07T07:41:17Z"
+        "fetched_at": "2026-07-13T08:17:09Z"
       }
     ]
   },
