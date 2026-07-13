@@ -1,5 +1,5 @@
 {
-  "version": "econ-zh-v5",
+  "version": "econ-zh-v6",
   "prompt_terms": [
     {"category": "公共经济学", "source": "benefit-based taxation", "target": "基于受益原则的税收", "note": "不要译为“基于福利的税收”。"},
     {"category": "公共经济学", "source": "benefit principle", "target": "受益原则", "note": "welfare 才译为“福利”。"},
@@ -100,7 +100,26 @@
     {"category": "预测与金融", "source": "uncertain persistence", "target": "持续性不确定性"},
     {"category": "预测与金融", "source": "Forecasting with Uncertain Persistence", "target": "持续性不确定性下的预测"},
     {"category": "预测与金融", "source": "term premia / forward prices", "target": "期限溢价 / 远期价格"},
-    {"category": "时间表述", "source": "through 2025 / through YEAR", "target": "截至 2025 年 / 截至某年", "note": "不要译为“之前”或“年前”。"}
+    {"category": "时间表述", "source": "through 2025 / through YEAR", "target": "截至 2025 年 / 截至某年", "note": "不要译为“之前”或“年前”。"},
+    {"category": "人工智能", "source": "agentic AI / agentic AI systems", "target": "智能体式人工智能 / 智能体式人工智能系统", "note": "不要译为“代理人工智能”或“代理型人工智能”。"},
+    {"category": "劳动经济学", "source": "job ads / job advertisements", "target": "招聘广告"},
+    {"category": "劳动经济学", "source": "job amenities / priced amenity", "target": "工作福利或非工资工作属性 / 有明确市场价格的工作福利", "note": "劳动经济学语境中不要直译为“便利设施”。"},
+    {"category": "劳动经济学", "source": "worker beliefs", "target": "劳动者认知或劳动者预期", "note": "根据语境选择，不要机械译为“工人信念”。"},
+    {"category": "教育经济学", "source": "study habits", "target": "学习习惯", "note": "不要译为“研究习惯”。"},
+    {"category": "教育经济学", "source": "scoping review", "target": "范围综述"},
+    {"category": "城市经济学", "source": "zoning / residential-commercial zoning / zoning wedge", "target": "土地用途分区管制 / 住宅—商业用途分区管制 / 分区管制楔子", "note": "城市土地使用语境中不要只译为含义模糊的“分区”。"},
+    {"category": "财政与债务", "source": "debt service / debt-service burden", "target": "债务偿付 / 债务偿付负担"},
+    {"category": "金融与资产定价", "source": "stock returns / realized returns", "target": "股票收益率 / 已实现收益率"},
+    {"category": "货币金融", "source": "monetary policy pass-through", "target": "货币政策传导"},
+    {"category": "健康经济学", "source": "take-up / take-up decisions", "target": "申领（率） / 申领决策", "note": "社会保险待遇语境使用；不要笼统译为“接受度”。"},
+    {"category": "宏观与国际", "source": "advanced economies", "target": "发达经济体", "note": "不要译为“先进经济体”。"},
+    {"category": "行为经济学", "source": "retrieval failures", "target": "记忆提取失败", "note": "记忆与决策语境中明确是记忆提取。"},
+    {"category": "数字金融", "source": "Bitcoin transaction fees / mining fees", "target": "比特币交易手续费 / 挖矿手续费"},
+    {"category": "教育经济学", "source": "college / higher-quality college", "target": "大学或高校 / 更高质量的大学或高校", "note": "美国高等教育语境通常不要机械译为“学院”。"},
+    {"category": "计量经济学", "source": "compliers", "target": "依从者", "note": "工具变量与局部平均处理效应语境。"},
+    {"category": "金融与资产定价", "source": "look-ahead bias", "target": "前视偏差"},
+    {"category": "方法", "source": "revealed preference", "target": "显示性偏好"},
+    {"category": "公司与组织", "source": "corporate rebrand / crisis rebranding", "target": "企业品牌重塑 / 危机品牌重塑"}
   ],
   "replacement_rules": [
     {"source_contains": "benefit-based", "replacements": [{"bad": "基于福利的税收", "good": "基于受益原则的税收"}, {"bad": "基于福利的劳动收入征税", "good": "基于受益原则的劳动收入税"}, {"bad": "福利原则", "good": "受益原则"}]},
@@ -155,7 +174,38 @@
     {"source_contains": "distance instruments", "replacements": [{"bad": "距离工具控制", "good": "距离工具变量控制"}, {"bad": "距离工具", "good": "距离工具变量"}]},
     {"source_contains": "difference-in-differences", "replacements": [{"bad": "差异中的差异", "good": "双重差分"}]},
     {"source_contains": "forecasting with uncertain persistence", "replacements": [{"bad": "带有不确定性持续性的预测", "good": "持续性不确定性下的预测"}]},
-    {"source_contains": "long horizons", "replacements": [{"bad": "长期范围", "good": "长预测期"}]}
+    {"source_contains": "long horizons", "replacements": [{"bad": "长期范围", "good": "长预测期"}]},
+    {"source_contains": "agentic ai", "replacements": [{"bad": "代理人工智能", "good": "智能体式人工智能"}, {"bad": "代理型人工智能", "good": "智能体式人工智能"}]},
+    {"source_contains": "study habit", "replacements": [{"bad": "研究习惯", "good": "学习习惯"}]},
+    {"source_contains": "advanced economies", "replacements": [{"bad": "先进经济体", "good": "发达经济体"}]},
+    {"source_contains": "debt service", "replacements": [{"bad": "债务服务", "good": "债务偿付"}, {"bad": "债务偿还", "good": "债务偿付"}]},
+    {"source_contains": "stock returns", "replacements": [{"bad": "股票回报", "good": "股票收益率"}]},
+    {"source_contains": "realized returns", "replacements": [{"bad": "实现回报", "good": "已实现收益率"}]},
+    {"source_contains": "take-up", "replacements": [{"bad": "DI接受度", "good": "DI申领率"}, {"bad": "参保决策", "good": "申领决策"}]},
+    {"source_contains": "retrieval failures", "replacements": [{"bad": "提取失败", "good": "记忆提取失败"}, {"bad": "检索失败", "good": "记忆提取失败"}]},
+    {"source_contains": "job ads", "replacements": [{"bad": "工作广告", "good": "招聘广告"}]},
+    {"source_contains": "amenity", "replacements": [{"bad": "定价便利设施", "good": "有明确市场价格的工作福利"}, {"bad": "工作便利设施", "good": "工作福利"}, {"bad": "便利设施", "good": "工作福利"}, {"bad": "信念征询实验", "good": "认知测量实验"}, {"bad": "信念", "good": "认知"}]},
+    {"source_contains": "zoning", "replacements": [{"bad": "住宅-商业分区", "good": "住宅—商业用途分区管制"}, {"bad": "分区楔子", "good": "分区管制楔子"}, {"bad": "分区是否", "good": "分区管制是否"}, {"bad": "分区与比较优势", "good": "分区管制与比较优势"}, {"bad": "分区变化", "good": "分区管制差异"}, {"bad": "分区的主要效果", "good": "分区管制的主要作用"}]},
+    {"source_contains": "college", "replacements": [{"bad": "更高质量的学院", "good": "更高质量的大学"}, {"bad": "在不同学院之间", "good": "在不同大学之间"}, {"bad": "在学院之间转移", "good": "在大学之间转移"}, {"bad": "参加选择性较低的四年制学院", "good": "就读选择性较低的四年制大学"}, {"bad": "最具选择性学院", "good": "选择性最高的大学"}, {"bad": "高选择性或选择性最高的大学", "good": "高选择性或选择性最高的大学"}, {"bad": "学院质量", "good": "大学质量"}, {"bad": "现值折现终身收入", "good": "终身收入的贴现现值"}]},
+    {"source_contains": "compliers", "replacements": [{"bad": "遵从者", "good": "依从者"}]},
+    {"source_contains": "look-ahead bias", "replacements": [{"bad": "前瞻性偏差", "good": "前视偏差"}]},
+    {"source_contains": "revealed-preference", "replacements": [{"bad": "显示偏好", "good": "显示性偏好"}]},
+    {"source_contains": "rebrand", "replacements": [{"bad": "重新品牌化", "good": "品牌重塑"}, {"bad": "德国名字银行", "good": "采用德国名称的银行"}, {"bad": "污名化德国名字", "good": "带有污名的德国名称"}]},
+    {"source_contains": "rationalize", "replacements": [{"bad": "合理化这些发现", "good": "解释这些发现"}]},
+    {"source_exact": "assessing the benefits of optimized agentic ai systems for asset pricing", "override": "评估优化的智能体式人工智能系统在资产定价中的优势"},
+    {"source_exact": "job ads as signals: evidence from a priced amenity and worker beliefs", "override": "作为信号的招聘广告：来自有明确市场价格的工作福利与劳动者认知的证据"},
+    {"source_exact": "zoning: externalities or misallocation?", "override": "土地用途分区管制：外部性还是资源错配？"},
+    {"source_exact": "degrees of mobility: shifting low-income students to higher quality colleges", "override": "学位与流动：引导低收入学生进入更高质量的大学"},
+    {"source_exact": "unruly by design: fee volatility and strategic attacks in bitcoin mining", "override": "因设计而失序：比特币挖矿中的手续费波动与策略性攻击"},
+    {"source_exact": "banking on a corporate rebrand", "override": "押注企业品牌重塑"},
+    {"source_exact": "do monetary policy rates reach borrowers? evidence from household and firm loans in 96 countries", "override": "货币政策利率能否传导至借款人？来自96个国家家庭和企业贷款的证据"},
+    {"source_exact": "measuring the value of disability insurance from take-up decisions", "override": "从申领决策衡量残疾保险的价值"},
+    {"source_exact": "from stocks to flows: debt service and fiscal sustainability", "override": "从存量到流量：债务偿付与财政可持续性"},
+    {"source_exact": "bundling trades in over-the-counter markets", "override": "场外交易市场中的交易捆绑"},
+    {"source_exact": "let’s chat: leveraging chatbot outreach for improved course performance", "override": "聊一聊：利用聊天机器人主动联系学生以改善课程表现"},
+    {"source_exact": "mind the kf* gap: eme vulnerabilities to global shocks", "override": "警惕KF*缺口：新兴市场经济体面对全球冲击的脆弱性"},
+    {"source_exact": "ports, technology and inter-city trade: the economics and geopolitics of evolving maritime transport networks", "override": "港口、技术与城市间贸易：海运网络演变的经济学与地缘政治"},
+    {"source_exact": "social insurance with imperfect eligibility screening: theory and evidence from pandemic ui", "override": "资格审查不完善下的社会保险：理论与疫情期间失业保险的证据"}
   ],
   "global_cleanup": [
     {"bad": "便利收益率率", "good": "便利收益率"},
@@ -177,7 +227,16 @@
       {"bad": "药物非刑事化", "suggestion": "毒品非刑事化", "reason": "drug decriminalization 在犯罪与公共卫生语境中指毒品。"},
       {"bad": "帝国中国", "suggestion": "帝制中国", "reason": "Imperial China 的学术译法。"},
       {"bad": "健康状况梯度", "suggestion": "健康-社会地位梯度", "reason": "health-status gradient 在该题名中指健康与社会地位梯度。"},
-      {"bad": "带有不确定性持续性的预测", "suggestion": "持续性不确定性下的预测", "reason": "Forecasting with Uncertain Persistence 的更自然学术译法。"}
+      {"bad": "带有不确定性持续性的预测", "suggestion": "持续性不确定性下的预测", "reason": "Forecasting with Uncertain Persistence 的更自然学术译法。"},
+      {"bad": "代理人工智能", "suggestion": "智能体式人工智能", "reason": "agentic AI 指能够自主规划和执行任务的智能体式人工智能。"},
+      {"bad": "代理型人工智能", "suggestion": "智能体式人工智能", "reason": "agentic AI 的推荐译法。"},
+      {"bad": "研究习惯", "suggestion": "学习习惯", "reason": "study habits 在学生学习语境中不是研究习惯。"},
+      {"bad": "定价便利设施", "suggestion": "有明确市场价格的工作福利", "reason": "priced amenity 在劳动经济学语境中指有市场价格的非工资工作属性。"},
+      {"bad": "工作便利设施", "suggestion": "工作福利或非工资工作属性", "reason": "job amenities 不应机械直译为便利设施。"},
+      {"bad": "先进经济体", "suggestion": "发达经济体", "reason": "advanced economies 的通行译法。"},
+      {"bad": "债务服务", "suggestion": "债务偿付", "reason": "debt service 包括本金和利息的偿付。"},
+      {"bad": "DI接受度", "suggestion": "DI申领率", "reason": "take-up 在社会保险待遇语境中指申领或领取。"},
+      {"bad": "工作广告", "suggestion": "招聘广告", "reason": "job ads 的自然中文译法。"}
     ],
     "source_terms": [
       {"term": "benefit-based taxation", "preferred": "基于受益原则的税收"},
@@ -192,8 +251,15 @@
       {"term": "drug decriminalization", "preferred": "毒品非刑事化"},
       {"term": "imperial china", "preferred": "帝制中国"},
       {"term": "health-status gradient", "preferred": "健康-社会地位梯度"},
-      {"term": "forecasting with uncertain persistence", "preferred": "持续性不确定性下的预测"}
+      {"term": "forecasting with uncertain persistence", "preferred": "持续性不确定性下的预测"},
+      {"term": "agentic ai", "preferred": "智能体式人工智能"},
+      {"term": "study habit", "preferred": "学习习惯"},
+      {"term": "advanced economies", "preferred": "发达经济体"},
+      {"term": "debt service", "preferred": "债务偿付"},
+      {"term": "job ads", "preferred": "招聘广告"},
+      {"term": "retrieval failures", "preferred": "记忆提取失败"},
+      {"term": "take-up decisions", "preferred": "申领决策"}
     ],
-    "allowed_english_terms": ["NBER", "COVID", "Covid", "COVID-", "COVID-19", "Medicaid", "EMS", "QSBS", "TVL", "TFP", "CCB", "COI", "DCP", "ECE", "FDNY", "FEMA", "LCP", "NFIP", "PCP", "WTP", "Kimi", "API", "IMAP"]
+    "allowed_english_terms": ["NBER", "COVID", "Covid", "COVID-", "COVID-19", "Medicaid", "EMS", "EMEs", "KF", "QSBS", "TVL", "TFP", "CCB", "COI", "DCP", "ECE", "FDNY", "FEMA", "LCP", "NFIP", "PCP", "WTP", "Kimi", "API", "IMAP", "ADL", "Auto-IRA", "Backus-Kehoe-Kydland", "ESSER", "HAIL", "LTC", "LTCI", "PUA", "RBC", "SAAD", "SDK", "SIPP"]
   }
 }
