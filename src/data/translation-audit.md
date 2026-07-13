@@ -1,8 +1,8 @@
 # Translation Audit
 
-- Generated at: `2026-07-13T14:49:10Z`
+- Generated at: `2026-07-13T14:56:27Z`
 - Paper count: `40`
-- Glossary version: `econ-zh-v5-cbfec1397d`
+- Glossary version: `econ-zh-v6-4815e29951`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
 - Failed or skipped fields: `0`
@@ -35,21 +35,9 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| ADL | w35442 |
 | Auto- | w35373 |
-| Auto-IRA | w35373 |
 | Backus- | w35448 |
 | Backus-Kehoe- | w35448 |
-| EMEs | w35463 |
-| ESSER | w35447 |
-| learning-by-doing | w35436 |
-| LTC | w35464 |
-| LTCI | w35442 |
-| PUA | w35465 |
-| RBC | w35448 |
-| SAAD | w35464 |
-| SDK | w35431 |
-| SIPP | w35373 |
 
 ## Maintenance Notes
 
