@@ -1,11 +1,12 @@
 # Translation Audit
 
-- Generated at: `2026-07-13T12:24:54Z`
-- Paper count: `34`
-- Glossary version: `econ-zh-v5-d82fa5f80c`
+- Generated at: `2026-07-13T14:49:10Z`
+- Paper count: `40`
+- Glossary version: `econ-zh-v5-cbfec1397d`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
 - Failed or skipped fields: `0`
+- Translation quality warnings: `0`
 
 ## Review Workflow
 
@@ -26,9 +27,29 @@ No preferred-term misses were found.
 
 No failed or skipped translation fields were found.
 
+## Translation Quality Warnings
+
+No structural translation quality warnings were found.
+
 ## English Fragments
 
-No unexpected English fragments were found.
+| Fragment | Papers |
+| --- | --- |
+| ADL | w35442 |
+| Auto- | w35373 |
+| Auto-IRA | w35373 |
+| Backus- | w35448 |
+| Backus-Kehoe- | w35448 |
+| EMEs | w35463 |
+| ESSER | w35447 |
+| learning-by-doing | w35436 |
+| LTC | w35464 |
+| LTCI | w35442 |
+| PUA | w35465 |
+| RBC | w35448 |
+| SAAD | w35464 |
+| SDK | w35431 |
+| SIPP | w35373 |
 
 ## Maintenance Notes
 
