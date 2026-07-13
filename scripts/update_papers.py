@@ -87,6 +87,9 @@ ABSTRACT_SELECTORS = (
 MAX_TRANSLATION_WORKERS = 2
 TRANSLATION_ATTEMPTS = 3
 BACKOFF_SECONDS = (2, 5, 10)
+DETAIL_REQUEST_ATTEMPTS = 3
+DETAIL_BACKOFF_SECONDS = (1, 3)
+TRANSLATION_POLICY_VERSION = "2026-07-13-v2"
 
 
 def load_translation_glossary(path: Path = GLOSSARY_PATH) -> dict[str, Any]:
@@ -100,6 +103,7 @@ def load_translation_glossary(path: Path = GLOSSARY_PATH) -> dict[str, Any]:
 def glossary_fingerprint(glossary: dict[str, Any]) -> str:
     payload = json.dumps(
         {
+            "policy_version": TRANSLATION_POLICY_VERSION,
             "version": glossary.get("version"),
             "prompt_terms": glossary.get("prompt_terms"),
             "replacement_rules": glossary.get("replacement_rules"),
@@ -126,6 +130,9 @@ def build_translation_prompt(glossary: dict[str, Any]) -> str:
         "3. 保留作者名、模型名、数据集名、缩写和必要专有名词。",
         "4. 不确定的专有概念宁可保留英文括注，也不要生造术语。",
         "5. 同一段内术语保持一致。",
+        "6. 不要逐词硬译；长句可以按中文逻辑拆分，但不得省略限定条件、因果方向、比较对象或否定词。",
+        "7. 原文中的数字、年份、百分比、货币单位、公式符号和缩写必须完整保留。",
+        "8. 输出必须以中文为主；除必要专名和缩写外，不要整句照抄英文。",
         "",
         "术语约束：",
     ]
@@ -812,12 +819,29 @@ def extract_abstract(soup: BeautifulSoup, paper_id: str) -> tuple[str, str | Non
 
 
 def fetch_detail(session: requests.Session, paper_id: str, url: str) -> DetailResult:
-    try:
-        response = session.get(url, timeout=30)
-        response.raise_for_status()
-    except requests.RequestException as exc:
-        logging.warning("Detail request failed for %s: %s", paper_id, exc)
-        return DetailResult(None, [], "", None, [f"{paper_id}: detail request failed: {exc}"])
+    last_error: requests.RequestException | None = None
+    response: requests.Response | None = None
+    for attempt in range(1, DETAIL_REQUEST_ATTEMPTS + 1):
+        try:
+            response = session.get(url, timeout=30)
+            response.raise_for_status()
+            last_error = None
+            break
+        except requests.RequestException as exc:
+            last_error = exc
+            logging.warning(
+                "Detail request failed for %s (attempt %s/%s): %s",
+                paper_id,
+                attempt,
+                DETAIL_REQUEST_ATTEMPTS,
+                exc,
+            )
+            if attempt < DETAIL_REQUEST_ATTEMPTS:
+                time.sleep(DETAIL_BACKOFF_SECONDS[attempt - 1])
+
+    if response is None or last_error is not None:
+        error = last_error or RuntimeError("detail request returned no response")
+        return DetailResult(None, [], "", None, [f"{paper_id}: detail request failed after retries: {error}"])
 
     soup = BeautifulSoup(response.text, "html.parser")
     title = extract_detail_title(soup)
@@ -927,8 +951,28 @@ def make_cache_key(paper_id: str, field: str, source_text: str) -> str:
     return f"{TRANSLATION_PROMPT_VERSION}:{paper_id}:{field}:{digest}"
 
 
+def translation_quality_issue(source_text: str, translated: str, field: str) -> str | None:
+    source = re.sub(r"\s+", " ", source_text).strip()
+    target = re.sub(r"\s+", " ", translated).strip()
+    if not target:
+        return "empty translation"
+    if source.casefold() == target.casefold():
+        return "translation is identical to the English source"
+
+    source_letters = len(re.findall(r"[A-Za-z]", source))
+    chinese_chars = len(re.findall(r"[\u3400-\u9fff]", target))
+    if source_letters >= 12 and chinese_chars == 0:
+        return "translation contains no Chinese text"
+    if field == "abstract" and len(source) >= 240 and chinese_chars < 20:
+        return "abstract translation contains too little Chinese text"
+    if field == "abstract" and len(source) >= 240 and len(target) < len(source) * 0.12:
+        return "abstract translation is implausibly short"
+    return None
+
+
 def apply_translation_rules(source_text: str, translated: str) -> str:
     text = translated.strip()
+    text = re.sub(r"^(?:译文|中文翻译|翻译)\s*[：:]\s*", "", text, count=1)
     source_lower = source_text.lower()
     source_exact = source_text.strip().lower()
 
@@ -1029,26 +1073,32 @@ class TranslationService:
         if isinstance(cached, dict) and cached.get("translation"):
             cached_text = str(cached["translation"])
             translated = apply_translation_rules(source_text, cached_text)
-            cache_entry = None
-            if translated != cached_text:
-                cache_entry = {
-                    **cached,
-                    "translation": translated,
-                    "prompt_version": TRANSLATION_PROMPT_VERSION,
-                    "updated_at": utc_now_iso(),
-                }
-            return TranslationResult(translated, "success", None, key, cache_entry)
+            issue = translation_quality_issue(source_text, translated, field)
+            if not issue:
+                cache_entry = None
+                if translated != cached_text:
+                    cache_entry = {
+                        **cached,
+                        "translation": translated,
+                        "prompt_version": TRANSLATION_PROMPT_VERSION,
+                        "updated_at": utc_now_iso(),
+                    }
+                return TranslationResult(translated, "success", None, key, cache_entry)
+            logging.warning("Ignoring invalid cached translation for %s %s: %s", paper_id, field, issue)
         if isinstance(cached, str) and cached:
             translated = apply_translation_rules(source_text, cached)
-            cache_entry = None
-            if translated != cached:
-                cache_entry = {
-                    "translation": translated,
-                    "model": "normalized-from-cache",
-                    "prompt_version": TRANSLATION_PROMPT_VERSION,
-                    "updated_at": utc_now_iso(),
-                }
-            return TranslationResult(translated, "success", None, key, cache_entry)
+            issue = translation_quality_issue(source_text, translated, field)
+            if not issue:
+                cache_entry = None
+                if translated != cached:
+                    cache_entry = {
+                        "translation": translated,
+                        "model": "normalized-from-cache",
+                        "prompt_version": TRANSLATION_PROMPT_VERSION,
+                        "updated_at": utc_now_iso(),
+                    }
+                return TranslationResult(translated, "success", None, key, cache_entry)
+            logging.warning("Ignoring invalid legacy cache for %s %s: %s", paper_id, field, issue)
 
         if self.dry_run:
             return TranslationResult(source_text, "skipped_dry_run", None, key)
@@ -1075,8 +1125,9 @@ class TranslationService:
                     temperature=0.1,
                 )
                 translated = apply_translation_rules(source_text, response.choices[0].message.content or "")
-                if not translated:
-                    raise RuntimeError("empty translation response")
+                issue = translation_quality_issue(source_text, translated, field)
+                if issue:
+                    raise RuntimeError(f"translation quality check failed: {issue}")
                 return TranslationResult(
                     translated,
                     "success",
@@ -1216,6 +1267,7 @@ def build_translation_audit_report(records: list[dict[str, Any]], glossary: dict
                 )
 
     failed_fields: list[dict[str, str]] = []
+    quality_hits: list[dict[str, str]] = []
     for record in records:
         statuses = record.get("translation_status") if isinstance(record.get("translation_status"), dict) else {}
         errors = record.get("translation_error") if isinstance(record.get("translation_error"), dict) else {}
@@ -1229,6 +1281,18 @@ def build_translation_audit_report(records: list[dict[str, Any]], glossary: dict
                         "field": field,
                         "status": status,
                         "error": str(error_value or ""),
+                    }
+                )
+            source_text = str(record.get(field) or "")
+            translated_text = str(record.get(f"{field}_cn") or "")
+            issue = translation_quality_issue(source_text, translated_text, field)
+            if issue:
+                quality_hits.append(
+                    {
+                        "id": str(record.get("id") or ""),
+                        "field": field,
+                        "issue": issue,
+                        "current": clipped(translated_text),
                     }
                 )
 
@@ -1253,6 +1317,7 @@ def build_translation_audit_report(records: list[dict[str, Any]], glossary: dict
         f"- Suspect translation hits: `{len(suspect_hits)}`",
         f"- Preferred-term misses: `{len(missing_preferred)}`",
         f"- Failed or skipped fields: `{len(failed_fields)}`",
+        f"- Translation quality warnings: `{len(quality_hits)}`",
         "",
         "## Review Workflow",
         "",
@@ -1309,6 +1374,18 @@ def build_translation_audit_report(records: list[dict[str, Any]], glossary: dict
             )
     else:
         lines.append("No failed or skipped translation fields were found.")
+
+    lines.extend(["", "## Translation Quality Warnings", ""])
+    if quality_hits:
+        lines.extend(["| Paper | Field | Issue | Current output |", "| --- | --- | --- | --- |"])
+        for hit in quality_hits:
+            lines.append(
+                "| "
+                + " | ".join(table_cell(hit[key]) for key in ("id", "field", "issue", "current"))
+                + " |"
+            )
+    else:
+        lines.append("No structural translation quality warnings were found.")
 
     lines.extend(["", "## English Fragments", ""])
     if english_fragment_hits:
