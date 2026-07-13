@@ -1,8 +1,8 @@
 # Translation Audit
 
-- Generated at: `2026-07-13T14:56:27Z`
+- Generated at: `2026-07-13T15:03:44Z`
 - Paper count: `40`
-- Glossary version: `econ-zh-v6-4815e29951`
+- Glossary version: `econ-zh-v6-6b9be5fbe9`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
 - Failed or skipped fields: `0`
@@ -33,11 +33,7 @@ No structural translation quality warnings were found.
 
 ## English Fragments
 
-| Fragment | Papers |
-| --- | --- |
-| Auto- | w35373 |
-| Backus- | w35448 |
-| Backus-Kehoe- | w35448 |
+No unexpected English fragments were found.
 
 ## Maintenance Notes
 

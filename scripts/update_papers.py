@@ -976,6 +976,20 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
     source_lower = source_text.lower()
     source_exact = source_text.strip().lower()
 
+    def safe_replace(value: str, old: str, new: str) -> str:
+        if not old or old not in value:
+            return value
+        if old not in new or new not in value:
+            return value.replace(old, new)
+
+        # Protect already-correct occurrences when the preferred wording contains
+        # the text it replaces (for example, 提取失败 -> 记忆提取失败).
+        placeholder = "\u0000NBER_TRANSLATION_RULE\u0000"
+        while placeholder in value:
+            placeholder += "_"
+        protected = value.replace(new, placeholder)
+        return protected.replace(old, new).replace(placeholder, new)
+
     def rule_matches(rule: dict[str, Any]) -> bool:
         exact = str(rule.get("source_exact") or "").strip().lower()
         if exact and exact != source_exact:
@@ -1016,7 +1030,7 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
             old = str(replacement.get("bad") or "")
             new = str(replacement.get("good") or "")
             if old:
-                text = text.replace(old, new)
+                text = safe_replace(text, old, new)
 
     for replacement in TRANSLATION_GLOSSARY.get("global_cleanup", []):
         if not isinstance(replacement, dict):
@@ -1024,7 +1038,7 @@ def apply_translation_rules(source_text: str, translated: str) -> str:
         old = str(replacement.get("bad") or "")
         new = str(replacement.get("good") or "")
         if old:
-            text = text.replace(old, new)
+            text = safe_replace(text, old, new)
 
     return text
 
@@ -1303,6 +1317,8 @@ def build_translation_audit_report(records: list[dict[str, Any]], glossary: dict
         for fragment in english_pattern.findall(chinese):
             normalized = re.sub(r"\s+", " ", fragment).strip()
             if not normalized or normalized.lower() in allowed_english_terms:
+                continue
+            if normalized.endswith("-") and any(term.startswith(normalized.lower()) for term in allowed_english_terms):
                 continue
             if normalized.islower() and len(normalized) <= 4:
                 continue
