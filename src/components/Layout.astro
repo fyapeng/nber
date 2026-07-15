@@ -26,12 +26,18 @@ const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL :
     <div class="site-shell">
       <header class="site-header">
         <a class="brand" href={base} aria-label="NBER Weekly">
-          <img src={`${base}favicon.svg`} alt="" width="32" height="32" />
-          <span>NBER Weekly</span>
+          <img src={`${base}brand/sencium-icon-dark.png`} alt="" width="32" height="32" />
+          <span>申椿 · NBER Weekly</span>
         </a>
-        <a class="header-link" href="https://www.nber.org/papers" target="_blank" rel="noreferrer noopener">
-          NBER
-        </a>
+        <nav class="header-nav" aria-label="主导航">
+          <a class="header-link" href={`${base}wechat-editor/`}>公众号编辑器</a>
+          <a class="header-link" href="https://github.com/fyapeng/nber" target="_blank" rel="noreferrer noopener">
+            GitHub
+          </a>
+          <a class="header-link" href="https://www.nber.org/papers" target="_blank" rel="noreferrer noopener">
+            NBER
+          </a>
+        </nav>
       </header>
 
       <slot />

@@ -1,5 +1,6 @@
 node_modules/
 dist/
+output/
 .astro/
 __pycache__/
 *.py[cod]
@@ -7,3 +8,6 @@ __pycache__/
 .env.*
 !.env.example
 npm-debug.log*
+public/brand/sencium-wechat-cover-background-v2.png
+public/brand/sencium-wechat-namecard-light.png
+public/brand/sencium-wechat-namecard-mobile-v2.png
