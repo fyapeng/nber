@@ -1,0 +1,64 @@
+name: Probe WeChat API access
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check outbound IP and WeChat API access
+        env:
+          WECHAT_APP_ID: ${{ secrets.WECHAT_APP_ID }}
+          WECHAT_APP_SECRET: ${{ secrets.WECHAT_APP_SECRET }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.parse
+          import urllib.request
+
+          def get_json(url):
+              with urllib.request.urlopen(url, timeout=20) as response:
+                  return json.loads(response.read().decode("utf-8"))
+
+          with urllib.request.urlopen("https://api.ipify.org", timeout=20) as response:
+              outbound_ip = response.read().decode("ascii").strip()
+          print(json.dumps({"outbound_ip": outbound_ip}, ensure_ascii=False))
+
+          app_id = os.environ.get("WECHAT_APP_ID", "")
+          app_secret = os.environ.get("WECHAT_APP_SECRET", "")
+          if not app_id or not app_secret:
+              raise SystemExit("WECHAT_APP_ID / WECHAT_APP_SECRET secrets are missing")
+
+          query = urllib.parse.urlencode({
+              "grant_type": "client_credential",
+              "appid": app_id,
+              "secret": app_secret,
+          })
+          token_result = get_json(f"https://api.weixin.qq.com/cgi-bin/token?{query}")
+          token = token_result.get("access_token")
+          if not token:
+              print(json.dumps({
+                  "wechat_token_ok": False,
+                  "errcode": token_result.get("errcode"),
+                  "errmsg": token_result.get("errmsg"),
+              }, ensure_ascii=False))
+              raise SystemExit(0)
+
+          count_result = get_json(
+              "https://api.weixin.qq.com/cgi-bin/draft/count?access_token="
+              + urllib.parse.quote(token)
+          )
+          print(json.dumps({
+              "wechat_token_ok": True,
+              "draft_count_ok": count_result.get("errcode", 0) == 0,
+              "draft_total_count": count_result.get("total_count"),
+              "errcode": count_result.get("errcode", 0),
+              "errmsg": count_result.get("errmsg", "ok"),
+          }, ensure_ascii=False))
+          PY
