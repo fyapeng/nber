@@ -144,7 +144,7 @@ const buildArticle = (issueGroups, imageUrl) => {
     + `<h1 style="${styles.h1}">NBER Weekly</h1>`
     + p("NBER（美国国家经济研究局）的 Working Papers 系列持续发布经济学领域的工作论文，覆盖宏观、劳动、金融、公共经济学等多个方向。")
     + p(`${escapeHtml(date)} 这一批次共收录 ${papers.length} 篇论文，本期推送“${escapeHtml(topics.join("、"))}”主题，共 ${issuePapers.length} 篇。`)
-    + `<p style="${styles.note}">本文基础材料由 <strong>NBER Weekly</strong> 自动化项目生成。项目网页：fyapeng.com/nber</p>`
+    + `<p style="${styles.note}">论文信息抓取与文章排版由 <strong>NBER Weekly</strong> 自动完成，中文标题及摘要由 Kimi API 辅助翻译。项目网页：fyapeng.com/nber</p>`
     + `<h2 style="${styles.h2}">本周领域分布</h2>${distribution}${sections}`
     + `<p style="${styles.disclaimer}"><em>论文信息来自 NBER；中文标题与摘要由 AI 辅助翻译，仅供快速浏览。正式引用与研究判断请以英文原文为准。可通过 NBER 编号或论文标题检索原文。</em></p>`
     + (imageUrl ? `<img src="${escapeHtml(imageUrl)}" style="${styles.image}" alt="申椿公众号二维码名片">` : "")
