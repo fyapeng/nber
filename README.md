@@ -37,11 +37,83 @@ npm install
 npm run dev
 ```
 
+启动后访问公众号编辑器：
+
+```text
+http://localhost:4321/nber/wechat-editor/
+```
+
+编辑器支持：
+
+- Markdown 实时预览和本地自动保存。
+- 简约的微信公众号内联样式，可调整主题色。
+- 标题、引用、列表、链接、代码和表格等常用格式。
+- 一键复制富文本到公众号后台。
+- 导出 Markdown 和独立 HTML 文件。
+- 从 GitHub `main` 分支读取最新 `papers.json` 和 `update-meta.json`。
+- 使用透明的关键词规则统计论文领域，不调用 AI 总结论文。
+- 按领域将全部论文均衡拆分为 2、3 或 4 期，默认生成 3 期。
+- 在每期文章开头生成适配手机宽度的领域分布表格。
+- 每篇完整保留 NBER 编号、中文标题、英文标题、作者、中文摘要和英文摘要。
+- 接入申椿品牌视觉、公众号二维码名片和适配微信封面比例的封面底图。
+
+“载入本周 NBER”会覆盖当前编辑内容，覆盖前会要求确认。分期生成后可以通过“当前分期”切换文章；系统会校验每篇论文恰好出现一次，避免分期时遗漏或重复。公众号正文不生成论文外部跳转链接，读者可根据 NBER 的 `w` 编号或论文标题检索原文。
+
 构建静态站点：
 
 ```powershell
 npm run build
 ```
+
+## 微信公众号工作流
+
+项目提供两种公众号使用方式：
+
+1. 在网页编辑器中载入本周数据，预览后复制富文本到公众号后台。
+2. 在已加入微信 IP 白名单的本机或固定 IP 服务器上，通过接口直接写入公众号草稿箱。
+
+接口上传脚本是 `scripts/wechat-draft.mjs`。它会：
+
+1. 读取 `src/data/papers.json` 和 `src/data/update-meta.json`。
+2. 使用与网页编辑器一致的关键词规则统计领域。
+3. 将全部论文均衡拆分为 3 期，并校验每篇论文只出现一次。
+4. 上传 NBER Weekly 封面为微信永久图片素材。
+5. 上传文末公众号名片到微信图文图片服务器。
+6. 生成带内联样式的微信 HTML，并新增或更新草稿。
+
+先做只生成、不调用微信接口的检查：
+
+```powershell
+npm run wechat:draft -- --issue=1 --dry-run
+```
+
+分别写入三期草稿：
+
+```powershell
+npm run wechat:draft -- --issue=1
+npm run wechat:draft -- --issue=2
+npm run wechat:draft -- --issue=3
+```
+
+更新已有草稿而不是创建重复稿件：
+
+```powershell
+npm run wechat:draft -- --issue=1 --update=已有草稿的_MEDIA_ID
+```
+
+默认上传设置为：作者 `YAPO`、视觉空白摘要、开启评论且不限粉丝、阅读原文指向 `https://fyapeng.com/nber/`、不自动发布。脚本只写入草稿箱，最终发布仍在微信公众平台后台人工确认。
+
+### 自动化边界
+
+当前推荐工作流是：
+
+1. GitHub Actions 每周获取论文、翻译、更新 JSON 并部署网站。
+2. 本机 Windows 定时任务在 GitHub 更新后读取最新 JSON。
+3. 本机调用 `npm run wechat:draft`，将三期内容写入微信草稿箱。
+
+微信服务端 API 要求调用方 IP 位于白名单。普通 `ubuntu-latest` GitHub 托管 runner 的出口 IP 不固定，因此不用于正式上传。`.github/workflows/wechat-api-probe.yml` 仅用于手动诊断出口 IP、token 权限和草稿计数，不创建或修改草稿。
+
+如需完全云端无人值守，应使用固定公网 IPv4 的服务器、自托管 runner，或支持静态出口 IP 的 GitHub larger runner，并将固定 IP 加入微信白名单。
 
 ## Python 环境
 
@@ -71,6 +143,13 @@ NBER_EMAIL_IMAP_LOOKBACK=100
 NBER_SOURCE=auto
 KIMI_API_KEY=你的 Kimi API key
 KIMI_MODEL=moonshot-v1-8k
+WECHAT_APP_ID=公众号 AppID
+WECHAT_APP_SECRET=公众号 AppSecret
+WECHAT_AUTHOR=YAPO
+WECHAT_DIGEST=
+WECHAT_SOURCE_URL=https://fyapeng.com/nber/
+WECHAT_OPEN_COMMENT=1
+WECHAT_ONLY_FANS_CAN_COMMENT=0
 ```
 
 `.gitignore` 已经忽略 `.env` 和 `.env.*`，但允许提交 `.env.example`。
@@ -193,6 +272,15 @@ NBER_EMAIL_IMAP_PORT
 NBER_EMAIL_IMAP_USER
 NBER_EMAIL_IMAP_PASSWORD
 ```
+
+可选的微信接口诊断 Secrets：
+
+```text
+WECHAT_APP_ID
+WECHAT_APP_SECRET
+```
+
+这两个 Secrets 仅供手动触发 `wechat-api-probe.yml` 检查连接使用。普通 GitHub 托管 runner 没有固定出口 IP，因此正式草稿上传仍建议在白名单内的本机或固定 IP 服务器运行。
 
 示例配置：
 

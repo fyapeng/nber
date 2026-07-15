@@ -74,6 +74,12 @@ main,
   text-decoration: none;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
 .header-link:hover,
 .paper-link:hover {
   text-decoration: underline;
@@ -101,6 +107,38 @@ main,
   margin: 0;
   color: var(--muted);
   font-size: 1.04rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.hero-button {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  color: var(--accent-strong);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.hero-button--primary {
+  color: #fff;
+  background: var(--accent-strong);
+  border-color: var(--accent-strong);
+}
+
+.hero-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(18, 49, 43, 0.1);
 }
 
 .eyebrow {

@@ -1,0 +1,1015 @@
+---
+import Layout from "../components/Layout.astro";
+
+const defaultMarkdown = `# NBER Weekly
+
+NBER（美国国家经济研究局）的 Working Papers 系列持续发布经济学领域的工作论文，覆盖宏观、劳动、金融、公共经济学等多个方向。
+
+本周共收录 40 篇论文，本期推送“示例领域”主题论文。
+
+> 本文基础材料由 **NBER Weekly** 自动化项目生成。项目网页：fyapeng.com/nber
+
+## 本周领域分布
+
+- 劳动与教育　■■■■■■■■■■　8
+- 宏观与货币　■■■■■■■■□□　6
+
+## 劳动与教育
+
+### 1. 示例论文标题
+
+**NBER 编号：** w00000
+
+**英文标题：** Example Working Paper Title
+
+**作者：** First Author、Second Author
+
+这里完整显示现有中文摘要，不再由 AI 进行二次总结或改写。
+
+**英文摘要：**
+
+The original English abstract is displayed here in full.
+
+*论文信息来自 NBER；中文内容由 AI 辅助整理，仅供快速浏览，正式引用请以原文为准。*
+
+![申椿公众号二维码名片](/nber/brand/sencium-wechat-namecard-mobile-v3.png)`;
+---
+
+<Layout
+  title="公众号 Markdown 编辑器 · NBER Weekly"
+  description="将 Markdown 转换成适合微信公众号复制粘贴的简约富文本"
+>
+  <main class="editor-page">
+    <section class="editor-intro">
+      <div>
+        <p class="eyebrow">Markdown → WeChat</p>
+        <h1>公众号图文编辑器</h1>
+        <p>编辑 Markdown，实时预览简约排版，一键复制到微信公众号后台。</p>
+      </div>
+      <div class="intro-actions">
+        <button class="button button--secondary" id="load-nber" type="button">载入本周 NBER</button>
+        <button class="button button--primary" id="copy-rich" type="button">复制到公众号</button>
+      </div>
+    </section>
+
+    <section class="publish-title-bar" aria-label="公众号文章标题">
+      <label for="article-title">
+        <span>公众号标题</span>
+        <input id="article-title" type="text" value="NBER︱本周工作论文：示例领域" />
+      </label>
+      <button type="button" class="button button--secondary" id="copy-title">复制标题</button>
+    </section>
+
+    <section class="control-bar" aria-label="编辑器设置">
+      <div class="toolbar" role="toolbar" aria-label="Markdown 快捷格式">
+        <button type="button" data-prefix="## " title="二级标题">H2</button>
+        <button type="button" data-prefix="### " title="三级标题">H3</button>
+        <button type="button" data-wrap="**" title="粗体"><strong>B</strong></button>
+        <button type="button" data-wrap="*" title="斜体"><em>I</em></button>
+        <button type="button" data-prefix="> " title="引用">引用</button>
+        <button type="button" data-prefix="- " title="无序列表">列表</button>
+        <button type="button" data-link title="链接">链接</button>
+        <button type="button" data-divider title="分隔线">分隔线</button>
+      </div>
+
+      <div class="editor-options">
+        <label>
+          <span>计划分为</span>
+          <select id="issue-size" aria-label="计划分期数量">
+            <option value="2">2 期</option>
+            <option value="3" selected>3 期</option>
+            <option value="4">4 期</option>
+          </select>
+        </label>
+        <label id="issue-picker" hidden>
+          <span>当前分期</span>
+          <select id="issue-select" aria-label="选择公众号分期"></select>
+        </label>
+        <label>
+          <span>主题色</span>
+          <input id="accent-color" type="color" value="#0b1015" />
+        </label>
+        <button type="button" class="text-button" id="reset-content">恢复示例</button>
+        <button type="button" class="text-button" id="download-cover">下载 NBER 封面</button>
+        <button type="button" class="text-button" id="download-md">导出 Markdown</button>
+        <button type="button" class="text-button" id="download-html">导出 HTML</button>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <div class="pane pane--editor">
+        <div class="pane-heading">
+          <div>
+            <span class="pane-kicker">编辑</span>
+            <h2>Markdown</h2>
+          </div>
+          <span id="save-state" class="pane-status">已自动保存</span>
+        </div>
+        <textarea id="markdown-input" spellcheck="true" aria-label="Markdown 内容"></textarea>
+      </div>
+
+      <div class="pane pane--preview">
+        <div class="pane-heading">
+          <div>
+            <span class="pane-kicker">预览</span>
+            <h2>公众号正文</h2>
+          </div>
+          <span id="word-count" class="pane-status">0 字</span>
+        </div>
+        <div class="phone-canvas">
+          <article id="wechat-preview" aria-live="polite"></article>
+        </div>
+      </div>
+    </section>
+
+    <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+    <script id="default-markdown" type="application/json" set:html={JSON.stringify(defaultMarkdown)}></script>
+  </main>
+</Layout>
+
+<script>
+  import DOMPurify from "dompurify";
+  import { marked } from "marked";
+
+  type Paper = {
+    id?: string;
+    title?: string;
+    title_cn?: string;
+    authors?: string[];
+    abstract?: string;
+    abstract_cn?: string;
+    url?: string;
+    public_date?: string;
+  };
+
+  type UpdateMeta = {
+    batch_date?: string;
+    paper_count?: number;
+  };
+
+  type PublicationIssue = {
+    title: string;
+    label: string;
+    markdown: string;
+    paperIds: string[];
+  };
+
+  const REMOTE_BASE = "https://raw.githubusercontent.com/fyapeng/nber/main/src/data";
+  const STORAGE_KEY = "nber-wechat-editor-content-v4";
+  const COLOR_KEY = "nber-wechat-editor-accent-v2";
+  const ISSUES_KEY = "nber-wechat-editor-issues-v5";
+
+  const input = document.querySelector<HTMLTextAreaElement>("#markdown-input")!;
+  const articleTitle = document.querySelector<HTMLInputElement>("#article-title")!;
+  const preview = document.querySelector<HTMLElement>("#wechat-preview")!;
+  const accentInput = document.querySelector<HTMLInputElement>("#accent-color")!;
+  const issueSize = document.querySelector<HTMLSelectElement>("#issue-size")!;
+  const issuePicker = document.querySelector<HTMLElement>("#issue-picker")!;
+  const issueSelect = document.querySelector<HTMLSelectElement>("#issue-select")!;
+  const saveState = document.querySelector<HTMLElement>("#save-state")!;
+  const wordCount = document.querySelector<HTMLElement>("#word-count")!;
+  const notice = document.querySelector<HTMLElement>("#notice")!;
+  const defaultMarkdown = JSON.parse(document.querySelector("#default-markdown")!.textContent || '""');
+  let noticeTimer = 0;
+  let publicationIssues: PublicationIssue[] = [];
+  let activeIssueIndex = 0;
+  let latestPapers: Paper[] = [];
+  let latestMeta: UpdateMeta = {};
+
+  marked.setOptions({ gfm: true, breaks: false });
+
+  const showNotice = (message: string, tone: "success" | "error" = "success") => {
+    window.clearTimeout(noticeTimer);
+    notice.textContent = message;
+    notice.dataset.tone = tone;
+    notice.hidden = false;
+    noticeTimer = window.setTimeout(() => {
+      notice.hidden = true;
+    }, 3200);
+  };
+
+  const themeStyles = (accent: string) => ({
+    container:
+      "max-width:677px;margin:0 auto;padding:24px 4px 40px;background:#ffffff;color:#252927;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif;font-size:14px;line-height:1.7;word-break:break-word;",
+    h1: `display:table;max-width:100%;box-sizing:border-box;margin:0 auto 28px;padding:0 2px 10px;border:0;border-bottom:2px solid ${accent};color:#202523;font-size:20px;line-height:1.45;font-weight:700;letter-spacing:.02em;text-align:center;white-space:normal;overflow-wrap:break-word;`,
+    h2: `display:table;max-width:calc(100% - 28px);box-sizing:border-box;margin:34px auto 18px;padding:7px 14px;border:0;background:${accent};color:#f2f0ea;font-size:17px;line-height:1.5;font-weight:700;text-align:center;white-space:normal;overflow-wrap:break-word;border-radius:7px;`,
+    h3: `margin:28px 0 14px;padding:7px 11px;border:0;border-left:4px solid ${accent};background:#f3f5f4;color:#202523;font-size:15px;line-height:1.6;font-weight:700;border-radius:2px;`,
+    h4: "margin:20px 0 8px;color:#252927;font-size:14px;line-height:1.55;font-weight:700;",
+    h5: "margin:18px 0 8px;color:#3f4643;font-size:14px;line-height:1.55;font-weight:700;",
+    h6: "margin:18px 0 8px;color:#5f6864;font-size:13px;line-height:1.55;font-weight:700;",
+    p: "margin:1em 0;color:#303633;font-size:14px;line-height:1.75;text-align:justify;text-justify:inter-ideograph;letter-spacing:.01em;",
+    blockquote: "margin:16px 0 22px;padding:0 0 0 10px;border:0;border-left:2px solid #c9cecb;background:transparent;color:#737975;border-radius:0;",
+    blockquote_p: "margin:0;color:#737975;font-size:12px;line-height:1.65;text-align:left;",
+    strong: "color:#1f2522;font-weight:700;",
+    em: "color:#59625e;font-style:italic;",
+    a: `color:${accent};font-size:14px;text-decoration:none;border-bottom:1px solid ${accent};`,
+    ul: "margin:12px 0;padding-left:1.6em;color:#303633;font-size:14px;line-height:1.75;text-align:justify;",
+    ol: "margin:12px 0;padding-left:1.8em;color:#303633;font-size:14px;line-height:1.75;text-align:justify;",
+    li: "margin:5px 0;padding-left:.15em;color:#303633;font-size:14px;line-height:1.75;text-align:justify;",
+    hr: `height:1px;margin:28px auto;border:0;background:linear-gradient(to right,transparent,#c9cfcc 18%,${accent} 50%,#c9cfcc 82%,transparent);`,
+    codespan: "padding:2px 5px;background:#f1f3f2;color:#9b3b35;font-family:Consolas,Monaco,monospace;font-size:12px;border-radius:3px;",
+    pre: "margin:16px 0;padding:14px 16px;overflow-x:auto;background:#222725;color:#edf1ef;font-size:12px;line-height:1.65;border-radius:4px;white-space:pre-wrap;word-break:break-word;",
+    pre_code: "padding:0;background:transparent;color:inherit;font-family:Consolas,Monaco,monospace;font-size:12px;",
+    img: "display:block;max-width:100%;height:auto;margin:18px auto;border:0;",
+    table: "width:90%;max-width:560px;margin:16px auto 24px;border-collapse:collapse;border-spacing:0;table-layout:auto;font-size:13px;line-height:1.55;",
+    th: `padding:8px 6px;border:0;border-bottom:2px solid ${accent};background:transparent;color:${accent};font-size:13px;line-height:1.5;text-align:left;font-weight:700;`,
+    td: "padding:8px 6px;border:0;border-bottom:1px solid #e2e5e3;color:#303633;font-size:13px;line-height:1.55;text-align:left;vertical-align:top;",
+    abstract_en: "margin:8px 0 20px;padding:12px 14px;background:#f6f7f6;color:#59615e;font-family:Georgia,'Times New Roman',serif;font-size:13px;line-height:1.7;text-align:justify;",
+    chart: "margin:16px 0 24px;padding:14px 16px;border:1px solid #d9dedb;background:#fafbfa;",
+    chart_title: "display:block;margin:0 0 12px;color:#2d3532;font-size:14px;line-height:1.5;font-weight:700;",
+    chart_row: "display:flex;align-items:center;gap:8px;margin:8px 0;min-height:22px;",
+    chart_label: "display:inline-block;width:108px;color:#404844;font-size:12px;line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;",
+    chart_track: "display:inline-block;flex:1;height:8px;background:#e6eae8;overflow:hidden;",
+    chart_value: "display:inline-block;width:24px;color:#59615e;font-size:12px;line-height:1;text-align:right;",
+    project_note: "margin:14px 0 22px;padding:10px 12px;border-left:3px solid #0b1015;background:#f3f1ec;color:#555b57;font-size:12px;line-height:1.65;text-align:left;",
+    brand_asset: "display:block;width:100%;max-width:677px;height:auto;margin:28px auto 0;border:0;",
+  });
+
+  const applyStyle = (root: HTMLElement, selector: string, cssText: string) => {
+    root.querySelectorAll<HTMLElement>(selector).forEach((element) => {
+      element.style.cssText = `${element.style.cssText};${cssText}`;
+    });
+  };
+
+  const render = () => {
+    const parsed = marked.parse(input.value, { async: false }) as string;
+    const clean = DOMPurify.sanitize(parsed, {
+      USE_PROFILES: { html: true },
+      ADD_ATTR: ["target"],
+    });
+    preview.innerHTML = clean;
+
+    const styles = themeStyles(accentInput.value);
+    preview.style.cssText = styles.container;
+    applyStyle(preview, "h1", styles.h1);
+    applyStyle(preview, "h2", styles.h2);
+    applyStyle(preview, "h3", styles.h3);
+    applyStyle(preview, "h4", styles.h4);
+    applyStyle(preview, "h5", styles.h5);
+    applyStyle(preview, "h6", styles.h6);
+    applyStyle(preview, "p", styles.p);
+    applyStyle(preview, "blockquote", styles.blockquote);
+    applyStyle(preview, "blockquote p", styles.blockquote_p);
+    applyStyle(preview, "strong", styles.strong);
+    applyStyle(preview, "em", styles.em);
+    applyStyle(preview, "a", styles.a);
+    applyStyle(preview, "ul", styles.ul);
+    applyStyle(preview, "ol", styles.ol);
+    applyStyle(preview, "li", styles.li);
+    applyStyle(preview, "hr", styles.hr);
+    applyStyle(preview, "code:not(pre code)", styles.codespan);
+    applyStyle(preview, "pre", styles.pre);
+    applyStyle(preview, "pre code", styles.pre_code);
+    applyStyle(preview, "img", styles.img);
+    applyStyle(preview, "table", styles.table);
+    applyStyle(preview, "th", styles.th);
+    applyStyle(preview, "td", styles.td);
+    applyStyle(preview, ".abstract-en", styles.abstract_en);
+    applyStyle(preview, "[data-nber-chart]", styles.chart);
+    applyStyle(preview, "[data-chart-title]", styles.chart_title);
+    applyStyle(preview, "[data-chart-row]", styles.chart_row);
+    applyStyle(preview, "[data-chart-label]", styles.chart_label);
+    applyStyle(preview, "[data-chart-track]", styles.chart_track);
+    applyStyle(preview, "[data-chart-value]", styles.chart_value);
+    applyStyle(preview, "[data-project-note]", styles.project_note);
+    applyStyle(preview, "[data-brand-asset]", styles.brand_asset);
+    preview.querySelectorAll<HTMLElement>("[data-chart-bar]").forEach((bar) => {
+      const width = Math.max(3, Math.min(100, Number(bar.dataset.width) || 0));
+      bar.style.cssText = `display:block;width:${width}%;height:8px;background:${accentInput.value};`;
+    });
+    preview.querySelectorAll<HTMLAnchorElement>("a").forEach((link) => {
+      link.target = "_blank";
+      link.rel = "noreferrer noopener";
+    });
+
+    const count = input.value.replace(/\s+/g, "").length;
+    wordCount.textContent = `${count.toLocaleString("zh-CN")} 字`;
+  };
+
+  let saveTimer = 0;
+  const scheduleSave = () => {
+    saveState.textContent = "保存中…";
+    window.clearTimeout(saveTimer);
+    saveTimer = window.setTimeout(() => {
+      localStorage.setItem(STORAGE_KEY, input.value);
+      if (publicationIssues.length) {
+        publicationIssues[activeIssueIndex].markdown = input.value;
+        localStorage.setItem(ISSUES_KEY, JSON.stringify(publicationIssues));
+      }
+      saveState.textContent = "已自动保存";
+    }, 350);
+  };
+
+  const savedIssues = localStorage.getItem(ISSUES_KEY);
+  if (savedIssues) {
+    try {
+      publicationIssues = JSON.parse(savedIssues) as PublicationIssue[];
+    } catch {
+      publicationIssues = [];
+    }
+  }
+
+  const refreshIssuePicker = () => {
+    issueSelect.innerHTML = "";
+    publicationIssues.forEach((issue, index) => {
+      const option = document.createElement("option");
+      option.value = String(index);
+      option.textContent = issue.label;
+      issueSelect.append(option);
+    });
+    issuePicker.hidden = publicationIssues.length < 2;
+    issueSelect.value = String(activeIssueIndex);
+  };
+
+  if (publicationIssues.length) {
+    input.value = publicationIssues[0].markdown;
+    articleTitle.value = publicationIssues[0].title || "NBER︱本周工作论文";
+    refreshIssuePicker();
+  } else {
+    input.value = localStorage.getItem(STORAGE_KEY) || defaultMarkdown;
+    articleTitle.value = "NBER︱本周工作论文：示例领域";
+  }
+  accentInput.value = localStorage.getItem(COLOR_KEY) || "#0b1015";
+  render();
+
+  input.addEventListener("input", () => {
+    render();
+    scheduleSave();
+  });
+
+  articleTitle.addEventListener("input", () => {
+    if (!publicationIssues.length) return;
+    publicationIssues[activeIssueIndex].title = articleTitle.value;
+    localStorage.setItem(ISSUES_KEY, JSON.stringify(publicationIssues));
+  });
+
+  document.querySelector("#copy-title")!.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(articleTitle.value);
+      showNotice("公众号标题已复制");
+    } catch (error) {
+      console.error(error);
+      articleTitle.select();
+      document.execCommand("copy");
+      showNotice("公众号标题已复制");
+    }
+  });
+
+  accentInput.addEventListener("input", () => {
+    localStorage.setItem(COLOR_KEY, accentInput.value);
+    render();
+  });
+
+  const replaceSelection = (before: string, after = "", fallback = "文本") => {
+    const start = input.selectionStart;
+    const end = input.selectionEnd;
+    const selected = input.value.slice(start, end) || fallback;
+    input.setRangeText(`${before}${selected}${after}`, start, end, "end");
+    input.focus();
+    input.dispatchEvent(new Event("input"));
+  };
+
+  document.querySelectorAll<HTMLButtonElement>("[data-prefix]").forEach((button) => {
+    button.addEventListener("click", () => replaceSelection(button.dataset.prefix || "", "", "内容"));
+  });
+
+  document.querySelectorAll<HTMLButtonElement>("[data-wrap]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const wrap = button.dataset.wrap || "";
+      replaceSelection(wrap, wrap, "强调内容");
+    });
+  });
+
+  document.querySelector<HTMLButtonElement>("[data-link]")!.addEventListener("click", () => {
+    replaceSelection("[", "](https://example.com)", "链接文字");
+  });
+
+  document.querySelector<HTMLButtonElement>("[data-divider]")!.addEventListener("click", () => {
+    replaceSelection("\n\n---\n\n", "", "");
+  });
+
+  const copyRichText = async () => {
+    const clone = preview.cloneNode(true) as HTMLElement;
+    clone.querySelectorAll<HTMLImageElement>("img").forEach((asset) => {
+      const filename = asset.src.split("/").pop();
+      if (filename?.startsWith("sencium-")) asset.src = `https://fyapeng.com/nber/brand/${filename}`;
+    });
+    const html = `<section style="${preview.style.cssText}">${clone.innerHTML}</section>`;
+    const plain = preview.innerText;
+    try {
+      if (navigator.clipboard?.write && window.ClipboardItem) {
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            "text/html": new Blob([html], { type: "text/html" }),
+            "text/plain": new Blob([plain], { type: "text/plain" }),
+          }),
+        ]);
+      } else {
+        const range = document.createRange();
+        range.selectNodeContents(preview);
+        const selection = window.getSelection();
+        selection?.removeAllRanges();
+        selection?.addRange(range);
+        document.execCommand("copy");
+        selection?.removeAllRanges();
+      }
+      showNotice("已复制富文本，可直接粘贴到公众号后台");
+    } catch (error) {
+      console.error(error);
+      showNotice("复制失败，请允许浏览器访问剪贴板后重试", "error");
+    }
+  };
+
+  document.querySelector("#copy-rich")!.addEventListener("click", copyRichText);
+
+  const download = (filename: string, content: string, type: string) => {
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(new Blob([content], { type }));
+    link.download = filename;
+    link.click();
+    window.setTimeout(() => URL.revokeObjectURL(link.href), 0);
+  };
+
+  const dateStamp = () => new Date().toISOString().slice(0, 10);
+  document.querySelector("#download-cover")!.addEventListener("click", async () => {
+    try {
+      const response = await fetch("/nber/brand/sencium-nber-weekly-cover-v3.png");
+      if (!response.ok) throw new Error("NBER 封面读取失败");
+      const blob = await response.blob();
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      link.download = `nber-weekly-cover-${dateStamp()}.png`;
+      link.click();
+      window.setTimeout(() => URL.revokeObjectURL(link.href), 0);
+      showNotice("已导出 NBER Weekly 专属封面");
+    } catch (error) {
+      console.error(error);
+      showNotice("NBER 封面导出失败", "error");
+    }
+  });
+  document.querySelector("#download-md")!.addEventListener("click", () => {
+    download(`nber-wechat-${dateStamp()}.md`, input.value, "text/markdown;charset=utf-8");
+  });
+  document.querySelector("#download-html")!.addEventListener("click", () => {
+    const clone = preview.cloneNode(true) as HTMLElement;
+    clone.querySelectorAll<HTMLImageElement>("img").forEach((asset) => {
+      const filename = asset.src.split("/").pop();
+      if (filename?.startsWith("sencium-")) asset.src = `https://fyapeng.com/nber/brand/${filename}`;
+    });
+    const html = `<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>NBER 公众号文章</title></head><body style="margin:0;background:#f4f5f4;"><section style="${preview.style.cssText}">${clone.innerHTML}</section></body></html>`;
+    download(`nber-wechat-${dateStamp()}.html`, html, "text/html;charset=utf-8");
+  });
+
+  document.querySelector("#reset-content")!.addEventListener("click", () => {
+    if (!window.confirm("恢复示例会覆盖当前编辑内容，确定继续吗？")) return;
+    publicationIssues = [];
+    activeIssueIndex = 0;
+    localStorage.removeItem(ISSUES_KEY);
+    refreshIssuePicker();
+    input.value = defaultMarkdown;
+    articleTitle.value = "NBER︱本周工作论文：示例领域";
+    localStorage.setItem(STORAGE_KEY, input.value);
+    render();
+    showNotice("已恢复示例内容");
+  });
+
+  const escapeMarkdown = (value = "") => value.replace(/([\\`*_{}\[\]<>])/g, "\\$1");
+  const FIELD_RULES = [
+    {
+      label: "劳动与教育",
+      keywords: ["labor", "labour", "employment", "worker", "wage", "occupation", "school", "student", "college", "teacher", "education", "training", "劳动", "就业", "工人", "工资", "职业", "学校", "学生", "大学", "教师", "教育", "培训"],
+    },
+    {
+      label: "宏观与货币",
+      keywords: ["inflation", "monetary", "central bank", "business cycle", "recession", "macroeconomic", "aggregate", "interest rate", "quantitative easing", "通货膨胀", "货币", "中央银行", "商业周期", "衰退", "宏观", "总需求", "利率", "量化宽松"],
+    },
+    {
+      label: "公共财政与政治经济",
+      keywords: ["tax", "taxation", "government", "public spending", "social security", "regulation", "political", "election", "voting", "democracy", "税", "税收", "政府", "公共支出", "社会保障", "监管", "政治", "选举", "投票", "民主"],
+    },
+    {
+      label: "金融与资产定价",
+      keywords: ["asset pricing", "stock", "bond", "bank", "banking", "credit", "finance", "financial", "investor", "portfolio", "capital market", "资产定价", "股票", "债券", "银行", "信贷", "金融", "投资者", "投资组合", "资本市场"],
+    },
+    {
+      label: "产业组织与企业",
+      keywords: ["market power", "competition", "pricing", "merger", "firm", "productivity", "innovation", "patent", "entrepreneur", "supply chain", "市场势力", "竞争", "定价", "并购", "企业", "生产率", "创新", "专利", "创业", "供应链"],
+    },
+    {
+      label: "国际贸易与发展",
+      keywords: ["international trade", "trade", "export", "import", "tariff", "exchange rate", "foreign", "migration", "immigration", "developing countries", "贸易", "出口", "进口", "关税", "汇率", "外国", "移民", "发展中国家"],
+    },
+    {
+      label: "医疗与健康",
+      keywords: ["health", "hospital", "medical", "medicine", "mortality", "disease", "patient", "drug", "physician", "insurance", "健康", "医院", "医疗", "死亡率", "疾病", "患者", "药物", "医生", "保险"],
+    },
+    {
+      label: "环境、能源与城市",
+      keywords: ["climate", "environment", "pollution", "carbon", "energy", "electricity", "transportation", "housing", "urban", "city", "环境", "污染", "碳", "能源", "电力", "交通", "住房", "城市"],
+    },
+    {
+      label: "数字经济与人工智能",
+      keywords: ["artificial intelligence", "machine learning", "chatbot", "algorithm", "digital", "online platform", "social media", "人工智能", "机器学习", "聊天机器人", "算法", "数字", "在线平台", "社交媒体"],
+    },
+    {
+      label: "经济史、文化与制度",
+      keywords: ["economic history", "historical", "history", "culture", "religion", "slavery", "institution", "colonial", "经济史", "历史", "文化", "宗教", "奴隶制", "制度", "殖民"],
+    },
+  ];
+
+  const classifyPaper = (paper: Paper) => {
+    const title = `${paper.title || ""} ${paper.title_cn || ""}`.toLowerCase();
+    const fullText = `${title} ${paper.abstract || ""} ${paper.abstract_cn || ""}`.toLowerCase();
+    let bestLabel = "其他经济学主题";
+    let bestScore = 0;
+    FIELD_RULES.forEach((rule) => {
+      let score = 0;
+      rule.keywords.forEach((keyword) => {
+        const normalized = keyword.toLowerCase();
+        if (title.includes(normalized)) score += 4;
+        else if (fullText.includes(normalized)) score += 1;
+      });
+      if (score > bestScore) {
+        bestScore = score;
+        bestLabel = rule.label;
+      }
+    });
+    return bestLabel;
+  };
+
+  const buildDistributionChart = (counts: Map<string, number>, total: number) => {
+    const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+    const rows = entries
+      .map(([label, count]) => `| ${escapeMarkdown(label)} | ${count} |`)
+      .join("\n");
+    return `| 研究领域 | 论文数量 |\n| --- | ---: |\n${rows}`;
+  };
+
+  const paperBlock = (paper: Paper, index: number) => {
+    const title = escapeMarkdown(paper.title_cn || paper.title || paper.id || "未命名论文");
+    const englishTitle = escapeMarkdown(paper.title || "");
+    const authors = escapeMarkdown((paper.authors || []).join("、"));
+    const abstractCn = escapeMarkdown(paper.abstract_cn || "中文摘要尚未生成。");
+    const abstractEn = escapeMarkdown(paper.abstract || "English abstract is not available.");
+    return `### ${index}. ${title}\n\n**NBER 编号：** ${escapeMarkdown(paper.id || "未提供")}\n\n**英文标题：** ${englishTitle}\n\n**作者：** ${authors}\n\n${abstractCn}\n\n**英文摘要：**\n\n${abstractEn}`;
+  };
+
+  const buildPublicationIssues = (papers: Paper[], meta: UpdateMeta, targetIssueCount: number) => {
+    const grouped = new Map<string, Paper[]>();
+    papers.forEach((paper) => {
+      const category = classifyPaper(paper);
+      const bucket = grouped.get(category) || [];
+      bucket.push(paper);
+      grouped.set(category, bucket);
+    });
+
+    const counts = new Map([...grouped.entries()].map(([label, items]) => [label, items.length]));
+    const groups = [...grouped.entries()]
+      .map(([label, items]) => ({ label, items }))
+      .sort((a, b) => b.items.length - a.items.length || a.label.localeCompare(b.label, "zh-CN"));
+    const desiredIssueCount = Math.max(1, Math.min(Math.round(targetIssueCount) || 3, papers.length));
+    const idealSize = Math.ceil(papers.length / desiredIssueCount);
+    const assignableGroups = groups
+      .flatMap((group) => {
+        if (group.items.length <= Math.ceil(idealSize * 1.25)) return [group];
+        const chunks: Array<{ label: string; items: Paper[] }> = [];
+        for (let start = 0; start < group.items.length; start += idealSize) {
+          chunks.push({ label: group.label, items: group.items.slice(start, start + idealSize) });
+        }
+        return chunks;
+      })
+      .sort((a, b) => b.items.length - a.items.length || a.label.localeCompare(b.label, "zh-CN"));
+    const issueGroups: Array<Array<{ label: string; items: Paper[] }>> = Array.from(
+      { length: desiredIssueCount },
+      () => [],
+    );
+    const issueSizes = Array.from({ length: desiredIssueCount }, () => 0);
+
+    assignableGroups.forEach((group) => {
+      let smallestIssueIndex = 0;
+      for (let index = 1; index < issueSizes.length; index += 1) {
+        if (issueSizes[index] < issueSizes[smallestIssueIndex]) smallestIssueIndex = index;
+      }
+      issueGroups[smallestIssueIndex].push(group);
+      issueSizes[smallestIssueIndex] += group.items.length;
+    });
+
+    const date = meta.batch_date || papers[0]?.public_date || dateStamp();
+    const chart = buildDistributionChart(counts, papers.length);
+    const issues = issueGroups.map((groupsInIssue, issueIndex) => {
+      const topicNames = groupsInIssue.map((group) => group.label);
+      const shortTopics = topicNames.length > 2 ? `${topicNames.slice(0, 2).join("、")}等主题` : topicNames.join("、");
+      const issuePaperCount = groupsInIssue.reduce((sum, group) => sum + group.items.length, 0);
+      let paperIndex = 0;
+      const sections = groupsInIssue
+        .map((group) => {
+          const blocks = group.items.map((paper) => paperBlock(paper, ++paperIndex)).join("\n\n");
+          return `## ${group.label}（${group.items.length} 篇）\n\n${blocks}`;
+        })
+        .join("\n\n");
+      const topicDescription = topicNames.join("、");
+      const markdown = `# NBER Weekly\n\nNBER（美国国家经济研究局）的 Working Papers 系列持续发布经济学领域的工作论文，覆盖宏观、劳动、金融、公共经济学等多个方向。\n\n${date} 这一批次共收录 ${papers.length} 篇论文，本期推送“${topicDescription}”主题，共 ${issuePaperCount} 篇。\n\n> 本文基础材料由 **NBER Weekly** 自动化项目生成。项目网页：fyapeng.com/nber\n\n## 本周领域分布\n\n${chart}\n\n${sections}\n\n---\n\n*论文信息来自 NBER；中文标题与摘要由 AI 辅助翻译，仅供快速浏览。正式引用与研究判断请以英文原文为准。可通过 NBER 编号或论文标题检索原文。*\n\n![申椿公众号二维码名片](/nber/brand/sencium-wechat-namecard-mobile-v3.png)`;
+      return {
+        title: `NBER︱本周工作论文：${shortTopics}`,
+        label: `第 ${issueIndex + 1}/${issueGroups.length} 期｜${shortTopics}｜${issuePaperCount} 篇`,
+        markdown,
+        paperIds: groupsInIssue.flatMap((group) => group.items.map((paper) => paper.id || "")),
+      };
+    });
+
+    const allIds = issues.flatMap((issue) => issue.paperIds);
+    if (allIds.length !== papers.length || new Set(allIds).size !== papers.length || allIds.some((id) => !id)) {
+      throw new Error("分期校验失败：论文存在遗漏、重复或缺少编号");
+    }
+    return issues;
+  };
+
+  const activateIssue = (index: number) => {
+    if (!publicationIssues.length) return;
+    if (publicationIssues[activeIssueIndex]) {
+      publicationIssues[activeIssueIndex].markdown = input.value;
+      publicationIssues[activeIssueIndex].title = articleTitle.value;
+    }
+    activeIssueIndex = Math.max(0, Math.min(index, publicationIssues.length - 1));
+    input.value = publicationIssues[activeIssueIndex].markdown;
+    articleTitle.value = publicationIssues[activeIssueIndex].title;
+    issueSelect.value = String(activeIssueIndex);
+    localStorage.setItem(STORAGE_KEY, input.value);
+    localStorage.setItem(ISSUES_KEY, JSON.stringify(publicationIssues));
+    render();
+  };
+
+  const installIssues = (issues: PublicationIssue[]) => {
+    publicationIssues = issues;
+    activeIssueIndex = 0;
+    localStorage.setItem(ISSUES_KEY, JSON.stringify(publicationIssues));
+    refreshIssuePicker();
+    input.value = publicationIssues[0]?.markdown || defaultMarkdown;
+    articleTitle.value = publicationIssues[0]?.title || "NBER︱本周工作论文";
+    issueSelect.value = "0";
+    localStorage.setItem(STORAGE_KEY, input.value);
+    render();
+  };
+
+  issueSelect.addEventListener("change", () => activateIssue(Number(issueSelect.value)));
+
+  issueSize.addEventListener("change", () => {
+    if (!latestPapers.length) return;
+    if (!window.confirm("重新分期会覆盖当前各期的手工修改，是否继续？")) return;
+    installIssues(buildPublicationIssues(latestPapers, latestMeta, Number(issueSize.value)));
+    showNotice(`已重新拆分为 ${publicationIssues.length} 期`);
+  });
+
+  document.querySelector("#load-nber")!.addEventListener("click", async () => {
+    const button = document.querySelector<HTMLButtonElement>("#load-nber")!;
+    button.disabled = true;
+    button.textContent = "正在读取…";
+    try {
+      const [papersResponse, metaResponse] = await Promise.all([
+        fetch(`${REMOTE_BASE}/papers.json`, { cache: "no-store" }),
+        fetch(`${REMOTE_BASE}/update-meta.json`, { cache: "no-store" }),
+      ]);
+      if (!papersResponse.ok || !metaResponse.ok) throw new Error("GitHub 数据请求失败");
+      const papers = (await papersResponse.json()) as Paper[];
+      const meta = (await metaResponse.json()) as UpdateMeta;
+      if (!Array.isArray(papers) || !papers.length) throw new Error("论文数据为空");
+      if (input.value.trim() && input.value !== defaultMarkdown) {
+        const overwrite = window.confirm(`已读取 ${papers.length} 篇论文。载入后会覆盖当前内容，是否继续？`);
+        if (!overwrite) return;
+      }
+      latestPapers = papers;
+      latestMeta = meta;
+      installIssues(buildPublicationIssues(papers, meta, Number(issueSize.value)));
+      showNotice(`已载入 ${papers.length} 篇论文，并按领域拆分为 ${publicationIssues.length} 期`);
+    } catch (error) {
+      console.error(error);
+      showNotice("无法读取 GitHub 数据，请检查网络后重试", "error");
+    } finally {
+      button.disabled = false;
+      button.textContent = "载入本周 NBER";
+    }
+  });
+</script>
+
+<style>
+  .editor-page {
+    width: min(1480px, calc(100% - 32px));
+    padding-bottom: 52px;
+  }
+
+  .editor-intro {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 28px 0 24px;
+    border-top: 1px solid var(--border);
+  }
+
+  .editor-intro h1 {
+    margin: 4px 0 8px;
+    color: #1f2926;
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    line-height: 1.2;
+  }
+
+  .editor-intro p:not(.eyebrow) {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .intro-actions,
+  .editor-options,
+  .toolbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .publish-title-bar {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    padding: 12px;
+    background: #f2f0ea;
+    border: 1px solid #d9d7d0;
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .publish-title-bar label {
+    display: grid;
+    min-width: 0;
+    flex: 1;
+    gap: 5px;
+    color: #666d69;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  #article-title {
+    width: 100%;
+    min-height: 40px;
+    padding: 8px 11px;
+    color: #202523;
+    background: #fff;
+    border: 1px solid #d1d4d2;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: 700;
+  }
+
+  #article-title:focus {
+    outline: 2px solid rgba(11, 16, 21, 0.12);
+    border-color: #0b1015;
+  }
+
+  .button,
+  .toolbar button,
+  .text-button {
+    min-height: 38px;
+    border: 0;
+    border-radius: 6px;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .button {
+    padding: 8px 14px;
+    font-weight: 700;
+  }
+
+  .button--primary {
+    color: #fff;
+    background: #0b1015;
+  }
+
+  .button--secondary {
+    color: #0b1015;
+    background: #f2f0ea;
+    border: 1px solid #d9d7d0;
+  }
+
+  .button:disabled {
+    cursor: wait;
+    opacity: 0.65;
+  }
+
+  .control-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 10px 12px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 0;
+  }
+
+  .toolbar button {
+    min-width: 38px;
+    padding: 6px 9px;
+    color: #46504c;
+    background: #f4f6f5;
+  }
+
+  .toolbar button:hover,
+  .text-button:hover {
+    color: #234a43;
+    background: #e8eeeb;
+  }
+
+  .editor-options {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .editor-options label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--muted);
+    font-size: 0.86rem;
+  }
+
+  .editor-options select {
+    min-height: 32px;
+    max-width: 260px;
+    padding: 4px 28px 4px 8px;
+    color: #3f4945;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font: inherit;
+    font-size: 0.86rem;
+  }
+
+  #issue-picker[hidden] {
+    display: none;
+  }
+
+  #accent-color {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .text-button {
+    padding: 6px 9px;
+    color: #5c6763;
+    background: transparent;
+    font-size: 0.86rem;
+  }
+
+  .workspace {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(420px, 1fr);
+    min-height: 720px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+  }
+
+  .pane {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+  }
+
+  .pane--editor {
+    border-right: 1px solid var(--border);
+  }
+
+  .pane-heading {
+    display: flex;
+    min-height: 66px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .pane-heading h2 {
+    margin: 1px 0 0;
+    color: #29332f;
+    font-size: 1rem;
+  }
+
+  .pane-kicker,
+  .pane-status {
+    color: #7b8581;
+    font-size: 0.75rem;
+  }
+
+  #markdown-input {
+    width: 100%;
+    min-height: 654px;
+    flex: 1;
+    resize: none;
+    padding: 22px;
+    color: #28312e;
+    background: #fbfcfb;
+    border: 0;
+    outline: 0;
+    font-family: "Cascadia Code", Consolas, "Microsoft YaHei", monospace;
+    font-size: 14px;
+    line-height: 1.75;
+    tab-size: 2;
+  }
+
+  #markdown-input:focus {
+    box-shadow: inset 3px 0 #0b1015;
+  }
+
+  .phone-canvas {
+    min-height: 654px;
+    flex: 1;
+    overflow: auto;
+    padding: 28px 18px 52px;
+    background: #eef0ef;
+  }
+
+  #wechat-preview {
+    min-height: 580px;
+    box-shadow: 0 8px 28px rgba(33, 49, 43, 0.08);
+  }
+
+  .notice {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 10;
+    max-width: min(420px, calc(100% - 48px));
+    padding: 11px 15px;
+    color: #fff;
+    background: #0b1015;
+    border-radius: 6px;
+    box-shadow: 0 12px 28px rgba(24, 32, 31, 0.18);
+    font-size: 0.92rem;
+  }
+
+  .notice[data-tone="error"] {
+    background: #963f39;
+  }
+
+  @media (max-width: 960px) {
+    .editor-intro,
+    .publish-title-bar,
+    .control-bar {
+      align-items: stretch;
+      flex-direction: column;
+    }
+
+    .intro-actions {
+      justify-content: flex-start;
+    }
+
+    .editor-options {
+      justify-content: flex-start;
+    }
+
+    .workspace {
+      grid-template-columns: 1fr;
+    }
+
+    .pane--editor {
+      border-right: 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    #markdown-input,
+    .phone-canvas {
+      min-height: 540px;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .editor-page {
+      width: min(100% - 20px, 1480px);
+    }
+
+    .intro-actions,
+    .toolbar {
+      flex-wrap: wrap;
+    }
+
+    .intro-actions .button {
+      flex: 1;
+    }
+
+    .control-bar {
+      border-radius: 0;
+    }
+
+    .phone-canvas {
+      padding: 14px 8px 32px;
+    }
+  }
+</style>
