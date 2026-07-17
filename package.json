@@ -7,8 +7,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "wechat:draft": "node scripts/wechat-draft.mjs",
-    "wechat:essay": "node scripts/wechat-essay-draft.mjs"
+    "wechat:draft": "node scripts/wechat-draft.mjs"
   },
   "dependencies": {
     "astro": "^7.0.6",

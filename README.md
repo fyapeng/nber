@@ -103,24 +103,6 @@ npm run wechat:draft -- --issue=1 --update=已有草稿的_MEDIA_ID
 
 默认上传设置为：作者 `YAPO`、视觉空白摘要、开启评论且不限粉丝、阅读原文指向 `https://fyapeng.com/nber/`、不自动发布。脚本只写入草稿箱，最终发布仍在微信公众平台后台人工确认。
 
-### 通用 Markdown 随笔
-
-`scripts/wechat-essay-draft.mjs` 可将其他项目中的 Markdown 长文转换为公众号草稿。它会移除正文外部链接、把行间 LaTeX 公式渲染为图片并上传到微信、将短公式转换为可读文本，同时保留“阅读原文”地址。
-
-先生成本地预览并检查接口字符限制：
-
-```powershell
-npm run wechat:essay -- --input="E:\path\article.md" --cover="E:\path\cover.jpg" --dry-run
-```
-
-确认后写入草稿箱：
-
-```powershell
-npm run wechat:essay -- --input="E:\path\article.md" --cover="E:\path\cover.jpg" --source-url="https://example.com/article/"
-```
-
-可通过 `--title`、`--digest`、`--author` 覆盖 Markdown 元信息；通过 `--update=MEDIA_ID` 更新已有草稿。正文必须少于微信接口允许的 2 万字符，较长文章应先整理为公众号专稿。
-
 ### 自动化边界
 
 当前推荐工作流是：
