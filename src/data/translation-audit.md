@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-07-13T15:03:44Z`
-- Paper count: `40`
+- Generated at: `2026-07-20T05:22:39Z`
+- Paper count: `39`
 - Glossary version: `econ-zh-v6-6b9be5fbe9`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -33,7 +33,26 @@ No structural translation quality warnings were found.
 
 ## English Fragments
 
-No unexpected English fragments were found.
+| Fragment | Papers |
+| --- | --- |
+| ADLs | w35469 |
+| AI- | w35481 |
+| AI-PI | w35481 |
+| CBO | w35472 |
+| CIP | w35498 |
+| ECD | w35489 |
+| FSD | w35488 |
+| GLP- | w35475 |
+| HET | w35495 |
+| Interest Parity | w35498 |
+| KDPI | w35489 |
+| KMM | w35488 |
+| LLMs | w35481 |
+| Marinacci-Mukerji | w35488 |
+| PAC | w35494 |
+| SCI | w35469 |
+| SHARE | w35469 |
+| UIP | w35498 |
 
 ## Maintenance Notes
 
