@@ -1,269 +1,3758 @@
 {
-  "version": "econ-zh-v6",
+  "version": "econ-zh-v7",
   "prompt_terms": [
-    {"category": "公共经济学", "source": "benefit-based taxation", "target": "基于受益原则的税收", "note": "不要译为“基于福利的税收”。"},
-    {"category": "公共经济学", "source": "benefit principle", "target": "受益原则", "note": "welfare 才译为“福利”。"},
-    {"category": "劳动与教育", "source": "labor market", "target": "劳动力市场", "note": "不要译为“劳动市场”。"},
-    {"category": "劳动与教育", "source": "resume audit study / audit study", "target": "简历审计研究或审计研究", "note": "不要译为“简历审核研究”。"},
-    {"category": "劳动与教育", "source": "early childhood education", "target": "幼儿教育", "note": "不要译为“早期儿童教育”。"},
-    {"category": "行为与学习", "source": "misspecified learning", "target": "错误设定学习"},
-    {"category": "行为与学习", "source": "marginal satisfaction from income", "target": "收入的边际满意度"},
-    {"category": "模型表述", "source": "tractable model", "target": "易处理模型或可求解模型", "note": "不要译为“可处理模型”。"},
-    {"category": "模型表述", "source": "agents", "target": "经济主体", "note": "在一般均衡或模型语境中使用；private agents 可译为“私人机构”或“私人经营者”。"},
-    {"category": "宏观与国际", "source": "Ricardian equivalence", "target": "李嘉图等价", "note": "不要译为“里卡多等价”。"},
-    {"category": "宏观与国际", "source": "David Ricardo", "target": "大卫·李嘉图"},
-    {"category": "宏观与国际", "source": "aggregate demand", "target": "总需求"},
-    {"category": "宏观与国际", "source": "aggregate supply", "target": "总供给"},
-    {"category": "宏观与国际", "source": "aggregate outcomes / aggregate stabilization", "target": "总量结果 / 总量稳定"},
-    {"category": "宏观与国际", "source": "Importing Aggregate Demand", "target": "输入总需求", "note": "importing/import 在国际贸易、开放宏观或需求传导语境中不要译为“导入”。"},
-    {"category": "宏观与国际", "source": "real exchange rate appreciation", "target": "实际汇率升值"},
-    {"category": "宏观与国际", "source": "marginal propensity to consume", "target": "边际消费倾向"},
-    {"category": "宏观与国际", "source": "financial market imperfections", "target": "金融市场不完全性"},
-    {"category": "宏观与国际", "source": "incomplete markets", "target": "不完全市场"},
-    {"category": "宏观与国际", "source": "state-dependent pricing", "target": "状态依赖定价"},
-    {"category": "宏观与国际", "source": "strategic complementarities", "target": "策略互补性"},
-    {"category": "宏观与国际", "source": "fiscal stimulus", "target": "财政刺激"},
-    {"category": "宏观与国际", "source": "monetary easing / monetary tightening", "target": "货币宽松 / 货币紧缩"},
-    {"category": "宏观与国际", "source": "quantitative easing", "target": "量化宽松", "note": "不要笼统译为“货币宽松”。"},
-    {"category": "宏观与国际", "source": "contractionary policy", "target": "收缩性政策"},
-    {"category": "宏观与国际", "source": "spending effect", "target": "支出效应"},
-    {"category": "宏观与国际", "source": "quantity response / price adjustment", "target": "数量反应或数量调整 / 价格调整"},
-    {"category": "宏观与国际", "source": "flexible-price equilibrium", "target": "灵活价格均衡"},
-    {"category": "宏观与国际", "source": "open economies / global demand shocks", "target": "开放经济体 / 全球需求冲击"},
-    {"category": "宏观与国际", "source": "idiosyncratic risk", "target": "个体特异性风险"},
-    {"category": "宏观与国际", "source": "pass-through", "target": "传导", "note": "tariff pass-through -> 关税传导；exchange rate pass-through -> 汇率传导。"},
-    {"category": "方法与表述", "source": "proxy / proxy variable", "target": "代理变量或替代变量", "note": "不要只译为“代理”。"},
-    {"category": "国际金融", "source": "producer currency pricing (PCP)", "target": "生产者货币定价"},
-    {"category": "国际金融", "source": "local/buyer currency pricing (LCP)", "target": "本地/买方货币定价"},
-    {"category": "国际金融", "source": "dominant currency pricing (DCP)", "target": "主导货币定价"},
-    {"category": "金融与资产定价", "source": "safe haven", "target": "避风港或避险资产"},
-    {"category": "金融与资产定价", "source": "Digital Safe Havens", "target": "数字避风港"},
-    {"category": "金融与资产定价", "source": "yield-bearing dollar instruments", "target": "生息美元工具或计息美元工具"},
-    {"category": "金融与资产定价", "source": "total value locked", "target": "总锁仓价值（TVL）"},
-    {"category": "金融与资产定价", "source": "convenience yield", "target": "便利收益率"},
-    {"category": "金融与资产定价", "source": "basis-trade carry", "target": "基差交易套利收益"},
-    {"category": "城市与交通", "source": "congestion pricing", "target": "拥堵收费", "note": "交通政策语境中使用。"},
-    {"category": "城市与交通", "source": "EMS / emergency medical services", "target": "急救服务或紧急医疗服务"},
-    {"category": "城市与交通", "source": "EMS response time", "target": "急救服务响应时间"},
-    {"category": "城市与交通", "source": "travel speed", "target": "出行速度"},
-    {"category": "城市与交通", "source": "travel time", "target": "出行时间", "note": "改善应译为“时间缩短/减少”，不要译为“时间提高”。"},
-    {"category": "城市与交通", "source": "cordon-based congestion pricing", "target": "区域收费式拥堵收费"},
-    {"category": "方法", "source": "difference-in-discontinuities", "target": "差异中的不连续设计"},
-    {"category": "劳动与教育", "source": "occupational licensing", "target": "职业许可"},
-    {"category": "劳动与教育", "source": "licensing prevalence", "target": "职业许可覆盖率"},
-    {"category": "劳动与教育", "source": "licensing wage premium", "target": "持证工资溢价"},
-    {"category": "宏观与国际", "source": "inflation surprise / inflation targeting", "target": "通胀意外冲击 / 通胀目标制"},
-    {"category": "健康经济学", "source": "Medicaid enrollment", "target": "Medicaid/医疗补助参保人数"},
-    {"category": "健康经济学", "source": "continuous coverage requirement", "target": "连续覆盖要求"},
-    {"category": "健康经济学", "source": "unwinding", "target": "解除或退出连续覆盖"},
-    {"category": "健康与环境", "source": "morbidity valuation", "target": "患病损失估值或疾病负担估值"},
-    {"category": "健康与环境", "source": "cost-of-illness", "target": "疾病成本法"},
-    {"category": "健康与环境", "source": "Quality-Adjusted Life Years", "target": "质量调整生命年"},
-    {"category": "健康与环境", "source": "value of statistical life", "target": "统计生命价值"},
-    {"category": "产业组织", "source": "certification markets with externalities", "target": "具有外部性的认证市场"},
-    {"category": "产业组织", "source": "markets with externalities", "target": "具有外部性的市场"},
-    {"category": "产业组织", "source": "smog and safety checks", "target": "尾气与安全检测"},
-    {"category": "产业组织", "source": "misreporting", "target": "虚报或错报"},
-    {"category": "教育经济学", "source": "standardized tests", "target": "标准化考试"},
-    {"category": "教育经济学", "source": "test-aware / test-blind models", "target": "纳入考试信息/不纳入考试信息的模型"},
-    {"category": "方法", "source": "effect size / selectivity bias / meta-analysis", "target": "效应大小 / 选择性偏差 / 元分析"},
-    {"category": "方法", "source": "evidence aggregation", "target": "证据整合"},
-    {"category": "行为与幸福", "source": "stepping-on-a-rake effect", "target": "“踩耙子”效应", "note": "可以保留英文括注。"},
-    {"category": "行为与幸福", "source": "temporal variety", "target": "时间多样性"},
-    {"category": "行为与幸福", "source": "monetary equivalent", "target": "货币等价值"},
-    {"category": "城市与社会流动", "source": "missing markets for opportunity", "target": "机会市场缺失"},
-    {"category": "城市与社会流动", "source": "place-based policies", "target": "基于地点的政策"},
-    {"category": "人口与宏观", "source": "baby busts", "target": "生育低潮"},
-    {"category": "人口与宏观", "source": "completed cohort fertility", "target": "完成队列生育率"},
-    {"category": "人口与宏观", "source": "labor-saving", "target": "劳动节约型"},
-    {"category": "保险与财政", "source": "second-best / ex ante / ex post", "target": "次优 / 事前 / 事后"},
-    {"category": "保险与财政", "source": "actuarially fair / moral hazard", "target": "精算公平 / 道德风险"},
-    {"category": "保险与财政", "source": "fiscal spillover / reclassification risk", "target": "财政外溢 / 重新分类风险"},
-    {"category": "环境与健康", "source": "dose-response relationship", "target": "剂量-反应关系"},
-    {"category": "环境与健康", "source": "vital statistics", "target": "生命统计数据"},
-    {"category": "财政与债务", "source": "primary balance / interest rate peg / default boundary", "target": "基本财政余额 / 利率钉住 / 违约边界"},
-    {"category": "创业金融", "source": "Qualified Small Business Stock", "target": "合格小企业股票"},
-    {"category": "创业金融", "source": "QSBS Program", "target": "合格小企业股票（QSBS）计划"},
-    {"category": "创业金融", "source": "bunching / triple-differences", "target": "扎堆或聚束 / 三重差分"},
-    {"category": "创业金融", "source": "holding-period requirement / co-invest", "target": "持有期要求 / 联合投资"},
-    {"category": "犯罪与健康", "source": "drug decriminalization", "target": "毒品非刑事化"},
-    {"category": "犯罪与健康", "source": "overdose mortality", "target": "药物过量死亡"},
-    {"category": "犯罪与健康", "source": "fentanyl-share control", "target": "芬太尼占比控制变量"},
-    {"category": "经济史", "source": "Imperial China", "target": "帝制中国"},
-    {"category": "经济史", "source": "health-status gradient", "target": "健康-社会地位梯度"},
-    {"category": "健康经济学", "source": "patient selection", "target": "患者选择"},
-    {"category": "健康经济学", "source": "capacity strain / hospital congestion", "target": "容量压力 / 医院拥挤"},
-    {"category": "方法", "source": "distance instruments", "target": "距离工具变量"},
-    {"category": "方法", "source": "difference-in-differences", "target": "双重差分"},
-    {"category": "方法", "source": "cross-sectional IV", "target": "横截面工具变量"},
-    {"category": "金融与资产定价", "source": "price impact / factor loadings / observables", "target": "价格影响 / 因子载荷 / 可观测特征"},
-    {"category": "预测与金融", "source": "uncertain persistence", "target": "持续性不确定性"},
-    {"category": "预测与金融", "source": "Forecasting with Uncertain Persistence", "target": "持续性不确定性下的预测"},
-    {"category": "预测与金融", "source": "term premia / forward prices", "target": "期限溢价 / 远期价格"},
-    {"category": "时间表述", "source": "through 2025 / through YEAR", "target": "截至 2025 年 / 截至某年", "note": "不要译为“之前”或“年前”。"},
-    {"category": "人工智能", "source": "agentic AI / agentic AI systems", "target": "智能体式人工智能 / 智能体式人工智能系统", "note": "不要译为“代理人工智能”或“代理型人工智能”。"},
-    {"category": "劳动经济学", "source": "job ads / job advertisements", "target": "招聘广告"},
-    {"category": "劳动经济学", "source": "job amenities / priced amenity", "target": "工作福利或非工资工作属性 / 有明确市场价格的工作福利", "note": "劳动经济学语境中不要直译为“便利设施”。"},
-    {"category": "劳动经济学", "source": "worker beliefs", "target": "劳动者认知或劳动者预期", "note": "根据语境选择，不要机械译为“工人信念”。"},
-    {"category": "教育经济学", "source": "study habits", "target": "学习习惯", "note": "不要译为“研究习惯”。"},
-    {"category": "教育经济学", "source": "scoping review", "target": "范围综述"},
-    {"category": "城市经济学", "source": "zoning / residential-commercial zoning / zoning wedge", "target": "土地用途分区管制 / 住宅—商业用途分区管制 / 分区管制楔子", "note": "城市土地使用语境中不要只译为含义模糊的“分区”。"},
-    {"category": "财政与债务", "source": "debt service / debt-service burden", "target": "债务偿付 / 债务偿付负担"},
-    {"category": "金融与资产定价", "source": "stock returns / realized returns", "target": "股票收益率 / 已实现收益率"},
-    {"category": "货币金融", "source": "monetary policy pass-through", "target": "货币政策传导"},
-    {"category": "健康经济学", "source": "take-up / take-up decisions", "target": "申领（率） / 申领决策", "note": "社会保险待遇语境使用；不要笼统译为“接受度”。"},
-    {"category": "宏观与国际", "source": "advanced economies", "target": "发达经济体", "note": "不要译为“先进经济体”。"},
-    {"category": "行为经济学", "source": "retrieval failures", "target": "记忆提取失败", "note": "记忆与决策语境中明确是记忆提取。"},
-    {"category": "数字金融", "source": "Bitcoin transaction fees / mining fees", "target": "比特币交易手续费 / 挖矿手续费"},
-    {"category": "教育经济学", "source": "college / higher-quality college", "target": "大学或高校 / 更高质量的大学或高校", "note": "美国高等教育语境通常不要机械译为“学院”。"},
-    {"category": "计量经济学", "source": "compliers", "target": "依从者", "note": "工具变量与局部平均处理效应语境。"},
-    {"category": "金融与资产定价", "source": "look-ahead bias", "target": "前视偏差"},
-    {"category": "方法", "source": "revealed preference", "target": "显示性偏好"},
-    {"category": "公司与组织", "source": "corporate rebrand / crisis rebranding", "target": "企业品牌重塑 / 危机品牌重塑"},
-    {"category": "保险经济学", "source": "disincentive cost", "target": "激励扭曲成本", "note": "不要机械译为“抑制成本”。"}
+    {
+      "category": "公共经济学",
+      "source": "benefit-based taxation",
+      "target": "基于受益原则的税收",
+      "note": "不要译为“基于福利的税收”。"
+    },
+    {
+      "category": "公共经济学",
+      "source": "benefit principle",
+      "target": "受益原则",
+      "note": "welfare 才译为“福利”。"
+    },
+    {
+      "category": "劳动与教育",
+      "source": "labor market",
+      "target": "劳动力市场",
+      "note": "不要译为“劳动市场”。"
+    },
+    {
+      "category": "劳动与教育",
+      "source": "resume audit study / audit study",
+      "target": "简历审计研究或审计研究",
+      "note": "不要译为“简历审核研究”。"
+    },
+    {
+      "category": "劳动与教育",
+      "source": "early childhood education",
+      "target": "幼儿教育",
+      "note": "不要译为“早期儿童教育”。"
+    },
+    {
+      "category": "行为与学习",
+      "source": "misspecified learning",
+      "target": "错误设定学习"
+    },
+    {
+      "category": "行为与学习",
+      "source": "marginal satisfaction from income",
+      "target": "收入的边际满意度"
+    },
+    {
+      "category": "模型表述",
+      "source": "tractable model",
+      "target": "易处理模型或可求解模型",
+      "note": "不要译为“可处理模型”。"
+    },
+    {
+      "category": "模型表述",
+      "source": "agents",
+      "target": "经济主体",
+      "note": "在一般均衡或模型语境中使用；private agents 可译为“私人机构”或“私人经营者”。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "Ricardian equivalence",
+      "target": "李嘉图等价",
+      "note": "不要译为“里卡多等价”。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "David Ricardo",
+      "target": "大卫·李嘉图"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "aggregate demand",
+      "target": "总需求"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "aggregate supply",
+      "target": "总供给"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "aggregate outcomes / aggregate stabilization",
+      "target": "总量结果 / 总量稳定"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "Importing Aggregate Demand",
+      "target": "输入总需求",
+      "note": "importing/import 在国际贸易、开放宏观或需求传导语境中不要译为“导入”。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "real exchange rate appreciation",
+      "target": "实际汇率升值"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "marginal propensity to consume",
+      "target": "边际消费倾向"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "financial market imperfections",
+      "target": "金融市场不完全性"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "incomplete markets",
+      "target": "不完全市场"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "state-dependent pricing",
+      "target": "状态依赖定价"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "strategic complementarities",
+      "target": "策略互补性"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "fiscal stimulus",
+      "target": "财政刺激"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "monetary easing / monetary tightening",
+      "target": "货币宽松 / 货币紧缩"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "quantitative easing",
+      "target": "量化宽松",
+      "note": "不要笼统译为“货币宽松”。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "contractionary policy",
+      "target": "收缩性政策"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "spending effect",
+      "target": "支出效应"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "quantity response / price adjustment",
+      "target": "数量反应或数量调整 / 价格调整"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "flexible-price equilibrium",
+      "target": "灵活价格均衡"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "open economies / global demand shocks",
+      "target": "开放经济体 / 全球需求冲击"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "idiosyncratic risk",
+      "target": "个体特异性风险"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "pass-through",
+      "target": "传导",
+      "note": "tariff pass-through -> 关税传导；exchange rate pass-through -> 汇率传导。"
+    },
+    {
+      "category": "方法与表述",
+      "source": "proxy / proxy variable",
+      "target": "代理变量或替代变量",
+      "note": "不要只译为“代理”。"
+    },
+    {
+      "category": "国际金融",
+      "source": "producer currency pricing (PCP)",
+      "target": "生产者货币定价"
+    },
+    {
+      "category": "国际金融",
+      "source": "local/buyer currency pricing (LCP)",
+      "target": "本地/买方货币定价"
+    },
+    {
+      "category": "国际金融",
+      "source": "dominant currency pricing (DCP)",
+      "target": "主导货币定价"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "safe haven",
+      "target": "避风港或避险资产"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "Digital Safe Havens",
+      "target": "数字避风港"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "yield-bearing dollar instruments",
+      "target": "生息美元工具或计息美元工具"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "total value locked",
+      "target": "总锁仓价值（TVL）"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "convenience yield",
+      "target": "便利收益率"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "basis-trade carry",
+      "target": "基差交易套利收益"
+    },
+    {
+      "category": "城市与交通",
+      "source": "congestion pricing",
+      "target": "拥堵收费",
+      "note": "交通政策语境中使用。"
+    },
+    {
+      "category": "城市与交通",
+      "source": "EMS / emergency medical services",
+      "target": "急救服务或紧急医疗服务"
+    },
+    {
+      "category": "城市与交通",
+      "source": "EMS response time",
+      "target": "急救服务响应时间"
+    },
+    {
+      "category": "城市与交通",
+      "source": "travel speed",
+      "target": "出行速度"
+    },
+    {
+      "category": "城市与交通",
+      "source": "travel time",
+      "target": "出行时间",
+      "note": "改善应译为“时间缩短/减少”，不要译为“时间提高”。"
+    },
+    {
+      "category": "城市与交通",
+      "source": "cordon-based congestion pricing",
+      "target": "区域收费式拥堵收费"
+    },
+    {
+      "category": "方法",
+      "source": "difference-in-discontinuities",
+      "target": "差异中的不连续设计"
+    },
+    {
+      "category": "劳动与教育",
+      "source": "occupational licensing",
+      "target": "职业许可"
+    },
+    {
+      "category": "劳动与教育",
+      "source": "licensing prevalence",
+      "target": "职业许可覆盖率"
+    },
+    {
+      "category": "劳动与教育",
+      "source": "licensing wage premium",
+      "target": "持证工资溢价"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "inflation surprise / inflation targeting",
+      "target": "通胀意外冲击 / 通胀目标制"
+    },
+    {
+      "category": "健康经济学",
+      "source": "Medicaid enrollment",
+      "target": "Medicaid/医疗补助参保人数"
+    },
+    {
+      "category": "健康经济学",
+      "source": "continuous coverage requirement",
+      "target": "连续覆盖要求"
+    },
+    {
+      "category": "健康经济学",
+      "source": "unwinding",
+      "target": "解除或退出连续覆盖"
+    },
+    {
+      "category": "健康与环境",
+      "source": "morbidity valuation",
+      "target": "患病损失估值或疾病负担估值"
+    },
+    {
+      "category": "健康与环境",
+      "source": "cost-of-illness",
+      "target": "疾病成本法"
+    },
+    {
+      "category": "健康与环境",
+      "source": "Quality-Adjusted Life Years",
+      "target": "质量调整生命年"
+    },
+    {
+      "category": "健康与环境",
+      "source": "value of statistical life",
+      "target": "统计生命价值"
+    },
+    {
+      "category": "产业组织",
+      "source": "certification markets with externalities",
+      "target": "具有外部性的认证市场"
+    },
+    {
+      "category": "产业组织",
+      "source": "markets with externalities",
+      "target": "具有外部性的市场"
+    },
+    {
+      "category": "产业组织",
+      "source": "smog and safety checks",
+      "target": "尾气与安全检测"
+    },
+    {
+      "category": "产业组织",
+      "source": "misreporting",
+      "target": "虚报或错报"
+    },
+    {
+      "category": "教育经济学",
+      "source": "standardized tests",
+      "target": "标准化考试"
+    },
+    {
+      "category": "教育经济学",
+      "source": "test-aware / test-blind models",
+      "target": "纳入考试信息/不纳入考试信息的模型"
+    },
+    {
+      "category": "方法",
+      "source": "effect size / selectivity bias / meta-analysis",
+      "target": "效应大小 / 选择性偏差 / 元分析"
+    },
+    {
+      "category": "方法",
+      "source": "evidence aggregation",
+      "target": "证据整合"
+    },
+    {
+      "category": "行为与幸福",
+      "source": "stepping-on-a-rake effect",
+      "target": "“踩耙子”效应",
+      "note": "可以保留英文括注。"
+    },
+    {
+      "category": "行为与幸福",
+      "source": "temporal variety",
+      "target": "时间多样性"
+    },
+    {
+      "category": "行为与幸福",
+      "source": "monetary equivalent",
+      "target": "货币等价值"
+    },
+    {
+      "category": "城市与社会流动",
+      "source": "missing markets for opportunity",
+      "target": "机会市场缺失"
+    },
+    {
+      "category": "城市与社会流动",
+      "source": "place-based policies",
+      "target": "基于地点的政策"
+    },
+    {
+      "category": "人口与宏观",
+      "source": "baby busts",
+      "target": "生育低潮"
+    },
+    {
+      "category": "人口与宏观",
+      "source": "completed cohort fertility",
+      "target": "完成队列生育率"
+    },
+    {
+      "category": "人口与宏观",
+      "source": "labor-saving",
+      "target": "劳动节约型"
+    },
+    {
+      "category": "保险与财政",
+      "source": "second-best / ex ante / ex post",
+      "target": "次优 / 事前 / 事后"
+    },
+    {
+      "category": "保险与财政",
+      "source": "actuarially fair / moral hazard",
+      "target": "精算公平 / 道德风险"
+    },
+    {
+      "category": "保险与财政",
+      "source": "fiscal spillover / reclassification risk",
+      "target": "财政外溢 / 重新分类风险"
+    },
+    {
+      "category": "环境与健康",
+      "source": "dose-response relationship",
+      "target": "剂量-反应关系"
+    },
+    {
+      "category": "环境与健康",
+      "source": "vital statistics",
+      "target": "生命统计数据"
+    },
+    {
+      "category": "财政与债务",
+      "source": "primary balance / interest rate peg / default boundary",
+      "target": "基本财政余额 / 利率钉住 / 违约边界"
+    },
+    {
+      "category": "创业金融",
+      "source": "Qualified Small Business Stock",
+      "target": "合格小企业股票"
+    },
+    {
+      "category": "创业金融",
+      "source": "QSBS Program",
+      "target": "合格小企业股票（QSBS）计划"
+    },
+    {
+      "category": "创业金融",
+      "source": "bunching / triple-differences",
+      "target": "扎堆或聚束 / 三重差分"
+    },
+    {
+      "category": "创业金融",
+      "source": "holding-period requirement / co-invest",
+      "target": "持有期要求 / 联合投资"
+    },
+    {
+      "category": "犯罪与健康",
+      "source": "drug decriminalization",
+      "target": "毒品非刑事化"
+    },
+    {
+      "category": "犯罪与健康",
+      "source": "overdose mortality",
+      "target": "药物过量死亡"
+    },
+    {
+      "category": "犯罪与健康",
+      "source": "fentanyl-share control",
+      "target": "芬太尼占比控制变量"
+    },
+    {
+      "category": "经济史",
+      "source": "Imperial China",
+      "target": "帝制中国"
+    },
+    {
+      "category": "经济史",
+      "source": "health-status gradient",
+      "target": "健康-社会地位梯度"
+    },
+    {
+      "category": "健康经济学",
+      "source": "patient selection",
+      "target": "患者选择"
+    },
+    {
+      "category": "健康经济学",
+      "source": "capacity strain / hospital congestion",
+      "target": "容量压力 / 医院拥挤"
+    },
+    {
+      "category": "方法",
+      "source": "distance instruments",
+      "target": "距离工具变量"
+    },
+    {
+      "category": "方法",
+      "source": "difference-in-differences",
+      "target": "双重差分"
+    },
+    {
+      "category": "方法",
+      "source": "cross-sectional IV",
+      "target": "横截面工具变量"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "price impact / factor loadings / observables",
+      "target": "价格影响 / 因子载荷 / 可观测特征"
+    },
+    {
+      "category": "预测与金融",
+      "source": "uncertain persistence",
+      "target": "持续性不确定性"
+    },
+    {
+      "category": "预测与金融",
+      "source": "Forecasting with Uncertain Persistence",
+      "target": "持续性不确定性下的预测"
+    },
+    {
+      "category": "预测与金融",
+      "source": "term premia / forward prices",
+      "target": "期限溢价 / 远期价格"
+    },
+    {
+      "category": "时间表述",
+      "source": "through 2025 / through YEAR",
+      "target": "截至 2025 年 / 截至某年",
+      "note": "不要译为“之前”或“年前”。"
+    },
+    {
+      "category": "人工智能",
+      "source": "agentic AI / agentic AI systems",
+      "target": "智能体式人工智能 / 智能体式人工智能系统",
+      "note": "不要译为“代理人工智能”或“代理型人工智能”。"
+    },
+    {
+      "category": "劳动经济学",
+      "source": "job ads / job advertisements",
+      "target": "招聘广告"
+    },
+    {
+      "category": "劳动经济学",
+      "source": "job amenities / priced amenity",
+      "target": "工作福利或非工资工作属性 / 有明确市场价格的工作福利",
+      "note": "劳动经济学语境中不要直译为“便利设施”。"
+    },
+    {
+      "category": "劳动经济学",
+      "source": "worker beliefs",
+      "target": "劳动者认知或劳动者预期",
+      "note": "根据语境选择，不要机械译为“工人信念”。"
+    },
+    {
+      "category": "教育经济学",
+      "source": "study habits",
+      "target": "学习习惯",
+      "note": "不要译为“研究习惯”。"
+    },
+    {
+      "category": "教育经济学",
+      "source": "scoping review",
+      "target": "范围综述"
+    },
+    {
+      "category": "城市经济学",
+      "source": "zoning / residential-commercial zoning / zoning wedge",
+      "target": "土地用途分区管制 / 住宅—商业用途分区管制 / 分区管制楔子",
+      "note": "城市土地使用语境中不要只译为含义模糊的“分区”。"
+    },
+    {
+      "category": "财政与债务",
+      "source": "debt service / debt-service burden",
+      "target": "债务偿付 / 债务偿付负担"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "stock returns / realized returns",
+      "target": "股票收益率 / 已实现收益率"
+    },
+    {
+      "category": "货币金融",
+      "source": "monetary policy pass-through",
+      "target": "货币政策传导"
+    },
+    {
+      "category": "健康经济学",
+      "source": "take-up / take-up decisions",
+      "target": "申领（率） / 申领决策",
+      "note": "社会保险待遇语境使用；不要笼统译为“接受度”。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "advanced economies",
+      "target": "发达经济体",
+      "note": "不要译为“先进经济体”。"
+    },
+    {
+      "category": "行为经济学",
+      "source": "retrieval failures",
+      "target": "记忆提取失败",
+      "note": "记忆与决策语境中明确是记忆提取。"
+    },
+    {
+      "category": "数字金融",
+      "source": "Bitcoin transaction fees / mining fees",
+      "target": "比特币交易手续费 / 挖矿手续费"
+    },
+    {
+      "category": "教育经济学",
+      "source": "college / higher-quality college",
+      "target": "大学或高校 / 更高质量的大学或高校",
+      "note": "美国高等教育语境通常不要机械译为“学院”。"
+    },
+    {
+      "category": "计量经济学",
+      "source": "compliers",
+      "target": "依从者",
+      "note": "工具变量与局部平均处理效应语境。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "look-ahead bias",
+      "target": "前视偏差"
+    },
+    {
+      "category": "方法",
+      "source": "revealed preference",
+      "target": "显示性偏好"
+    },
+    {
+      "category": "公司与组织",
+      "source": "corporate rebrand / crisis rebranding",
+      "target": "企业品牌重塑 / 危机品牌重塑"
+    },
+    {
+      "category": "保险经济学",
+      "source": "disincentive cost",
+      "target": "激励扭曲成本",
+      "note": "不要机械译为“抑制成本”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "oligopsony",
+      "target": "寡头买方垄断",
+      "note": "买方垄断；不要译为“寡卖”或“卖方垄断”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "monopsony / monopsony power",
+      "target": "买方垄断 / 买方垄断力量",
+      "note": "劳动力市场买方垄断；不要译为“垄断买方”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "wage markdown / wage markdowns",
+      "target": "工资向下压低（幅度）/ 工资折扣",
+      "note": "monopsony 中工资被压低的幅度；不要译为“工资 markdown”或笼统“工资折扣”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "wage posting",
+      "target": "工资发布",
+      "note": "用人单位单方面公布工资的机制；不要译为“工资发布模型”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "no-poach agreements / no-poach cartel",
+      "target": "不挖角协议 / 不挖角卡特尔",
+      "note": "雇主间互不挖角的合谋；不要译为“不竞争协议”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "worker poaching",
+      "target": "挖角工人或挖人",
+      "note": "不要译为“工人挖角”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "wage fixing",
+      "target": "工资固定或工资合谋",
+      "note": "雇主间约定工资水平；不要译为“工资修复”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "job rationing",
+      "target": "工作配给或岗位配给",
+      "note": "don't translate as “工作配额”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "backloaded compensation / backloaded pay",
+      "target": "后置薪酬或后端加载薪酬",
+      "note": "把报酬推迟到职业后期的合同；不要译为“后端效率工资”。"
+    },
+    {
+      "category": "劳动与产业组织",
+      "source": "public accountants / public accounting firms",
+      "target": "公共会计师 / 公共会计师事务所",
+      "note": "不要译为“上市公司会计师”。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "Great Recession",
+      "target": "大衰退",
+      "note": "特指 2007-2009 年衰退；Great Depression（大萧条）才是 1929 年。不要混译为“大萧条”。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "Great Depression",
+      "target": "大萧条",
+      "note": "特指 1929 年起的经济大萧条。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "Preston curve",
+      "target": "普雷斯顿曲线",
+      "note": "收入与健康/寿命关系曲线。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "hub-and-spoke",
+      "target": "轴辐或轮辐",
+      "note": "网络结构术语；轴辐系统/轮辐系统都可，保持一致即可。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "pricing power",
+      "target": "定价权或定价力量",
+      "note": "不要译为“定价力量”过于口语。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "hydrocarbon exporters",
+      "target": "碳氢化合物出口国",
+      "note": "能源贸易语境中指油气出口国。"
+    },
+    {
+      "category": "宏观与国际",
+      "source": "real per capita income",
+      "target": "实际人均收入",
+      "note": "不要译为“真实人均收入”。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "variance claims / variance risk premium",
+      "target": "方差要求权 / 方差风险溢价",
+      "note": "以方差为标的的衍生品要求权；不要译为“方差索赔”。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "delta-hedged straddles / straddle",
+      "target": "Delta 对冲跨式期权 / 跨式期权",
+      "note": "期权策略；不要译为“跨期期权”。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "long-short return",
+      "target": "多空收益率",
+      "note": "做多-做空组合的收益率；不要译为“长短期回报”。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "excess returns / expected excess returns",
+      "target": "超额收益率 / 预期超额收益率",
+      "note": "金融收益率语境统一译为“收益率”，不要译为“回报”。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "return volatility",
+      "target": "收益率波动",
+      "note": "不要译为“回报波动”。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "currency returns",
+      "target": "货币收益率",
+      "note": "汇率或货币投资收益率；不要译为“货币回报”。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "carry trade / basis-trade carry",
+      "target": "套利交易 / 基差交易套利收益",
+      "note": "不要译为“利差交易”除非语境明确。"
+    },
+    {
+      "category": "金融与资产定价",
+      "source": "offshore tax haven / offshore wealth",
+      "target": "离岸避税天堂 / 离岸财富",
+      "note": "offshore 统一译为“离岸”，不要混用“海外”。"
+    },
+    {
+      "category": "国际金融",
+      "source": "covered interest parity (CIP)",
+      "target": "抵补利率平价（CIP）",
+      "note": "不要译为“有担保利率平价”或“覆盖利率平价”。"
+    },
+    {
+      "category": "国际金融",
+      "source": "uncovered interest parity (UIP)",
+      "target": "未抵补利率平价（UIP）",
+      "note": "不要译为“无担保利率平价”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "research productivity",
+      "target": "研究生产率",
+      "note": "idea production function 语境；不要译为“研究生产力”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "idea space",
+      "target": "思想空间或创意空间",
+      "note": "专利/创新空间；统一即可。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "patent interference",
+      "target": "专利冲突或专利冲突率",
+      "note": "同一发明被多方独立申请；不要译为“专利干扰率”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "fishing out",
+      "target": "易发掘成果枯竭或易发现象枯竭",
+      "note": "创新经济学中指容易的发现已被做完；不要译为“过度开发”或“捕捞殆尽”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "burden of knowledge",
+      "target": "知识负担",
+      "note": "研究者要掌握的前置知识越来越多；不要译为“知识的重担”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "knowledge spillovers",
+      "target": "知识溢出或知识溢出效应",
+      "note": "不要译为“知识外溢”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "innovation step size",
+      "target": "创新步长",
+      "note": "每一步创新的幅度。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "primitives",
+      "target": "外生参数或基本参数",
+      "note": "模型中给定的外生参数；不要译为“原素”“原语”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "endogenous economic objects",
+      "target": "内生的经济对象",
+      "note": "不要译为“内生的经济条件”。"
+    },
+    {
+      "category": "创新与增长",
+      "source": "R&D investment / R&D capital stock",
+      "target": "R&D 投资 / R&D 资本存量",
+      "note": "研发投入；保留 R&D 缩写。"
+    },
+    {
+      "category": "产业组织",
+      "source": "consumer packaged goods",
+      "target": "包装消费品",
+      "note": "FMCG/CPG 行业；不要译为“消费品包装行业”。"
+    },
+    {
+      "category": "产业组织",
+      "source": "merger simulation / prospective merger simulation",
+      "target": "合并模拟 / 事前合并模拟",
+      "note": "prospective 统一译为“事前”或“前瞻”。"
+    },
+    {
+      "category": "产业组织",
+      "source": "structural presumptions",
+      "target": "结构性推定",
+      "note": "反垄断推定；不要译为“结构性假设”。"
+    },
+    {
+      "category": "产业组织",
+      "source": "conduct remedies",
+      "target": "行为性救济措施",
+      "note": "反垄断中改变企业行为的救济；不要译为“行为补救措施”。"
+    },
+    {
+      "category": "产业组织",
+      "source": "market power",
+      "target": "市场势力或市场力量",
+      "note": "两个译法皆可，统一即可；不要译为“市场权力”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "difference-in-differences / difference-in-difference",
+      "target": "双重差分",
+      "note": "标准译法；禁止译为“差异中的差异”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "difference-in-discontinuities",
+      "target": "断点-双重差分或不连续性差分",
+      "note": "结合 RD 与 DID 的设计。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "staggered difference-in-differences",
+      "target": "交错双重差分",
+      "note": "多时点 DID；不要译为“交错的双重差分”以外的形式。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "event study",
+      "target": "事件研究",
+      "note": "事件研究法/事件研究回归。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "treatment-on-the-treated / TOT",
+      "target": "处理组处理效应",
+      "note": "实际接受处理者的效应；不要译为“处理组的处理”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "compliers",
+      "target": "依从者",
+      "note": "工具变量语境中实际接受处理的人群。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "non-compensatory",
+      "target": "非补偿性",
+      "note": "决策理论中指无法被其他属性补偿；不要译为“非补偿”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "treatment / treatments (experiment)",
+      "target": "干预或处理",
+      "note": "实验/RCT 语境统一译为“干预”或“处理”；不要译为“信息处理”或“待遇”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "information provision experiment",
+      "target": "信息提供实验",
+      "note": "通过提供信息来识别因果的实验。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "vignette",
+      "target": "情景或情景描述",
+      "note": "调查实验中的假设情景；不要译为“插图”或“小插曲”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "compositional shifts",
+      "target": "构成变化或结构变化",
+      "note": "群体或组合中成分的变化；不要译为“组合变化”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "matched stacked difference-in-differences",
+      "target": "匹配堆叠双重差分",
+      "note": "DID 估计量。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "IV-DID",
+      "target": "工具变量-双重差分",
+      "note": "结合 IV 与 DID 的设计。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "cross-fitting / cross-fitted",
+      "target": "交叉拟合",
+      "note": "机器学习与因果推断中避免过拟合的样本划分。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "overidentified GMM",
+      "target": "过度识别的 GMM",
+      "note": "矩条件多于参数的 GMM。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "method of moments",
+      "target": "矩方法",
+      "note": "不要译为“方法-矩”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "look-ahead bias",
+      "target": "前视偏差",
+      "note": "使用了未来才可得的信息；不要译为“前瞻性偏差”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "local projections",
+      "target": "局部投影",
+      "note": "Jorda 提出的脉冲响应估计方法。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "structural estimation",
+      "target": "结构估计",
+      "note": "估计经济学结构模型参数；不要译为“结构性估算”。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "calibrated decomposition",
+      "target": "校准分解",
+      "note": "通过校准的模型做分解。"
+    },
+    {
+      "category": "计量经济学与方法",
+      "source": "credible intervals",
+      "target": "可信区间",
+      "note": "贝叶斯语境中的区间估计；不要译为“置信区间”。"
+    },
+    {
+      "category": "宏观模型",
+      "source": "DSGE / New Keynesian",
+      "target": "DSGE / 新凯恩斯主义",
+      "note": "保留缩写 DSGE。"
+    },
+    {
+      "category": "宏观模型",
+      "source": "price Phillips curve",
+      "target": "价格菲利普斯曲线",
+      "note": "不要译为“价格菲利普斯曲线”以外的形式。"
+    },
+    {
+      "category": "宏观模型",
+      "source": "price stickiness / price indexation",
+      "target": "价格粘性 / 价格指数化",
+      "note": "NK 模型中的价格设定特征。"
+    },
+    {
+      "category": "宏观模型",
+      "source": "heteroskedastic / homoskedastic",
+      "target": "异方差 / 同方差",
+      "note": "统计学标准译法。"
+    },
+    {
+      "category": "宏观模型",
+      "source": "SVAR / impulse response",
+      "target": "SVAR / 脉冲响应",
+      "note": "保留 SVAR 缩写。"
+    },
+    {
+      "category": "宏观模型",
+      "source": "spike-and-slab prior",
+      "target": "尖峰-板条先验或尖峰-厚板先验",
+      "note": "贝叶斯变量选择先验；两个译法皆可。"
+    },
+    {
+      "category": "金融稳定",
+      "source": "bank runs",
+      "target": "银行挤兑",
+      "note": "不要译为“银行挤提”或“银行跑路”。"
+    },
+    {
+      "category": "金融稳定",
+      "source": "bank failure",
+      "target": "银行倒闭",
+      "note": "不要译为“银行失败”。"
+    },
+    {
+      "category": "金融稳定",
+      "source": "fundamentals",
+      "target": "基本面",
+      "note": "金融机构或企业基本面；不要译为“基本因素”。"
+    },
+    {
+      "category": "金融稳定",
+      "source": "interbank cooperation",
+      "target": "银行间合作",
+      "note": "不要译为“银行间协作”。"
+    },
+    {
+      "category": "金融稳定",
+      "source": "temporary suspension",
+      "target": "临时暂停兑付或临时停业",
+      "note": "银行挤兑时的暂停兑付；不要译为“临时停业”以外的口语化表达。"
+    },
+    {
+      "category": "金融稳定",
+      "source": "self-fulfilling",
+      "target": "自我实现",
+      "note": "自我实现的预期/均衡。"
+    },
+    {
+      "category": "金融稳定",
+      "source": "bank account information",
+      "target": "银行账户信息",
+      "note": "automatic exchange of bank account information 译为“银行账户信息自动交换”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "cognitive impairment / severe cognitive impairment",
+      "target": "认知障碍 / 严重认知障碍",
+      "note": "不要译为“认知损伤”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "long-term care (LTC)",
+      "target": "长期护理（LTC）",
+      "note": "保留 LTC 缩写。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "activities of daily living (ADLs)",
+      "target": "日常生活活动能力（ADLs）",
+      "note": "不要译为“日常活动”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "informal care / formal care",
+      "target": "非正式护理 / 正式护理",
+      "note": "不要译为“非正式照护”以外的变体。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "readmission rates",
+      "target": "再入院率",
+      "note": "不要译为“再住院率”以外的变体。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "cesarean section / C-section",
+      "target": "剖宫产",
+      "note": "不要译为“剖腹产”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "learning-by-doing",
+      "target": "“干中学”或干中学",
+      "note": "不要译为“通过实践学习”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "skill depreciation",
+      "target": "技能折旧",
+      "note": "不要译为“技能贬值”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "GLP-1",
+      "target": "GLP-1",
+      "note": "保留缩写，可括注“胰高血糖素样肽-1”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "long-term sickness leave",
+      "target": "长期病假",
+      "note": "不要译为“长期生病休假”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "labor force participation",
+      "target": "劳动力参与率",
+      "note": "或劳动参与率；统一即可。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "diagnostic thresholds",
+      "target": "诊断阈值",
+      "note": "不要译为“诊断门槛”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "transplant surgeons",
+      "target": "移植外科医生",
+      "note": "不要译为“移植外科医师”以外的变体。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "kidney donor profile index (KDPI)",
+      "target": "肾脏捐献者档案指数（KDPI）",
+      "note": "保留 KDPI 缩写。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "expanded criteria donor (ECD)",
+      "target": "扩大标准捐献者（ECD）",
+      "note": "保留 ECD 缩写。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "healthy ageing",
+      "target": "健康老龄化",
+      "note": "不要译为“健康衰老”。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "Medicare beneficiaries",
+      "target": "Medicare 受益者或医疗保险受益者",
+      "note": "保留 Medicare 缩写。"
+    },
+    {
+      "category": "健康经济学",
+      "source": "primary care physicians (PCPs)",
+      "target": "初级保健医生（PCP）",
+      "note": "不要译为“基层医生”。"
+    },
+    {
+      "category": "劳动与退休",
+      "source": "Health and Retirement Study (HRS)",
+      "target": "健康与退休研究（HRS）",
+      "note": "保留 HRS 缩写。"
+    },
+    {
+      "category": "劳动与退休",
+      "source": "retirement transitions",
+      "target": "退休过渡或退休转变",
+      "note": "不要译为“退休转换”。"
+    },
+    {
+      "category": "劳动与退休",
+      "source": "spousal health shocks",
+      "target": "配偶健康冲击",
+      "note": "不要译为“配偶健康震动”。"
+    },
+    {
+      "category": "劳动与退休",
+      "source": "employment-based health plans",
+      "target": "就业相关的健康保险计划",
+      "note": "不要译为“基于就业的健康计划”。"
+    },
+    {
+      "category": "劳动与退休",
+      "source": "retiree coverage",
+      "target": "退休人员覆盖或退休人员医疗保障",
+      "note": "不要译为“退休者覆盖”。"
+    },
+    {
+      "category": "劳动与退休",
+      "source": "out-of-pocket medical spending",
+      "target": "自付医疗费用",
+      "note": "不要译为“口袋外医疗支出”。"
+    },
+    {
+      "category": "家庭与人口",
+      "source": "joint custody / sole custody",
+      "target": "共同监护 / 单独监护",
+      "note": "不要译为“联合监护”。"
+    },
+    {
+      "category": "家庭与人口",
+      "source": "child custody",
+      "target": "子女监护权",
+      "note": "不要译为“儿童监护权”。"
+    },
+    {
+      "category": "家庭与人口",
+      "source": "intimate partner violence",
+      "target": "亲密伴侣暴力",
+      "note": "不要译为“亲密伙伴暴力”。"
+    },
+    {
+      "category": "家庭与人口",
+      "source": "paternal involvement",
+      "target": "父亲参与或父亲投入",
+      "note": "不要译为“父权参与”。"
+    },
+    {
+      "category": "家庭与人口",
+      "source": "cash transfers / unconditional cash transfer",
+      "target": "现金转移支付 / 无条件现金转移",
+      "note": "social policy 语境；不要译为“现金转移”。"
+    },
+    {
+      "category": "家庭与人口",
+      "source": "intra-household decision-making",
+      "target": "家庭内部决策",
+      "note": "不要译为“户内决策”。"
+    },
+    {
+      "category": "家庭与人口",
+      "source": "standardized tests",
+      "target": "标准化考试",
+      "note": "不要译为“标准化测试”。"
+    },
+    {
+      "category": "教育与人力资本",
+      "source": "human capital",
+      "target": "人力资本",
+      "note": "标准译法。"
+    },
+    {
+      "category": "教育与人力资本",
+      "source": "venture capital (VC)",
+      "target": "风险投资（VC）",
+      "note": "保留 VC 缩写；不要译为“创业投资”以外的变体。"
+    },
+    {
+      "category": "教育与人力资本",
+      "source": "Forbes Midas List",
+      "target": "福布斯 Midas 榜单",
+      "note": "保留 Midas 专名。"
+    },
+    {
+      "category": "教育与人力资本",
+      "source": "superstar firms / superstar status",
+      "target": "超级明星企业 / 超级明星地位",
+      "note": "不要译为“超级企业”。"
+    },
+    {
+      "category": "教育与人力资本",
+      "source": "instructional subsidies / subsidizing",
+      "target": "提供补贴 / 补贴",
+      "note": "在采纳率语境中指政府补贴采用；不要译为“指令性补贴”。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "political contributions / political spending",
+      "target": "政治献金 / 政治支出",
+      "note": "美国语境统一用“政治献金”。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "political action committee (PAC)",
+      "target": "政治行动委员会（PAC）",
+      "note": "保留 PAC 缩写。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "corporate PACs",
+      "target": "企业政治行动委员会",
+      "note": "不要译为“公司 PAC”以外的变体。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "antitrust enforcement / antitrust",
+      "target": "反垄断执法 / 反垄断",
+      "note": "不要译为“反托拉斯”或“反垄断法”以外的变体。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "break-up (antitrust)",
+      "target": "拆分",
+      "note": "反垄断中的结构性拆分；不要译为“打破”。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "market share",
+      "target": "市场份额",
+      "note": "不要译为“市场占有率”以外的变体。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "reputational risk",
+      "target": "声誉风险",
+      "note": "标准译法。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "consumer harm",
+      "target": "消费者损害",
+      "note": "反垄断语境；不要译为“消费者伤害”。"
+    },
+    {
+      "category": "政治经济学",
+      "source": "consumer exposure",
+      "target": "面向消费者的暴露程度",
+      "note": "企业面对消费者的程度；不要译为“消费者接触”。"
+    },
+    {
+      "category": "移民与劳动",
+      "source": "legal status (immigrants)",
+      "target": "法律地位或法律身份",
+      "note": "移民的法律身份；两个译法皆可。"
+    },
+    {
+      "category": "移民与劳动",
+      "source": "portable work rights",
+      "target": "可携带的工作权利",
+      "note": "换工作或换地区仍有效的权利。"
+    },
+    {
+      "category": "移民与劳动",
+      "source": "EU accession",
+      "target": "加入欧盟",
+      "note": "accession 在此指加入；不要译为“欧盟接纳”。"
+    },
+    {
+      "category": "移民与劳动",
+      "source": "informality (labor market)",
+      "target": "非正规就业",
+      "note": "informal labor；不要译为“非正规性”。"
+    },
+    {
+      "category": "移民与劳动",
+      "source": "job mobility / job security",
+      "target": "工作流动性 / 工作保障",
+      "note": "不要译为“工作安全性”以外的变体。"
+    },
+    {
+      "category": "移民与劳动",
+      "source": "bargaining power / bargaining position",
+      "target": "议价能力 / 议价地位",
+      "note": "labor 语境统一用“议价”。"
+    },
+    {
+      "category": "移民与劳动",
+      "source": "native employment share",
+      "target": "本地人就业份额",
+      "note": "不要译为“本地就业份额”以外的变体。"
+    },
+    {
+      "category": "经济史",
+      "source": "military disinvestment",
+      "target": "军事撤资",
+      "note": "不要译为“军事撤资”以外的变体。"
+    },
+    {
+      "category": "经济史",
+      "source": "defense industrial base",
+      "target": "国防工业基础",
+      "note": "不要译为“国防工业基地”。"
+    },
+    {
+      "category": "经济史",
+      "source": "in utero exposure",
+      "target": "宫内暴露",
+      "note": "胎儿期暴露；不要译为“子宫内暴露”。"
+    },
+    {
+      "category": "经济史",
+      "source": "event-study",
+      "target": "事件研究",
+      "note": "计量方法。"
+    },
+    {
+      "category": "经济史",
+      "source": "social deterioration",
+      "target": "社会恶化",
+      "note": "不要译为“社会退化”以外的变体。"
+    },
+    {
+      "category": "经济史",
+      "source": "1918 influenza pandemic",
+      "target": "1918 年流感大流行",
+      "note": "pandemic 译为“大流行”。"
+    },
+    {
+      "category": "经济史",
+      "source": "pre-registered",
+      "target": "预注册",
+      "note": "实验预先注册；不要译为“预先登记”以外的变体。"
+    },
+    {
+      "category": "经济理论",
+      "source": "Nash-in-Nash bargaining",
+      "target": "纳什-纳什（Nash-in-Nash）谈判",
+      "note": "保留英文括注。"
+    },
+    {
+      "category": "经济理论",
+      "source": "collective bargaining",
+      "target": "集体谈判",
+      "note": "标准译法。"
+    },
+    {
+      "category": "经济理论",
+      "source": "social planner",
+      "target": "社会计划者",
+      "note": "不要译为“社会规划者”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "labor supply / labor demand",
+      "target": "劳动力供给 / 劳动力需求",
+      "note": "不要译为“劳动供应”或“劳动需求”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "welfare gains / welfare costs",
+      "target": "福利收益 / 福利成本",
+      "note": "consumption-equivalent terms 译为“消费等价意义上”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "consumption-equivalent",
+      "target": "消费等价",
+      "note": "不要译为“消费等价物”以外的变体。"
+    },
+    {
+      "category": "经济理论",
+      "source": "marginal propensity to exit",
+      "target": "退出边际倾向",
+      "note": "不要译为“债务退出的边际倾向”以外的变体。"
+    },
+    {
+      "category": "经济理论",
+      "source": "financial frictions / financially constrained",
+      "target": "金融摩擦 / 融资约束",
+      "note": "不要译为“财务受限”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "incomplete financial markets",
+      "target": "不完全金融市场",
+      "note": "不要译为“金融市场不完全性”以外的变体。"
+    },
+    {
+      "category": "经济理论",
+      "source": "viable firms",
+      "target": "本可维持经营的企业",
+      "note": "viable 在企业退出语境指能活下去的企业；不要译为“可行的企业”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "firm exit / firm dynamics",
+      "target": "企业退出 / 企业动态",
+      "note": "不要译为“企业动力学”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "government-guaranteed loans",
+      "target": "政府担保贷款",
+      "note": "不要译为“政府保证贷款”以外的变体。"
+    },
+    {
+      "category": "经济理论",
+      "source": "social identity / identity formation",
+      "target": "社会身份 / 身份形成",
+      "note": "不要译为“社交身份”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "cultural transmission / cultural evolution",
+      "target": "文化传递 / 文化演化",
+      "note": "inter-generational cultural transmission 译为“跨代文化传递”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "oppositional attitudes",
+      "target": "对抗性态度",
+      "note": "不要译为“反对态度”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "salient markers",
+      "target": "显著标志或显著标记",
+      "note": "身份/族裔标识；统一即可。"
+    },
+    {
+      "category": "经济理论",
+      "source": "smooth ambiguity framework",
+      "target": "平滑模糊性框架",
+      "note": "KMM 模型；不要译为“平滑模糊框架”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "ambiguity aversion",
+      "target": "模糊厌恶",
+      "note": "不要译为“模糊厌恶”以外的变体。"
+    },
+    {
+      "category": "经济理论",
+      "source": "first-order stochastic dominance (FSD)",
+      "target": "一阶随机占优（FSD）",
+      "note": "不要译为“一阶随机优势”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "prior probabilities",
+      "target": "先验概率",
+      "note": "贝叶斯语境。"
+    },
+    {
+      "category": "经济理论",
+      "source": "distorted probabilities",
+      "target": "扭曲概率",
+      "note": "不要译为“失真概率”。"
+    },
+    {
+      "category": "经济理论",
+      "source": "asset demand / asset valuation",
+      "target": "资产需求 / 资产估值",
+      "note": "不要译为“资产价值”以外的变体。"
+    },
+    {
+      "category": "供应链与贸易",
+      "source": "supply chain risk / supply-chain complexity",
+      "target": "供应链风险 / 供应链复杂性",
+      "note": "不要译为“供应链复杂性”以外的变体。"
+    },
+    {
+      "category": "供应链与贸易",
+      "source": "input sourcing / multi-sourcing",
+      "target": "投入品采购 / 多重采购",
+      "note": "不要译为“输入采购”。"
+    },
+    {
+      "category": "供应链与贸易",
+      "source": "output elasticity",
+      "target": "产出弹性",
+      "note": "不要译为“产出弹性”以外的变体。"
+    },
+    {
+      "category": "供应链与贸易",
+      "source": "comparative advantage",
+      "target": "比较优势",
+      "note": "标准译法。"
+    },
+    {
+      "category": "供应链与贸易",
+      "source": "cross-stage complementarity",
+      "target": "跨阶段互补性",
+      "note": "供应链语境。"
+    },
+    {
+      "category": "供应链与贸易",
+      "source": "within-stage substitutability",
+      "target": "阶段内替代性",
+      "note": "供应链语境。"
+    },
+    {
+      "category": "供应链与贸易",
+      "source": "fringe supply",
+      "target": "边缘供应",
+      "note": "竞争性边缘的供应；不要译为“边缘供给”以外的变体。"
+    },
+    {
+      "category": "能源与气候",
+      "source": "demand response / demand flexibility",
+      "target": "需求响应 / 需求灵活性",
+      "note": "电力市场语境。"
+    },
+    {
+      "category": "能源与气候",
+      "source": "critical peak rewards",
+      "target": "关键峰值奖励",
+      "note": "不要译为“临界峰值奖励”。"
+    },
+    {
+      "category": "能源与气候",
+      "source": "solar panels / heat pumps / EVs",
+      "target": "太阳能电池板 / 热泵 / 电动汽车",
+      "note": "保留 EV 缩写。"
+    },
+    {
+      "category": "能源与气候",
+      "source": "megawatt-hour (MWh)",
+      "target": "兆瓦时（MWh）",
+      "note": "电能单位。"
+    },
+    {
+      "category": "能源与气候",
+      "source": "green transition / electrification metals",
+      "target": "绿色转型 / 电气化金属",
+      "note": "能源转型语境。"
+    },
+    {
+      "category": "能源与气候",
+      "source": "strategic minerals / critical metals",
+      "target": "战略矿产 / 关键金属",
+      "note": "不要译为“战略金属”以外的变体。"
+    },
+    {
+      "category": "财政与税收",
+      "source": "Congressional Budget Office (CBO)",
+      "target": "国会预算办公室（CBO）",
+      "note": "保留 CBO 缩写。"
+    },
+    {
+      "category": "财政与税收",
+      "source": "federal funding / federally funded",
+      "target": "联邦资助 / 联邦资助的",
+      "note": "不要译为“联邦资金”以外的变体。"
+    },
+    {
+      "category": "财政与税收",
+      "source": "after-tax price",
+      "target": "税后价格",
+      "note": "不要译为“税后成本”以外的变体。"
+    },
+    {
+      "category": "财政与税收",
+      "source": "R&D capital stock approach",
+      "target": "R&D 资本存量方法",
+      "note": "CBO 模型。"
+    },
+    {
+      "category": "数字金融",
+      "source": "human enhancement technologies (HET)",
+      "target": "人类增强技术（HET）",
+      "note": "保留 HET 缩写。"
+    },
+    {
+      "category": "数字金融",
+      "source": "enhancing vs. restorative",
+      "target": "增强型 vs. 修复型",
+      "note": "增强 vs. 恢复健康。"
+    },
+    {
+      "category": "数字金融",
+      "source": "heritability",
+      "target": "遗传性",
+      "note": "生物语境。"
+    },
+    {
+      "category": "数字金融",
+      "source": "stated adoption",
+      "target": "声明的采纳意愿或自报采纳",
+      "note": "调查中的采纳意愿。"
+    },
+    {
+      "category": "数字金融",
+      "source": "direction of technical change",
+      "target": "技术变革的方向",
+      "note": "不要译为“技术变化方向”以外的变体。"
+    }
   ],
   "replacement_rules": [
-    {"source_contains": "benefit-based", "replacements": [{"bad": "基于福利的税收", "good": "基于受益原则的税收"}, {"bad": "基于福利的劳动收入征税", "good": "基于受益原则的劳动收入税"}, {"bad": "福利原则", "good": "受益原则"}]},
-    {"source_contains": "labor market", "replacements": [{"bad": "劳动市场", "good": "劳动力市场"}]},
-    {"source_contains": "resume audit", "replacements": [{"bad": "简历审核研究", "good": "简历审计研究"}, {"bad": "简历审核", "good": "简历审计"}]},
-    {"source_contains": "early childhood education", "replacements": [{"bad": "早期儿童教育", "good": "幼儿教育"}]},
-    {"source_contains": "misspecified learning", "replacements": [{"bad": "错误学习", "good": "错误设定学习"}]},
-    {"source_contains": "marginal satisfaction from income", "replacements": [{"bad": "收入的边际满足感", "good": "收入的边际满意度"}, {"bad": "边际满足感", "good": "边际满意度"}]},
-    {"source_contains": "tractable", "replacements": [{"bad": "可处理的", "good": "易处理的"}, {"bad": "可处理模型", "good": "可求解模型"}]},
-    {"source_contains": "proxy", "replacements": [{"bad": "适当代理", "good": "合适代理变量"}, {"bad": "适当的代理", "good": "合适的代理变量"}]},
-    {"source_exact": "the pass-through of tariffs and exchange rates", "override": "关税与汇率传导"},
-    {"source_contains": "pass-through", "replacements": [{"bad": "传递效应", "good": "传导"}]},
-    {"source_contains": "ricardian equivalence", "replacements": [{"bad": "里卡多等价定理", "good": "李嘉图等价定理"}, {"bad": "里卡多等价", "good": "李嘉图等价"}]},
-    {"source_exact": "importing aggregate demand", "override": "输入总需求"},
-    {"source_contains": "importing aggregate demand", "replacements": [{"bad": "导入总需求", "good": "输入总需求"}]},
-    {"source_contains": "spending effect", "replacements": [{"bad": "消费效应", "good": "支出效应"}]},
-    {"source_contains": "aggregate outcome", "replacements": [{"bad": "总体和分配", "good": "总量和分配"}, {"bad": "总体结果", "good": "总量结果"}]},
-    {"source_contains": "aggregate stabilization", "replacements": [{"bad": "总体稳定", "good": "总量稳定"}]},
-    {"source_contains": "state-dependent pricing", "replacements": [{"bad": "依赖状态定价", "good": "状态依赖定价"}]},
-    {"source_contains": "financial market imperfections", "replacements": [{"bad": "全球金融市场的不完善", "good": "全球金融市场不完全性"}, {"bad": "金融市场的不完善", "good": "金融市场不完全性"}]},
-    {"source_contains": "agents", "replacements": [{"bad": "代理人", "good": "经济主体"}]},
-    {"source_contains": "digital safe havens", "replacements": [{"bad": "数字安全港", "good": "数字避风港"}, {"bad": "数字安全避风港", "good": "数字避风港"}]},
-    {"source_contains": "yield-bearing dollar instruments", "replacements": [{"bad": "产生收益的美元工具", "good": "生息美元工具"}, {"bad": "带来收益的美元工具", "good": "生息美元工具"}]},
-    {"source_contains": "total value locked", "replacements": [{"bad": "总锁定价值", "good": "总锁仓价值（TVL）"}]},
-    {"source_contains": "convenience yield", "replacements": [{"bad": "便利收益", "good": "便利收益率"}]},
-    {"source_contains": "congestion pricing", "replacements": [{"bad": "拥堵定价", "good": "拥堵收费"}]},
-    {"source_contains": "ems", "replacements": [{"bad": "急救响应时间", "good": "急救服务响应时间"}]},
-    {"source_contains": "travel speeds", "replacements": [{"bad": "旅行速度", "good": "出行速度"}]},
-    {"source_contains": "travel times", "replacements": [{"bad": "将总EMS行程时间提高了", "good": "将总EMS出行时间缩短了"}, {"bad": "将总EMS行程时间改善了", "good": "将总EMS出行时间缩短了"}, {"bad": "行程时间提高", "good": "出行时间缩短"}]},
-    {"source_contains": "smog and safety checks", "replacements": [{"bad": "烟雾和安全检查", "good": "尾气与安全检测"}, {"bad": "烟雾和安全检测", "good": "尾气与安全检测"}]},
-    {"source_exact": "competition and misconduct in certification markets with externalities", "override": "具有外部性的认证市场中的竞争与不当行为"},
-    {"source_contains": "certification markets with externalities", "replacements": [{"bad": "认证市场中的竞争与外部性下的不当行为", "good": "具有外部性的认证市场中的竞争与不当行为"}]},
-    {"source_contains": "with externalities", "replacements": [{"bad": "外部性下的", "good": "具有外部性的"}]},
-    {"source_contains": "private agents", "replacements": [{"bad": "私人代理", "good": "私人机构"}, {"bad": "这些代理", "good": "这些机构"}, {"bad": "代理竞争", "good": "机构竞争"}]},
-    {"source_contains": "licensing prevalence", "replacements": [{"bad": "职业许可普及度", "good": "职业许可覆盖率"}]},
-    {"source_contains": "licensing wage", "replacements": [{"bad": "许可工资溢价", "good": "持证工资溢价"}]},
-    {"source_contains": "through 2025", "replacements": [{"bad": "2025年之前", "good": "截至2025年"}, {"bad": "2025 年之前", "good": "截至 2025 年"}, {"bad": "2025年前", "good": "截至2025年"}, {"bad": "2025 年前", "good": "截至 2025 年"}]},
-    {"source_contains": "evidence aggregation", "replacements": [{"bad": "证据聚合", "good": "证据整合"}]},
-    {"source_contains": "quantitative easing", "replacements": [{"bad": "货币宽松与政府债务可持续性", "good": "量化宽松与政府债务可持续性"}, {"bad": "货币宽松", "good": "量化宽松"}]},
-    {"source_contains": "primary balance", "replacements": [{"bad": "初等预算平衡", "good": "基本财政余额"}]},
-    {"source_contains": "stepping-on-a-rake", "replacements": [{"bad": "踩踏效应", "good": "“踩耙子”效应"}]},
-    {"source_contains": "missing markets for opportunity", "replacements": [{"bad": "机会缺失市场", "good": "机会市场缺失"}, {"bad": "机会市场的缺失", "good": "机会市场缺失"}]},
-    {"source_contains": "baby busts", "replacements": [{"bad": "婴儿荒潮", "good": "生育低潮"}, {"bad": "婴儿荒", "good": "生育低潮"}]},
-    {"source_contains": "labor-saving", "replacements": [{"bad": "节省劳动力的", "good": "劳动节约型"}]},
-    {"source_contains": "qsbs", "replacements": [{"bad": "来自QSBS计划", "good": "来自合格小企业股票（QSBS）计划"}, {"bad": "QSBS计划", "good": "合格小企业股票（QSBS）计划"}, {"bad": "来自合格小企业股票计划", "good": "来自合格小企业股票（QSBS）计划"}, {"bad": "合格小企业股票计划", "good": "合格小企业股票（QSBS）计划"}]},
-    {"source_contains": "drug decriminalization", "replacements": [{"bad": "药物非刑事化", "good": "毒品非刑事化"}, {"bad": "药物逮捕", "good": "毒品逮捕"}]},
-    {"source_contains": "overdose", "replacements": [{"bad": "过量用药事件", "good": "药物过量事件"}, {"bad": "过量死亡", "good": "药物过量死亡"}]},
-    {"source_contains": "imperial china", "replacements": [{"bad": "帝国中国", "good": "帝制中国"}]},
-    {"source_contains": "health-status gradient", "replacements": [{"bad": "健康状况梯度", "good": "健康-社会地位梯度"}]},
-    {"source_contains_all": ["hospital", "congestion"], "replacements": [{"bad": "拥堵", "good": "拥挤"}]},
-    {"source_contains": "capacity strain", "replacements": [{"bad": "容量紧张", "good": "容量压力"}]},
-    {"source_contains": "distance instruments", "replacements": [{"bad": "距离工具控制", "good": "距离工具变量控制"}, {"bad": "距离工具", "good": "距离工具变量"}]},
-    {"source_contains": "difference-in-differences", "replacements": [{"bad": "差异中的差异", "good": "双重差分"}]},
-    {"source_contains": "forecasting with uncertain persistence", "replacements": [{"bad": "带有不确定性持续性的预测", "good": "持续性不确定性下的预测"}]},
-    {"source_contains": "long horizons", "replacements": [{"bad": "长期范围", "good": "长预测期"}]},
-    {"source_contains": "agentic ai", "replacements": [{"bad": "代理人工智能", "good": "智能体式人工智能"}, {"bad": "代理型人工智能", "good": "智能体式人工智能"}]},
-    {"source_contains": "study habit", "replacements": [{"bad": "研究习惯", "good": "学习习惯"}]},
-    {"source_contains": "advanced economies", "replacements": [{"bad": "先进经济体", "good": "发达经济体"}]},
-    {"source_contains": "debt service", "replacements": [{"bad": "债务服务", "good": "债务偿付"}, {"bad": "债务偿还", "good": "债务偿付"}]},
-    {"source_contains": "stock returns", "replacements": [{"bad": "股票回报", "good": "股票收益率"}]},
-    {"source_contains": "realized returns", "replacements": [{"bad": "实现回报", "good": "已实现收益率"}]},
-    {"source_contains": "take-up", "replacements": [{"bad": "DI接受度", "good": "DI申领率"}, {"bad": "参保决策", "good": "申领决策"}]},
-    {"source_contains": "retrieval failures", "replacements": [{"bad": "提取失败", "good": "记忆提取失败"}, {"bad": "检索失败", "good": "记忆提取失败"}, {"bad": "逐渐消耗这笔收入", "good": "逐渐支用这笔收入"}, {"bad": "随机化了一个干预措施", "good": "随机实施了一项干预"}, {"bad": "立即支出下降", "good": "当期支出下降"}, {"bad": "消费轮廓", "good": "消费路径"}]},
-    {"source_contains": "job ads", "replacements": [{"bad": "工作广告", "good": "招聘广告"}]},
-    {"source_contains": "amenity", "replacements": [{"bad": "定价便利设施", "good": "有明确市场价格的工作福利"}, {"bad": "工作便利设施", "good": "工作福利"}, {"bad": "便利设施", "good": "工作福利"}, {"bad": "信念征询实验", "good": "认知测量实验"}, {"bad": "认知征集实验", "good": "认知测量实验"}, {"bad": "估值超过100%", "good": "估值高出市场价格100%以上"}, {"bad": "宣传一项福利", "good": "在招聘广告中展示一项工作福利"}, {"bad": "信念", "good": "认知"}]},
-    {"source_contains": "zoning", "replacements": [{"bad": "住宅-商业分区", "good": "住宅—商业用途分区管制"}, {"bad": "分区楔子", "good": "分区管制楔子"}, {"bad": "分区是否", "good": "分区管制是否"}, {"bad": "分区与比较优势", "good": "分区管制与比较优势"}, {"bad": "分区变化", "good": "分区管制差异"}, {"bad": "分区的主要效果", "good": "分区管制的主要作用"}]},
-    {"source_contains": "college", "replacements": [{"bad": "更高质量的学院", "good": "更高质量的大学"}, {"bad": "在不同学院之间", "good": "在不同大学之间"}, {"bad": "在学院之间转移", "good": "在大学之间转移"}, {"bad": "参加选择性较低的四年制学院", "good": "就读选择性较低的四年制大学"}, {"bad": "最具选择性学院", "good": "选择性最高的大学"}, {"bad": "最具选择性大学", "good": "选择性最高的大学"}, {"bad": "学院质量", "good": "大学质量"}, {"bad": "现值折现终身收入", "good": "终身收入的贴现现值"}]},
-    {"source_contains": "compliers", "replacements": [{"bad": "遵从者", "good": "依从者"}]},
-    {"source_contains": "look-ahead bias", "replacements": [{"bad": "前瞻性偏差", "good": "前视偏差"}]},
-    {"source_contains": "revealed-preference", "replacements": [{"bad": "显示偏好", "good": "显示性偏好"}]},
-    {"source_contains": "rebrand", "replacements": [{"bad": "重新品牌化", "good": "品牌重塑"}, {"bad": "德国名字银行", "good": "采用德国名称的银行"}, {"bad": "污名化德国名字", "good": "带有污名的德国名称"}, {"bad": "品牌重塑的采用德国名称的银行", "good": "更改品牌的德式名称银行"}, {"bad": "采用新的非民族品牌名称的采用德国名称的银行", "good": "改用不带族裔色彩新名称的德式名称银行"}]},
-    {"source_contains": "earnings call", "replacements": [{"bad": "收益电话会议", "good": "业绩电话会议"}, {"bad": "盈利电话会议", "good": "业绩电话会议"}]},
-    {"source_contains": "explained variation", "replacements": [{"bad": "解释回报的变异性", "good": "对收益率变动的解释力"}, {"bad": "R平方", "good": "R²"}]},
-    {"source_contains": "disincentive cost", "replacements": [{"bad": "抑制成本", "good": "激励扭曲成本"}]},
-    {"source_contains": "rationalize", "replacements": [{"bad": "合理化这些发现", "good": "解释这些发现"}]},
-    {"source_exact": "assessing the benefits of optimized agentic ai systems for asset pricing", "override": "评估优化的智能体式人工智能系统在资产定价中的优势"},
-    {"source_exact": "job ads as signals: evidence from a priced amenity and worker beliefs", "override": "作为信号的招聘广告：来自有明确市场价格的工作福利与劳动者认知的证据"},
-    {"source_exact": "zoning: externalities or misallocation?", "override": "土地用途分区管制：外部性还是资源错配？"},
-    {"source_exact": "degrees of mobility: shifting low-income students to higher quality colleges", "override": "学位与流动：引导低收入学生进入更高质量的大学"},
-    {"source_exact": "unruly by design: fee volatility and strategic attacks in bitcoin mining", "override": "因设计而失序：比特币挖矿中的手续费波动与策略性攻击"},
-    {"source_exact": "banking on a corporate rebrand", "override": "押注企业品牌重塑"},
-    {"source_exact": "do monetary policy rates reach borrowers? evidence from household and firm loans in 96 countries", "override": "货币政策利率能否传导至借款人？来自96个国家家庭和企业贷款的证据"},
-    {"source_exact": "measuring the value of disability insurance from take-up decisions", "override": "从申领决策衡量残疾保险的价值"},
-    {"source_exact": "from stocks to flows: debt service and fiscal sustainability", "override": "从存量到流量：债务偿付与财政可持续性"},
-    {"source_exact": "bundling trades in over-the-counter markets", "override": "场外交易市场中的交易捆绑"},
-    {"source_exact": "let’s chat: leveraging chatbot outreach for improved course performance", "override": "聊一聊：利用聊天机器人主动联系学生以改善课程表现"},
-    {"source_exact": "mind the kf* gap: eme vulnerabilities to global shocks", "override": "警惕KF*缺口：新兴市场经济体面对全球冲击的脆弱性"},
-    {"source_exact": "ports, technology and inter-city trade: the economics and geopolitics of evolving maritime transport networks", "override": "港口、技术与城市间贸易：海运网络演变的经济学与地缘政治"},
-    {"source_exact": "social insurance with imperfect eligibility screening: theory and evidence from pandemic ui", "override": "资格审查不完善下的社会保险：理论与疫情期间失业保险的证据"}
+    {
+      "source_contains": "benefit-based",
+      "replacements": [
+        {
+          "bad": "基于福利的税收",
+          "good": "基于受益原则的税收"
+        },
+        {
+          "bad": "基于福利的劳动收入征税",
+          "good": "基于受益原则的劳动收入税"
+        },
+        {
+          "bad": "福利原则",
+          "good": "受益原则"
+        }
+      ]
+    },
+    {
+      "source_contains": "labor market",
+      "replacements": [
+        {
+          "bad": "劳动市场",
+          "good": "劳动力市场"
+        }
+      ]
+    },
+    {
+      "source_contains": "resume audit",
+      "replacements": [
+        {
+          "bad": "简历审核研究",
+          "good": "简历审计研究"
+        },
+        {
+          "bad": "简历审核",
+          "good": "简历审计"
+        }
+      ]
+    },
+    {
+      "source_contains": "early childhood education",
+      "replacements": [
+        {
+          "bad": "早期儿童教育",
+          "good": "幼儿教育"
+        }
+      ]
+    },
+    {
+      "source_contains": "misspecified learning",
+      "replacements": [
+        {
+          "bad": "错误学习",
+          "good": "错误设定学习"
+        }
+      ]
+    },
+    {
+      "source_contains": "marginal satisfaction from income",
+      "replacements": [
+        {
+          "bad": "收入的边际满足感",
+          "good": "收入的边际满意度"
+        },
+        {
+          "bad": "边际满足感",
+          "good": "边际满意度"
+        }
+      ]
+    },
+    {
+      "source_contains": "tractable",
+      "replacements": [
+        {
+          "bad": "可处理的",
+          "good": "易处理的"
+        },
+        {
+          "bad": "可处理模型",
+          "good": "可求解模型"
+        }
+      ]
+    },
+    {
+      "source_contains": "proxy",
+      "replacements": [
+        {
+          "bad": "适当代理",
+          "good": "合适代理变量"
+        },
+        {
+          "bad": "适当的代理",
+          "good": "合适的代理变量"
+        }
+      ]
+    },
+    {
+      "source_exact": "the pass-through of tariffs and exchange rates",
+      "override": "关税与汇率传导"
+    },
+    {
+      "source_contains": "pass-through",
+      "replacements": [
+        {
+          "bad": "传递效应",
+          "good": "传导"
+        }
+      ]
+    },
+    {
+      "source_contains": "ricardian equivalence",
+      "replacements": [
+        {
+          "bad": "里卡多等价定理",
+          "good": "李嘉图等价定理"
+        },
+        {
+          "bad": "里卡多等价",
+          "good": "李嘉图等价"
+        }
+      ]
+    },
+    {
+      "source_exact": "importing aggregate demand",
+      "override": "输入总需求"
+    },
+    {
+      "source_contains": "importing aggregate demand",
+      "replacements": [
+        {
+          "bad": "导入总需求",
+          "good": "输入总需求"
+        }
+      ]
+    },
+    {
+      "source_contains": "spending effect",
+      "replacements": [
+        {
+          "bad": "消费效应",
+          "good": "支出效应"
+        }
+      ]
+    },
+    {
+      "source_contains": "aggregate outcome",
+      "replacements": [
+        {
+          "bad": "总体和分配",
+          "good": "总量和分配"
+        },
+        {
+          "bad": "总体结果",
+          "good": "总量结果"
+        }
+      ]
+    },
+    {
+      "source_contains": "aggregate stabilization",
+      "replacements": [
+        {
+          "bad": "总体稳定",
+          "good": "总量稳定"
+        }
+      ]
+    },
+    {
+      "source_contains": "state-dependent pricing",
+      "replacements": [
+        {
+          "bad": "依赖状态定价",
+          "good": "状态依赖定价"
+        }
+      ]
+    },
+    {
+      "source_contains": "financial market imperfections",
+      "replacements": [
+        {
+          "bad": "全球金融市场的不完善",
+          "good": "全球金融市场不完全性"
+        },
+        {
+          "bad": "金融市场的不完善",
+          "good": "金融市场不完全性"
+        }
+      ]
+    },
+    {
+      "source_contains": "agents",
+      "replacements": [
+        {
+          "bad": "代理人",
+          "good": "经济主体"
+        }
+      ]
+    },
+    {
+      "source_contains": "digital safe havens",
+      "replacements": [
+        {
+          "bad": "数字安全港",
+          "good": "数字避风港"
+        },
+        {
+          "bad": "数字安全避风港",
+          "good": "数字避风港"
+        }
+      ]
+    },
+    {
+      "source_contains": "yield-bearing dollar instruments",
+      "replacements": [
+        {
+          "bad": "产生收益的美元工具",
+          "good": "生息美元工具"
+        },
+        {
+          "bad": "带来收益的美元工具",
+          "good": "生息美元工具"
+        }
+      ]
+    },
+    {
+      "source_contains": "total value locked",
+      "replacements": [
+        {
+          "bad": "总锁定价值",
+          "good": "总锁仓价值（TVL）"
+        }
+      ]
+    },
+    {
+      "source_contains": "convenience yield",
+      "replacements": [
+        {
+          "bad": "便利收益",
+          "good": "便利收益率"
+        }
+      ]
+    },
+    {
+      "source_contains": "congestion pricing",
+      "replacements": [
+        {
+          "bad": "拥堵定价",
+          "good": "拥堵收费"
+        }
+      ]
+    },
+    {
+      "source_contains": "ems",
+      "replacements": [
+        {
+          "bad": "急救响应时间",
+          "good": "急救服务响应时间"
+        }
+      ]
+    },
+    {
+      "source_contains": "travel speeds",
+      "replacements": [
+        {
+          "bad": "旅行速度",
+          "good": "出行速度"
+        }
+      ]
+    },
+    {
+      "source_contains": "travel times",
+      "replacements": [
+        {
+          "bad": "将总EMS行程时间提高了",
+          "good": "将总EMS出行时间缩短了"
+        },
+        {
+          "bad": "将总EMS行程时间改善了",
+          "good": "将总EMS出行时间缩短了"
+        },
+        {
+          "bad": "行程时间提高",
+          "good": "出行时间缩短"
+        }
+      ]
+    },
+    {
+      "source_contains": "smog and safety checks",
+      "replacements": [
+        {
+          "bad": "烟雾和安全检查",
+          "good": "尾气与安全检测"
+        },
+        {
+          "bad": "烟雾和安全检测",
+          "good": "尾气与安全检测"
+        }
+      ]
+    },
+    {
+      "source_exact": "competition and misconduct in certification markets with externalities",
+      "override": "具有外部性的认证市场中的竞争与不当行为"
+    },
+    {
+      "source_contains": "certification markets with externalities",
+      "replacements": [
+        {
+          "bad": "认证市场中的竞争与外部性下的不当行为",
+          "good": "具有外部性的认证市场中的竞争与不当行为"
+        }
+      ]
+    },
+    {
+      "source_contains": "with externalities",
+      "replacements": [
+        {
+          "bad": "外部性下的",
+          "good": "具有外部性的"
+        }
+      ]
+    },
+    {
+      "source_contains": "private agents",
+      "replacements": [
+        {
+          "bad": "私人代理",
+          "good": "私人机构"
+        },
+        {
+          "bad": "这些代理",
+          "good": "这些机构"
+        },
+        {
+          "bad": "代理竞争",
+          "good": "机构竞争"
+        }
+      ]
+    },
+    {
+      "source_contains": "licensing prevalence",
+      "replacements": [
+        {
+          "bad": "职业许可普及度",
+          "good": "职业许可覆盖率"
+        }
+      ]
+    },
+    {
+      "source_contains": "licensing wage",
+      "replacements": [
+        {
+          "bad": "许可工资溢价",
+          "good": "持证工资溢价"
+        }
+      ]
+    },
+    {
+      "source_contains": "through 2025",
+      "replacements": [
+        {
+          "bad": "2025年之前",
+          "good": "截至2025年"
+        },
+        {
+          "bad": "2025 年之前",
+          "good": "截至 2025 年"
+        },
+        {
+          "bad": "2025年前",
+          "good": "截至2025年"
+        },
+        {
+          "bad": "2025 年前",
+          "good": "截至 2025 年"
+        }
+      ]
+    },
+    {
+      "source_contains": "evidence aggregation",
+      "replacements": [
+        {
+          "bad": "证据聚合",
+          "good": "证据整合"
+        }
+      ]
+    },
+    {
+      "source_contains": "quantitative easing",
+      "replacements": [
+        {
+          "bad": "货币宽松与政府债务可持续性",
+          "good": "量化宽松与政府债务可持续性"
+        },
+        {
+          "bad": "货币宽松",
+          "good": "量化宽松"
+        }
+      ]
+    },
+    {
+      "source_contains": "primary balance",
+      "replacements": [
+        {
+          "bad": "初等预算平衡",
+          "good": "基本财政余额"
+        }
+      ]
+    },
+    {
+      "source_contains": "stepping-on-a-rake",
+      "replacements": [
+        {
+          "bad": "踩踏效应",
+          "good": "“踩耙子”效应"
+        }
+      ]
+    },
+    {
+      "source_contains": "missing markets for opportunity",
+      "replacements": [
+        {
+          "bad": "机会缺失市场",
+          "good": "机会市场缺失"
+        },
+        {
+          "bad": "机会市场的缺失",
+          "good": "机会市场缺失"
+        }
+      ]
+    },
+    {
+      "source_contains": "baby busts",
+      "replacements": [
+        {
+          "bad": "婴儿荒潮",
+          "good": "生育低潮"
+        },
+        {
+          "bad": "婴儿荒",
+          "good": "生育低潮"
+        }
+      ]
+    },
+    {
+      "source_contains": "labor-saving",
+      "replacements": [
+        {
+          "bad": "节省劳动力的",
+          "good": "劳动节约型"
+        }
+      ]
+    },
+    {
+      "source_contains": "qsbs",
+      "replacements": [
+        {
+          "bad": "来自QSBS计划",
+          "good": "来自合格小企业股票（QSBS）计划"
+        },
+        {
+          "bad": "QSBS计划",
+          "good": "合格小企业股票（QSBS）计划"
+        },
+        {
+          "bad": "来自合格小企业股票计划",
+          "good": "来自合格小企业股票（QSBS）计划"
+        },
+        {
+          "bad": "合格小企业股票计划",
+          "good": "合格小企业股票（QSBS）计划"
+        }
+      ]
+    },
+    {
+      "source_contains": "drug decriminalization",
+      "replacements": [
+        {
+          "bad": "药物非刑事化",
+          "good": "毒品非刑事化"
+        },
+        {
+          "bad": "药物逮捕",
+          "good": "毒品逮捕"
+        }
+      ]
+    },
+    {
+      "source_contains": "overdose",
+      "replacements": [
+        {
+          "bad": "过量用药事件",
+          "good": "药物过量事件"
+        },
+        {
+          "bad": "过量死亡",
+          "good": "药物过量死亡"
+        }
+      ]
+    },
+    {
+      "source_contains": "imperial china",
+      "replacements": [
+        {
+          "bad": "帝国中国",
+          "good": "帝制中国"
+        }
+      ]
+    },
+    {
+      "source_contains": "health-status gradient",
+      "replacements": [
+        {
+          "bad": "健康状况梯度",
+          "good": "健康-社会地位梯度"
+        }
+      ]
+    },
+    {
+      "source_contains_all": [
+        "hospital",
+        "congestion"
+      ],
+      "replacements": [
+        {
+          "bad": "拥堵",
+          "good": "拥挤"
+        }
+      ]
+    },
+    {
+      "source_contains": "capacity strain",
+      "replacements": [
+        {
+          "bad": "容量紧张",
+          "good": "容量压力"
+        }
+      ]
+    },
+    {
+      "source_contains": "distance instruments",
+      "replacements": [
+        {
+          "bad": "距离工具控制",
+          "good": "距离工具变量控制"
+        },
+        {
+          "bad": "距离工具",
+          "good": "距离工具变量"
+        }
+      ]
+    },
+    {
+      "source_contains": "difference-in-differences",
+      "replacements": [
+        {
+          "bad": "差异中的差异",
+          "good": "双重差分"
+        }
+      ]
+    },
+    {
+      "source_contains": "forecasting with uncertain persistence",
+      "replacements": [
+        {
+          "bad": "带有不确定性持续性的预测",
+          "good": "持续性不确定性下的预测"
+        }
+      ]
+    },
+    {
+      "source_contains": "long horizons",
+      "replacements": [
+        {
+          "bad": "长期范围",
+          "good": "长预测期"
+        }
+      ]
+    },
+    {
+      "source_contains": "agentic ai",
+      "replacements": [
+        {
+          "bad": "代理人工智能",
+          "good": "智能体式人工智能"
+        },
+        {
+          "bad": "代理型人工智能",
+          "good": "智能体式人工智能"
+        }
+      ]
+    },
+    {
+      "source_contains": "study habit",
+      "replacements": [
+        {
+          "bad": "研究习惯",
+          "good": "学习习惯"
+        }
+      ]
+    },
+    {
+      "source_contains": "advanced economies",
+      "replacements": [
+        {
+          "bad": "先进经济体",
+          "good": "发达经济体"
+        }
+      ]
+    },
+    {
+      "source_contains": "debt service",
+      "replacements": [
+        {
+          "bad": "债务服务",
+          "good": "债务偿付"
+        },
+        {
+          "bad": "债务偿还",
+          "good": "债务偿付"
+        }
+      ]
+    },
+    {
+      "source_contains": "stock returns",
+      "replacements": [
+        {
+          "bad": "股票回报",
+          "good": "股票收益率"
+        }
+      ]
+    },
+    {
+      "source_contains": "realized returns",
+      "replacements": [
+        {
+          "bad": "实现回报",
+          "good": "已实现收益率"
+        }
+      ]
+    },
+    {
+      "source_contains": "take-up",
+      "replacements": [
+        {
+          "bad": "DI接受度",
+          "good": "DI申领率"
+        },
+        {
+          "bad": "参保决策",
+          "good": "申领决策"
+        }
+      ]
+    },
+    {
+      "source_contains": "retrieval failures",
+      "replacements": [
+        {
+          "bad": "提取失败",
+          "good": "记忆提取失败"
+        },
+        {
+          "bad": "检索失败",
+          "good": "记忆提取失败"
+        },
+        {
+          "bad": "逐渐消耗这笔收入",
+          "good": "逐渐支用这笔收入"
+        },
+        {
+          "bad": "随机化了一个干预措施",
+          "good": "随机实施了一项干预"
+        },
+        {
+          "bad": "立即支出下降",
+          "good": "当期支出下降"
+        },
+        {
+          "bad": "消费轮廓",
+          "good": "消费路径"
+        }
+      ]
+    },
+    {
+      "source_contains": "job ads",
+      "replacements": [
+        {
+          "bad": "工作广告",
+          "good": "招聘广告"
+        }
+      ]
+    },
+    {
+      "source_contains": "amenity",
+      "replacements": [
+        {
+          "bad": "定价便利设施",
+          "good": "有明确市场价格的工作福利"
+        },
+        {
+          "bad": "工作便利设施",
+          "good": "工作福利"
+        },
+        {
+          "bad": "便利设施",
+          "good": "工作福利"
+        },
+        {
+          "bad": "信念征询实验",
+          "good": "认知测量实验"
+        },
+        {
+          "bad": "认知征集实验",
+          "good": "认知测量实验"
+        },
+        {
+          "bad": "估值超过100%",
+          "good": "估值高出市场价格100%以上"
+        },
+        {
+          "bad": "宣传一项福利",
+          "good": "在招聘广告中展示一项工作福利"
+        },
+        {
+          "bad": "信念",
+          "good": "认知"
+        }
+      ]
+    },
+    {
+      "source_contains": "zoning",
+      "replacements": [
+        {
+          "bad": "住宅-商业分区",
+          "good": "住宅—商业用途分区管制"
+        },
+        {
+          "bad": "分区楔子",
+          "good": "分区管制楔子"
+        },
+        {
+          "bad": "分区是否",
+          "good": "分区管制是否"
+        },
+        {
+          "bad": "分区与比较优势",
+          "good": "分区管制与比较优势"
+        },
+        {
+          "bad": "分区变化",
+          "good": "分区管制差异"
+        },
+        {
+          "bad": "分区的主要效果",
+          "good": "分区管制的主要作用"
+        }
+      ]
+    },
+    {
+      "source_contains": "college",
+      "replacements": [
+        {
+          "bad": "更高质量的学院",
+          "good": "更高质量的大学"
+        },
+        {
+          "bad": "在不同学院之间",
+          "good": "在不同大学之间"
+        },
+        {
+          "bad": "在学院之间转移",
+          "good": "在大学之间转移"
+        },
+        {
+          "bad": "参加选择性较低的四年制学院",
+          "good": "就读选择性较低的四年制大学"
+        },
+        {
+          "bad": "最具选择性学院",
+          "good": "选择性最高的大学"
+        },
+        {
+          "bad": "最具选择性大学",
+          "good": "选择性最高的大学"
+        },
+        {
+          "bad": "学院质量",
+          "good": "大学质量"
+        },
+        {
+          "bad": "现值折现终身收入",
+          "good": "终身收入的贴现现值"
+        }
+      ]
+    },
+    {
+      "source_contains": "compliers",
+      "replacements": [
+        {
+          "bad": "遵从者",
+          "good": "依从者"
+        }
+      ]
+    },
+    {
+      "source_contains": "look-ahead bias",
+      "replacements": [
+        {
+          "bad": "前瞻性偏差",
+          "good": "前视偏差"
+        }
+      ]
+    },
+    {
+      "source_contains": "revealed-preference",
+      "replacements": [
+        {
+          "bad": "显示偏好",
+          "good": "显示性偏好"
+        }
+      ]
+    },
+    {
+      "source_contains": "rebrand",
+      "replacements": [
+        {
+          "bad": "重新品牌化",
+          "good": "品牌重塑"
+        },
+        {
+          "bad": "德国名字银行",
+          "good": "采用德国名称的银行"
+        },
+        {
+          "bad": "污名化德国名字",
+          "good": "带有污名的德国名称"
+        },
+        {
+          "bad": "品牌重塑的采用德国名称的银行",
+          "good": "更改品牌的德式名称银行"
+        },
+        {
+          "bad": "采用新的非民族品牌名称的采用德国名称的银行",
+          "good": "改用不带族裔色彩新名称的德式名称银行"
+        }
+      ]
+    },
+    {
+      "source_contains": "earnings call",
+      "replacements": [
+        {
+          "bad": "收益电话会议",
+          "good": "业绩电话会议"
+        },
+        {
+          "bad": "盈利电话会议",
+          "good": "业绩电话会议"
+        }
+      ]
+    },
+    {
+      "source_contains": "explained variation",
+      "replacements": [
+        {
+          "bad": "解释回报的变异性",
+          "good": "对收益率变动的解释力"
+        },
+        {
+          "bad": "R平方",
+          "good": "R²"
+        }
+      ]
+    },
+    {
+      "source_contains": "disincentive cost",
+      "replacements": [
+        {
+          "bad": "抑制成本",
+          "good": "激励扭曲成本"
+        }
+      ]
+    },
+    {
+      "source_contains": "rationalize",
+      "replacements": [
+        {
+          "bad": "合理化这些发现",
+          "good": "解释这些发现"
+        }
+      ]
+    },
+    {
+      "source_exact": "assessing the benefits of optimized agentic ai systems for asset pricing",
+      "override": "评估优化的智能体式人工智能系统在资产定价中的优势"
+    },
+    {
+      "source_exact": "job ads as signals: evidence from a priced amenity and worker beliefs",
+      "override": "作为信号的招聘广告：来自有明确市场价格的工作福利与劳动者认知的证据"
+    },
+    {
+      "source_exact": "zoning: externalities or misallocation?",
+      "override": "土地用途分区管制：外部性还是资源错配？"
+    },
+    {
+      "source_exact": "degrees of mobility: shifting low-income students to higher quality colleges",
+      "override": "学位与流动：引导低收入学生进入更高质量的大学"
+    },
+    {
+      "source_exact": "unruly by design: fee volatility and strategic attacks in bitcoin mining",
+      "override": "因设计而失序：比特币挖矿中的手续费波动与策略性攻击"
+    },
+    {
+      "source_exact": "banking on a corporate rebrand",
+      "override": "押注企业品牌重塑"
+    },
+    {
+      "source_exact": "do monetary policy rates reach borrowers? evidence from household and firm loans in 96 countries",
+      "override": "货币政策利率能否传导至借款人？来自96个国家家庭和企业贷款的证据"
+    },
+    {
+      "source_exact": "measuring the value of disability insurance from take-up decisions",
+      "override": "从申领决策衡量残疾保险的价值"
+    },
+    {
+      "source_exact": "from stocks to flows: debt service and fiscal sustainability",
+      "override": "从存量到流量：债务偿付与财政可持续性"
+    },
+    {
+      "source_exact": "bundling trades in over-the-counter markets",
+      "override": "场外交易市场中的交易捆绑"
+    },
+    {
+      "source_exact": "let’s chat: leveraging chatbot outreach for improved course performance",
+      "override": "聊一聊：利用聊天机器人主动联系学生以改善课程表现"
+    },
+    {
+      "source_exact": "mind the kf* gap: eme vulnerabilities to global shocks",
+      "override": "警惕KF*缺口：新兴市场经济体面对全球冲击的脆弱性"
+    },
+    {
+      "source_exact": "ports, technology and inter-city trade: the economics and geopolitics of evolving maritime transport networks",
+      "override": "港口、技术与城市间贸易：海运网络演变的经济学与地缘政治"
+    },
+    {
+      "source_exact": "social insurance with imperfect eligibility screening: theory and evidence from pandemic ui",
+      "override": "资格审查不完善下的社会保险：理论与疫情期间失业保险的证据"
+    },
+    {
+      "source_contains": "oligopsony",
+      "replacements": [
+        {
+          "bad": "寡卖",
+          "good": "寡头买方垄断"
+        },
+        {
+          "bad": "寡卖工资发布",
+          "good": "寡头买方垄断工资发布"
+        }
+      ]
+    },
+    {
+      "source_contains": "monopsony",
+      "replacements": [
+        {
+          "bad": "垄断买方模型",
+          "good": "买方垄断模型"
+        },
+        {
+          "bad": "垄断买方力量",
+          "good": "买方垄断力量"
+        },
+        {
+          "bad": "垄断买方",
+          "good": "买方垄断"
+        }
+      ]
+    },
+    {
+      "source_contains": "no-poach",
+      "replacements": [
+        {
+          "bad": "不竞争协议",
+          "good": "不挖角协议"
+        }
+      ]
+    },
+    {
+      "source_contains": "worker poaching",
+      "replacements": [
+        {
+          "bad": "工人挖角",
+          "good": "挖角工人"
+        }
+      ]
+    },
+    {
+      "source_contains": "great recession",
+      "replacements": [
+        {
+          "bad": "大萧条前后",
+          "good": "大衰退前后"
+        },
+        {
+          "bad": "大萧条",
+          "good": "大衰退"
+        }
+      ]
+    },
+    {
+      "source_contains": "variance claims",
+      "replacements": [
+        {
+          "bad": "方差索赔",
+          "good": "方差要求权"
+        }
+      ]
+    },
+    {
+      "source_contains": "delta-hedged straddle",
+      "replacements": [
+        {
+          "bad": "Delta对冲跨期期权",
+          "good": "Delta对冲跨式期权"
+        },
+        {
+          "bad": "Delta 对冲跨期期权",
+          "good": "Delta 对冲跨式期权"
+        }
+      ]
+    },
+    {
+      "source_contains": "long-short return",
+      "replacements": [
+        {
+          "bad": "长短期回报",
+          "good": "多空收益率"
+        },
+        {
+          "bad": "长短期收益",
+          "good": "多空收益率"
+        }
+      ]
+    },
+    {
+      "source_contains": "currency returns",
+      "replacements": [
+        {
+          "bad": "货币回报",
+          "good": "货币收益率"
+        },
+        {
+          "bad": "超额货币回报",
+          "good": "超额货币收益率"
+        }
+      ]
+    },
+    {
+      "source_contains": "return volatility",
+      "replacements": [
+        {
+          "bad": "回报波动",
+          "good": "收益率波动"
+        }
+      ]
+    },
+    {
+      "source_contains": "offshore",
+      "replacements": [
+        {
+          "bad": "海外避税天堂",
+          "good": "离岸避税天堂"
+        },
+        {
+          "bad": "海外银行",
+          "good": "离岸银行"
+        },
+        {
+          "bad": "海外逃税",
+          "good": "离岸逃税"
+        },
+        {
+          "bad": "海外财富",
+          "good": "离岸财富"
+        }
+      ]
+    },
+    {
+      "source_contains": "primitives",
+      "replacements": [
+        {
+          "bad": "固定原素",
+          "good": "外生参数"
+        },
+        {
+          "bad": "固定原素",
+          "good": "基本参数"
+        }
+      ]
+    },
+    {
+      "source_contains": "fishing out",
+      "replacements": [
+        {
+          "bad": "过度开发",
+          "good": "易发掘成果枯竭"
+        },
+        {
+          "bad": "捕捞殆尽",
+          "good": "易发掘成果枯竭"
+        }
+      ]
+    },
+    {
+      "source_contains": "endogenous economic objects",
+      "replacements": [
+        {
+          "bad": "内生的经济条件",
+          "good": "内生的经济对象"
+        }
+      ]
+    },
+    {
+      "source_contains": "research productivity",
+      "replacements": [
+        {
+          "bad": "研究生产力",
+          "good": "研究生产率"
+        }
+      ]
+    },
+    {
+      "source_contains": "patent interference",
+      "replacements": [
+        {
+          "bad": "专利干扰率",
+          "good": "专利冲突率"
+        },
+        {
+          "bad": "专利干扰",
+          "good": "专利冲突"
+        }
+      ]
+    },
+    {
+      "source_contains": "consumer packaged goods",
+      "replacements": [
+        {
+          "bad": "消费品包装行业",
+          "good": "包装消费品行业"
+        },
+        {
+          "bad": "消费品包装",
+          "good": "包装消费品"
+        }
+      ]
+    },
+    {
+      "source_contains": "prospective merger simulation",
+      "replacements": [
+        {
+          "bad": "预期合并模拟",
+          "good": "事前合并模拟"
+        }
+      ]
+    },
+    {
+      "source_contains": "structural presumptions",
+      "replacements": [
+        {
+          "bad": "结构性假设",
+          "good": "结构性推定"
+        }
+      ]
+    },
+    {
+      "source_contains": "conduct remedies",
+      "replacements": [
+        {
+          "bad": "行为补救措施",
+          "good": "行为性救济措施"
+        },
+        {
+          "bad": "行为补救",
+          "good": "行为性救济"
+        }
+      ]
+    },
+    {
+      "source_contains": "difference-in-difference",
+      "replacements": [
+        {
+          "bad": "差异中的差异回归",
+          "good": "双重差分回归"
+        },
+        {
+          "bad": "差异中的差异",
+          "good": "双重差分"
+        }
+      ]
+    },
+    {
+      "source_contains": "treatment-on-the-treated",
+      "replacements": [
+        {
+          "bad": "处理组的处理计算",
+          "good": "处理组处理效应计算"
+        },
+        {
+          "bad": "处理组的处理",
+          "good": "处理组处理效应"
+        }
+      ]
+    },
+    {
+      "source_contains": "compositional shifts",
+      "replacements": [
+        {
+          "bad": "组合变化",
+          "good": "构成变化"
+        },
+        {
+          "bad": "就业组合",
+          "good": "就业构成"
+        }
+      ]
+    },
+    {
+      "source_contains": "overidentified gmm",
+      "replacements": [
+        {
+          "bad": "过度识别的GMM",
+          "good": "过度识别的 GMM"
+        }
+      ]
+    },
+    {
+      "source_contains": "method of moments",
+      "replacements": [
+        {
+          "bad": "方法-矩框架",
+          "good": "矩方法框架"
+        },
+        {
+          "bad": "方法-矩",
+          "good": "矩方法"
+        }
+      ]
+    },
+    {
+      "source_contains": "look-ahead bias",
+      "replacements": [
+        {
+          "bad": "前瞻性偏差",
+          "good": "前视偏差"
+        }
+      ]
+    },
+    {
+      "source_contains": "bank runs",
+      "replacements": [
+        {
+          "bad": "银行挤提",
+          "good": "银行挤兑"
+        },
+        {
+          "bad": "银行跑路",
+          "good": "银行挤兑"
+        }
+      ]
+    },
+    {
+      "source_contains": "bank failure",
+      "replacements": [
+        {
+          "bad": "银行失败",
+          "good": "银行倒闭"
+        }
+      ]
+    },
+    {
+      "source_contains": "fundamentals",
+      "replacements": [
+        {
+          "bad": "基本面差",
+          "good": "基本面薄弱"
+        }
+      ]
+    },
+    {
+      "source_contains": "temporary suspension",
+      "replacements": [
+        {
+          "bad": "临时停业",
+          "good": "临时暂停兑付"
+        }
+      ]
+    },
+    {
+      "source_contains": "cesarean section",
+      "replacements": [
+        {
+          "bad": "剖腹产",
+          "good": "剖宫产"
+        }
+      ]
+    },
+    {
+      "source_contains": "learning-by-doing",
+      "replacements": [
+        {
+          "bad": "通过实践学习",
+          "good": "“干中学”"
+        },
+        {
+          "bad": "通过实践学习的比例",
+          "good": "“干中学”速率"
+        }
+      ]
+    },
+    {
+      "source_contains": "skill depreciation",
+      "replacements": [
+        {
+          "bad": "技能贬值",
+          "good": "技能折旧"
+        }
+      ]
+    },
+    {
+      "source_contains": "readmission rates",
+      "replacements": [
+        {
+          "bad": "再住院率",
+          "good": "再入院率"
+        }
+      ]
+    },
+    {
+      "source_contains": "transplant surgeons",
+      "replacements": [
+        {
+          "bad": "移植外科医师",
+          "good": "移植外科医生"
+        }
+      ]
+    },
+    {
+      "source_contains": "healthy ageing",
+      "replacements": [
+        {
+          "bad": "健康衰老",
+          "good": "健康老龄化"
+        }
+      ]
+    },
+    {
+      "source_contains": "medicare beneficiaries",
+      "replacements": [
+        {
+          "bad": "医疗保险受益者",
+          "good": "Medicare 受益者"
+        }
+      ]
+    },
+    {
+      "source_contains": "diagnostic thresholds",
+      "replacements": [
+        {
+          "bad": "诊断门槛",
+          "good": "诊断阈值"
+        }
+      ]
+    },
+    {
+      "source_contains": "retirement transitions",
+      "replacements": [
+        {
+          "bad": "退休转变",
+          "good": "退休过渡"
+        }
+      ]
+    },
+    {
+      "source_contains": "spousal health shocks",
+      "replacements": [
+        {
+          "bad": "配偶健康震动",
+          "good": "配偶健康冲击"
+        }
+      ]
+    },
+    {
+      "source_contains": "employment-based health plans",
+      "replacements": [
+        {
+          "bad": "基于就业的健康计划",
+          "good": "就业相关的健康保险计划"
+        },
+        {
+          "bad": "就业基础健康计划",
+          "good": "就业相关的健康保险计划"
+        }
+      ]
+    },
+    {
+      "source_contains": "retiree coverage",
+      "replacements": [
+        {
+          "bad": "退休覆盖",
+          "good": "退休人员医疗保障"
+        },
+        {
+          "bad": "配偶退休覆盖",
+          "good": "配偶退休医疗保障"
+        }
+      ]
+    },
+    {
+      "source_contains": "out-of-pocket",
+      "replacements": [
+        {
+          "bad": "口袋外",
+          "good": "自付"
+        }
+      ]
+    },
+    {
+      "source_contains": "joint custody",
+      "replacements": [
+        {
+          "bad": "联合监护",
+          "good": "共同监护"
+        }
+      ]
+    },
+    {
+      "source_contains": "child custody",
+      "replacements": [
+        {
+          "bad": "儿童监护权",
+          "good": "子女监护权"
+        }
+      ]
+    },
+    {
+      "source_contains": "intimate partner violence",
+      "replacements": [
+        {
+          "bad": "亲密伙伴暴力",
+          "good": "亲密伴侣暴力"
+        }
+      ]
+    },
+    {
+      "source_contains": "paternal involvement",
+      "replacements": [
+        {
+          "bad": "父权参与",
+          "good": "父亲参与"
+        }
+      ]
+    },
+    {
+      "source_contains": "cash transfer",
+      "replacements": [
+        {
+          "bad": "现金转移之上",
+          "good": "现金转移支付之上"
+        },
+        {
+          "bad": "无条件现金转移之上",
+          "good": "无条件现金转移支付之上"
+        }
+      ]
+    },
+    {
+      "source_contains": "intra-household",
+      "replacements": [
+        {
+          "bad": "户内决策",
+          "good": "家庭内部决策"
+        }
+      ]
+    },
+    {
+      "source_contains": "standardized tests",
+      "replacements": [
+        {
+          "bad": "标准化测试",
+          "good": "标准化考试"
+        }
+      ]
+    },
+    {
+      "source_contains": "venture capital",
+      "replacements": [
+        {
+          "bad": "风险资本家",
+          "good": "风险投资家"
+        }
+      ]
+    },
+    {
+      "source_contains": "superstar firms",
+      "replacements": [
+        {
+          "bad": "超级企业",
+          "good": "超级明星企业"
+        }
+      ]
+    },
+    {
+      "source_contains": "political contributions",
+      "replacements": [
+        {
+          "bad": "政治支出",
+          "good": "政治献金"
+        }
+      ]
+    },
+    {
+      "source_contains": "consumer harm",
+      "replacements": [
+        {
+          "bad": "消费者伤害",
+          "good": "消费者损害"
+        }
+      ]
+    },
+    {
+      "source_contains": "consumer exposure",
+      "replacements": [
+        {
+          "bad": "消费者接触更多的企业",
+          "good": "面向消费者的暴露程度更高的企业"
+        },
+        {
+          "bad": "消费者接触更多",
+          "good": "面向消费者的暴露程度更高"
+        }
+      ]
+    },
+    {
+      "source_contains": "break-up",
+      "replacements": [
+        {
+          "bad": "拆分及行为补救",
+          "good": "拆分及行为性救济"
+        }
+      ]
+    },
+    {
+      "source_contains": "eu accession",
+      "replacements": [
+        {
+          "bad": "欧盟接纳",
+          "good": "加入欧盟"
+        }
+      ]
+    },
+    {
+      "source_contains": "informality",
+      "replacements": [
+        {
+          "bad": "非正规性",
+          "good": "非正规就业"
+        }
+      ]
+    },
+    {
+      "source_contains": "job security",
+      "replacements": [
+        {
+          "bad": "工作安全性",
+          "good": "工作保障"
+        }
+      ]
+    },
+    {
+      "source_contains": "defense industrial base",
+      "replacements": [
+        {
+          "bad": "国防工业基地",
+          "good": "国防工业基础"
+        }
+      ]
+    },
+    {
+      "source_contains": "in utero",
+      "replacements": [
+        {
+          "bad": "子宫内暴露",
+          "good": "宫内暴露"
+        }
+      ]
+    },
+    {
+      "source_contains": "social deterioration",
+      "replacements": [
+        {
+          "bad": "社会退化",
+          "good": "社会恶化"
+        }
+      ]
+    },
+    {
+      "source_contains": "nash-in-nash",
+      "replacements": [
+        {
+          "bad": "纳什-纳什工资谈判",
+          "good": "纳什-纳什（Nash-in-Nash）工资谈判"
+        }
+      ]
+    },
+    {
+      "source_contains": "social planner",
+      "replacements": [
+        {
+          "bad": "社会规划者",
+          "good": "社会计划者"
+        }
+      ]
+    },
+    {
+      "source_contains": "labor supply",
+      "replacements": [
+        {
+          "bad": "劳动力供应",
+          "good": "劳动力供给"
+        }
+      ]
+    },
+    {
+      "source_contains": "marginal propensity to exit",
+      "replacements": [
+        {
+          "bad": "债务退出的边际倾向",
+          "good": "退出边际倾向"
+        }
+      ]
+    },
+    {
+      "source_contains": "financially constrained",
+      "replacements": [
+        {
+          "bad": "财务受限",
+          "good": "融资约束"
+        }
+      ]
+    },
+    {
+      "source_contains": "viable firms",
+      "replacements": [
+        {
+          "bad": "可行的企业",
+          "good": "本可维持经营的企业"
+        },
+        {
+          "bad": "财务受限但可行的企业",
+          "good": "虽受融资约束但本可维持经营的企业"
+        }
+      ]
+    },
+    {
+      "source_contains": "social identity",
+      "replacements": [
+        {
+          "bad": "社交身份",
+          "good": "社会身份"
+        }
+      ]
+    },
+    {
+      "source_contains": "oppositional",
+      "replacements": [
+        {
+          "bad": "反对性",
+          "good": "对抗性"
+        }
+      ]
+    },
+    {
+      "source_contains": "smooth ambiguity",
+      "replacements": [
+        {
+          "bad": "平滑模糊框架",
+          "good": "平滑模糊性框架"
+        }
+      ]
+    },
+    {
+      "source_contains": "first-order stochastic dominance",
+      "replacements": [
+        {
+          "bad": "一阶随机优势",
+          "good": "一阶随机占优"
+        }
+      ]
+    },
+    {
+      "source_contains": "distorted probabilities",
+      "replacements": [
+        {
+          "bad": "失真概率",
+          "good": "扭曲概率"
+        }
+      ]
+    },
+    {
+      "source_contains": "input sourcing",
+      "replacements": [
+        {
+          "bad": "输入采购",
+          "good": "投入品采购"
+        }
+      ]
+    },
+    {
+      "source_contains": "multi-sourcing",
+      "replacements": [
+        {
+          "bad": "多源采购",
+          "good": "多重采购"
+        }
+      ]
+    },
+    {
+      "source_contains": "cross-stage complementarity",
+      "replacements": [
+        {
+          "bad": "抵消的跨阶段互补性",
+          "good": "相互抵消的跨阶段互补性"
+        }
+      ]
+    },
+    {
+      "source_contains": "within-stage substitutability",
+      "replacements": [
+        {
+          "bad": "同阶段可替代性",
+          "good": "阶段内替代性"
+        }
+      ]
+    },
+    {
+      "source_contains": "critical peak rewards",
+      "replacements": [
+        {
+          "bad": "临界峰值奖励",
+          "good": "关键峰值奖励"
+        }
+      ]
+    },
+    {
+      "source_contains": "after-tax price",
+      "replacements": [
+        {
+          "bad": "税后成本",
+          "good": "税后价格"
+        }
+      ]
+    },
+    {
+      "source_contains": "direction of technical change",
+      "replacements": [
+        {
+          "bad": "技术变化方向",
+          "good": "技术变革的方向"
+        }
+      ]
+    },
+    {
+      "source_contains": "hub-and-spoke",
+      "replacements": [
+        {
+          "bad": "轮辐系统",
+          "good": "轴辐系统"
+        }
+      ]
+    },
+    {
+      "source_contains": "pricing power",
+      "replacements": [
+        {
+          "bad": "定价力量",
+          "good": "定价权"
+        }
+      ]
+    },
+    {
+      "source_contains": "real per capita income",
+      "replacements": [
+        {
+          "bad": "真实人均收入",
+          "good": "实际人均收入"
+        }
+      ]
+    }
   ],
   "global_cleanup": [
-    {"bad": "便利收益率率", "good": "便利收益率"},
-    {"bad": "药物药物过量死亡", "good": "药物过量死亡"},
-    {"bad": "距离工具变量变量", "good": "距离工具变量"}
+    {
+      "bad": "便利收益率率",
+      "good": "便利收益率"
+    },
+    {
+      "bad": "药物药物过量死亡",
+      "good": "药物过量死亡"
+    },
+    {
+      "bad": "距离工具变量变量",
+      "good": "距离工具变量"
+    }
   ],
   "audit": {
     "suspect_translations": [
-      {"bad": "基于福利的税收", "suggestion": "基于受益原则的税收", "reason": "benefit-based taxation 不是福利税。"},
-      {"bad": "劳动市场", "suggestion": "劳动力市场", "reason": "labor market 的通行译法。"},
-      {"bad": "简历审核", "suggestion": "简历审计", "reason": "resume audit study 是审计研究/审计实验。"},
-      {"bad": "早期儿童教育", "suggestion": "幼儿教育", "reason": "early childhood education 的通行译法。"},
-      {"bad": "数字安全港", "suggestion": "数字避风港", "reason": "safe haven 在金融语境中通常译为避风港或避险资产。"},
-      {"bad": "拥堵定价", "suggestion": "拥堵收费", "reason": "congestion pricing 在交通政策语境中通常译为拥堵收费。"},
-      {"bad": "货币宽松与政府债务可持续性", "suggestion": "量化宽松与政府债务可持续性", "reason": "Quantitative Easing 应译为量化宽松。"},
-      {"bad": "2025年前", "suggestion": "截至2025年", "reason": "through 2025 包含 2025 年。"},
-      {"bad": "2025年之前", "suggestion": "截至2025年", "reason": "through 2025 包含 2025 年。"},
-      {"bad": "合格小企业股票计划", "suggestion": "合格小企业股票（QSBS）计划", "reason": "保留 QSBS 缩写便于识别美国税制项目。"},
-      {"bad": "药物非刑事化", "suggestion": "毒品非刑事化", "reason": "drug decriminalization 在犯罪与公共卫生语境中指毒品。"},
-      {"bad": "帝国中国", "suggestion": "帝制中国", "reason": "Imperial China 的学术译法。"},
-      {"bad": "健康状况梯度", "suggestion": "健康-社会地位梯度", "reason": "health-status gradient 在该题名中指健康与社会地位梯度。"},
-      {"bad": "带有不确定性持续性的预测", "suggestion": "持续性不确定性下的预测", "reason": "Forecasting with Uncertain Persistence 的更自然学术译法。"},
-      {"bad": "代理人工智能", "suggestion": "智能体式人工智能", "reason": "agentic AI 指能够自主规划和执行任务的智能体式人工智能。"},
-      {"bad": "代理型人工智能", "suggestion": "智能体式人工智能", "reason": "agentic AI 的推荐译法。"},
-      {"bad": "研究习惯", "suggestion": "学习习惯", "reason": "study habits 在学生学习语境中不是研究习惯。"},
-      {"bad": "定价便利设施", "suggestion": "有明确市场价格的工作福利", "reason": "priced amenity 在劳动经济学语境中指有市场价格的非工资工作属性。"},
-      {"bad": "工作便利设施", "suggestion": "工作福利或非工资工作属性", "reason": "job amenities 不应机械直译为便利设施。"},
-      {"bad": "先进经济体", "suggestion": "发达经济体", "reason": "advanced economies 的通行译法。"},
-      {"bad": "债务服务", "suggestion": "债务偿付", "reason": "debt service 包括本金和利息的偿付。"},
-      {"bad": "DI接受度", "suggestion": "DI申领率", "reason": "take-up 在社会保险待遇语境中指申领或领取。"},
-      {"bad": "工作广告", "suggestion": "招聘广告", "reason": "job ads 的自然中文译法。"}
+      {
+        "bad": "基于福利的税收",
+        "suggestion": "基于受益原则的税收",
+        "reason": "benefit-based taxation 不是福利税。"
+      },
+      {
+        "bad": "劳动市场",
+        "suggestion": "劳动力市场",
+        "reason": "labor market 的通行译法。"
+      },
+      {
+        "bad": "简历审核",
+        "suggestion": "简历审计",
+        "reason": "resume audit study 是审计研究/审计实验。"
+      },
+      {
+        "bad": "早期儿童教育",
+        "suggestion": "幼儿教育",
+        "reason": "early childhood education 的通行译法。"
+      },
+      {
+        "bad": "数字安全港",
+        "suggestion": "数字避风港",
+        "reason": "safe haven 在金融语境中通常译为避风港或避险资产。"
+      },
+      {
+        "bad": "拥堵定价",
+        "suggestion": "拥堵收费",
+        "reason": "congestion pricing 在交通政策语境中通常译为拥堵收费。"
+      },
+      {
+        "bad": "货币宽松与政府债务可持续性",
+        "suggestion": "量化宽松与政府债务可持续性",
+        "reason": "Quantitative Easing 应译为量化宽松。"
+      },
+      {
+        "bad": "2025年前",
+        "suggestion": "截至2025年",
+        "reason": "through 2025 包含 2025 年。"
+      },
+      {
+        "bad": "2025年之前",
+        "suggestion": "截至2025年",
+        "reason": "through 2025 包含 2025 年。"
+      },
+      {
+        "bad": "合格小企业股票计划",
+        "suggestion": "合格小企业股票（QSBS）计划",
+        "reason": "保留 QSBS 缩写便于识别美国税制项目。"
+      },
+      {
+        "bad": "药物非刑事化",
+        "suggestion": "毒品非刑事化",
+        "reason": "drug decriminalization 在犯罪与公共卫生语境中指毒品。"
+      },
+      {
+        "bad": "帝国中国",
+        "suggestion": "帝制中国",
+        "reason": "Imperial China 的学术译法。"
+      },
+      {
+        "bad": "健康状况梯度",
+        "suggestion": "健康-社会地位梯度",
+        "reason": "health-status gradient 在该题名中指健康与社会地位梯度。"
+      },
+      {
+        "bad": "带有不确定性持续性的预测",
+        "suggestion": "持续性不确定性下的预测",
+        "reason": "Forecasting with Uncertain Persistence 的更自然学术译法。"
+      },
+      {
+        "bad": "代理人工智能",
+        "suggestion": "智能体式人工智能",
+        "reason": "agentic AI 指能够自主规划和执行任务的智能体式人工智能。"
+      },
+      {
+        "bad": "代理型人工智能",
+        "suggestion": "智能体式人工智能",
+        "reason": "agentic AI 的推荐译法。"
+      },
+      {
+        "bad": "研究习惯",
+        "suggestion": "学习习惯",
+        "reason": "study habits 在学生学习语境中不是研究习惯。"
+      },
+      {
+        "bad": "定价便利设施",
+        "suggestion": "有明确市场价格的工作福利",
+        "reason": "priced amenity 在劳动经济学语境中指有市场价格的非工资工作属性。"
+      },
+      {
+        "bad": "工作便利设施",
+        "suggestion": "工作福利或非工资工作属性",
+        "reason": "job amenities 不应机械直译为便利设施。"
+      },
+      {
+        "bad": "先进经济体",
+        "suggestion": "发达经济体",
+        "reason": "advanced economies 的通行译法。"
+      },
+      {
+        "bad": "债务服务",
+        "suggestion": "债务偿付",
+        "reason": "debt service 包括本金和利息的偿付。"
+      },
+      {
+        "bad": "DI接受度",
+        "suggestion": "DI申领率",
+        "reason": "take-up 在社会保险待遇语境中指申领或领取。"
+      },
+      {
+        "bad": "工作广告",
+        "suggestion": "招聘广告",
+        "reason": "job ads 的自然中文译法。"
+      }
     ],
     "source_terms": [
-      {"term": "benefit-based taxation", "preferred": "基于受益原则的税收"},
-      {"term": "labor market", "preferred": "劳动力市场"},
-      {"term": "resume audit", "preferred": "简历审计"},
-      {"term": "early childhood education", "preferred": "幼儿教育"},
-      {"term": "digital safe havens", "preferred": "数字避风港"},
-      {"term": "congestion pricing", "preferred": "拥堵收费"},
-      {"term": "ems response time", "preferred": "急救服务响应时间"},
-      {"term": "quantitative easing", "preferred": "量化宽松"},
-      {"term": "qsbs", "preferred": "QSBS"},
-      {"term": "drug decriminalization", "preferred": "毒品非刑事化"},
-      {"term": "imperial china", "preferred": "帝制中国"},
-      {"term": "health-status gradient", "preferred": "健康-社会地位梯度"},
-      {"term": "forecasting with uncertain persistence", "preferred": "持续性不确定性下的预测"},
-      {"term": "agentic ai", "preferred": "智能体式人工智能"},
-      {"term": "study habit", "preferred": "学习习惯"},
-      {"term": "advanced economies", "preferred": "发达经济体"},
-      {"term": "debt service", "preferred": "债务偿付"},
-      {"term": "job ads", "preferred": "招聘广告"},
-      {"term": "retrieval failures", "preferred": "记忆提取失败"},
-      {"term": "take-up decisions", "preferred": "申领决策"}
+      {
+        "term": "benefit-based taxation",
+        "preferred": "基于受益原则的税收"
+      },
+      {
+        "term": "labor market",
+        "preferred": "劳动力市场"
+      },
+      {
+        "term": "resume audit",
+        "preferred": "简历审计"
+      },
+      {
+        "term": "early childhood education",
+        "preferred": "幼儿教育"
+      },
+      {
+        "term": "digital safe havens",
+        "preferred": "数字避风港"
+      },
+      {
+        "term": "congestion pricing",
+        "preferred": "拥堵收费"
+      },
+      {
+        "term": "ems response time",
+        "preferred": "急救服务响应时间"
+      },
+      {
+        "term": "quantitative easing",
+        "preferred": "量化宽松"
+      },
+      {
+        "term": "qsbs",
+        "preferred": "QSBS"
+      },
+      {
+        "term": "drug decriminalization",
+        "preferred": "毒品非刑事化"
+      },
+      {
+        "term": "imperial china",
+        "preferred": "帝制中国"
+      },
+      {
+        "term": "health-status gradient",
+        "preferred": "健康-社会地位梯度"
+      },
+      {
+        "term": "forecasting with uncertain persistence",
+        "preferred": "持续性不确定性下的预测"
+      },
+      {
+        "term": "agentic ai",
+        "preferred": "智能体式人工智能"
+      },
+      {
+        "term": "study habit",
+        "preferred": "学习习惯"
+      },
+      {
+        "term": "advanced economies",
+        "preferred": "发达经济体"
+      },
+      {
+        "term": "debt service",
+        "preferred": "债务偿付"
+      },
+      {
+        "term": "job ads",
+        "preferred": "招聘广告"
+      },
+      {
+        "term": "retrieval failures",
+        "preferred": "记忆提取失败"
+      },
+      {
+        "term": "take-up decisions",
+        "preferred": "申领决策"
+      }
     ],
-    "allowed_english_terms": ["NBER", "COVID", "Covid", "COVID-", "COVID-19", "Medicaid", "EMS", "EMEs", "KF", "QSBS", "TVL", "TFP", "CCB", "COI", "DCP", "ECE", "FDNY", "FEMA", "LCP", "NFIP", "PCP", "WTP", "Kimi", "API", "IMAP", "ADL", "Auto-IRA", "Backus-Kehoe-Kydland", "ESSER", "HAIL", "LTC", "LTCI", "PUA", "RBC", "SAAD", "SDK", "SIPP"]
+    "allowed_english_terms": [
+      "NBER",
+      "COVID",
+      "Covid",
+      "COVID-",
+      "COVID-19",
+      "Medicaid",
+      "EMS",
+      "EMEs",
+      "KF",
+      "QSBS",
+      "TVL",
+      "TFP",
+      "CCB",
+      "COI",
+      "DCP",
+      "ECE",
+      "FDNY",
+      "FEMA",
+      "LCP",
+      "NFIP",
+      "PCP",
+      "WTP",
+      "Kimi",
+      "API",
+      "IMAP",
+      "ADL",
+      "Auto-IRA",
+      "Backus-Kehoe-Kydland",
+      "ESSER",
+      "HAIL",
+      "LTC",
+      "LTCI",
+      "PUA",
+      "RBC",
+      "SAAD",
+      "SDK",
+      "SIPP"
+    ]
   }
 }
