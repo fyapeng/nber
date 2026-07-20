@@ -1,8 +1,8 @@
 # Translation Audit
 
-- Generated at: `2026-07-20T05:22:39Z`
+- Generated at: `2026-07-20T07:58:21Z`
 - Paper count: `39`
-- Glossary version: `econ-zh-v6-6b9be5fbe9`
+- Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
 - Failed or skipped fields: `0`
@@ -43,12 +43,14 @@ No structural translation quality warnings were found.
 | ECD | w35489 |
 | FSD | w35488 |
 | GLP- | w35475 |
+| GMM | w35481 |
 | HET | w35495 |
 | Interest Parity | w35498 |
 | KDPI | w35489 |
 | KMM | w35488 |
 | LLMs | w35481 |
 | Marinacci-Mukerji | w35488 |
+| Nash-in-Nash | w35476 |
 | PAC | w35494 |
 | SCI | w35469 |
 | SHARE | w35469 |

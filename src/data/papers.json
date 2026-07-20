@@ -9,7 +9,7 @@
       "Matthew C. Weinberg"
     ],
     "abstract": "Employers facing limited labor market competition may suppress wages below socially optimal levels. Unions can counteract wage suppression through collective bargaining, though they may also push wages above the socially optimal level and lead to job rationing. We estimate a structural model of labor supply, labor demand, and Nash-in-Nash bargaining over wages between local teacher unions and school districts in Pennsylvania’s K-12 public school system from 2013 to 2019. We compare negotiated equilibrium wages and employment to oligopsony wage posting and social planner scenarios. On average, oligopsony reduces wages 7 percent below the social optimum, while collective bargaining raises wages 8 percent above it. Averages mask substantial district-level heterogeneity driven by bargaining power variation. Twenty-eight percent of school districts have salaries lower when public schools are unionized than when they are not due to cross-district externalities, where high salaries at one school cause hiring reductions that increase labor supply elsewhere.",
-    "abstract_cn": "面临有限劳动力市场竞争的雇主可能会将工资压低至社会最优水平以下。工会可以通过集体谈判来抵消工资压制，但它们也可能将工资推高至社会最优水平以上，并导致工作配给。我们估计了一个结构模型，该模型涵盖了2013年至2019年宾夕法尼亚州K-12公立学校系统中地方教师工会与学区之间的劳动力供给、劳动力需求以及纳什-纳什（Nash-in-Nash）工资谈判。我们将谈判达成的均衡工资和就业与寡头买方垄断的工资发布情景与社会计划者情景进行了比较。平均而言，寡头买方垄断将工资压低至社会最优水平以下7%，而集体谈判则将工资推高至社会最优水平以上8%。平均数掩盖了由议价能力差异驱动的大量学区层面的异质性。由于跨学区外部性，28%的学区在公立学校成立工会时的工资反而低于未成立工会时——某所学校的高工资会导致其减少招聘，从而增加了其他地方的劳动力供给。",
+    "abstract_cn": "面临有限劳动力市场竞争的雇主可能会将工资压低至社会最优水平以下。工会可以通过集体谈判来抵消工资压制，但它们也可能将工资推高至社会最优水平以上，并导致工作配给。我们估计了一个结构模型，该模型涵盖了2013年至2019年宾夕法尼亚州K-12公立学校系统中地方教师工会与学区之间的劳动力供给、劳动力需求以及纳什-纳什（Nash-in-Nash）工资谈判。我们将协商均衡工资和就业与寡头买方垄断工资发布和社会计划者情景进行了比较。平均而言，寡头买方垄断将工资降低了7%，而集体谈判将工资提高了8%。平均值掩盖了由议价能力变化驱动的大量学区层面的异质性。由于跨学区外部性，28%的学区在公立学校成立工会时的工资低于未成立工会时，其中一个学校的高工资导致招聘减少，从而增加了其他地方的劳动力供给。",
     "url": "https://www.nber.org/papers/w35476",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -17,8 +17,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35469",
@@ -32,7 +32,7 @@
       "Sami Louahlia"
     ],
     "abstract": "Germany experiences an increase in LTC recipients, due to population ageing but also to reforms which made LTC benefits easier accessible for individuals with cognitive impairments. Previous studies documented the cost of long-term care, and how it evolved. However, less is known about the specific case of elderly people suffering from cognitive impairment. Thus, we measure the economic costs of cognitive impairment, which include extensive medical, nursing care and at-home long-term care. We use the SHARE, the Survey on Health, Ageing and Retirement in Europe, Wave 9. We observe 4% of elderly people living at home with severe cognitive impairment (SCI) (Langa et al. (2017) definition). These individuals are 30% more likely to receive any care, and obtain on average 6 more hours of formal care and 6 more hours of informal care per week. The main driver is not the cognitive impairment per-se but the limitation in activities of daily living (ADLs) which SCI leads to. Thus, once controlling for ADLs, SCI does not explain any additional probability to use care. However, because people with SCI are more likely to have ADLs, the annual cost of their care is estimated to 10,000 euros per year per individual on average.",
-    "abstract_cn": "德国由于人口老龄化以及改革使得认知障碍个体更容易获得长期护理（LTC）福利，导致LTC受益人数增加。先前的研究记录了长期护理的成本及其演变情况。然而，对于患有认知障碍的老年人这一特定情况，我们知之甚少。因此，我们测量了包括广泛的医疗、护理和在家长期护理在内的认知障碍的经济成本。我们使用了欧洲健康、老龄化和退休调查（SHARE）第9波的数据。我们观察到，有4%的居家老年人患有严重认知障碍（SCI）（根据Langa等人（2017年）的定义）。这些个体获得任何护理的可能性高30%，并且平均每星期获得6小时更多的正式护理和6小时更多的非正式护理。主要驱动因素并非认知障碍本身，而是SCI导致的日常生活活动（ADLs）限制。因此，一旦控制了ADLs，SCI并不能解释任何额外的护理使用概率。然而，由于患有SCI的人更有可能存在ADLs，他们的护理年均成本估计为每人每年10,000欧元。",
+    "abstract_cn": "德国由于人口老龄化以及改革使得认知障碍个体更容易获得长期护理（LTC）福利，导致LTC接受者数量增加。先前的研究记录了长期护理的成本及其演变情况。然而，对于患有认知障碍的老年人这一特定情况知之甚少。因此，我们测量了认知障碍的经济成本，包括广泛的医疗、护理和在家长期护理。我们使用了欧洲健康、老龄化和退休调查（SHARE）第9波的数据。我们观察到，有4%的老年人在家中生活并伴有严重认知障碍（SCI）（根据Langa等人（2017年）的定义）。这些个体获得任何护理的可能性高30%，并且平均每星期获得6小时更多的正式护理和6小时更多的非正式护理。主要驱动因素并非认知障碍本身，而是SCI导致的日常生活活动能力（ADLs）限制。因此，一旦控制了ADLs，SCI并不能解释任何额外的使用护理的概率。然而，由于患有SCI的人更可能有ADLs，他们的护理年均成本估计为每人每年10,000欧元。",
     "url": "https://www.nber.org/papers/w35469",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -40,8 +40,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35504",
@@ -53,7 +53,7 @@
       "Emil Verner"
     ],
     "abstract": "We study the causes and consequences of bank runs. By applying large language models to historical newspapers, we create a comprehensive database of bank runs in U.S. history with information on 3,984 runs on individual banks from 1863 to 1934. Our novel data allow us to establish that runs are considerably more likely in weak banks but also occur in strong banks, especially in response to negative news about the real economy or the broader banking system. However, runs typically only result in failure for banks with poor fundamentals. Strong banks survive runs through various mechanisms, including signaling strength, interbank cooperation, and temporary suspension. At the local level, runs on banks with poor fundamentals translate into substantially larger declines in deposits, lending, and manufacturing activity than runs on strong banks. Our findings imply that poor fundamentals are central to explaining both when runs occur and when they have severe economic effects, tempering the view that small shocks can generate discontinuous jumps to bad equilibria through self-fulfilling run dynamics.",
-    "abstract_cn": "我们研究了银行挤兑的成因与后果。通过将大型语言模型应用于历史报纸，我们构建了一个关于美国历史上银行挤兑事件的综合数据库，涵盖1863年至1934年间针对单个银行的3,984次挤兑事件。我们的新数据使我们能够确认：挤兑在实力较弱的银行中更有可能发生，但也会发生在实力较强的银行中，尤其是在出现有关实体经济或更广泛银行体系的负面消息时。然而，挤兑通常只会导致基本面较差的银行倒闭。实力较强的银行通过多种机制——包括释放实力信号、银行间合作和临时暂停兑付——挺过挤兑。在地方层面，针对基本面较差银行的挤兑所引发的存款、贷款和制造业活动下降幅度，要远远大于针对实力较强银行的挤兑。我们的发现意味着，基本面薄弱是解释挤兑何时发生以及何时产生严重经济影响的核心因素，这缓和了“小冲击可以通过自我实现的挤兑动态，使经济不连续地跳跃到不良均衡”这一观点。",
+    "abstract_cn": "我们研究了银行挤兑的原因和后果。通过将大型语言模型应用于历史报纸，我们创建了一个包含1863年至1934年间针对单个银行的3,984次挤兑事件的全面数据库。我们新颖的数据使我们能够确定，挤兑在薄弱银行中更有可能发生，但也发生在实力较强的银行中，尤其是在有关实体经济或更广泛银行系统的负面新闻时。然而，挤兑通常只会导致基本面薄弱的银行失败。实力较强的银行通过多种机制，包括展示实力、银行间合作和临时暂停兑付，来度过挤兑。在地方层面，针对基本面薄弱的银行的挤兑导致存款、贷款和制造业活动的下降幅度明显大于针对实力较强银行的挤兑。我们的发现意味着，基本面薄弱是解释挤兑何时发生以及何时产生严重经济影响的核心因素，这降低了小冲击可以通过自我实现的挤兑动态引发向不良均衡的不连续跳跃的观点。",
     "url": "https://www.nber.org/papers/w35504",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -61,13 +61,13 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35499",
     "title": "Spreading Out Across Expanding Idea Space",
-    "title_cn": "在不断扩展的思想空间中扩散开来",
+    "title_cn": "在不断扩大的思想空间中扩散",
     "authors": [
       "Ina Ganguli",
       "Jeffrey Lin",
@@ -75,7 +75,7 @@
       "Nicholas F. Reynolds"
     ],
     "abstract": "Over nearly two centuries, US inventions have become increasingly dissimilar: not just fewer head-to-head collisions between inventors, but growing distance between neighboring inventions. We document this secular decline in similarity using validated neural language models applied to the full text of claims in over 11 million US patents (1836–2023), corroborated by a 98% decline in patent interference rates, a measure of independent simultaneous invention. Measuring this correctly requires validation, since different representations of the same patent text can yield opposite conclusions about whether inventions are converging or spreading out. Our validation framework, the first systematic comparison for patent text, selects among these representations. We develop a spatial competition model in which inventors choose locations in idea space. The model explains spreading out and connects it to several independently documented patterns — rising R&D investment per inventor, increasing patent values, weakening knowledge spillovers, and declining research productivity. The mechanism is spatial; as inventors spread out to capture new territory, inventions become more valuable but also more costly for others to absorb. In doing so, the model turns spillover intensity, innovation step size, and research productivity from fixed primitives into outcomes of inventor positioning. A calibrated decomposition attributes roughly 40% of the long-run decline in US research productivity to these spatial forces, alongside traditional explanations such as fishing out and the burden of knowledge. Where inventors stand relative to each other in idea space matters as much for growth as how many of them there are.",
-    "abstract_cn": "近两个世纪以来，美国的发明创造变得越来越不相似：不仅是发明者之间的直接竞争减少，相邻发明之间的距离也在增加。我们利用经过验证的神经语言模型，对超过1100万份美国专利（1836-2023年）的权利要求全文进行分析，记录了这种相似性的长期下降趋势。这一趋势还得到了专利冲突率下降98%的印证——专利冲突率是独立同时发明的一个衡量指标。正确测量这一点需要验证，因为同一专利文本的不同表示可能得出关于发明是趋同还是扩散的相反结论。我们的验证框架是首次对专利文本进行系统比较，用于在这些表示之间做出选择。我们开发了一个空间竞争模型，其中发明者在思想空间中选择位置。该模型解释了扩散现象，并将其与几个独立记录的模式联系起来——每位发明者的R&D投资增加、专利价值上升、知识溢出效应减弱以及研究生产率下降。机制是空间性的：随着发明者扩散以占领新领域，发明变得更有价值，但对其他人来说也更难吸收。由此，该模型将溢出强度、创新步长和研究生产率从固定的外生参数转变为发明者定位的内生结果。通过校准分解，我们将美国研究生产率长期下降的大约40%归因于这些空间力量，与传统解释（如易发掘成果枯竭和知识负担）并列。发明者在思想空间中相对于彼此的位置，对增长的重要性不亚于他们的数量。",
+    "abstract_cn": "近两个世纪以来，美国的发明创造变得越来越不相似：不仅是发明者之间的直接竞争减少，相邻发明之间的距离也在增加。我们利用经过验证的神经语言模型，对超过1100万份美国专利（1836-2023年）的全文权利要求进行了分析，记录了这种相似性长期下降的趋势。这一趋势也得到了专利冲突率下降98%的证实，专利冲突率是独立同时发明的一个度量。正确测量这一点需要验证，因为同一专利文本的不同表示可能会得出关于发明是趋同还是扩散的相反结论。我们的验证框架是专利文本的首次系统比较，用于在这些表示中进行选择。我们开发了一个空间竞争模型，在这个模型中，发明者在思想空间中选择位置。该模型解释了扩散现象，并将其与几个独立记录的模式联系起来——每位发明者的R&D投资增加、专利价值提升、知识溢出减弱以及研究生产率下降。机制是空间性的；随着发明者扩散以占领新领域，发明变得更有价值，但对其他人来说也更难以吸收。在这个过程中，模型将溢出强度、创新步长和研究生产率从固定的原始参数转变为发明者定位的结果。通过校准的分解，我们将美国研究生产率长期下降的大约40%归因于这些空间力量，以及传统解释，如易发掘成果枯竭和知识负担。发明者在思想空间中相对于彼此的位置对于增长的重要性不亚于他们的数量。",
     "url": "https://www.nber.org/papers/w35499",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -83,8 +83,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35473",
@@ -98,7 +98,7 @@
       "David Stillerman"
     ],
     "abstract": "Prospective merger simulations are a commonly used tool in industrial organization and antitrust, but evidence about their accuracy and predictive ability is limited. We study 101 mergers in consumer packaged goods and compare the realizations of price changes with predictions from merger simulations. In our sample of consummated mergers, predicted price changes from merger simulations are typically larger than realized ones. Despite the overprediction, we find that full merger simulations are more effective than both structural presumptions and approximations of the merger effect at identifying mergers with large price changes.",
-    "abstract_cn": "事前合并模拟是产业组织和反垄断中常用的工具，但关于其准确性和预测能力的证据十分有限。我们研究了消费品行业中的101起合并，并将实际实现的价格变化与合并模拟的预测进行比较。在我们已完成合并的样本中，合并模拟预测的价格变化通常大于实际发生的价格变化。尽管存在过度预测，我们发现完整的合并模拟在识别会带来大幅价格变化的合并方面，比结构性推定和合并效应的近似方法都更有效。",
+    "abstract_cn": "事前合并模拟是产业组织和反垄断中常用的工具，但关于它们的准确性和预测能力证据有限。我们研究了101起消费品领域的合并案例，并将价格变化的实际结果与合并模拟的预测结果进行比较。在我们的既成合并样本中，合并模拟预测的价格变化通常比实际结果要大。尽管存在过度预测，我们发现完整的合并模拟比结构性推定和合并效应的近似方法更有效地识别出会导致价格大幅变化的合并案例。",
     "url": "https://www.nber.org/papers/w35473",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -106,8 +106,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35487",
@@ -121,7 +121,7 @@
       "Minchul Shin"
     ],
     "abstract": "Standard macroeconomic data do not cleanly separate the systematic and nonsystematic components of monetary policy. We show that incorporating unstructured text data into the structural estimation of a DSGE model can sharpen this distinction. We augment a standard state-space model with a non-core measurement block that links structural shocks to time series derived from FOMC transcripts, using a spike-and-slab prior to let the data select which series are informative. In a medium-scale New Keynesian model for the U.S., incorporating text improves predictive performance and materially alters structural inference: the new model estimates a lower response of the policy rate to inflation, higher price stickiness and lower price indexation, implying a flatter and less backward-looking price Phillips curve.",
-    "abstract_cn": "标准的宏观经济数据并不能清晰地区分货币政策的系统性与非系统性组成部分。我们展示，将非结构化文本数据纳入到DSGE模型的结构估计中，可以更清晰地区分这两者。我们通过一个非核心的测量模块，将结构性冲击与FOMC会议记录衍生的时间序列联系起来，增强了一个标准的状态空间模型，并使用尖峰-板条先验让数据选择哪些序列是信息性的。在一个中等规模的美国新凯恩斯主义模型中，纳入文本数据改善了预测性能，并显著改变了结构推断：新模型估计政策利率对通胀的反应更低，价格粘性更高且价格指数化更低，意味着价格菲利普斯曲线更平坦且不那么向后看。",
+    "abstract_cn": "标准的宏观经济数据并不能清晰地区分货币政策的系统性与非系统性组成部分。我们展示，将非结构化文本数据纳入到DSGE模型的结构估计中，可以更清晰地区分这两者。我们在一个标准的州空间模型中增加了一个非核心的测量块，该测量块将结构性冲击与来自FOMC会议记录的时间序列联系起来，使用尖峰-板条先验让数据选择哪些序列是信息性的。在一个中等规模的美国新凯恩斯主义模型中，纳入文本数据改善了预测性能，并显著改变了结构推断：新模型估计政策利率对通胀的反应更低，价格粘性更高且价格指数化更低，意味着价格菲利普斯曲线更平坦且不那么后视。",
     "url": "https://www.nber.org/papers/w35487",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -129,13 +129,13 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35475",
     "title": "The Labor Market Impacts of GLP-1s",
-    "title_cn": "GLP-1类药物对劳动力市场的影响",
+    "title_cn": "GLP-1对劳动力市场的影响",
     "authors": [
       "N. Meltem Daysal",
       "Camille JH. Fredrickson",
@@ -144,7 +144,7 @@
       "Jonathan Zhang"
     ],
     "abstract": "We estimate the causal impacts of GLP-1 treatment on labor market outcomes using linked Danish administrative data and a matched stacked difference-in-differences design. We compare patients who initiate GLP-1 treatment during the first two years of Semaglutide availability to observably similar patients who initiate four years later. We find that GLP-1 treatment reduces long-term sickness leave by 17.3%. We estimate total fiscal benefits of GLP-1 initiation of approximately 1.3–1.5% of annual labor income per employed individual. We do not detect statistically significant or economically meaningful impacts on income, labor force participation, or employment over four years.",
-    "abstract_cn": "我们利用丹麦的行政数据和匹配堆叠双重差分设计，估计GLP-1治疗对劳动力市场结果的因果影响。我们将在Semaglutide可用的前两年开始GLP-1治疗的患者与四年后开始治疗的、可观察到相似的患者进行比较。我们发现GLP-1治疗使长期病假减少了17.3%。我们估计GLP-1治疗启动的总财政收益大约相当于每位就业个体年劳动收入的1.3-1.5%。我们没有检测到对收入、劳动力参与或就业在四年内有统计学意义或经济意义上的影响。",
+    "abstract_cn": "我们利用丹麦的行政数据和匹配堆叠双重差分设计，估计GLP-1治疗对劳动力市场结果的因果影响。我们将在Semaglutide可用的前两年开始GLP-1治疗的患者与四年后开始治疗的可观察相似患者进行比较。我们发现GLP-1治疗使长期病假减少了17.3%。我们估计GLP-1治疗启动的总财政收益大约相当于每位就业个体年劳动力收入的1.3-1.5%。我们没有检测到对收入、劳动力参与或就业在四年内有统计学意义或经济意义的影响。",
     "url": "https://www.nber.org/papers/w35475",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -152,8 +152,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35492",
@@ -164,7 +164,7 @@
       "Gregor Jarosch"
     ],
     "abstract": "We study no-poach cartels using a wage-posting model that puts worker poaching at the center of labor market competition. Even when just two out of ten employers in a local labor market collude, wages fall by almost 5% market-wide. The reason is that no-poach agreements suppress competition along the job ladder, with spillovers to non-colluding firms. We then compare no-poach agreements to two other forms of anti-competitive conduct in the labor market: noncompete agreements and wage fixing. No-poach agreements have by far the largest negative wage effects.",
-    "abstract_cn": "我们使用一个以工人挖角为中心的劳动力市场竞争的工资发布模型来研究不挖角卡特尔。即使当地劳动力市场中只有两个雇主共谋，整个市场的工资水平也会下降近5%。原因在于不挖角协议抑制了职业阶梯上的竞争，并对非共谋公司产生外溢效应。然后，我们将不挖角协议与劳动力市场中的另外两种反竞争行为进行比较：竞业禁止协议和工资固定。不挖角协议对工资的负面影响远远大于其他两种形式。",
+    "abstract_cn": "我们使用一个以挖角工人为中心的劳动力市场竞争的工资发布模型来研究不挖角卡特尔。即使当地劳动力市场中只有两个雇主共谋，整个市场的工资水平也会下降近5%。原因在于不挖角协议抑制了职业阶梯上的竞争，并对不参与共谋的公司产生外溢效应。然后，我们将不挖角协议与劳动力市场中另外两种反竞争行为进行比较：竞业禁止协议和工资固定。不挖角协议的负面影响在工资上远远大于其他两种行为。",
     "url": "https://www.nber.org/papers/w35492",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -172,20 +172,20 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35477",
     "title": "In Sickness and in Health: Retirement Responses to Spousal Health Shocks",
-    "title_cn": "无论疾病还是健康：对配偶健康冲击的退休反应",
+    "title_cn": "疾病与健康：对配偶健康冲击的退休反应",
     "authors": [
       "Hyeran Chung",
       "Haena Lee",
       "Sita Slavov"
     ],
     "abstract": "Health shocks are a major driver of retirement. However, the existing literature on this topic tends not to consider the marital context in which retirements occur. Using the 1992-2022 Health and Retirement Study and staggered difference-in-differences methods, we investigate how spousal health shocks impact retirement transitions. We also investigate whether these effects differ by gender and health insurance status. We consider multiple definitions of health shocks, including self-reported health declines, additional diagnoses, hospitalizations, increases in out-of-pocket medical spending, and functional deterioration. Our results suggest that the probability of retirement increases by 1.2 to 1.3 percentage points (12 to 13 percent) after a spouse’s new health condition diagnosis or hospitalization. These retirements tend to occur earlier than anticipated. They also tend to be concentrated among women and respondents with employment-based health plans that include retiree coverage for their spouse.",
-    "abstract_cn": "健康冲击是退休的主要驱动因素。然而，现有关于该主题的文献往往不考虑退休发生的婚内环境。利用1992-2022年健康与退休研究数据和交错的双重差分方法，我们研究了配偶健康冲击对退休转变的影响。我们还研究了这些效应是否因性别和健康保险状况而异。我们考虑了健康冲击的多种定义，包括自报健康下降、额外诊断、住院、自付医疗费用增加和功能恶化。我们的结果显示，在配偶新健康条件诊断或住院后，退休的概率增加了1.2至1.3个百分点（12%至13%）。这些退休往往比预期更早发生。它们也往往集中在女性和拥有包括配偶退休覆盖在内的就业基础健康计划的受访者中。",
+    "abstract_cn": "健康冲击是退休的主要驱动因素之一。然而，现有关于该主题的文献往往不考虑退休发生的婚内环境。利用1992-2022年健康与退休研究数据和交错双重差分方法，我们研究了配偶健康冲击对退休过渡的影响。我们还探讨了这些效应是否因性别和健康保险状况而异。我们考虑了健康冲击的多种定义，包括自报健康下降、额外诊断、住院、自付医疗费用增加和功能恶化。我们的结果显示，在配偶新健康状况诊断或住院后，退休的概率增加了1.2至1.3个百分点（12%至13%）。这些退休往往比预期更早发生。它们也往往集中在女性和拥有包括配偶退休人员医疗保障在内的就业相关健康保险计划的受访者中。",
     "url": "https://www.nber.org/papers/w35477",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -193,8 +193,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35479",
@@ -205,7 +205,7 @@
       "Laura Castillo-Martinez"
     ],
     "abstract": "Governments often intervene to prevent firm closures during crises, fearing that financially constrained but viable firms may fail. We develop a firm dynamics model with incomplete financial markets and show how financial frictions generate excessive firm exit. A key statistic governing this dynamic inefficiency is the marginal propensity to exit with debt. Using confidential U.S. Census data, we estimate the relationship between debt and exit and use it to discipline the model. The calibrated model implies that eliminating financial frictions reduces firm exit from 9.3% to 5.0% and generates welfare gains of 3.6% in consumption-equivalent terms. We show that the welfare costs of financial frictions rise sharply during financial crises but change little during standard productivity recessions. Finally, we compare government-guaranteed loans and grants, quantifying the trade-off between fiscal cost and effectiveness in preventing excessive exit.",
-    "abstract_cn": "政府常常在危机期间出手干预以防止企业倒闭，担心那些虽受融资约束但本可维持经营的企业也会破产。我们构建了一个包含不完全金融市场的企业动态模型，并说明金融摩擦如何导致企业过度退出。刻画这种动态无效率的一个关键统计量是“带债务退出的边际倾向”。利用美国人口普查局的保密数据，我们估计了债务与退出之间的关系，并用它来校准模型。校准后的模型表明，消除金融摩擦可以将企业退出率从9.3%降至5.0%，并带来以消费等价计算的3.6%的福利收益。我们表明，金融摩擦的福利成本在金融危机期间急剧上升，但在标准的生产率衰退期间变化不大。最后，我们比较了政府担保贷款和补助，量化了财政成本与防止过度退出有效性之间的权衡。",
+    "abstract_cn": "政府经常在危机期间干预以防止企业关闭，担心融资约束但本可维持经营的企业可能失败。我们开发了一个具有不完全金融市场的企业动态模型，并展示了金融摩擦如何导致企业过度退出。一个关键的统计量，即退出边际倾向，控制着这种动态效率损失。利用美国人口普查局的保密数据，我们估计了债务与退出之间的关系，并用它来校准模型。校准后的模型意味着消除金融摩擦可以将企业退出率从9.3%降低到5.0%，并在消费等价意义上产生3.6%的福利收益。我们展示了金融摩擦的福利成本在金融危机期间急剧上升，但在标准的生产率衰退期间变化不大。最后，我们比较了政府担保贷款和补贴，量化了财政成本与防止过度退出的有效性之间的权衡。",
     "url": "https://www.nber.org/papers/w35479",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -213,8 +213,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35441",
@@ -228,7 +228,7 @@
       "Giacomo Pasini"
     ],
     "abstract": "This chapter examines the incidence and economic burden of cognitive impairment among older individuals in Italy within the long-term care (LTC) system. Using SHARE Wave 9 data (2022), cognitive impairment is measured through standardized memory and numeracy tests, classifying 8.6% of individuals aged 65+ as cognitively impaired. Cognitive decline rises sharply with age and is strongly associated with higher care needs, particularly intensive formal care. While both physically and cognitively impaired individuals rely heavily on informal care, cognitively impaired individuals receive substantially more hours of care. Total LTC costs amount to $35.3 billion (1.66% of GDP), with cognitively impaired individuals accounting for the largest share of expenditures. Informal care represents a greater financial burden than formal care across all groups. The findings highlight significant unmet care needs and underscore the urgent necessity of policy reforms and healthy ageing strategies to ensure LTC sustainability.",
-    "abstract_cn": "本章节考察了意大利长期护理（LTC）系统中老年人群中认知障碍的发生情况及其经济负担。利用SHARE项目第9波数据（2022年），通过标准化的记忆和计算能力测试来衡量认知障碍，将65岁及以上个体中有8.6%被归类为认知障碍。随着年龄的增长，认知衰退急剧上升，并且与更高的护理需求强烈相关，特别是密集型正式护理。尽管身体和认知障碍个体都严重依赖非正式护理，但认知障碍个体接受的护理时间要长得多。长期护理总成本达到353亿美元（占GDP的1.66%），其中认知障碍个体占支出的最大份额。在所有群体中，非正式护理的财务负担大于正式护理。研究结果突出了显著未满足的护理需求，并强调了政策改革和健康老龄化策略的迫切必要性，以确保长期护理的可持续性。",
+    "abstract_cn": "本章节考察了意大利长期护理（LTC）系统中老年人群中认知障碍的发生情况和经济负担。利用SHARE项目第9波数据（2022年），通过标准化的记忆和计算能力测试来衡量认知障碍，将65岁及以上个体中有8.6%被归类为认知障碍。随着年龄的增长，认知衰退急剧上升，并且与更高的护理需求强烈相关，特别是密集的正式护理。尽管身体和认知障碍个体都严重依赖非正式护理，但认知障碍个体接受的护理小时数显著更多。长期护理总成本达到353亿美元（占GDP的1.66%），其中认知障碍个体占支出的最大份额。在所有群体中，非正式护理比正式护理代表更大的经济负担。研究结果突出了显著的未满足护理需求，并强调了迫切需要政策改革和健康老龄化策略以确保长期护理的可持续性。",
     "url": "https://www.nber.org/papers/w35441",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -236,20 +236,20 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35497",
     "title": "Exorbitant Privilege of the Periodic Table? Geoeconomics, Endogenous Centrality and Strategic Minerals for the Green Transition",
-    "title_cn": "元素周期表的过高特权？地缘经济、内生中心性与绿色转型的战略矿产",
+    "title_cn": "元素周期表的过高特权？地缘经济学、内生中心性与绿色转型的战略矿产",
     "authors": [
       "Josh Kirk",
       "Evgenia Passari",
       "Hélène Rey"
     ],
     "abstract": "Trade networks underpinning the energy transition are endogenous economic objects, and their structure is a source of market power. Using bilateral trade data for thirteen electrification metals over 1995–2023, we show that trade in these materials has reorganised into a hub-and-spoke system centred on China, in sharp contrast to the diffuse, multilateral structure of fossil fuels. This centrality did not follow from resource endowments: China holds few of the underlying reserves. It was built through processing investment, industrial policy, and commodity-targeted development finance—an equilibrium outcome rather than a geographical accident. We formalise this in a stylised model in which a country chooses how central to become, and show that centrality maps into pricing power: the world price response to a strategic supply cut is stronger when the network is more concentrated and downstream demand and fringe supply are more inelastic. Constructing text-based, commodity-specific supply shocks and estimating local projections, we find that supply contractions in critical metals raise US and EU consumer prices by roughly twice as much as comparable fossil-fuel shocks, and more persistently. Centrality is therefore not merely descriptive: it creates leverage over global prices. The green transition reduces strategic dependence on hydrocarbon exporters but reconstitutes it around mineral supply chains.",
-    "abstract_cn": "支撑能源转型的贸易网络是内生的经济对象，其结构是市场力量的来源。利用1995年至2023年十三种电气化金属的双边贸易数据，我们展示了这些材料的贸易已经重新组织成一个以中国为中心的轴辐系统，与化石燃料那种分散的多边结构形成鲜明对比。这种中心地位并非源于资源禀赋：中国拥有的底层储量很少。它是通过加工投资、产业政策和针对大宗商品的发展融资建立起来的——这是一个均衡结果，而非地理偶然。我们用一个风格化模型形式化了这一点，其中一个国家可以选择自身中心化的程度，并说明中心地位如何转化为定价权：当网络越集中，且下游需求与边缘供给越缺乏弹性时，世界价格对战略性供应削减的反应就越强。我们构建了基于文本的、针对特定商品的供应冲击，并估计局部投影，发现关键金属的供应收缩使美国和欧盟消费者价格上升的幅度大约是可比化石燃料冲击的两倍，且更持久。因此，中心地位不仅仅是描述性的：它对全球价格具有影响力。绿色转型减少了对碳氢化合物出口国的战略依赖，但又围绕矿产供应链重新形成了这种依赖。",
+    "abstract_cn": "支持能源转型的贸易网络是内生的经济对象，其结构是市场势力的来源。利用1995年至2023年十三种电气化金属的双边贸易数据，我们展示了这些材料的贸易已重组成一个以中国为中心的轴辐系统，与化石燃料分散的多边结构形成鲜明对比。这种中心地位并非来自资源禀赋：中国持有的底层储备很少。它是通过加工投资、产业政策和针对商品的发展融资建立的——这是一个均衡结果，而非地理偶然。我们在模型中形式化这一点，其中一个国家选择成为中心的程度，并展示中心地位映射到定价权上：当网络更集中且下游需求和边缘供应更无弹性时，世界价格对战略供应削减的反应更强。构建基于文本的、针对特定商品的供应冲击并估计局部投影，我们发现关键金属的供应收缩使美国和欧盟的消费者价格比类似的化石燃料冲击高出大约两倍，且更持久。因此，中心地位不仅仅是描述性的：它在全球价格上创造了影响力。绿色转型减少了对碳氢化合物出口国的战略依赖，但围绕矿产供应链重新构建了它。",
     "url": "https://www.nber.org/papers/w35497",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -257,20 +257,20 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35500",
     "title": "Volatility Disagreement in the Options Market",
-    "title_cn": "期权市场中的波动率分歧",
+    "title_cn": "期权市场中的波动性分歧",
     "authors": [
       "Turan G. Bali",
       "Bryan T. Kelly",
       "Mathis Mörke"
     ],
     "abstract": "We construct a novel stock-level measure of volatility disagreement as the cross-sectional dispersion of realized variance forecasts built from heterogeneous information sets and machine learning models. Sorting single-name delta-hedged straddles on this measure yields a long-short return of −5.14% per month, robust to known option return predictors and not subsumed by disagreement about first moments or the variance risk premium. A one-standard-deviation increase in volatility disagreement is associated with a 30% rise in option position opening. The cross-sectional patterns of our disagreement measure align with recent theoretical advances of beliefs and pricing of variance claims. Evidence on attention, ownership, and arbitrage costs is more consistent with mispricing than risk compensation.",
-    "abstract_cn": "我们构建了一个新的基于个股的波动率分歧度量，即基于异质信息集和机器学习模型构建的已实现方差预测的横截面离散度。按这一度量对单只股票的Delta对冲跨式期权进行排序，得到的多空收益率为每月-5.14%，这一结果对已知的期权收益预测因子稳健，且不能被关于一阶矩或方差风险溢价的分歧所解释。波动率分歧每上升一个标准差，对应期权头寸的开设增加30%。我们这一分歧度量的横截面模式与近期关于信念与方差要求权定价的理论进展相一致。关于关注度、持有人构成和套利成本的证据更符合错误定价而非风险补偿。",
+    "abstract_cn": "我们构建了一个新的基于股票的波动率分歧度量，即基于异质信息集和机器学习模型构建的实现方差预测的横截面离散度。根据这一度量对单名Delta对冲跨式期权进行排序，得到的多空收益率为每月-5.14%，这一结果对已知的期权回报预测因子稳健，且不能被对第一矩或方差风险溢价的分歧所包含。波动率分歧每增加一个标准差，期权头寸开仓增加30%。我们的分歧度量的横截面模式与最近关于信念和方差要求权定价的理论进展相一致。关于注意力、所有权和套利成本的证据更符合错误定价而非风险补偿。",
     "url": "https://www.nber.org/papers/w35500",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -278,19 +278,19 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35489",
     "title": "Diagnostic Thresholds, Written Consent Requirements, and the Utilization of Scarce Organs",
-    "title_cn": "诊断阈值、书面同意要求与稀缺器官的使用",
+    "title_cn": "诊断阈值、书面同意要求与稀缺器官的利用",
     "authors": [
       "Hannah Bae",
       "Jeffrey Clemens"
     ],
     "abstract": "This paper explores how diagnostic thresholds and a written consent requirement affect decision making between patients and transplant surgeons regarding the use of deceased donor kidneys. Combining administrative data on the universe of organ donors and transplant recipients in the United States, we show that age-based discontinuities within the Expanded Criteria Donor system (ECD), which was in place from late 2002 to late 2014, led to 4.0 and 5.4 percentage point differences in the rates at which otherwise indistinguishable kidneys were discarded. A discontinuity within the subsequent presentation of the Kidney Donor Profile Index (KDPI) led to a 2.6 percentage point difference. We present evidence that diagnostic thresholds have nuanced effects on decision making and information acquisition; procurement biopsy rates, for example, rose substantially at the ECD system’s age-based discontinuities. We further show that written consent requirements triggered within the ECD and KDPI labeling systems substantially reduced the number of potential recipients to whom kidneys were offered prior to being discarded. This channel can explain the majority of the increased rate at which “High-KDPI” kidneys are discarded under the current system.",
-    "abstract_cn": "本文探讨了诊断阈值和书面同意要求如何影响患者和移植外科医生之间关于使用已故捐献者肾脏的决策。结合美国所有器官捐献者和移植接受者的行政数据，我们展示了2002年末至2014年末实施的扩大标准捐献者系统（ECD）内基于年龄的不连续性，导致在其他方面无法区分的肾脏被丢弃的比率差异为4.0和5.4个百分点。在随后呈现的肾脏捐献者档案指数（KDPI）中的不连续性导致了2.6个百分点的差异。我们提供的证据表明，诊断阈值对决策制定和信息获取有微妙的影响；例如，在ECD系统的年龄基不连续性处，获取活检的比率显著上升。我们进一步表明，在ECD和KDPI标签系统中触发的书面同意要求大幅减少了在肾脏被丢弃前向潜在接受者提供肾脏的数量。这一渠道可以解释在当前系统下“高KDPI”肾脏被丢弃的比率增加的大部分原因。",
+    "abstract_cn": "本文探讨了诊断阈值和书面同意要求如何影响患者和移植外科医生之间关于使用已故捐献者肾脏的决策。结合美国所有器官捐献者和移植接受者的行政数据，我们展示了2002年末至2014年末实施的扩大标准捐献者（ECD）体系中基于年龄的不连续性，导致在其他方面无法区分的肾脏被丢弃的比率出现了4.0和5.4个百分点的差异。在随后呈现的肾脏捐献者档案指数（KDPI）中的不连续性导致了2.6个百分点的差异。我们提供的证据表明，诊断阈值对决策制定和信息获取有着微妙的影响；例如，在ECD体系基于年龄的不连续性处，获取活检的比率显著上升。我们进一步表明，在ECD和KDPI标签体系中触发的书面同意要求大幅减少了在肾脏被丢弃前向潜在接受者提供肾脏的数量。这一渠道可以解释在当前体系下“高KDPI”肾脏被丢弃的比率增加的大部分原因。",
     "url": "https://www.nber.org/papers/w35489",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -298,20 +298,20 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35491",
     "title": "Retreating from Science: The Long-Run Effects of the 1970s U.S. Military Disinvestment from University Research",
-    "title_cn": "背离科学：1970年代美国军事部门对大学研究撤资的长期效应",
+    "title_cn": "退出科学：1970年代美国军事撤资对大学研究长期影响的研究",
     "authors": [
       "Daniel P. Gross",
       "Bhaven N. Sampat",
       "Hansen Zhang"
     ],
     "abstract": "Between 1945 and 1970, the U.S. Department of Defense was one of the country's largest funders of university research, and the most important in the physical sciences and engineering. Political pressures subsequently led to this funding declining nearly two-thirds by the mid-1970s and never fully recovering. We show that these cuts were felt across the U.S. research system, with ensuing declines in university scientists, PhD production, and research output. Early career scientists who were DoD-funded in 1970 were more likely than peers to leave universities, with many moving to industry. Though some became more likely to patent, in the aggregate, this appears to have reduced science-linked innovation in related technologies and compressed U.S. leadership in formerly DoD-driven fields. These effects extend to outcomes more closely related to military objectives: fewer PhDs entered the defense industrial base, and an initial increase in science-linked defense patenting in the most exposed technology areas gave way to a long-run decline.",
-    "abstract_cn": "在1945年至1970年间，美国国防部是该国大学研究的最大资助者之一，特别是在物理科学和工程领域最为重要。随后的政治压力导致这一资金在1970年代中期减少了近三分之二，并且从未完全恢复。我们表明，这些削减影响了整个美国的科研体系，导致大学科学家数量、博士学位授予量和研究成果产出随之下降。1970年获得国防部资助的早期职业科学家比同行更有可能离开大学，许多人转向工业界。尽管其中一些人更有可能获得专利，但从总体上看，这似乎减少了与科学相关的技术创新，并压缩了美国在以前由国防部推动的领域的领导地位。这些影响扩展到了与军事目标更密切相关的结果：更少的博士学位获得者进入了国防工业基础，而在最受影响的技术领域，最初科学相关的国防专利增加最终让位于长期下降。",
+    "abstract_cn": "在1945年至1970年间，美国国防部是该国大学研究的最大资助者之一，特别是在物理科学和工程领域最为重要。随后的政治压力导致这一资金在1970年代中期几乎减少了三分之二，并且从未完全恢复。我们表明，这些削减影响了整个美国的科研体系，导致大学科学家数量、博士学位生产和研究成果随之下降。1970年获得国防部资助的早期职业科学家比同行更有可能离开大学，许多人转向工业界。尽管其中一些人更有可能获得专利，但从总体上看，这似乎减少了与科学相关的技术创新，并压缩了美国在以前由国防部推动的领域的领导地位。这些影响扩展到与军事目标更密切相关的结果：更少的博士学位获得者进入了国防工业基础，而在最受影响的技术领域，最初科学相关的国防专利增加最终让位于长期下降。",
     "url": "https://www.nber.org/papers/w35491",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -319,8 +319,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35501",
@@ -331,7 +331,7 @@
       "Ilya A. Strebulaev"
     ],
     "abstract": "We study human capital in venture capital (VC) using a new dataset covering over 100,000 professionals affiliated with U.S. VC firms. Investment success is extremely concentrated: fewer than 40% of VCs with any investments are ever credited with a successful investment, and 90% of investment profits are generated by 5% of VCs. Differences in education, prior work experience, and demographics predict career progression and investment outcomes, consistent with persistent investor-specific skills. Quasi-experimental variation from marginal inclusions on the Forbes Midas List shows that achieving superstar status increases access to highly-valued startups, complementing other human capital and contributing to concentration.",
-    "abstract_cn": "我们利用一个涵盖超过10万名与美国风险投资（VC）机构相关专业人士的新数据集来研究风险投资中的人力资本。投资成功高度集中：在有过任何投资的风险投资家中，能够被计入至少一次成功投资的人不到40%，而90%的投资利润是由5%的风险投资家创造的。教育、先前工作经验和人口统计学特征的差异可以预测职业发展与投资结果，这与持续存在的投资者特有技能相一致。来自福布斯Midas榜单边际入选的准实验变异表明，获得超级明星地位能够增加接触高估值初创企业的机会，这与其他人力资本互补，并进一步加剧了集中度。",
+    "abstract_cn": "我们利用一个覆盖超过10万名与美国风险投资（VC）公司关联的专业人士的新数据集来研究风险投资中的人力资本。投资成功极为集中：不到40%有任何投资的VC曾被认为有成功的投资，而90%的投资利润由5%的VC创造。教育、先前工作经验和人口统计特征的差异预测了职业发展和投资结果，这与持续存在的投资者特定技能一致。来自福布斯Midas榜单边缘入选的准实验变化显示，获得超级明星地位增加了接触高估值初创企业的机会，这补充了其他人力资本并促成了集中度。",
     "url": "https://www.nber.org/papers/w35501",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -339,18 +339,18 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35480",
     "title": "Estimating Trends In Mental Distress Using Survey Data",
-    "title_cn": "使用调查数据估计心理痛苦趋势",
+    "title_cn": "利用调查数据估计心理痛苦趋势",
     "authors": [
       "Christopher J. Ruhm"
     ],
     "abstract": "One way of examining how mental health has changed over time is to use information available in large national surveys. While these survey-based measures are valuable in principle, and have been widely employed in prior research, a number of challenges may limit their practical usefulness or require considerable care in their application. This study uses data on U.S. 18-64 year olds from five major household surveys over the period 1999-2019 to investigate three specific questions. First, do different measures or the same indicator from different data sets consistently show how mental distress has changed over time? Second, how does the performance of single-item measures compare to those of psychometrically validated screeners based on multiple questions? Third, what are the benefits or potential costs of using different functional forms of these measures? The answers to these questions are as follows: 1) the estimated trends vary, often dramatically, across measures and, for the same indicator, across data sets and, as a result, some proxies provide a misleading understanding of how mental health has changed over time; 2) the single-item measures do as well or better than those based on multiple questions; 3) no single functional form demonstrates clear superiority over the others. After demonstrating these points, lessons are elucidated for researchers attempting to use survey data to examine trends in mental health.",
-    "abstract_cn": "考察心理健康随时间变化的一种方法是利用大型全国性调查中可获得的信息。虽然这些基于调查的度量在原则上是有价值的，并在以往研究中得到了广泛应用，但若干挑战可能限制它们的实际用途，或要求在应用时格外谨慎。本研究使用了1999-2019年间五项主要家庭调查中美国18-64岁人群的数据，考察了三个具体问题。第一，不同的度量指标或来自不同数据集的同一指标，是否一致地反映出心理痛苦随时间的变化？第二，单项指标与基于多题目的、经过心理测量学验证的筛查工具相比，表现如何？第三，使用这些度量的不同函数形式有何收益或潜在代价？这三个问题的答案如下：1）所估计的趋势在不同度量之间，以及对于同一指标在不同数据集之间，往往差异很大，有时甚至截然不同，因此一些代理变量会对心理健康随时间的变化给出误导性的认识；2）单项指标的表现与基于多题目的指标相当，甚至更好；3）没有哪一种函数形式明显优于其他形式。在论证上述要点之后，我们为希望使用调查数据考察心理健康趋势的研究者总结了若干经验启示。",
+    "abstract_cn": "通过大型国家调查中可获得的信息来检视心理健康随时间的变化是一种方法。虽然这些基于调查的度量原则上很有价值，并且在以往的研究中得到了广泛应用，但一些挑战可能限制了它们的实际效用，或要求在应用时必须非常小心。本研究利用1999-2019年间五个主要家庭调查中关于美国18-64岁人群的数据，探讨三个具体问题。首先，不同的度量或不同数据集中的同一指标是否一致地显示出随时间变化的心理痛苦？其次，单项度量的表现与基于多个问题的心理测量学验证筛选工具相比如何？第三，使用这些度量的不同功能形式的好处或潜在成本是什么？这些问题的答案如下：1）估计的趋势在度量间，以及对于同一指标，在不同数据集间差异很大，因此，一些代理变量提供了对心理健康随时间变化的误导性理解；2）单项度量的表现与基于多个问题的度量一样好或更好；3）没有任何单一功能形式显示出明显优于其他形式。在展示这些要点后，为研究人员提供了使用调查数据来检视心理健康趋势的教训。",
     "url": "https://www.nber.org/papers/w35480",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -358,8 +358,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35498",
@@ -370,7 +370,7 @@
       "Sally Shen"
     ],
     "abstract": "This paper examines optimal currency demands for global equity and bond investors in a large cross-section of developed and emerging markets over the 1975-2023 period. It extends the framework of Campbell et al. (2010) by incorporating both optimal portfolio-risk minimizing currency exposures, accounting for empirically measured hedging costs arising from deviations of Covered Interest Parity (CIP), and optimal expected-return-driven currency demands based on non-zero expected excess currency returns arising from empirically measured deviations of Uncovered Interest Parity (UIP). The analysis shows that the main conclusions of their portfolio risk-minimizing framework hold for this larger and longer panel of countries and that they are robust to deviations from CIP. Specifically, it is optimal for portfolio risk-minimizing equity investors to hold exposures to the U.S. dollar and the euro while avoiding exposure to all other currencies, whereas bond investors should hedge all currency exposures. In contrast, observed deviations from UIP are sufficiently large and persistent among currencies with high average relative interest currencies, especially Emerging Markets currencies, to generate expected return-driven currency demands that offset, and in some cases reverse, portfolio-risk minimizing demands, even for investors with low risk tolerance. The average excess returns on those currencies are large enough to compensate investors for their substantial return volatility and strong positive covariance with equity returns.",
-    "abstract_cn": "本文研究了1975-2023年间发达市场和新兴市场大样本国家中全球股票和债券投资者的最优货币需求。它在Campbell等人（2010年）框架的基础上进行了扩展，既纳入了基于抵补利率平价（CIP）经验偏差测得的套保成本来最小化投资组合风险的最优货币敞口，也纳入了由未抵补利率平价（UIP）经验偏差所导致的非零预期超额货币收益率所驱动的最优预期收益货币需求。分析表明，他们的投资组合风险最小化框架的主要结论对于这一更大、时间跨度更长的国家面板仍然成立，并且对CIP偏差是稳健的。具体而言，对于追求最小化投资组合风险的股票投资者而言，持有美元和欧元敞口是最优的，同时应避免对所有其他货币的敞口；而债券投资者则应对冲所有货币敞口。相比之下，在高平均相对利率的货币（尤其是新兴市场货币）中，所观测到的UIP偏差足够大且持久，足以产生由预期收益驱动的货币需求，这种需求会抵消、甚至在某些情况下逆转投资组合风险最小化需求——即便对于风险承受能力较低的投资者也是如此。这些货币的平均超额收益率足够大，足以补偿投资者承担的显著收益率波动以及与股票收益率的强正协方差。",
+    "abstract_cn": "本文研究了1975-2023年期间，发达市场和新兴市场全球股票和债券投资者的最优货币需求。本文扩展了Campbell等人（2010年）的框架，纳入了基于Covered Interest Parity（CIP）偏差的经验测量对冲成本的最优投资组合-风险最小化货币敞口，以及基于非零预期超额货币收益率的最优预期回报驱动货币需求，这些回报来自于Uncovered Interest Parity（UIP）的经验测量偏差。分析表明，他们的投资组合风险最小化框架的主要结论对于这个更大、时间跨度更长的国家面板仍然成立，并且对于CIP的偏差是稳健的。具体来说，对于投资组合风险最小化的股票投资者来说，持有美元和欧元敞口是最优的，同时避免对所有其他货币的敞口，而债券投资者则应该对冲所有货币敞口。相比之下，高平均相对利率货币，特别是新兴市场货币，对UIP的观察偏差足够大且持久，以至于产生了预期回报驱动的货币需求，这些需求抵消了，甚至在某些情况下逆转了投资组合风险最小化需求，即使是对于风险承受能力较低的投资者也是如此。这些货币的平均超额回报足够大，可以补偿投资者因收益率波动大和与股票回报的强烈正相关性而面临的风险。",
     "url": "https://www.nber.org/papers/w35498",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -378,8 +378,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35503",
@@ -390,7 +390,7 @@
       "Jeffrey Yusof"
     ],
     "abstract": "The rise of superstar firms has made dominant companies central to modern economic life, and antitrust enforcement is one of the main policy tools for regulating their market power. Public opinion can shape the political and regulatory environment in which antitrust enforcement takes place, yet there is little direct evidence on what drives these preferences. We conduct a pre-registered information-provision experiment with 4,000 American households. Respondents were told about one of five real antitrust cases and randomly assigned to information treatments designed to study four potential drivers of support for antitrust enforcement: perceived market share, perceived consumer harm, perceived unfair competition, and perceived negative image. All four treatments moved the beliefs they were designed to affect, but their effects on demand for antitrust differed sharply. Information about consumer harm had the most systematic effects: it increased plaintiff support and support for break-up and conduct remedies, with effects remaining visible one month later, and also spilled over to broader support for antitrust policies. By contrast, and contrary to expert forecasts, information about market share had no meaningful effect on demand for antitrust enforcement. The findings suggest that the public thinks like economists in one key respect: they do not care about market share per se, but respond instead to consumer harm. One factor outside the core economic framework, perceived unfair competition, also matters, though its effects are more limited in scope. We discuss implications for policymakers and regulators.",
-    "abstract_cn": "超级明星企业的崛起使主导公司成为现代经济生活的核心，而反垄断执法是规制其市场力量的主要政策工具之一。公众舆论能够塑造反垄断执法所处的政治和监管环境，但关于是什么驱动了这些偏好的直接证据却很缺乏。我们对4000个美国家庭开展了一项预注册的信息提供实验。受访者被告知五个真实反垄断案例之一，并被随机分配到旨在研究支持反垄断执法的四个潜在驱动因素的信息干预中：感知到的市场份额、感知到的消费者损害、感知到的不公平竞争以及感知到的负面形象。四种干预都改变了它们旨在影响的信念，但它们对反垄断需求的影响却大不相同。关于消费者损害的信息影响最为系统：它提高了原告方的支持度以及对拆分和行为性救济措施的支持，这些影响在一个月后仍然可见，并外溢到对更广泛反垄断政策的支持。相比之下，与专家预测相反，关于市场份额的信息对反垄断执法需求没有实质性影响。这些发现表明，公众在一个关键方面像经济学家那样思考：他们并不关心市场份额本身，而是对消费者损害做出反应。一个处于核心经济框架之外的因素——感知到的不公平竞争——也很重要，尽管其影响范围更为有限。我们讨论了这些发现对政策制定者和监管者的启示。",
+    "abstract_cn": "超级明星企业的崛起使得主导公司成为现代经济生活的核心，而反垄断执法是调节其市场力量的主要政策工具之一。公众舆论可以塑造反垄断执法所处的政治和监管环境，然而，关于什么驱动这些偏好的直接证据很少。我们对4000个美国家庭进行了一项预注册的信息提供实验。受访者被告知五个真实反垄断案例中的一个，并随机分配到旨在研究支持反垄断执法的四个潜在驱动因素的信息处理中：感知市场份额、感知消费者损害、感知不公平竞争和感知负面形象。所有四种处理都影响了它们旨在影响的信念，但它们对反垄断需求的影响截然不同。关于消费者损害的信息具有最系统的影响：它增加了原告支持和对拆分及行为性救济措施的支持，这些影响在一个月后仍然可见，并且也扩展到了对更广泛反垄断政策的支持。相比之下，与专家预测相反，关于市场份额的信息对反垄断执法需求没有实质性影响。这些发现表明，公众在关键方面像经济学家一样思考：他们并不关心市场份额本身，而是对消费者损害做出反应。一个在核心经济框架之外的因素，感知不公平竞争，也很重要，尽管其影响范围更有限。我们讨论了对政策制定者和监管者的影响。",
     "url": "https://www.nber.org/papers/w35503",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -398,8 +398,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35496",
@@ -412,7 +412,7 @@
       "Nitya Pandalai-Nayar"
     ],
     "abstract": "We study how equilibrium patterns of production, trade, and input sourcing in complex supply chains are shaped by aggregate risk. We develop a quantitative multi-country model with multi-sourcing across stages. We show that sourcing shares equal an input’s expected output elasticity — its expected marginal contribution to output across states of the world. Risk has a positional effect on sourcing and welfare, operating through offsetting cross-stage complementarity and within-stage substitutability; which one dominates is a quantitative question. An increase in a country’s own risk always lowers its welfare; risk elsewhere has ambiguous, sometimes positive, effects through relative prices. We also show analytically that risk attenuates comparative advantage, as countries shift sourcing away from their most productive suppliers. Quantifying the model for 50 countries and 3 production stages, we show that supply-chain complexity lowers volatility for the riskiest countries, and rising Chinese-origin risk reallocates production and lowers welfare unevenly across the chain.",
-    "abstract_cn": "我们研究总体风险如何塑造复杂供应链中生产、贸易和投入品采购的均衡模式。我们构建了一个包含跨阶段多重采购的多国定量模型。我们证明采购份额等于某投入品的预期产出弹性——即其在各种世界状态下对产出的预期边际贡献。风险通过相互抵消的跨阶段互补性与阶段内替代性对采购和福利产生位置效应；究竟哪种力量占主导是一个定量问题。一个国家自身风险上升总会降低其福利；而其他地方的风险则通过相对价格产生不明确、有时甚至是正向的影响。我们还在分析上表明，风险会削弱比较优势，因为各国会从生产率最高的供应商那里转移采购。通过对涵盖50个国家和3个生产阶段的模型进行量化，我们表明供应链复杂性降低了风险最高国家的波动性，而源自中国的风险上升则会重新配置生产，并在供应链中不均匀地降低各国福利。",
+    "abstract_cn": "我们研究了总体风险如何塑造复杂供应链中生产、贸易和投入品采购的均衡模式。我们开发了一个包含多阶段多采购来源的多国定量模型。我们展示了采购份额等于投入品的预期产出弹性——即其在世界不同状态下预期对产出的边际贡献。风险通过相互抵消的跨阶段互补性和阶段内替代性对采购和福利产生位置效应；哪一个占主导是一个定量问题。一个国家自身风险的增加总是降低其福利；其他地方的风险通过相对价格有不明确的影响，有时甚至是正面的。我们还分析表明，风险削弱了比较优势，因为国家将采购从它们最有生产力的供应商转移出去。通过对50个国家和3个生产阶段的模型进行量化，我们展示了供应链复杂性降低了风险最大国家的波动性，而中国起源风险的上升重新分配了生产，并在供应链中不均匀地降低了福利。",
     "url": "https://www.nber.org/papers/w35496",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -420,20 +420,20 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35484",
     "title": "Policy Thresholds as Growth Barriers: Theory and Evidence from a Payroll Tax Notch",
-    "title_cn": "政策门槛作为增长障碍：来自工资税缺口的理论与证据",
+    "title_cn": "政策阈值作为增长障碍：来自工资税缺口的理论与证据",
     "authors": [
       "Sami Jysmä",
       "Youssef Benzarti",
       "Jarkko Harju"
     ],
     "abstract": "Discrete policy thresholds are pervasive in tax and regulatory systems and can substantially distort behavior. We show that notches acting as barriers to mobility within a distribution generate distortions extending far beyond the threshold. The same mechanism biases conventional difference-in-differences estimators, and we propose a new methodology to recover causal effects. Applying the method to the abolition of a size-based payroll tax notch, we find that the notch reduced the number of firms above the threshold by 18 percent and lowered treated firms’ employment, capital stock, and value added by 10 percent, whereas conventional difference-in-differences estimates imply negligible effects.",
-    "abstract_cn": "离散政策阈值在税收和监管体系中普遍存在，并且可能会显著扭曲行为。我们展示了作为分布内流动性障碍的缺口所产生的扭曲，其影响远远超出了阈值本身。同样的机制也会使传统的双重差分估计器产生偏差，我们提出了一种新的计量方法来恢复因果效应。将这种方法应用于取消基于规模的工资税缺口，我们发现缺口使超过阈值的企业数量减少了18%，并且使受影响企业的就业、资本存量和增加值降低了10%，而传统的双重差分估计则暗示了微不足道的影响。",
+    "abstract_cn": "离散的政策阈值在税收和监管体系中普遍存在，并且可能会显著扭曲行为。我们展示了作为分布内流动性障碍的缺口所产生的扭曲，其影响远远超出了阈值本身。同样的机制会使传统的双重差分估计器产生偏差，我们提出了一种新的计量方法来恢复因果效应。将这种方法应用于取消基于规模的工资税缺口，我们发现缺口使超过阈值的公司数量减少了18%，并且使受影响公司的就业、资本存量和增加值降低了10%，而传统的双重差分估计则暗示了微不足道的效果。",
     "url": "https://www.nber.org/papers/w35484",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -441,19 +441,19 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35474",
     "title": "Monopsony and Backloaded Compensation: Theory and Evidence from Public Accountants",
-    "title_cn": "买方垄断与后端薪酬：来自公共会计师的理论及证据",
+    "title_cn": "买方垄断与后置薪酬：来自公共会计师的理论及证据",
     "authors": [
       "Michael Rubens",
       "Bernardo S. Silveira"
     ],
     "abstract": "In monopsony models, wage markdowns induce deadweight loss and are therefore inefficient. Yet markdowns also arise in models with backloaded efficiency pay, where they are designed to induce effort among early-career workers and are thus efficient. To reconcile—and empirically distinguish—these two mechanisms, we build a dynamic model incorporating labor market power and endogenous effort. Estimating a team production model on novel data on U.S. public accounting firms, we find evidence of both: markdowns for junior workers and markups for senior ones reflect incentive-providing backloading, while monopsony power induces a ‘lifetime’ wage markdown of 15%.",
-    "abstract_cn": "在垄断买方模型中，工资折扣会导致无谓损失，因此是无效率的。然而，在具有后端效率工资的模型中，折扣也会出现，它们旨在激励职业初期工人的努力，因此是有效率的。为了调和并实证区分这两种机制，我们构建了一个包含劳动力市场权力和内生努力的动态模型。通过对美国公共会计公司的新数据进行团队生产模型估计，我们发现了两者的证据：初级工人的工资折扣和高级工人的工资加价反映了激励性的后端加载，而垄断买方力量则导致了15%的“终身”工资折扣。",
+    "abstract_cn": "在买方垄断模型中，工资向下压低会导致无谓损失，因此是无效率的。然而，在具有后置薪酬效率支付的模型中，向下压低也是存在的，它们旨在激励职业初期工人的努力，因此是有效率的。为了调和并经验性地区分这两种机制，我们构建了一个包含劳动力市场势力和内生努力的动态模型。在对美国公共会计师事务所的新数据进行团队生产模型估计时，我们发现了两者的证据：初级工人的工资向下压低和高级工人的工资向上提高反映了激励性的后置薪酬，而买方垄断势力则导致了15%的“终身”工资向下压低。",
     "url": "https://www.nber.org/papers/w35474",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -461,19 +461,19 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35488",
     "title": "Ambiguity vs. Risk in Investment Decisions: A Continuous Decomposition",
-    "title_cn": "投资决策中的不确定性与风险：连续分解",
+    "title_cn": "投资决策中的模糊性与风险：连续分解",
     "authors": [
       "Geoffrey Heal",
       "Marcella Lucchetta"
     ],
     "abstract": "This paper provides a novel framework for assessing the effect of ambiguity on asset values within the Klibanoff-Marinacci-Mukerji (KMM) smooth ambiguity framework. By shifting the analysis into a continuous space of prior probabilities, we establish that ambiguity leads to an adjustment of beliefs (“ambiguity-adjusted probabilities” or “distorted probabilities”) characterized by First-Order Stochastic Dominance (FSD). Leveraging this property, we introduce a systematic economic decomposition of asset valuation separating the baseline risky valuation from the structural cost of uncertainty. Our continuous framework shows that increased ambiguity aversion depresses optimal asset demand.",
-    "abstract_cn": "本文在Klibanoff-Marinacci-Mukerji（KMM）平滑模糊框架内，提供了一个评估模糊性对资产价值影响的新框架。通过将分析转移到连续的先验概率空间，我们确立了模糊性会导致信念调整（“模糊性调整概率”或“扭曲概率”），其特征是一阶随机优势（FSD）。利用这一属性，我们引入了一种系统的经济分解方法，将资产估值中的基线风险估值与不确定性的结构成本分离开来。我们的连续框架显示，增加的模糊厌恶会抑制最优资产需求。",
+    "abstract_cn": "本文在Klibanoff-Marinacci-Mukerji（KMM）平滑模糊性框架内，提供了一个评估模糊性对资产价值影响的新框架。通过将分析转移到先验概率的连续空间中，我们确立了模糊性导致信念调整（“模糊性调整概率”或“扭曲概率”），其特征是一阶随机占优（FSD）。利用这一属性，我们引入了一种系统的经济分解方法，将基准风险估值与不确定性的结构成本分离开来。我们的连续框架显示，增加的模糊厌恶会抑制最优资产需求。",
     "url": "https://www.nber.org/papers/w35488",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -481,8 +481,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35505",
@@ -495,7 +495,7 @@
       "Gabriel Zucman"
     ],
     "abstract": "This paper uses administrative data to analyze wealth flows from Norway to offshore tax havens before and after a major improvement of global financial transparency: automatic exchange of bank account information between tax authorities. We present three results suggesting that the policy is a significant deterrent of offshore tax evasion: First, taxpayers who become wealthy are much less likely to shift wealth to offshore banks. Second, when wealth does flow to offshore banks, it is much less likely to reduce domestic tax payments. Third, there is no increase in the use of complex ownership structures for offshore wealth flows.",
-    "abstract_cn": "本文利用行政数据，分析了在全球金融透明度出现重大改进——即税务机关之间自动交换银行账户信息——前后，挪威流向离岸避税天堂的财富流动情况。我们给出了三方面的结果，表明该政策对离岸逃税具有显著的威慑作用：第一，新近致富的纳税人将财富转移到离岸银行的可能性大大降低。第二，即便财富仍流向离岸银行，也较难减少其国内纳税。第三，离岸财富流动中对复杂所有权结构的使用并未增加。",
+    "abstract_cn": "本文利用行政数据分析了在全球金融透明度重大提升前后，即税务机关之间自动交换银行账户信息之前和之后，挪威流向离岸避税天堂的财富流动。我们提出了三个结果，表明该政策是离岸逃税的重要威慑力量：首先，新近变得富有的纳税人将财富转移到离岸银行的可能性要小得多。其次，当财富确实流向离岸银行时，它减少国内税收支付的可能性要小得多。第三，对于离岸财富流动，复杂所有权结构的使用并没有增加。",
     "url": "https://www.nber.org/papers/w35505",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -503,8 +503,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35470",
@@ -518,7 +518,7 @@
       "Elizabeth Wrigley-Field"
     ],
     "abstract": "U.S. life expectancy stagnated and declined in the 2010s despite continued growth in real per capita income. We use Preston curves to characterize this pattern as a change in the relationship between income and longevity. Using state-level data from 1980 to 2019 and county-level data from 2000 to 2019, we estimate population-weighted Preston curves relating life expectancy to logged real per capita income. From 1980 to 2010, U.S. states followed the classic Preston curve pattern: rising income was accompanied by rising life expectancy. Counties followed the same pattern from 2000 to 2010. From 2010 to 2019, however, states and counties continued to become richer while life expectancy stagnated or declined. The curves shifted right without shifting up and became steeper, indicating decoupling and divergence: increases in aggregate resources over time no longer produced broad longevity gains, and, in any given year, inequality in life expectancy by income grew. These patterns are robust to alternative temporal anchors around the Great Recession and to substituting education for income. They also appear across sex and racial groups. County-level decompositions are broadly consistent with arguments that longevity has fallen due to widely shared exposures to social deterioration, which may account for the Preston curve reversal. Collectively, we show that the recent U.S. mortality crisis reveals a weakening—and growing inequality—in the conversion of aggregate resources into longevity gains. We conclude that the recent U.S. mortality crisis could be understood not only as a story about particular causes of death, but also as a weakening of institutional and social translation.",
-    "abstract_cn": "尽管实际人均收入持续增长，但在2010年代，美国的预期寿命却停滞不前甚至下降。我们使用普雷斯顿曲线来刻画这一模式，将其视为收入与长寿之间关系的变化。利用1980年至2019年的州级数据和2000年至2019年的县级数据，我们估计了将预期寿命与实际人均收入对数联系起来的人口加权普雷斯顿曲线。从1980年到2010年，美国各州遵循了经典的普雷斯顿曲线模式：收入增长伴随着预期寿命提高。从2000年到2010年，各县也遵循了相同的模式。然而，从2010年到2019年，各州和各县继续变得更加富裕，而预期寿命却停滞或下降。这些曲线向右移动而没有向上移动，并变得更陡峭，表明脱钩和分化：随着时间推移，总体资源的增加不再带来广泛的长寿收益，而在任何给定年份，按收入衡量的预期寿命不平等都在扩大。这些模式对围绕大衰退（Great Recession）选取不同时间锚点以及用教育替代收入都是稳健的。它们也出现在不同性别和种族群体中。县级分解结果大体上与以下论点一致：长寿的下降源于对普遍社会恶化的大范围暴露，这或许能解释普雷斯顿曲线的逆转。总体而言，我们表明，美国近期的死亡危机揭示了将总体资源转化为长寿收益的能力在减弱，而不平等在加剧。我们得出结论，美国近期的死亡危机不仅可以理解为特定死因的故事，也可以理解为制度和社会转化能力的减弱。",
+    "abstract_cn": "尽管实际人均收入持续增长，但美国在2010年代的预期寿命却停滞不前甚至下降。我们使用普雷斯顿曲线来描述这种模式，即收入与长寿之间的关系发生了变化。利用1980年至2019年的州级数据和2000年至2019年的县级数据，我们估算了将预期寿命与实际人均收入对数关联起来的人口加权普雷斯顿曲线。从1980年到2010年，美国各州遵循了经典的普雷斯顿曲线模式：收入的增长伴随着预期寿命的增长。从2000年到2010年，县级也遵循了相同的模式。然而，从2010年到2019年，各州和县继续变得更加富裕，而预期寿命却停滞不前或下降。曲线向右移动而没有向上移动，并变得更陡峭，表明脱钩和发散：随着时间的推移，总体资源的增加不再产生广泛的长寿收益，而在任何给定年份，按收入划分的预期寿命不平等增长。这些模式对于大衰退前后的替代时间锚点以及用教育替代收入都是稳健的。它们也出现在性别和种族群体中。县级分解与以下论点大体一致：由于广泛暴露于社会恶化，长寿已经下降，这可能解释了普雷斯顿曲线的逆转。总体而言，我们表明，美国近期的死亡危机揭示了将总体资源转化为长寿收益的能力减弱以及不平等的增长。我们得出结论，美国近期的死亡危机不仅可以理解为特定死亡原因的故事，也可以理解为制度和社会转化能力的减弱。",
     "url": "https://www.nber.org/papers/w35470",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -526,8 +526,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35485",
@@ -539,7 +539,7 @@
       "Andrew Schein"
     ],
     "abstract": "Demand flexibility at scale is likely to be an important part of the future energy system. This study evaluated the world’s first nationwide domestic and commercial demand flexibility program. We analyzed the policy using a natural field experiment, with a sample of 2.7 million, assigning 119,999 customers to a control group and the rest to receive randomized encouragement to sign up to the demand flexibility program. The program paid consumers to reduce their demand below a predicted baseline at peak demand across 16 events (i.e., when the system was stressed) during the Winter of 2023–24. Customers who opted into events reduced demand during events by 23.1% among compliers, at an average cost for the system operator of £2,325 per MWh. The adoption of solar panels and batteries, heat pumps, and EVs all increased demand response.",
-    "abstract_cn": "大规模的需求灵活性很可能是未来能源系统的重要组成部分。本研究评估了世界上第一个全国性的住宅和商业需求灵活性项目。我们通过自然现场实验分析了该政策，样本量为270万，将119,999名客户分配到对照组，其余客户随机鼓励他们报名参加需求灵活性项目。该项目在2023-24年冬季的16个高峰需求事件（即系统承压时）期间，支付消费者以降低其需求至预测基线以下。参与活动的依从者在活动期间降低了23.1%的需求，系统运营商的平均成本为每兆瓦时2,325英镑。太阳能电池板和电池、热泵以及电动汽车的采用都增加了需求响应。",
+    "abstract_cn": "大规模的需求灵活性很可能是未来能源系统的重要组成部分。本研究评估了世界上第一个全国性的住宅和商业需求灵活性项目。我们通过自然田野实验分析了该政策，样本量为270万，将119,999名客户分配到对照组，其余客户随机鼓励他们报名参加需求灵活性项目。该项目在2023-24年冬季的16个高峰需求事件（即系统承压时）期间，支付消费者以降低其需求至预测基线以下。在依从者中，选择参加活动的客户在活动期间降低了23.1%的需求，系统运营商的平均成本为每兆瓦时2,325英镑。太阳能电池板和电池、热泵以及电动汽车的采用都增加了需求响应。",
     "url": "https://www.nber.org/papers/w35485",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -547,8 +547,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35472",
@@ -562,7 +562,7 @@
       "Caleb K. Wroblewski"
     ],
     "abstract": "In recent years, there has been Congressional interest in changing various policies related to research and development (R&D). Recent legislation has included provisions that would modify federal funding for R&D investments and tax provisions affecting the after-tax price of R&D. The Congressional Budget Office (CBO) has developed analytical frameworks for estimating how changes in R&D investments affect the economy and the federal budget. This paper describes the agency’s current analytical framework for modeling the economic effects of changes in federal funding for R&D, focusing on two distinct approaches that CBO has developed: an R&D capital stock approach and an R&D components approach.",
-    "abstract_cn": "近年来，国会对调整与研发（R&D）相关的各项政策表现出兴趣。近期的立法包含了修改联邦对R&D投资的资助、以及影响R&D税后价格的税收条款等内容。国会预算办公室（CBO）已经开发了分析框架，用以估计R&D投资的变化如何影响经济和联邦预算。本文介绍了该机构当前用于建模联邦R&D资助变化之经济效应的分析框架，重点关注CBO开发的两种不同方法：R&D资本存量方法和R&D构成要素方法。",
+    "abstract_cn": "近年来，国会对改变与研究和开发（R&D）相关的各种政策表现出了兴趣。最近的立法包括修改联邦对R&D投资的资助以及影响R&D税后价格的税收条款。国会预算办公室（CBO）已经开发了分析框架，用以估计R&D投资变化对经济和联邦预算的影响。本文描述了该机构目前用于模拟联邦对R&D资助变化的经济效应的分析框架，重点关注CBO开发的两种不同方法：R&D资本存量方法和R&D组成部分方法。",
     "url": "https://www.nber.org/papers/w35472",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -570,8 +570,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35483",
@@ -582,7 +582,7 @@
       "Tao Zha"
     ],
     "abstract": "We develop a unified framework that combines shock volatility with sign and narrative restrictions and provides the theoretical foundation for the computationally efficient sampler HARS. HARS preserves the heteroskedastic likelihood and can be combined with any posterior simulator for the heteroskedastic model. In monetary policy, oil market, and fiscal policy models, the same restrictions deliver substantively different economics once shock heteroskedasticity is accounted for. Homoskedastic SVARs put uncertainty in the wrong place, pushing shock-scale variation into impulse-response uncertainty. Heteroskedasticity sharpens dynamic responses, alters economic conclusions, and restores 90% credible intervals as a practical standard for economic inference.",
-    "abstract_cn": "我们构建了一个统一框架，将冲击波动性与符号和叙述限制相结合，并为计算效率高的采样器HARS提供了理论基础。HARS保留了异方差似然，并可以与任何异方差模型的后验模拟器结合使用。在货币政策、石油市场和财政政策模型中，一旦考虑了冲击异方差性，相同的限制会产生截然不同的经济结果。同方差SVAR将不确定性放在了错误的位置，将冲击规模的变化推向了脉冲响应的不确定性。异方差性增强了动态响应，改变了经济结论，并恢复了90%置信区间作为经济推断的实际标准。",
+    "abstract_cn": "我们构建了一个统一框架，将冲击波动性与符号和叙述限制相结合，并为计算效率高的采样器HARS提供了理论基础。HARS保留了异方差似然，并可以与任何异方差模型的后验模拟器结合使用。在货币政策、石油市场和财政政策模型中，一旦考虑了冲击异方差性，相同的限制将产生实质性不同的经济结果。同方差SVAR将不确定性放在了错误的位置，将冲击规模的变化推向了脉冲响应的不确定性。异方差性增强了动态响应，改变了经济结论，并恢复了90%的可信区间作为经济推断的实际标准。",
     "url": "https://www.nber.org/papers/w35483",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -590,8 +590,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35502",
@@ -603,7 +603,7 @@
       "Stephen D. Schwab"
     ],
     "abstract": "Physicians in the U.S. military health care system are quasi-randomly assigned to combat deployments, leading to gaps of varying durations in their clinical practice. We leverage this unique setting to provide novel causal evidence on skill depreciation (forgetting) and learning-by-doing among physicians. We find robust evidence that readmission rates increase by 48% in the first two months after a surgeon returns from a deployment. However, surgeons return to baseline performance within 6 months of resuming practice. In contrast, obstetricians maintain elevated cesarean section rates for up to 9 months, implying a deeper change in clinical judgment. Finally, we interpret these patterns through the lens of a learning model and estimate learning-by-doing rates for surgeons and obstetricians. A doubling of recent procedure volume reduces readmission and C-section rates by 17% and 11% for surgeons and obstetricians, respectively.",
-    "abstract_cn": "在美国军事医疗系统中，医生被准随机地分配到战斗部署中，从而在他们的临床实践中出现了不同时长的间断期。我们利用这一独特背景，为医生的技能折旧（遗忘）和“干中学”提供了新的因果证据。我们发现了有力的证据：外科医生从部署返回后的头两个月内，再入院率上升了48%。不过，外科医生在恢复执业后的6个月内即可回到基线表现。相比之下，产科医生的剖宫产率在长达9个月的时间内都维持在较高水平，意味着临床判断发生了更深层次的变化。最后，我们借助学习模型的视角来解读这些模式，并估计了外科医生和产科医生的“干中学”速率。近期手术量翻倍可使外科医生和产科医生的再入院率与剖宫产率分别降低17%和11%。",
+    "abstract_cn": "美国军事医疗保健系统中的医生被准随机分配到战斗部署中，导致他们在临床实践中出现不同持续时间的空档。我们利用这一独特的环境，为医生的技能折旧（遗忘）和“干中学”提供了新的因果证据。我们发现有力的证据表明，外科医生从部署返回后，在前两个月内再入院率增加了48%。然而，外科医生在恢复实践后的6个月内恢复到基线表现。相比之下，产科医生在长达9个月内维持较高的剖宫产率，意味着临床判断发生了更深层次的变化。最后，我们通过学习模型的视角解释这些模式，并估计外科医生和产科医生的“干中学”比率。最近手术量的翻倍降低了外科医生和产科医生的再入院率和剖宫产率，分别为17%和11%。",
     "url": "https://www.nber.org/papers/w35502",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -611,8 +611,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35481",
@@ -623,7 +623,7 @@
       "Markus Pelger"
     ],
     "abstract": "Empirical researchers increasingly use large language models (LLMs) to extract structured features, such as sentiment scores, classifications, and expectations, from unstructured data and treat these generated features as observed covariates in downstream estimation. This practice can invalidate inference when systematic, input-dependent errors in generated features, such as hallucination and look-ahead bias, distort the downstream moment conditions. Even after correction, generated features remain noisy proxies whose error profiles differ across models and prompts. We introduce AI-Powered Inference (AI-PI), a method-of-moments framework for valid and efficient inference that combines three components: a moment-specific bias correction based on a small human-labeled calibration set; adaptive weights that optimally combine multiple model-prompt pairs; and an optimal calibration-set design that concentrates costly human labels where the generated features are least reliable. We establish consistency and asymptotic normality of the AI-PI estimator, allowing for data-adaptive labeling designs, cross-fitted LLM-pipeline tuning, and overidentified GMM. Simulations confirm substantial gains over naive LLM regressions and over debiasing without optimal weighting or labeling design. In an application to news-based sentiment and stock returns, AI-PI produces stable conclusions where naive analyses vary substantially across LLM and prompt choices, with a confidence interval roughly half as long as using the human-labeled data alone.",
-    "abstract_cn": "实证研究者越来越多地使用大型语言模型（LLMs）从非结构化数据中提取结构化特征，例如情感得分、分类和预期，并将这些生成的特征视为下游估计中的观测协变量。当系统性的、输入依赖的错误（如幻觉和前视偏差）扭曲了下游矩条件时，这种做法可能会使推断失效。即使在纠正之后，生成的特征仍然是带噪声的代理变量，其误差特征因模型和提示而异。我们提出了一种名为AI驱动推断（AI-PI）的矩方法框架，用于实现有效且高效的推断，它结合了三个组成部分：基于小型人工标注校准集的、针对特定矩的偏差校正；可最优结合多个模型-提示对的自适应权重；以及将成本高昂的人工标注集中在生成特征最不可靠处的最优校准集设计。我们证明了AI-PI估计量的一致性与渐近正态性，允许数据自适应的标注设计、交叉拟合的LLM管道调参与过度识别的GMM。模拟结果证实，相比于朴素的LLM回归以及缺少最优加权或标注设计的去偏方法，AI-PI有显著的提升。在应用于基于新闻的情感和股票收益率时，AI-PI在不同LLM和提示选择下都能得到稳定的结论，其置信区间长度大约仅为单独使用人工标注数据时的一半。",
+    "abstract_cn": "实证研究者越来越多地使用大型语言模型（LLMs）从非结构化数据中提取结构化特征，例如情感评分、分类和预期，并将这些生成的特征作为下游估计中观察到的协变量。当生成特征中系统性的、输入依赖的错误，如幻觉和前视偏差，扭曲了下游矩条件时，这种做法可能会使推断无效。即使在修正之后，生成的特征仍然是带有噪声的代理变量，其误差特征在不同模型和提示之间有所不同。我们引入了一种名为AI驱动推断（AI-PI）的方法-矩框架，用于有效且有效的推断，它结合了三个组成部分：基于小型人工标记校准集的特定矩偏差校正；适应性权重，这些权重最优地结合了多个模型-提示对；以及最优校准集设计，将成本高昂的人工标签集中在生成特征最不可靠的位置。我们建立了AI-PI估计器的一致性和渐近正态性，允许数据自适应标记设计、交叉拟合LLM管道调整和过度识别的 GMM。模拟结果证实，与简单的LLM回归和没有最优加权或标记设计的去偏相比，获得了实质性的增益。在将新闻基础情感和股票收益率应用于AI-PI时，AI-PI在不同LLM和提示选择之间产生了稳定的结论，置信区间的长度大约是仅使用人工标记数据时的一半。",
     "url": "https://www.nber.org/papers/w35481",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -631,8 +631,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35478",
@@ -645,7 +645,7 @@
       "Simone G. Schaner"
     ],
     "abstract": "Households' most consequential economic decisions are usually made jointly, yet behavioral interventions are typically targeted to individuals and optimized to overcome intra-personal constraints. We use a randomized controlled trial to study whether behavioral interventions targeted to couples can overcome interpersonal constraints related to intra-household decision-making. In rural Liberia, we layer a facilitated joint financial planning exercise atop a large unconditional cash transfer, assessing effects relative to cash only and a pure control. Relative to cash only, adding planning increases the amount of the transfer spent on productive investment and consequently improves economic outcomes by 0.16 standard deviation units. However, for households with the highest ex-ante conflict risk, these gains come at the cost of additional intimate partner violence.",
-    "abstract_cn": "家庭最重大的经济决策通常是共同做出的，然而行为干预通常针对个体，并优化以克服个人内在约束。我们利用随机对照试验研究针对夫妻的行为干预是否能够克服与家庭内部决策相关的人际约束。在利比里亚农村，我们在一项大规模无条件现金转移之上叠加了一个促进性的共同财务规划练习，评估其相对于仅现金和纯控制组的效果。与仅现金相比，增加规划使得转移资金中用于生产性投资的部分增加，从而将经济结果提高了0.16个标准差单位。然而，对于具有最高事先冲突风险的家庭，这些收益是以增加亲密伴侣暴力为代价的。",
+    "abstract_cn": "家庭最重大的经济决策通常是共同做出的，然而行为干预通常针对个体，并优化以克服个人内在约束。我们利用随机对照试验研究针对夫妻的行为干预是否能够克服与家庭内部决策相关的人际约束。在利比里亚农村，我们在一大笔无条件现金转移支付之上叠加了一个促进性的共同财务规划练习，评估其相对于仅现金和纯对照组的效果。与仅现金相比，增加规划增加了转移支付用于生产性投资的金额，从而将经济结果提高了0.16个标准差单位。然而，对于具有最高事先冲突风险的家庭，这些收益是以增加亲密伴侣暴力为代价的。",
     "url": "https://www.nber.org/papers/w35478",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -653,8 +653,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35495",
@@ -667,7 +667,7 @@
       "Fabrizio Panebianco"
     ],
     "abstract": "When a new technology promises large private benefits but may impose social costs that markets do not price, demand need not reveal how citizens want it governed. We examine this using a nationally representative U.S. survey experiment (N=5,556) on human enhancement technologies (HET). The experiment randomizes benefit domain, mechanism, heritability, purpose, and risk across vignettes; for each respondent’s assigned vignette, we elicit stated adoption, preferred regulation, and ethical and societal concerns. Overall, about 53% would adopt. Framing the technology as enhancing rather than restorative lowers adoption by about five percentage points, as much as a severe side-effect profile. About 28% would not adopt at any benefit. This refusal is driven overwhelmingly by the enhancing framing rather than by risk, consistent with a non-compensatory constraint for a substantial subgroup. Most who would adopt still favor strict regulation, and most who would never adopt do not wish to forbid others from doing so. Productivity enhancement generates the most ethical concern of any attribute but attracts the least regulation, and respondents favor subsidizing rather than taxing its adoption, consistent with a concern about access rather than safety. Private demand is therefore an unreliable guide to the governance citizens want, and the divergence we document provides a basis for regulators seeking to align the direction of technical change with societal values and priorities.",
-    "abstract_cn": "当一项新技术承诺带来巨大的私人利益，但可能带来市场无法定价的社会成本时，需求并不揭示公民希望如何对其进行治理。我们利用一项全国代表性的美国调查实验（样本量为5,556）来检验这一问题，调查对象是关于人类增强技术（HET）。实验在不同情景中随机化了利益领域、机制、遗传性、目的和风险；对于每位受访者分配的情景，我们询问了他们对技术的采纳意愿、偏好的监管以及伦理和社会关切。总体而言，大约53%的人会选择采纳。将技术描述为增强型而非修复型会降低约五个百分点的采纳率，与严重副作用的情况相当。大约28%的人无论如何都不会采纳。这种拒绝主要是由增强型框架而非风险驱动的，与一个相当大的子群体的非补偿性约束一致。大多数愿意采纳的人仍然倾向于严格的监管，而大多数永远不会采纳的人不希望禁止他人这样做。在所有属性中，提高生产力的增强技术引发了最多的伦理关切，但吸引的监管最少，受访者倾向于补贴而非征税其采纳，这与对获取而非安全的关切一致。因此，私人需求是不可靠的指导，公民希望如何治理，我们记录的分歧为寻求将技术变革的方向与社会价值观和优先事项相一致的监管者提供了依据。",
+    "abstract_cn": "当一项新技术承诺带来巨大的私人利益，但可能强加市场无法定价的社会成本时，需求并不揭示公民希望如何对其进行治理。我们利用一个全国代表性的美国调查实验（N=5556）来检验这一点，该实验关注人类增强技术（HET）。实验在情景描述中随机化了效益领域、机制、遗传性、目的和风险；对于每位受访者分配的情景描述，我们征询了声明的采纳意愿、偏好的监管以及伦理和社会关切。总体而言，约53%的人会选择采纳。将技术框架定位为增强型而非修复型，会降低约五个百分点的采纳率，与严重的副作用概况相当。约28%的人无论如何都不会采纳。这种拒绝主要由增强型框架而非风险驱动，与一个相当大的子群体的非补偿性约束一致。大多数愿意采纳的人仍然倾向于严格的监管，而大多数永远不会采纳的人不希望禁止他人这样做。在所有属性中，生产力增强引发了最多的伦理关切，但吸引了最少的监管，受访者倾向于补贴而非征税其采纳，与对获取而非安全的关切一致。因此，私人需求是不可靠的指引，公民希望的治理方向，我们记录的分歧为寻求将技术变革方向与社会价值观和优先事项对齐的监管者提供了依据。",
     "url": "https://www.nber.org/papers/w35495",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -675,8 +675,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35486",
@@ -687,7 +687,7 @@
       "Seth Richards-Shubik"
     ],
     "abstract": "Buyers of complex goods and services often rely on the advice of expert intermediaries who are themselves imperfectly informed about the quality of the available options. How well do these intermediaries learn about that quality and act on it? We study this question in the setting of referrals from primary care physicians (PCPs) to specialists, using data on 4.5 million joint replacement surgeries for Medicare beneficiaries. We first document substantial heterogeneity in specialist quality and costs within geographic markets, and we present design-based evidence showing that PCPs adjust their referrals specifically based on the outcomes of their own patients. We then employ a structural learning model of PCP referral choices to quantify the losses from informational frictions and to simulate possible reallocations with improved information. Beyond learning, the model also accounts for limitations on possible reallocations due to habit persistence and capacity constraints. We find that about one-quarter of patients would be referred to a different specialist in the absence of informational frictions, with small but meaningful improvements in patient outcomes.",
-    "abstract_cn": "购买复杂商品和服务的消费者经常依赖专家中介的建议，而这些中介本身对可用选择的质量了解也不完全。这些中介对质量的了解程度如何，又是如何据此行动的？我们以初级保健医生（PCP）向专家转诊的情况为研究背景，使用450万例针对医疗保险受益者的关节置换手术的数据来探讨这一问题。我们首先记录了在地理市场中专家质量和成本的显著异质性，并提出了基于设计的证据，表明PCP会根据自己患者的结果调整转诊。然后，我们采用一个结构化的学习模型来量化PCP转诊选择中的信息摩擦损失，并模拟在信息改善下可能的重新分配。除了学习之外，该模型还考虑了由于习惯持续性和能力限制而对可能的重新分配的限制。我们发现，在没有信息摩擦的情况下，大约四分之一的患者会被转诊给不同的专家，患者结果会有小幅但有意义的改善。",
+    "abstract_cn": "购买复杂商品和服务的消费者经常依赖专家中介的建议，而这些中介本身对可用选择的质量了解有限。这些中介对质量的了解程度如何，又是如何据此行动的？我们以初级保健医生（PCP）向专家转诊的情况为研究背景，使用450万例针对Medicare 受益者的关节置换手术数据来探讨这一问题。我们首先记录了在地理市场中专家质量和成本的显著异质性，并提出了基于设计的证据，表明PCP根据自己患者的结果调整转诊。然后，我们采用结构化的学习模型来量化信息摩擦造成的损失，并模拟在信息改善下可能的重新分配。除了学习之外，该模型还考虑了由于习惯持续性和能力限制而对可能的重新分配的限制。我们发现，在没有信息摩擦的情况下，大约四分之一的患者会被转诊给不同的专家，患者结果会有小幅但有意义的改善。",
     "url": "https://www.nber.org/papers/w35486",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -695,13 +695,13 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35482",
     "title": "Life After Divorce: Effects of Joint Custody on Parents and Children",
-    "title_cn": "离婚之后的生活：共同监护对父母和子女的影响",
+    "title_cn": "离婚后的生活：共同监护对父母和子女的影响",
     "authors": [
       "Stella Canessa",
       "Gordon B. Dahl",
@@ -714,7 +714,7 @@
       "Pengpeng Xiao"
     ],
     "abstract": "Divorce reshapes family life, yet little is known about one of its most consequential features: the allocation of child custody. We study the impact of joint versus sole custody on both parents and children using rich administrative data from Sweden linked to over 25 years of newly-collected court custody rulings. To address selection concerns, we exploit random assignment of custody disputes to judges who differ sharply in their propensity to grant joint custody. For fathers, joint custody substantially raises earnings and improves mental health, consistent with sustained paternal involvement enhancing labor market attachment and psychological well-being. In contrast, there are no measurable labor market or mental health effects for mothers. Turning to children, joint custody increases standardized test scores and school quality without affecting mental health outcomes. Joint custody increases fathers’ chances of remarriage, keeps separated parents in closer geographic proximity, and has no effect on intimate partner violence allegations against either partner. These findings inform longstanding debates over the role of child custody in shaping post-divorce family life.",
-    "abstract_cn": "离婚重塑了家庭生活，然而我们对其最重大特征之一——子女监护权分配——知之甚少。我们利用瑞典丰富的行政数据，结合超过25年新收集的法院监护裁决，研究了共同监护与单独监护对父母和子女的影响。为解决选择性问题，我们利用监护权争议随机分配给法官，这些法官在授予共同监护的倾向上存在显著差异。对父亲而言，共同监护显著提高了收入并改善了心理健康，这与持续的父权参与增强了劳动力市场联系和心理福祉相一致。相比之下，对母亲而言，没有可衡量的劳动力市场或心理健康影响。转向子女，共同监护提高了标准化考试成绩和学校质量，而不影响心理健康结果。共同监护增加了父亲再婚的机会，使分居父母在地理上更接近，并且对任何一方的亲密伴侣暴力指控没有影响。这些发现为关于子女监护权在塑造离婚后家庭生活方面作用的长期辩论提供了信息。",
+    "abstract_cn": "离婚重塑了家庭生活，然而对于其最具影响的特征之一：子女监护权的分配，我们知之甚少。我们利用瑞典丰富的行政数据以及超过25年新收集的法院监护裁决，研究了共同监护与单独监护对父母和子女的影响。为了解决选择性问题，我们利用监护权争议随机分配给法官这一事实，这些法官在授予共同监护的倾向上存在显著差异。对于父亲而言，共同监护显著提高了收入并改善了心理健康，这与持续的父亲参与增强了劳动力市场联系和心理福祉相一致。相比之下，对于母亲而言，没有可衡量的劳动力市场或心理健康影响。转向子女，共同监护提高了标准化考试成绩和学校质量，而不影响心理健康结果。共同监护增加了父亲再婚的机会，使分居的父母在地理上更接近，并且对任何一方的亲密伴侣暴力指控没有影响。这些发现为关于子女监护在塑造离婚后家庭生活方面作用的长期辩论提供了信息。",
     "url": "https://www.nber.org/papers/w35482",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -722,19 +722,19 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35471",
     "title": "Walking with Feet Tied to the Past: Childhood Exposure to the 1918 Influenza Pandemic and Later-Life Male Mortality",
-    "title_cn": "束缚于过去的行走：童年时期暴露于1918年流感大流行与成年后男性死亡率的关系",
+    "title_cn": "束缚于过去的行走：童年时期暴露于1918年流感大流行对成年后男性死亡率的影响",
     "authors": [
       "Hamid Noghanibehambari",
       "Jason Fletcher"
     ],
     "abstract": "Many previous studies have used cross-cohort comparisons and a focus on in utero exposure to document the lingering effects of the 1918 influenza pandemic on survivors’ outcomes later in life. A subset has examined impacts on old-age health and mortality, finding mixed results. This paper contributes to the literature by extending the analysis to evaluate early-life and childhood exposure to the pandemic on old-age longevity along with a set of candidate mechanisms. We employ Social Security Administration death records linked to the full-count 1940 census and employ event-study and difference-in-difference regressions to compare longevity of cohorts with different age-at-exposure who were born in cities with high versus low exposure based on 1918 influenza-related mortality. Our treatment-on-treated calculations suggest that cohorts with age-at-exposure of 3-8 and 9-11 experience 6.4 and 11.2 months reductions in old age longevity; importantly, we note that these cohorts are often used as “controls” in the broader literature. While our main analysis focuses on males due to data constraints, supplementary results suggest smaller and less precise effects for females. An analysis of census data suggests reductions in health, education and socioeconomic scores as potential mechanisms.",
-    "abstract_cn": "许多先前的研究通过跨队列比较并聚焦于宫内暴露，记录了1918年流感大流行对幸存者晚年结果的持续影响。其中一部分研究考察了对老年健康和死亡率的影响，结果不一。本文对文献的贡献在于将分析扩展到评估生命早期和儿童时期暴露于该大流行对老年寿命的影响，并给出一组候选机制。我们将社会保障管理局的死亡记录与1940年全样本人口普查相链接，采用事件研究和双重差分回归方法，比较了不同暴露年龄队列的寿命，这些队列出生在1918年流感相关死亡率高低不同的城市。我们的处理组处理效应（treatment-on-the-treated）计算表明，暴露年龄为3-8岁和9-11岁的队列老年寿命分别缩短了6.4个月和11.2个月；值得注意的是，这些队列在更广泛的文献中常被用作“对照组”。由于数据限制，我们的主要分析集中于男性，但补充结果表明对女性的影响更小且不够精确。对普查数据的分析表明，健康、教育和社会经济得分的下降可能是潜在机制。",
+    "abstract_cn": "许多先前的研究通过跨队列比较和关注宫内暴露，记录了1918年流感大流行对幸存者后来生活中持续影响的证据。其中一部分研究了对老年健康和死亡率的影响，发现结果不一。本文通过扩展分析，评估了大流行早期生活和儿童时期暴露对老年寿命的影响，以及一系列可能的机制。我们利用社会保障管理局的死亡记录，与1940年的全数人口普查数据相链接，并采用事件研究和双重差分回归方法，比较了不同暴露年龄队列的寿命，这些队列出生在1918年流感相关死亡率高和低的城市。我们对处理组处理效应的计算表明，3-8岁和9-11岁暴露年龄的队列在老年寿命上分别减少了6.4个月和11.2个月；重要的是，我们注意到这些队列在更广泛的文献中经常被用作“对照组”。虽然我们的主要分析由于数据限制而集中在男性身上，但补充结果表明女性的影响较小且不够精确。对普查数据的分析表明，健康、教育和社会经济得分的降低可能是潜在的机制。",
     "url": "https://www.nber.org/papers/w35471",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -742,8 +742,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35490",
@@ -754,7 +754,7 @@
       "Joshua S. Gans"
     ],
     "abstract": "AI predicts; humans use its predictions to make decisions. These predictions are combined with human verification and analysis, queries to other statistical models, and so on. The economic value of an AI, therefore, depends on how it interacts with the surrounding decision environment. We describe the value of AI as part of this \"composite experiment\" where AI makes a coarse prediction of the state of the world, show what this means for optimal model training via a geometric argument, explain why optimal training can be discontinuous in economic variables, and study how heterogeneous users or monopoly model trainers affect these results. In particular, maximizing the unconditional accuracy of AI predictions is generally suboptimal.",
-    "abstract_cn": "人工智能进行预测；人类则利用这些预测来做出决策。这些预测与人类的验证和分析相结合，查询其他统计模型等。因此，人工智能的经济价值取决于它如何与周围的决策环境相互作用。我们描述了人工智能作为“复合实验”一部分的价值，其中人工智能对世界状态做出粗略预测，展示了这对最优模型训练意味着什么，通过几何论证说明了为什么最优训练在经济变量中可能是不连续的，并研究了不同用户或垄断模型训练者如何影响这些结果。特别是，通常来说，最大化人工智能预测的无条件准确性并不是最优的。",
+    "abstract_cn": "人工智能进行预测；人类利用这些预测来做出决策。这些预测与人类的验证和分析相结合，查询其他统计模型等。因此，人工智能的经济价值取决于它如何与周围的决策环境相互作用。我们描述了人工智能作为这个“复合实验”的一部分的价值，其中人工智能对世界状态进行了粗略预测，展示了这对最优模型训练意味着什么，通过一个几何论证，解释了为什么最优训练在经济变量中可能是不连续的，并研究了不同用户或垄断模型训练者如何影响这些结果。特别是，通常来说，最大化人工智能预测的无条件准确性是次优的。",
     "url": "https://www.nber.org/papers/w35490",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -762,8 +762,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35506",
@@ -774,7 +774,7 @@
       "Thierry Verdier"
     ],
     "abstract": "In this paper we survey recent advances in the economic theory of identity formation. We restrict our analysis to models which conceptualize identity formation as embedded into an inter-generational cultural transmission process, and therefore have implications for the dynamics of social identity. Through the lens of a general framework linking identity formation to cultural evolution, we discuss issues related to the dynamics of oppositional, racial, or minority attitudes, cultural polarization, identity switching, and openness to alternative identities. An application of the set-up to multidimensional identities constructed from combinations of characteristics, provides conditions under which societies converge (or not) toward narrow identities centered on salient markers such as religion, ethnicity, or race. We conclude by outlining promising avenues for future research.",
-    "abstract_cn": "本文回顾了身份形成经济理论的最新进展。我们将分析限定在把身份形成概念化为嵌入跨代文化传递过程的模型中，因此对社会身份的动态具有含义。通过一个将身份形成与文化演化联系起来的一般框架，我们讨论了与对抗性、种族或少数群体态度的动态、文化极化、身份转换以及对替代身份开放性相关的问题。将这一设定应用于由多种特征组合构建的多维身份，我们给出了社会是否趋向（或不趋向）于以宗教、族裔或种族等显著标志为中心的狭窄身份的条件。最后，我们概述了未来有前景的研究方向。",
+    "abstract_cn": "在本文中，我们回顾了身份形成经济理论的最新进展。我们将分析限定在将身份形成概念化为嵌入跨代文化传递过程中的模型，因此对社会身份的动态有影响。通过一个将身份形成与文化演化联系起来的一般框架，我们讨论了与对抗性、种族或少数群体态度的动态、文化极化、身份转换以及对替代身份的开放性相关的问题。将这种设置应用于由特征组合构建的多维身份，提供了社会是否（或不）汇聚到以宗教、族裔或种族等显著标志为中心的狭窄身份的条件。最后，我们概述了未来研究的有前景的途径。",
     "url": "https://www.nber.org/papers/w35506",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -782,13 +782,13 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35494",
     "title": "The Price of Political Ties: Reputational Risk and the Strategic Divestment of Corporate PACs",
-    "title_cn": "政治关系的代价：声誉风险与企业政治行动委员会的战略撤资",
+    "title_cn": "政治关系的代价：声誉风险与企业政治行动委员会的战略性撤资",
     "authors": [
       "Eric A. Baldwin",
       "Takuma Iwasaki",
@@ -796,7 +796,7 @@
       "Charlie Grabois"
     ],
     "abstract": "Political contributions generate access and influence for firms, but their public visibility exposes firms to reputational risk. We study how firms adjust their political spending when the reputational cost of political ties rises sharply. To identify this response, we exploit fatal school shootings and mass shootings as exogenous shocks to the salience of gun violence in the United States. We implement a staggered difference-in-differences design on a panel of corporate PAC contributions to U.S. House candidates, 2000–2024. We find that corporate PACs divest selectively and temporarily following gun violence shocks. Contributions to Republican candidates fall by 70.3% after fatal school shootings in competitive districts and return to baseline within nine months, with no substitution toward Democratic candidates. A parallel penalty of 60.9% emerges for Republicans in safe Democratic districts but is absent in safe Republican districts. Mass shootings generate similar perturbations in corporate contributions. These patterns indicate that firms withdraw only where the reputational risk of continued association is high or its strategic value is low. The observed divestment appears across industries and is stronger for firms with greater consumer exposure. Our findings reveal that firms treat political ties as time-varying liabilities, temporarily withdrawing visible financial support when issue salience spikes and resuming once public attention fades, leaving firms’ long-run political investment intact. Since public pressure is limited and dissipates quickly, and corporate divestment is transient rather than durably reallocated, the underlying financial incentives facing policymakers remain unchanged in the long run, sustaining the policy status quo.",
-    "abstract_cn": "政治献金为企业带来接触渠道和影响力，但其公开可见性也使企业面临声誉风险。我们研究了当政治联系的声誉成本急剧上升时，企业如何调整其政治支出。为了识别这种反应，我们将致命校园枪击案和大规模枪击事件作为美国枪支暴力显著度的外生冲击加以利用。我们对2000-2024年间企业政治行动委员会（PAC）对美国众议院候选人的政治献金面板采用了交错双重差分设计。我们发现，在枪支暴力冲击之后，企业PAC会进行选择性且暂时性的撤资。在竞争激烈的选区，致命校园枪击案发生后对共和党候选人的献金下降了70.3%，并在九个月内恢复到基线水平，且并未转向民主党候选人。在安全的民主党选区，共和党也受到类似的60.9%的惩罚，但在安全的共和党选区则没有出现这种情况。大规模枪击事件对企业献金也产生了类似的扰动。这些模式表明，企业只在持续关联的声誉风险较高或其战略价值较低的情况下才会撤资。所观察到的撤资现象出现在各个行业，并且在面向消费者的暴露程度更高的企业中更为明显。我们的发现揭示了，企业将政治联系视为随时间变化的负债：在议题显著度飙升时暂时撤回可见的财务支持，在公众注意力消退后即恢复，从而使企业的长期政治投资保持不变。由于公众压力有限且迅速消散，企业撤资是短暂性的而非持久性再配置，因此政策制定者所面临的基本财务激励在长期内保持不变，从而维持了政策现状。",
+    "abstract_cn": "政治献金为企业带来接触和影响力，但其公众可见性使企业面临声誉风险。我们研究了当政治联系的声誉成本急剧上升时，企业如何调整其政治献金。为了识别这种反应，我们利用致命校园枪击案和大规模枪击事件作为美国枪支暴力关注度的外生冲击。我们对2000-2024年间企业政治行动委员会（PAC）对美国众议院候选人的政治献金进行了交错双重差分设计。我们发现，在枪支暴力冲击后，企业PAC选择性地和暂时性地撤资。在竞争激烈的选区，致命校园枪击案后对共和党候选人的献金下降了70.3%，并在九个月内恢复到基线水平，并没有转向民主党候选人。在安全的民主党选区，共和党也出现了类似的60.9%的惩罚，但在安全的共和党选区则没有出现。大规模枪击事件在企业献金中产生了类似的扰动。这些模式表明，企业只在声誉风险高或其战略价值低的地方撤资。观察到的撤资现象出现在各个行业，并且对于面向消费者程度更高的企业更为强烈。我们的发现揭示了企业将政治联系视为随时间变化的责任，在问题关注度激增时暂时撤回可见的财政支持，并在公众注意力减退后恢复，使企业的长期政治投资保持不变。由于公众压力有限且迅速消散，企业撤资是短暂的而不是持久重新分配的，因此政策制定者面临的基本财政激励在长期内保持不变，维持了政策现状。",
     "url": "https://www.nber.org/papers/w35494",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -804,8 +804,8 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   },
   {
     "id": "w35493",
@@ -816,7 +816,7 @@
       "Silvia Vannutelli"
     ],
     "abstract": "We study how firms and workers adjust when previously restricted migrants gain full and portable work rights in a labor market with substantial informality. We exploit the 2007 EU accession of Bulgaria and Romania, which granted unrestricted work rights to Italy's largest migrant group. Using matched employer–employee administrative data and an IV-DID design, we find that firms suddenly and persistently shift employment composition toward EU07 workers, compressing the native employment share without reducing native hiring or increasing separations. We don't detect any significant change in wages for either natives or EU07 workers. For migrants, this null effect reflects offsetting compositional shifts as newly observed and incumbent EU07 workers enter the formal workforce with different wage trajectories. Consistent with a shift in bargaining power toward workers, EU07 migrants experienced significant gains in job mobility and job security. Overall, the evidence suggests that removing legal restrictions reshaped firms’ personnel choices and altered migrants’ employment relationships, improving their outside options, bargaining position, and access to more secure jobs.",
-    "abstract_cn": "我们研究在存在大量非正规就业的劳动力市场中，当先前受限的移民获得完整且可携带的工作权利时，企业和工人如何调整。我们利用2007年保加利亚和罗马尼亚加入欧盟的事件，该事件赋予了意大利最大的移民群体无限制的工作权利。通过使用匹配的雇主-雇员行政数据和工具变量-双重差分设计，我们发现企业突然且持续地将就业构成向EU07工人倾斜，压缩了本地人的就业份额，而并未减少本地人的招聘或增加其离职。我们没有检测到本地人或EU07工人的工资发生任何显著变化。对移民而言，这种无效效应反映了相互抵消的构成变化，因为新观测到的EU07工人与原有的EU07工人以不同的工资轨迹进入正规劳动力市场。与议价能力向工人转移相一致，EU07移民在工作流动性和工作保障方面获得了显著提升。总体而言，证据表明取消法律限制重塑了企业的人事选择，并改变了移民的就业关系，改善了他们的外部选择、议价地位以及获得更安全工作的机会。",
+    "abstract_cn": "我们研究了在非正规就业普遍的劳动力市场中，当先前受限的移民获得完整且可携带的工作权利时，企业和工人如何调整。我们利用2007年保加利亚和罗马尼亚加入欧盟的事件，该事件授予意大利最大的移民群体无限制的工作权利。通过使用匹配的雇主-雇员行政数据和工具变量-双重差分设计，我们发现企业突然且持续地将就业构成转向2007年欧盟成员国工人，压缩了本地人的就业份额，而没有减少本地人的招聘或增加离职。我们没有检测到本地人或2007年欧盟成员国工人的工资有任何显著变化。对于移民来说，这种无影响反映了构成变化的抵消效应，因为新观察到的和现有的2007年欧盟成员国工人以不同的工资轨迹进入正规劳动力市场。与向工人转移议价能力一致，2007年欧盟成员国移民在工作流动性和工作保障方面经历了显著的收益。总体而言，证据表明，取消法律限制重塑了企业的人事选择，并改变了移民的就业关系，改善了他们的外部选择、议价地位和获得更稳定工作的机会。",
     "url": "https://www.nber.org/papers/w35493",
     "public_date": "2026-07-20",
     "translation_status": {
@@ -824,7 +824,7 @@
       "abstract": "success"
     },
     "translation_error": null,
-    "translation_prompt_version": "econ-zh-v6-6b9be5fbe9",
-    "fetched_at": "2026-07-20T05:22:39Z"
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-07-20T07:58:21Z"
   }
 ]
