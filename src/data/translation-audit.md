@@ -1,6 +1,6 @@
 # Translation Audit
 
-- Generated at: `2026-07-27T12:47:46Z`
+- Generated at: `2026-08-03T08:28:55Z`
 - Paper count: `31`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
@@ -35,11 +35,17 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| Campbell | w35513 |
-| CHDs | w35533 |
-| Hilscher | w35513 |
-| Outlook | w35528 |
-| Szilagyi | w35513 |
+| ACT | w35543 |
+| Burdett | w35554 |
+| H-1B | w35560 |
+| LLM | w35546 |
+| LoD | w35547 |
+| Mortensen | w35554 |
+| NFE | w35544 |
+| Pessoal | w35553 |
+| PPI | w35562 |
+| Quadros | w35553 |
+| RDT | w35543 |
 
 ## Maintenance Notes
 

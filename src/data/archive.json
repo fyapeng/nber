@@ -1,5 +1,667 @@
 [
   {
+    "batch_date": "2026-08-03",
+    "last_updated": "2026-08-03T08:28:55Z",
+    "paper_count": 31,
+    "papers": [
+      {
+        "id": "w35561",
+        "title": "The Anatomy of Tariff Pass-through into Consumer Prices",
+        "title_cn": "关税传导至消费品价格的解剖分析",
+        "authors": [
+          "Mary Amiti",
+          "Sebastian Heise",
+          "David Weinstein"
+        ],
+        "abstract": "Tariffs raise the prices of goods made at home, not just the imports they tax—an effect that standard pass-through estimates largely miss. Studying the 2025 U.S. tariffs, we find that about 26 percent of the tariff increase passes through to consumer prices. These estimates are measured relative to less-exposed goods and hold aggregate conditions fixed. The direct effect accounts for 64 percent of this increase, as tariffs raise the consumer prices of foreign varieties of a good. The remaining 36 percent arises indirectly—tariffs raise the cost of imported inputs used by U.S. producers, and domestic producers raise their markups because they face less competition from higher-priced imports. The direct effect passes through quickly, since tariffs raise import prices almost immediately, but the indirect effect takes nine to twelve months to work its way through supply chains. As a result, tariffs have a larger and more drawn-out impact on consumers than the direct effect alone would suggest.",
+        "abstract_cn": "关税提高了国内制造商品的价格，而不仅仅是它们征税的进口商品——这一效应在标准传导估计中大多被忽略了。研究2025年美国的关税，我们发现大约26%的关税增长传导到了消费者价格。这些估计相对于暴露程度较低的商品进行测量，并将总体条件保持不变。直接效应占这种增长的64%，因为关税提高了商品外国品种的消费者价格。剩下的36%是间接产生的——关税提高了美国生产商使用的进口投入品的成本，国内生产商提高他们的价格加成，因为他们面临的来自价格更高的进口商品的竞争减少了。直接效应迅速传导，因为关税几乎立即提高了进口价格，但间接效应需要九到十二个月才能通过供应链发挥作用。因此，关税对消费者的影响比单独直接效应所暗示的更大、更持久。",
+        "url": "https://www.nber.org/papers/w35561",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35554",
+        "title": "A Theory of Firm Wage Dynamics",
+        "title_cn": "企业工资动态理论",
+        "authors": [
+          "Marc de la Barrera",
+          "Masao Fukui"
+        ],
+        "abstract": "We develop a theory of firm wage dynamics that integrates the canonical wage-posting model à la Burdett and Mortensen (1998) with firm dynamics. Firms offer dynamic wage contracts under an equal-treatment constraint in the presence of search frictions. We provide an analytical characterization of equilibrium wage contracts and firm growth as functions only of the distribution of marginal surplus. Consistent with recent empirical evidence, the model implies that (i) firm wages are strongly linked to firm growth but not to firm size; (ii) firm wages decline over the firm life cycle; and (iii) the pass-through of permanent productivity shocks to wages is higher in the short run than in the long run. Firms at the top of the job ladder face excessive labor market competition, so the optimal policy subsidizes their hiring. At the macro level, the optimal policy elevates business dynamism in the steady state, and even more so along the transition.",
+        "abstract_cn": "我们发展了一个将经典工资发布模型（Burdett 和 Mortensen，1998）与企业动态相结合的企业工资动态理论。在存在搜索摩擦的情况下，企业在平等待遇约束下提供动态工资合同。我们提供了均衡工资合同和企业增长的分析特征，这些特征仅以边际剩余的分布为函数。与最近的实证证据一致，模型意味着：（i）企业工资与企业增长密切相关，但与企业规模无关；（ii）企业工资随着企业生命周期的推移而下降；（iii）永久性生产率冲击对工资的传导在短期内高于长期。处于职业阶梯顶端的企业面临过度的劳动力市场竞争，因此最优政策是补贴他们的招聘。在宏观层面，最优政策在稳态中提升了商业活力，并且在过渡期间更是如此。",
+        "url": "https://www.nber.org/papers/w35554",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35558",
+        "title": "Unpacking Treatment Effect Heterogeneity in a Large-Scale Dropout-Prevention Experiment",
+        "title_cn": "解析大规模辍学预防实验中的处理效应异质性",
+        "authors": [
+          "Thomas Dee",
+          "Chloe R. Gibbs",
+          "Rebecca Margolit-Chan",
+          "Lillian Morrell",
+          "James X. Sullivan"
+        ],
+        "abstract": "Timely high school completion is a critical step in successful transitions to post-secondary schooling and the labor market. This randomized controlled trial, deployed in two urban, disadvantaged school districts, tests the effectiveness of a mature and comprehensive student-support program on an unusually large scale (n=2,528). While overall effects on graduation rates are small and statistically insignificant, exploratory analyses reveal notable variation by site and over time, mirroring heterogeneity in treatment timing and program implementation. These findings highlight the challenges of scaling interventions and raise concerns about generalizing results from small-scale, single-site evaluations.",
+        "abstract_cn": "及时完成高中学业是成功过渡到高等教育和劳动力市场的关键一步。这项随机对照试验在两个城市贫困地区的学区进行，测试了一个成熟且全面的学生会支持计划在异常大规模（n=2,528）上的有效性。虽然对毕业率的整体影响小且统计上不显著，但探索性分析揭示了地点和时间上的显著变化，反映了治疗时机和项目实施的异质性。这些发现突出了扩大干预措施的挑战，并引发了对从小规模、单一地点评估中推广结果的担忧。",
+        "url": "https://www.nber.org/papers/w35558",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35565",
+        "title": "Common Ownership and Collusion",
+        "title_cn": "共同所有权与合谋",
+        "authors": [
+          "Vincent Abraham",
+          "Florian Ederer",
+          "Catarina Marvao"
+        ],
+        "abstract": "We provide the first empirical evidence that common ownership can facilitate explicit collusion. Our unique setting, the population of legal cartels in Sweden, lets us observe cartel formation, duration, and dissolution without the sample-selection bias that plagues studies of detected cartels. Combining hand-collected ownership data with the universe of registered cartels, we compute firm-pair profit weights (κ) that measure how much one firm internalizes a rival's profits. Higher profit weights are associated with a greater likelihood of cartel participation, predict future cartel involvement, and are linked to longer cartel duration. Firms also reduce their profit weights immediately after a cartel dissolves. However, this relationship is concentrated among pairs in which the firm that internalizes the rival firm's profits colludes while the rival does not. Common ownership therefore complements a firm’s own participation in explicit collusion but substitutes for cartel participation by the rival whose profits it internalizes.",
+        "abstract_cn": "我们首次提供了实证证据，表明共同所有权可以促进明确的合谋行为。我们独特的研究环境——瑞典的合法卡特尔群体——使我们能够观察到卡特尔的形成、持续时间和解散，而不受困扰已侦测卡特尔研究的样本选择偏差的影响。我们将手工收集的所有权数据与注册卡特尔的全集结合起来，计算了企业对利润权重（κ），这一指标衡量了一个企业在多大程度上内化了竞争对手的利润。更高的利润权重与参与卡特尔的可能性更大相关，可以预测未来的卡特尔参与，并且与更长的卡特尔持续时间相关联。企业在卡特尔解散后立即降低其利润权重。然而，这种关系集中在那些内化竞争对手利润的企业合谋而竞争对手不参与的配对中。因此，共同所有权补充了企业自身参与明确合谋的行为，但替代了它内化利润的竞争对手的卡特尔参与。",
+        "url": "https://www.nber.org/papers/w35565",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35545",
+        "title": "Detecting Critical Junctures as They Unfold: Foundations, Measurement, and Applications from 120 Years of Reporting",
+        "title_cn": "在事件发展中识别关键转折点：基于120年报告的基础、测量与应用",
+        "authors": [
+          "Michael Callen",
+          "Gregory Levy",
+          "Saipremnath Muthukumaran",
+          "Jonathan L. Weigel",
+          "Noam Yuchtman"
+        ],
+        "abstract": "Explaining why some countries grow rich while others remain poor requires knowing how — and when — institutions change. A large body of research argues that institutional change often occurs at critical junctures: moments when multiple institutional futures are possible, including a return to the status quo. Yet most empirical work examines critical junctures only in retrospect, risking the omission of pivotal moments when institutions were in flux but ultimately remained unchanged. We develop a new empirical approach to detect critical junctures as they unfold. Our key insight is to understand critical junctures as moments of uncertainty about institutions, which provides a text classifier with a theoretically motivated object to detect in contemporaneous discourse. In this chapter, we apply this idea to the study of historical critical junctures using newspaper text as a rich source of information regarding contemporary beliefs about institutional uncertainty. We translate this insight into a measurement strategy by training a large language model-based classifier, which we apply to the Times of London archive — 11.95 million articles spanning 1800 to 2019 — while focusing our main empirical analysis on 120 years of reporting from 1900 to 2019. This produces the first long-run, text-based measure of institutional uncertainty grounded in the concept of critical junctures. Compared to established indices of geopolitical and economic risk, our measure innovates on several fronts: (i) it captures high uncertainty even in periods without formal institutional change, consistent with ex-ante definitions of critical junctures; (ii) it provides earlier signals of major global convulsions, such as World War I; (iii) it evaluates candidate critical junctures using a common ex ante measure; and (iv) it opens new avenues for studying how critical junctures shape institutions and long-run development. Today, our Times-based index suggests that institutional uncertainty in the US and UK is as elevated as it was in the early 1940s — a signal missed by other leading measures of risk.",
+        "abstract_cn": "解释为何一些国家能够变得富裕而其他国家仍然贫穷，需要了解制度如何以及何时发生变化。大量研究认为，制度变化经常发生在关键时刻：在这些时刻，多种制度未来都有可能出现，包括回归现状。然而，大多数实证工作仅在事后考察关键时刻，这可能会遗漏制度处于变动之中但最终未发生改变的关键时期。我们开发了一种新的实证方法来实时检测关键时刻。我们的关键洞见是将关键时刻理解为对制度的不确定性时刻，这为文本分类器提供了一个理论上有动机的目标，用于在当代话语中检测。在本章中，我们将这一理念应用于历史关键时刻的研究，使用报纸文本作为关于当代对制度不确定性信念的丰富信息源。我们将这种洞见转化为一种测量策略，通过训练一个基于大型语言模型的分类器，将其应用于《泰晤士报》档案——涵盖1800年至2019年的1195万篇文章——同时将我们的主要实证分析集中在1900年至2019年的120年报道上。这产生了第一个基于关键时刻概念的长期、基于文本的制度不确定性度量。与已建立的地缘政治和经济风险指数相比，我们的度量在几个方面进行了创新：（i）即使在没有正式制度变化的时期，它也能捕捉到高不确定性，与关键时刻的ex-ante定义一致；（ii）它为重大全球动荡（如第一次世界大战）提供了更早的信号；（iii）它使用一个共同的ex-ante度量来评估候选关键时刻；以及（iv）它为研究关键时刻如何塑造制度和长期发展开辟了新途径。今天，我们基于《泰晤士报》的指数表明，美国和英国的制度不确定性与20世纪40年代初一样高——这是其他领先风险度量所错过的信号。",
+        "url": "https://www.nber.org/papers/w35545",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35546",
+        "title": "Time Travel on Professional Profiles",
+        "title_cn": "职业档案中的时间旅行",
+        "authors": [
+          "Nicholas Bloom",
+          "Gideon Moore",
+          "Lisa K. Simon",
+          "Caelan Wilkie-Rogers"
+        ],
+        "abstract": "Economists increasingly use professional profile data to reconstruct employment histories and measure skill supply. We show that these records are not fixed historical snapshots, but mutable accounts that workers revise over time. Using monthly vintages of Revelio Labs data from 2020–2026, we document that 19.7 percent of established U.S. LinkedIn users retroactively edit the title or description of a job they have already left. These “time-travel” edits are closely tied to labor market transitions: around such edits, workers are much more likely to change employers as compared to later-editing users. This mutability can bias historical measures of skills, but it also reveals workers’ beliefs about which skills are in demand. Retroactive edits show sharp post-2022 increases in AI-related language and recent reductions in work-from-home and DEI language. Finally, LLM-associated writing markers surge after ChatGPT, especially among less-educated groups and MBAs from lower-ranked programs, revealing heterogeneous AI-assisted profile editing.",
+        "abstract_cn": "经济学家越来越多地使用职业档案数据来重建就业历史和衡量技能供给。我们展示这些记录并非固定的历叐快照，而是工人随时间修订的可变账户。利用2020至2026年间Revelio Labs数据的月度版本，我们记录到19.7%的美国LinkedIn用户对他们已经离开的职位的头衔或描述进行了追溯性编辑。这些“穿越时空”的编辑与劳动力市场转换密切相关：与这些编辑相比，工人更有可能更换雇主，而不是后来编辑的用户。这种可变性可能会对技能的历史测量产生偏差，但它也揭示了工人对哪些技能有需求的信念。追溯性编辑显示，2022年后与人工智能相关的语言急剧增加，而在家工作和DEI（多样性、平等与包容）语言最近有所减少。最后，与大型语言模型（LLM）相关的写作标记在ChatGPT之后激增，特别是在受教育程度较低的群体和排名较低的MBA项目中，揭示了异质的人工智能辅助个人资料编辑。",
+        "url": "https://www.nber.org/papers/w35546",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35541",
+        "title": "Financial Interdependence and Currency Internationalization",
+        "title_cn": "金融相互依存与货币国际化",
+        "authors": [
+          "Zhengyang Jiang"
+        ],
+        "abstract": "Does financial opening necessarily lead to currency internationalization? To study the competition between incumbent and rising powers under financial interdependence, we develop a model of asset demand with microfounded network effects. Search frictions with currency-specialized intermediaries generate distinct notions of liquidity at asset-market and currency-area levels, which jointly shape the trajectory of currency competition. In the U.S.-China context, China at early stages of financial development benefits from pooling its assets with the dollar area, which reinforces the status quo. As China's financial markets deepen, RMB issuance allows China to internalize network effects and erode the dollar's dominance, triggering a discrete shift toward fragmentation. This transition is further shaped by sanctions, financial repression, and third-country responses, highlighting how financial interdependence transforms cooperation into rivalry in the evolution of the international financial order.",
+        "abstract_cn": "金融开放是否必然导致货币国际化？为了研究金融相互依存下既有大国与新兴大国之间的竞争，我们构建了一个具有微观基础网络效应的资产需求模型。货币专业中介机构存在的搜索摩擦在资产市场和货币区域层面产生了不同的流动性概念，这两者共同塑造了货币竞争的轨迹。在美国-中国的背景下，中国在金融发展的早期阶段从将其资产与美元区域合并中获益，这加强了现状。随着中国金融市场的深化，人民币发行使中国能够内部化网络效应，侵蚀美元的主导地位，引发向分裂的离散转变。这一转变进一步受到制裁、金融压制和第三国反应的影响，突出了金融相互依存如何在国际金融秩序的演变中将合作转变为竞争。",
+        "url": "https://www.nber.org/papers/w35541",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35551",
+        "title": "Chinese Sputnik Moments?",
+        "title_cn": "中国的斯普特尼克时刻？",
+        "authors": [
+          "Josh Lerner",
+          "Namrata Narain",
+          "Dimitris Papanikolaou",
+          "Amit Seru",
+          "Zunda Winston Xu"
+        ],
+        "abstract": "China’s technological progress in recent decades has been viewed with admiration, alarm, and (in some cases) doubt. To better understand the Chinese innovation ecosystem, we compile a dataset of almost 14 million domestic Chinese patent publications. We focus on the subset of critical technologies identified by the U.S. Department of Defense. Several surprising patterns emerge from the data: Chinese patenting is strongly associated with other measures of innovative progress; patents are not concentrated in corporate giants such as Huawei; universities have played a key role in innovation, much greater than state-owned enterprises or government-owned facilities; and fewer than one in ten Chinese critical technology patents involves an inventor with U.S. experience or training. Finally, using four text-based measures of patent quality, we show that the rise of Chinese patenting in critical technologies has not been associated with a decline in quality relative to the U.S. awards.",
+        "abstract_cn": "近几十年来，中国的技术进步引起了钦佩、警觉，甚至在某些情况下还有怀疑。为了更好地理解中国的创新生态系统，我们编制了一个包含近1400万份中国国内专利出版物的数据集。我们专注于美国国防部确定的关键技术子集。数据中出现了几个令人惊讶的模式：中国的专利申请与其它创新进展的衡量指标密切相关；专利并不集中在华为等企业巨头手中；大学在创新中发挥了关键作用，其作用远大于国有企业或政府拥有的设施；而且不到十分之一的中国关键技术专利涉及具有美国经验或培训的发明人。最后，使用四种基于文本的专利质量衡量指标，我们表明中国在关键技术领域的专利申请上升并没有伴随着与美国授予的专利相比质量的下降。",
+        "url": "https://www.nber.org/papers/w35551",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35550",
+        "title": "Ambiguous Attribution: Theory and Evidence",
+        "title_cn": "模糊归因：理论与证据",
+        "authors": [
+          "Ricardo Alonso",
+          "Monica Martinez-Bravo",
+          "Gerard Padró I Miquel",
+          "Carlos Sanz",
+          "Silvia Vannutelli"
+        ],
+        "abstract": "Clarity of responsibility is an essential element of political accountability. We develop a rational model of Bayesian updating in the presence of ambiguous attribution and we test its predictions using an original survey. We show that respondents’ partisanship, assessment of public healthcare quality, and beliefs over which layer of government is responsible for healthcare are correlated as predicted: good-assessment voters attribute responsibility to the layer governed by their preferred party, while bad-assessment voters blame the layer governed by the party they dislike. These partisan patterns of credit and blame, often interpreted as evidence of motivated reasoning or partisan bias, can thus arise from rational Bayesian updating under attribution ambiguity. No such partisan patterns exist where the same party is in charge of regional and central government. A survey experiment in which we inform subjects of the official quality of healthcare has them update in the predicted, partisan, direction. Model and empirical results show that partisan priors are extremely hard to dislodge when attribution is ambiguous.",
+        "abstract_cn": "责任明确性是政治问责制的一个基本要素。我们构建了一个在模糊归因情况下贝叶斯更新的理性模型，并使用一项原创调查来测试其预测。我们发现，受访者的党派身份、对公共医疗质量的评估以及对哪一层政府负责医疗保健的信念，如预测所示是相关的：对医疗质量评价高的选民将责任归咎于他们偏好的政党所控制的政府层级，而评价低的选民则将责任归咎于他们不喜欢的政党所控制的政府层级。这些党派性的赞誉和指责模式，通常被解释为动机推理或党派偏见的证据，因此可能源于在归因模糊性下的理性贝叶斯更新。在同一个政党同时控制区域和中央政府的情况下，不存在这样的党派模式。我们进行的一项调查实验中，当告知受访者官方医疗质量时，他们按照预测的党派方向更新信念。模型和实证结果表明，在归因模糊时，党派先验信念极难被动摇。",
+        "url": "https://www.nber.org/papers/w35550",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35549",
+        "title": "Selecting Innovation Funding Mechanisms: A Framework for Policymakers",
+        "title_cn": "选择创新资助机制：为政策制定者提供的框架",
+        "authors": [
+          "Matthew S. Clancy",
+          "Matthew Esche",
+          "Siddhartha Haria",
+          "Claire T. McMahon",
+          "Christopher M. Snyder",
+          "Caleb Watney"
+        ],
+        "abstract": "The U.S. federal government spends roughly $150 billion a year on research and development through mechanisms ranging from grants and contracts to prizes, advance market commitments, and tax credits. These funding mechanisms differ markedly in risk allocation, decision authority, and incentive power, yet policymakers have little systematic guidance for choosing among them. We develop a framework that asks the policymaker three initial questions about the contracting environment: Can they articulate the work to be done? Can they specify what would constitute a successful solution? Can they identify the most capable performers to contract with? The answers considerably narrow the set of viable mechanisms, enabling a more tractable choice of the efficient mechanism based on further considerations from the innovation-economics literature.",
+        "abstract_cn": "美国联邦政府每年通过各种机制在研究与开发上投入约1500亿美元，这些机制包括从赠款、合同到奖励、预先市场承诺和税收抵免等。这些资金机制在风险分配、决策权限和激励力度方面存在显著差异，然而政策制定者在选择它们时几乎没有系统的指导。我们开发了一个框架，要求政策制定者回答三个关于合同环境的初始问题：他们能否明确要完成的工作？他们能否具体说明什么构成成功的解决方案？他们能否识别出最有能力的执行者来签订合同？这些答案大大缩小了可行机制的范围，使得基于创新经济学文献中进一步考虑的更易处理的高效机制选择成为可能。",
+        "url": "https://www.nber.org/papers/w35549",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35543",
+        "title": "Tying Incentives to Information: Diagnosis-Contingent Contracts and Biased Beliefs in Healthcare",
+        "title_cn": "将激励与信息挂钩：医疗保健中基于诊断的合同与偏见信念",
+        "authors": [
+          "Maria Dieci",
+          "Paul Gertler",
+          "Jonathan T. Kolstad",
+          "Carlos Paramo"
+        ],
+        "abstract": "Unnecessary treatment reflects a gap between what patients believe about their health and their true condition; people often seek and consume care for diseases they suspect, but do not know that actually have. The value a patient places on testing therefore depends on their priors about being sick, and when those beliefs are biased, the resulting testing rate might be sub-optimal and leave welfare on the table. We study diagnosis-contingent incentive contracts, which tie treatment incentives to diagnostic results. For malaria, the contract subsidizes rapid diagnostic tests (RDTs) and antimalarials (ACTs) only for patients who test positive. In a cluster-randomized experiment across 140 Kenyan pharmacies, both patient subsidies and provider incentives roughly tripled testing and sharply reduced unnecessary ACT purchases among test-negative patients, working through distinct channels: patient subsidies through lower prices, provider incentives through information and advice. A model of patient choice implies these contracts raise social welfare well above their cost. Estimating the model structurally, we find that because patients substantially overestimate their infection risk, loading incentives onto diagnosis-contingent treatment discounts delivers four times the welfare gains of free testing programs.",
+        "abstract_cn": "不必要的治疗反映了患者对其健康状况的信念与实际情况之间的差距；人们经常寻求并消费他们怀疑自己患有的疾病的治疗，但实际上并不知道自己是否真的患有这些疾病。因此，患者对检测的价值取决于他们对生病的先验信念，当这些信念存在偏差时，由此产生的检测率可能是次优的，并且会留下未被利用的福利。我们研究了与诊断结果挂钩的激励合同，这些合同将治疗激励与诊断结果联系起来。对于疟疾，该合同只为检测呈阳性的患者补贴快速诊断检测（RDT）和抗疟药物（ACT）。在肯尼亚140家药店进行的群组随机实验中，患者补贴和供应商激励使检测率大致增加了三倍，并显著减少了检测阴性患者不必要的ACT购买，这些效果通过不同的渠道发挥作用：患者补贴通过降低价格，供应商激励通过提供信息和建议。患者选择模型意味着这些合同将社会福利提高到了远高于其成本的水平。通过结构性估计该模型，我们发现由于患者大幅高估了他们的感染风险，将激励加载到基于诊断的治疗方案折扣上，其福利收益是免费检测计划的四倍。",
+        "url": "https://www.nber.org/papers/w35543",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35564",
+        "title": "Improving Financial Literacy: From Corporate Finance to Personal Finance",
+        "title_cn": "提升金融素养：从公司金融到个人金融",
+        "authors": [
+          "Annamaria Lusardi"
+        ],
+        "abstract": "This article provides an overview of the literature on financial literacy. It covers the initial measurement that created the Big Three questions and measures of personal finance knowledge featuring 28 questions. It shows that levels of financial literacy are low and have not been improving over time. This is true not only in the United States but also in countries worldwide. These findings matter because financial literacy is conducive to savvy financial behaviors, from holding precautionary savings to planning for retirement to many other financial decisions. Financial education programs have grown exponentially over time, providing important insights into their cost-effectiveness. Personal finance courses have been added to high school and college curricula, and the evidence indicates that they are useful initiatives to improve financial knowledge and downstream behavior.",
+        "abstract_cn": "本文综述了金融知识方面的文献。它涵盖了最初创建的“三大问题”以及包含28个问题的个人理财知识测量。研究表明，金融知识水平较低，且随时间没有改善。这不仅在美国如此，全球各国也是如此。这些发现很重要，因为金融知识有助于精明的金融行为，从持有预防性储蓄到规划退休，再到许多其他金融决策。金融教育项目随时间呈指数级增长，为它们的成本效益提供了重要见解。个人理财课程已纳入高中和大学课程，证据表明，它们是提高金融知识和后续行为的有益举措。",
+        "url": "https://www.nber.org/papers/w35564",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35560",
+        "title": "Long-Run Effects of H-1B Immigration on the U.S. Economy",
+        "title_cn": "H-1B 移民对美国经济的长期影响",
+        "authors": [
+          "Ran Abramitzky",
+          "Leah Platt Boustan",
+          "Ahmet Gulek",
+          "Jens Hainmueller"
+        ],
+        "abstract": "We study the effects of H-1B immigration on U.S. industries that employ H-1B workers and their trading partners. Using a novel cross-industry design and the 1999–2003 expansion of the H-1B visa cap for identification, we find that H-1B exposure raised incomes for natives and pre-existing immigrants, with gains concentrated in non-STEM occupations. Income gains propagate forward through supply chains to downstream industries but not backward to upstream industries, consistent with a productivity shock rather than a labor supply shock. We find no direct effect on patenting, suggesting that productivity gains arise from better task execution rather than patentable invention.",
+        "abstract_cn": "我们研究了H-1B移民对雇佣H-1B工作者的美国行业及其贸易伙伴的影响。利用1999-2003年H-1B签证上限扩大这一新颖的跨行业设计进行识别，我们发现H-1B的暴露提高了本地人和现有移民的收入，且收益集中在非STEM职业中。收入增长通过供应链向前传递到下游行业，但并未向后传递到上游行业，这与生产率冲击而非劳动力供给冲击一致。我们发现对专利申请没有直接影响，这表明生产率的提高来自于更好的任务执行，而非可专利的发明。",
+        "url": "https://www.nber.org/papers/w35560",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35567",
+        "title": "The Value of Behavioral Policies",
+        "title_cn": "行为政策的价值",
+        "authors": [
+          "John A. List",
+          "Matthias Rodemeier",
+          "Sutanuka Roy",
+          "Gregory K. Sun"
+        ],
+        "abstract": "Behavioral interventions have become central to modern public policy, but their empirical promise remains contested because estimated treatment effects often appear small. We argue that a policy response is economically meaningful only relative to the response generated by alternative policies. We assemble more than 1,200 estimates from over 600 studies comparing “nudges” and traditional price interventions in the markets for cigarettes, alcohol, influenza vaccination, electricity, and residential water. Translating nudge effects into equivalent price changes, we find that behavioral interventions often correspond to enormous fiscal interventions, from an 11% tax on electricity to a 100% subsidy on influenza vaccinations. Nudges are also more cost-effective than price instruments in all markets, but cost-effectiveness does not predict the welfare ranking of policies. Using a behavioral extension of the Marginal Value of Public Funds, we show that nudges have high welfare returns at the margin, while price instruments often generate larger total surplus at scale.",
+        "abstract_cn": "行为干预已成为现代公共政策的核心，但其经验效果仍存在争议，因为估计的处理效应往往看似较小。我们认为，只有相对于替代政策产生的反应，政策反应才具有经济意义。我们从超过600项研究中收集了1200多个估计值，比较了在香烟、酒精、流感疫苗、电力和住宅用水市场中“轻推”和传统价格干预的效果。将轻推效应转化为等效的价格变化，我们发现行为干预往往对应着巨大的财政干预，从电力的11%税收到流感疫苗的100%补贴。在所有市场中，轻推也比价格工具更具成本效益，但成本效益并不能预测政策的福利排名。使用公共基金边际价值的行为扩展，我们展示了轻推在边际上具有高福利回报，而价格工具在规模上往往产生更大的总剩余。",
+        "url": "https://www.nber.org/papers/w35567",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35566",
+        "title": "Childhood Cognitive and Behavioral Impairments and Adult Health",
+        "title_cn": "儿童认知和行为障碍与成人健康",
+        "authors": [
+          "Hope Corman",
+          "Kelly Noonan",
+          "Nancy Reichman"
+        ],
+        "abstract": "We use U.S. nationally representative longitudinal data to estimate the effects of cognitive and behavioral impairments in childhood on health in adulthood. We focus on work-limiting health conditions and fair or poor self-rated health but also consider adequacy of sleep, body weight, and health behaviors (use of various substances and preventive health care) as potential pathways. In household fixed effects models, we find that both impairments are strongly associated with having a work-limiting health condition in adulthood; specifically, cognitive impairments increase the probability of a work-limiting condition by 70% and behavioral impairments increase the probability by 60%. Individuals with cognitive impairments in childhood are 43% more likely to report being in fair or poor health in adulthood compared to individuals without cognitive impairments. The effects of cognitive impairments on health do not appear to operate through insufficient sleep, obesity, or health behaviors. Individuals with childhood behavioral impairments are no more likely to report being in fair or poor health but are more likely to get insufficient sleep and to be obese, compared to individuals without behavioral impairments, suggesting that insufficient sleep and obesity could potentially lie on the pathway from behavioral impairments in childhood to work-limiting health conditions in adulthood.",
+        "abstract_cn": "我们利用美国全国代表性的纵向数据来估计儿童时期认知和行为障碍对成年后健康的影响。我们重点关注限制工作的健康条件和自认为健康水平一般或较差的情况，同时也考虑睡眠充足性、体重和健康行为（使用各种物质和预防性健康护理）作为潜在的途径。在家庭固定效应模型中，我们发现这两种障碍都与成年后限制工作的健康条件强烈相关；具体来说，认知障碍使限制工作的条件的概率增加了70%，而行为障碍使这一概率增加了60%。与没有认知障碍的个体相比，儿童时期有认知障碍的个体在成年后报告自认为健康水平一般或较差的可能性高43%。认知障碍对健康的影响似乎并不通过睡眠不足、肥胖或健康行为来发挥作用。与没有行为障碍的个体相比，儿童时期有行为障碍的个体在成年后报告自认为健康水平一般或较差的可能性并不更高，但他们更有可能睡眠不足和肥胖，这表明睡眠不足和肥胖可能潜在地位于从儿童时期的行为障碍到成年后限制工作的健康条件的路径上。",
+        "url": "https://www.nber.org/papers/w35566",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35559",
+        "title": "Replaceable but Employed: Automation and the Meaning of Work",
+        "title_cn": "可替代但仍被雇佣：自动化与工作的意义",
+        "authors": [
+          "Joshua S. Gans"
+        ],
+        "abstract": "Can automation harm workers without replacing them? We study jobs in which workers value both producing useful output and knowing that the output depends on their own contribution. A credible machine alternative can weaken that second source of meaning even when the firm retains the worker. Our model shows that this loss raises compensation when wages adjust fully; when they adjust only partly, workers bear some of the loss themselves. It can also make automation more likely. An external developer may profit by publicly demonstrating a machine before licensing it, because the demonstration lowers the value of the human alternative. This \"meaning externality\" can create demand for the machine and make profitable development socially harmful. Better technical quality and greater public salience have different effects: quality improves output, while salience alone weakens human work. Automation can, therefore, reduce the value of work before it eliminates jobs.",
+        "abstract_cn": "自动化会伤害工人而不取代他们吗？我们研究了工人既重视产出有用成果，也重视知道自己的贡献对产出有影响的工作。一个可信的机器替代品可能会削弱第二种意义来源，即使公司保留了工人。我们的模型显示，当工资完全调整时，这种损失会提高薪酬；当工资只部分调整时，工人自己也要承担部分损失。这也可能使自动化更有可能发生。外部开发者可能通过公开展示机器后再授权它来获利，因为展示降低了人类替代品的价值。这种“意义外部性”可以创造对机器的需求，并使对社会有害的开发变得有利可图。更好的技术质量和更大的公共显著性有不同的影响：质量提高了产出，而显著性本身则削弱了人类工作。因此，自动化可以在消除工作之前降低工作的价值。",
+        "url": "https://www.nber.org/papers/w35559",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35542",
+        "title": "Winners and Losers: Competition, Creative Destruction, and Labor Income Risk",
+        "title_cn": "赢家与输家：竞争、创造性破坏与劳动收入风险",
+        "authors": [
+          "Brice C. Green",
+          "Leonid Kogan",
+          "Dimitris Papanikolaou",
+          "Lawrence D.W. Schmidt"
+        ],
+        "abstract": "Using U.S. administrative data, we find that technology-driven creative destruction in the product market passes through to worker earnings. The passthrough to incumbent worker earnings is both asymmetric and concentrated: profit drops from rival innovations lead to proportionally greater earnings declines and changes in the likelihood of job destruction than profit gains from their own firm’s innovations, while top workers are significantly more exposed than the average worker. We develop an endogenous-growth model with monopsonistic labor markets and worker heterogeneity that replicates this asymmetry and the distribution of earnings risk. In the model, creative destruction exposes high-income workers to concentrated downside risk while increasing upward mobility for lower-income workers, shaping the welfare consequences of innovation policy.",
+        "abstract_cn": "利用美国的行政数据，我们发现产品市场中由技术驱动的创造性破坏会传导至工人收入。对在职工人收入的传导既不对称又集中：来自竞争对手创新的利润下降导致收入下降的比例更大，以及工作破坏的可能性变化大于来自公司自身创新的利润增加，而顶尖工人比普通工人面临更大的风险暴露。我们构建了一个包含买方垄断劳动力市场和工人异质性的内生增长模型，该模型复制了这种不对称性和收入风险的分布。在模型中，创造性破坏使高收入工人面临集中的下行风险，同时为低收入工人增加了向上流动的机会，从而塑造了创新政策的福利后果。",
+        "url": "https://www.nber.org/papers/w35542",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35568",
+        "title": "The Economics of Civil Service Protections",
+        "title_cn": "公务员保护的经济分析",
+        "authors": [
+          "Guo Xu"
+        ],
+        "abstract": "The study of bureaucracy as a key dimension of state capacity has gained increasing attention in economics. What organizational features create an effective bureaucracy, however, remains subject to debate. This paper focuses on the central role of civil service protections in delineating the boundary between politics and administration. I introduce a simple principal-agent framework to discuss the key theoretical channels through which political insulation can shape bureaucrat performance. Guided by the framework, I establish stylized facts and organize evidence from historical and contemporary civil service reforms. Overall, the micro-level evidence documents a positive effect of civil service protections on the quality of public service delivery. I conclude with open questions about the political economy of reform adoption.",
+        "abstract_cn": "作为国家能力关键维度的官僚机构研究在经济学中日益受到关注。然而，哪些组织特征能创造出有效的官僚机构，这个问题仍然存在争议。本文聚焦于公务员保护在界定政治与行政边界中的中心作用。我引入了一个简单的委托-代理框架，用以讨论政治绝缘如何塑造官僚表现的关键理论渠道。在框架的指导下，我建立了风格化的事实，并从历史和当代公务员改革中组织证据。总体而言，微观层面的证据记录了公务员保护对公共服务交付质量的积极影响。最后，我提出了关于改革采纳的政治经济学的开放性问题。",
+        "url": "https://www.nber.org/papers/w35568",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35555",
+        "title": "The United States and Its Creditors: Assessing Foreign Demand for U.S. Assets",
+        "title_cn": "美国及其债权人：评估外国对美国资产的需求",
+        "authors": [
+          "Anusha Chari",
+          "Gian Maria Milesi Ferretti"
+        ],
+        "abstract": "This paper analyzes foreign demand for U.S. assets, with particular emphasis on U.S. Treasury securities. It documents compositional shifts in U.S. bilateral external positions across geographic regions and asset classes, providing estimates of creditor positions closer to a nationality-based concept. While rising U.S. equity prices explain a sizable share of the deterioration in the net external position, foreign purchases of U.S. Treasury securities have been the largest source of U.S. current account financing. The share of these securities held by foreign official investors has declined sharply during the past decade, while the share held by foreign private investors (especially through financial centers) has risen. The decline in foreign official holdings is well explained by lower reserve accumulation, increased Federal Reserve holdings, and dollar appreciation against other reserve currencies. The evidence is consistent with central banks rebalancing their portfolios to avoid large swings in currency shares. Geoeconomic fragmentation is negatively correlated with official demand for U.S. Treasuries, while foreign private demand remains sensitive to safe-haven dynamics. Overall, the paper assesses how these structural shifts affect portfolio preferences for U.S. assets and their potential implications for the U.S. external position amid heightened geopolitical and fiscal uncertainty.",
+        "abstract_cn": "本文分析了外国对美国资产的需求，特别关注美国国债。文章记录了美国双边外部头寸在不同地理区域和资产类别中的构成变化，提供了更接近基于国籍概念的债权人头寸估计。尽管美国股票价格上涨解释了净外部头寸恶化的相当一部分，但外国购买美国国债一直是美国经常账户融资的最大来源。过去十年中，外国官方投资者持有的这些证券份额急剧下降，而外国私人投资者（特别是通过金融中心）持有的份额上升。外国官方持有量的下降很好地解释了储备积累减少、联邦储备持有量增加以及美元对其他储备货币升值。证据与中央银行重新平衡其投资组合以避免货币份额大幅波动一致。地缘经济分裂与官方对美国国债的需求呈负相关，而外国私人需求仍然对避险动态敏感。总体而言，本文评估了这些结构性变化如何影响对美国资产的投资组合偏好，以及在地缘政治和财政不确定性加剧的情况下对美国外部头寸的潜在影响。",
+        "url": "https://www.nber.org/papers/w35555",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35563",
+        "title": "Incomplete Information and Self-Fulfilling Inflation Dynamics—Lucas meets Keynes",
+        "title_cn": "不完全信息与自我实现的通胀动态——卢卡斯与凯恩斯的对话",
+        "authors": [
+          "Jess Benhabib",
+          "Pengfei Wang",
+          "Yi Wen"
+        ],
+        "abstract": "This paper incorporates the Lucas (1973) island model into a standard DSGE framework. It demonstrates that self-fulfilling stochastic inflation equilibria, which are driven by intrinsic uncertainty or pure sentiments, can exist under rational expectations. Furthermore, it shows that these sentiment-driven stochastic equilibria exhibit monetary non-neutrality, even when the fundamental equilibrium is unique and monetarily neutral. As the aggregate price or inflation rate can appear to fluctuate independently of the money supply, our model explains the complex relationship between inflation and the money supply in the real world, where the basic quantity theory of money often seems invalid.",
+        "abstract_cn": "本文将卢卡斯（1973年）的岛屿模型纳入标准的DSGE框架中。文章证明，在理性预期下，由内在不确定性或纯粹情绪驱动的自我实现型随机通胀均衡可以存在。此外，文章还表明，这些由情绪驱动的随机均衡表现出货币非中性，即使在基本均衡是唯一且货币中性的情况下也是如此。由于总体价格或通胀率似乎可以独立于货币供应量波动，我们的模型解释了现实世界中通胀与货币供应之间复杂的关系，在现实世界中，基本的货币数量理论常常似乎无效。",
+        "url": "https://www.nber.org/papers/w35563",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35556",
+        "title": "Meritocracy and the Networks It Forged: China’s Imperial Examination",
+        "title_cn": "精英统治及其锻造的网络：帝制中国的科举考试",
+        "authors": [
+          "Ying Bai",
+          "Ruixue Jia"
+        ],
+        "abstract": "Institutions that claim to reward merit often also serve as engines that drive the formation of important social networks. We examine this dual role in China’s Imperial Examination, one of history’s longest-lived meritocratic systems. We draw on exam performance data for 24,269 individuals across 112 national examinations in the Qing dynasty (1644–1905) and trace who among them rose to become top officials. Strong exam performance increased the likelihood of attaining high office, but advancement also depended on individuals’ ties to powerful examiners. Because performance and ties to powerful examiners were strongly complementary, individuals’ success appeared to rest on merit even as social networks played a role. Following the major political transformations of the 1840s, the importance of examiner ties persisted, although the influential examiners themselves changed. These findings help explain why such systems retain legitimacy even when networks matter greatly.",
+        "abstract_cn": "声称要奖励功绩的机构往往也充当推动重要社会网络形成的引擎。我们在中国历史上最长久的功绩制度之一——科举考试中检验了这种双重角色。我们利用清朝（1644-1905年）112次国家考试中24,269人的考试成绩数据，并追踪他们中有多少人最终成为高级官员。考试成绩优异提高了获得高级职位的可能性，但晋升也取决于个人与有权势考官的联系。由于考试成绩和与有权势考官的联系具有很强的互补性，个人的成功似乎依赖于功绩，尽管社会网络也在发挥作用。在1840年代重大政治变革之后，考官联系的重要性持续存在，尽管有影响力的考官本人发生了变化。这些发现有助于解释为什么这些系统即使在网络非常重要时仍能保持合法性。",
+        "url": "https://www.nber.org/papers/w35556",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35547",
+        "title": "Designing Around Selection: Identification and Inference Under Multi-Dimensional Unobserved Heterogeneity",
+        "title_cn": "绕开选择性：在多维未观测异质性下的识别与推断",
+        "authors": [
+          "Brent R. Hickman",
+          "John A. List",
+          "Ian Muir",
+          "Gregory K. Sun"
+        ],
+        "abstract": "We study identification and optimal policy design in a broad class of principal-agent models. We show that the most common empirical framework within the literature is equivalent to an unstructured potential-outcomes model augmented with three specific assumptions: the Law of Demand (LoD), or treatment-effect monotonicity; extrapolative model structure (EMS), which rules out lumpy agent responses to price changes; and rank invariance (RI), which restricts unobserved heterogeneity (UH) to be one-dimensional. This decomposition isolates the identifying content of each assumption and clarifies its economic role. The LoD and MS are empirically testable using exogenous price variation; RI, on the other hand, is a strong assumption ruling out many economically plausible behaviors, and also not empirically testable. We derive sharp bounds on counterfactual outcomes when RI is relaxed. The conventional 1-dimensional model delivers an upper bound on planner objectives, while the lower bound, which allows for arbitrary multi-dimensional UH, has an adversarial interpretation for policy design. We estimate empirical bounds and apply them to nonlinear pricing of rideshare services. The resulting robust pricing policy fully insures against worst-case latent selection while preserving most of the profit and consumer-surplus gains predicted by the conventional model. Our framework provides a tractable approach to robust policy design in adverse-selection settings including Mirrleesian taxation, regulation, labor supply, and procurement.",
+        "abstract_cn": "我们研究了一类广泛的委托代理模型中的识别问题和最优政策设计。我们展示了文献中最常用的实证框架等同于一个未结构化的潜在结果模型，并增加了三个特定假设：需求法则（LoD），或称处理效应单调性；外推模型结构（EMS），该假设排除了经济主体对价格变化的一次性响应；以及排名不变性（RI），该假设限制了未观测异质性（UH）为一维。这种分解分离了每个假设的识别内容，并阐明了其经济角色。需求法则和EMS可以通过外生价格变化进行经验检验；而排名不变性则是一个强假设，排除了许多经济上合理的行为，且无法进行经验检验。当放宽RI时，我们推导出反事实结果的尖锐界限。传统的一维模型提供了规划者目标的上限，而允许任意多维UH的下限，则对政策设计具有对抗性解释。我们估计了经验界限，并将其应用于网约车服务的非线性定价。得出的稳健定价政策在保留传统模型预测的大部分利润和消费者剩余收益的同时，完全保险了最坏情况下的潜在选择。我们的框架为包括米尔利斯税收、规制、劳动力供给和采购在内的逆向选择环境中的稳健政策设计提供了一种易处理的方法。",
+        "url": "https://www.nber.org/papers/w35547",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35553",
+        "title": "Sharing the Burden: The Impacts of Pharmacy Sector Reforms on the Labor Market for Pharmacists in Portugal",
+        "title_cn": "分担负担：葡萄牙药店行业改革对药剂师劳动力市场的影响",
+        "authors": [
+          "David Card",
+          "Ana Rute Cardoso",
+          "Pedro Luis Silva"
+        ],
+        "abstract": "In the depths of the 2010 financial crisis the Portuguese government enacted a series of reforms in its prescription drug reimbursement system. Over the next three years value added per pharmacist in retail pharmacies fell by a third, reflecting a rise in generic substitution and reductions in the markups allowed for prescription drugs. This massive shock led to pay cuts for incumbent pharmacists and the introduction of a two-tier pay system for new hires, with little or no reduction in the growth of employment. We use detailed longitudinal records from the Quadros de Pessoal data base, merged with information on collective bargaining settlements and firm financial records, to study the impacts of the reforms. We estimate that between 2009 and 2022 average wages of pharmacists fell by a third; most of this reduction was due to lower wages for newly entering cohorts. The implied responsiveness of wages to productivity is substantially above most estimates in the rent-sharing literature, arguably reflecting the strong attachment of workers to the sector and the steady inflow of newly graduating pharmacists. Stepping back, we then consider how wages of pharmacists have diverged relative to wages of other health care professionals in Portugal, and the decisions of recent college applicants to enter the profession.",
+        "abstract_cn": "在2010年金融危机最严重时期，葡萄牙政府在其处方药报销系统中实施了一系列改革。在接下来的三年中，零售药店中每位药剂师增加的价值下降了三分之一，反映了仿制药替代率的上升和处方药允许加价的减少。这场巨大的冲击导致在职药剂师的工资削减，以及对新雇员引入了双层薪酬体系，而就业增长几乎没有减少。我们利用“Quadros de Pessoal”数据库的详细纵向记录，结合集体谈判协议和公司财务记录的信息，研究改革的影响。我们估计，在2009年至2022年间，药剂师的平均工资下降了三分之一；这一下降的大部分是由于新进入群体的工资降低。工资对生产率的响应性远高于租金共享文献中的大多数估计，这无疑反映了工人对行业的强烈依恋以及新毕业药剂师的稳定流入。退一步讲，我们接着考虑葡萄牙药剂师的工资如何相对于其他医疗保健专业人员的工资出现分歧，以及最近的大学申请者选择进入该行业的决定。",
+        "url": "https://www.nber.org/papers/w35553",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35538",
+        "title": "Cognitive Limitations and Long-Term Care Use in the Netherlands: Evidence from the Lifelines Cohort Study",
+        "title_cn": "认知限制与荷兰长期护理使用：来自生命线队列研究的证据",
+        "authors": [
+          "Gaia Bagnasco",
+          "Pieter Bakx",
+          "Stijn Coremans",
+          "Bram Wouterse"
+        ],
+        "abstract": "We analyze the association between cognitive impairments and long-term care use in the 65+ population in the Netherlands. For this, we use data from the Lifelines Cohort Study that are linked to administrative records available through Statistics Netherlands. We find that, among those with cognitive impairments, long-term care use is concentrated in a subgroup: 42% of those with cognitive impairments do not use any long-term care. At the same time, individuals with cognitive impairments who use long-term care have high expenditures, in particular when living in nursing homes. Further analyses reveal that many individuals with cognitive impairments report functional limitations and that cognitive impairment is associated with long-term care use above and beyond these impairments. These findings highlight the importance of taking cognitive impairments into account when seeking to explain the determinants of long-term care use in research and when tailoring long-term care programs to the needs of the elderly when considering policy reforms.",
+        "abstract_cn": "我们分析了荷兰65岁及以上人群中认知障碍与长期护理使用之间的关系。为此，我们使用了与荷兰统计局提供的行政记录相链接的生命线队列研究数据。我们发现，在有认知障碍的人群中，长期护理的使用集中在一个子群体中：42%有认知障碍的人没有使用任何长期护理。同时，使用长期护理的有认知障碍个体有很高的支出，特别是当他们居住在护理院时。进一步的分析揭示了许多有认知障碍的个体报告了功能限制，并且认知障碍与长期护理使用之间的关系超出了这些障碍。这些发现强调了在研究中寻求解释长期护理使用的决定因素时，以及在考虑政策改革时根据老年人的需求定制长期护理计划时，考虑认知障碍的重要性。",
+        "url": "https://www.nber.org/papers/w35538",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35540",
+        "title": "Predictive Risk Scores in the Public Sector: Experimental Evidence from Child-Protection Investigations",
+        "title_cn": "公共部门中的预测风险评分：来自儿童保护调查的实验证据",
+        "authors": [
+          "E. Jason Baron",
+          "Arkadev Ghosh",
+          "Richard Lombardo"
+        ],
+        "abstract": "Many public-sector decisions require allocating scarce attention under uncertainty. We examine whether algorithmic risk assessments improve child-protection decisions, where supervisors decide which cases need closer scrutiny. In a randomized evaluation of 4,752 child referrals over 14 months in Northampton County, supervisors received an algorithmic risk score alongside standard case records. Access to the score increased foster-care placements and services for children at highest predicted risk, with little change for lower-risk cases, and it reduced subsequent maltreatment referrals. We find no evidence that the score widened racial disparities in decisions or outcomes, suggesting algorithms can improve targeting while preserving human discretion.",
+        "abstract_cn": "许多公共部门的决策需要在不确定性下分配稀缺的注意力。我们研究了算法风险评估是否能够改善儿童保护决策，在这些决策中，主管需要决定哪些案件需要更仔细的审查。在北安普顿县对4,752个儿童转介进行了为期14个月的随机评估中，主管在标准案件记录之外还收到了一个算法风险评分。接触到这个评分增加了对预测风险最高儿童的寄养安置和服务，对较低风险案件的影响很小，并且它减少了随后的虐待转介。我们没有发现评分扩大了决策或结果中的种族差异的证据，这表明算法可以在保持人类自由裁量权的同时改善目标定位。",
+        "url": "https://www.nber.org/papers/w35540",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35552",
+        "title": "The Equilibrium Impact of Credit Frictions: Evidence from Default Risk Using Firm-Level Data",
+        "title_cn": "信贷摩擦的均衡影响：基于公司层面数据的违约风险证据",
+        "authors": [
+          "Timothy J. Besley",
+          "Peter John Lambert",
+          "Isabelle A. Michalski-Roland",
+          "John Van Reenen"
+        ],
+        "abstract": "This paper examines the impact of credit frictions arising from firm-level default risk on aggregate economic performance. We build a micro-to-macro model with heterogeneous firms and sector-specific production functions, showing that perceived default risk is a sufficient statistic for credit frictions. Using UK administrative data (2004–2019) matched to S&P risk measures, counterfactual estimates reveal that relaxing frictions raises output by 25% and wages by 23%. Ignoring equilibrium wage adjustments overstates output gains, while fixed-capital misallocation approaches understate them. Most gains reflect aggregate capital accumulation. Credit frictions remain above pre-crisis levels, reshape firm size dynamics, increase misallocation across firms, and dampen productivity growth over time.",
+        "abstract_cn": "本文研究了由企业层面违约风险引起的信贷摩擦对总体经济表现的影响。我们构建了一个包含异质性企业和特定行业生产函数的微观到宏观模型，表明感知的违约风险是信贷摩擦的一个充分统计量。利用2004至2019年间英国行政数据与标普风险度量相匹配的反事实估计，结果显示放松摩擦可以使产出提高25%，工资提高23%。忽略均衡工资调整会高估产出收益，而固定资本错配方法则低估了它们。大部分收益反映了总体资本积累。信贷摩擦仍高于危机前水平，重塑了企业规模动态，增加了企业间的错配，并随着时间的推移抑制了生产率增长。",
+        "url": "https://www.nber.org/papers/w35552",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35548",
+        "title": "Reserves and the Buyer of Last Resort",
+        "title_cn": "储备与最终买家",
+        "authors": [
+          "Frederic Boissay",
+          "Harald Uhlig"
+        ],
+        "abstract": "We examine the role of central bank reserves and public liquidity when secondary markets may freeze. Central bank reserves help intermediaries purchase assets during stress but crowd out investment. Under laissez-faire, intermediaries hold insufficient reserves, overlooking how aggregate liquidity reduces freeze risk. We propose a \"market-backstop principle\", akin to Bagehot’s principle for intermediaries. It combines state-contingent buyer-of-last-resort interventions to restore trading with modest liquidity requirements to limit moral hazard. The welfare benefits of restoring market functioning exceed the fiscal costs of interventions. We explore implications for the size and composition of central bank balance sheets.",
+        "abstract_cn": "我们研究了在二级市场可能冻结时中央银行储备和公共流动性的作用。中央银行储备帮助中介机构在压力期间购买资产，但挤出了投资。在自由放任的情况下，中介机构持有的储备不足，忽视了总体流动性如何降低冻结风险。我们提出了一个类似于巴杰霍特对中介机构原则的“市场支持原则”。它结合了状态依赖的最后买家干预以恢复交易，并适度的流动性要求以限制道德风险。恢复市场运作的福利收益超过了干预的财政成本。我们探讨了这对中央银行资产负债表的规模和构成的影响。",
+        "url": "https://www.nber.org/papers/w35548",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35544",
+        "title": "Two Selection Problems, One Bias Term: Experimental Sign-Up Is Treatment Choice in Disguise",
+        "title_cn": "两个选择问题，一个偏差项：实验性注册是伪装的处理选择",
+        "authors": [
+          "John A. List"
+        ],
+        "abstract": "Consider a referee report containing the sentence: “Assignment to treatment was voluntary, though the authors acknowledge this as a limitation in the conclusion.” The Editor would summarily reject. Now replace “assignment to treatment” with “entry into the experimental sample,” and the sentence describes the modal published experiment. This study shows that both biases are the same mathematical object. The bias from non-random sample entry is the sorting-on-gains term from the classic selection decomposition. Interestingly, they both admit an isomorphic Roy micro-foundation and inverse-Mills characterization. A simple calibration reveals that for the typical experiment, the observed bias can be large. One solution to this bias is to conduct a natural field experiment (NFE). When an NFE is not possible, three alternative reporting practices are offered.",
+        "abstract_cn": "考虑一份审稿报告中包含这样一句话：“分配至处理组是自愿的，尽管作者在结论中承认这是一项限制。”编辑会立即拒绝。现在将“分配至处理组”替换为“进入实验样本”，这句话描述的就是典型的已发表实验。本研究表明，两种偏差实际上是相同的数学对象。非随机样本进入的偏差是经典选择分解中的排序-收益项。有趣的是，它们都承认具有同构的罗伊微观基础和逆米尔斯特特征。一个简单的校准揭示了对于典型实验而言，观察到的偏差可能很大。解决这种偏差的一个方法是进行自然田野实验（NFE）。当无法进行NFE时，本文提供了三种替代的报告实践。",
+        "url": "https://www.nber.org/papers/w35544",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35557",
+        "title": "Demand for Safety in the Crypto Ecosystem",
+        "title_cn": "加密生态系统中对安全性的需求",
+        "authors": [
+          "Murillo Campello",
+          "Angela Gallo",
+          "Lira Mota",
+          "Tammaro Terracciano"
+        ],
+        "abstract": "We study the demand for safety and liquidity in the crypto ecosystem. We do so under a framework in which a representative investor allocates liquidity across stablecoin deposits in lending pools and traditional safe assets (e.g., MMF shares). Our model delivers three main predictions: (i) the stablecoin deposit premium co-moves with the Treasury premium when investors value the safety and liquidity services of stablecoins; (ii) increases in Treasury supply reduce the stablecoin deposit premium; and (iii) drops in the perceived safety and liquidity of stablecoin deposits (e.g., due to de-pegs or hacker attacks) reduce their premium. Using granular data from hundreds of DeFi pools spanning multiple protocols, tokens, and blockchains, we find evidence supporting these predictions. Investors treat stablecoin deposits as money-like instruments that are borderless and permissionless, yet as fragile as other forms of privately produced safe assets.",
+        "abstract_cn": "我们研究了加密生态系统中对安全和流动性的需求。我们在一个代表性投资者在借贷池中的稳定币存款和传统安全资产（例如，货币市场基金份额）之间分配流动性的框架下进行研究。我们的模型提出了三个主要预测：（i）当投资者重视稳定币的安全和流动性服务时，稳定币存款溢价与国债溢价共同变动；（ii）国债供应的增加降低了稳定币存款溢价；（iii）稳定币存款（例如，由于脱钩或黑客攻击）的感知安全性和流动性下降会降低其溢价。利用来自数百个DeFi池的细粒度数据，这些数据涵盖了多个协议、代币和区块链，我们发现有证据支持这些预测。投资者将稳定币存款视为类似货币的工具，它们无国界且无需许可，但与其他形式的私人生产安全资产一样脆弱。",
+        "url": "https://www.nber.org/papers/w35557",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35562",
+        "title": "Monetary Policy in Mandarin Capitalism",
+        "title_cn": "普通话资本主义下的货币政策",
+        "authors": [
+          "Jeffery (Jinfan) Chang",
+          "Wei Xiong"
+        ],
+        "abstract": "This paper investigates why China’s recurrent credit expansions have coincided with persistently weak inflation. We argue that this pattern reflects the country’s production-oriented monetary regime. At the aggregate level, faster monetary-financial expansion temporarily raises PPI inflation but depresses it over longer horizons. At the sectoral level, liability growth among listed industrial firms is followed by weaker producer prices, lower profitability, higher leverage, rising inventories, and reduced capacity utilization. We also find asymmetric supply-chain transmission: downstream liability growth raises upstream PPI inflation, while upstream liability growth does not generate a corresponding downstream price response. These findings indicate that credit expansion in China tends to sustain production and balance sheets rather than stimulate final demand. As a result, monetary policy operates less as a conventional tool for demand management and durable reflation, and more as a mechanism for preserving production capacity and supporting growth.",
+        "abstract_cn": "本文研究了中国反复出现的信贷扩张为何与持续疲软的通胀现象相吻合。我们认为，这一模式反映了该国以生产为导向的货币制度。在总量层面，更快的货币金融扩张暂时提高了生产者价格指数（PPI）通胀，但在更长的时间范围内抑制了它。在部门层面，上市公司负债增长之后，生产者价格更弱，盈利能力下降，杠杆率上升，库存增加，产能利用率降低。我们还发现供应链传导的不对称性：下游负债增长提高了上游PPI通胀，而上游负债增长没有产生相应的下游价格反应。这些发现表明，中国的信贷扩张倾向于维持生产和资产负债表，而不是刺激最终需求。因此，货币政策更多地作为一种保护生产能力和支持增长的机制，而不是作为传统的需求管理工具和持久性通胀的工具。",
+        "url": "https://www.nber.org/papers/w35562",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      },
+      {
+        "id": "w35539",
+        "title": "The China Backlash: Quantifying the Narrative Discourse on China",
+        "title_cn": "中国反击：量化关于中国的叙事话语",
+        "authors": [
+          "Mert Geyiktepe",
+          "Dani Rodrik"
+        ],
+        "abstract": "Using text-as-data methods, we quantify the U.S. discourse on China, place it in historical perspective, and compare its evolution across different sources of public narrative. Our analysis is based on a large corpus of materials drawn from public records (presidential and congressional records, newspaper articles, social media, think tank reports). We develop two measures of narrative discourse: an indicator of the frequency with which China is covered and a proxy for how positively or negatively China is presented. We document a sustained decline in net sentiment towards China in presidential sources since the early 2000s, predating Donald Trump’s first term in office. In contrast to presidential documents, congressional, news media, social media, and think tank sources exhibit persistent negative sentiment towards China even in decades prior to the 2000s. Instead of a deterioration in sentiment across the board, what we find is a convergence in presidential sentiment to other sources of narrative discourse. We find no evidence that presidential leadership has played a significant role in setting the narrative tone for the nation as a whole. Historical and shorter-term evidence both point to a bottom-up process of diffusion of narratives, rather than top-down diffusion.",
+        "abstract_cn": "利用文本即数据的方法，我们量化了美国关于中国的话语，并将其置于历史视角中，比较了不同公共叙事来源中话语演变的情况。我们的分析基于从公共记录（总统和国会记录、报纸文章、社交媒体、智库报告）中抽取的大量材料。我们开发了两个衡量叙事话语的指标：一个是中国被报道频率的指标，另一个是代表中国被呈现为积极或消极程度的代理变量。我们记录了自2000年代初以来，总统来源中对中国的净情绪持续下降，这一趋势早于唐纳德·特朗普的第一个任期。与总统文件不同，国会、新闻媒体、社交媒体和智库来源即使在2000年代之前的几十年中也对中国持续持有负面情绪。我们发现的并不是整体情绪的恶化，而是总统情绪向其他叙事话语来源的汇聚。我们没有发现总统领导在为整个国家设定叙事基调方面发挥了重要作用的证据。历史和短期证据都指向了自下而上的叙事传播过程，而不是自上而下的传播。",
+        "url": "https://www.nber.org/papers/w35539",
+        "public_date": "2026-08-03",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-03T08:28:55Z"
+      }
+    ]
+  },
+  {
     "batch_date": "2026-07-27",
     "last_updated": "2026-07-27T12:47:46Z",
     "paper_count": 31,
