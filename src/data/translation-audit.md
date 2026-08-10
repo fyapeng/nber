@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-08-03T12:47:21Z`
-- Paper count: `31`
+- Generated at: `2026-08-10T06:09:42Z`
+- Paper count: `22`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,17 +35,12 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| ACT | w35543 |
-| Burdett | w35554 |
-| H-1B | w35560 |
-| LLM | w35546 |
-| LoD | w35547 |
-| Mortensen | w35554 |
-| NFE | w35544 |
-| Pessoal | w35553 |
-| PPI | w35562 |
-| Quadros | w35553 |
-| RDT | w35543 |
+| ART | w35585 |
+| HCV | w35583 |
+| LLMs | w35574 |
+| SES | w35576 |
+| Sonnet | w35588 |
+| Stata | w35588 |
 
 ## Maintenance Notes
 
