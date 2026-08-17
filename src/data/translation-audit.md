@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-08-10T10:54:39Z`
-- Paper count: `22`
+- Generated at: `2026-08-17T05:34:10Z`
+- Paper count: `42`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,12 +35,25 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| ART | w35585 |
-| HCV | w35583 |
-| LLMs | w35574 |
-| SES | w35576 |
-| Sonnet | w35588 |
-| Stata | w35588 |
+| alpha | w35607 |
+| CAL | w35621 |
+| CEO | w35616 |
+| cov-lite loans | w35617 |
+| GFC | w35617 |
+| Health and Retirement | w35600 |
+| HRS | w35606 |
+| Income and Program | w35628 |
+| Khanmigo | w35620 |
+| LLMs | w35621 |
+| MENA | w35597 |
+| MSE | w35629 |
+| Participation | w35628 |
+| PWPD | w35606 |
+| ROA | w35607 |
+| SNAP | w35613 |
+| Study | w35600 |
+| Survey | w35628 |
+| SVAR | w35604 |
 
 ## Maintenance Notes
 

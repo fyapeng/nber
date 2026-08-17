@@ -1,5 +1,904 @@
 [
   {
+    "batch_date": "2026-08-17",
+    "last_updated": "2026-08-17T05:34:10Z",
+    "paper_count": 42,
+    "papers": [
+      {
+        "id": "w35598",
+        "title": "Choosing To Fail: Managerial Liability, Risk Management and Voluntary Exits of Banks",
+        "title_cn": "选择失败：管理层责任、风险管理与银行的自愿退出",
+        "authors": [
+          "Haelim Anderson",
+          "Charles W. Calomiris",
+          "Jennifer S. Rhee"
+        ],
+        "abstract": "We study how extended stockholder liability shaped bank resolution during and after the Panic of 1893, comparing California state banks (unlimited liability) with national banks (double liability). Using newly assembled data linking California state bank presidents to census records and national bank stock ownership data from Examination Reports, we measure managers’ personal exposures to extended liability. For California state banks, traditional fundamentals predict involuntary liquidations but do not explain voluntary exits. Instead, voluntary exits are driven by managers’ liability exposure, local economic risk, and personal wealth, consistent with managers responding to unlimited liability by initiating preemptive, orderly resolutions. For national banks under double liability, voluntary and involuntary liquidations are more similar, and personal exposure plays a smaller role in risk management. These findings show that substantial personal liability exposure can operate for modern prudential tools like compensation clawbacks and living wills. However, such extended liability also magnifies credit contractions during downturns, highlighting a fundamental tradeoff between micro-stability and macroeconomic fragility in regulatory design.",
+        "abstract_cn": "我们研究了1893年大恐慌期间及之后，扩大股东责任如何塑造银行的解决方式，比较了加利福尼亚州银行（无限责任）与国家银行（双重责任）。利用新汇编的数据，我们将加利福尼亚州银行行长与人口普查记录联系起来，并从审查报告中获取国家银行股票所有权数据，我们测量了管理者个人对扩大责任的暴露程度。对于加利福尼亚州银行而言，传统基本面预测了非自愿清算，但并未解释自愿退出。相反，自愿退出是由管理者的责任暴露、当地经济风险和个人财富驱动的，这与管理者对无限责任的响应是一致的，他们通过发起预防性的、有序的解决方案来应对。对于双重责任下的国家银行而言，自愿和非自愿清算更为相似，个人暴露在风险管理中扮演的角色较小。这些发现表明，重大个人责任暴露可以作为现代审慎工具，如薪酬追回和生前遗嘱的操作。然而，这种扩大的责任也放大了经济低迷时期的信贷收缩，突出了监管设计中微观稳定性与宏观经济脆弱性之间的基本权衡。",
+        "url": "https://www.nber.org/papers/w35598",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35631",
+        "title": "Selection into Medicine",
+        "title_cn": "医学领域的选择",
+        "authors": [
+          "Diane E. Alexander",
+          "Molly Schnell"
+        ],
+        "abstract": "This paper examines how selection into medicine in the United States influences physician practice styles. We exploit macroeconomic conditions at the time of medical school application as an exogenous shock to the applicant pool and find that labor market downturns in other prestigious fields increase applications to medical school and shift the composition of matriculating cohorts toward students from non–pre-medical backgrounds. Strikingly, these low–outside-option cohorts practice medicine differently decades later. Conditional on experience, specialty, and outcome year, recession-cohort physicians bill Medicare more per beneficiary despite seeing healthier patients—particularly on discretionary, revenue-generating services—and sort into practice settings with higher-powered financial incentives. The additional spending does not produce detectable improvements in patient health. Taken together, our findings point to stronger financial motivation among those drawn into medicine when outside options are weak and suggest that medical school admissions screen imperfectly on the attributes that ultimately shape how physicians practice.",
+        "abstract_cn": "本文研究了在美国选择医学专业如何影响医生的执业风格。我们利用医学院申请时期的宏观经济状况作为一个外生冲击来影响申请者池，并发现其他声望领域中的劳动力市场低迷增加了对医学院的申请，并将入学群体的构成转向非预医学背景的学生。引人注目的是，这些在外部选择较少的群体在几十年后的医学实践中有所不同。在控制经验、专业和结果年份的条件下，经济衰退时期的医生群体尽管面对的患者健康状况更好，但每位受益人的医疗保险账单却更多——特别是在自由裁量、创收的服务上——并选择进入具有更强财务激励的执业环境。额外的支出并没有带来患者健康可检测的改善。总体而言，我们的发现指出，在外部选择较弱时被吸引进入医学领域的人具有更强的财务动机，并表明医学院的招生在最终塑造医生执业方式的特征上筛选得并不完美。",
+        "url": "https://www.nber.org/papers/w35631",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35619",
+        "title": "Institutional Variation in Child Maltreatment Reporting",
+        "title_cn": "儿童虐待报告中的制度差异",
+        "authors": [
+          "E. Jason Baron",
+          "Micah Y. Baum",
+          "Joseph J. Doyle Jr.",
+          "Maria D. Fitzpatrick",
+          "Brian Jacob",
+          "Joseph P. Ryan"
+        ],
+        "abstract": "Involvement with the child welfare system varies dramatically across places. While some of this variation may reflect differences in underlying maltreatment risk, it may also result from differences in institutional responses to similar circumstances. To disentangle these explanations, we study Michigan public school data linked to Child Protective Services reports from 2017–2024. School-level reporting rates range from virtually none to more than half of students reported between kindergarten and fifth grade. We estimate school-specific reporting tendencies using value-added methods and document substantial variation in reporting behavior after accounting for differences in student risk. Using student movers, we show that these estimates are forecast-unbiased. Our estimates imply that school-specific reporting practices account for roughly 40 percent of the variation in reporting rates across schools. We then estimate a structural model that decomposes reporting practices into diagnostic skill and preferences. Differences in skill explain more than twice as much variation as differences in preferences, and higher-reporting schools tend to be more skilled at identifying high-risk cases. Counterfactual simulations imply that improving detection skill would yield significant welfare gains, while recent policy proposals aimed at reducing or equalizing reporting rates generally lower welfare by increasing the number of high-risk cases that go unreported.",
+        "abstract_cn": "儿童福利系统的参与度在不同地区之间存在巨大差异。这种差异可能反映了潜在虐待风险的差异，也可能是对类似情况的制度反应差异所致。为了区分这些解释，我们研究了2017至2024年间密歇根公立学校数据与儿童保护服务报告的关联。学校级别的报告率从几乎没有到超过一半的学生在幼儿园至五年级之间被报告不等。我们使用增值方法估计学校特定的报告倾向，并在考虑学生风险差异后记录报告行为的显著变化。利用转学生数据，我们展示了这些估计值是无预测偏差的。我们的估计表明，学校特定的报告实践占学校间报告率变化的大约40%。然后我们估计了一个结构模型，将报告实践分解为诊断技能和偏好。技能差异解释的变化是偏好差异的两倍多，报告率较高的学校在识别高风险案例方面往往更为熟练。反事实模拟意味着提高检测技能将带来显著的福利收益，而最近旨在减少或均衡报告率的政策提议通常会通过增加未被报告的高风险案例数量来降低福利。",
+        "url": "https://www.nber.org/papers/w35619",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35597",
+        "title": "AI in a Fragmenting World",
+        "title_cn": "分裂世界中的人工智能",
+        "authors": [
+          "Barry Eichengreen",
+          "George Cui",
+          "Asmaa A. El-Ganainy",
+          "Yevgeniya Koriyenko",
+          "Elyad Shojaei",
+          "Li Zeng",
+          "Shihangyin Zhang"
+        ],
+        "abstract": "We link two global trends—AI and geoeconomic fragmentation—asking how fragmentation affects the international diffusion of AI, the magnitude of gains, and their distribution across economies. We ask these questions in general but also with a focus on the MENAP economies. While the effects of AI are potentially far-reaching, the benefits are neither guaranteed nor even. Frontier AI innovation is concentrated in a small number of economies, while countries benefiting through supply-chain participation or AI adoption—with outcomes shaped by their position in global trade and production networks and their AI preparedness. Geoeconomic fragmentation slows AI diffusion and reshapes its distribution by raising trade costs, restricting technology and data flows, fragmenting digital services, and reducing cross-border investment and collaboration. Yet proactive policy choices can turn this dynamic: economies that position themselves as connectors—maintaining trade and technology links across multiple partners—can potentially capture diverted flows and outperform even the no-fragmentation benchmark. For the MENAP economies, diversified links with all major technology hubs can cushion the effects of fragmentation and provide a structural foundation to emerge as net beneficiaries of AI diffusion, but realizing that potential requires reducing AI-related trade costs, improving AI preparedness, and building local AI-related capacity.",
+        "abstract_cn": "我们将两个全球趋势——人工智能（AI）和地缘经济分裂——联系起来，探讨分裂如何影响AI的国际传播、收益的大小及其在不同经济体中的分配。我们从一般角度提出这些问题，同时也特别关注中东和北非（MENA）经济体。尽管AI的影响可能非常深远，但其带来的益处既非保证也非均等。前沿AI创新集中在少数经济体中，而通过供应链参与或AI采纳受益的国家——其结果受到其在全球贸易和生产网络中的位置以及AI准备情况的影响。地缘经济分裂通过提高贸易成本、限制技术和数据流动、分割数字服务以及减少跨境投资和合作，减缓了AI的传播并重塑了其分配。然而，积极的策略选择可以转变这一动态：将自己定位为连接者——在多个合作伙伴之间保持贸易和技术联系——的经济体有可能捕获转移的流动，并超越无分裂的基准表现。对于MENA经济体而言，与所有主要技术中心的多样化联系可以缓解分裂的影响，并为成为AI传播的净受益者提供结构性基础，但要实现这一潜力，需要降低与AI相关的贸易成本，提高AI准备情况，并构建本地AI相关能力。",
+        "url": "https://www.nber.org/papers/w35597",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35606",
+        "title": "Supplemental Medicare Insurance Coverage for Older Adults with Probable Dementia",
+        "title_cn": "针对可能患有痴呆症的老年人的补充医疗保险覆盖范围",
+        "authors": [
+          "Melissa McInerney",
+          "Lorena Moreno",
+          "Jennifer M. Mellor"
+        ],
+        "abstract": "In this paper, we compare supplemental Medicare insurance coverage among people with probable dementia (PWPD) and matched controls, before and after onset. This retrospective secondary data analysis of insurance coverage changes using propensity score weights and the 2000-2016 Health and Retirement Study (HRS). The sample consists of 3,001 Medicare-enrolled adults age 65 and older with PWPD, and 14,055 controls. Probable dementia is assessed with the Langa-Weir approach and interviewer assessments for proxy interviews. Four years before onset, PWPD become more likely to have Medicare without supplemental coverage (2.97 percentage points; p=0.0016) than matched controls. This reflects the net effect of PWPD being less likely to have Medicare Advantage or traditional Medicare with supplemental coverage, and more likely to have Medicaid. Two years before onset, PWPD were more likely to be Medicaid-eligible (4.95 percentage points, p<0.001), but take-up rates were comparable. Enrollment assistance may improve supplemental coverage for PWPD around dementia onset, potentially increasing financial access to care.",
+        "abstract_cn": "在本文中，我们比较了可能患有痴呆症（PWPD）的人群与匹配对照组在发病前后的补充医疗保险覆盖情况。这项利用倾向得分权重和2000-2016年健康与退休研究（HRS）数据进行的保险覆盖变化的回顾性次级数据分析。样本包括3001名65岁及以上已注册Medicare的PWPD成年人，以及14055名对照组。通过Langa-Weir方法和代理访谈的访谈者评估来评估可能的痴呆症。在发病前四年，与匹配对照组相比，PWPD更有可能拥有无补充覆盖的Medicare（2.97个百分点；p=0.0016）。这反映了PWPD不太可能拥有Medicare优势或带有补充覆盖的传统Medicare，而更有可能拥有Medicaid。在发病前两年，PWPD更有可能符合Medicaid资格（4.95个百分点，p<0.001），但申领率是可比的。注册援助可能会改善PWPD在痴呆症发病前后的补充覆盖，潜在地增加获得护理的财务途径。",
+        "url": "https://www.nber.org/papers/w35606",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35620",
+        "title": "One Click Away: AI Tutoring with Khanmigo in a Two-Year School Experiment",
+        "title_cn": "一键之遥：在为期两年的学校实验中使用 Khanmigo 的人工智能辅导",
+        "authors": [
+          "Philip Oreopoulos",
+          "Nina Low"
+        ],
+        "abstract": "Generative AI has been promoted as the technology that could transform education by providing every student a personal tutor. We provide some of the first large-scale experimental evidence, from a two-year cluster randomized trial in 18 Tennessee middle schools in which randomly assigned students used Khan Academy with its AI tutor, Khanmigo, configured to coach rather than give answers, during existing daily remedial mathematics sessions. Assignment raises math achievement by 1.3 national percentile ranks per term, or about 0.06 to 0.08 standard deviations over a school year; the implied effect of a full year of active participation reaches 0.14 standard deviations. These gains resemble those from Khan Academy practice without AI assistance. One explanation is that students used the tutor infrequently and, when they did, rarely engaged it in substantive mathematical dialogue: 96 percent of students tried Khanmigo at least once, but the median student messaged it on only a third of the days they practiced, and in only 17 percent of the exercise sessions in which they made a mistake. Messages that students did send were mostly bare answers or clicks on suggested prompts. The binding constraint appears to be engagement: realizing the promise of AI tutoring will require getting students to use it, not just giving them access.",
+        "abstract_cn": "生成式人工智能被推崇为能够通过为每个学生提供个人辅导来变革教育的技术。我们提供了一些最早的大规模实验证据，这些证据来自田纳西州18所中学为期两年的群组随机试验，其中随机分配的学生在现有的日常补习数学课上使用Khan Academy及其人工智能辅导工具Khanmigo，配置为指导而非直接给出答案。分配任务提高了数学成绩，每学期提高1.3个全国百分位排名，或在学校一年中提高约0.06至0.08个标准差；一个完整学年积极参与的隐含效果达到0.14个标准差。这些提升类似于没有人工智能辅助的Khan Academy练习所带来的效果。一个解释是学生很少使用这个辅导工具，即使使用了，也很少与其进行实质性的数学对话：96%的学生至少尝试过一次Khanmigo，但中位数学生仅在他们练习的三分之一的天数中向其发送消息，在他们犯错的练习课中仅占17%。学生发送的消息大多是简单的答案或点击建议的提示。约束条件似乎是参与度：实现人工智能辅导的承诺将需要让学生使用它，而不仅仅是让他们获得访问权限。",
+        "url": "https://www.nber.org/papers/w35620",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35630",
+        "title": "Tariffs, Investment, and the Missing Trade Collapse",
+        "title_cn": "关税、投资与缺失的贸易崩溃",
+        "authors": [
+          "Francesco Ferrante",
+          "Andrea Prestipino",
+          "Andrea Raffo",
+          "Michael E. Waugh"
+        ],
+        "abstract": "U.S. tariff rates in 2025 rose to levels not seen since the Great Depression, yet imports increased. To account for the missing trade collapse, we develop an open-economy New Keynesian model with tariff heterogeneity, inventories, and shocks to investment that capture the AI-driven boom. The model matches the untargeted paths of imports, output, and inflation; we use it to decompose the effects of tariffs and the investment boom. Absent the investment boom, imports would have fallen by 10 percent and activity would have contracted by 0.7 percent. The effects of tariffs depend on which goods are tariffed: tariffs on consumption and intermediates act like shocks to supply; tariffs on capital goods act like shocks to demand. The concentration of the 2025 tariff increases on consumption goods and the relative sparing of capital goods limited the damage to output while amplifying the inflationary impulse.",
+        "abstract_cn": "到2025年，美国的关税率升至自大萧条以来未见的水平，然而进口却增加了。为了解释贸易崩溃的缺失，我们开发了一个开放经济的新凯恩斯主义模型，该模型包含关税异质性、库存和投资冲击，以捕捉由人工智能驱动的繁荣。模型匹配了进口、产出和通胀的未受目标影响路径；我们用它来分解关税和投资繁荣的影响。如果没有投资繁荣，进口将下降10%，经济活动将收缩0.7%。关税的影响取决于哪些商品被征税：对消费品和中间产品的关税像供应冲击一样起作用；对资本货物的关税像需求冲击一样起作用。2025年关税增加集中在消费品上，而相对未对资本货物造成影响，这限制了对产出的损害，同时放大了通胀冲动。",
+        "url": "https://www.nber.org/papers/w35630",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35601",
+        "title": "The Impact of Suicide Hotlines on Health: Evidence from 988 Implementation",
+        "title_cn": "自杀热线对健康的影响：988实施的证据",
+        "authors": [
+          "Benjamin Hansen",
+          "Niketana Kannan",
+          "Jonathan Zhang"
+        ],
+        "abstract": "This paper examines the impact of the National Suicide Hotline Designation Act, which introduced the universal 988 calling code and earmarked federal funding to suicide crisis call centers in July 2022. We use a difference-in-differences design that leverages pre-existing cross-state variation in crisis line capacity gaps, measured by the number of pre-988 calls routed to a state but not answered in-state. The rollout substantially improved crisis line operations in states with larger baseline capacity gaps: these states answered more calls in-state and increased their in-state answer rates. However, these operational gains did not translate into detectable reductions in suicide mortality. The mortality estimates are precise enough to rule out even modest short-run reductions. We also find no statistically significant improvements in broader population mental health outcomes. These findings suggest that expanding crisis line capacity alone may be insufficient to reduce suicide deaths.",
+        "abstract_cn": "本文考察了《国家自杀热线指定法案》的影响，该法案于2022年7月引入了统一的988呼叫代码，并为自杀危机呼叫中心预留了联邦资金。我们采用了双重差分设计，利用危机线路容量缺口的跨州变化，以988之前的呼叫被路由到一个州但在州内未被接听的数量来衡量。这一推广显著改善了基线容量缺口较大的州的危机线路运营：这些州在州内接听了更多的电话，并提高了州内的接听率。然而，这些运营上的收益并没有转化为可检测的自杀死亡率降低。死亡率的估计足够精确，可以排除即使是适度的短期降低。我们还发现，在更广泛的人口心理健康结果方面没有统计学上显著的改善。这些发现表明，仅扩大危机线路容量可能不足以减少自杀死亡。",
+        "url": "https://www.nber.org/papers/w35601",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35614",
+        "title": "Declining Occupations and Career Outcomes in the United States",
+        "title_cn": "美国职业下降与职业成果",
+        "authors": [
+          "Erling Barth",
+          "Maria Forthun Hoen",
+          "Sari Pekkala Kerr",
+          "William R. Kerr"
+        ],
+        "abstract": "We study long-run career consequences of initial employment in an occupation that subsequently declines. Linking the 2000 Decennial Census to US administrative employment and earnings records through 2020, we follow more than 2.4 million workers. Employment in an occupation that contracts by at least 25 percent is associated with about 5 percent lower cumulative earnings despite slightly more quarters worked. The earnings differential closely matches evidence from Sweden and Norway, although employment adjustment differs. Occupational mobility is substantial but incomplete, while children’s later occupational destinations are much less tied to their household heads’ 2000 occupational-growth categories.",
+        "abstract_cn": "我们研究了初始就业于随后衰退的职业对长期职业生涯的影响。通过将2000年人口普查数据与美国行政就业和收入记录相链接，直至2020年，我们追踪了超过240万工人的情况。在至少收缩了25%的职业中就业与累计收入约低5%相关，尽管这些工人工作的时间略长。收入差异与来自瑞典和挪威的证据大致相符，尽管就业调整存在差异。职业流动性相当大但不完全，而孩子们后来的职业去向与他们家庭户主2000年的职业增长类别的联系要小得多。",
+        "url": "https://www.nber.org/papers/w35614",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35624",
+        "title": "Sticky Wage Norms and the Real Wage Cost of Unexpected Inflation",
+        "title_cn": "粘性工资规范与意外通胀的实际工资成本",
+        "authors": [
+          "Erik Hurst",
+          "Christina Patterson",
+          "Nela Thomas Richardson",
+          "Ye Liv Wang"
+        ],
+        "abstract": "We use a sample of administrative payroll data covering a large and nationally representative share of U.S. workers to study how wages adjusted during the recent inflation period. Most firms apply a single modal annual nominal wage increase to the majority of their workers, and these firm-level norms changed little during the recent period of unexpected inflation. As a result, nominal wages did not keep pace with prices for a large share of workers who stayed at their firms. Forty-three percent of workers continuously employed at the same firm over the four years spanning 2021–2024 experienced a real wage decline, with a mean loss of roughly nine percent among those who fell behind. Workers could escape sticky wage norms by changing employers — job-changers’ wages rose nearly one-for-one with inflation — but switching was too infrequent to matter for most. Even accounting for job-changers, 37 percent of all workers saw real wages decline over the 4-year period. Indexing firms’ modal raises one-for-one to inflation would have closed roughly 40 percent of the resulting shortfall relative to prepandemic trend. Drawing on cross-country evidence from Belgium, whose wages are automatically indexed to inflation, we show that incomplete wage indexation, rather than inflation itself, helps explain the persistence of depressed consumer sentiment during the 2021–2024 period.",
+        "abstract_cn": "我们利用涵盖美国大量具有代表性的工人的行政工资单数据样本，研究了在最近的通胀期间工资是如何调整的。大多数公司对其大多数工人适用单一的模态年度名义工资增长，而这些公司层面的规范在最近的意外通胀期间变化不大。因此，对于留在公司的大量工人来说，名义工资并没有跟上价格的步伐。在2021至2024年这四年期间，连续受雇于同一家公司的工人中有43%经历了实际工资的下降，其中落后者的平均损失约为9%。工人可以通过更换雇主来摆脱粘性工资规范——换工作的人的工资几乎与通胀同步增长——但换工作的发生频率对于大多数人来说太低，影响不大。即使考虑到换工作的人，所有工人中有37%在4年期间看到了实际工资的下降。将公司模态加薪与通胀同步调整，可以弥补与大流行前趋势相比约40%的缺口。我们借鉴了比利时的跨国证据，该国的工资自动与通胀挂钩，表明不完全的工资指数化，而不是通胀本身，有助于解释2021至2024年期间消费者情绪持续低迷的现象。",
+        "url": "https://www.nber.org/papers/w35624",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35604",
+        "title": "Algorithm-Driven SVARs: Navigating the Wilderness of Big Data",
+        "title_cn": "算法驱动的SVAR模型：在大数据的荒野中导航",
+        "authors": [
+          "Yucheng Yang",
+          "Tao Zha"
+        ],
+        "abstract": "Every SVAR result is conditional on two choices: the restrictions that identify the shock and the variables on which they operate. The literature disciplines the first; the second is chosen by hand. We develop a Bayesian methodology that constructs information sets, uses an out-of-sample criterion, and retains the largest system it admits. Under recursive identification, output rises with housing production rather than household credit alone. For monetary policy, an anchor-free joint Bayesian proxy SVAR with multiple instruments strengthens the credit spread channel. A core system augmented with the selected corporate spread identifies expected default risk as a potent transmission margin.",
+        "abstract_cn": "每项结构向量自回归（SVAR）结果都取决于两个选择：识别冲击的限制条件以及这些限制条件作用的变量。文献对前者进行了规范，而后者则是手工选择的。我们开发了一种贝叶斯方法，构建信息集，使用样本外标准，并保留它所允许的最大系统。在递归识别下，产出随着住房生产而非仅家庭信贷而上升。对于货币政策而言，一个无锚点的联合贝叶斯代理SVAR，配合多种工具，加强了信贷利差渠道。一个核心系统，通过添加选定的企业利差，识别出预期违约风险作为一个强有力的传导边界。",
+        "url": "https://www.nber.org/papers/w35604",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35609",
+        "title": "Exchange Rates, Structural Change, and Productivity Growth",
+        "title_cn": "汇率、结构变化与生产率增长",
+        "authors": [
+          "Paul Bergin",
+          "Woo Jin Choi",
+          "Ju H. Pyun"
+        ],
+        "abstract": "Macroeconomics tends to view exchange rate movements as transitory. However, persistent exchange rate realignments and the associated capital flows can have long-run implications for structural change and productivity growth. We provide empirical evidence that policies of reserve accumulation and currency undervaluation have had significant effects on manufacturing productivity, as well as on manufacturing share, product varieties, and domestic orientation of production chains. We develop a dynamic two-country model with two sectors, firm dynamics, and trade hysteresis to demonstrate a novel mechanism by which exchange rate policy reorients global supply chains and industrial structure. The model identifies conditions under which such a policy raises productivity and welfare in the home country. It also identifies conditions under which the policy leads to either permanent or reversible deindustrialization in a trading partner. Findings have implications for the long-run relationship between China and the U.S.",
+        "abstract_cn": "宏观经济学通常将汇率变动视为暂时性的。然而，持续的汇率重估及其相关的资本流动可能对结构变化和生产率增长产生长期影响。我们提供了实证证据，表明储备积累和货币低估政策对制造业生产率以及制造业份额、产品种类和生产链的国内导向产生了显著影响。我们构建了一个包含两个部门、企业动态和贸易滞后的动态两国模型，以展示汇率政策重新定位全球供应链和产业结构的新机制。该模型确定了在何种条件下此类政策能够提高本国的生产率和福利。它还确定了在何种条件下该政策会导致一个贸易伙伴出现永久性或可逆的去工业化。这些发现对于理解中国和美国之间长期关系具有重要意义。",
+        "url": "https://www.nber.org/papers/w35609",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35629",
+        "title": "Optimal Experimental Design and Estimation when Potential Outcomes are Bounded",
+        "title_cn": "最优实验设计和估计：当潜在结果有界时",
+        "authors": [
+          "Peter Hull"
+        ],
+        "abstract": "I study the optimal design and analysis of randomized experiments for estimating finite-population average treatment effects when potential outcomes are known to be bounded, as with binary outcomes. Among all assignment mechanisms and a broad class of affine estimators, worst-case mean-squared error (MSE) is minimized by independent random assignment and an unconventional regression of the support-midpoint-centered outcome on the recentered treatment, with no intercept. This contrasts with the usual prescription of balanced complete randomization and difference-in-means estimation: when outcomes are bounded, randomness in the realized treatment share is informative. The worst-case gain over full-sample complete randomization is asymptotically small, but gains can be first-order relative to other designs: complete within-pair randomization and pair-fixed-effect regression have twice the worst-case MSE. I then consider the general problem, allowing for any measurable estimator. Independent random assignment remains optimal, and the generally-nonlinear optimal estimator can meaningfully reduce worst-case MSE.",
+        "abstract_cn": "我研究了在潜在结果已知有界（如二元结果）时，估计有限总体平均处理效应的随机实验的最佳设计和分析。在所有分配机制和广泛的仿射估计器中，最坏情况下的均方误差（MSE）通过独立的随机分配和对支持中点中心化结果的非常规回归（不包含截距）来最小化，这是在重新中心化处理的基础上进行的。这与通常推荐的平衡完全随机化和均值差异估计形成了对比：当结果有界时，实现的处理份额中的随机性是信息性的。与完全样本完全随机化相比，最坏情况下的增益是渐近小的，但相对于其他设计，增益可以是一阶的：完全的配对内随机化和配对固定效应回归的最坏情况下MSE是其两倍。然后，我考虑了一般问题，允许使用任何可测量的估计器。独立的随机分配仍然是最优的，通常非线性的最优估计器可以显著降低最坏情况下的MSE。",
+        "url": "https://www.nber.org/papers/w35629",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35602",
+        "title": "Colleges, Assortative Mating, and Intergenerational Mobility in Twentieth-Century America",
+        "title_cn": "大学、择偶匹配与二十世纪美国代际流动性",
+        "authors": [
+          "Ran Abramitzky",
+          "Santiago Pérez",
+          "Joseph Price"
+        ],
+        "abstract": "We use newly digitized records for 1.2 million students at 60 co-educational U.S. colleges, 1915–1943, linked to enrollment records for their children through 1963, to study how colleges shape marital matching and the intergenerational transmission of educational advantage. About 6% of men and 9% of women marry someone from their own college. This homogamy is largely causal: within colleges, more different-sex classmates and longer campus overlap both raise same-college marriage. Same-college spouses are more educated, and this advantage persists across generations. Children of same-college couples more often attend selective colleges, with spousal education explaining a third of the gap.",
+        "abstract_cn": "我们利用1915至1943年间60所美国男女同校大学的120万名学生的新数字化记录，并将这些记录与其子女1963年之前的入学记录相链接，研究大学如何塑造婚姻匹配以及教育优势的代际传递。大约6%的男性和9%的女性与自己的大学同学结婚。这种同质婚配在很大程度上是因果关系：在大学内部，更多的异性同学和更长的校园重叠时间都提高了同校婚姻的可能性。同校配偶受教育程度更高，这种优势在代际间持续存在。同校夫妇的子女更有可能进入选拔性大学，配偶的教育水平解释了三分之一的差距。",
+        "url": "https://www.nber.org/papers/w35602",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35599",
+        "title": "From Social Savings to Spatial Equilibrium: Evaluating Transportation Improvements in Quantitative Spatial Models",
+        "title_cn": "从社会储蓄到空间均衡：在定量空间模型中评估交通改善",
+        "authors": [
+          "Treb Allen",
+          "Simon Fuchs",
+          "Woan Foong Wong"
+        ],
+        "abstract": "How do we evaluate the welfare gains from transport infrastructure investment? We present a quantitative spatial framework that integrates traffic and economic responses to infrastructure improvements and derives the elasticity of aggregate welfare to changes in the transportation network. The resulting formula extends the traditional ``social savings'' method to incorporate route and mode choice, agglomeration and dispersion externalities, and traffic congestion. We apply the formula to the U.S. freight network and assess the benefits of reducing costs on each segment of the U.S. Interstate Highway System. The traditional and extended measures are closely related overall, but they differ in the level of estimated gains and in the ranking of some highly valued links. Where the rankings differ, network position determines how congestion and spatial adjustment alter a link's measured benefit.",
+        "abstract_cn": "我们如何评估交通基础设施投资的福利收益？我们提出了一个定量的空间框架，整合了交通和经济对基础设施改善的反应，并推导出总福利对交通网络变化的弹性。得到的公式扩展了传统的“社会储蓄”方法，纳入了路线和模式选择、集聚和分散外部性以及交通拥堵。我们将该公式应用于美国货运网络，并评估降低美国州际高速公路系统每一段成本的益处。总体而言，传统和扩展的度量密切相关，但它们在估计收益水平和一些高价值链接的排名上存在差异。在排名不同的地方，网络位置决定了拥堵和空间调整如何改变一个链接的测量效益。",
+        "url": "https://www.nber.org/papers/w35599",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35617",
+        "title": "The Cov-lite Liquidity Advantage, Regulatory Pressures, and the Evolution of the Leveraged Loan Market",
+        "title_cn": "“轻条款”流动性优势、监管压力与杠杆贷款市场的演变",
+        "authors": [
+          "Robert Prilmeier",
+          "René M. Stulz"
+        ],
+        "abstract": "Following the global financial crisis (GFC), regulators made it harder for banks to retain leveraged loan exposure. We conjecture their actions increased the share of leveraged loan issuances with no maintenance covenants (cov-lite loans) because such loans are easier to sell. We find that, post-GFC, the share of cov-lite loan issuance increased more for banks facing stricter regulation, failing to pass a stress test outright, or exhibiting greater vulnerability to the severely adverse stress test scenario. We show that, as expected from theory, cov-lite loans have a liquidity advantage that lowers their credit spread and is higher for private firms.",
+        "abstract_cn": "在全球金融危机（GFC）之后，监管机构使得银行更难保留杠杆贷款敞口。我们推测他们的行动增加了没有维护条款（cov-lite loans，即轻维护贷款）的杠杆贷款发行份额，因为这类贷款更容易出售。我们发现，在GFC之后，面临更严格监管的银行、未能通过压力测试的银行，或在严重不利的压力测试情景下表现出更大脆弱性的银行，其轻维护贷款发行份额增加得更多。正如理论所预期的，我们展示了轻维护贷款具有流动性优势，这降低了它们的信用利差，并且对私营企业来说这种优势更大。",
+        "url": "https://www.nber.org/papers/w35617",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35632",
+        "title": "Taxpayer Behavior in the Age of AI: A Field Experiment on Property Tax Appeals",
+        "title_cn": "人工智能时代的纳税人行为：财产税申诉的现场实验",
+        "authors": [
+          "Justin E. Holz",
+          "Ricardo Perez-Truglia",
+          "Andrew Simon",
+          "Alejandro Zentner"
+        ],
+        "abstract": "Navigating the tax system often requires information and judgment that taxpayers may lack. Although taxpayers sometimes rely on human experts, AI could provide comparable assistance at substantially lower cost. Yet there is no causal evidence on how taxpayers use AI tax agents or how these tools affect their behavior. We fill this gap with a field experiment in the context of property tax appeals. We recruited a sample of 645 households in Dallas County, Texas. All households received access to a website providing personalized information, filing instructions, and supporting evidence for an appeal. Half were randomly assigned to a version of the website that also included an AI chatbot capable of answering questions and providing guidance tailored to their circumstances. Chatbot take-up was high: 78% initiated a conversation. Access to the chatbot increased the probability of filing an appeal without a human agent by 9.1 pp, from 41.4% to 50.5%. Evidence from clickstream data and conversation transcripts suggests that the chatbot helped households exercise judgment—that is, evaluate and act on the available information. The increase in appeal filing was smaller among less-advantaged households, providing suggestive evidence that the chatbot widened existing disparities. Our results demonstrate the potential of AI tax assistance while highlighting that who benefits depends not only on access, but also on how taxpayers use the technology.",
+        "abstract_cn": "在税务系统中导航通常需要纳税人可能缺乏的信息和判断。尽管纳税人有时会依赖人类专家，但人工智能（AI）可以以更低的成本提供类似的帮助。然而，目前还没有关于纳税人如何使用AI税务代理或这些工具如何影响他们行为的因果证据。我们通过在财产税申诉的背景下进行的实地实验来填补这一空白。我们招募了德克萨斯州达拉斯县的645户家庭作为样本。所有家庭都获得了一个提供个性化信息、申报指导和申诉支持证据的网站的访问权限。其中一半家庭被随机分配到一个版本的网站，该网站还包括一个能够回答问题并提供针对他们具体情况的指导的AI聊天机器人。聊天机器人的接受度很高：78%的家庭启动了对话。访问聊天机器人将无需人类代理就提交申诉的概率提高了9.1个百分点，从41.4%提高到50.5%。来自点击流数据和对话记录的证据表明，聊天机器人帮助家庭行使判断力，即评估并根据可用信息采取行动。在较为弱势的家庭中，申诉提交的增加较小，这提供了暗示性证据表明聊天机器人扩大了现有的差距。我们的结果展示了AI税务援助的潜力，同时强调了谁受益不仅取决于访问权限，还取决于纳税人如何使用这项技术。",
+        "url": "https://www.nber.org/papers/w35632",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35625",
+        "title": "When Public Signals Backfire: Strategic Disclosure and Information Crowd-Out",
+        "title_cn": "当公共信号适得其反：策略性披露与信息挤出效应",
+        "authors": [
+          "Marty Haoyuan Chen",
+          "Ginger Zhe Jin"
+        ],
+        "abstract": "We study voluntary disclosure when partially naive receivers observe a public signal correlated with the sender’s private information. We develop a framework in which the public signal changes how receivers interpret silence, and derive a closed-form disclosure threshold nesting classical unraveling. A laboratory experiment varying the correlation confirms our predictions: disclosure decreases as the signal becomes more favorable, and receiver guesses upon nondisclosure rise toward it. The public signal can crowd out disclosure, leaving receivers less informed than without it. This informational loss peaks at intermediate correlation, where the signal shifts beliefs yet remains too noisy to substitute for disclosure.",
+        "abstract_cn": "我们研究了在部分天真的接收者观察到与发送者私有信息相关的公共信号时的自愿披露行为。我们构建了一个框架，其中公共信号改变了接收者如何解释沉默，并推导出一个闭合形式的披露阈值，该阈值嵌套了经典的解耦效应。通过改变相关性进行的实验室实验证实了我们的预测：随着信号变得更加有利，披露行为减少，而在不披露的情况下，接收者的猜测会上升至该信号。公共信号可能会挤出披露行为，使得接收者比没有该信号时获得的信息更少。这种信息损失在相关性中等时达到峰值，此时信号虽然改变了信念，但由于过于嘈杂，无法替代披露。",
+        "url": "https://www.nber.org/papers/w35625",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35591",
+        "title": "Fetal Pollution Exposure, Cognitive Ability, and Gender-specific Parental Investment",
+        "title_cn": "胎儿期污染暴露、认知能力与性别特定的父母投资",
+        "authors": [
+          "Xin Zhang",
+          "Yixuan Wang",
+          "Xingyi Hu",
+          "Xi Chen"
+        ],
+        "abstract": "We examine how prenatal exposure to air pollution interacts with gender-biased parental investments to shape long-run cognitive performance. Using nationally representative survey data from China, we show that fetal PM2.5 exposure significantly reduces cognitive ability for women, particularly among those with brothers. Our evidence suggests that the family investment channel operates primarily through education rather than health, with gender-biased educational resource allocation compounding negative outcomes for females. Specifically, conditional on the same level of fetal PM2.5 exposure, females receive less homework assistance from their families and attain lower levels of education.",
+        "abstract_cn": "我们研究了产前暴露于空气污染如何与基于性别的家长投资相互作用，从而影响长期的认知表现。利用中国全国代表性的调查数据，我们发现胎儿期PM2.5暴露显著降低了女性的认知能力，特别是在有兄弟的女性中。我们的证据表明，家庭投资渠道主要通过教育而非健康运作，基于性别的教育资源分配加剧了女性的负面结果。具体来说，在胎儿期PM2.5暴露水平相同的情况下，女性从家庭中获得的作业帮助较少，教育水平也较低。",
+        "url": "https://www.nber.org/papers/w35591",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35627",
+        "title": "Provider Altruism and Medical Fraud: Evidence from an Audit Study of Malaria Treatment",
+        "title_cn": "医疗服务者的利他主义与医疗欺诈：来自疟疾治疗审计研究的证据",
+        "authors": [
+          "Paul Gertler",
+          "Ada Kwan"
+        ],
+        "abstract": "We provide evidence of fraudulent diagnostic misreporting leading to spending on unnecessary medical care and show that it is strongly associated with provider profit motivation and weak prosocial preferences. Using incognito standardized patients (SP) presenting identical acute malaria symptoms as real walk-in clients to private providers in Kenya, we observe diagnostic and treatment decisions under controlled conditions with externally verified disease status. Because the SPs were confirmed to be malaria-negative, any reported positive diagnosis is a false positive by construction. Providers ordered malaria tests in 81% of the SP encounters. Conditional on administering a malaria test, providers report false positive results in 30% of encounters, substantially exceeding the approximately 3-5% false positive rates reported for the same malaria tests in diagnostic accuracy studies. This occurs despite near-perfect knowledge of appropriate diagnostic protocols. We link this behavior to provider preferences measured using a real-stakes, modified dictator game. While ordering a test is uncorrelated with preferences, the top 25% most profit-motivated providers report 16 percentage point (pp) more false positives and sell 20 pp more antimalarial drugs than more altruistic providers, conditional on ordering a malaria test. Misreporting is accompanied by selective concealment of diagnostic evidence from patients.",
+        "abstract_cn": "我们提供了欺诈性诊断错报导致不必要医疗支出的证据，并表明这与提供者追求利润的动机和较弱的亲社会偏好强烈相关。我们使用伪装成标准病人（SP）的个体，他们向肯尼亚的私人提供者呈现与真实患者相同的急性疟疾症状，在控制条件下观察诊断和治疗决策，并有外部验证的疾病状态。由于SPs被确认为疟疾阴性，任何报告的阳性诊断都是构造上的假阳性。在81%的SP接触中，提供者订购了疟疾测试。在进行疟疾测试的条件下，提供者在30%的接触中报告假阳性结果，大大超过了同一疟疾测试在诊断准确性研究中报告的大约3-5%的假阳性率。尽管对适当的诊断程序有着近乎完美的了解，这种情况还是发生了。我们将这种行为与使用真实风险、修改后的独裁者游戏测量的提供者偏好联系起来。虽然订购测试与偏好无关，但最以利润为动机的前25%的提供者在订购疟疾测试的条件下，报告的假阳性比更具有利他心的提供者多16个百分点（pp），并且多销售了20pp的抗疟药物。错报伴随着选择性地向患者隐瞒诊断证据。",
+        "url": "https://www.nber.org/papers/w35627",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35600",
+        "title": "Recall Fluency, Beliefs and Behavior",
+        "title_cn": "记忆流畅性、信念与行为",
+        "authors": [
+          "Pedro Bordalo",
+          "Nicola Gennaioli",
+          "Matthew O'Brien",
+          "Andrei Shleifer"
+        ],
+        "abstract": "The US Health and Retirement Study collects data on participants’ recall fluency (RF), their ability to recall words from a list, a standard measure of memory used by psychologists. Controlling for multiple demographic characteristics as well as IQ, people with a higher RF are more optimistic about stock returns, the price of their homes, and their life expectancy. We derive the predictions of a standard memory model and find that, consistent with them, the beliefs of higher RF people about each target domain are more sensitive to cues, to experiences in that domain, but also to irrelevant experiences in other domains, especially those similar to the target. These effects, in turn, carry to investment and retirement choices. RF emerges as an economically relevant personal trait.",
+        "abstract_cn": "美国健康与退休研究（Health and Retirement Study）收集了参与者回忆流畅性（RF）的数据，即他们从列表中回忆单词的能力，这是心理学家使用的一种标准记忆测量方法。在控制了多种人口统计特征以及智商之后，我们发现具有较高RF的人对股票收益率、房价和预期寿命更为乐观。我们推导出一个标准记忆模型的预测，并发现与这些预测一致的是，具有较高RF的人对每个目标领域的信念更加敏感于线索、该领域的经验，但也对其他领域的无关经验敏感，尤其是那些与目标领域相似的领域。这些效应进而影响到投资和退休选择。RF作为一个经济相关的个人特质显现出来。",
+        "url": "https://www.nber.org/papers/w35600",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35613",
+        "title": "Short-Run Impacts of SNAP Restriction Waivers on Beverage Purchases",
+        "title_cn": "SNAP限制豁免对饮料购买的短期影响",
+        "authors": [
+          "David E. Frisvold",
+          "Felipe Lozano Rojas"
+        ],
+        "abstract": "Ten states implemented Supplemental Nutrition Assistance Program (SNAP) Food Restriction Waivers to restrict purchases of sugary beverages with SNAP funds for the first time in program history in 2026. We estimate the short-run impact of these waivers using a new panel dataset of household beverage purchases. For the average SNAP household, these waivers decrease soda purchases by 13 percent with persistent effects for up to two months after implementation. For inframarginal SNAP households, these waivers decrease soda purchases by 18.5 percent. These findings are inconsistent with the predictions of traditional demand theory and suggest that behavioral models incorporating mental accounting and labeling better characterize consumer responses to SNAP purchase restrictions.",
+        "abstract_cn": "2026年，十个州首次在历史上实施了补充营养援助计划（SNAP）食品限制豁免，限制使用SNAP资金购买含糖饮料。我们利用一个新的家庭饮料购买面板数据集，估计这些豁免对短期影响。对于平均SNAP家庭而言，这些豁免使苏打水购买量减少了13%，并且在实施后长达两个月内持续产生影响。对于非边际SNAP家庭，这些豁免使苏打水购买量减少了18.5%。这些发现与传统需求理论的预测不一致，表明纳入心理会计和标签行为的模型能更好地描述消费者对SNAP购买限制的反应。",
+        "url": "https://www.nber.org/papers/w35613",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35621",
+        "title": "Making AI Tutoring Productive: Evidence from a Mastery-Based Math Practice Experiment",
+        "title_cn": "提高人工智能辅导的成效：基于掌握的数学练习实验的证据",
+        "authors": [
+          "Philip Oreopoulos",
+          "Michael Liut",
+          "Alp Sungu",
+          "Nina Low"
+        ],
+        "abstract": "Large language models (LLMs) can make tutoring more scalable, but only if students use them to reason through mistakes rather than avoid effort. We study this question in a randomized field experiment with more than 6, 000 middle-school students in Hamilton County Schools using NUMI, a research-based computer-assisted learning (CAL) platform. Students were randomized to AI versus CAL-only support, mastery versus non-mastery progression, and one of two math topics. One week later, they completed a delayed assessment covering practiced and unpracticed material. AI students progressed more slowly and attempted fewer questions, but answered more accurately conditional on reaching an attempt. The clearest mechanism appeared after mistakes: AI improved next-attempt correctness and reduced attempts needed to return to a correct answer, while increasing time spent on each question receiving structured support. Mastery increased three-correct-in-a-row attainment but did not by itself improve delayed learning. The most encouraging delayed-test evidence appears when AI is embedded in the mastery workflow, with marginally significant gains concentrated on practiced Exercise 1 material. The results suggest that LLM tutoring can add value over standard CAL, but its value depends on structure that turns mistakes into productive learning moments.",
+        "abstract_cn": "大型语言模型（LLMs）可以使辅导更具可扩展性，但前提是学生必须使用它们来理解错误，而不是避免努力。我们在汉密尔顿县学校对超过6000名中学学生进行了一项随机现场实验，使用NUMI这一基于研究的计算机辅助学习（CAL）平台来研究这个问题。学生被随机分配到人工智能（AI）与仅CAL支持、掌握与非掌握进度以及两个数学主题之一。一周后，他们完成了一项涵盖练习和未练习材料的延迟评估。使用AI的学生进步更慢，尝试的问题更少，但在尝试时回答得更准确。最明显的机制出现在错误之后：AI提高了下一次尝试的正确率，并减少了恢复到正确答案所需的尝试次数，同时增加了每个问题上花费的时间，以获得结构化支持。掌握进度提高了连续三次正确的获得率，但本身并没有改善延迟学习。当AI嵌入到掌握进度的工作流程中时，最令人鼓舞的延迟测试证据出现，边际显著的增益集中在练习过的练习1材料上。结果表明，LLM辅导可以为标准CAL增加价值，但其价值取决于将错误转化为富有成效的学习时刻的结构。",
+        "url": "https://www.nber.org/papers/w35621",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35628",
+        "title": "Do Minimum Wages Help Worker in Poor and Low-Income Families?",
+        "title_cn": "最低工资是否帮助了贫困和低收入家庭的工人？",
+        "authors": [
+          "David Neumark",
+          "Emma Wohl"
+        ],
+        "abstract": "We provide the first direct estimates of the effects of minimum wages on low-wage workers in families at different points of the distribution of income-to-needs, using data from the Survey of Income and Program Participation, which oversamples low-income families. We find adverse – rather than beneficial – effects of minimum wages on the employment, hours, and earnings of initially-employed low-wage workers in poor and low-income families. Although we do not find a gradient indicating more adverse effects on the poorest low-wage workers, the adverse effects for poor and low-income low-wage workers help explain why minimum wages do not reduce poverty.",
+        "abstract_cn": "我们利用收入与项目参与调查（Survey of Income and Program Participation）的数据，首次直接估计了最低工资对不同收入水平家庭中低薪工人的影响。该调查对低收入家庭进行了超额抽样。我们发现，最低工资对贫困和低收入家庭中最初就业的低薪工人的就业、工时和收入产生了不利而非有益的影响。尽管我们没有发现最低工资对最贫困的低薪工人有更不利的梯度效应，但对贫困和低收入低薪工人的不利影响有助于解释为什么最低工资并未减少贫困。",
+        "url": "https://www.nber.org/papers/w35628",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35615",
+        "title": "Identifying Policy Causal Effects from Rule Changes",
+        "title_cn": "从规则变化中识别政策因果效应",
+        "authors": [
+          "Ed Manuel",
+          "Christian K. Wolf"
+        ],
+        "abstract": "Recent applied work has used interacted local projections to study how the propagation of macroeconomic shocks changes with the policy regime. We characterize the estimand of such strategies and relate it to the policy shock literature. Our main result is a set of conditions on the regressors and underlying data-generating process under which those two approaches are equivalent in the nature of their estimand, with both identifying slices of the same space of policy dynamic causal effects. Since policy is inherently high-dimensional, however, the two approaches generically recover different slices of that space. For example, for monetary policy, standard shocks tend to deliver the effects of transitory policy rate changes, while looking across policy regimes instead isolates gradual, more forward guidance-like policy treatments.",
+        "abstract_cn": "近期的应用研究利用交互局部投影方法研究宏观经济冲击的传导如何随政策制度变化。我们描述了这类策略的估计对象，并将其与政策冲击文献联系起来。我们的主要结果是一组条件，这些条件涉及回归变量和潜在的数据生成过程，在这些条件下，这两种方法在估计对象的性质上是等价的，两者都识别了相同政策动态因果效应空间的切片。然而，由于政策本质上是高维的，这两种方法通常恢复了该空间的不同切片。例如，在货币政策中，标准冲击倾向于传递临时性政策利率变化的效应，而跨政策制度的观察则隔离了渐进的、更类似于前瞻性指引的政策处理。",
+        "url": "https://www.nber.org/papers/w35615",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35593",
+        "title": "More Frequent Than You Think: Revisiting Capital Structure Adjustment",
+        "title_cn": "比想象中更频繁：重新审视资本结构调整",
+        "authors": [
+          "Zhiguo He",
+          "Peter M. DeMarzo",
+          "Qiping Xu"
+        ],
+        "abstract": "This paper revisits the empirical evidence on capital structure adjustment and the prevalence of financing “inaction.” We show that the conclusion of infrequent leverage adjustment is sensitive to two methodological choices: high adjustment thresholds and reliance on net balance-sheet changes. Using lower thresholds and gross flows from cash-flow statements, we find adjustment is far more frequent than previously documented, and the pattern reveals pronounced size-based heterogeneity. Smaller firms exhibit considerable inertia consistent with fixed costs; the largest firms (e.g., top 1% by assets) behave as if frictions are negligible. Frictionless recapitalization models thus better describe large-firm leverage dynamics.",
+        "abstract_cn": "本文重新审视了有关资本结构调整和融资“不作为”普遍性的实证证据。我们表明，关于杠杆调整不频繁的结论对两种方法选择很敏感：高调整阈值和依赖于资产负债表净变化。使用较低的阈值和现金流量表中的毛流量，我们发现调整比以往记录的要频繁得多，且模式显示出明显的基于规模的异质性。较小的公司表现出与固定成本一致的相当大的惯性；最大的公司（例如，按资产排名前1%）的行为就好像摩擦可以忽略不计。因此，无摩擦的资本重组模型更好地描述了大公司的杠杆动态。",
+        "url": "https://www.nber.org/papers/w35593",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35623",
+        "title": "Race and Redistricting in Local Governments",
+        "title_cn": "地方政府中的种族与选区重划",
+        "authors": [
+          "Carlos Fernando Avenancio-León",
+          "Daniel B. Jones",
+          "Ying Shi"
+        ],
+        "abstract": "Electoral maps translate residential geography into political representation, yet they have never been systematically measured for thousands of local governments across the country. We reconstruct 3,712 city council and county commission maps across 18,521 districts using nationwide voter-file and Census data. Enacted maps overrepresent White voters and underrepresent Black and Hispanic voters, with gaps predicting the racial composition of officeholders. We juxtapose these with simulated, race-blind maps satisfying common districting constraints. Simulated maps reproduce much of this disparity, showing that geography skews representation before any boundary-drawing. Enacted maps substantially improve on the race-blind baseline only in jurisdictions subject to oversight from the Voting Rights Act or districting litigation. As courts curtail race-conscious districting, local governments may revert to a baseline that is formally neutral but substantively unequal.",
+        "abstract_cn": "选举地图将居住地理转化为政治代表，但全国数千个地方政府的选举地图从未进行过系统性测量。我们利用全国选民档案和人口普查数据，重建了遍布18,521个选区的3,712个城市议会和县委员会地图。实施的地图过度代表白人选民，而低估了黑人和西班牙裔选民，这些差距预测了官员的种族构成。我们将这些地图与满足常见选区划分约束的模拟、无视种族的地图进行对比。模拟地图复制了这种差异的大部分，表明在任何边界绘制之前，地理因素就扭曲了代表权。只有在受《投票权法》监督或选区划分诉讼的司法管辖区，实施的地图才在无视种族的基线基础上有了显著改进。随着法院限制基于种族的选区划分，地方政府可能会回归到表面上中立但实际上不平等的基线。",
+        "url": "https://www.nber.org/papers/w35623",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35605",
+        "title": "Search and Negotiation with Biased Beliefs in Consumer Credit Markets",
+        "title_cn": "消费者信贷市场中带有偏见信念的搜索与谈判",
+        "authors": [
+          "Erik Berwart",
+          "Sean K. Higgins",
+          "Sheisha Kulkarni",
+          "Santiago Truffa"
+        ],
+        "abstract": "How do biased beliefs about the interest rate distribution affect search, negotiation, and loan terms in consumer credit markets? In collaboration with Chile's financial regulator, we conducted a randomized controlled trial with 112,063 loan seekers. Randomly eliciting beliefs about interest rates led participants to search more and obtain lower rates. Most participants underestimated both interest rate levels and dispersion. Showing them a price comparison tool we built using administrative data on the universe of consumer loans caused them to update their beliefs, negotiate more, obtain lower rates without searching more, and be more likely to take out a loan.",
+        "abstract_cn": "对利率分布的偏见如何影响消费者信贷市场中的搜索、谈判和贷款条款？我们与智利金融监管机构合作，对112,063名贷款寻求者进行了随机对照试验。随机引导参与者表达对利率的信念，导致他们增加搜索并获取更低的利率。大多数参与者对利率水平和分散程度都有所低估。向他们展示我们使用涵盖所有消费者贷款的行政数据构建的价格比较工具，使他们更新了自己的信念，增加了谈判，获得了更低的利率而无需增加搜索，并更有可能获得贷款。",
+        "url": "https://www.nber.org/papers/w35605",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35608",
+        "title": "Monopsony Makes it Big",
+        "title_cn": "买方垄断势力的壮大",
+        "authors": [
+          "Sydnee Caldwell",
+          "Arindrajit Dube",
+          "Suresh Naidu"
+        ],
+        "abstract": "The literature on imperfect competition in labor markets has expanded rapidly in recent years. This article provides a guide to the field, focusing on the firm-specific (\"residual\") labor supply elasticity as the definition of a firm's labor market power. We present a general framework showing how this elasticity nests the three widely studied sources of monopsony power: search frictions, preference heterogeneity, and employer concentration. We summarize the empirical estimates of the elasticity of labor supply, highlighting sources of possible heterogeneity. We emphasize that it is difficult to infer elasticities from markdowns (and vice versa) due to the diversity of firm wage-setting practices, illustrating this point using the interaction between monopsony and efficiency wages. We discuss how policy issues in antitrust, labor market regulation, immigration, and macroeconomics interact with monopsony and conclude by listing several areas for future research.",
+        "abstract_cn": "近年来，劳动力市场中的不完全竞争文献迅速扩展。本文提供了该领域的指南，重点关注以企业特定（“残差”）劳动力供给弹性作为定义企业劳动力市场力量的指标。我们提出了一个通用框架，展示了这种弹性如何包含三个广泛研究的买方垄断力量来源：搜索摩擦、偏好异质性和雇主集中度。我们总结了劳动力供给弹性的实证估计，强调可能的异质性来源。我们强调，由于企业工资设定实践的多样性，很难从向下压低（反之亦然）推断出弹性，使用买方垄断与效率工资之间的相互作用来说明这一点。我们讨论了反垄断、劳动力市场监管、移民和宏观经济政策问题如何与买方垄断相互作用，并以列出未来研究的几个领域作为结论。",
+        "url": "https://www.nber.org/papers/w35608",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35618",
+        "title": "The Global Transition – The Impact of Demographics and AI on Economic Power",
+        "title_cn": "全球转型——人口结构和人工智能对经济实力的影响",
+        "authors": [
+          "Seth G. Benzell",
+          "Laurence J. Kotlikoff",
+          "Victor Yifan Ye"
+        ],
+        "abstract": "This study deploys a multi-region, dynamic life-cycle, general equilibrium model to assess demography’s impact, through the course of this century, on global development. Our model’s 17 regions encompass more than 150 countries comprising 99% of the world’s population. Output is produced with three labor skill groups and internationally-mobile capital, with each country deciding annually whether to adopt its frontier automation technology. Our model features region-specific fiscal policy, TFP growth, and idiosyncratic mortality. Agents live for 100 years, first as children, then as workers, and then as retirees. Work and saving decisions are governed by CES preferences. Lifespan is uncertain, but there are no annuities apart from state pensions. Hence, bequests, while significant, are unintended. Our fertility, mortality, and net immigration rates are region- and age-specific and align fully with the UN’s projections. To illustrate demographics’ power to impact the global transition, we simulate our model under the UN’s markedly different demographic projections for 2017 and 2024. The 2024 forecast is particularly pessimistic about China’s fertility prospects. Both projections produce very substantial global aging, a major global capital glut producing very low long-run real capital returns. The latest forecast entails 10% lower global GDP in 2100 and far higher payroll tax rates to fund old-age benefits. Most important, it entails a major change in the course of economic hegemony with China’s 2100 global GDP share falling from 25.6% to 14.9% and the US share rising from 11.2% to 14.4%. Our results are sensitive. Should the US eliminate all future immigration, its 14.4% global 2100 GDP share would drop to 9.2%. And were global fertility to follow the UN’s low variant, 2100 world output would be one third, not one tenth lower. The level and division of global output is also highly sensitive to the speed at which AI expands frontier technologies. Accelerated AU/AI – 4x faster-than-recent growth in capital’s share through 2050 – or Transformative AU/AI – 10x faster capital-share growth – reinforce demographic forces, ensuring long-run US economic hegemony. Indeed, Transformative AI combined with 2024 demographics implies US and Chinese 2100 global GDP shares of 25.3% and 16.9%, respectively. And not withstanding its considerable technological catch up, the US retains, based on our calibration, a technological edge over China throughout the century.",
+        "abstract_cn": "本研究运用一个多区域、动态生命周期、一般均衡模型来评估本世纪人口结构对全球发展的影响。我们的模型包含17个区域，涵盖了占世界人口99%的150多个国家。产出由三类不同技能水平的劳动力和国际流动的资本共同生产，每个国家每年都要决定是否采用其前沿自动化技术。模型中包含区域特定的财政政策、全要素生产率增长和个体特异性死亡率。经济主体寿命为100年，先是作为儿童，然后作为工作者，最后作为退休者。工作和储蓄决策受CES偏好的支配。寿命是不确定的，但除了国家养老金外没有年金。因此，遗产虽然重要，却是无意之中产生的。我们的生育率、死亡率和净移民率是区域和年龄特定的，并且完全符合联合国的预测。为了说明人口结构对全球转型的影响，我们在联合国2017年和2024年截然不同的人口预测下模拟了我们的模型。2024年的预测对中国的生育前景特别悲观。两种预测都产生了非常显著的全球老龄化，以及主要的全球资本过剩，导致长期实际资本回报率非常低。最新的预测意味着2100年全球GDP将降低10%，并且需要更高的工资税率来资助老年福利。最重要的是，它意味着经济霸权进程的重大变化，中国的2100年全球GDP份额从25.6%下降到14.9%，美国的份额从11.2%上升到14.4%。我们的结果很敏感。如果美国取消所有未来的移民，其14.4%的全球2100年GDP份额将下降到9.2%。如果全球生育率遵循联合国的低变体，2100年世界产出将降低三分之一，而不是十分之一。全球产出的水平和分配也高度依赖于人工智能扩展前沿技术的速度。加速的AU/AI——比最近增长快4倍的资本份额增长——或变革性的AU/AI——资本份额增长快10倍——加强了人口力量，确保了美国长期的经济霸权。实际上，变革性的AI结合2024年的人口结构意味着美国和中国2100年全球GDP份额分别为25.3%和16.9%。尽管技术迎头赶上，但根据我们的校准，美国在整个世纪中保持对中国的技术优势。",
+        "url": "https://www.nber.org/papers/w35618",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35607",
+        "title": "Credit Card Banking",
+        "title_cn": "信用卡银行业务",
+        "authors": [
+          "Itamar Drechsler",
+          "Hyeyoon Jung",
+          "Weiyu Peng",
+          "Dominik Supera",
+          "Guanyu Zhou"
+        ],
+        "abstract": "Credit card interest rates currently average 22%, an 18% spread over the short rate. This spread far exceeds that on any other loan or bond, yet nearly half of households are credit card borrowers. Why are credit card rates so high? To understand this, and the economics of credit card banking, we use regulatory account-level data to analyze the lifetime cash flows of 550 million monthly accounts, representing 90% of the US credit card market. While charge-off rates are comparatively high, averaging around 6%, they explain only a fraction of cards' spread. Reward payments and non-interest expenses are more than offset by interchange and non-interest income. Operating expenses, particularly marketing, are very large, and are used to generate pricing power. Yet, after deducting them, card lending still earns a 6.8% return on assets (ROA), more than four times the banking sector's ROA. Using the cross section of accounts, we estimate that credit card rates price in a 4.3% default risk premium, similar to high-yield bonds. Accounting for this, card lending earns an alpha of around 1.5% relative to the aggregate bank sector.",
+        "abstract_cn": "信用卡利率目前平均为22%，比短期利率高出18个百分点。这一利差远远超过了其他任何贷款或债券的利差，但几乎有一半的家庭是信用卡借款人。为什么信用卡利率如此之高？为了理解这一点以及信用卡银行业务的经济性，我们使用监管账户级数据来分析5.5亿个每月账户的终身现金流，这些账户代表了美国信用卡市场的90%。虽然核销率相对较高，平均约为6%，但它们只解释了信用卡利差的一小部分。奖励支付和非利息支出被交换费用和非利息收入所抵消。运营费用，特别是市场营销费用，非常大，并且被用来产生定价权。然而，在扣除这些费用后，信用卡贷款仍然获得了6.8%的资产回报率（ROA），是银行业ROA的四倍多。利用账户的横截面数据，我们估计信用卡利率定价了4.3%的违约风险溢价，与高收益债券相似。考虑到这一点，信用卡贷款相对于整个银行部门获得了约1.5%的超额收益（alpha）。",
+        "url": "https://www.nber.org/papers/w35607",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35603",
+        "title": "Teen Suicide and the Outcomes of Surviving Peers",
+        "title_cn": "青少年自杀与幸存同伴的结果",
+        "authors": [
+          "Emily Cuddy",
+          "Janet Currie",
+          "Elisa Jácome",
+          "Lucy Manly"
+        ],
+        "abstract": "By age 17, a quarter of U.S. students have experienced a peer suicide. Using linked administrative data from South Carolina and a matched difference-in-differences design, we find that exposure to a peer's self-harm death increases the probability of a self-harm diagnosis by nearly 50% and both the incidence and frequency of mental health visits. Effects on care use and criminal behavior are concentrated among white boys, and responses diverge by prior mental health history: students without a prior diagnosis increase felony offending rather than care-seeking. Deaths from assault and transportation accidents produce no comparable rise in self-harm, consistent with contagion.",
+        "abstract_cn": "到17岁时，四分之一的美国学生经历了同伴自杀。利用南卡罗来纳州的关联行政数据和匹配的双重差分设计，我们发现暴露于同伴自伤死亡事件中，会使得自伤诊断的概率增加近50%，同时心理健康状况就诊的发生率和频率也有所增加。对医疗使用和犯罪行为的影响主要集中在白人男孩中，且根据先前的心理健康状况，反应有所不同：没有先前诊断的学生更倾向于增加重罪犯罪而不是寻求医疗帮助。来自袭击和交通事故的死亡并没有导致自伤行为的类似增加，这与传染效应一致。",
+        "url": "https://www.nber.org/papers/w35603",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35622",
+        "title": "Virtual Tutoring with Computer-Assisted Learning: An Experiment in Take-Up and Learning",
+        "title_cn": "计算机辅助学习的虚拟辅导：一项关于申领和学习的实验",
+        "authors": [
+          "Philip Oreopoulos",
+          "Ruochong Dong",
+          "Nina Low"
+        ],
+        "abstract": "We explore the efficacy of an online after-school tutoring program that complements teacher-provided computer-assisted learning practice. The aim is to scaffold students struggling with online Khan Academy practice at school with low-cost, one-on-one virtual supervision for about an hour a week at home. In a two-year randomized trial with the Toronto District School Board, teachers identified struggling Grade 4–8 students, whose parents were then randomly offered additional online tutoring to support their practice at home. The main obstacle was participation. Only 45% of assigned students reached a first session in Year 1. After we reframed the invitation and simplified enrollment, initial take-up in Year 2 rose to 83%, though weekly attendance remained below half—not because students dropped out, but because they attended intermittently. On average, the offer raised Khan Academy practice by about 10 minutes per week. This translated to an average gain in math assessment scores of 0.06 SD, with a confidence interval too wide to rule out null or medium-sized gains (ITT 0.055 SD; 95% CI [−0.09, 0.20]). We find a marginally significant gain in math report-card marks (about 0.08 SD; 95% CI [−0.01, 0.17]) and improvements in math satisfaction and enjoyment, with effects larger in Year 2 than in Year 1, consistent with the higher take-up that year. We therefore conclude that the program holds promise, but more is needed to ensure students actually engage with tutors on a regular basis.",
+        "abstract_cn": "我们研究了一个在线课后辅导项目的有效性，该项目补充了教师提供的计算机辅助学习练习。目标是通过每周大约一小时的低成本、一对一的虚拟监督，帮助在学校使用在线Khan Academy练习中遇到困难的学生。在与多伦多地区学校委员会进行的为期两年的随机试验中，教师识别出在4至8年级中挣扎的学生，然后随机向他们的家长提供额外的在线辅导，以支持他们在家中的练习。主要障碍是参与度。在第一年，只有45%的分配学生参加了第一次会议。在我们重新构思邀请并简化注册流程后，第二年的初始参与度上升到83%，尽管每周出勤率仍然低于一半——并不是因为学生退出，而是因为他们间歇性地参加。平均而言，提供辅导使Khan Academy练习增加了大约10分钟每周。这转化为数学评估分数的平均增长为0.06标准差，置信区间太宽，无法排除零效应或中等大小效应（意向性治疗0.055标准差；95%置信区间[-0.09, 0.20]）。我们发现数学成绩单分数有边际显著的增长（约0.08标准差；95%置信区间[-0.01, 0.17]），以及数学满意度和乐趣的提高，这些效应在第二年比第一年更大，与那一年更高的参与度一致。因此，我们得出结论，该项目是有希望的，但需要更多的工作来确保学生实际上定期与导师进行互动。",
+        "url": "https://www.nber.org/papers/w35622",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35592",
+        "title": "The Intrinsic Valuation of Biodiversity Loss",
+        "title_cn": "生物多样性丧失的内在价值评估",
+        "authors": [
+          "Adrien Bilal",
+          "Noémie Pinardon-Touati",
+          "Conor Walsh"
+        ],
+        "abstract": "We explore the welfare costs of the loss of animal life in a consequentialist total utilitarian framework that incorporates the intrinsic value of living beings through their sentience. Moral philosophy and neuroscience define sentience as the capacity for valenced experience. Observable performance on cognitive tests represents a conservative lower bound on sentience under plausible neuroscientific assumptions. We estimate the relationship between cognition and neuron counts to cardinalize sentience. We collect population and neuron data for a wide range of animal species, and aggregate them into a single welfare measure. Across a wide range of parameters, the aggregate sentience losses of animals in the past half century outstrip the sentience gains to humans from population growth by at least 10,000-fold. Breaking even in welfare terms requires assigning a correspondingly small welfare weight to animals. Including the benefits of economic growth to humans does little to change these overall welfare losses.",
+        "abstract_cn": "我们在一个包含生物感知能力内在价值的总效用主义框架内，探讨动物生命丧失的福利成本。道德哲学和神经科学将感知定义为具有情感体验的能力。在合理的神经科学假设下，认知测试的可观察表现代表了感知能力的保守下限。我们估计了认知与神经元数量之间的关系，以量化感知能力。我们收集了广泛动物种类的种群和神经元数据，并将它们汇总成一个单一的福利度量。在广泛的参数范围内，过去半个世纪动物的总体感知损失至少是人类因人口增长而获得的感知增益的10,000倍。要在福利方面实现平衡，需要给动物分配相应较小的福利权重。将经济增长对人类的益处包括在内，对这些总体福利损失的影响微乎其微。",
+        "url": "https://www.nber.org/papers/w35592",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35596",
+        "title": "The Effects of Ads on Beliefs and Implications for Consumer Search",
+        "title_cn": "广告对信念的影响及其对消费者搜索的启示",
+        "authors": [
+          "Jean-Pierre H. Dubé",
+          "Ilya Morozov",
+          "Franklin She",
+          "Anna Tuchman"
+        ],
+        "abstract": "We study how in-store display ads communicate information about a product’s price and quality, both directly through ad content and indirectly through inferences consumers draw from the presence and content of the ad. We run an incentivized experiment in a simulated online store, randomizing ad exposure, ad content, and the advertised product’s price, while also eliciting participants’ beliefs and choices. Display ads shift beliefs about price and quality, even when the ad copy does not directly reveal either attribute. We provide evidence that these belief shifts have a causal effect on searches and purchases of the advertised product. Using a stylized search model, we show that while visibility explains most of the ad effects, belief updating explains a statistically and economically significant share. Casting ad content choice as an information design problem, we show that advertisers may find it optimal to conceal product information even when it exceeds consumers’ expectations.",
+        "abstract_cn": "我们研究了店内展示广告如何通过广告内容直接传达产品的价格和质量信息，以及消费者从广告的存在和内容中间接推断出这些信息。我们在模拟的在线商店中进行了一项激励性实验，随机化了广告曝光、广告内容和广告产品的价格，同时也收集了参与者的信念和选择。即使广告文案没有直接透露这两个属性，展示广告也会改变对价格和质量的信念。我们提供的证据表明，这些信念的转变对搜索和购买广告产品有因果效应。利用一个风格化的搜索模型，我们展示了虽然可见性解释了大部分广告效应，但信念更新也解释了一个在统计和经济上都显著的份额。将广告内容选择视为一个信息设计问题，我们展示了广告商可能会发现即使产品信息超出消费者的预期，隐藏产品信息也是最优的。",
+        "url": "https://www.nber.org/papers/w35596",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35594",
+        "title": "Idea Rents and Firm Growth",
+        "title_cn": "创意租金与企业增长",
+        "authors": [
+          "Timo Boppart",
+          "Peter J. Klenow",
+          "Reiko Laski",
+          "Huiyu Li"
+        ],
+        "abstract": "Which firms drive aggregate productivity growth? We document that firms with high price-earnings ratios tend to see increases in their subsequent earnings relative to sales, which we interpret as rents from ideas (innovation). We construct an endogenous growth model with shocks to firm innovation step-sizes and R&D efficiency and calibrate it to match patterns in the data. The model implies that growth would be much lower, even with the same innovative effort, if firms had the same step sizes. The model can be used to infer expected growth contributions of individual firms (such as members of the Magnificent Seven). We find that the share of growth coming from smaller listed firms substantially exceeds their sales share, whereas the largest listed firms account for less than their sales share.",
+        "abstract_cn": "哪些企业推动了总体生产率增长？我们记录到，高市盈率的公司往往在随后的盈利相对于销售收入上有所增加，我们将其解释为来自创意（创新）的租金。我们构建了一个包含企业创新步长和研发效率冲击的内生增长模型，并校准它以匹配数据中的模式。该模型意味着，如果企业具有相同的步长，即使在相同的创新努力下，增长也会低得多。该模型可以用来推断个别企业（如“七大奇迹”成员）的预期增长贡献。我们发现，来自较小上市公司的增长份额大大超过了它们的销售份额，而最大的上市公司所占的增长份额则低于它们的销售份额。",
+        "url": "https://www.nber.org/papers/w35594",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35595",
+        "title": "Dynamic Effects of Trade",
+        "title_cn": "贸易的动态效应",
+        "authors": [
+          "Benny Kleinman",
+          "Ernest Liu",
+          "Stephen J. Redding"
+        ],
+        "abstract": "The existence of aggregate welfare gains from trade is one of the classic insights from international economics. However, these conventional welfare gains are static, in the sense that they take existing factor supplies and production technologies at a point in time as given. Recent research has highlighted dynamic effects of trade through endogenous factor accumulation and technological innovation over time, although there remains less consensus about the quantitative magnitude of these dynamic effects than about their static counterparts. Key insights from this research are that short-run and long-run responses to trade liberalization differ; capital accumulation amplifies the impact of international trade shocks; trade can facilitate technology adoption and the diffusion of ideas by changing the composition of suppliers; effects on lifetime welfare differ substantially from those on steady-state welfare, once transition dynamics are taken into account; and market failures can either magnify the overall welfare gains from trade or rationalize activist trade and industrial policies.",
+        "abstract_cn": "贸易带来的总量福利收益是国际经济学中的经典洞见之一。然而，这些传统的福利收益是静态的，即它们将某一时点的现有要素供给和生产技术视为既定。近期研究强调了贸易通过内生要素积累和技术革新随时间产生的动态效应，尽管关于这些动态效应的数量级仍不如对它们静态对应物的共识。这项研究的关键洞见包括：短期和长期对贸易自由化的响应不同；资本积累放大了国际贸易冲击的影响；贸易可以通过改变供应商的构成促进技术采纳和思想的传播；一旦考虑过渡动态，对终身福利的影响与对稳态福利的影响有显著差异；市场失灵可以放大贸易带来的总体福利收益，或为积极的贸易和产业政策提供合理化。",
+        "url": "https://www.nber.org/papers/w35595",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35616",
+        "title": "Do Children Derail Women from the CEO Track?",
+        "title_cn": "子女会阻碍女性走上CEO之路吗？",
+        "authors": [
+          "Santiago Campos-Rodríguez",
+          "David Neumark"
+        ],
+        "abstract": "Gender disparities in becoming a CEO are pronounced, and women who become CEOs, especially of large firms, are less likely to have children or be married. We study the effects of children and marriage on becoming a CEO, using longitudinal administrative data covering the universe of tax-registered firms in Costa Rica, matched to universal civil registry records that provide the timing of childbirth and marriage. We find that first childbirth is followed by a persistent decline in women’s probability of becoming a CEO, but no comparable decline for men and some evidence that CEO attainment rises. Marriage displays a different but still divergent pattern: it is associated with higher subsequent CEO attainment for men, but little change for women. Changes around childbirth account for a substantial share of the overall gender difference in CEO rates. Finally, we find evidence consistent with household specialization as a potential mechanism. Around marriage and first childbirth, women’s formal employment, earnings, and share of household earnings decline, while men become more central to household earnings as their partners reduce formal employment.",
+        "abstract_cn": "成为首席执行官（CEO）的性别差异非常明显，尤其是成为大公司CEO的女性，她们更不可能有孩子或已婚。我们利用覆盖哥斯达黎加所有税务注册企业及其与全民登记记录匹配的纵向行政数据，研究了孩子和婚姻对成为CEO的影响，这些记录提供了生育和婚姻的时间信息。我们发现，首次生育后，女性成为CEO的可能性持续下降，但男性没有类似的下降，甚至有一些证据表明男性成为CEO的可能性上升。婚姻呈现出不同但仍然分歧的模式：它与男性随后成为CEO的可能性更高相关，但对女性几乎没有变化。生育前后的变化在总体性别差异中占有很大比例。最后，我们发现了与家庭专业化作为潜在机制一致的证据。在婚姻和首次生育前后，女性的正规就业、收入和家庭收入份额下降，而男性随着伴侣减少正规就业，成为家庭收入的更核心部分。",
+        "url": "https://www.nber.org/papers/w35616",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35611",
+        "title": "Social Clubs and Political Office",
+        "title_cn": "社交俱乐部与政治职位",
+        "authors": [
+          "Julien Labonne",
+          "Pablo Querubín",
+          "Martín Rossi",
+          "Sebastian M. Saiegh",
+          "Ivan San Miguel",
+          "Shanker Satyanath"
+        ],
+        "abstract": "Elites maintain disproportionate political power even in formally inclusive political systems, yet the institutions through which they coordinate and reproduce this advantage remain poorly understood. We study membership in the Buenos Aires Jockey Club—Argentina's most prominent elite social club—exploiting staggered variation in family entry. Using difference-in-differences techniques, we find that Jockey Club membership increased the probability of holding legislative office by approximately four percentage points—more than twice the control-group mean. Consistent with a network-based mechanism, membership also increased families' centrality in elite marriage networks—a resource that can facilitate political success through access to party nominations and voter mobilization. This electoral advantage declines substantially after the 1912 Sáenz Peña democratizing reforms, suggesting that the political returns to club membership are conditional on institutional contexts that make elite network connections valuable. Our findings shed light on how elite social institutions reproduce political inequality where personal connections are essential for accessing political office.",
+        "abstract_cn": "即使在形式上包容的政治体系中，精英阶层仍然保持着不成比例的政治权力，然而他们通过哪些机构协调并复制这种优势，这一点仍然不甚明了。我们研究了布宜诺斯艾利斯赛马俱乐部——阿根廷最杰出的精英社交俱乐部——的成员身份，利用家族进入时间的交错变化。通过使用双重差分技术，我们发现赛马俱乐部的成员身份将持有立法职位的概率提高了约四个百分点——超过对照组均值的两倍多。与基于网络的机制一致，成员身份还增加了家族在精英婚姻网络中的中心性——这一资源可以通过获得政党提名和动员选民来促进政治成功。在1912年Sáenz Peña民主化改革之后，这种选举优势大幅下降，这表明俱乐部成员身份的政治回报取决于使精英网络联系有价值的制度环境。我们的发现揭示了在个人联系对于获得政治职位至关重要的地方，精英社交机构如何复制政治不平等。",
+        "url": "https://www.nber.org/papers/w35611",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35612",
+        "title": "Beliefs about Government Debt Valuation and Sustainability",
+        "title_cn": "关于政府债务估值与可持续性的信念",
+        "authors": [
+          "Ricardo Delao",
+          "Wenhao Li"
+        ],
+        "abstract": "What ultimately supports the market value of U.S. government debt? We measure valuation frameworks: the perceived channels that back debt value. We survey bond investors, registered voters, and economics or finance graduate-degree holders, asking them to allocate debt value across six sources derived from open-ended answers and the literature. Global safe-asset demand and permanent rollover together account for almost half of perceived value in every group, so debt value heavily relies on investor absorption rather than on government resources. Future primary surpluses, the textbook debt backing, receive about 16% even among the graduate-trained; roughly one-third say they provide little or no support. Allocations concentrate within respondents but disperse across them, forming belief archetypes that vary little with fiscal knowledge. A model shows why belief elicitation matters: identical debt quantities and price schedules can conceal differences in saleable public backing and stress-resilient demand, and therefore in debt sustainability. Concern about debt sustainability is widespread, and all three groups put the ten-year crisis odds near 50%. However, among respondents expressing concern, 90% of voters report that it is not decisive in their voting decisions, and 72% of investors report no concrete portfolio change.",
+        "abstract_cn": "美国政府债务的市场价值最终由什么支撑？我们测量了估值框架：即被感知为支持债务价值的渠道。我们调查了债券投资者、注册选民以及持有经济学或金融学研究生学位的人，要求他们将债务价值分配到六个来源，这些来源是根据开放式回答和文献得出的。全球避险资产需求和永久性滚动再融资共同占到了每个群体感知价值的近一半，因此债务价值在很大程度上依赖于投资者的吸收，而不是政府资源。未来初级盈余，即教科书中提到的债务支持，即使在受过研究生训练的人群中也只能获得约16%的支持；大约三分之一的人表示它们提供的支持很少或没有。分配在受访者内部集中，但在他们之间分散，形成了信念原型，这些原型与财政知识的关系不大。一个模型显示了为什么信念引出很重要：相同的债务数量和价格表可能掩盖了可销售公共支持和抗压力需求的差异，因此也掩盖了债务的可持续性。对债务可持续性的关注普遍存在，所有三个群体都将十年危机的可能性定在接近50%。然而，在表示关注的人中，90%的选民报告说这并不是他们投票决策中决定性的因素，72%的投资者报告没有具体的投资组合变化。",
+        "url": "https://www.nber.org/papers/w35612",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35610",
+        "title": "The Limits of Government Outsourcing: Property Tax Re-Assessments in India",
+        "title_cn": "政府外包的局限性：印度的财产税重新评估",
+        "authors": [
+          "Esther Duflo",
+          "Rema Hanna",
+          "Benjamin A. Olken",
+          "Shreya Tandon"
+        ],
+        "abstract": "Theories of outsourcing often presume that private firms are more efficient producers of goods and services, but that contracting frictions mean that firms do not internalize the government's objective function. But perhaps, for some tasks, the government can actually be more productively efficient? We study this question through an experiment in Chennai, India, where the government randomly selected neighborhoods to have property tax assessments determined by private firms contracted by the government, rather than government tax inspectors. We show that inspections by government tax inspectors yielded almost double the increase in tax revenue as those done by private firms. They were also more accurate, as judged by comparing new assessments to independent assessments done by third-party surveyors we hired. Difficulties contracting with the government discouraged many competent firms from bidding. Perhaps as a result, government inspectors had higher skills and put in more effort than the workers at the private firms. Importantly, the government inspectors also had more authority to enter properties, which may be hard to transfer even to higher quality firms. The results suggest that the limits to government outsourcing may go beyond multitasking issues.",
+        "abstract_cn": "外包理论通常假定私营企业是更高效的商品和服务生产者，但由于合同摩擦，企业无法完全内化政府的目标函数。但是，对于某些任务，政府实际上可能更有生产效率吗？我们通过在印度金奈进行的一项实验来研究这个问题，政府随机选择一些社区，让政府签约的私营企业而非政府税务检查员来确定财产税评估。我们发现，政府税务检查员的检查使税收收入增加了近一倍，相比之下，私营企业所做的检查增加的税收收入较少。通过将新的评估与我们聘请的第三方调查员进行的独立评估进行比较，我们判断政府税务检查员的评估也更为准确。与政府签约的困难使得许多有能力的企业不愿投标。可能因此，政府检查员拥有更高的技能，并且比私营企业的员工投入了更多的努力。重要的是，政府检查员还拥有更大的权力进入财产，这种权力可能很难甚至转移到更高质量的企业。结果表明，政府外包的局限性可能超出了多任务处理问题。",
+        "url": "https://www.nber.org/papers/w35610",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      },
+      {
+        "id": "w35626",
+        "title": "Outside Options and Labor Supply: Evidence from the Gig Economy",
+        "title_cn": "外部选择与劳动力供给：来自零工经济的证据",
+        "authors": [
+          "Sydnee Caldwell",
+          "Emily Oehlsen"
+        ],
+        "abstract": "We use randomized pay experiments among Uber drivers, paired with a natural experiment in access to a competitor, to examine how outside options shape labor supply to the firm. When hours are flexible, the firm-specific labor supply elasticity combines a market-hours component and a firm-substitution component. Access to a single competing platform nearly doubles drivers’ firm-specific elasticity and cuts the implied monopsony markdown from 68% to about 50%. The same experiments identify sex differences: women are about twice as elastic to the market as men, yet no less elastic to their employer.",
+        "abstract_cn": "我们利用针对Uber司机的随机支付实验，结合对竞争对手平台访问权限的自然实验，来检验外部选择如何塑造对公司的劳动力供给。当工作时间灵活时，特定于公司的劳动力供给弹性结合了市场工时部分和公司替代部分。访问单一竞争平台几乎使司机对公司的特定弹性翻倍，并将暗示的买方垄断折扣从68%降低到大约50%。同样的实验还识别出了性别差异：女性对市场的弹性大约是男性的两倍，但对雇主的弹性并不小于男性。",
+        "url": "https://www.nber.org/papers/w35626",
+        "public_date": "2026-08-17",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-08-17T05:34:10Z"
+      }
+    ]
+  },
+  {
     "batch_date": "2026-08-10",
     "last_updated": "2026-08-10T10:54:39Z",
     "paper_count": 22,
