@@ -1,12 +1,12 @@
 # Translation Audit
 
-- Generated at: `2026-08-17T10:19:20Z`
-- Paper count: `42`
+- Generated at: `2026-08-24T05:37:30Z`
+- Paper count: `26`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
-- Failed or skipped fields: `0`
-- Translation quality warnings: `0`
+- Failed or skipped fields: `1`
+- Translation quality warnings: `1`
 
 ## Review Workflow
 
@@ -25,35 +25,80 @@ No preferred-term misses were found.
 
 ## Failed Or Skipped Fields
 
-No failed or skipped translation fields were found.
+| Paper | Field | Status | Error |
+| --- | --- | --- | --- |
+| w35655 | abstract | failed | Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected because it was considered high risk', 'param': 'prompt', 'type': 'content_filter'}} |
 
 ## Translation Quality Warnings
 
-No structural translation quality warnings were found.
+| Paper | Field | Issue | Current output |
+| --- | --- | --- | --- |
+| w35655 | abstract | translation is identical to the English source | The 2016 Panama Papers leak tightened regulatory enforcement around money laundering and offshore banking. W |
 
 ## English Fragments
 
 | Fragment | Papers |
 | --- | --- |
-| alpha | w35607 |
-| CAL | w35621 |
-| CEO | w35616 |
-| cov-lite loans | w35617 |
-| GFC | w35617 |
-| Health and Retirement | w35600 |
-| HRS | w35606 |
-| Income and Program | w35628 |
-| Khanmigo | w35620 |
-| LLMs | w35621 |
-| MENA | w35597 |
-| MSE | w35629 |
-| Participation | w35628 |
-| PWPD | w35606 |
-| ROA | w35607 |
-| SNAP | w35613 |
-| Study | w35600 |
-| Survey | w35628 |
-| SVAR | w35604 |
+| aid diversion | w35655 |
+| aid diversion across | w35655 |
+| aid tranche arrivals | w35655 |
+| alternative laundering platform | w35655 |
+| and apply | w35655 |
+| and Governance | w35655 |
+| and integration sequence | w35655 |
+| and IP-linked web | w35655 |
+| and offshore banking | w35655 |
+| and recover diverted | w35655 |
+| anonymous and newly | w35655 |
+| around money laundering | w35655 |
+| billion across the | w35655 |
+| billion dollars | w35655 |
+| both tax-haven and | w35655 |
+| but its transparent | w35655 |
+| cents per aid | w35655 |
+| combining on-chain Bitcoin | w35655 |
+| consistent with the | w35655 |
+| conventional money laundering | w35655 |
+| created wallets | w35655 |
+| creation | w35655 |
+| crypto activity | w35655 |
+| cryptocurrency | w35655 |
+| cryptocurrency activity | w35655 |
+| CWITE | w35643 |
+| detect | w35655 |
+| develop | w35655 |
+| developing countries led | w35655 |
+| disbursement-timed forensic measure | w35655 |
+| disbursements covering | w35655 |
+| diversion | w35655 |
+| dollar | w35655 |
+| driven mainly | w35655 |
+| during | w35655 |
+| estimate | w35655 |
+| Exploiting the administrative | w35655 |
+| find sharp | w35655 |
+| foreign aid | w35655 |
+| forensic traces that | w35655 |
+| forensics reveal patterns | w35655 |
+| funding penalty | w35655 |
+| funding. Cryptocurrency facilitates | w35655 |
+| funds | w35655 |
+| github.com | w35643 |
+| HANK | w35642 |
+| https | w35643 |
+| implied leakage | w35655 |
+| IMS | w35647 |
+| investigate whether the | w35655 |
+| layering | w35655 |
+| ledgers also leave | w35655 |
+| mainstream exchanges. Blockchain | w35655 |
+| may help detect | w35655 |
+| MLD3 | w35643 |
+| off-chain exchange records | w35655 |
+| our estimation sample | w35655 |
+| Panama Papers leak | w35655 |
+| placement | w35655 |
+| RANK | w35642 |
 
 ## Maintenance Notes
 
