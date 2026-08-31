@@ -1,557 +1,744 @@
 [
   {
-    "id": "w35637",
-    "title": "Political Entrepreneurs",
-    "title_cn": "政治企业家",
+    "id": "w35686",
+    "title": "Legislating Longevity: State Public Health Laws and Mortality in the Early Twentieth Century",
+    "title_cn": "Legislating Longevity: State Public Health Laws and Mortality in the Early Twentieth Century",
     "authors": [
-      "Aaron Chatterji",
-      "Jorge Guzman",
-      "Joyce Ma",
-      "Ryan C. McDevitt"
+      "Martin H. Saavedra"
     ],
-    "abstract": "Firms shape public policy not only from the outside through lobbying and campaign contributions, but also from the inside when business owners hold public office. We study this channel using a novel dataset that links state legislators’ personal financial disclosures to bill sponsorship records across 26 U.S. states from 2009 to 2023. The disclosures allow us to observe business ownership during legislative service and to distinguish entrepreneurs, defined as legislators who both own and actively manage a firm, from passive shareholders and employees. Applying a large language model to bill text, we classify legislation as pro-business and identify a subset of pro-entry bills that reduce barriers facing new firms. Entrepreneurs are a substantial presence in state legislatures, accounting for over 40 percent of legislators, and their representation varies primarily across states rather than within states over time. Although entrepreneurs do not sponsor more bills overall, they initiate a greater share of bills as first or sole primary sponsor. They also do not appear to be generic advocates for business. Relative to legislators with other business ties, entrepreneurs are no more likely to sponsor pro-business bills or bills endorsed by state Chambers of Commerce. Instead, they selectively advance pro-entry legislation, especially bills related to deregulation and innovation rather than antitrust or access to capital. These findings document an important channel through which entrepreneurs shape the policy environment for entrepreneurship from within political institutions.",
-    "abstract_cn": "企业不仅通过游说和竞选捐款从外部影响公共政策，而且当企业主担任公职时，也会从内部影响政策。我们利用一个新颖的数据集研究这一渠道，该数据集将美国26个州的州议员个人财务披露与2009年至2023年的议案发起记录联系起来。这些披露使我们能够观察到议员在立法服务期间的商业所有权，并将企业家（定义为既拥有又积极管理公司的立法者）与被动股东和雇员区分开来。我们将大型语言模型应用于议案文本，将立法分类为亲商业并识别出减少新公司面临的障碍的亲进入法案子集。企业家在州立法机构中占有相当大的比例，超过40%的立法者是企业家，他们的代表性主要在各州之间变化，而不是随时间在州内变化。尽管企业家总体上没有发起更多的议案，但他们作为第一或唯一主要发起人发起的议案比例更大。他们似乎也不是商业的一般性倡导者。与有其他商业联系的立法者相比，企业家发起亲商业议案或得到州商会支持的议案的可能性并不更高。相反，他们有选择性地推进亲进入立法，特别是与放松管制和创新相关的议案，而不是反垄断或获得资本的议案。这些发现记录了企业家如何通过政治机构内部塑造创业政策环境的重要渠道。",
-    "url": "https://www.nber.org/papers/w35637",
-    "public_date": "2026-08-24",
+    "abstract": "State legislatures enacted numerous public-health laws during the twentieth century, most of which likely had negligible effects on mortality. Using data on the universe of state-level public-health laws and regulations, I test whether these laws, taken together, account for a meaningful decline in mortality. To address endogeneity, I instrument for public-health legislation using the legislative calendar. Both OLS and IV estimates indicate that public-health laws reduced mortality, whereas other laws and repeals of public-health laws did not. Legislatures were most effective at reducing deaths from waterborne and drainage-related diseases, half as effective for airborne communicable diseases, and one-fifth as effective for noncommunicable diseases. I use text analysis to classify the laws into twenty topics and find that laws targeting particular causes of death produced larger mortality declines for those causes. The universe of public-health laws can account for approximately two-thirds of the mortality decline during the study period.",
+    "abstract_cn": "State legislatures enacted numerous public-health laws during the twentieth century, most of which likely had negligible effects on mortality. Using data on the universe of state-level public-health laws and regulations, I test whether these laws, taken together, account for a meaningful decline in mortality. To address endogeneity, I instrument for public-health legislation using the legislative calendar. Both OLS and IV estimates indicate that public-health laws reduced mortality, whereas other laws and repeals of public-health laws did not. Legislatures were most effective at reducing deaths from waterborne and drainage-related diseases, half as effective for airborne communicable diseases, and one-fifth as effective for noncommunicable diseases. I use text analysis to classify the laws into twenty topics and find that laws targeting particular causes of death produced larger mortality declines for those causes. The universe of public-health laws can account for approximately two-thirds of the mortality decline during the study period.",
+    "url": "https://www.nber.org/papers/w35686",
+    "public_date": "2026-08-31",
     "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35656",
-    "title": "Cultural Evolution",
-    "title_cn": "文化演化",
-    "authors": [
-      "Oded Galor",
-      "Marc Klemp",
-      "Daniel C. Wainstock"
-    ],
-    "abstract": "What gave rise to the mosaic of cultural expressions across the globe? Why are some societies more culturally diverse than others? This study develops a unified theory of cultural evolution, characterizing the forces that have governed this process over the course of human existence. The research advances the hypothesis that population movements and socioeconomic transformations generated a mismatch between inherited cultural traits and prevailing ecological and societal conditions, setting in motion an evolutionary process governed by adaptation-based vertical transmission, horizontal diffusion, and fitness-based evolutionary selection. The theory generates novel testable predictions concerning the origins of the global cultural mosaic and the cross-societal variation in cultural diversity. First, greater ecological distance between ancestral environments generated greater cultural distance across societies. Second, prehistoric differences in ancestral diversity contributed to divergent adaptive capacity and greater cultural distance. Third, societies descended from more diverse prehistoric populations exhibit greater cultural diversity despite convergence induced by adaptation to a common environment and societal norms. Drawing on measures of cultural distance and diversity derived from folkloric and musical traditions among ethnic groups, visual representations of common concepts, and the dispersion of norms, values, and attitudes, the empirical analysis lends credence to the predictions of the theory.",
-    "abstract_cn": "是什么造就了全球各地文化表达的多样性？为什么有些社会比其他社会在文化上更为多元化？本研究发展了一个关于文化演化的统一理论，描述了在人类存在过程中支配这一过程的力量。研究提出了一个假设，即人口流动和社会经济转型在遗传文化特征与盛行的生态和社会条件之间产生了不匹配，启动了一个由基于适应的垂直传递、水平扩散和基于适应度的进化选择所控制的演化过程。该理论提出了关于全球文化马赛克起源和跨社会文化多样性变化的新颖且可检验的预测。首先，祖辈环境之间的生态距离越大，不同社会之间的文化距离就越大。其次，史前祖辈多样性的差异导致了不同的适应能力，进而产生了更大的文化距离。第三，源自更多样化史前人口的社会展现出更大的文化多样性，尽管适应共同环境和社会规范所引起的趋同现象。通过借鉴来自民间传说和音乐传统、对共同概念的视觉表现以及规范、价值观和态度的分散度的文化距离和多样性的度量，实证分析为理论的预测提供了支持。",
-    "url": "https://www.nber.org/papers/w35656",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35648",
-    "title": "Do Local Synthetic Opioid Overdose Deaths Affect Provider Prescribing of Buprenorphine?",
-    "title_cn": "当地合成阿片类药物过量死亡是否影响医生对丁丙诺啡的处方？",
-    "authors": [
-      "Nicole Siegal",
-      "Sumedha Gupta",
-      "Matthew C. Aalsma",
-      "Stephen Crystal",
-      "Jennifer Miles",
-      "Hillary Samples",
-      "Allen Campbell",
-      "Kosali I. Simon",
-      "Rosalie Liccardo Pacula"
-    ],
-    "abstract": "Buprenorphine prescribing for opioid use disorder remains far below the scale of the overdose crisis. We estimate the causal effect of county-level synthetic opioid overdose mortality shocks on the volume of buprenorphine treatment delivered, exploiting the staggered geographic diffusion of synthetic opioids from 2013 to 2023. Linking IQVIA Longitudinal Prescription Claims to National Vital Statistics System mortality records, we implement a difference-in-differences estimator with propensity score matching under three complementary exposure measures. Treatment volume increases significantly under all three definitions, with no evidence of differential pre-trends; point estimates for buprenorphine prescribing rates range from 5 to 17 percent of pre-treatment means, emerge within one to two quarters, and grow monotonically thereafter. Our design does not separately identify changes in patient demand and provider behavior, but the increase in unique prescribers is consistent with a provider-side response. The response is concentrated among advanced practice providers, Medicaid patients, and counties with pre-existing buprenorphine infrastructure; counties with little baseline prescribing show no response. Local mortality information acts as a determinant of treatment volume, with effects comparable in magnitude to major legislative interventions aimed at expanding treatment, but appear only where prescribing capacity already exists.",
-    "abstract_cn": "用于阿片类药物使用障碍的丁丙诺啡处方量远远低于过量危机的规模。我们估计县级合成阿片类药物过量死亡冲击对丁丙诺啡治疗量的影响，利用2013年至2023年合成阿片类药物地理扩散的交错模式。我们将IQVIA纵向处方索赔数据与国家生命统计系统死亡记录相链接，实施了三种互补暴露措施下的倾向得分匹配双重差分估计器。在所有三种定义下，治疗量均显著增加，没有差异性预趋势的证据；丁丙诺啡处方率的点估计值从5%到17%不等，治疗前均值，在一到两个季度内出现，并在此之后单调增长。我们的设计不能单独识别患者需求和提供者行为的变化，但独特处方者数量的增加与提供者方面的反应一致。反应集中在高级实践提供者、医疗补助患者和已有丁丙诺啡基础设施的县；几乎没有基线处方的县没有反应。当地的死亡信息作为治疗量的一个决定因素，其影响大小与旨在扩大治疗范围的主要立法干预措施相当，但仅在已有处方能力的地方出现。",
-    "url": "https://www.nber.org/papers/w35648",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35638",
-    "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness",
-    "title_cn": "追踪支付便利性对存款的影响：来自存款人活跃度的证据",
-    "authors": [
-      "Xu Lu",
-      "Yang Song",
-      "Yao Zeng"
-    ],
-    "abstract": "How slow are bank transfers, and how do transfer delays affect deposit demand? Using transaction-level data from millions of depositors, we measure transfer delays by matching debits and credits across accounts held by the same depositor. Shorter delays correlate with more transfers and lower balances. Exploiting county-level exposure to Zelle’s staggered rollout, we find that faster payments reduce delays and deposit growth. Calibrating a deposit-management model, we find that transfer delays raise deposit demand, and the magnitude of this effect varies with interest rates and consumption volatility. Payment frictions therefore shape transactional deposit demand and monetary transmission.",
-    "abstract_cn": "银行转账速度有多慢，转账延迟如何影响存款需求？利用数百万存款者的交易级数据，我们通过匹配同一存款者持有的账户中的借记和贷记来衡量转账延迟。较短的延迟与更多的转账和较低的余额相关联。利用县级对Zelle分阶段推出的暴露程度，我们发现更快的支付减少了延迟和存款增长。校准一个存款管理模型，我们发现转账延迟提高了存款需求，这种效应的大小随着利率和消费波动而变化。因此，支付摩擦塑造了交易性存款需求和货币传导。",
-    "url": "https://www.nber.org/papers/w35638",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35634",
-    "title": "The Yeoman's Portfolio: Measuring Historical Risk Preferences Using Crop Choice",
-    "title_cn": "自耕农的投资组合：利用作物选择测量历史风险偏好",
-    "authors": [
-      "Remy Levin",
-      "Daniela Vidart"
-    ],
-    "abstract": "We design a method for measuring the risk preferences of agents in the deep past. The method combines a structural model of crop choice as a portfolio allocation with machine-learning prediction of expected crop returns, using historic agronomic and climate data. We estimate county-level risk preferences for the United States and farmer-level preferences in Kansas from 1889 to 1929. More risk averse farmers leveraged less, were less likely to purchase novel WWI Liberty Bonds, and were more likely to participate in local risk-sharing institutions. We show that higher risk aversion predicts slower tractor adoption and farm mechanization during the 1920s.",
-    "abstract_cn": "我们设计了一种方法来测量远古时期经济主体的风险偏好。该方法结合了一个结构模型，将农作物选择视为一种投资组合配置，并利用机器学习预测预期的农作物回报，使用历史农艺和气候数据。我们估计了1889年至1929年间美国县级的风险偏好以及堪萨斯州农民级别的偏好。风险厌恶程度更高的农民借贷较少，购买新型一战自由债券的可能性较低，更有可能参与当地的风险共担机构。我们表明，更高的风险厌恶程度预示着20世纪20年代拖拉机采纳和农业机械化的进程较慢。",
-    "url": "https://www.nber.org/papers/w35634",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35642",
-    "title": "Monetary-Fiscal Interactions: A Reappraisal",
-    "title_cn": "货币财政互动：再评估",
-    "authors": [
-      "George-Marios Angeletos",
-      "Chen Lian",
-      "Christian K. Wolf",
-      "Dalton Rongxuan Zhang"
-    ],
-    "abstract": "The possibility of fiscal dominance in the representative-agent New Keynesian model (RANK) hinges on the assumption that income is perpetually demand-determined: fiscal deficits can drive output and inflation within that model only insofar as they trigger infinitely lasting, self-sustained shifts in aggregate spending and income. Moving to heterogeneous-agent New Keynesian models (HANK) opens the door to a different pathway: classical non-Ricardian effects, due to finite horizons or liquidity constraints. A refinement motivated by the model's intended focus on short-run phenomena—requiring a return to flexible-price outcomes in finite time—arrests the infinite feedback loop between spending and income, leaving only the classical non-Ricardian mechanism, and makes sure that the study of monetary-fiscal interactions is not centered on hard-to-test assumptions regarding beliefs at infinity.",
-    "abstract_cn": "代表性经济主体的新凯恩斯模型（RANK）中财政主导的可能性取决于收入永远由需求决定的假设：在该模型中，财政赤字只有在触发无限持续、自我维持的总支出和收入变化时，才能推动产出和通胀。转向异质性经济主体的新凯恩斯模型（HANK）则开启了一条不同的路径：由于有限的时间范围或流动性约束导致的古典非李嘉图效应。一个由模型对短期现象的关注所驱动的精细化——要求在有限时间内回归灵活价格结果——阻止了支出和收入之间的无限反馈循环，只留下古典非李嘉图机制，并确保对货币财政相互作用的研究不以关于无限远处信念的难以测试的假设为中心。",
-    "url": "https://www.nber.org/papers/w35642",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35653",
-    "title": "To Tax or To Ax? Marginal Tax and Spending Multipliers in Consolidations",
-    "title_cn": "征税还是削减？合并中的边际税收与支出乘数",
-    "authors": [
-      "Roberto Perotti",
-      "Luca Sala"
-    ],
-    "abstract": "We introduce the notion of marginal cumulative multiplier — the effect of either government spending or taxation on output holding the other fiscal instrument constant — and apply it to a well known panel of consolidation episodes in 16 countries in the period 1978-2020. In our benchmark specification we estimate a marginal spending multiplier at two years of 1.5 and a marginal tax multiplier close to 0. We also estimate similar multipliers by applying the policy counterfactual method of McKay and Wolf (2023). In an extensive robustness analysis we never find spending multipliers below 1.3 or tax multipliers higher than -1. These findings are seemingly in contrast to those of much of the existing literature on fiscal multipliers, which typically finds higher tax than spending multipliers. We show that this contradiction disappears once the fiscal variables used in the literature are scaled by the proper factor.",
-    "abstract_cn": "我们引入了边际累积乘数的概念——在保持另一种财政工具不变的情况下，政府支出或税收对产出的影响——并将其应用于1978-2020年期间16个国家一系列众所周知的财政紧缩事件的面板数据。在我们的基准规范中，我们估计两年的边际支出乘数为1.5，边际税收乘数接近0。我们还通过应用McKay和Wolf（2023）的政策反事实方法来估计类似的乘数。在广泛的稳健性分析中，我们从未发现支出乘数低于1.3或税收乘数高于-1。这些发现似乎与现有关于财政乘数文献中的许多发现形成对比，后者通常发现税收乘数高于支出乘数。我们展示了一旦按适当的因素对文献中使用的财政变量进行缩放，这种矛盾就会消失。",
-    "url": "https://www.nber.org/papers/w35653",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35659",
-    "title": "The Effects of SNAP Sugary Drink Restrictions on Consumption and Welfare",
-    "title_cn": "SNAP含糖饮料限制对消费和福利的影响",
-    "authors": [
-      "Hunt Allcott",
-      "Amy Finkelstein",
-      "Anna Grummon",
-      "Matthew J. Notowidigdo"
-    ],
-    "abstract": "As of July 2026, 23 states had approved policies that disallow spending of SNAP benefits on sugary drinks. The effects of such restrictions on consumption are unclear, however, since most households can simply switch to buying sugary drinks with non-SNAP funds. Using a difference-in- differences design with nationwide grocery purchase panel data, we estimate that restrictions in the first 10 states reduced the average SNAP household’s retail purchases of excluded drinks by 12.4 percent (standard error = 1.0) over the first half of 2026. In states that excluded only some sugary drinks, SNAP households partially substituted to non-excluded drinks. Surveys we carried out before and after implementation show that the restrictions increased SNAP recipients’ perceptions of stigma. We combine our estimated consumption reductions with external parameters to model welfare effects given an over-consumption internality and a fiscal externality via public health care spending. In our model, excluding all sugary drinks from SNAP nationwide would provide benefits of about $1.1 billion per year, of which about 70 percent is from reduced health care costs.",
-    "abstract_cn": "截至2026年7月，已有23个州批准了不允许使用SNAP福利购买含糖饮料的政策。然而，由于大多数家庭可以简单地转而使用非SNAP资金购买含糖饮料，这类限制对消费的影响尚不明确。我们采用双重差分设计，并结合全国杂货购买面板数据，估计在首批10个州中，限制措施使SNAP家庭在2026年上半年被排除饮料的平均零售购买量减少了12.4%（标准误差=1.0）。在只排除部分含糖饮料的州，SNAP家庭部分转而购买未被排除的饮料。我们在实施前后进行的调查显示，这些限制增加了SNAP受益者对耻辱感的认知。我们将估计的消费减少量与外部参数结合起来，模拟了由于过度消费的内在性以及通过公共卫生保健支出的财政外在性而产生的福利效应。在我们的模型中，全国范围从SNAP中排除所有含糖饮料将每年带来约11亿美元的效益，其中约70%来自于减少的医疗保健成本。",
-    "url": "https://www.nber.org/papers/w35659",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35636",
-    "title": "Rate Risk and Rate Insurance",
-    "title_cn": "利率风险与利率保险",
-    "authors": [
-      "Olivier Wang"
-    ],
-    "abstract": "I decompose stock returns into a duration-matched Treasury component, identified from monetary policy surprises, and a payoff component. Risk and returns rise much less with duration for stocks than for their matched Treasuries. Stock volatility is dampened by rate insurance: rates fall in bad times, so the bond inside a stock provides insurance against the stock’s payoff risk. Expected stock returns are dampened because the insurance works in reverse: rates rise in good times, so stocks’ payoff gains hedge the losses borne by investors holding net duration, notably government bonds when Ricardian equivalence fails. This framework helps reconcile positive bond premia with negative stock-bond covariance, sheds light on equity anomalies and the collapse of the value premium, implies that fiscal and monetary policy shape bond and equity premia, and motivates a two-factor model that jointly prices stocks and bonds. Rate insurance can even turn the price of long-run risk negative, explaining why long bonds beat long stocks.",
-    "abstract_cn": "我将股票收益率分解为与货币政策意外相关的期限匹配的国债成分和收益成分。与匹配的国债相比，股票的风险和回报随期限的增加而上升的幅度要小得多。股票波动性受到利率保险的抑制：在经济不景气时，利率下降，因此股票内部的债券为股票的收益风险提供了保险。预期股票收益率受到抑制，因为保险作用反向发挥作用：在经济繁荣时期，利率上升，因此股票的收益增加对冲了持有净期限的投资者所承担的损失，特别是在李嘉图等价失败时的政府债券。这一框架有助于解释正的债券溢价与负的股票-债券协方差之间的矛盾，揭示了股权异常和价值溢价崩溃的原因，意味着财政和货币政策塑造了债券和股权溢价，并激发了一个联合定价股票和债券的双因素模型。利率保险甚至可能使长期风险的价格变为负值，解释了为什么长期债券的表现优于长期股票。",
-    "url": "https://www.nber.org/papers/w35636",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35639",
-    "title": "Local Labor Demand and Achievement Gaps: Evidence from the Great Recession",
-    "title_cn": "本地劳动力需求与成就差距：大衰退的证据",
-    "authors": [
-      "Karla Cordova",
-      "Jessamyn Schaller"
-    ],
-    "abstract": "We examine how contractions in local labor demand during the Great Recession affected children's academic achievement. We combine county-level test scores for grades 3–8 from the Stanford Education Data Archive with a shift-share design that interacts counties' 2005 industry composition with national industry employment growth, isolating demand-driven changes in local employment. Following recent advances in the shift-share literature, we validate the design with balance, pre-trend, and Rotemberg-weight diagnostics and report exposure-robust standard errors throughout. A one-standard-deviation adverse shock lowers mathematics achievement by about 0.03 student-level standard deviations and widens the White–Black and economic-disadvantage achievement gaps in both subjects. Within a common geography, losses concentrate among economically disadvantaged students. English language arts estimates point in the same direction but are harder to separate from the Great Recession's housing bust, and we interpret them as the combined effect of the labor-demand contraction and the associated decline in house prices. The achievement response is concentrated in the recession window. The post-2014 period, identified mainly by the oil-price cycle, yields a precise null, so our estimates measure the response to severe contractions rather than a general business-cycle parameter. School funding did not respond contemporaneously to these shocks, while family income, child poverty, and house prices all did.",
-    "abstract_cn": "我们研究了大衰退期间本地劳动力需求的收缩如何影响儿童的学术成就。我们将斯坦福教育数据档案馆提供的3-8年级县级考试成绩与一个交互式设计相结合，该设计将县级2005年的行业构成与全国行业就业增长相交互，隔离了本地就业需求驱动的变化。在最新转移份额文献的基础上，我们通过平衡、预趋势和罗滕贝格权重诊断来验证这一设计，并在报告中使用暴露稳健的标准误差。一个标准差的不利冲击会使得数学成绩降低约0.03个学生级标准差，并在两个科目中扩大白人-黑人和经济不利地位之间的成绩差距。在同一地理区域内，损失集中在经济弱势学生中。英语语言艺术的估计指向相同方向，但更难与大衰退期间的房地产泡沫分离，我们将其解释为劳动力需求收缩和相关房价下降的联合效应。成绩反应集中在衰退期间。2014年之后的时期，主要由油价周期确定，得出了一个精确的零结果，因此我们的估计衡量了对严重收缩的反应，而不是一般商业周期参数。学校资金并没有对这些冲击做出即时反应，而家庭收入、儿童贫困和房价都有所反应。",
-    "url": "https://www.nber.org/papers/w35639",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35654",
-    "title": "Critical Minerals, Geopolitics, and the Green Transition",
-    "title_cn": "关键矿产、地缘政治与绿色转型",
-    "authors": [
-      "Tomás Domínguez-Iino",
-      "Jonathan T. Elliott",
-      "Allan Hsiao"
-    ],
-    "abstract": "The green energy transition will be powered by the mining and processing of lithium, nickel, and cobalt, which are critical for the production of advanced batteries. These minerals are concentrated geographically but traded globally, allowing key mining countries to exercise market power through policy intervention. Advanced batteries use multiple minerals in combination, and this joint use creates interdependence across mineral markets. We study the geopolitical implications of these forces and their consequences for green technology adoption worldwide. We quantify supply chain vulnerability, international policy spillovers, and the potential for mineral cartels.",
-    "abstract_cn": "绿色能源转型将由锂、镍和钴的开采及加工驱动，这些矿物对于先进电池的生产至关重要。这些矿物在地理上高度集中，但在全球范围内交易，使得主要矿业国家能够通过政策干预行使市场力量。先进电池需要多种矿物的联合使用，这种联合使用在矿物市场之间创造了相互依赖。我们研究了这些力量的地缘政治影响及其对全球绿色技术采纳的后果。我们量化了供应链的脆弱性、国际政策外溢效应以及矿物卡特尔的潜力。",
-    "url": "https://www.nber.org/papers/w35654",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35650",
-    "title": "The Meritocratic Consensus and Stratification in Higher Education",
-    "title_cn": "精英共识与高等教育中的分层",
-    "authors": [
-      "Zachary Bleemer",
-      "Jesse Rothstein"
-    ],
-    "abstract": "American colleges and universities are highly stratified by pre-college academic achievement, family background, and institutional resources. We study the meritocratic consensus in American higher education: colleges that high-testing students (who are generally also from high-income families) attend spend dramatically more on instruction than do those that enroll lower-testing students. Stratification by test scores has been largely stable since the 1960s, but the stratification of instructional resources has risen sharply since 1970 at both private and public institutions. Non-academic admissions criteria like athletics, legacy, and affirmative action are second-order in determining the allocation of students to universities. Potential economic justifications for the positive association of instructional expenditures with student prior achievement—q-complementarity between achievement and resources, convex social returns to high human capital, and incentives to invest in learning prior to college—have little empirical support. Resource stratification across universities has not increased in the past decade, largely due to increased public funding of universities that enroll lower-testing students through financial aid programs like California's CalGrant, but stratification within institutions is now rising swiftly.",
-    "abstract_cn": "美国的学院和大学在大学前学术成就、家庭背景和机构资源方面高度分层。我们研究了美国高等教育中的精英共识：高测试成绩学生（通常也来自高收入家庭）就读的大学在教学上的支出远高于那些招收低测试成绩学生的大学。自20世纪60年代以来，按测试成绩的分层在很大程度上保持稳定，但自1970年以来，私立和公立机构的教学资源分层都急剧上升。像体育、遗产和肯定行动这样的非学术录取标准在决定学生分配到大学的顺序中是次要的。教学支出与学生先前成就正相关的潜在经济理由——成就与资源之间的q互补性、高人力资本的凸形社会回报，以及在大学前投资学习的激励——几乎没有经验支持。在过去十年中，大学之间的资源分层没有增加，这在很大程度上是由于通过像加州CalGrant这样的财政援助计划增加了对招收低测试成绩学生的大学的公共资助，但机构内部的分层现在正在迅速上升。",
-    "url": "https://www.nber.org/papers/w35650",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35649",
-    "title": "The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries",
-    "title_cn": "儿童保育对中低收入国家女性劳动力供给和儿童发展的影响",
-    "authors": [
-      "Serena Goldberg",
-      "Costas Meghir"
-    ],
-    "abstract": "Childcare services can offer an opportunity for women to develop their careers and increase household income. At the same time, it can affect the development of children, depending on the quality of care. We first develop a collective model of the household as a conceptual framework to show how improving the availability of childcare can affect mothers’ labor market opportunities and earnings and how it can affect child development. We then review the literature on the effects of childcare on the employment and earnings of women and on child development. Childcare can increase mothers’ employment. However, limited work opportunities or strict norms against maternal work can keep mothers out of the labor force. When other family members provide care, childcare can free these caregivers to work or attend school. When studies measure the impact on child development, the results are mixed and depend on both context and quality of provision.",
-    "abstract_cn": "儿童保育服务为女性发展职业生涯和增加家庭收入提供了机会。同时，它也会影响儿童的发展，这取决于护理的质量。我们首先构建了一个家庭集体模型作为概念框架，以展示提高儿童保育的可获得性如何影响母亲的劳动力市场机会和收入，以及它如何影响儿童的发展。然后，我们回顾了有关儿童保育对女性就业和收入以及儿童发展影响的文献。儿童保育可以增加母亲的就业。然而，有限的工作机会或严格的反对母亲工作规范可能会使母亲远离劳动力市场。当其他家庭成员提供护理时，儿童保育可以释放这些护理人员去工作或上学。当研究衡量对儿童发展的影响时，结果不一，取决于背景和提供的质量。",
-    "url": "https://www.nber.org/papers/w35649",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35657",
-    "title": "The Data Revolution, and Its Uses, in International Trade",
-    "title_cn": "国际贸易中的数据革命及其应用",
-    "authors": [
-      "David Atkin",
-      "Benjamin Faber"
-    ],
-    "abstract": "In recent decades, economists studying international trade have gained access to an unprecedented volume and variety of data. These data have provided new insights and a more granular understanding of the mechanics of trade. Analyzing a large corpus of papers, we document that the nature of research has also shifted. Previously, the typical trade paper was either purely theoretical or an empirical paper testing theoretical predictions. More recently, scholarship has shifted toward a more integrated approach, particularly quantitative modeling. This development is surprising. We might have expected the data revolution (and contemporaneous credibility revolution) to increase the share of primarily empirical papers—although the markers of these revolutions are clearly evident in the rise of causal inference within empirical work. This article reviews these developments, assessing the strengths and limitations of different modes of inquiry, and plotting a path forward to harness the growing richness of data within the field.",
-    "abstract_cn": "近几十年来，研究国际贸易的经济学家获得了前所未有的大量和多样化的数据。这些数据提供了新的见解，使我们对贸易机制有了更细致的理解。通过分析大量论文，我们记录了研究性质的转变。以前，典型的贸易论文要么是纯粹的理论性，要么是测试理论预测的经验性论文。最近，学术研究转向了更加综合的方法，特别是定量建模。这一发展令人惊讶。我们可能预期数据革命（以及同期的可信度革命）会增加主要经验论文的比例——尽管这些革命的标志在经验工作中因果推断的兴起中明显可见。本文回顾了这些发展，评估了不同研究方式的优势和局限性，并规划了一条利用该领域日益丰富的数据的前进道路。",
-    "url": "https://www.nber.org/papers/w35657",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35635",
-    "title": "Occupational Licensing of Uber Drivers",
-    "title_cn": "优步司机的职业许可",
-    "authors": [
-      "Jonathan Hall",
-      "Jason Hicks",
-      "Morris M. Kleiner",
-      "Yun taek Oh"
-    ],
-    "abstract": "We examine whether occupational licensing improves service quality and safety using trip-level Uber data that include driver ratings and telematics-based measures of driving behavior. Exploiting quasi-random assignment from proximity-based dispatch, we compare trips served by licensed and unlicensed drivers in two settings: a cross-border comparison between New York City and New Jersey, and a deregulation event in Houston. Across settings and specifications, including instrumental variable estimates, we find no consistent evidence that licensing improves consumer outcomes. In Houston, post-deregulation entrants are indistinguishable from previously licensed drivers on ratings and driving behavior, despite differing markedly in experience and age.",
-    "abstract_cn": "我们利用包含司机评分和基于远程信息处理的驾驶行为测量的逐次Uber数据，检验职业许可是否提高了服务质量和安全性。利用基于近距离派单的准随机分配，我们比较了在两种情况下由持证和未持证司机服务的行程：纽约市与新泽西州之间的跨境比较，以及休斯顿的放松管制事件。在各种设置和规范中，包括工具变量估计，我们发现没有一致的证据表明许可提高了消费者结果。在休斯顿，放松管制后的进入者在评分和驾驶行为上与之前持证的司机无法区分，尽管在经验和年龄上存在显著差异。",
-    "url": "https://www.nber.org/papers/w35635",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35647",
-    "title": "Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model",
-    "title_cn": "货币主导并非永恒：来自非线性动态模型的一些洞见",
-    "authors": [
-      "Michael D. Bordo",
-      "Cécile Bastidon"
-    ],
-    "abstract": "We develop stress tests based on an original International Monetary System (IMS) model with regime switchings. The model is calibrated for nine reference currencies from the beginning of the Classical Gold Standard to the present. Regime switchings in currency dominance are related to combinations of conditions on a multidimensional environment variable that includes five classes of shocks: technology; development; monetary, financial and fiscal institutions; democracy and conflicts; and the regulatory environment. We provide an original database of events for these five classes of shocks, which is used for calibration. The calibration highlights the important role of the democracy and conflicts component in regime switchings. The calibrated model is then used to perform stress tests on the current prospects of currency dominance for a broad set of scenarios. A salient result from the scenarios we tested is that the dominance of the US dollar is at most marginally affected. No other currency emerges as a major player, suggesting strong inertia in the system’s current centripetal dynamics.",
-    "abstract_cn": "我们基于一个包含制度转换的原创国际货币体系（IMS）模型开发了压力测试。该模型针对从古典金本位制开始至今的九种参考货币进行了校准。货币主导权的制度转换与多维环境变量上的条件组合有关，该环境变量包括五类冲击：技术；发展；货币、金融和财政制度；民主与冲突；以及监管环境。我们提供了一个关于这五类冲击的原创事件数据库，用于校准。校准突出了民主与冲突组成部分在制度转换中的重要作用。然后，我们使用校准后的模型对当前货币主导权的前景进行了一系列情景的压力测试。在我们测试的情景中，一个显著的结果是美元的主导地位至多受到轻微影响。没有其他货币作为主要玩家出现，这表明系统当前的向心动态具有强大的惯性。",
-    "url": "https://www.nber.org/papers/w35647",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35651",
-    "title": "Falling Fertility: The Changing Value of Freedom, Fulfillment, and Family",
-    "title_cn": "生育率下降：自由、成就和家庭价值的变化",
-    "authors": [
-      "Raquel Fernández",
-      "Inés Berniell",
-      "Milagros Onofri"
-    ],
-    "abstract": "Fertility has fallen in nearly all high-income countries. People also report wanting fewer children: between 2012 and 2022 the ideal number of children fell from 2.42 to 2.31 and the share of respondents intending a child within three years fell from 28 to 21 percent over a similar period. Why? Using two cross-national surveys that ask respondents about their attitudes and their fertility preferences, both fielded twice roughly a decade apart, we decompose each decline into the contribution of a broad and competing set of attitudes. Three stand out: children are increasingly seen as interfering with the freedom of parents; views on whether mothers of young children should work have become markedly more progressive and account for a substantially larger share of the decline among the tertiary-educated; and fewer people believe that women or men need children to lead a fulfilled life. This last attitude changed most over the decade and is the largest contributor to the fall in intended fertility, above all among less-educated women. The changing division of household work and increasing work-family conflict have minor contributions to changing fertility preferences.",
-    "abstract_cn": "在几乎所有高收入国家，生育率都有所下降。人们也表示希望拥有更少的孩子：在2012年至2022年期间，理想孩子数从2.42下降到2.31，而计划在三年内生育孩子的受访者比例也从28%下降到21%。为什么？我们利用两次跨国调查，询问受访者的态度和生育偏好，这两项调查大约相隔十年进行。我们将每次下降分解为一系列广泛且相互竞争的态度的贡献。其中三个因素突出：孩子越来越被视为妨碍父母自由；对于有幼儿的母亲是否应该工作的看法变得更加进步，并且在受过高等教育的人群中，这一因素对生育率下降的贡献比例显著增加；越来越少的人相信女性或男性需要孩子才能过上充实的生活。这最后一种态度在十年间变化最大，是导致生育意愿下降的最大因素，尤其是在受教育程度较低的女性中。家务分工的变化和工作与家庭冲突的增加对生育偏好的变化贡献较小。",
-    "url": "https://www.nber.org/papers/w35651",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35655",
-    "title": "Crypto Capture of Foreign Aid",
-    "title_cn": "外国援助的加密捕获",
-    "authors": [
-      "Sumit Agarwal",
-      "Peiyi Jin",
-      "Eswar S. Prasad",
-      "Daniel Rabetti"
-    ],
-    "abstract": "The 2016 Panama Papers leak tightened regulatory enforcement around money laundering and offshore banking. We investigate whether the diversion of foreign aid in developing countries led to a shift to cryptocurrency as an alternative laundering platform. We develop a disbursement-timed forensic measure of cryptocurrency activity, combining on-chain Bitcoin transactions and wallet creation, off-chain exchange records, and IP-linked web traffic, and apply it to World Bank aid disbursements covering $238 billion across the 93 recipient countries in our estimation sample during 2018-2024. Exploiting the administrative timing of aid tranche arrivals, we find sharp, short-lived surges of crypto activity at the disbursement month, driven mainly by anonymous and newly created wallets on both tax-haven and mainstream exchanges. Blockchain forensics reveal patterns consistent with the placement, layering, and integration sequence of conventional money laundering. We estimate an implied leakage of 2 to 6 cents per aid dollar, which amounts to roughly 1.7 to 4.4 billion dollars of aid diversion across the tranche arrivals we study. Capture carries no funding penalty: the four sectors where we detect it, Transport, Water and Sanitation, Social Protection, and Governance, still absorb half of subsequent World Bank funding. Cryptocurrency facilitates aid diversion, but its transparent ledgers also leave forensic traces that may help detect and recover diverted funds.",
-    "abstract_cn": "The 2016 Panama Papers leak tightened regulatory enforcement around money laundering and offshore banking. We investigate whether the diversion of foreign aid in developing countries led to a shift to cryptocurrency as an alternative laundering platform. We develop a disbursement-timed forensic measure of cryptocurrency activity, combining on-chain Bitcoin transactions and wallet creation, off-chain exchange records, and IP-linked web traffic, and apply it to World Bank aid disbursements covering $238 billion across the 93 recipient countries in our estimation sample during 2018-2024. Exploiting the administrative timing of aid tranche arrivals, we find sharp, short-lived surges of crypto activity at the disbursement month, driven mainly by anonymous and newly created wallets on both tax-haven and mainstream exchanges. Blockchain forensics reveal patterns consistent with the placement, layering, and integration sequence of conventional money laundering. We estimate an implied leakage of 2 to 6 cents per aid dollar, which amounts to roughly 1.7 to 4.4 billion dollars of aid diversion across the tranche arrivals we study. Capture carries no funding penalty: the four sectors where we detect it, Transport, Water and Sanitation, Social Protection, and Governance, still absorb half of subsequent World Bank funding. Cryptocurrency facilitates aid diversion, but its transparent ledgers also leave forensic traces that may help detect and recover diverted funds.",
-    "url": "https://www.nber.org/papers/w35655",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
+      "title": "failed",
       "abstract": "failed"
     },
     "translation_error": {
-      "abstract": "Error code: 400 - {'error': {'code': 400, 'message': 'The request was rejected because it was considered high risk', 'param': 'prompt', 'type': 'content_filter'}}"
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
+    "fetched_at": "2026-08-31T11:22:17Z"
   },
   {
-    "id": "w35652",
-    "title": "A Model of Global Firms and Capital Markets",
-    "title_cn": "全球企业与资本市场模型",
+    "id": "w35682",
+    "title": "Pollution Pricing in Equilibrium: Production, Reallocation, and Aggregate Impacts",
+    "title_cn": "Pollution Pricing in Equilibrium: Production, Reallocation, and Aggregate Impacts",
     "authors": [
-      "Loukas Karabarbounis",
-      "Bruno Pellegrino",
-      "Juliana Salomao"
+      "R. Andrew Butters",
+      "Jackson Dorsey",
+      "Ivan Rudik"
     ],
-    "abstract": "We develop a general-equilibrium model of the global economy that integrates heterogeneous firms competing in product markets with countries that allocate capital around the world. Combining a hedonic demand system on the product side with a mean-variance portfolio system on the asset side, we obtain almost closed-form solutions for the equilibrium of the model. We use firm-level data on balance sheets, geographic breakdowns of revenue and employment, and business descriptions along with country-level data on bilateral equity holdings and trade costs to quantify the model to a cross section of roughly 23,000 listed firms in 48 countries. We use the model to evaluate the reallocation and welfare effects of globalization. Both financial and trade liberalization concentrate activity among the largest firms and raise welfare, with gains being larger in emerging and mid-sized open economies respectively. Product- and capital-market frictions amplify each other, meaning that liberalizing one market reduces the gains from liberalizing the other.",
-    "abstract_cn": "我们构建了一个全球经济的一般均衡模型，该模型将产品市场上竞争的异质性企业与全球范围内分配资本的国家结合起来。在产品侧结合一个hedonic需求系统，在资产侧结合一个均值-方差投资组合系统，我们得到了模型均衡的近似封闭形式解。我们利用企业层面的资产负债表数据、收入和就业的地理细分数据以及业务描述，以及国家层面的双边股权持有和贸易成本数据，将模型量化到48个国家大约23,000家上市公司的横截面数据上。我们使用该模型评估全球化的重新分配和福利效应。金融和贸易自由化都使得活动集中在最大的企业中，并提高了福利，其中新兴和中等开放经济体的收益更大。产品市场和资本市场的摩擦相互放大，这意味着放开一个市场会减少放开另一个市场的收益。",
-    "url": "https://www.nber.org/papers/w35652",
-    "public_date": "2026-08-24",
+    "abstract": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adjustment margins: short-run input substitution, reallocation of output from dirty to cleaner firms, and long-run clean technology adoption. Applying it to the first 17 years of the European Union Emissions Trading System (EU-ETS), we find input substitution is rigid: firms cannot cut emissions in the short run without cutting output. Reallocation instead drives nearly all of the short-run aggregate emissions response, concentrated in sectors with heterogeneous emissions intensities, like power and cement, or with elastic demand, like refining. Clean technology adoption also responds causally to permit price shocks, reducing firms’ emissions intensity over the five years that follow. Doubling the permit price cuts aggregate emissions 23% in the short run and 31% in the longer run after induced clean technology adoption. In the short run, output falls by 4%, primarily because carbon costs pass from upstream polluting industries like electricity to downstream producers. In the long run, output falls just 2.5%, as clean technology adoption dampens these supply-chain impacts. Carbon pricing thus delivers substantial emissions reductions with moderate output effects, and much of the economic burden falls on downstream firms through higher upstream input costs.",
+    "abstract_cn": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adjustment margins: short-run input substitution, reallocation of output from dirty to cleaner firms, and long-run clean technology adoption. Applying it to the first 17 years of the European Union Emissions Trading System (EU-ETS), we find input substitution is rigid: firms cannot cut emissions in the short run without cutting output. Reallocation instead drives nearly all of the short-run aggregate emissions response, concentrated in sectors with heterogeneous emissions intensities, like power and cement, or with elastic demand, like refining. Clean technology adoption also responds causally to permit price shocks, reducing firms’ emissions intensity over the five years that follow. Doubling the permit price cuts aggregate emissions 23% in the short run and 31% in the longer run after induced clean technology adoption. In the short run, output falls by 4%, primarily because carbon costs pass from upstream polluting industries like electricity to downstream producers. In the long run, output falls just 2.5%, as clean technology adoption dampens these supply-chain impacts. Carbon pricing thus delivers substantial emissions reductions with moderate output effects, and much of the economic burden falls on downstream firms through higher upstream input costs.",
+    "url": "https://www.nber.org/papers/w35682",
+    "public_date": "2026-08-31",
     "translation_status": {
-      "title": "success",
-      "abstract": "success"
+      "title": "failed",
+      "abstract": "failed"
     },
-    "translation_error": null,
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
+    "fetched_at": "2026-08-31T11:22:17Z"
   },
   {
-    "id": "w35640",
-    "title": "Labor Market Power with Worker and Firm Heterogeneity",
-    "title_cn": "劳动力市场中的经济主体异质性与市场势力",
+    "id": "w35666",
+    "title": "Making Everyone’s Preferences Count: A Prospect Theory Approach to Valuing Health Improvements",
+    "title_cn": "Making Everyone’s Preferences Count: A Prospect Theory Approach to Valuing Health Improvements",
     "authors": [
-      "David W. Berger",
+      "Karen Mulligan",
+      "Drishti Baid",
+      "Jason N. Doctor",
+      "Darius N. Lakdawalla"
+    ],
+    "abstract": "Health technology assessment bodies and policymakers have grappled with the issue of whose preferences – the general healthy population or the patient population – should be incorporated into traditional cost-effectiveness analysis. This debate arises because healthy individuals and patients often value the same health state differently, and cost-effectiveness will undervalue health-related quality of life (HRQoL) for individuals with chronic illness or disability because it cannot account for adaptation. Prospect theory (PT) provides a framework that permits adaptation since it assumes individuals evaluate outcomes relative to a reference point. We estimate utility over HRQoL in a PT framework in a nationally representative U.S. population and compare directly with utility estimates in an EU framework from the same population. Consistent with previous studies in the monetary and health domains, we find evidence of probability weighting bias and loss aversion over health. Using the PT utility estimates, we demonstrate how PT can be incorporated into healthcare value assessment and present the resulting implications for medical decision making.",
+    "abstract_cn": "Health technology assessment bodies and policymakers have grappled with the issue of whose preferences – the general healthy population or the patient population – should be incorporated into traditional cost-effectiveness analysis. This debate arises because healthy individuals and patients often value the same health state differently, and cost-effectiveness will undervalue health-related quality of life (HRQoL) for individuals with chronic illness or disability because it cannot account for adaptation. Prospect theory (PT) provides a framework that permits adaptation since it assumes individuals evaluate outcomes relative to a reference point. We estimate utility over HRQoL in a PT framework in a nationally representative U.S. population and compare directly with utility estimates in an EU framework from the same population. Consistent with previous studies in the monetary and health domains, we find evidence of probability weighting bias and loss aversion over health. Using the PT utility estimates, we demonstrate how PT can be incorporated into healthcare value assessment and present the resulting implications for medical decision making.",
+    "url": "https://www.nber.org/papers/w35666",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35676",
+    "title": "Firms as Electoral Monopsonies",
+    "title_cn": "Firms as Electoral Monopsonies",
+    "authors": [
+      "Carlos Fernando Avenancio-León",
+      "Adelina Barbalau",
+      "Cyndi Hou",
+      "Alessio Piccolo"
+    ],
+    "abstract": "We study how dominant employers can act as *electoral monopsonies*, using local labor market power to shape political preferences and electoral outcomes. We first present original survey evidence showing that workers at major local employers are more likely to experience employer political communication and to report that their employers influence their voting behavior and career expectations. We then develop a model in which a dominant employer can affect voters’ preferences by shaping their expectations about how wages and employment depend on electoral outcomes. We distinguish a passive channel, through which workers internalize firms’ economic interests, from an active channel, through which dominant employers strategically influence these expectations. Under the active channel, labor market power translates into political power and can generate political failures by inducing voters to oppose policies they would otherwise support. The model also shows how electoral monopsonies can contribute to political polarization, constrain political platforms, and substitute for campaign spending. Using U.S. individual-level voting data and a shift-share design based on national industry concentration shocks and predetermined local employment shares, we show that greater electoral monopsony power increases Republican voter turnout. Counterfactual estimates imply that reducing electoral monopsony power could have narrowly changed the outcomes of the 2016 and 2024 presidential elections.",
+    "abstract_cn": "We study how dominant employers can act as *electoral monopsonies*, using local labor market power to shape political preferences and electoral outcomes. We first present original survey evidence showing that workers at major local employers are more likely to experience employer political communication and to report that their employers influence their voting behavior and career expectations. We then develop a model in which a dominant employer can affect voters’ preferences by shaping their expectations about how wages and employment depend on electoral outcomes. We distinguish a passive channel, through which workers internalize firms’ economic interests, from an active channel, through which dominant employers strategically influence these expectations. Under the active channel, labor market power translates into political power and can generate political failures by inducing voters to oppose policies they would otherwise support. The model also shows how electoral monopsonies can contribute to political polarization, constrain political platforms, and substitute for campaign spending. Using U.S. individual-level voting data and a shift-share design based on national industry concentration shocks and predetermined local employment shares, we show that greater electoral monopsony power increases Republican voter turnout. Counterfactual estimates imply that reducing electoral monopsony power could have narrowly changed the outcomes of the 2016 and 2024 presidential elections.",
+    "url": "https://www.nber.org/papers/w35676",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35672",
+    "title": "Explaining the Predictive Performance of Police in Cases of Domestic Abuse",
+    "title_cn": "Explaining the Predictive Performance of Police in Cases of Domestic Abuse",
+    "authors": [
+      "Jeffrey Grogger",
+      "Andrew Jordan",
+      "Tom Kirchmaier"
+    ],
+    "abstract": "Police in England and Wales are asked to predict the likelihood of serious recidivism in domestic abuse cases, with little support beyond a flawed questionnaire. To analyze their decisions, we first develop methods to deal with a censoring problem that arises because the officer’s prediction may change the outcome she was attempting to predict. Even after adjusting for censoring, we find predictive performance to be low, even lower in some cases than what one would expect by chance. We next ask whether their predictions represent mistakes, and provide several types of confirmatory evidence. We ask how officers formulate their predictions, and we find evidence consistent with representativeness bias, overreaction, and categorization and selective attention. We find that higher-skill officers use information not captured by the questionnaire to improve their predictions, whereas lower-skill officers use such information in ways that reduce accuracy.",
+    "abstract_cn": "Police in England and Wales are asked to predict the likelihood of serious recidivism in domestic abuse cases, with little support beyond a flawed questionnaire. To analyze their decisions, we first develop methods to deal with a censoring problem that arises because the officer’s prediction may change the outcome she was attempting to predict. Even after adjusting for censoring, we find predictive performance to be low, even lower in some cases than what one would expect by chance. We next ask whether their predictions represent mistakes, and provide several types of confirmatory evidence. We ask how officers formulate their predictions, and we find evidence consistent with representativeness bias, overreaction, and categorization and selective attention. We find that higher-skill officers use information not captured by the questionnaire to improve their predictions, whereas lower-skill officers use such information in ways that reduce accuracy.",
+    "url": "https://www.nber.org/papers/w35672",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35663",
+    "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+    "title_cn": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+    "authors": [
+      "Pattaraphon Kenny Wongchamcharoen",
+      "Kris Gulati",
+      "Min Min Fong",
+      "Abhishek Nagaraj"
+    ],
+    "abstract": "Most LLM benchmarks rank models on their ability to automate work tasks. In practice, however, models are often used to assist other (human or LLM) agents. The question that drives model selection is therefore not only which model produces the best output, but which model most improves the work of another (weaker) agent. We introduce a unified framework that evaluates the capability of models to automate and augment another agent's performance. Across seven economically grounded real-world tasks, an assistant model writes assistance text for a standardized lower-capacity worker model, which produces the deliverable. In automation mode, the assistant produces the output directly. Outputs are scored through blind pairwise comparisons by an LLM judge panel with task-specific rubrics, replicated across ten runs. Rankings across the two regimes are only modestly correlated, and the automation winner loses augmentation on five of seven tasks. Assistance is not reliably positive. The unaided worker outranks every assisted condition on three tasks, and only one model's guidance beats no guidance on average. These results suggest that automation ability is an incomplete proxy for assistance quality, motivating benchmarks that evaluate models according to the roles they play in human-AI and multi-agent systems.",
+    "abstract_cn": "Most LLM benchmarks rank models on their ability to automate work tasks. In practice, however, models are often used to assist other (human or LLM) agents. The question that drives model selection is therefore not only which model produces the best output, but which model most improves the work of another (weaker) agent. We introduce a unified framework that evaluates the capability of models to automate and augment another agent's performance. Across seven economically grounded real-world tasks, an assistant model writes assistance text for a standardized lower-capacity worker model, which produces the deliverable. In automation mode, the assistant produces the output directly. Outputs are scored through blind pairwise comparisons by an LLM judge panel with task-specific rubrics, replicated across ten runs. Rankings across the two regimes are only modestly correlated, and the automation winner loses augmentation on five of seven tasks. Assistance is not reliably positive. The unaided worker outranks every assisted condition on three tasks, and only one model's guidance beats no guidance on average. These results suggest that automation ability is an incomplete proxy for assistance quality, motivating benchmarks that evaluate models according to the roles they play in human-AI and multi-agent systems.",
+    "url": "https://www.nber.org/papers/w35663",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35661",
+    "title": "Tariff-Dispersion Shocks: The Mean is the Variance",
+    "title_cn": "Tariff-Dispersion Shocks: The Mean is the Variance",
+    "authors": [
+      "Stephanie Schmitt-Grohé",
+      "Martín Uribe"
+    ],
+    "abstract": "This paper studies the joint behavior over time of the mean and dispersion of U.S. import tariff rates across goods at the HTS 6-digit level, as well as the macroeconomic consequences of the shocks that drive these two moments. We document that the cross-sectional mean and the cross-sectional dispersion of import tariffs move closely together over time. Using a state-space model, we find that both are driven primarily by common shocks, while mean- and dispersion-specific tariff shocks play a negligible role. Thus, effectively, there are no separate mean-tariff shocks or tariff-dispersion shocks; there are only mean-dispersion tariff shocks. These common shocks account for a sizable share of movements in imports and the trade balance but only a small fraction of movements in output. A positive transitory mean-dispersion tariff shock reduces the import-to-output ratio and improves the trade-balance-to-output ratio; a positive permanent mean-dispersion tariff shock also reduces the import-to-output ratio but has a muted effect on the trade-balance-to-output ratio. Positive transitory mean-dispersion tariff shocks are expansionary, whereas positive permanent mean-dispersion tariff shocks are contractionary in the short run and expansionary in the medium run.",
+    "abstract_cn": "This paper studies the joint behavior over time of the mean and dispersion of U.S. import tariff rates across goods at the HTS 6-digit level, as well as the macroeconomic consequences of the shocks that drive these two moments. We document that the cross-sectional mean and the cross-sectional dispersion of import tariffs move closely together over time. Using a state-space model, we find that both are driven primarily by common shocks, while mean- and dispersion-specific tariff shocks play a negligible role. Thus, effectively, there are no separate mean-tariff shocks or tariff-dispersion shocks; there are only mean-dispersion tariff shocks. These common shocks account for a sizable share of movements in imports and the trade balance but only a small fraction of movements in output. A positive transitory mean-dispersion tariff shock reduces the import-to-output ratio and improves the trade-balance-to-output ratio; a positive permanent mean-dispersion tariff shock also reduces the import-to-output ratio but has a muted effect on the trade-balance-to-output ratio. Positive transitory mean-dispersion tariff shocks are expansionary, whereas positive permanent mean-dispersion tariff shocks are contractionary in the short run and expansionary in the medium run.",
+    "url": "https://www.nber.org/papers/w35661",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35678",
+    "title": "Smart Contracting in Network Markets",
+    "title_cn": "Smart Contracting in Network Markets",
+    "authors": [
+      "Darrell Duffie",
+      "Chaojun Wang"
+    ],
+    "abstract": "With complete-information bilateral bargaining in network settings, holdup is eliminated when contracts across the network are agreed atomically (all or none) via a smart contract. Applications include over-the-counter asset trading, third-party-financed purchase agreements, and land assembly. Under a novel extensive-form bargaining protocol, a firm can give a “greenlight” to the terms of a contract proposed to that firm, and the protocol automatically converts those terms into a binding contract if the terms proposed to all other firms are likewise given greenlights. In any Perfect Bayesian Equilibrium with Markov strategies, firms immediately agree on socially efficient contracts.",
+    "abstract_cn": "With complete-information bilateral bargaining in network settings, holdup is eliminated when contracts across the network are agreed atomically (all or none) via a smart contract. Applications include over-the-counter asset trading, third-party-financed purchase agreements, and land assembly. Under a novel extensive-form bargaining protocol, a firm can give a “greenlight” to the terms of a contract proposed to that firm, and the protocol automatically converts those terms into a binding contract if the terms proposed to all other firms are likewise given greenlights. In any Perfect Bayesian Equilibrium with Markov strategies, firms immediately agree on socially efficient contracts.",
+    "url": "https://www.nber.org/papers/w35678",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35674",
+    "title": "Can We Build More Effective Place-Based Policies? Theory and Evidence",
+    "title_cn": "Can We Build More Effective Place-Based Policies? Theory and Evidence",
+    "authors": [
+      "Matthew Freedman",
+      "David Neumark"
+    ],
+    "abstract": "Amid renewed policy interest, the academic literature on place-based programs has expanded dramatically in recent years. In this essay, we review recent theoretical and empirical work in an effort to assess when and why place-based job creation policies succeed or fail. Drawing on theory, we describe key dimensions on which place-based programs vary and discuss evidence on the consequences of different design choices. We conclude with several lessons for the next generation of place-based programs.",
+    "abstract_cn": "Amid renewed policy interest, the academic literature on place-based programs has expanded dramatically in recent years. In this essay, we review recent theoretical and empirical work in an effort to assess when and why place-based job creation policies succeed or fail. Drawing on theory, we describe key dimensions on which place-based programs vary and discuss evidence on the consequences of different design choices. We conclude with several lessons for the next generation of place-based programs.",
+    "url": "https://www.nber.org/papers/w35674",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35689",
+    "title": "Artificial Intelligence and Political Advice",
+    "title_cn": "Artificial Intelligence and Political Advice",
+    "authors": [
+      "Georgy Egorov",
+      "Konstantin Sonin"
+    ],
+    "abstract": "Artificial intelligence is increasingly used for political advice. We study an AI that is better informed about a payoff-relevant state and cares both about accuracy and about the perceived welfare of the individual it advises. The AI then has an incentive to tilt advice toward what the individual would like to believe, altering both the political content and the informativeness of its messages. Sophisticated individuals anticipate this distortion and filter out its predictable political component, yet still learn less because the AI makes its messages less responsive to the state. Individuals who underestimate the incentive instead mistake political accommodation for information, allowing political preferences to distort factual beliefs and generate polarization and radicalization. The model also shows that better-informed individuals receive more informative and less politically tilted advice, while greater sophistication can improve interpretation yet worsen communication itself. Contrary to the familiar echo-chamber intuition, political distortion is mitigated when political preferences and prior beliefs coincide and is most consequential when they diverge. We show how independently varying individuals’ stated preferences and prior beliefs can recover the AI’s responsiveness to the state even when the underlying state cannot be manipulated.",
+    "abstract_cn": "Artificial intelligence is increasingly used for political advice. We study an AI that is better informed about a payoff-relevant state and cares both about accuracy and about the perceived welfare of the individual it advises. The AI then has an incentive to tilt advice toward what the individual would like to believe, altering both the political content and the informativeness of its messages. Sophisticated individuals anticipate this distortion and filter out its predictable political component, yet still learn less because the AI makes its messages less responsive to the state. Individuals who underestimate the incentive instead mistake political accommodation for information, allowing political preferences to distort factual beliefs and generate polarization and radicalization. The model also shows that better-informed individuals receive more informative and less politically tilted advice, while greater sophistication can improve interpretation yet worsen communication itself. Contrary to the familiar echo-chamber intuition, political distortion is mitigated when political preferences and prior beliefs coincide and is most consequential when they diverge. We show how independently varying individuals’ stated preferences and prior beliefs can recover the AI’s responsiveness to the state even when the underlying state cannot be manipulated.",
+    "url": "https://www.nber.org/papers/w35689",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35681",
+    "title": "Spillover Effects of Transfer Programs",
+    "title_cn": "Spillover Effects of Transfer Programs",
+    "authors": [
+      "Travis Baseler",
+      "Jules Gazeaud",
+      "Erik Snowberg"
+    ],
+    "abstract": "We derive four facts from experiments on the spillover effects of cash and in-kind transfer programs onto non-recipients: (1) average spillovers on consumption and asset value are negligible; (2) negative psychological spillovers emerge in the longer term among households randomly excluded from transfers by within-village lotteries; (3) these spillovers are concentrated in consumption-poor households; and (4) they do not appear when the selection of transfer recipients is eligibility-based. These findings are consistent with household preferences against within-village randomization of transfers, and point to additional benefits of cluster-level randomized designs over household-level ones.",
+    "abstract_cn": "We derive four facts from experiments on the spillover effects of cash and in-kind transfer programs onto non-recipients: (1) average spillovers on consumption and asset value are negligible; (2) negative psychological spillovers emerge in the longer term among households randomly excluded from transfers by within-village lotteries; (3) these spillovers are concentrated in consumption-poor households; and (4) they do not appear when the selection of transfer recipients is eligibility-based. These findings are consistent with household preferences against within-village randomization of transfers, and point to additional benefits of cluster-level randomized designs over household-level ones.",
+    "url": "https://www.nber.org/papers/w35681",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35665",
+    "title": "Democratizing Private Markets: Equilibrium Predictions",
+    "title_cn": "Democratizing Private Markets: Equilibrium Predictions",
+    "authors": [
+      "Lubos Pastor",
+      "Robert F. Stambaugh",
+      "Lucian A. Taylor"
+    ],
+    "abstract": "We study how opening private markets to retail investors affects investors and firms. Calibrating a production-based asset-pricing model, we find that democratization raises retail investors' welfare, but barely. Retail investors benefit little from democratization even if they face no extra cost or other disadvantage relative to institutional investors. The private market is simply too small for improved risk sharing to matter much. Whether or not private-market retail investing is costly, democratization substantially reshapes private firms' ownership and materially reduces their cost of capital, leading them to grow. Private equity earns a positive CAPM alpha, which shrinks after democratization.",
+    "abstract_cn": "We study how opening private markets to retail investors affects investors and firms. Calibrating a production-based asset-pricing model, we find that democratization raises retail investors' welfare, but barely. Retail investors benefit little from democratization even if they face no extra cost or other disadvantage relative to institutional investors. The private market is simply too small for improved risk sharing to matter much. Whether or not private-market retail investing is costly, democratization substantially reshapes private firms' ownership and materially reduces their cost of capital, leading them to grow. Private equity earns a positive CAPM alpha, which shrinks after democratization.",
+    "url": "https://www.nber.org/papers/w35665",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35679",
+    "title": "An Efficient Liquidity Savings Mechanism",
+    "title_cn": "An Efficient Liquidity Savings Mechanism",
+    "authors": [
+      "Darrell Duffie",
+      "Srisht F. Singh",
+      "Chaojun Wang"
+    ],
+    "abstract": "Liquidity savings mechanisms (LSMs) reduce the quantity of reserve balances that banks need to process payments. An LSM can mitigate coordination failures in which banks delay their payments to each other because they expect that other banks will do the same. We provide the design and properties of a maximally efficient new form of LSM.",
+    "abstract_cn": "Liquidity savings mechanisms (LSMs) reduce the quantity of reserve balances that banks need to process payments. An LSM can mitigate coordination failures in which banks delay their payments to each other because they expect that other banks will do the same. We provide the design and properties of a maximally efficient new form of LSM.",
+    "url": "https://www.nber.org/papers/w35679",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35671",
+    "title": "Kumon Up: Private Tutoring Centers and Student Achievement",
+    "title_cn": "Kumon Up: Private Tutoring Centers and Student Achievement",
+    "authors": [
+      "Joshua Goodman",
+      "Samuel Nitkin"
+    ],
+    "abstract": "Private tutoring chains like Kumon and Sylvan have expanded rapidly in recent decades. Combining data on business locations, household spending, and district test scores, we study who uses these centers and how they affect academic skills. Nearly half of tutoring users are from the top income decile, with Asian and White households five and two times as likely to purchase tutoring as Black and Hispanic households. A staggered differences-in-differences design shows the opening of a district's first chain center raises district-wide math and reading scores by 0.02-0.03 standard deviations, at a much lower cost than public spending typically producing similar gains. Math effects are largest for White and Asian students, so that center entry widens racial achievement gaps, though less so in more racially integrated districts. These private investments help their users, deepen educational inequality, and shape outcomes by which state accountability systems and families judge schools.",
+    "abstract_cn": "Private tutoring chains like Kumon and Sylvan have expanded rapidly in recent decades. Combining data on business locations, household spending, and district test scores, we study who uses these centers and how they affect academic skills. Nearly half of tutoring users are from the top income decile, with Asian and White households five and two times as likely to purchase tutoring as Black and Hispanic households. A staggered differences-in-differences design shows the opening of a district's first chain center raises district-wide math and reading scores by 0.02-0.03 standard deviations, at a much lower cost than public spending typically producing similar gains. Math effects are largest for White and Asian students, so that center entry widens racial achievement gaps, though less so in more racially integrated districts. These private investments help their users, deepen educational inequality, and shape outcomes by which state accountability systems and families judge schools.",
+    "url": "https://www.nber.org/papers/w35671",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35669",
+    "title": "Fool's Gold? How the USD lost its Shine",
+    "title_cn": "Fool's Gold? How the USD lost its Shine",
+    "authors": [
+      "Kai Arvai",
+      "Nuno Coimbra",
+      "Marco Pinchetti"
+    ],
+    "abstract": "This paper investigates the determinants of international investors’ portfolio choices between gold and sovereign bonds in an environment shaped by economic and geopolitical shocks. We develop an endogenous portfolio choice model where reserve safety has a political dimension — sovereign bonds issued by the dominant reserve country are more liquid but exposed to the issuer’s sanctions authority, while gold offers sanctions protection at the cost of lower liquidity. Our model implies that US convenience yields fall during periods of high sanction risk, as safe-asset demand fragments along geopolitical lines. Empirically, periods of elevated geopolitical risk coincide with higher gold prices and 10-year Treasury yields. In such periods, the average composition of official reserves shifts toward gold, with countries less aligned with the US increasing their holdings to a greater extent.",
+    "abstract_cn": "This paper investigates the determinants of international investors’ portfolio choices between gold and sovereign bonds in an environment shaped by economic and geopolitical shocks. We develop an endogenous portfolio choice model where reserve safety has a political dimension — sovereign bonds issued by the dominant reserve country are more liquid but exposed to the issuer’s sanctions authority, while gold offers sanctions protection at the cost of lower liquidity. Our model implies that US convenience yields fall during periods of high sanction risk, as safe-asset demand fragments along geopolitical lines. Empirically, periods of elevated geopolitical risk coincide with higher gold prices and 10-year Treasury yields. In such periods, the average composition of official reserves shifts toward gold, with countries less aligned with the US increasing their holdings to a greater extent.",
+    "url": "https://www.nber.org/papers/w35669",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35684",
+    "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
+    "title_cn": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
+    "authors": [
+      "Tania Babina",
+      "Alex X. He",
+      "Renhao Jiang"
+    ],
+    "abstract": "Using a new firm-level measure of AI investment based on AI-skilled employment—spanning machine learning through generative and agentic AI—we show that AI investments are associated with productivity growth in recent years, but not over the previous decade. We trace the productivity gains to the accumulation of organization capital that AI helps create: durable firm-specific knowledge acquired through learning-by-doing that enables more efficient production. We build a novel measure of organization capital based on workers’ job descriptions and document that productivity gains are driven by AI-skilled jobs that build organization capital. Overall, our findings suggest that AI investment generates productivity growth by creating organization capital.",
+    "abstract_cn": "Using a new firm-level measure of AI investment based on AI-skilled employment—spanning machine learning through generative and agentic AI—we show that AI investments are associated with productivity growth in recent years, but not over the previous decade. We trace the productivity gains to the accumulation of organization capital that AI helps create: durable firm-specific knowledge acquired through learning-by-doing that enables more efficient production. We build a novel measure of organization capital based on workers’ job descriptions and document that productivity gains are driven by AI-skilled jobs that build organization capital. Overall, our findings suggest that AI investment generates productivity growth by creating organization capital.",
+    "url": "https://www.nber.org/papers/w35684",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35660",
+    "title": "Fear as a Campaign Tool: Evidence from the 2014 U.S. Ebola Scare",
+    "title_cn": "Fear as a Campaign Tool: Evidence from the 2014 U.S. Ebola Scare",
+    "authors": [
+      "Filipe R. Campante",
+      "Emilio Depetris-Chauvin",
+      "Ruben Durante"
+    ],
+    "abstract": "We study the supply of political communication highlighting perceived threats, using the 2014 Ebola scare as a natural experiment. Analyzing Twitter posts and congressional newsletters from US House and Senate candidates, we find Republicans increased Ebola-related communication, emphasizing negative sentiment and links to immigration. This response was strongest in safe Republican seats, consistent with base signaling. The supply side was active, not reactive: the Republican response did not vary with proximity to diagnosed cases despite concentrated voter anxiety, politician tweets predicted public Ebola activity but not vice-versa, and more intensive messaging correlated with better electoral outcomes, controlling for local conditions.",
+    "abstract_cn": "We study the supply of political communication highlighting perceived threats, using the 2014 Ebola scare as a natural experiment. Analyzing Twitter posts and congressional newsletters from US House and Senate candidates, we find Republicans increased Ebola-related communication, emphasizing negative sentiment and links to immigration. This response was strongest in safe Republican seats, consistent with base signaling. The supply side was active, not reactive: the Republican response did not vary with proximity to diagnosed cases despite concentrated voter anxiety, politician tweets predicted public Ebola activity but not vice-versa, and more intensive messaging correlated with better electoral outcomes, controlling for local conditions.",
+    "url": "https://www.nber.org/papers/w35660",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35691",
+    "title": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates",
+    "title_cn": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates",
+    "authors": [
+      "Luigi Bocola",
+      "Gastón Chaumont",
+      "Alessandro Dovis",
+      "Rishabh Kirpalani"
+    ],
+    "abstract": "We develop a model for fiscal and monetary policy determination in the tradition of Sargent and Wallace (1981). Ex-ante, the government has incentives to delegate monetary policy to a central bank with an inflation targeting mandate. Ex-post, however, the government faces temptations to revoke the mandate to generate seigniorage revenues. The likelihood that the government will adhere to its commitment depends on shocks to fiscal fundamentals and the costs of reneging on the mandate. The economy endogenously transitions between a “monetary-dominant” regime where monetary policy adheres to its commitment and a “fiscal-dominant” regime where the fiscal authority interferes with monetary policy. These two regimes sharply differ in their implications for the comovement of inflation and debt-to-GDP ratios. We use the model as a measurement device to interpret the fiscal and monetary history in Colombia, Chile, and the U.S.",
+    "abstract_cn": "We develop a model for fiscal and monetary policy determination in the tradition of Sargent and Wallace (1981). Ex-ante, the government has incentives to delegate monetary policy to a central bank with an inflation targeting mandate. Ex-post, however, the government faces temptations to revoke the mandate to generate seigniorage revenues. The likelihood that the government will adhere to its commitment depends on shocks to fiscal fundamentals and the costs of reneging on the mandate. The economy endogenously transitions between a “monetary-dominant” regime where monetary policy adheres to its commitment and a “fiscal-dominant” regime where the fiscal authority interferes with monetary policy. These two regimes sharply differ in their implications for the comovement of inflation and debt-to-GDP ratios. We use the model as a measurement device to interpret the fiscal and monetary history in Colombia, Chile, and the U.S.",
+    "url": "https://www.nber.org/papers/w35691",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35687",
+    "title": "The Safe-Debt Laffer Curve",
+    "title_cn": "The Safe-Debt Laffer Curve",
+    "authors": [
+      "Ricardo J. Caballero"
+    ],
+    "abstract": "Safe public debt can become a drag on aggregate demand even while the sovereign remains solvent. Its safety requires rollover support, market-making, and balance-sheet capacity. As these resources become scarce, the marginal cost of producing safe Treasury claims rises. The resulting fiscal adjustment reduces aggregate expenditure and can eventually outweigh the expansionary effect of increasing the supply of safe assets. Debt’s stationary contribution to aggregate demand then peaks, and the equilibrium safe rate reaches its maximum at the same debt stock. Beyond this point, further issuance lowers aggregate demand and the safe rate even though the debt remains safe. Empirically, I combine cash- Treasury and real-duration premia with estimates of how additional private supply reprices the outstanding Treasury stock. Over the past decade, the benchmark marginal cost more than doubled, rising from about 80 basis points in 2015Q1 to 187 basis points in 2026Q1. Using a 330-basis-point benchmark for the rate-equivalent wealth benefit, the safe-debt margin—the difference between this benefit and marginal cost—fell from about 250 to 143 basis points. At the CBO’s 2026 borrowing pace, the remaining safe-debt margin shrinks by about 18 basis points in one year, with further erosion accelerating as debt rises relative to financial capacity.",
+    "abstract_cn": "Safe public debt can become a drag on aggregate demand even while the sovereign remains solvent. Its safety requires rollover support, market-making, and balance-sheet capacity. As these resources become scarce, the marginal cost of producing safe Treasury claims rises. The resulting fiscal adjustment reduces aggregate expenditure and can eventually outweigh the expansionary effect of increasing the supply of safe assets. Debt’s stationary contribution to aggregate demand then peaks, and the equilibrium safe rate reaches its maximum at the same debt stock. Beyond this point, further issuance lowers aggregate demand and the safe rate even though the debt remains safe. Empirically, I combine cash- Treasury and real-duration premia with estimates of how additional private supply reprices the outstanding Treasury stock. Over the past decade, the benchmark marginal cost more than doubled, rising from about 80 basis points in 2015Q1 to 187 basis points in 2026Q1. Using a 330-basis-point benchmark for the rate-equivalent wealth benefit, the safe-debt margin—the difference between this benefit and marginal cost—fell from about 250 to 143 basis points. At the CBO’s 2026 borrowing pace, the remaining safe-debt margin shrinks by about 18 basis points in one year, with further erosion accelerating as debt rises relative to financial capacity.",
+    "url": "https://www.nber.org/papers/w35687",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35683",
+    "title": "Can Private Markets Fill the Gap? Graduate Student Lending After the Elimination of GradPLUS",
+    "title_cn": "Can Private Markets Fill the Gap? Graduate Student Lending After the Elimination of GradPLUS",
+    "authors": [
+      "Sarah Turner"
+    ],
+    "abstract": "The One Big Beautiful Bill Act (OBBBA, P.L. 119-21) eliminates the federal GradPLUS loan program for new borrowers effective July 1, 2026, replacing nearly two decades of uncapped federal graduate lending with annual limits of $20,500 ($50,000 for eleven professional fields) and new aggregate caps. The resulting financing gap — approximately $8 billion annually across roughly 370,000 affected borrowers — raises the question of whether and how private capital will substitute for displaced federal lending. This paper analyzes the economics of that transition. Before GradPLUS, private lenders filled the gap between federal Stafford limits and graduate program costs, with nonfederal graduate originations reaching $5.3 billion (constant 2024 dollars) by 2005–06. After GradPLUS extended federal borrowing to the full cost of attendance in 2006, private lending collapsed — falling more than 70 percent within a few years and never recovering. The federal program provided not only credit but, through income-driven repayment and Public Service Loan Forgiveness, insurance against earnings risk that no private product could replicate. The same features that crowded out private lending generated compounding distortions: borrowing untethered to repayment capacity, upward pressure on tuition, and a reversal from projected federal surpluses to losses exceeding thirty cents per GradPLUS dollar lent. Linking institution-by-field federal borrowing data to institution-by-field earnings outcomes, I examine the relationship between historical borrowing above the new OBBBA caps and post-completion earnings across programs. I find substantial variation in the extent to which different degree programs would likely support above-cap borrowing from private lenders or other sources. In fields such as law and MBA, earnings rise steeply with borrowing exposure, providing a basis for program-level risk pricing; in fields such as social work, counseling psychology, and physical therapy, the earnings-to-borrowing gradient is essentially flat. I also examine features of the private capital market and institutional responses shaping the transition — including capital constraints on scaling private lending, legal barriers to using program-level outcomes data in underwriting, and the emerging role of institutions as intermediaries between lenders and students.",
+    "abstract_cn": "The One Big Beautiful Bill Act (OBBBA, P.L. 119-21) eliminates the federal GradPLUS loan program for new borrowers effective July 1, 2026, replacing nearly two decades of uncapped federal graduate lending with annual limits of $20,500 ($50,000 for eleven professional fields) and new aggregate caps. The resulting financing gap — approximately $8 billion annually across roughly 370,000 affected borrowers — raises the question of whether and how private capital will substitute for displaced federal lending. This paper analyzes the economics of that transition. Before GradPLUS, private lenders filled the gap between federal Stafford limits and graduate program costs, with nonfederal graduate originations reaching $5.3 billion (constant 2024 dollars) by 2005–06. After GradPLUS extended federal borrowing to the full cost of attendance in 2006, private lending collapsed — falling more than 70 percent within a few years and never recovering. The federal program provided not only credit but, through income-driven repayment and Public Service Loan Forgiveness, insurance against earnings risk that no private product could replicate. The same features that crowded out private lending generated compounding distortions: borrowing untethered to repayment capacity, upward pressure on tuition, and a reversal from projected federal surpluses to losses exceeding thirty cents per GradPLUS dollar lent. Linking institution-by-field federal borrowing data to institution-by-field earnings outcomes, I examine the relationship between historical borrowing above the new OBBBA caps and post-completion earnings across programs. I find substantial variation in the extent to which different degree programs would likely support above-cap borrowing from private lenders or other sources. In fields such as law and MBA, earnings rise steeply with borrowing exposure, providing a basis for program-level risk pricing; in fields such as social work, counseling psychology, and physical therapy, the earnings-to-borrowing gradient is essentially flat. I also examine features of the private capital market and institutional responses shaping the transition — including capital constraints on scaling private lending, legal barriers to using program-level outcomes data in underwriting, and the emerging role of institutions as intermediaries between lenders and students.",
+    "url": "https://www.nber.org/papers/w35683",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35673",
+    "title": "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s",
+    "title_cn": "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s",
+    "authors": [
+      "Drishan Banerjee",
+      "Galina Hale",
+      "Harrison Shieh"
+    ],
+    "abstract": "Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies. Yet as of 2026 no global recession has followed. We establish three stylized facts distinguishing the 1980s from the 2020s, beyond the shift to flexible exchange rates: monetary policy effectiveness, fiscal space, and external vulnerabilities. We rationalize them in a Mundell-Fleming framework with a fiscal space constraint, which predicts a central role for fiscal space in transmitting foreign currency risk-free rate increases. Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.",
+    "abstract_cn": "Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies. Yet as of 2026 no global recession has followed. We establish three stylized facts distinguishing the 1980s from the 2020s, beyond the shift to flexible exchange rates: monetary policy effectiveness, fiscal space, and external vulnerabilities. We rationalize them in a Mundell-Fleming framework with a fiscal space constraint, which predicts a central role for fiscal space in transmitting foreign currency risk-free rate increases. Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.",
+    "url": "https://www.nber.org/papers/w35673",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35677",
+    "title": "What Work Does Generative AI Do?",
+    "title_cn": "What Work Does Generative AI Do?",
+    "authors": [
+      "Alexander Bick",
+      "Adam Blandin",
+      "David J. Deming",
+      "Tyler R. Schumacher"
+    ],
+    "abstract": "We measure how workers use genAI for their jobs in a nationally representative survey linking genAI adoption to detailed occupations and tasks. Our data provide the first task-level genAI adoption indexes, which we show can inform analyses of genAI’s labor market impact. Exposure scores explain some, but far from all, of the variation in adoption across occupations and tasks. We also distinguish our indexes from measures based on genAI platform chat logs, which differ conceptually and tend to over-classify chats into generic activities spanning many occupations. Finally, we highlight that current adoption is widespread but shallow: genAI is used across many occupations and tasks, yet within most of them, fewer than half of workers adopt. This indicates substantial variation among workers doing very similar work, suggesting that understanding who adopts may matter as much as understanding which tasks genAI assists.",
+    "abstract_cn": "We measure how workers use genAI for their jobs in a nationally representative survey linking genAI adoption to detailed occupations and tasks. Our data provide the first task-level genAI adoption indexes, which we show can inform analyses of genAI’s labor market impact. Exposure scores explain some, but far from all, of the variation in adoption across occupations and tasks. We also distinguish our indexes from measures based on genAI platform chat logs, which differ conceptually and tend to over-classify chats into generic activities spanning many occupations. Finally, we highlight that current adoption is widespread but shallow: genAI is used across many occupations and tasks, yet within most of them, fewer than half of workers adopt. This indicates substantial variation among workers doing very similar work, suggesting that understanding who adopts may matter as much as understanding which tasks genAI assists.",
+    "url": "https://www.nber.org/papers/w35677",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35688",
+    "title": "Designing AI-Augmented Peer Review",
+    "title_cn": "Designing AI-Augmented Peer Review",
+    "authors": [
+      "Joshua S. Gans"
+    ],
+    "abstract": "AI-generated assessments of manuscripts could improve the quality of peer review, but sharing them with reviewers might decrease the information that editors possess about the manuscript. Human peer reviews add value because reviewers add what the AI assessment reveals. When both reviewers see the same assessment and make similar errors, they can replicate each other’s mistakes, coincidentally investigate related areas, and share the same blind spots. If AI assessment improves the quality of reviewers’ work while they investigate the manuscript, giving the report to only one reviewer can better combine AI assistance with independent, human investigation. If some reviewers already use AI-generated assessments on their own, changing the journal policy to allow sharing the assessment can improve peer review if the change takes some of the burden of investigation off private tools that make similar errors, though giving the assessment to only one reviewer may still outperform giving it to both or neither. Even a report delivered after the reviews are submitted can still shift what reviewers investigate if they know in advance which issues it will check. Journal policy will depend on the AI’s effects on reviewer effort and the questions they investigate, whether reviewers are willing and able to comply with the policy, the monitoring costs, and the journal’s ability to protect the confidentiality of reviewer identities and emails. Journals can evaluate competing policies without knowing the true quality of the manuscripts they review by randomly varying who receives the assessment and then comparing reviewer disagreement across different levels of report sharing.",
+    "abstract_cn": "AI-generated assessments of manuscripts could improve the quality of peer review, but sharing them with reviewers might decrease the information that editors possess about the manuscript. Human peer reviews add value because reviewers add what the AI assessment reveals. When both reviewers see the same assessment and make similar errors, they can replicate each other’s mistakes, coincidentally investigate related areas, and share the same blind spots. If AI assessment improves the quality of reviewers’ work while they investigate the manuscript, giving the report to only one reviewer can better combine AI assistance with independent, human investigation. If some reviewers already use AI-generated assessments on their own, changing the journal policy to allow sharing the assessment can improve peer review if the change takes some of the burden of investigation off private tools that make similar errors, though giving the assessment to only one reviewer may still outperform giving it to both or neither. Even a report delivered after the reviews are submitted can still shift what reviewers investigate if they know in advance which issues it will check. Journal policy will depend on the AI’s effects on reviewer effort and the questions they investigate, whether reviewers are willing and able to comply with the policy, the monitoring costs, and the journal’s ability to protect the confidentiality of reviewer identities and emails. Journals can evaluate competing policies without knowing the true quality of the manuscripts they review by randomly varying who receives the assessment and then comparing reviewer disagreement across different levels of report sharing.",
+    "url": "https://www.nber.org/papers/w35688",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35675",
+    "title": "The Distribution and Consequences of Natural Disasters: Evidence from U.S. Wildfire Victims",
+    "title_cn": "The Distribution and Consequences of Natural Disasters: Evidence from U.S. Wildfire Victims",
+    "authors": [
+      "Patrick Baylis",
+      "Judson Boomhower",
+      "Jonathan M. Colmer",
+      "John L. Voorheis"
+    ],
+    "abstract": "The economic burden of natural disasters is shaped by who is exposed, who experiences losses, how those losses alter individual economic trajectories, and how affected communities evolve in the aftermath. We link property-level damage data from over 100 U.S. wildfires to administrative tax and Census data to understand individual-level relationships between disaster damage and economic outcomes. Residents of burned areas are wealthier than the U.S. population on average, but within these wildfire perimeters the likelihood that a home burns is negatively correlated with pre-fire income. Home destruction imposes costs beyond rebuilding the property: occupants of destroyed homes experience lower income for three years post-fire, producing cumulative income losses equal to 26 percent of pre-fire annual income. We do not detect income or employment effects for residents without direct property damage. Community recovery is slow and accompanied by changes in composition. Four years after a fire, half of destroyed addresses remain unoccupied and reoccupied addresses house residents with substantially higher incomes than before.",
+    "abstract_cn": "The economic burden of natural disasters is shaped by who is exposed, who experiences losses, how those losses alter individual economic trajectories, and how affected communities evolve in the aftermath. We link property-level damage data from over 100 U.S. wildfires to administrative tax and Census data to understand individual-level relationships between disaster damage and economic outcomes. Residents of burned areas are wealthier than the U.S. population on average, but within these wildfire perimeters the likelihood that a home burns is negatively correlated with pre-fire income. Home destruction imposes costs beyond rebuilding the property: occupants of destroyed homes experience lower income for three years post-fire, producing cumulative income losses equal to 26 percent of pre-fire annual income. We do not detect income or employment effects for residents without direct property damage. Community recovery is slow and accompanied by changes in composition. Four years after a fire, half of destroyed addresses remain unoccupied and reoccupied addresses house residents with substantially higher incomes than before.",
+    "url": "https://www.nber.org/papers/w35675",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35680",
+    "title": "The Anatomy and Evolution of Survey Error",
+    "title_cn": "The Anatomy and Evolution of Survey Error",
+    "authors": [
+      "Bruce D. Meyer",
+      "Nikolas Mittag",
+      "Derek Wu",
+      "Anthony Tatarka",
+      "Patrick Langetieg"
+    ],
+    "abstract": "Surveys provide much of what we know in social science and are often the only source of information on private behaviors, attitudes and expectations. Strands of the literature document four broad error sources: survey coverage, unit non-response, item non-response, and measurement error. Yet the absence of comparable error measures across sources and over time has left the relative severity of error sources difficult to assess, limiting efforts by survey producers to improve accuracy and users to interpret survey statistics. We unify the fragmented literature by analyzing and decomposing survey error in an empirical Total Survey Error (TSE) framework, quantifying for the first time every error component on a common scale of bias and absolute error. We apply our approach to comprehensively measure survey error in eighteen income and program receipt variables from the CPS ASEC – one of the oldest and most rigorously tested surveys, and the official source of income and poverty statistics in the U.S. – using linked administrative records over more than two decades. For nearly half of the variables, bias exceeds 40 percent and eliminating all individual-level error would require changing more than 80 percent of the true total. Contrary to the conventional emphasis on non-response, we find that the dominant source of bias is measurement error among respondents who fail to report receipt (false negatives). The largest potential gains therefore come from improving the accuracy of respondent reporting rather than raising response rates. This underreporting also propagates into imputed values for non-respondents, which are drawn from (misreported) responses and are particularly noisy, with positive and negative errors that tend to offset in net terms. Moreover, net bias can be an incomplete guide to data quality, as we find that absolute error has tended to rise over time even when net bias is stable. Overall, our approach provides a new method for measuring and decomposing survey error, clarifying which sources of bias require user corrections and where survey design improvements could be most consequential.",
+    "abstract_cn": "Surveys provide much of what we know in social science and are often the only source of information on private behaviors, attitudes and expectations. Strands of the literature document four broad error sources: survey coverage, unit non-response, item non-response, and measurement error. Yet the absence of comparable error measures across sources and over time has left the relative severity of error sources difficult to assess, limiting efforts by survey producers to improve accuracy and users to interpret survey statistics. We unify the fragmented literature by analyzing and decomposing survey error in an empirical Total Survey Error (TSE) framework, quantifying for the first time every error component on a common scale of bias and absolute error. We apply our approach to comprehensively measure survey error in eighteen income and program receipt variables from the CPS ASEC – one of the oldest and most rigorously tested surveys, and the official source of income and poverty statistics in the U.S. – using linked administrative records over more than two decades. For nearly half of the variables, bias exceeds 40 percent and eliminating all individual-level error would require changing more than 80 percent of the true total. Contrary to the conventional emphasis on non-response, we find that the dominant source of bias is measurement error among respondents who fail to report receipt (false negatives). The largest potential gains therefore come from improving the accuracy of respondent reporting rather than raising response rates. This underreporting also propagates into imputed values for non-respondents, which are drawn from (misreported) responses and are particularly noisy, with positive and negative errors that tend to offset in net terms. Moreover, net bias can be an incomplete guide to data quality, as we find that absolute error has tended to rise over time even when net bias is stable. Overall, our approach provides a new method for measuring and decomposing survey error, clarifying which sources of bias require user corrections and where survey design improvements could be most consequential.",
+    "url": "https://www.nber.org/papers/w35680",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35667",
+    "title": "A Theory of International Official Lending",
+    "title_cn": "A Theory of International Official Lending",
+    "authors": [
+      "Qing Liu",
+      "Zanhui Liu",
+      "Vivian Zhanwei Yue"
+    ],
+    "abstract": "Official lending is large, senior, and countercyclical, continuing after sovereigns fall into arrears on private debt. We ask why sovereign finance exhibits this division of labor across creditors. In a production economy where a risk-averse sovereign privately allocates imported inputs, commitment is limited on both sides, and monitoring generates a noisy signal, the constrained-optimal allocation is decentralized by defaultable private debt, senior non-defaultable multilateral debt, and concessional bilateral debt whose relief is tied to the signal. Production remains distorted, but the sovereign is never excluded: official lending is monitored liquidity provision. A calibration reproduces procyclical private and countercyclical official debt.",
+    "abstract_cn": "Official lending is large, senior, and countercyclical, continuing after sovereigns fall into arrears on private debt. We ask why sovereign finance exhibits this division of labor across creditors. In a production economy where a risk-averse sovereign privately allocates imported inputs, commitment is limited on both sides, and monitoring generates a noisy signal, the constrained-optimal allocation is decentralized by defaultable private debt, senior non-defaultable multilateral debt, and concessional bilateral debt whose relief is tied to the signal. Production remains distorted, but the sovereign is never excluded: official lending is monitored liquidity provision. A calibration reproduces procyclical private and countercyclical official debt.",
+    "url": "https://www.nber.org/papers/w35667",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35662",
+    "title": "The Impact of Fiscal Policy to Promote Healthy Diets: Evidence from the Navajo Nation",
+    "title_cn": "The Impact of Fiscal Policy to Promote Healthy Diets: Evidence from the Navajo Nation",
+    "authors": [
+      "John Cawley",
+      "Mallory Dreyer",
+      "Kosali I. Simon"
+    ],
+    "abstract": "One of the most comprehensive fiscal policies to improve diet was adopted by the Navajo Nation; the Healthy Diné Nation Act (HDNA) of 2014-15 consists of two parts: 1) an exemption from sales tax for healthy foods and beverages; and 2) a tax increase on unhealthy foods and beverages. Together, they create a price wedge of 7-8% between healthy and unhealthy foods. We estimate difference-in-difference models and event studies that estimate the effect of the HDNA on a variety of health conditions relating to diet and weight for newborns and mothers which are recorded in birth certificate data. We find no evidence that the HDNA improved these outcomes; our estimates are precise enough to rule out improvements in gestational diabetes as large as those reported for U.S. city SSB taxes. Possible explanations for the null results include incomplete retailer implementation and cross-border shopping.",
+    "abstract_cn": "One of the most comprehensive fiscal policies to improve diet was adopted by the Navajo Nation; the Healthy Diné Nation Act (HDNA) of 2014-15 consists of two parts: 1) an exemption from sales tax for healthy foods and beverages; and 2) a tax increase on unhealthy foods and beverages. Together, they create a price wedge of 7-8% between healthy and unhealthy foods. We estimate difference-in-difference models and event studies that estimate the effect of the HDNA on a variety of health conditions relating to diet and weight for newborns and mothers which are recorded in birth certificate data. We find no evidence that the HDNA improved these outcomes; our estimates are precise enough to rule out improvements in gestational diabetes as large as those reported for U.S. city SSB taxes. Possible explanations for the null results include incomplete retailer implementation and cross-border shopping.",
+    "url": "https://www.nber.org/papers/w35662",
+    "public_date": "2026-08-31",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "failed"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-08-31T11:22:17Z"
+  },
+  {
+    "id": "w35664",
+    "title": "Rising Income Risk at the Top",
+    "title_cn": "Rising Income Risk at the Top",
+    "authors": [
+      "J. Carter Braxton",
       "Kyle F. Herkenhoff",
-      "Jaehun Jeong",
-      "Simon Mongey"
+      "Chengdai Huang",
+      "Michael Nattinger",
+      "Jonathan L. Rothbaum",
+      "Lawrence D.W. Schmidt"
     ],
-    "abstract": "How do firms set wages? How should governments set income taxes? If labor supply is inelastic to wages, firms can pay workers less than their marginal products, and governments can increase taxes without eroding the base. However, the structure of labor supply elasticities in the economy is complex. Recent empirics document variation across workers, firms, and margins (which firm to work at versus how many hours to work). To account for this rich structure of labor supply elasticities we extend the neoclassical model to include a discrete choice over which firm to work at, production complementarities and strategic interaction between heterogeneous, granular firms. In terms of wage setting, we find that novel effects of worker heterogeneity account for 78 percent of the variable component of labor supply elasticities and markdowns, and 89 percent of markdown differences between large and small firms. In terms of policy, higher progressivity makes labor supply less elastic, eroding the tax base by widening markdowns and worsening sorting. These channels (i) produce large declines in earnings following increases in marginal tax rates, consistent with empirical studies, and (ii) reduce optimal tax progressivity by one-third and associated welfare gains by two-thirds.",
-    "abstract_cn": "企业如何设定工资？政府应如何设定所得税？如果劳动力供给对工资不敏感，企业可以支付工人低于其边际产品的工资，政府可以增加税收而不会侵蚀税基。然而，经济中劳动力供给弹性的结构是复杂的。最新的实证研究记录了工人、企业和边际（选择哪家公司工作与工作多少小时）之间的变化。为了解释劳动力供给弹性的这种丰富结构，我们扩展了新古典模型，包括对哪家公司工作的离散选择、生产互补性和不同、颗粒化的企业之间的战略互动。在工资设定方面，我们发现工人异质性的新颖效应占劳动力供给弹性和折扣变量部分的78%，以及大中小企业之间折扣差异的89%。在政策方面，更高的累进性使劳动力供给弹性降低，通过扩大折扣和恶化排序来侵蚀税基。这些渠道（i）在边际税率提高后产生收入大幅下降，与实证研究一致，以及（ii）将最优税收累进性降低三分之一，并将相关的福利收益减少三分之二。",
-    "url": "https://www.nber.org/papers/w35640",
-    "public_date": "2026-08-24",
+    "abstract": "We document an increase in U.S. income risk from 1969 to 2019 using newly digitized IRS tax returns, distinguishing permanent from transitory risk. Since the 1970s, permanent income risk increased across the distribution, but most sharply among high earners, rising nearly 70% among the top 5%. We show that, even among top earners, large negative income shocks strongly predict financial distress and higher income risk is linked with higher savings. In a quantitative life-cycle model, rising income risk concentrated at the top lowers the risk-free rate by 0.7pp, increases wealth inequality, and contributes to the \"savings glut of the rich.\"",
+    "abstract_cn": "We document an increase in U.S. income risk from 1969 to 2019 using newly digitized IRS tax returns, distinguishing permanent from transitory risk. Since the 1970s, permanent income risk increased across the distribution, but most sharply among high earners, rising nearly 70% among the top 5%. We show that, even among top earners, large negative income shocks strongly predict financial distress and higher income risk is linked with higher savings. In a quantitative life-cycle model, rising income risk concentrated at the top lowers the risk-free rate by 0.7pp, increases wealth inequality, and contributes to the \"savings glut of the rich.\"",
+    "url": "https://www.nber.org/papers/w35664",
+    "public_date": "2026-08-31",
     "translation_status": {
-      "title": "success",
-      "abstract": "success"
+      "title": "failed",
+      "abstract": "failed"
     },
-    "translation_error": null,
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
+    "fetched_at": "2026-08-31T11:22:17Z"
   },
   {
-    "id": "w35633",
-    "title": "Instrument Hacking",
-    "title_cn": "工具操纵",
+    "id": "w35690",
+    "title": "Inefficiencies in Local Infrastructure: Evidence from Drinking Water in California",
+    "title_cn": "Inefficiencies in Local Infrastructure: Evidence from Drinking Water in California",
     "authors": [
-      "Michael P. Keane",
-      "Timothy Neal",
-      "Patrick Vu"
+      "Pierre Bodere",
+      "Giulia Brancaccio",
+      "Karam Kang"
     ],
-    "abstract": "In instrumental-variable (IV) studies, researchers often evaluate multiple candidate instruments and selectively report the specification with the most favorable first- or second-stage statistics. We show that this form of instrument selection (“instrument-hacking”) induces median bias in IV estimators toward the OLS estimand, undermining the rationale for using IV. When all candidate instruments have the same true strength, median bias increases monotonically with the number of available instruments. More generally, when candidate instruments differ in true strength, monotonicity need not hold because increasing the number of instruments can lead researchers to select genuinely stronger instruments. Nonetheless, in simulations calibrated to the empirical distribution of instrument strengths in the IV literature, median bias increases monotonically with the number of available instruments. Furthermore, it is substantial in magnitude, even when only a few instruments are available.",
-    "abstract_cn": "在工具变量（IV）研究中，研究者经常评估多个候选工具变量，并选择性报告具有最有利的第一阶段或第二阶段统计量的具体规范。我们表明，这种形式的工具变量选择（“工具黑客”）会导致IV估计器向OLS估计值的中位数偏差，破坏了使用IV的理由。当所有候选工具变量具有相同的真实强度时，中位数偏差随着可用工具变量的数量增加而单调增加。更一般地，当候选工具变量在真实强度上有所不同时，单调性不一定成立，因为增加工具变量的数量可能导致研究者选择真正更强的工具变量。尽管如此，在模拟中，根据IV文献中工具变量强度的经验分布进行校准，随着可用工具变量数量的增加，中位数偏差单调增加。此外，即使只有少数工具变量可用，其幅度也是实质性的。",
-    "url": "https://www.nber.org/papers/w35633",
-    "public_date": "2026-08-24",
+    "abstract": "Local elected officials oversee critical infrastructure, often with limited electoral accountability. This paper studies how this distorts investment across California drinking-water systems. We document that pollution responds to shifts in the political environment, motivating a dynamic model of public investment. We measure welfare returns to investment directly, combining event-study estimates of investment effectiveness and costs with those of residents’ clean-water valuations, recovered from housing choices. Investment choices identify policymakers’ responsiveness to those returns. Weak accountability diverts investment from high-return systems and conventional policies imperfectly offset these distortions: subsidy takeup is misaligned with returns, while uniform mandates induce welfare losses.",
+    "abstract_cn": "Local elected officials oversee critical infrastructure, often with limited electoral accountability. This paper studies how this distorts investment across California drinking-water systems. We document that pollution responds to shifts in the political environment, motivating a dynamic model of public investment. We measure welfare returns to investment directly, combining event-study estimates of investment effectiveness and costs with those of residents’ clean-water valuations, recovered from housing choices. Investment choices identify policymakers’ responsiveness to those returns. Weak accountability diverts investment from high-return systems and conventional policies imperfectly offset these distortions: subsidy takeup is misaligned with returns, while uniform mandates induce welfare losses.",
+    "url": "https://www.nber.org/papers/w35690",
+    "public_date": "2026-08-31",
     "translation_status": {
-      "title": "success",
-      "abstract": "success"
+      "title": "failed",
+      "abstract": "failed"
     },
-    "translation_error": null,
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
+    "fetched_at": "2026-08-31T11:22:17Z"
   },
   {
-    "id": "w35643",
-    "title": "Survival Analysis with Limited Overlap and Censoring Distribution Shift",
-    "title_cn": "有限重叠和截断分布偏移下的生存分析",
+    "id": "w35685",
+    "title": "A Deep Case for Shallow Integration",
+    "title_cn": "A Deep Case for Shallow Integration",
     "authors": [
-      "Meera Krishnamoorthy",
-      "Donna Tjandra",
-      "Divya Shanmugam",
-      "Amanda E. Kowalski",
-      "Jenna Wiens"
+      "John Sturm Becko",
+      "Arnaud Costinot"
     ],
-    "abstract": "Survival analysis methods are often used to predict the time until the onset of an event in settings when the true time-to-event (TTE) may be censored during training. Such approaches typically assume uncensored data are representative of censored data and that the probability of censoring conditioned on the covariates remains constant over time, i.e., there is no censoring distribution shift. However, both assumptions can fail in practice when censoring results from interventions targeted to individuals with particular comorbidities or genetic markers (such as prophylactic surgery when predicting time to cancer onset, or scheduled cesarean delivery and induction when predicting time to spontaneous labor) and changes in clinical policies alter which individuals are targeted for these interventions over time. To address this, we propose a new approach, cluster-weighted inference of time-to event (CWITE), that remains accurate when these assumptions do not hold. Unlike existing approaches that ignore times-to-censoring (TTC) or treat them only as a lower bound of the TTE, CWITE leverages the insight that a subset of censored individuals are likely censored close to their true TTEs, and uses a novel mechanism to learn from such individuals. On the task of predicting time to spontaneous labor using real-world data, CWITE improves TTE accuracy for individuals similar to censored training data (mean absolute error: 6.50 days, 95% CI: [5.55, 7.40] vs. 7.82 days, [6.82, 8.82]) while maintaining comparable performance for those similar to uncensored training data (6.50 days, [5.54, 7.61] vs. 6.63 days, [5.67,7.69]). Our results demonstrate that incorporating more specific supervision from censored training data can significantly improve TTE predictions in settings with limited overlap and censoring distribution shift, challenges common in real-world clinical data. Code to implement CWITE and reproduce all experiments in the paper is available at https://github.com/MLD3/CWITE.",
-    "abstract_cn": "生存分析方法通常用于预测事件发生前的时间，在训练期间真实的时间至事件（TTE）可能被审查的情况下。这些方法通常假设未审查的数据代表了被审查的数据，并且基于协变量的审查概率随时间保持不变，即不存在审查分布的偏移。然而，在实践中，当审查结果来自针对具有特定合并症或遗传标记的个体的干预措施（例如，在预测癌症发生时间时的预防性手术，或在预测自发劳动时间时的预定剖宫产和引产）时，以及临床政策的变化改变了这些干预措施针对的个体时，这两种假设都可能失败。为了解决这个问题，我们提出了一种新的方法，即时间至事件的聚类加权推断（CWITE），即使在这些假设不成立时也能保持准确性。与现有方法不同，现有方法忽略了审查至时间（TTC）或仅将其视为TTE的下限，CWITE利用了一个洞见，即一部分被审查的个体可能在接近他们真实的TTE时被审查，并且使用一种新颖的机制来从这些个体中学习。在利用真实世界数据预测自发劳动时间的任务中，CWITE提高了与被审查训练数据相似个体的TTE准确性（平均绝对误差：6.50天，95% CI：[5.55, 7.40] vs. 7.82天，[6.82, 8.82]），同时保持了与未审查训练数据相似个体相当的性能（6.50天，[5.54, 7.61] vs. 6.63天，[5.67,7.69]）。我们的结果表明，在有限重叠和审查分布偏移的情况下，纳入来自被审查训练数据的更具体的监督可以显著提高TTE预测的准确性，这些挑战在真实世界的临床数据中很常见。实现CWITE并重现论文中所有实验的代码可在 https://github.com/MLD3/CWITE 获得。",
-    "url": "https://www.nber.org/papers/w35643",
-    "public_date": "2026-08-24",
+    "abstract": "We study international cooperation in a general environment with pecuniary and non-pecuniary externalities across countries. We derive two main theorems, each demonstrating that market-access commitments, a form of shallow integration, are sufficient to implement globally efficient policies. When all cross-border externalities are pecuniary, the first theorem provides a new and unifying perspective on a series of results by Bagwell and Staiger. When some cross-border externalities are non-pecuniary, the second theorem shows that market-access commitments, properly extended, still sustain global efficiency. These extended market-access commitments reinterpret cross-border externalities as additional goods that are traded and priced at their social values. We discuss the implications for international cooperation on climate change and geopolitics.",
+    "abstract_cn": "We study international cooperation in a general environment with pecuniary and non-pecuniary externalities across countries. We derive two main theorems, each demonstrating that market-access commitments, a form of shallow integration, are sufficient to implement globally efficient policies. When all cross-border externalities are pecuniary, the first theorem provides a new and unifying perspective on a series of results by Bagwell and Staiger. When some cross-border externalities are non-pecuniary, the second theorem shows that market-access commitments, properly extended, still sustain global efficiency. These extended market-access commitments reinterpret cross-border externalities as additional goods that are traded and priced at their social values. We discuss the implications for international cooperation on climate change and geopolitics.",
+    "url": "https://www.nber.org/papers/w35685",
+    "public_date": "2026-08-31",
     "translation_status": {
-      "title": "success",
-      "abstract": "success"
+      "title": "failed",
+      "abstract": "failed"
     },
-    "translation_error": null,
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
+    "fetched_at": "2026-08-31T11:22:17Z"
   },
   {
-    "id": "w35644",
-    "title": "Where the Grass Seems Greener: Economic Misperceptions and Support for Democracy",
-    "title_cn": "草看似更绿之处：经济误判与对民主的支持",
+    "id": "w35668",
+    "title": "Labor Mobility and the Level of Unemployment in a Currency Union",
+    "title_cn": "Labor Mobility and the Level of Unemployment in a Currency Union",
     "authors": [
-      "Daron Acemoglu",
-      "Nicolas Ajzenman",
-      "Guillermo Cruces",
-      "Martin Fiszbein",
-      "Gaston Garcia Zavaleta",
-      "Carlos Molina"
+      "Erin P. Gibson",
+      "Christopher L. House",
+      "Christian Proebsting",
+      "Linda L. Tesar"
     ],
-    "abstract": "Support for populist and authoritarian regimes is rising worldwide, despite evidence that they tend to underperform economically. We examine the role of (mis)perceptions of regime performance as drivers of political attitudes, leveraging two survey experiments with 11,377 respondents during Argentina’s 2023 presidential elections. Optimistic beliefs about the performance of populist and non-democratic regimes were widespread, and displayed a strong correlation with support for these regimes. When exposed to randomly assigned informational treatments challenging optimistic views about these political regimes, individuals significantly adjusted their beliefs, and reduced their support for candidates they associate with populist and authoritarian leanings. Exploring the impact of different information sources, we find that academic sources and newspapers were more influential than social media. Although individuals adjusted their beliefs and attitudes in response to information on regime performance, contradicting their prior beliefs reduced their demand for additional information, consistent with an important role for motivated reasoning.",
-    "abstract_cn": "尽管有证据表明民粹主义和威权政权往往在经济上表现不佳，但全球对它们的支持却在上升。我们利用阿根廷2023年总统选举期间进行的两项调查实验，检验了对政权表现的（错误）认知作为政治态度驱动因素的作用，共有11,377名受访者参与。对民粹主义和非民主政权表现的乐观信念普遍存在，并与对这些政权的支持显示出强烈的相关性。当个体接触到随机分配的信息处理，挑战对这些政治政权的乐观看法时，他们显著调整了自己的信念，并减少了对与民粹主义和威权倾向相关的候选人的支持。在探索不同信息来源的影响时，我们发现学术来源和报纸比社交媒体更有影响力。尽管个体对政权表现的信息做出了信念和态度上的调整，但与他们先前信念相矛盾的信息减少了他们对额外信息的需求，这与动机推理的重要角色相一致。",
-    "url": "https://www.nber.org/papers/w35644",
-    "public_date": "2026-08-24",
+    "abstract": "Unemployment rates are substantially higher and more volatile in the euro area relative to the United States. We ask to what extent the lack of cross-country labor mobility can account for unemployment dynamics in Europe. Our analytical model incorporates downward nominal wage rigidity and an endogenous migration decision. Firms are unable to freely adjust wages during economic contractions, generating an asymmetric distribution of unemployment over the business cycle. The model is calibrated to the dynamics of unemployment and net migration in a typical euro area country. An increase in labor mobility to that observed in the United States and holding all other parameters fixed would reduce the volatility of euro area unemployment by 28% and return over 1,000,000 unemployed to the workforce. The welfare cost to a typical euro area country of the currency union is 4.1 percent of permanent consumption; increasing labor mobility reduces this cost to about 3.55 percent.",
+    "abstract_cn": "Unemployment rates are substantially higher and more volatile in the euro area relative to the United States. We ask to what extent the lack of cross-country labor mobility can account for unemployment dynamics in Europe. Our analytical model incorporates downward nominal wage rigidity and an endogenous migration decision. Firms are unable to freely adjust wages during economic contractions, generating an asymmetric distribution of unemployment over the business cycle. The model is calibrated to the dynamics of unemployment and net migration in a typical euro area country. An increase in labor mobility to that observed in the United States and holding all other parameters fixed would reduce the volatility of euro area unemployment by 28% and return over 1,000,000 unemployed to the workforce. The welfare cost to a typical euro area country of the currency union is 4.1 percent of permanent consumption; increasing labor mobility reduces this cost to about 3.55 percent.",
+    "url": "https://www.nber.org/papers/w35668",
+    "public_date": "2026-08-31",
     "translation_status": {
-      "title": "success",
-      "abstract": "success"
+      "title": "failed",
+      "abstract": "failed"
     },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35645",
-    "title": "Stress Testing Cardiac Care Markets through Deregulation",
-    "title_cn": "通过放松管制对心脏护理市场进行压力测试",
-    "authors": [
-      "Daniel R. Arnold",
-      "Michael R. Richards",
-      "Yashaswini Singh",
-      "Christopher M. Whaley"
-    ],
-    "abstract": "The diffusion of technological innovation depends on incentives, regulations, and firms’ strategic behaviors. We study these intersections within cardiac procedure markets following Medicare’s expansion of non-hospital facility options for treatment, enabled by clinical advancements. State-level regulations restrain federal pro-competition policy. Where market entry occurs, business stealing is concentrated among the lowest cost treatment settings, rather than high-cost hospitals––increasing Medicare spending by approximately $2.5 million. Medicare policy also generates externalities for untargeted procedures and other payers, except when hospitals and physicians are vertically integrated. Federal rulemaking interacts with and is mitigated by complex market dynamics––including in potentially unanticipated ways.",
-    "abstract_cn": "技术革新的传播取决于激励机制、法规和公司的战略行为。我们研究了在心脏手术市场中，这些因素的交叉影响，特别是在Medicare扩大非医院设施治疗选择后，由于临床进步而成为可能。州级法规限制了联邦促进竞争的政策。在市场进入发生的地方，业务窃取集中在成本最低的治疗环境中，而不是高成本的医院——这增加了大约250万美元的Medicare支出。Medicare政策还为未针对的程序和其他支付者产生了外部性，除非医院和医生是垂直整合的。联邦规则制定与复杂的市场动态相互作用，并以潜在未预料的方式得到缓解。",
-    "url": "https://www.nber.org/papers/w35645",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
+      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
-    "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35641",
-    "title": "Benchmark Mineability and the Financing of AI Innovation",
-    "title_cn": "基准矿机能力与人工智能创新融资",
-    "authors": [
-      "Alex Chan"
-    ],
-    "abstract": "Public AI benchmarks steer research and allocate investments. They are therefore market designs. Public examples can reveal the process behind a private final test, while a finite public score cannot cover a broad task space inherent to general intelligence. I show how both gaps become profitable when scores move capital and how targeted effort erodes the signal used by later investors. The market design lesson is to separate development from certification: publish practice tasks, but choose the investment-consequential generator after the submitted system's evaluation policy is fixed.",
-    "abstract_cn": "公共人工智能基准测试指导研究并分配投资。因此，它们是市场设计。公共示例可以揭示私有最终测试背后的流程，而有限的公共分数无法涵盖通用智能固有的广泛任务空间。我展示了当分数移动资本时，这两个差距如何变得有利可图，以及针对性的努力如何侵蚀后续投资者所使用的信号。市场设计的经验教训是将开发与认证分开：发布实践任务，但在提交系统的评估政策固定后，选择对投资有重大影响的生成器。",
-    "url": "https://www.nber.org/papers/w35641",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
-  },
-  {
-    "id": "w35658",
-    "title": "Measuring the Welfare Gains from Cardinal-Preference Mechanisms in School Choice",
-    "title_cn": "测量学校选择中基数偏好机制的福利收益",
-    "authors": [
-      "Hülya Eraslan",
-      "Jeremy T. Fox",
-      "YingHua He"
-    ],
-    "abstract": "Ordinal mechanisms use rankings but not preference intensities. Cardinal mechanisms also elicit school utilities, allowing them to use students’ preferences over assignment lotteries. We compare probabilistic serial with four cardinal mechanisms that maximize the same welfare objective under successively stronger restrictions: capacity-only, ε-envy-free, envy-free, and a welfare-maximizing cardinal-preference pseudomarket. Because the feasible sets are nested, maximum welfare weakly falls as the restrictions tighten from capacity alone to approximate no-envy, exact no-envy, and equal budgets with common prices. We establish positive and negative results on large-market truthtelling. All 44 theorem parts in the paper are machine-checked in the Lean 4 proof assistant. We develop methods for computing cardinal-preference pseudomarket equilibria for Seattle’s 898 students and 11 schools. Using set-identified cardinal preferences from Seattle high-school choice data, we estimate that, under exact capacity, capacity-only raises mean welfare over probabilistic serial by 0.053, equivalent to shifting 5.3 percentage points of assignment probability from the average student’s worst school to the top school. Exact envy-freeness retains 79% of this gain; best-found pseudomarket equilibria yield a mean gain of 0.002. The estimates show both the value of cardinal information and the welfare cost of pseudomarket fairness restrictions.",
-    "abstract_cn": "序数机制使用排名但不涉及偏好强度。基数机制还引出学校效用，允许它们使用学生对分配彩票的偏好。我们比较了概率序列机制与四种基数机制，这些基数机制在逐渐加强的限制下最大化相同的福利目标：仅容量限制、ε-嫉妒自由、嫉妒自由和福利最大化的基数偏好伪市场。由于可行集是嵌套的，最大福利随着限制从仅容量到近似无嫉妒、精确无嫉妒以及具有共同价格的等预算逐渐收紧而弱化下降。我们建立了关于大市场真实表达的正面和负面结果。本文中的所有44个定理部分都在Lean 4证明助手中进行了机器检查。我们为西雅图898名学生和11所学校开发了计算基数偏好伪市场均衡的方法。利用西雅图高中选择数据中的集合识别基数偏好，我们估计，在精确容量下，仅容量机制比概率序列机制提高了0.053的福利均值，相当于将平均学生最差学校到顶尖学校的分配概率转移了5.3个百分点。精确嫉妒自由保留了这部分收益的79%；最佳发现的伪市场均衡产生了0.002的均值收益。这些估计既显示了基数信息的价值，也显示了伪市场公平限制的福利成本。",
-    "url": "https://www.nber.org/papers/w35658",
-    "public_date": "2026-08-24",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-24T10:25:45Z"
+    "fetched_at": "2026-08-31T11:22:17Z"
   }
 ]
