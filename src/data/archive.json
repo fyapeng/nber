@@ -1,5 +1,726 @@
 [
   {
+    "batch_date": "2026-09-07",
+    "last_updated": "2026-09-07T09:57:48Z",
+    "paper_count": 34,
+    "papers": [
+      {
+        "id": "w35670",
+        "title": "w35670",
+        "title_cn": "w35670",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35670",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35694",
+        "title": "w35694",
+        "title_cn": "w35694",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35694",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35706",
+        "title": "w35706",
+        "title_cn": "w35706",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35706",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35710",
+        "title": "w35710",
+        "title_cn": "w35710",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35710",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35699",
+        "title": "w35699",
+        "title_cn": "w35699",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35699",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35708",
+        "title": "w35708",
+        "title_cn": "w35708",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35708",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35697",
+        "title": "w35697",
+        "title_cn": "w35697",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35697",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35719",
+        "title": "w35719",
+        "title_cn": "w35719",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35719",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35722",
+        "title": "w35722",
+        "title_cn": "w35722",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35722",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35715",
+        "title": "w35715",
+        "title_cn": "w35715",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35715",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35724",
+        "title": "w35724",
+        "title_cn": "w35724",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35724",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35714",
+        "title": "w35714",
+        "title_cn": "w35714",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35714",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35717",
+        "title": "w35717",
+        "title_cn": "w35717",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35717",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35693",
+        "title": "w35693",
+        "title_cn": "w35693",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35693",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35723",
+        "title": "w35723",
+        "title_cn": "w35723",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35723",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35718",
+        "title": "w35718",
+        "title_cn": "w35718",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35718",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35709",
+        "title": "w35709",
+        "title_cn": "w35709",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35709",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35704",
+        "title": "w35704",
+        "title_cn": "w35704",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35704",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35713",
+        "title": "w35713",
+        "title_cn": "w35713",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35713",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35705",
+        "title": "w35705",
+        "title_cn": "w35705",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35705",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35698",
+        "title": "w35698",
+        "title_cn": "w35698",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35698",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35707",
+        "title": "w35707",
+        "title_cn": "w35707",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35707",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35695",
+        "title": "w35695",
+        "title_cn": "w35695",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35695",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35696",
+        "title": "w35696",
+        "title_cn": "w35696",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35696",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35712",
+        "title": "w35712",
+        "title_cn": "w35712",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35712",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35701",
+        "title": "w35701",
+        "title_cn": "w35701",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35701",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35716",
+        "title": "w35716",
+        "title_cn": "w35716",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35716",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35703",
+        "title": "w35703",
+        "title_cn": "w35703",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35703",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35702",
+        "title": "w35702",
+        "title_cn": "w35702",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35702",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35721",
+        "title": "w35721",
+        "title_cn": "w35721",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35721",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35692",
+        "title": "w35692",
+        "title_cn": "w35692",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35692",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35720",
+        "title": "w35720",
+        "title_cn": "w35720",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35720",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35700",
+        "title": "w35700",
+        "title_cn": "w35700",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35700",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      },
+      {
+        "id": "w35711",
+        "title": "w35711",
+        "title_cn": "w35711",
+        "authors": [
+          "Unknown authors"
+        ],
+        "abstract": "",
+        "abstract_cn": "",
+        "url": "https://www.nber.org/papers/w35711",
+        "public_date": "2026-09-07",
+        "translation_status": {
+          "title": "failed",
+          "abstract": "skipped_empty"
+        },
+        "translation_error": {
+          "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+        },
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-07T09:57:48Z"
+      }
+    ]
+  },
+  {
     "batch_date": "2026-08-31",
     "last_updated": "2026-08-31T17:16:06Z",
     "paper_count": 31,

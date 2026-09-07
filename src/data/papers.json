@@ -1,744 +1,716 @@
 [
   {
-    "id": "w35686",
-    "title": "Legislating Longevity: State Public Health Laws and Mortality in the Early Twentieth Century",
-    "title_cn": "Legislating Longevity: State Public Health Laws and Mortality in the Early Twentieth Century",
+    "id": "w35670",
+    "title": "w35670",
+    "title_cn": "w35670",
     "authors": [
-      "Martin H. Saavedra"
+      "Unknown authors"
     ],
-    "abstract": "State legislatures enacted numerous public-health laws during the twentieth century, most of which likely had negligible effects on mortality. Using data on the universe of state-level public-health laws and regulations, I test whether these laws, taken together, account for a meaningful decline in mortality. To address endogeneity, I instrument for public-health legislation using the legislative calendar. Both OLS and IV estimates indicate that public-health laws reduced mortality, whereas other laws and repeals of public-health laws did not. Legislatures were most effective at reducing deaths from waterborne and drainage-related diseases, half as effective for airborne communicable diseases, and one-fifth as effective for noncommunicable diseases. I use text analysis to classify the laws into twenty topics and find that laws targeting particular causes of death produced larger mortality declines for those causes. The universe of public-health laws can account for approximately two-thirds of the mortality decline during the study period.",
-    "abstract_cn": "State legislatures enacted numerous public-health laws during the twentieth century, most of which likely had negligible effects on mortality. Using data on the universe of state-level public-health laws and regulations, I test whether these laws, taken together, account for a meaningful decline in mortality. To address endogeneity, I instrument for public-health legislation using the legislative calendar. Both OLS and IV estimates indicate that public-health laws reduced mortality, whereas other laws and repeals of public-health laws did not. Legislatures were most effective at reducing deaths from waterborne and drainage-related diseases, half as effective for airborne communicable diseases, and one-fifth as effective for noncommunicable diseases. I use text analysis to classify the laws into twenty topics and find that laws targeting particular causes of death produced larger mortality declines for those causes. The universe of public-health laws can account for approximately two-thirds of the mortality decline during the study period.",
-    "url": "https://www.nber.org/papers/w35686",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35670",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35682",
-    "title": "Pollution Pricing in Equilibrium: Production, Reallocation, and Aggregate Impacts",
-    "title_cn": "Pollution Pricing in Equilibrium: Production, Reallocation, and Aggregate Impacts",
+    "id": "w35694",
+    "title": "w35694",
+    "title_cn": "w35694",
     "authors": [
-      "R. Andrew Butters",
-      "Jackson Dorsey",
-      "Ivan Rudik"
+      "Unknown authors"
     ],
-    "abstract": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adjustment margins: short-run input substitution, reallocation of output from dirty to cleaner firms, and long-run clean technology adoption. Applying it to the first 17 years of the European Union Emissions Trading System (EU-ETS), we find input substitution is rigid: firms cannot cut emissions in the short run without cutting output. Reallocation instead drives nearly all of the short-run aggregate emissions response, concentrated in sectors with heterogeneous emissions intensities, like power and cement, or with elastic demand, like refining. Clean technology adoption also responds causally to permit price shocks, reducing firms’ emissions intensity over the five years that follow. Doubling the permit price cuts aggregate emissions 23% in the short run and 31% in the longer run after induced clean technology adoption. In the short run, output falls by 4%, primarily because carbon costs pass from upstream polluting industries like electricity to downstream producers. In the long run, output falls just 2.5%, as clean technology adoption dampens these supply-chain impacts. Carbon pricing thus delivers substantial emissions reductions with moderate output effects, and much of the economic burden falls on downstream firms through higher upstream input costs.",
-    "abstract_cn": "How much does pricing pollution cut aggregate emissions, and at what cost? We develop a microfounded equilibrium model of firm production and abatement that can be estimated from standard firm financial and emissions data, without observing abatement effort directly. The model captures three adjustment margins: short-run input substitution, reallocation of output from dirty to cleaner firms, and long-run clean technology adoption. Applying it to the first 17 years of the European Union Emissions Trading System (EU-ETS), we find input substitution is rigid: firms cannot cut emissions in the short run without cutting output. Reallocation instead drives nearly all of the short-run aggregate emissions response, concentrated in sectors with heterogeneous emissions intensities, like power and cement, or with elastic demand, like refining. Clean technology adoption also responds causally to permit price shocks, reducing firms’ emissions intensity over the five years that follow. Doubling the permit price cuts aggregate emissions 23% in the short run and 31% in the longer run after induced clean technology adoption. In the short run, output falls by 4%, primarily because carbon costs pass from upstream polluting industries like electricity to downstream producers. In the long run, output falls just 2.5%, as clean technology adoption dampens these supply-chain impacts. Carbon pricing thus delivers substantial emissions reductions with moderate output effects, and much of the economic burden falls on downstream firms through higher upstream input costs.",
-    "url": "https://www.nber.org/papers/w35682",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35694",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35666",
-    "title": "Making Everyone’s Preferences Count: A Prospect Theory Approach to Valuing Health Improvements",
-    "title_cn": "Making Everyone’s Preferences Count: A Prospect Theory Approach to Valuing Health Improvements",
+    "id": "w35706",
+    "title": "w35706",
+    "title_cn": "w35706",
     "authors": [
-      "Karen Mulligan",
-      "Drishti Baid",
-      "Jason N. Doctor",
-      "Darius N. Lakdawalla"
+      "Unknown authors"
     ],
-    "abstract": "Health technology assessment bodies and policymakers have grappled with the issue of whose preferences – the general healthy population or the patient population – should be incorporated into traditional cost-effectiveness analysis. This debate arises because healthy individuals and patients often value the same health state differently, and cost-effectiveness will undervalue health-related quality of life (HRQoL) for individuals with chronic illness or disability because it cannot account for adaptation. Prospect theory (PT) provides a framework that permits adaptation since it assumes individuals evaluate outcomes relative to a reference point. We estimate utility over HRQoL in a PT framework in a nationally representative U.S. population and compare directly with utility estimates in an EU framework from the same population. Consistent with previous studies in the monetary and health domains, we find evidence of probability weighting bias and loss aversion over health. Using the PT utility estimates, we demonstrate how PT can be incorporated into healthcare value assessment and present the resulting implications for medical decision making.",
-    "abstract_cn": "Health technology assessment bodies and policymakers have grappled with the issue of whose preferences – the general healthy population or the patient population – should be incorporated into traditional cost-effectiveness analysis. This debate arises because healthy individuals and patients often value the same health state differently, and cost-effectiveness will undervalue health-related quality of life (HRQoL) for individuals with chronic illness or disability because it cannot account for adaptation. Prospect theory (PT) provides a framework that permits adaptation since it assumes individuals evaluate outcomes relative to a reference point. We estimate utility over HRQoL in a PT framework in a nationally representative U.S. population and compare directly with utility estimates in an EU framework from the same population. Consistent with previous studies in the monetary and health domains, we find evidence of probability weighting bias and loss aversion over health. Using the PT utility estimates, we demonstrate how PT can be incorporated into healthcare value assessment and present the resulting implications for medical decision making.",
-    "url": "https://www.nber.org/papers/w35666",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35706",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35676",
-    "title": "Firms as Electoral Monopsonies",
-    "title_cn": "Firms as Electoral Monopsonies",
+    "id": "w35710",
+    "title": "w35710",
+    "title_cn": "w35710",
     "authors": [
-      "Carlos Fernando Avenancio-León",
-      "Adelina Barbalau",
-      "Cyndi Hou",
-      "Alessio Piccolo"
+      "Unknown authors"
     ],
-    "abstract": "We study how dominant employers can act as *electoral monopsonies*, using local labor market power to shape political preferences and electoral outcomes. We first present original survey evidence showing that workers at major local employers are more likely to experience employer political communication and to report that their employers influence their voting behavior and career expectations. We then develop a model in which a dominant employer can affect voters’ preferences by shaping their expectations about how wages and employment depend on electoral outcomes. We distinguish a passive channel, through which workers internalize firms’ economic interests, from an active channel, through which dominant employers strategically influence these expectations. Under the active channel, labor market power translates into political power and can generate political failures by inducing voters to oppose policies they would otherwise support. The model also shows how electoral monopsonies can contribute to political polarization, constrain political platforms, and substitute for campaign spending. Using U.S. individual-level voting data and a shift-share design based on national industry concentration shocks and predetermined local employment shares, we show that greater electoral monopsony power increases Republican voter turnout. Counterfactual estimates imply that reducing electoral monopsony power could have narrowly changed the outcomes of the 2016 and 2024 presidential elections.",
-    "abstract_cn": "We study how dominant employers can act as *electoral monopsonies*, using local labor market power to shape political preferences and electoral outcomes. We first present original survey evidence showing that workers at major local employers are more likely to experience employer political communication and to report that their employers influence their voting behavior and career expectations. We then develop a model in which a dominant employer can affect voters’ preferences by shaping their expectations about how wages and employment depend on electoral outcomes. We distinguish a passive channel, through which workers internalize firms’ economic interests, from an active channel, through which dominant employers strategically influence these expectations. Under the active channel, labor market power translates into political power and can generate political failures by inducing voters to oppose policies they would otherwise support. The model also shows how electoral monopsonies can contribute to political polarization, constrain political platforms, and substitute for campaign spending. Using U.S. individual-level voting data and a shift-share design based on national industry concentration shocks and predetermined local employment shares, we show that greater electoral monopsony power increases Republican voter turnout. Counterfactual estimates imply that reducing electoral monopsony power could have narrowly changed the outcomes of the 2016 and 2024 presidential elections.",
-    "url": "https://www.nber.org/papers/w35676",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35710",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35672",
-    "title": "Explaining the Predictive Performance of Police in Cases of Domestic Abuse",
-    "title_cn": "Explaining the Predictive Performance of Police in Cases of Domestic Abuse",
+    "id": "w35699",
+    "title": "w35699",
+    "title_cn": "w35699",
     "authors": [
-      "Jeffrey Grogger",
-      "Andrew Jordan",
-      "Tom Kirchmaier"
+      "Unknown authors"
     ],
-    "abstract": "Police in England and Wales are asked to predict the likelihood of serious recidivism in domestic abuse cases, with little support beyond a flawed questionnaire. To analyze their decisions, we first develop methods to deal with a censoring problem that arises because the officer’s prediction may change the outcome she was attempting to predict. Even after adjusting for censoring, we find predictive performance to be low, even lower in some cases than what one would expect by chance. We next ask whether their predictions represent mistakes, and provide several types of confirmatory evidence. We ask how officers formulate their predictions, and we find evidence consistent with representativeness bias, overreaction, and categorization and selective attention. We find that higher-skill officers use information not captured by the questionnaire to improve their predictions, whereas lower-skill officers use such information in ways that reduce accuracy.",
-    "abstract_cn": "Police in England and Wales are asked to predict the likelihood of serious recidivism in domestic abuse cases, with little support beyond a flawed questionnaire. To analyze their decisions, we first develop methods to deal with a censoring problem that arises because the officer’s prediction may change the outcome she was attempting to predict. Even after adjusting for censoring, we find predictive performance to be low, even lower in some cases than what one would expect by chance. We next ask whether their predictions represent mistakes, and provide several types of confirmatory evidence. We ask how officers formulate their predictions, and we find evidence consistent with representativeness bias, overreaction, and categorization and selective attention. We find that higher-skill officers use information not captured by the questionnaire to improve their predictions, whereas lower-skill officers use such information in ways that reduce accuracy.",
-    "url": "https://www.nber.org/papers/w35672",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35699",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35663",
-    "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
-    "title_cn": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+    "id": "w35708",
+    "title": "w35708",
+    "title_cn": "w35708",
     "authors": [
-      "Pattaraphon Kenny Wongchamcharoen",
-      "Kris Gulati",
-      "Min Min Fong",
-      "Abhishek Nagaraj"
+      "Unknown authors"
     ],
-    "abstract": "Most LLM benchmarks rank models on their ability to automate work tasks. In practice, however, models are often used to assist other (human or LLM) agents. The question that drives model selection is therefore not only which model produces the best output, but which model most improves the work of another (weaker) agent. We introduce a unified framework that evaluates the capability of models to automate and augment another agent's performance. Across seven economically grounded real-world tasks, an assistant model writes assistance text for a standardized lower-capacity worker model, which produces the deliverable. In automation mode, the assistant produces the output directly. Outputs are scored through blind pairwise comparisons by an LLM judge panel with task-specific rubrics, replicated across ten runs. Rankings across the two regimes are only modestly correlated, and the automation winner loses augmentation on five of seven tasks. Assistance is not reliably positive. The unaided worker outranks every assisted condition on three tasks, and only one model's guidance beats no guidance on average. These results suggest that automation ability is an incomplete proxy for assistance quality, motivating benchmarks that evaluate models according to the roles they play in human-AI and multi-agent systems.",
-    "abstract_cn": "Most LLM benchmarks rank models on their ability to automate work tasks. In practice, however, models are often used to assist other (human or LLM) agents. The question that drives model selection is therefore not only which model produces the best output, but which model most improves the work of another (weaker) agent. We introduce a unified framework that evaluates the capability of models to automate and augment another agent's performance. Across seven economically grounded real-world tasks, an assistant model writes assistance text for a standardized lower-capacity worker model, which produces the deliverable. In automation mode, the assistant produces the output directly. Outputs are scored through blind pairwise comparisons by an LLM judge panel with task-specific rubrics, replicated across ten runs. Rankings across the two regimes are only modestly correlated, and the automation winner loses augmentation on five of seven tasks. Assistance is not reliably positive. The unaided worker outranks every assisted condition on three tasks, and only one model's guidance beats no guidance on average. These results suggest that automation ability is an incomplete proxy for assistance quality, motivating benchmarks that evaluate models according to the roles they play in human-AI and multi-agent systems.",
-    "url": "https://www.nber.org/papers/w35663",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35708",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35661",
-    "title": "Tariff-Dispersion Shocks: The Mean is the Variance",
-    "title_cn": "Tariff-Dispersion Shocks: The Mean is the Variance",
+    "id": "w35697",
+    "title": "w35697",
+    "title_cn": "w35697",
     "authors": [
-      "Stephanie Schmitt-Grohé",
-      "Martín Uribe"
+      "Unknown authors"
     ],
-    "abstract": "This paper studies the joint behavior over time of the mean and dispersion of U.S. import tariff rates across goods at the HTS 6-digit level, as well as the macroeconomic consequences of the shocks that drive these two moments. We document that the cross-sectional mean and the cross-sectional dispersion of import tariffs move closely together over time. Using a state-space model, we find that both are driven primarily by common shocks, while mean- and dispersion-specific tariff shocks play a negligible role. Thus, effectively, there are no separate mean-tariff shocks or tariff-dispersion shocks; there are only mean-dispersion tariff shocks. These common shocks account for a sizable share of movements in imports and the trade balance but only a small fraction of movements in output. A positive transitory mean-dispersion tariff shock reduces the import-to-output ratio and improves the trade-balance-to-output ratio; a positive permanent mean-dispersion tariff shock also reduces the import-to-output ratio but has a muted effect on the trade-balance-to-output ratio. Positive transitory mean-dispersion tariff shocks are expansionary, whereas positive permanent mean-dispersion tariff shocks are contractionary in the short run and expansionary in the medium run.",
-    "abstract_cn": "This paper studies the joint behavior over time of the mean and dispersion of U.S. import tariff rates across goods at the HTS 6-digit level, as well as the macroeconomic consequences of the shocks that drive these two moments. We document that the cross-sectional mean and the cross-sectional dispersion of import tariffs move closely together over time. Using a state-space model, we find that both are driven primarily by common shocks, while mean- and dispersion-specific tariff shocks play a negligible role. Thus, effectively, there are no separate mean-tariff shocks or tariff-dispersion shocks; there are only mean-dispersion tariff shocks. These common shocks account for a sizable share of movements in imports and the trade balance but only a small fraction of movements in output. A positive transitory mean-dispersion tariff shock reduces the import-to-output ratio and improves the trade-balance-to-output ratio; a positive permanent mean-dispersion tariff shock also reduces the import-to-output ratio but has a muted effect on the trade-balance-to-output ratio. Positive transitory mean-dispersion tariff shocks are expansionary, whereas positive permanent mean-dispersion tariff shocks are contractionary in the short run and expansionary in the medium run.",
-    "url": "https://www.nber.org/papers/w35661",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35697",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35678",
-    "title": "Smart Contracting in Network Markets",
-    "title_cn": "Smart Contracting in Network Markets",
+    "id": "w35719",
+    "title": "w35719",
+    "title_cn": "w35719",
     "authors": [
-      "Darrell Duffie",
-      "Chaojun Wang"
+      "Unknown authors"
     ],
-    "abstract": "With complete-information bilateral bargaining in network settings, holdup is eliminated when contracts across the network are agreed atomically (all or none) via a smart contract. Applications include over-the-counter asset trading, third-party-financed purchase agreements, and land assembly. Under a novel extensive-form bargaining protocol, a firm can give a “greenlight” to the terms of a contract proposed to that firm, and the protocol automatically converts those terms into a binding contract if the terms proposed to all other firms are likewise given greenlights. In any Perfect Bayesian Equilibrium with Markov strategies, firms immediately agree on socially efficient contracts.",
-    "abstract_cn": "With complete-information bilateral bargaining in network settings, holdup is eliminated when contracts across the network are agreed atomically (all or none) via a smart contract. Applications include over-the-counter asset trading, third-party-financed purchase agreements, and land assembly. Under a novel extensive-form bargaining protocol, a firm can give a “greenlight” to the terms of a contract proposed to that firm, and the protocol automatically converts those terms into a binding contract if the terms proposed to all other firms are likewise given greenlights. In any Perfect Bayesian Equilibrium with Markov strategies, firms immediately agree on socially efficient contracts.",
-    "url": "https://www.nber.org/papers/w35678",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35719",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35674",
-    "title": "Can We Build More Effective Place-Based Policies? Theory and Evidence",
-    "title_cn": "Can We Build More Effective Place-Based Policies? Theory and Evidence",
+    "id": "w35722",
+    "title": "w35722",
+    "title_cn": "w35722",
     "authors": [
-      "Matthew Freedman",
-      "David Neumark"
+      "Unknown authors"
     ],
-    "abstract": "Amid renewed policy interest, the academic literature on place-based programs has expanded dramatically in recent years. In this essay, we review recent theoretical and empirical work in an effort to assess when and why place-based job creation policies succeed or fail. Drawing on theory, we describe key dimensions on which place-based programs vary and discuss evidence on the consequences of different design choices. We conclude with several lessons for the next generation of place-based programs.",
-    "abstract_cn": "Amid renewed policy interest, the academic literature on place-based programs has expanded dramatically in recent years. In this essay, we review recent theoretical and empirical work in an effort to assess when and why place-based job creation policies succeed or fail. Drawing on theory, we describe key dimensions on which place-based programs vary and discuss evidence on the consequences of different design choices. We conclude with several lessons for the next generation of place-based programs.",
-    "url": "https://www.nber.org/papers/w35674",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35722",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35689",
-    "title": "Artificial Intelligence and Political Advice",
-    "title_cn": "Artificial Intelligence and Political Advice",
+    "id": "w35715",
+    "title": "w35715",
+    "title_cn": "w35715",
     "authors": [
-      "Georgy Egorov",
-      "Konstantin Sonin"
+      "Unknown authors"
     ],
-    "abstract": "Artificial intelligence is increasingly used for political advice. We study an AI that is better informed about a payoff-relevant state and cares both about accuracy and about the perceived welfare of the individual it advises. The AI then has an incentive to tilt advice toward what the individual would like to believe, altering both the political content and the informativeness of its messages. Sophisticated individuals anticipate this distortion and filter out its predictable political component, yet still learn less because the AI makes its messages less responsive to the state. Individuals who underestimate the incentive instead mistake political accommodation for information, allowing political preferences to distort factual beliefs and generate polarization and radicalization. The model also shows that better-informed individuals receive more informative and less politically tilted advice, while greater sophistication can improve interpretation yet worsen communication itself. Contrary to the familiar echo-chamber intuition, political distortion is mitigated when political preferences and prior beliefs coincide and is most consequential when they diverge. We show how independently varying individuals’ stated preferences and prior beliefs can recover the AI’s responsiveness to the state even when the underlying state cannot be manipulated.",
-    "abstract_cn": "Artificial intelligence is increasingly used for political advice. We study an AI that is better informed about a payoff-relevant state and cares both about accuracy and about the perceived welfare of the individual it advises. The AI then has an incentive to tilt advice toward what the individual would like to believe, altering both the political content and the informativeness of its messages. Sophisticated individuals anticipate this distortion and filter out its predictable political component, yet still learn less because the AI makes its messages less responsive to the state. Individuals who underestimate the incentive instead mistake political accommodation for information, allowing political preferences to distort factual beliefs and generate polarization and radicalization. The model also shows that better-informed individuals receive more informative and less politically tilted advice, while greater sophistication can improve interpretation yet worsen communication itself. Contrary to the familiar echo-chamber intuition, political distortion is mitigated when political preferences and prior beliefs coincide and is most consequential when they diverge. We show how independently varying individuals’ stated preferences and prior beliefs can recover the AI’s responsiveness to the state even when the underlying state cannot be manipulated.",
-    "url": "https://www.nber.org/papers/w35689",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35715",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35681",
-    "title": "Spillover Effects of Transfer Programs",
-    "title_cn": "Spillover Effects of Transfer Programs",
+    "id": "w35724",
+    "title": "w35724",
+    "title_cn": "w35724",
     "authors": [
-      "Travis Baseler",
-      "Jules Gazeaud",
-      "Erik Snowberg"
+      "Unknown authors"
     ],
-    "abstract": "We derive four facts from experiments on the spillover effects of cash and in-kind transfer programs onto non-recipients: (1) average spillovers on consumption and asset value are negligible; (2) negative psychological spillovers emerge in the longer term among households randomly excluded from transfers by within-village lotteries; (3) these spillovers are concentrated in consumption-poor households; and (4) they do not appear when the selection of transfer recipients is eligibility-based. These findings are consistent with household preferences against within-village randomization of transfers, and point to additional benefits of cluster-level randomized designs over household-level ones.",
-    "abstract_cn": "We derive four facts from experiments on the spillover effects of cash and in-kind transfer programs onto non-recipients: (1) average spillovers on consumption and asset value are negligible; (2) negative psychological spillovers emerge in the longer term among households randomly excluded from transfers by within-village lotteries; (3) these spillovers are concentrated in consumption-poor households; and (4) they do not appear when the selection of transfer recipients is eligibility-based. These findings are consistent with household preferences against within-village randomization of transfers, and point to additional benefits of cluster-level randomized designs over household-level ones.",
-    "url": "https://www.nber.org/papers/w35681",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35724",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35665",
-    "title": "Democratizing Private Markets: Equilibrium Predictions",
-    "title_cn": "Democratizing Private Markets: Equilibrium Predictions",
+    "id": "w35714",
+    "title": "w35714",
+    "title_cn": "w35714",
     "authors": [
-      "Lubos Pastor",
-      "Robert F. Stambaugh",
-      "Lucian A. Taylor"
+      "Unknown authors"
     ],
-    "abstract": "We study how opening private markets to retail investors affects investors and firms. Calibrating a production-based asset-pricing model, we find that democratization raises retail investors' welfare, but barely. Retail investors benefit little from democratization even if they face no extra cost or other disadvantage relative to institutional investors. The private market is simply too small for improved risk sharing to matter much. Whether or not private-market retail investing is costly, democratization substantially reshapes private firms' ownership and materially reduces their cost of capital, leading them to grow. Private equity earns a positive CAPM alpha, which shrinks after democratization.",
-    "abstract_cn": "We study how opening private markets to retail investors affects investors and firms. Calibrating a production-based asset-pricing model, we find that democratization raises retail investors' welfare, but barely. Retail investors benefit little from democratization even if they face no extra cost or other disadvantage relative to institutional investors. The private market is simply too small for improved risk sharing to matter much. Whether or not private-market retail investing is costly, democratization substantially reshapes private firms' ownership and materially reduces their cost of capital, leading them to grow. Private equity earns a positive CAPM alpha, which shrinks after democratization.",
-    "url": "https://www.nber.org/papers/w35665",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35714",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35679",
-    "title": "An Efficient Liquidity Savings Mechanism",
-    "title_cn": "An Efficient Liquidity Savings Mechanism",
+    "id": "w35717",
+    "title": "w35717",
+    "title_cn": "w35717",
     "authors": [
-      "Darrell Duffie",
-      "Srisht F. Singh",
-      "Chaojun Wang"
+      "Unknown authors"
     ],
-    "abstract": "Liquidity savings mechanisms (LSMs) reduce the quantity of reserve balances that banks need to process payments. An LSM can mitigate coordination failures in which banks delay their payments to each other because they expect that other banks will do the same. We provide the design and properties of a maximally efficient new form of LSM.",
-    "abstract_cn": "Liquidity savings mechanisms (LSMs) reduce the quantity of reserve balances that banks need to process payments. An LSM can mitigate coordination failures in which banks delay their payments to each other because they expect that other banks will do the same. We provide the design and properties of a maximally efficient new form of LSM.",
-    "url": "https://www.nber.org/papers/w35679",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35717",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35671",
-    "title": "Kumon Up: Private Tutoring Centers and Student Achievement",
-    "title_cn": "Kumon Up: Private Tutoring Centers and Student Achievement",
+    "id": "w35693",
+    "title": "w35693",
+    "title_cn": "w35693",
     "authors": [
-      "Joshua Goodman",
-      "Samuel Nitkin"
+      "Unknown authors"
     ],
-    "abstract": "Private tutoring chains like Kumon and Sylvan have expanded rapidly in recent decades. Combining data on business locations, household spending, and district test scores, we study who uses these centers and how they affect academic skills. Nearly half of tutoring users are from the top income decile, with Asian and White households five and two times as likely to purchase tutoring as Black and Hispanic households. A staggered differences-in-differences design shows the opening of a district's first chain center raises district-wide math and reading scores by 0.02-0.03 standard deviations, at a much lower cost than public spending typically producing similar gains. Math effects are largest for White and Asian students, so that center entry widens racial achievement gaps, though less so in more racially integrated districts. These private investments help their users, deepen educational inequality, and shape outcomes by which state accountability systems and families judge schools.",
-    "abstract_cn": "Private tutoring chains like Kumon and Sylvan have expanded rapidly in recent decades. Combining data on business locations, household spending, and district test scores, we study who uses these centers and how they affect academic skills. Nearly half of tutoring users are from the top income decile, with Asian and White households five and two times as likely to purchase tutoring as Black and Hispanic households. A staggered differences-in-differences design shows the opening of a district's first chain center raises district-wide math and reading scores by 0.02-0.03 standard deviations, at a much lower cost than public spending typically producing similar gains. Math effects are largest for White and Asian students, so that center entry widens racial achievement gaps, though less so in more racially integrated districts. These private investments help their users, deepen educational inequality, and shape outcomes by which state accountability systems and families judge schools.",
-    "url": "https://www.nber.org/papers/w35671",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35693",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35669",
-    "title": "Fool's Gold? How the USD lost its Shine",
-    "title_cn": "Fool's Gold? How the USD lost its Shine",
+    "id": "w35723",
+    "title": "w35723",
+    "title_cn": "w35723",
     "authors": [
-      "Kai Arvai",
-      "Nuno Coimbra",
-      "Marco Pinchetti"
+      "Unknown authors"
     ],
-    "abstract": "This paper investigates the determinants of international investors’ portfolio choices between gold and sovereign bonds in an environment shaped by economic and geopolitical shocks. We develop an endogenous portfolio choice model where reserve safety has a political dimension — sovereign bonds issued by the dominant reserve country are more liquid but exposed to the issuer’s sanctions authority, while gold offers sanctions protection at the cost of lower liquidity. Our model implies that US convenience yields fall during periods of high sanction risk, as safe-asset demand fragments along geopolitical lines. Empirically, periods of elevated geopolitical risk coincide with higher gold prices and 10-year Treasury yields. In such periods, the average composition of official reserves shifts toward gold, with countries less aligned with the US increasing their holdings to a greater extent.",
-    "abstract_cn": "This paper investigates the determinants of international investors’ portfolio choices between gold and sovereign bonds in an environment shaped by economic and geopolitical shocks. We develop an endogenous portfolio choice model where reserve safety has a political dimension — sovereign bonds issued by the dominant reserve country are more liquid but exposed to the issuer’s sanctions authority, while gold offers sanctions protection at the cost of lower liquidity. Our model implies that US convenience yields fall during periods of high sanction risk, as safe-asset demand fragments along geopolitical lines. Empirically, periods of elevated geopolitical risk coincide with higher gold prices and 10-year Treasury yields. In such periods, the average composition of official reserves shifts toward gold, with countries less aligned with the US increasing their holdings to a greater extent.",
-    "url": "https://www.nber.org/papers/w35669",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35723",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35684",
-    "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
-    "title_cn": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital",
+    "id": "w35718",
+    "title": "w35718",
+    "title_cn": "w35718",
     "authors": [
-      "Tania Babina",
-      "Alex X. He",
-      "Renhao Jiang"
+      "Unknown authors"
     ],
-    "abstract": "Using a new firm-level measure of AI investment based on AI-skilled employment—spanning machine learning through generative and agentic AI—we show that AI investments are associated with productivity growth in recent years, but not over the previous decade. We trace the productivity gains to the accumulation of organization capital that AI helps create: durable firm-specific knowledge acquired through learning-by-doing that enables more efficient production. We build a novel measure of organization capital based on workers’ job descriptions and document that productivity gains are driven by AI-skilled jobs that build organization capital. Overall, our findings suggest that AI investment generates productivity growth by creating organization capital.",
-    "abstract_cn": "Using a new firm-level measure of AI investment based on AI-skilled employment—spanning machine learning through generative and agentic AI—we show that AI investments are associated with productivity growth in recent years, but not over the previous decade. We trace the productivity gains to the accumulation of organization capital that AI helps create: durable firm-specific knowledge acquired through learning-by-doing that enables more efficient production. We build a novel measure of organization capital based on workers’ job descriptions and document that productivity gains are driven by AI-skilled jobs that build organization capital. Overall, our findings suggest that AI investment generates productivity growth by creating organization capital.",
-    "url": "https://www.nber.org/papers/w35684",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35718",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35660",
-    "title": "Fear as a Campaign Tool: Evidence from the 2014 U.S. Ebola Scare",
-    "title_cn": "Fear as a Campaign Tool: Evidence from the 2014 U.S. Ebola Scare",
+    "id": "w35709",
+    "title": "w35709",
+    "title_cn": "w35709",
     "authors": [
-      "Filipe R. Campante",
-      "Emilio Depetris-Chauvin",
-      "Ruben Durante"
+      "Unknown authors"
     ],
-    "abstract": "We study the supply of political communication highlighting perceived threats, using the 2014 Ebola scare as a natural experiment. Analyzing Twitter posts and congressional newsletters from US House and Senate candidates, we find Republicans increased Ebola-related communication, emphasizing negative sentiment and links to immigration. This response was strongest in safe Republican seats, consistent with base signaling. The supply side was active, not reactive: the Republican response did not vary with proximity to diagnosed cases despite concentrated voter anxiety, politician tweets predicted public Ebola activity but not vice-versa, and more intensive messaging correlated with better electoral outcomes, controlling for local conditions.",
-    "abstract_cn": "We study the supply of political communication highlighting perceived threats, using the 2014 Ebola scare as a natural experiment. Analyzing Twitter posts and congressional newsletters from US House and Senate candidates, we find Republicans increased Ebola-related communication, emphasizing negative sentiment and links to immigration. This response was strongest in safe Republican seats, consistent with base signaling. The supply side was active, not reactive: the Republican response did not vary with proximity to diagnosed cases despite concentrated voter anxiety, politician tweets predicted public Ebola activity but not vice-versa, and more intensive messaging correlated with better electoral outcomes, controlling for local conditions.",
-    "url": "https://www.nber.org/papers/w35660",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35709",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35691",
-    "title": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates",
-    "title_cn": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates",
+    "id": "w35704",
+    "title": "w35704",
+    "title_cn": "w35704",
     "authors": [
-      "Luigi Bocola",
-      "Gastón Chaumont",
-      "Alessandro Dovis",
-      "Rishabh Kirpalani"
+      "Unknown authors"
     ],
-    "abstract": "We develop a model for fiscal and monetary policy determination in the tradition of Sargent and Wallace (1981). Ex-ante, the government has incentives to delegate monetary policy to a central bank with an inflation targeting mandate. Ex-post, however, the government faces temptations to revoke the mandate to generate seigniorage revenues. The likelihood that the government will adhere to its commitment depends on shocks to fiscal fundamentals and the costs of reneging on the mandate. The economy endogenously transitions between a “monetary-dominant” regime where monetary policy adheres to its commitment and a “fiscal-dominant” regime where the fiscal authority interferes with monetary policy. These two regimes sharply differ in their implications for the comovement of inflation and debt-to-GDP ratios. We use the model as a measurement device to interpret the fiscal and monetary history in Colombia, Chile, and the U.S.",
-    "abstract_cn": "We develop a model for fiscal and monetary policy determination in the tradition of Sargent and Wallace (1981). Ex-ante, the government has incentives to delegate monetary policy to a central bank with an inflation targeting mandate. Ex-post, however, the government faces temptations to revoke the mandate to generate seigniorage revenues. The likelihood that the government will adhere to its commitment depends on shocks to fiscal fundamentals and the costs of reneging on the mandate. The economy endogenously transitions between a “monetary-dominant” regime where monetary policy adheres to its commitment and a “fiscal-dominant” regime where the fiscal authority interferes with monetary policy. These two regimes sharply differ in their implications for the comovement of inflation and debt-to-GDP ratios. We use the model as a measurement device to interpret the fiscal and monetary history in Colombia, Chile, and the U.S.",
-    "url": "https://www.nber.org/papers/w35691",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35704",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35687",
-    "title": "The Safe-Debt Laffer Curve",
-    "title_cn": "The Safe-Debt Laffer Curve",
+    "id": "w35713",
+    "title": "w35713",
+    "title_cn": "w35713",
     "authors": [
-      "Ricardo J. Caballero"
+      "Unknown authors"
     ],
-    "abstract": "Safe public debt can become a drag on aggregate demand even while the sovereign remains solvent. Its safety requires rollover support, market-making, and balance-sheet capacity. As these resources become scarce, the marginal cost of producing safe Treasury claims rises. The resulting fiscal adjustment reduces aggregate expenditure and can eventually outweigh the expansionary effect of increasing the supply of safe assets. Debt’s stationary contribution to aggregate demand then peaks, and the equilibrium safe rate reaches its maximum at the same debt stock. Beyond this point, further issuance lowers aggregate demand and the safe rate even though the debt remains safe. Empirically, I combine cash- Treasury and real-duration premia with estimates of how additional private supply reprices the outstanding Treasury stock. Over the past decade, the benchmark marginal cost more than doubled, rising from about 80 basis points in 2015Q1 to 187 basis points in 2026Q1. Using a 330-basis-point benchmark for the rate-equivalent wealth benefit, the safe-debt margin—the difference between this benefit and marginal cost—fell from about 250 to 143 basis points. At the CBO’s 2026 borrowing pace, the remaining safe-debt margin shrinks by about 18 basis points in one year, with further erosion accelerating as debt rises relative to financial capacity.",
-    "abstract_cn": "Safe public debt can become a drag on aggregate demand even while the sovereign remains solvent. Its safety requires rollover support, market-making, and balance-sheet capacity. As these resources become scarce, the marginal cost of producing safe Treasury claims rises. The resulting fiscal adjustment reduces aggregate expenditure and can eventually outweigh the expansionary effect of increasing the supply of safe assets. Debt’s stationary contribution to aggregate demand then peaks, and the equilibrium safe rate reaches its maximum at the same debt stock. Beyond this point, further issuance lowers aggregate demand and the safe rate even though the debt remains safe. Empirically, I combine cash- Treasury and real-duration premia with estimates of how additional private supply reprices the outstanding Treasury stock. Over the past decade, the benchmark marginal cost more than doubled, rising from about 80 basis points in 2015Q1 to 187 basis points in 2026Q1. Using a 330-basis-point benchmark for the rate-equivalent wealth benefit, the safe-debt margin—the difference between this benefit and marginal cost—fell from about 250 to 143 basis points. At the CBO’s 2026 borrowing pace, the remaining safe-debt margin shrinks by about 18 basis points in one year, with further erosion accelerating as debt rises relative to financial capacity.",
-    "url": "https://www.nber.org/papers/w35687",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35713",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35683",
-    "title": "Can Private Markets Fill the Gap? Graduate Student Lending After the Elimination of GradPLUS",
-    "title_cn": "Can Private Markets Fill the Gap? Graduate Student Lending After the Elimination of GradPLUS",
+    "id": "w35705",
+    "title": "w35705",
+    "title_cn": "w35705",
     "authors": [
-      "Sarah Turner"
+      "Unknown authors"
     ],
-    "abstract": "The One Big Beautiful Bill Act (OBBBA, P.L. 119-21) eliminates the federal GradPLUS loan program for new borrowers effective July 1, 2026, replacing nearly two decades of uncapped federal graduate lending with annual limits of $20,500 ($50,000 for eleven professional fields) and new aggregate caps. The resulting financing gap — approximately $8 billion annually across roughly 370,000 affected borrowers — raises the question of whether and how private capital will substitute for displaced federal lending. This paper analyzes the economics of that transition. Before GradPLUS, private lenders filled the gap between federal Stafford limits and graduate program costs, with nonfederal graduate originations reaching $5.3 billion (constant 2024 dollars) by 2005–06. After GradPLUS extended federal borrowing to the full cost of attendance in 2006, private lending collapsed — falling more than 70 percent within a few years and never recovering. The federal program provided not only credit but, through income-driven repayment and Public Service Loan Forgiveness, insurance against earnings risk that no private product could replicate. The same features that crowded out private lending generated compounding distortions: borrowing untethered to repayment capacity, upward pressure on tuition, and a reversal from projected federal surpluses to losses exceeding thirty cents per GradPLUS dollar lent. Linking institution-by-field federal borrowing data to institution-by-field earnings outcomes, I examine the relationship between historical borrowing above the new OBBBA caps and post-completion earnings across programs. I find substantial variation in the extent to which different degree programs would likely support above-cap borrowing from private lenders or other sources. In fields such as law and MBA, earnings rise steeply with borrowing exposure, providing a basis for program-level risk pricing; in fields such as social work, counseling psychology, and physical therapy, the earnings-to-borrowing gradient is essentially flat. I also examine features of the private capital market and institutional responses shaping the transition — including capital constraints on scaling private lending, legal barriers to using program-level outcomes data in underwriting, and the emerging role of institutions as intermediaries between lenders and students.",
-    "abstract_cn": "The One Big Beautiful Bill Act (OBBBA, P.L. 119-21) eliminates the federal GradPLUS loan program for new borrowers effective July 1, 2026, replacing nearly two decades of uncapped federal graduate lending with annual limits of $20,500 ($50,000 for eleven professional fields) and new aggregate caps. The resulting financing gap — approximately $8 billion annually across roughly 370,000 affected borrowers — raises the question of whether and how private capital will substitute for displaced federal lending. This paper analyzes the economics of that transition. Before GradPLUS, private lenders filled the gap between federal Stafford limits and graduate program costs, with nonfederal graduate originations reaching $5.3 billion (constant 2024 dollars) by 2005–06. After GradPLUS extended federal borrowing to the full cost of attendance in 2006, private lending collapsed — falling more than 70 percent within a few years and never recovering. The federal program provided not only credit but, through income-driven repayment and Public Service Loan Forgiveness, insurance against earnings risk that no private product could replicate. The same features that crowded out private lending generated compounding distortions: borrowing untethered to repayment capacity, upward pressure on tuition, and a reversal from projected federal surpluses to losses exceeding thirty cents per GradPLUS dollar lent. Linking institution-by-field federal borrowing data to institution-by-field earnings outcomes, I examine the relationship between historical borrowing above the new OBBBA caps and post-completion earnings across programs. I find substantial variation in the extent to which different degree programs would likely support above-cap borrowing from private lenders or other sources. In fields such as law and MBA, earnings rise steeply with borrowing exposure, providing a basis for program-level risk pricing; in fields such as social work, counseling psychology, and physical therapy, the earnings-to-borrowing gradient is essentially flat. I also examine features of the private capital market and institutional responses shaping the transition — including capital constraints on scaling private lending, legal barriers to using program-level outcomes data in underwriting, and the emerging role of institutions as intermediaries between lenders and students.",
-    "url": "https://www.nber.org/papers/w35683",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35705",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35673",
-    "title": "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s",
-    "title_cn": "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s",
+    "id": "w35698",
+    "title": "w35698",
+    "title_cn": "w35698",
     "authors": [
-      "Drishan Banerjee",
-      "Galina Hale",
-      "Harrison Shieh"
+      "Unknown authors"
     ],
-    "abstract": "Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies. Yet as of 2026 no global recession has followed. We establish three stylized facts distinguishing the 1980s from the 2020s, beyond the shift to flexible exchange rates: monetary policy effectiveness, fiscal space, and external vulnerabilities. We rationalize them in a Mundell-Fleming framework with a fiscal space constraint, which predicts a central role for fiscal space in transmitting foreign currency risk-free rate increases. Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.",
-    "abstract_cn": "Post-pandemic inflation raised fears that U.S. monetary tightening would trigger a repeat of the 1982 sudden stop in capital flows to emerging economies. Yet as of 2026 no global recession has followed. We establish three stylized facts distinguishing the 1980s from the 2020s, beyond the shift to flexible exchange rates: monetary policy effectiveness, fiscal space, and external vulnerabilities. We rationalize them in a Mundell-Fleming framework with a fiscal space constraint, which predicts a central role for fiscal space in transmitting foreign currency risk-free rate increases. Cross-country evidence confirms that fiscal space shapes economic performance post-tightening.",
-    "url": "https://www.nber.org/papers/w35673",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35698",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35677",
-    "title": "What Work Does Generative AI Do?",
-    "title_cn": "What Work Does Generative AI Do?",
+    "id": "w35707",
+    "title": "w35707",
+    "title_cn": "w35707",
     "authors": [
-      "Alexander Bick",
-      "Adam Blandin",
-      "David J. Deming",
-      "Tyler R. Schumacher"
+      "Unknown authors"
     ],
-    "abstract": "We measure how workers use genAI for their jobs in a nationally representative survey linking genAI adoption to detailed occupations and tasks. Our data provide the first task-level genAI adoption indexes, which we show can inform analyses of genAI’s labor market impact. Exposure scores explain some, but far from all, of the variation in adoption across occupations and tasks. We also distinguish our indexes from measures based on genAI platform chat logs, which differ conceptually and tend to over-classify chats into generic activities spanning many occupations. Finally, we highlight that current adoption is widespread but shallow: genAI is used across many occupations and tasks, yet within most of them, fewer than half of workers adopt. This indicates substantial variation among workers doing very similar work, suggesting that understanding who adopts may matter as much as understanding which tasks genAI assists.",
-    "abstract_cn": "We measure how workers use genAI for their jobs in a nationally representative survey linking genAI adoption to detailed occupations and tasks. Our data provide the first task-level genAI adoption indexes, which we show can inform analyses of genAI’s labor market impact. Exposure scores explain some, but far from all, of the variation in adoption across occupations and tasks. We also distinguish our indexes from measures based on genAI platform chat logs, which differ conceptually and tend to over-classify chats into generic activities spanning many occupations. Finally, we highlight that current adoption is widespread but shallow: genAI is used across many occupations and tasks, yet within most of them, fewer than half of workers adopt. This indicates substantial variation among workers doing very similar work, suggesting that understanding who adopts may matter as much as understanding which tasks genAI assists.",
-    "url": "https://www.nber.org/papers/w35677",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35707",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35688",
-    "title": "Designing AI-Augmented Peer Review",
-    "title_cn": "Designing AI-Augmented Peer Review",
+    "id": "w35695",
+    "title": "w35695",
+    "title_cn": "w35695",
     "authors": [
-      "Joshua S. Gans"
+      "Unknown authors"
     ],
-    "abstract": "AI-generated assessments of manuscripts could improve the quality of peer review, but sharing them with reviewers might decrease the information that editors possess about the manuscript. Human peer reviews add value because reviewers add what the AI assessment reveals. When both reviewers see the same assessment and make similar errors, they can replicate each other’s mistakes, coincidentally investigate related areas, and share the same blind spots. If AI assessment improves the quality of reviewers’ work while they investigate the manuscript, giving the report to only one reviewer can better combine AI assistance with independent, human investigation. If some reviewers already use AI-generated assessments on their own, changing the journal policy to allow sharing the assessment can improve peer review if the change takes some of the burden of investigation off private tools that make similar errors, though giving the assessment to only one reviewer may still outperform giving it to both or neither. Even a report delivered after the reviews are submitted can still shift what reviewers investigate if they know in advance which issues it will check. Journal policy will depend on the AI’s effects on reviewer effort and the questions they investigate, whether reviewers are willing and able to comply with the policy, the monitoring costs, and the journal’s ability to protect the confidentiality of reviewer identities and emails. Journals can evaluate competing policies without knowing the true quality of the manuscripts they review by randomly varying who receives the assessment and then comparing reviewer disagreement across different levels of report sharing.",
-    "abstract_cn": "AI-generated assessments of manuscripts could improve the quality of peer review, but sharing them with reviewers might decrease the information that editors possess about the manuscript. Human peer reviews add value because reviewers add what the AI assessment reveals. When both reviewers see the same assessment and make similar errors, they can replicate each other’s mistakes, coincidentally investigate related areas, and share the same blind spots. If AI assessment improves the quality of reviewers’ work while they investigate the manuscript, giving the report to only one reviewer can better combine AI assistance with independent, human investigation. If some reviewers already use AI-generated assessments on their own, changing the journal policy to allow sharing the assessment can improve peer review if the change takes some of the burden of investigation off private tools that make similar errors, though giving the assessment to only one reviewer may still outperform giving it to both or neither. Even a report delivered after the reviews are submitted can still shift what reviewers investigate if they know in advance which issues it will check. Journal policy will depend on the AI’s effects on reviewer effort and the questions they investigate, whether reviewers are willing and able to comply with the policy, the monitoring costs, and the journal’s ability to protect the confidentiality of reviewer identities and emails. Journals can evaluate competing policies without knowing the true quality of the manuscripts they review by randomly varying who receives the assessment and then comparing reviewer disagreement across different levels of report sharing.",
-    "url": "https://www.nber.org/papers/w35688",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35695",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35675",
-    "title": "The Distribution and Consequences of Natural Disasters: Evidence from U.S. Wildfire Victims",
-    "title_cn": "The Distribution and Consequences of Natural Disasters: Evidence from U.S. Wildfire Victims",
+    "id": "w35696",
+    "title": "w35696",
+    "title_cn": "w35696",
     "authors": [
-      "Patrick Baylis",
-      "Judson Boomhower",
-      "Jonathan M. Colmer",
-      "John L. Voorheis"
+      "Unknown authors"
     ],
-    "abstract": "The economic burden of natural disasters is shaped by who is exposed, who experiences losses, how those losses alter individual economic trajectories, and how affected communities evolve in the aftermath. We link property-level damage data from over 100 U.S. wildfires to administrative tax and Census data to understand individual-level relationships between disaster damage and economic outcomes. Residents of burned areas are wealthier than the U.S. population on average, but within these wildfire perimeters the likelihood that a home burns is negatively correlated with pre-fire income. Home destruction imposes costs beyond rebuilding the property: occupants of destroyed homes experience lower income for three years post-fire, producing cumulative income losses equal to 26 percent of pre-fire annual income. We do not detect income or employment effects for residents without direct property damage. Community recovery is slow and accompanied by changes in composition. Four years after a fire, half of destroyed addresses remain unoccupied and reoccupied addresses house residents with substantially higher incomes than before.",
-    "abstract_cn": "The economic burden of natural disasters is shaped by who is exposed, who experiences losses, how those losses alter individual economic trajectories, and how affected communities evolve in the aftermath. We link property-level damage data from over 100 U.S. wildfires to administrative tax and Census data to understand individual-level relationships between disaster damage and economic outcomes. Residents of burned areas are wealthier than the U.S. population on average, but within these wildfire perimeters the likelihood that a home burns is negatively correlated with pre-fire income. Home destruction imposes costs beyond rebuilding the property: occupants of destroyed homes experience lower income for three years post-fire, producing cumulative income losses equal to 26 percent of pre-fire annual income. We do not detect income or employment effects for residents without direct property damage. Community recovery is slow and accompanied by changes in composition. Four years after a fire, half of destroyed addresses remain unoccupied and reoccupied addresses house residents with substantially higher incomes than before.",
-    "url": "https://www.nber.org/papers/w35675",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35696",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35680",
-    "title": "The Anatomy and Evolution of Survey Error",
-    "title_cn": "The Anatomy and Evolution of Survey Error",
+    "id": "w35712",
+    "title": "w35712",
+    "title_cn": "w35712",
     "authors": [
-      "Bruce D. Meyer",
-      "Nikolas Mittag",
-      "Derek Wu",
-      "Anthony Tatarka",
-      "Patrick Langetieg"
+      "Unknown authors"
     ],
-    "abstract": "Surveys provide much of what we know in social science and are often the only source of information on private behaviors, attitudes and expectations. Strands of the literature document four broad error sources: survey coverage, unit non-response, item non-response, and measurement error. Yet the absence of comparable error measures across sources and over time has left the relative severity of error sources difficult to assess, limiting efforts by survey producers to improve accuracy and users to interpret survey statistics. We unify the fragmented literature by analyzing and decomposing survey error in an empirical Total Survey Error (TSE) framework, quantifying for the first time every error component on a common scale of bias and absolute error. We apply our approach to comprehensively measure survey error in eighteen income and program receipt variables from the CPS ASEC – one of the oldest and most rigorously tested surveys, and the official source of income and poverty statistics in the U.S. – using linked administrative records over more than two decades. For nearly half of the variables, bias exceeds 40 percent and eliminating all individual-level error would require changing more than 80 percent of the true total. Contrary to the conventional emphasis on non-response, we find that the dominant source of bias is measurement error among respondents who fail to report receipt (false negatives). The largest potential gains therefore come from improving the accuracy of respondent reporting rather than raising response rates. This underreporting also propagates into imputed values for non-respondents, which are drawn from (misreported) responses and are particularly noisy, with positive and negative errors that tend to offset in net terms. Moreover, net bias can be an incomplete guide to data quality, as we find that absolute error has tended to rise over time even when net bias is stable. Overall, our approach provides a new method for measuring and decomposing survey error, clarifying which sources of bias require user corrections and where survey design improvements could be most consequential.",
-    "abstract_cn": "Surveys provide much of what we know in social science and are often the only source of information on private behaviors, attitudes and expectations. Strands of the literature document four broad error sources: survey coverage, unit non-response, item non-response, and measurement error. Yet the absence of comparable error measures across sources and over time has left the relative severity of error sources difficult to assess, limiting efforts by survey producers to improve accuracy and users to interpret survey statistics. We unify the fragmented literature by analyzing and decomposing survey error in an empirical Total Survey Error (TSE) framework, quantifying for the first time every error component on a common scale of bias and absolute error. We apply our approach to comprehensively measure survey error in eighteen income and program receipt variables from the CPS ASEC – one of the oldest and most rigorously tested surveys, and the official source of income and poverty statistics in the U.S. – using linked administrative records over more than two decades. For nearly half of the variables, bias exceeds 40 percent and eliminating all individual-level error would require changing more than 80 percent of the true total. Contrary to the conventional emphasis on non-response, we find that the dominant source of bias is measurement error among respondents who fail to report receipt (false negatives). The largest potential gains therefore come from improving the accuracy of respondent reporting rather than raising response rates. This underreporting also propagates into imputed values for non-respondents, which are drawn from (misreported) responses and are particularly noisy, with positive and negative errors that tend to offset in net terms. Moreover, net bias can be an incomplete guide to data quality, as we find that absolute error has tended to rise over time even when net bias is stable. Overall, our approach provides a new method for measuring and decomposing survey error, clarifying which sources of bias require user corrections and where survey design improvements could be most consequential.",
-    "url": "https://www.nber.org/papers/w35680",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35712",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35667",
-    "title": "A Theory of International Official Lending",
-    "title_cn": "A Theory of International Official Lending",
+    "id": "w35701",
+    "title": "w35701",
+    "title_cn": "w35701",
     "authors": [
-      "Qing Liu",
-      "Zanhui Liu",
-      "Vivian Zhanwei Yue"
+      "Unknown authors"
     ],
-    "abstract": "Official lending is large, senior, and countercyclical, continuing after sovereigns fall into arrears on private debt. We ask why sovereign finance exhibits this division of labor across creditors. In a production economy where a risk-averse sovereign privately allocates imported inputs, commitment is limited on both sides, and monitoring generates a noisy signal, the constrained-optimal allocation is decentralized by defaultable private debt, senior non-defaultable multilateral debt, and concessional bilateral debt whose relief is tied to the signal. Production remains distorted, but the sovereign is never excluded: official lending is monitored liquidity provision. A calibration reproduces procyclical private and countercyclical official debt.",
-    "abstract_cn": "Official lending is large, senior, and countercyclical, continuing after sovereigns fall into arrears on private debt. We ask why sovereign finance exhibits this division of labor across creditors. In a production economy where a risk-averse sovereign privately allocates imported inputs, commitment is limited on both sides, and monitoring generates a noisy signal, the constrained-optimal allocation is decentralized by defaultable private debt, senior non-defaultable multilateral debt, and concessional bilateral debt whose relief is tied to the signal. Production remains distorted, but the sovereign is never excluded: official lending is monitored liquidity provision. A calibration reproduces procyclical private and countercyclical official debt.",
-    "url": "https://www.nber.org/papers/w35667",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35701",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35662",
-    "title": "The Impact of Fiscal Policy to Promote Healthy Diets: Evidence from the Navajo Nation",
-    "title_cn": "The Impact of Fiscal Policy to Promote Healthy Diets: Evidence from the Navajo Nation",
+    "id": "w35716",
+    "title": "w35716",
+    "title_cn": "w35716",
     "authors": [
-      "John Cawley",
-      "Mallory Dreyer",
-      "Kosali I. Simon"
+      "Unknown authors"
     ],
-    "abstract": "One of the most comprehensive fiscal policies to improve diet was adopted by the Navajo Nation; the Healthy Diné Nation Act (HDNA) of 2014-15 consists of two parts: 1) an exemption from sales tax for healthy foods and beverages; and 2) a tax increase on unhealthy foods and beverages. Together, they create a price wedge of 7-8% between healthy and unhealthy foods. We estimate difference-in-difference models and event studies that estimate the effect of the HDNA on a variety of health conditions relating to diet and weight for newborns and mothers which are recorded in birth certificate data. We find no evidence that the HDNA improved these outcomes; our estimates are precise enough to rule out improvements in gestational diabetes as large as those reported for U.S. city SSB taxes. Possible explanations for the null results include incomplete retailer implementation and cross-border shopping.",
-    "abstract_cn": "One of the most comprehensive fiscal policies to improve diet was adopted by the Navajo Nation; the Healthy Diné Nation Act (HDNA) of 2014-15 consists of two parts: 1) an exemption from sales tax for healthy foods and beverages; and 2) a tax increase on unhealthy foods and beverages. Together, they create a price wedge of 7-8% between healthy and unhealthy foods. We estimate difference-in-difference models and event studies that estimate the effect of the HDNA on a variety of health conditions relating to diet and weight for newborns and mothers which are recorded in birth certificate data. We find no evidence that the HDNA improved these outcomes; our estimates are precise enough to rule out improvements in gestational diabetes as large as those reported for U.S. city SSB taxes. Possible explanations for the null results include incomplete retailer implementation and cross-border shopping.",
-    "url": "https://www.nber.org/papers/w35662",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35716",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35664",
-    "title": "Rising Income Risk at the Top",
-    "title_cn": "Rising Income Risk at the Top",
+    "id": "w35703",
+    "title": "w35703",
+    "title_cn": "w35703",
     "authors": [
-      "J. Carter Braxton",
-      "Kyle F. Herkenhoff",
-      "Chengdai Huang",
-      "Michael Nattinger",
-      "Jonathan L. Rothbaum",
-      "Lawrence D.W. Schmidt"
+      "Unknown authors"
     ],
-    "abstract": "We document an increase in U.S. income risk from 1969 to 2019 using newly digitized IRS tax returns, distinguishing permanent from transitory risk. Since the 1970s, permanent income risk increased across the distribution, but most sharply among high earners, rising nearly 70% among the top 5%. We show that, even among top earners, large negative income shocks strongly predict financial distress and higher income risk is linked with higher savings. In a quantitative life-cycle model, rising income risk concentrated at the top lowers the risk-free rate by 0.7pp, increases wealth inequality, and contributes to the \"savings glut of the rich.\"",
-    "abstract_cn": "We document an increase in U.S. income risk from 1969 to 2019 using newly digitized IRS tax returns, distinguishing permanent from transitory risk. Since the 1970s, permanent income risk increased across the distribution, but most sharply among high earners, rising nearly 70% among the top 5%. We show that, even among top earners, large negative income shocks strongly predict financial distress and higher income risk is linked with higher savings. In a quantitative life-cycle model, rising income risk concentrated at the top lowers the risk-free rate by 0.7pp, increases wealth inequality, and contributes to the \"savings glut of the rich.\"",
-    "url": "https://www.nber.org/papers/w35664",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35703",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35690",
-    "title": "Inefficiencies in Local Infrastructure: Evidence from Drinking Water in California",
-    "title_cn": "Inefficiencies in Local Infrastructure: Evidence from Drinking Water in California",
+    "id": "w35702",
+    "title": "w35702",
+    "title_cn": "w35702",
     "authors": [
-      "Pierre Bodere",
-      "Giulia Brancaccio",
-      "Karam Kang"
+      "Unknown authors"
     ],
-    "abstract": "Local elected officials oversee critical infrastructure, often with limited electoral accountability. This paper studies how this distorts investment across California drinking-water systems. We document that pollution responds to shifts in the political environment, motivating a dynamic model of public investment. We measure welfare returns to investment directly, combining event-study estimates of investment effectiveness and costs with those of residents’ clean-water valuations, recovered from housing choices. Investment choices identify policymakers’ responsiveness to those returns. Weak accountability diverts investment from high-return systems and conventional policies imperfectly offset these distortions: subsidy takeup is misaligned with returns, while uniform mandates induce welfare losses.",
-    "abstract_cn": "Local elected officials oversee critical infrastructure, often with limited electoral accountability. This paper studies how this distorts investment across California drinking-water systems. We document that pollution responds to shifts in the political environment, motivating a dynamic model of public investment. We measure welfare returns to investment directly, combining event-study estimates of investment effectiveness and costs with those of residents’ clean-water valuations, recovered from housing choices. Investment choices identify policymakers’ responsiveness to those returns. Weak accountability diverts investment from high-return systems and conventional policies imperfectly offset these distortions: subsidy takeup is misaligned with returns, while uniform mandates induce welfare losses.",
-    "url": "https://www.nber.org/papers/w35690",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35702",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35685",
-    "title": "A Deep Case for Shallow Integration",
-    "title_cn": "A Deep Case for Shallow Integration",
+    "id": "w35721",
+    "title": "w35721",
+    "title_cn": "w35721",
     "authors": [
-      "John Sturm Becko",
-      "Arnaud Costinot"
+      "Unknown authors"
     ],
-    "abstract": "We study international cooperation in a general environment with pecuniary and non-pecuniary externalities across countries. We derive two main theorems, each demonstrating that market-access commitments, a form of shallow integration, are sufficient to implement globally efficient policies. When all cross-border externalities are pecuniary, the first theorem provides a new and unifying perspective on a series of results by Bagwell and Staiger. When some cross-border externalities are non-pecuniary, the second theorem shows that market-access commitments, properly extended, still sustain global efficiency. These extended market-access commitments reinterpret cross-border externalities as additional goods that are traded and priced at their social values. We discuss the implications for international cooperation on climate change and geopolitics.",
-    "abstract_cn": "We study international cooperation in a general environment with pecuniary and non-pecuniary externalities across countries. We derive two main theorems, each demonstrating that market-access commitments, a form of shallow integration, are sufficient to implement globally efficient policies. When all cross-border externalities are pecuniary, the first theorem provides a new and unifying perspective on a series of results by Bagwell and Staiger. When some cross-border externalities are non-pecuniary, the second theorem shows that market-access commitments, properly extended, still sustain global efficiency. These extended market-access commitments reinterpret cross-border externalities as additional goods that are traded and priced at their social values. We discuss the implications for international cooperation on climate change and geopolitics.",
-    "url": "https://www.nber.org/papers/w35685",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35721",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
   },
   {
-    "id": "w35668",
-    "title": "Labor Mobility and the Level of Unemployment in a Currency Union",
-    "title_cn": "Labor Mobility and the Level of Unemployment in a Currency Union",
+    "id": "w35692",
+    "title": "w35692",
+    "title_cn": "w35692",
     "authors": [
-      "Erin P. Gibson",
-      "Christopher L. House",
-      "Christian Proebsting",
-      "Linda L. Tesar"
+      "Unknown authors"
     ],
-    "abstract": "Unemployment rates are substantially higher and more volatile in the euro area relative to the United States. We ask to what extent the lack of cross-country labor mobility can account for unemployment dynamics in Europe. Our analytical model incorporates downward nominal wage rigidity and an endogenous migration decision. Firms are unable to freely adjust wages during economic contractions, generating an asymmetric distribution of unemployment over the business cycle. The model is calibrated to the dynamics of unemployment and net migration in a typical euro area country. An increase in labor mobility to that observed in the United States and holding all other parameters fixed would reduce the volatility of euro area unemployment by 28% and return over 1,000,000 unemployed to the workforce. The welfare cost to a typical euro area country of the currency union is 4.1 percent of permanent consumption; increasing labor mobility reduces this cost to about 3.55 percent.",
-    "abstract_cn": "Unemployment rates are substantially higher and more volatile in the euro area relative to the United States. We ask to what extent the lack of cross-country labor mobility can account for unemployment dynamics in Europe. Our analytical model incorporates downward nominal wage rigidity and an endogenous migration decision. Firms are unable to freely adjust wages during economic contractions, generating an asymmetric distribution of unemployment over the business cycle. The model is calibrated to the dynamics of unemployment and net migration in a typical euro area country. An increase in labor mobility to that observed in the United States and holding all other parameters fixed would reduce the volatility of euro area unemployment by 28% and return over 1,000,000 unemployed to the workforce. The welfare cost to a typical euro area country of the currency union is 4.1 percent of permanent consumption; increasing labor mobility reduces this cost to about 3.55 percent.",
-    "url": "https://www.nber.org/papers/w35668",
-    "public_date": "2026-08-31",
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35692",
+    "public_date": "2026-09-07",
     "translation_status": {
       "title": "failed",
-      "abstract": "failed"
+      "abstract": "skipped_empty"
     },
     "translation_error": {
-      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}",
-      "abstract": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
     },
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-08-31T17:16:06Z"
+    "fetched_at": "2026-09-07T09:57:48Z"
+  },
+  {
+    "id": "w35720",
+    "title": "w35720",
+    "title_cn": "w35720",
+    "authors": [
+      "Unknown authors"
+    ],
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35720",
+    "public_date": "2026-09-07",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "skipped_empty"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-09-07T09:57:48Z"
+  },
+  {
+    "id": "w35700",
+    "title": "w35700",
+    "title_cn": "w35700",
+    "authors": [
+      "Unknown authors"
+    ],
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35700",
+    "public_date": "2026-09-07",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "skipped_empty"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-09-07T09:57:48Z"
+  },
+  {
+    "id": "w35711",
+    "title": "w35711",
+    "title_cn": "w35711",
+    "authors": [
+      "Unknown authors"
+    ],
+    "abstract": "",
+    "abstract_cn": "",
+    "url": "https://www.nber.org/papers/w35711",
+    "public_date": "2026-09-07",
+    "translation_status": {
+      "title": "failed",
+      "abstract": "skipped_empty"
+    },
+    "translation_error": {
+      "title": "Error code: 404 - {'error': {'message': 'Not found the model moonshot-v1-8k or Permission denied', 'type': 'resource_not_found_error'}}"
+    },
+    "translation_prompt_version": "econ-zh-v7-f0ad525007",
+    "fetched_at": "2026-09-07T09:57:48Z"
   }
 ]
