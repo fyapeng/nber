@@ -1,5 +1,719 @@
 [
   {
+    "batch_date": "2026-09-14",
+    "last_updated": "2026-09-14T09:12:29Z",
+    "paper_count": 34,
+    "papers": [
+      {
+        "id": "w35726",
+        "title": "Racial Dynamics of Federal Property Buyouts in Flood-Prone Areas",
+        "title_cn": "联邦洪泛区房产收购中的种族动态",
+        "authors": [
+          "Kay Jowers",
+          "Lala Ma",
+          "Christopher D. Timmins"
+        ],
+        "abstract": "The use of managed retreats, or “buyouts,” of flood-prone properties is likely to grow as an adaptation response to increasing flood risks. This paper investigates the role of race and ethnicity in buyout bargaining outcomes and how those outcomes affect longer-run neighborhood change. We combine nationwide administrative data on federal property acquisitions, housing sales transactions, and restricted-use Census microdata to estimate whether there are systematic differences by race in buyout payments relative to a property’s fair market value. We then use a database tracking individual movement over time to examine the quality of the neighborhoods to which participants move and how neighborhood outcomes vary by race and program participation. We find that the buyout compensation received by households of color is at least 6 percent lower than that received by white households. White participants relocate to higher quality neighborhoods and are better off than white nonparticipants. Black participants, on the other hand, move to worse neighborhoods and are worse off than Black non-participants. Our work highlights how government policy, aimed to address increasing climate impacts, may exacerbate the burden of climate change on vulnerable communities.",
+        "abstract_cn": "本文研究受管制搬迁（或称\"买断\"）这一应对洪涝风险上升的气候适应措施中，种族与族裔因素如何影响买断谈判结果，以及这些结果如何塑造社区长期变迁。我们将联邦财产收购的全国性行政数据、住房交易数据与限制使用的美国人口普查微观数据相结合，估计不同种族在买断补偿相对于房产公平市场价值方面是否存在系统性差异；进而利用追踪个体跨期迁移的数据库，考察参与者迁入社区的质量及其随种族和项目参与的异质性。研究发现，有色人种家庭获得的买断补偿至少比白人家庭低6%。白人参与者迁往更高质量的社区，其境遇优于未参与项目的白人；而黑人参与者则迁往更差的社区，其境遇劣于未参与项目的黑人。本研究揭示，旨在应对气候影响加剧的政府政策，可能反而加重脆弱社区所承担的气候变化负担。",
+        "url": "https://www.nber.org/papers/w35726",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35749",
+        "title": "We've Got You Covered: Establishment-Level Evidence on California's Fast-Food Minimum Wage",
+        "title_cn": "我们已为你兜底：加州快餐业最低工资的 establishments 层面证据",
+        "authors": [
+          "Vitor C. Melo",
+          "David Neumark",
+          "Liam Sigaud",
+          "Gary A. Wagner"
+        ],
+        "abstract": "We study the employment effects of California’s $20 fast-food minimum wage. Evaluating this policy poses two challenges in commonly used aggregate datasets: coverage is based on 60-establishment chain-size threshold that cannot be identified; and there is measurement error in the industry codes used to identify fast-food restaurants. We address these challenges using establishment-level data. We find evidence of negative employment effects, but they are concentrated among small chains, among which the policy also slowed entry and increased exit. Thus, the primary effect of the fast-food minimum wage was to disadvantage small chains, albeit with modest overall employment effects thus far.",
+        "abstract_cn": "我们研究了加利福尼亚州每小时 20 美元快餐业最低工资的就业效应。评估这一政策在常用的加总数据集中面临两项挑战：覆盖范围基于 60 家门店的连锁规模门槛，但该门槛无法被识别；且用于识别快餐店的行业代码存在测量误差。我们利用企业层面数据应对这些挑战。我们发现存在负面就业效应的证据，但集中体现在小型连锁企业中，该政策还减缓了这些企业的进入并提高了其退出率。因此，快餐业最低工资的主要效应是使小型连锁企业处于不利地位，不过迄今为止总体就业效应较为温和。",
+        "url": "https://www.nber.org/papers/w35749",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35646",
+        "title": "Spillover Effects of Regulatory Inspections: Evidence from OSHA",
+        "title_cn": "监管检查的溢出效应：来自 OSHA 的证据",
+        "authors": [
+          "Matthew S. Johnson",
+          "David Levine",
+          "Michael W. Toffel"
+        ],
+        "abstract": "Regulatory inspections might affect entities nearby those inspected. Such spillovers are difficult to identify because regulators target inspections and neighboring establishments face correlated shocks. We exploit the U.S. Occupational Safety and Health Administration’s Site-Specific Targeting (SST) program, which generated quasi-random variation in inspections among workplaces with injury rates near a discrete cutoff. An SST inspection reduced injuries at uninspected same-ZIP-code establishments by an estimated 11 percent—an effect roughly as large as the direct effect on the inspected establishment. Because spillovers extend to multiple nearby establishments, they avert several times as many injuries as the inspection’s direct effect.",
+        "abstract_cn": "监管检查可能对被检查实体周边单位产生溢出效应。此类溢出效应难以识别，原因在于监管者定向选择检查对象，且相邻企业面临相关冲击。本文利用美国职业安全与健康管理局（OSHA）的\"定点靶向检查\"（SST）计划，该计划对工伤率接近离散临界值的工作场所产生了准随机的检查分配变异。SST 检查使同一 ZIP 编码区内未被检查企业的工伤率估计下降 11%——这一效应与被检查企业的直接效应大致相当。由于溢出效应延伸至多个周边企业，其避免的工伤数量达到检查直接效应的数倍。",
+        "url": "https://www.nber.org/papers/w35646",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35745",
+        "title": "The Federal Lands: An Economic Property Rights Perspective",
+        "title_cn": "联邦土地：经济产权视角",
+        "authors": [
+          "Gary D. Libecap"
+        ],
+        "abstract": "The US federal government owns and administers 472,892,659 acres or 21% of the land area of the lower 48 states, the country’s largest landowner. The resource is held and managed as a collective resource, the Federal Lands, through political and bureaucratic interpretation of the Multiple Use principle and generally, the biological aim of maximum sustained-yield. By contrast, access, exchange, and investment for most other US natural resources are through private property rights and markets. Despite the magnitude of the resource, economists have devoted relatively limited attention to the economic and welfare impact. The objective is to suggest economic implications and to encourage additional economic analyses. The discussion summarizes federal lands privatization through 1891, when withholding of federal lands began. The literature reveals no demonstratable market failure or increased resource scarcity from private exploitation between 1870 and 1957 when most lands were withheld. Because land was nonmobile and observable private property rights could have been assigned and any externalities addressed via Pigouvian restrictions or Coasean exchange. Federal ownership was not obviously required. Progressive Era reformers, driven by concerns of impending resource depletion, called for scientific, sustained-yield management by government officials. The institutional change is economically important. As outlined by Dixit and others, private rights holders have high powered incentives for efficient resource use that are lacking in decision making by agency officials who do not hold exchangeable property rights and do not directly bear the economic costs and benefits of their actions. Consequential public goods delivery could be an offset, but these are not measured for tradeoff calculations. Following Krueger, a rent-seeking framework is presented for comparing outcomes with economic property rights and political management. The analysis suggests that a.) federal lands will have lower production value than comparable private, all else equal; (b). federal lands management will be less responsive to shifts in economic costs and benefits. Public goods may be provided for high amenity, recreation, and ecological areas, but the dominant Multiple Use management principle provides no objective criteria for allocation or for periodic outcome assessment and adjustment. A literature review and data for contemporary federal forests, range, and oil and gas lands are provided.",
+        "abstract_cn": "美国联邦政府拥有并管理着 472,892,659 英亩土地，占美国本土 48 州面积的 21%，是全国最大的土地所有者。该资源作为集体资源以联邦土地（Federal Lands）的形式持有和管理，依据多重利用原则（Multiple Use principle）的政治与官僚化解释，以及总体上的最大持续产量（maximum sustained-yield）生物学目标。相比之下，美国其他大多数自然资源的获取、交易和投资则通过私有产权和市场进行。尽管该资源规模巨大，经济学家对其经济效应和福利影响的关注却相对有限。本文旨在提示其经济含义并鼓励更多的经济学分析。\n\n本文梳理了截至 1891 年的联邦土地私有化历程，当年联邦土地开始被保留。文献显示，在 1870 年至 1957 年间大部分土地被保留的时期，私有开发并未造成可证实的市场失灵或资源稀缺加剧。由于土地不可移动且可观测，本可设定私有产权，并通过庇古式限制（Pigouvian restrictions）或科斯式交易（Coasean exchange）解决任何外部性。联邦所有权显然并非必需。进步时代（Progressive Era）的改革者出于对资源即将耗竭的担忧，呼吁由政府官员进行科学的、持续产量的管理。这一制度变革具有重要经济意义。\n\n如 Dixit 等人所阐述的，私有产权持有者具有高效利用资源的强激励，而机构官员在决策中则缺乏此类激励——他们不持有可交易的产权，也不直接承担其行动的经济成本与收益。公共物品供给或可构成抵消因素，但这些收益并未被度量以用于权衡计算。遵循 Krueger 的分析框架，本文构建了寻租（rent-seeking）分析框架，以比较经济产权与政治管理下的结果。分析表明：（a）在其他条件相同的情况下，联邦土地的生产价值低于可比的私有土地；（b）联邦土地管理对经济成本与收益变化的反应更为迟钝。高舒适度、游憩和生态区域可能提供公共物品，但占主导地位的多重利用管理原则并未为资源配置或定期结果评估与调整提供客观标准。本文还提供了当代联邦森林、牧场以及油气土地的文献综述和数据。",
+        "url": "https://www.nber.org/papers/w35745",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35754",
+        "title": "Asset Privatization as Intergenerational Redistribution",
+        "title_cn": "资产私有化作为代际再分配",
+        "authors": [
+          "Kaiji Chen",
+          "Hanming Fang",
+          "Yang Tang"
+        ],
+        "abstract": "Rapid economic growth creates large differences in lifetime incomes across generations. This paper examines the intergenerational redistribution generated by subsidized access to appreciating public assets in rapidly growing economies. We show that providing incumbent generations with subsidized access to these assets before future growth is fully capitalized into market values gives them an early claim on subsequent economic growth, thereby redistributing resources from future to incumbent generations. In the context of housing privatization, subsequent capital gains on privatized housing enable homeowners to trade up, further amplifying housing demand, house prices, and intergenerational redistribution. We evaluate the early ownership and capital gains channels of asset-based redistribution in a quantitative equilibrium model calibrated to China's housing privatization. Relative to more standard pension-based redistribution, we show that asset-based redistribution delivers higher welfare for future cohorts while substantially reducing long-run fiscal burdens once economic growth unexpectedly slows.",
+        "abstract_cn": "快速经济增长造成代际之间终身收入的巨大差异。本文研究快速增长经济体中，通过对升值的公共资产提供补贴性获取渠道所产生的代际再分配效应。我们证明，在未来增长尚未完全反映到市场价值之前，向在任世代提供补贴性资产获取渠道，使其得以提前主张后续经济增长的收益，从而将资源从未来世代再分配给在任世代。在住房私有化背景下，私有化住房后续的资本利得使房主能够置换更优住房，进一步放大住房需求、房价以及代际再分配程度。我们在一个以中国住房私有化为校准对象的定量均衡模型中，评估了资产再分配的早期获取渠道与资本利得渠道。与更为标准的养老金再分配相比，我们证明资产再分配在未来队列中带来更高福利，且一旦经济增长意外放缓，能够显著降低长期财政负担。",
+        "url": "https://www.nber.org/papers/w35754",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35752",
+        "title": "Did COVID Change the Black Neighborhood Startup Deficit? Evidence from the Startup Cartography Project",
+        "title_cn": "COVID 是否改变了黑人社区的创业赤字？来自创业地图绘制项目（Startup Cartography Project）的证据",
+        "authors": [
+          "Catherine E. Fazio",
+          "Jorge Guzman",
+          "Scott Stern",
+          "Yan Xu"
+        ],
+        "abstract": "Motivated by William Julius Wilson’s account of concentrated disadvantage, we examine a local poverty-trap interpretation of low entrepreneurship in Black neighborhoods. Using registration data from 38 states, we document a long-standing Black neighborhood startup deficit. Amid shocks that raised expectations of greater economic activity, the deficit reverses sharply in 2020, particularly where pre-existing deficits were larger. While the overall surplus attenuates, relative entrepreneurship remains elevated in high-deficit Black neighborhoods, and neighborhood-oriented entrepreneurship also remains elevated through 2024. Together, these patterns are consistent with a partially sustained shift toward a higher-activity equilibrium.",
+        "abstract_cn": "受威廉·朱利叶斯·威尔逊关于集中劣势论述的启发，本文考察了黑人社区创业率低下的一种局部贫困陷阱解释。基于38个州的工商注册数据，我们发现黑人社区长期存在创业赤字。在提升经济活动预期的冲击下，该赤字于2020年急剧逆转，尤其在原有赤字更大的地区。尽管总体盈余有所衰减，高赤字黑人社区的相对创业率仍维持在较高水平，且面向本社区的创业活动在2024年前持续处于高位。这些模式共同表明，经济系统发生了向更高活动水平均衡的部分持续性转移。",
+        "url": "https://www.nber.org/papers/w35752",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35736",
+        "title": "The Welfare Impacts of Urban Renewal and Forced Relocation: Evidence from Chicago’s HOPE VI Demolitions",
+        "title_cn": "城市更新与强制搬迁的福利影响：来自芝加哥 HOPE VI 拆除项目的证据",
+        "authors": [
+          "Milena Almagro",
+          "Eric Chyn",
+          "Bryan A. Stuart"
+        ],
+        "abstract": "This paper studies one of the largest spatial redevelopment efforts in the United States: HOPE VI public housing demolitions. Focusing on Chicago, we estimate a neighborhood choice model combining administrative records tracking displaced public-housing residents with Census Bureau data capturing citywide sorting and prices. Demolitions generate large welfare losses driven by displacement costs, partially offset by housing vouchers. Demolitions also raise housing prices and reshape neighborhood composition, with gains concentrated among higher-income homeowners. Counterfactuals show that more generous vouchers and counseling programs mitigate but do not eliminate displaced residents' losses, while expanded redevelopment yields larger citywide gains through general-equilibrium effects.",
+        "abstract_cn": "本文研究美国规模最大的空间再开发举措之一：HOPE VI 公共住房拆除计划。我们以芝加哥为研究对象，估计了一个邻里选择模型，该模型整合了追踪公共住房搬迁居民的行政记录与涵盖全市人口流动及房价的普查局数据。拆除计划产生了巨大的福利损失，主要由搬迁成本驱动，住房券在一定程度上抵消了这部分损失。拆除计划还推高了住房价格并重塑了邻里构成，收益集中于高收入房主群体。反事实分析表明，更为慷慨的住房券和咨询项目能够缓解但无法消除搬迁居民的损失，而扩大再开发规模则能通过一般均衡效应带来更大的全市范围收益。",
+        "url": "https://www.nber.org/papers/w35736",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35743",
+        "title": "Immigration and Child Mortality during the Age of Mass Migration",
+        "title_cn": "大规模移民时代的移民与儿童死亡率",
+        "authors": [
+          "Katherine Eriksson",
+          "Peter Zhixian Lin",
+          "Gregory Niemesh"
+        ],
+        "abstract": "In the late nineteenth century, Americans feared that crowded immigrant neighborhoods were spreading disease through industrial cities. We study this claim using newly constructed town-level panel data from Massachusetts, 1860 to 1915, a setting uniquely suited to this exercise because its early vital registration system allows consistent measurement of mortality before national registration became widespread. Using a shift-share instrumental variable strategy based on historical settlement patterns, we estimate the effect of local exposure to immigration on mortality. The relevant question is not whether immigrant families themselves experienced higher mortality, but whether immigration altered the local disease environment more broadly. We find that increases in the foreign-born share significantly raised infant and child mortality, with the infant effect falling disproportionately on the post-neonatal period. Mechanical changes in the composition of births by parent nativity account for only a portion of the estimated effect, implying that the results are not driven primarily by higher mortality among immigrant births. Instead, the evidence is consistent with increased exposure to immigrants, communicable disease, and spillovers to children of native-born parents. These findings highlight immigration as one factor shaping the mortality transition in crowded high-mortality environments.",
+        "abstract_cn": "19世纪末，美国人担心拥挤的移民社区正在工业城市中传播疾病。我们利用1860年至1915年间马萨诸塞州新构建的城镇层面面板数据检验这一论断，该场景尤为适合此项研究，因其早期的生命登记系统使得在全国性登记普及之前能够对死亡率进行一致的测度。我们基于历史定居格局采用 shift-share 工具变量策略，估计当地移民暴露对死亡率的影响。核心问题并非移民家庭自身是否经历了更高的死亡率，而是移民是否更广泛地改变了当地的疾病环境。我们发现，外国出生人口占比的上升显著提高了婴儿和儿童死亡率，其中对婴儿死亡率的影响不成比例地落在新生儿后期（post-neonatal period）。按父母出生地划分的出生构成机械变化仅能解释估计效应的一部分，这意味着结果并非主要由移民出生人口中更高的死亡率所驱动。相反，证据与以下机制相一致：移民暴露增加、传染病传播以及对本土出生父母子女的溢出效应。这些发现凸显移民是塑造拥挤高死亡率环境中死亡率转型的一个因素。",
+        "url": "https://www.nber.org/papers/w35743",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35750",
+        "title": "Informed Choices: Gender Gaps in Career Advice",
+        "title_cn": "知情选择：职业建议中的性别差距",
+        "authors": [
+          "Yana Gallen",
+          "Melanie Wasserman"
+        ],
+        "abstract": "This paper provides the first causal evidence that gender affects the information an individual receives about careers. We conduct a large-scale field experiment in which real college students seek career information from 10,000 working professionals. We randomize whether a professional receives a message from a male or a female student. When students ask broadly for information about a career, female students receive substantially more information on work/life balance than male students. This gender difference persists when students specifically ask about work/life balance. A survey of professionals suggests non-altruistic motives for discussing work/life balance with women. Combining findings from the field experiment and results from an information intervention, we conclude that gender gaps in information received about work/life balance are consequential for gender gaps in career intentions.",
+        "abstract_cn": "本文首次提供了性别影响个体所获职业信息内容的因果证据。我们在大规模实地实验中，让真实在校大学生向10,000名在职专业人士寻求职业信息，并随机化处理专业人士收到的是来自男学生还是女学生的咨询信息。当学生泛泛地询问某一职业的相关信息时，女学生收到的工作与生活平衡信息显著多于男学生；当学生明确询问工作与生活平衡时，这一性别差异依然存在。对专业人士的调查显示，与女性讨论工作与生活平衡存在非利他性动机。结合实地实验发现与一项信息干预实验的结果，我们得出结论：所获工作与生活平衡信息中的性别差距对职业意向中的性别差距具有重要影响。",
+        "url": "https://www.nber.org/papers/w35750",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35728",
+        "title": "Who Matters in College? Familiarity, Ability Signals, and Student Achievement",
+        "title_cn": "大学录取中谁起作用？熟悉度、能力信号与学生学业表现",
+        "authors": [
+          "Isaac Ahimbisibwe",
+          "Scott E. Carrell",
+          "Travis Lybbert"
+        ],
+        "abstract": "This study examines how social influences on academic performance evolve during transition to university when students encounter new social environments and publicly observable signals of academic ability. Using administrative data from a large, elite, and linguistically and culturally heterogeneous public university in Uganda and exploiting random assignment of students to dormitories, we examine how exposure to coethnic peers and peers with scholarship status affects academic performance. We find that greater exposure to peers from similar linguistic and cultural backgrounds improve academic achievement early in university, but these effects fade over time. In contrast, exposure to scholarship peers generates persistent gains in academic performance that increase in magnitude over time. Our setting allows us to distinguish between peers’ underlying academic ability and publicly observable signals of ability since scholarship status is visible, while underlying academic preparation is not. We find that exposure to scholarship peers improves academic performance regardless of those peers’ underlying ability, while exposure to high-ability peers without a scholarship signal has no detectable effect. These results suggest that students respond more strongly to observable signals of academic standing than to peers’ underlying academic preparation. Taken together, our findings indicate that the sources of academic influence evolve over time.",
+        "abstract_cn": "本研究考察在社会影响向大学过渡期间如何演变，此时学生面临新的社会环境和公开可观察的学业能力信号。利用乌干达一所大型精英公立大学——该校在语言和文化上高度多元——的行政数据，并借助学生随机分配至宿舍的制度安排，本文考察接触同族裔同伴和奖学金同伴对学业表现的影响。研究发现，更多地接触来自相似语言和文化背景的同伴在大学早期提升学业成绩，但这些效应随时间推移而衰减。相比之下，接触奖学金同伴对学业表现产生持续性收益，且其幅度随时间递增。本研究场景使我们得以区分同伴的潜在学业能力与公开可观察的能力信号，因为奖学金身份可见，而潜在的学业准备程度不可见。我们发现，无论这些同伴的潜在能力如何，接触奖学金同伴均能改善学业表现；而接触无奖学金信号的高能力同伴则未产生可识别的效应。这些结果表明，学生对学业地位的公开可观察信号的反应强于对同伴潜在学业准备的反应。综合来看，本文发现学业影响的来源随时间推移而演变。",
+        "url": "https://www.nber.org/papers/w35728",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35746",
+        "title": "Heritability and Social Interaction in Labor Market Outcomes: Evidence from the Population of Twins in the United States",
+        "title_cn": "劳动力市场结果的遗传率与社会互动：来自美国双胞胎人口的证据",
+        "authors": [
+          "David Card",
+          "Jesse Rothstein",
+          "Moises Yi"
+        ],
+        "abstract": "We use data on 44,000 twin pairs observed as adolescents in the 2000 Census, linked to their earnings 20 years later, to study the heritability of labor market outcomes. We extend the Classical Twins Design (CTD), which identifies heritability from contrasts between monozygotic and dizygotic twins, to settings where an analyst does not observe zygosity but can measure outcomes for same-sex and opposite-sex twins. We also allow for the presence of a family- and sex-specific component affecting same-sex siblings but only partly shared by opposite-sex siblings. Our extended model identifies heritability from the difference-in-differences of same-sex vs. opposite-sex twins vs. siblings. The estimates indicate strong heritability (h² approximately 0.36) of log earnings. Using an AKM (Abowd et al., 1999) decomposition that separates the person-specific component of earnings from employer-specific pay premiums, we find that both components are heritable. The heritability of employer pay premiums, however, is mainly driven by same-sex twins who work at the same firm, suggesting that social interactions may lead to an over-estimate of the genetic component in earnings. Excluding siblings who work together leads to estimates of the heritability of log earnings that are 15% lower. Similar biases may be present in CTD-based estimates of heritability for other social outcomes like education.",
+        "abstract_cn": "我们利用2000年人口普查中44,000对青少年双胞胎数据，并将其与20年后的收入记录匹配，研究劳动力市场结果的遗传性。我们将经典双胞胎设计（CTD）——该设计通过同卵双胞胎与异卵双胞胎的对比来识别遗传性——拓展至研究者无法观测合子类型但能够测量同性双胞胎与异性双胞胎结果的情形。我们还引入了一个家庭与性别特异性成分，该成分作用于同性兄弟姐妹，但在异性兄弟姐妹之间仅部分共享。拓展模型通过同性双胞胎相对于异性双胞胎、再相对于兄弟姐妹的双重差分来识别遗传性。估计结果显示，对数收入具有较强的遗传性（h²约为0.36）。采用AKM（Abowd et al., 1999）分解将收入中的个人特异性成分与雇主特异性工资溢价分离开后，我们发现两个成分均具有遗传性。然而，雇主工资溢价的遗传性主要由在同一家企业工作的同性双胞胎所驱动，这表明社会互动可能导致对收入遗传成分的高估。排除在一起工作的兄弟姐妹后，对数收入遗传性的估计值下降15%。基于CTD的受教育程度等其他社会结果遗传性估计中，可能存在类似的偏误。",
+        "url": "https://www.nber.org/papers/w35746",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35734",
+        "title": "Strategic Sovereignty: U.S.–Israeli Strikes and the Reversal of Anti-Regime Protest in Iran",
+        "title_cn": "战略主权：美以打击与伊朗反政权抗议的逆转",
+        "authors": [
+          "Sultan Mehmood",
+          "Yaroslav Prokhorskoy",
+          "Leonard Wantchekon"
+        ],
+        "abstract": "Can foreign intervention redirect domestic mobilization toward the regime it seeks to weaken? We study the 2026 U.S.–Israeli strikes on Iran, which occurred amid a nationwide anti-government uprising. Combining high-frequency geocoded data on protests with geocoded records of U.S.–Israeli strikes, we document a sharp reversal in political mobilization. Anti-government protest was widespread before the strikes and receded sharply through February amid domestic repression and an intensifying “foreign-agent” narrative. Following the strikes, pro-government rallies and protests against the United States and Israel spread across the country. Exploiting the precise location and staggered timing of counties’ first exposure to a U.S.–Israeli strike, we find little change in total protest activity but a sharp shift from anti-government to pro-government protest. Public statements by U.S. and Israeli leaders increasingly aligned themselves with the protest movement, while Iranian officials portrayed the unrest as foreign-backed. These patterns are consistent with strategic sovereignty: overt foreign intervention can make domestic opposition easier to portray as aligned with an external adversary, weakening its legitimacy and redirecting collective action toward defense of the state.",
+        "abstract_cn": "外国干预能否将国内动员转向其试图削弱的政权？本文研究2026年美以联合打击伊朗事件，该事件发生于全国性反政府起义期间。我们将高频地理编码的抗议数据与美以打击的地理编码记录相结合，记录了政治动员的急剧逆转。打击前反政府抗议广泛存在，但在国内镇压和不断强化的\"外国代理人\"叙事下，至2月已大幅消退。打击发生后，亲政府集会及反美反以抗议在全国范围内蔓延。利用各县首次遭受美以打击的精确位置和交错时点，我们发现抗议活动总量变化不大，但出现了从反政府抗议向亲政府抗议的急剧转变。美以领导人的公开声明日益与抗议运动保持一致立场，而伊朗官员则将动荡描绘为外国支持。这些模式与\"战略主权\"逻辑一致：公开的外国干预使国内反对派更容易被描绘为与外部敌对势力结盟，从而削弱其合法性，并将集体行动转向捍卫国家。",
+        "url": "https://www.nber.org/papers/w35734",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35756",
+        "title": "Do Social Norms Substitute for Enforcement? Evidence from Public Officials’ Home Purchases in Singapore",
+        "title_cn": "社会规范能否替代执法？来自新加坡公职人员购房行为的证据",
+        "authors": [
+          "Tomasz Piskorski",
+          "Amit Seru",
+          "Jian Zhang",
+          "Chun Zhao"
+        ],
+        "abstract": "We study whether pro-integrity social norms can substitute for formal enforcement in deterring misconduct by public officials. Singapore, widely regarded as one of the world’s least corrupt countries, provides a sharp setting to examine whether decades of successful anti-corruption enforcement can produce self-sustaining norms. Using universe-level housing transactions, we identify informed home purchases by civil servants around expansions of the Mass Rapid Transit (MRT) system. Relative to a matched uninformed control, civil servants disproportionately purchase homes near planned—but not yet publicly announced—stations, with the effect concentrated one to two years before public announcements. The behavior is concentrated among mid-level officials and agencies connected to rail planning, generates meaningful private gains, and also appears among relatives, consistent with information leakage. Stronger formal enforcement substantially reduces both direct and indirect misconduct. We combine the transaction evidence with independent survey measures of perceived corruption, public trust, and pro-integrity norms and develop a dynamic model in which norms are persistent but fragile, enforcement both directly deters misconduct and indirectly sustains norms, and policymakers learn about the persistence of norms from noisy integrity signals. Observed pre-tightening misconduct, deterioration in survey-based integrity measures, and the subsequent decline in misconduct following stronger enforcement are more consistent with policymakers learning that norms have limited persistence than with a response to transitory noise. The findings suggest that even in high-integrity societies, social norms may not be sufficiently self-sustaining to maintain a low-corruption equilibrium without continued formal enforcement.",
+        "abstract_cn": "我们研究亲诚信社会规范能否替代正式执法以遏制公职人员的不当行为。新加坡被公认为全球腐败程度最低的国家之一，为检验数十年成功的反腐败执法能否孕育出自我维持的规范提供了理想的研究场景。利用全覆盖住房交易数据，我们识别出公务员在新加坡大众快速交通（MRT）系统扩建前后的知情购房行为。相对于匹配后的不知情对照组，公务员在计划建设但尚未公开宣布的地铁站附近购房的比例显著更高，且该效应集中在公开宣布前一到两年。此类行为集中于中层官员及与轨道交通规划相关的机构，带来可观的私人收益，且同样出现在其亲属身上，与信息泄露的特征一致。更强的正式执法显著减少了直接和间接的不当行为。我们将交易证据与独立的调查指标——包括感知腐败程度、公众信任度和亲诚信规范——相结合，构建了一个动态模型：规范具有持续性但较为脆弱，执法既能直接遏制不当行为，又能间接维系规范，而政策制定者则从带有噪声的诚信信号中学习规范的持久程度。观察到的执法收紧前的不当行为、基于调查的诚信指标恶化，以及强化执法后不当行为的下降，更符合政策制定者认识到规范持久性有限的情形，而非对暂时性噪声的反应。研究结果表明，即便在高度诚信的社会中，社会规范也可能不足以自我维持低腐败均衡，仍需持续的正式执法作为支撑。",
+        "url": "https://www.nber.org/papers/w35756",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35751",
+        "title": "Did the Affordable Care Act Save Lives?",
+        "title_cn": "《平价医疗法案》挽救生命了吗？",
+        "authors": [
+          "Anuj Gangopadhyaya",
+          "Cuiping Schiman",
+          "Robert Kaestner"
+        ],
+        "abstract": "While recent research has provided evidence that the Medicaid expansions of the Affordable Care Act (ACA) reduced mortality, there is no evidence on the effect of the Affordable Care Act (ACA) net of the Medicaid expansions on mortality. This is an important gap in knowledge because the ACA significantly increased health insurance coverage in non-expansion states. In this article, we exploit the large increase in health insurance coverage brought forth by the ACA to examine the effect of the ACA and Medicaid expansions on mortality. Unlike prior studies that relied solely on geographic variation in Medicaid expansions to estimate the net effect of the expansion, we use a novel empirical approach that allows us to investigate the effect of the ACA net of Medicaid expansion on mortality, the incremental effect of the Medicaid expansion, and the overall effect of the ACA including Medicaid expansion. We use longitudinal data from the NHIS Linked Mortality Files (LMF) and a nationally representative sample of 40 to 58-year-olds combined with a difference-in-differences and a difference-in-differences-in-differences research design to obtain estimates of the effect of the ACA on mortality. We find no evidence that the Medicaid expansions had a beneficial effect on mortality but do find that the ACA net of Medicaid expansion reduced mortality.",
+        "abstract_cn": "近期研究已提供证据表明，《平价医疗法案》（ACA）的 Medicaid 扩面降低了死亡率，但尚无证据考察 ACA 剔除 Medicaid 扩面后的净效应对死亡率的影响。这一知识空白至关重要，因为 ACA 在尚未扩面的州同样显著提升了健康保险覆盖率。本文利用 ACA 带来的健康保险覆盖率大幅提升，考察 ACA 及 Medicaid 扩面对死亡率的影响。与以往仅依赖 Medicaid 扩面的地理差异来估计扩面净效应的研究不同，我们采用一种新颖的实证方法，从而能够分别识别 ACA 剔除 Medicaid 扩面后的净效应、Medicaid 扩面的增量效应，以及 ACA 包含 Medicaid 扩面在内的总体效应。我们使用 NHIS 关联死亡档案（LMF）的纵向数据，结合全国代表性的 40 至 58 岁样本，并运用双重差分及三重差分研究设计，估计 ACA 对死亡率的影响。我们发现，没有证据表明 Medicaid 扩面对死亡率产生了有益效应，但 ACA 剔除 Medicaid 扩面后的净效应确实降低了死亡率。",
+        "url": "https://www.nber.org/papers/w35751",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35747",
+        "title": "Automation and Optimal Taxation: A Task-Based Theory",
+        "title_cn": "自动化与最优税收：基于任务的理论",
+        "authors": [
+          "Henrik Kleven",
+          "Owen M. Zidar"
+        ],
+        "abstract": "We characterize optimal labor and capital income taxation in a task-based model of automation. Workers and machines are perfect substitutes in automatable tasks, which run from the bottom of the skill distribution up to a threshold. Workers supply labor on the extensive margin. Capitalists supply machines at a finite elasticity. In this general-equilibrium automation economy, optimal tax formulas take canonical partial-equilibrium forms. Yet automation substantially changes optimal tax rates because wages and capital returns are endogenous. We calibrate the model to the US wage distribution and automation exposure. In equilibrium, the middle class is the most automated, with machine intensity peaking around the 40th wage percentile. Relative to a no-automation benchmark, the optimal labor tax schedule is more progressive: a larger EITC subsidy at the bottom, lower taxes in the middle, and higher taxes at the top. The optimal capital tax is sizable but unaffected by automation.",
+        "abstract_cn": "我们在一个基于任务的自动化模型中刻画了最优劳动与资本所得税。在该模型中，工人与机器在可自动化任务中完全替代，这些任务从技能分布的低端延伸至某一阈值。工人在广延边际上供给劳动，资本所有者以有限弹性供给机器。在这一一般均衡自动化经济体中，最优税收公式仍取规范的部分均衡形式，但自动化显著改变了最优税率，因为工资与资本回报率均为内生决定。我们将模型校准至美国工资分布与自动化暴露程度。在均衡中，中产阶级自动化程度最高，机器使用强度约在工资第40百分位处达到峰值。相对于无自动化的基准情形，最优劳动税税率表更具累进性：低端劳动所得税收抵免（EITC）补贴更高，中等收入者税负更低，高收入者税负更高。最优资本税规模可观，但不受自动化影响。",
+        "url": "https://www.nber.org/papers/w35747",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35753",
+        "title": "Correlation Neglect in Asset Prices",
+        "title_cn": "资产价格中的相关性忽视",
+        "authors": [
+          "Hongye Guo",
+          "Jessica Wachter"
+        ],
+        "abstract": "We document a strong negative serial correlation between stock market returns in i) the second month of a quarter and ii) the first month of the subsequent quarter. This pattern arises as investors fail to fully recognize the predictably repetitive aggregate earnings “news” conveyed by the late earnings announcements in the second month of a quarter. The neglected correlation leads to overreaction, which is in turn corrected when earnings of a new quarter are announced. Consistent with this hypothesis, returns in the second month of a quarter positively correlate with those of the preceding month, and the return pattern amplifies when earnings announced in these two months are more similar. Survey data and industry-level returns lend further support to this mechanism. These results provide evidence of correlation neglect even among sophisticated, financially incentivized decision-makers, underscoring its importance as a behavioral phenomenon.",
+        "abstract_cn": "我们记录了股票市场收益率在以下两个时段之间存在显著的负序列相关：i）季度第二个月；ii）随后季度的第一个月。这一模式源于投资者未能充分认识到季度第二个月末期盈余公告所传递的可预测且重复出现的总体盈余“信息”。这种被忽视的关联导致过度反应，而在新季度盈余公布时，这种过度反应得到修正。与这一假说一致，季度第二个月的收益率与当月前一个月的收益率正相关，且当这两个月公布的盈余更为相似时，收益率模式被放大。调查数据和行业层面收益率进一步支持了这一机制。这些结果表明，即使对于具有金融激励的成熟决策者，也存在相关性忽视，凸显了其作为行为现象的重要性。",
+        "url": "https://www.nber.org/papers/w35753",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35731",
+        "title": "Housing Wealth Accumulation and Electoral Representation",
+        "title_cn": "住房财富积累与选举代表",
+        "authors": [
+          "Carlos Fernando Avenancio-León",
+          "Yutao He",
+          "Michael Reher"
+        ],
+        "abstract": "Political representation is systematically aligned with economically consequential differences in individual behavior: homeowners who are most deeply incorporated into electoral institutions are systematically more effective at accumulating housing wealth. Using a nationwide voter-property dataset, we find that realized housing appreciation increases monotonically with electoral participation, robust to controls for geography, partisanship, demographics, wealth proxies, and income. Politically engaged homeowners actively generate value by purchasing undervalued properties, investing more in improvements, and selling at a premium, indicating individual-level differences rather than passive market exposure. An original survey shows that these homeowners also systematically differ in personality traits, pointing to deeper individual differences associated with both political engagement and housing-market performance.",
+        "abstract_cn": "政治代表性与具有经济后果的个体行为差异之间存在系统性关联：最深嵌入选举制度中的房主在积累住房财富方面更为有效。利用全国范围的选民—房产匹配数据，我们发现住房实际升值幅度随选举参与度的提高而单调递增，且在控制地理区位、党派归属、人口统计特征、财富代理变量和收入后依然稳健。政治参与度高的房主通过购买低估房产、加大改善性投资以及溢价出售等方式主动创造价值，表明这是个体层面的差异而非被动的市场敞口所致。一项原创性调查显示，这些房主在人格特质上亦存在系统性差异，揭示了与政治参与和住房市场表现均相关的深层个体差异。",
+        "url": "https://www.nber.org/papers/w35731",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35739",
+        "title": "A Sin Ban, Not a Sin Tax? Consumption and Incidence of SNAP Soda Restrictions",
+        "title_cn": "SNAP 含糖饮料禁令而非罪恶税？消费效应与归宿分析",
+        "authors": [
+          "Crossan Cooper",
+          "Katja Seim",
+          "Jintaek Song"
+        ],
+        "abstract": "We study the first statewide SNAP restrictions on sweetened beverages and candy. Restricted spending falls 11 percent; calories and sugar fall 5–8 percent. Substitution is asymmetric: eligible fruit drinks partly offset soda declines, while candy restrictions reduce purchases of eligible snacks. Retailers barely change shelf prices. Losing SNAP’s sales-tax exemption raises tax-inclusive prices only 1.9 percent. Spending declines are larger at retailers with greater SNAP use and remain large online, where checkout stigma is less salient. Nationwide adoption would impose 13 percent of the out-of-pocket burden of an equivalent excise tax, while welfare gains reach roughly $1.1 billion annually.",
+        "abstract_cn": "我们研究了首个在全州范围内实施的 SNAP（补充营养援助计划）对含糖饮料和糖果的限制政策。受限支出下降 11%；热量和糖分摄入下降 5–8%。替代效应呈现非对称性：符合资格的果汁饮料部分抵消了苏打水消费的下降，而糖果限制则减少了符合资格的零食购买。零售商几乎未调整货架价格。失去 SNAP 的销售税豁免仅使含税价格上升 1.9%。支出下降在 SNAP 使用率更高的零售商处更为显著，且在线上渠道依然显著——而该渠道中结账时的污名化效应（checkout stigma）较弱。若在全国推广，该政策仅产生相当于同等消费税 13% 的自付负担，而福利收益每年可达约 11 亿美元。",
+        "url": "https://www.nber.org/papers/w35739",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35732",
+        "title": "Social Capital and Innovation: Evidence from Facebook Friendship Networks",
+        "title_cn": "社会资本与创新：来自 Facebook 好友网络的证据",
+        "authors": [
+          "Brad Cannon",
+          "David Hirshleifer",
+          "Joshua Thornton"
+        ],
+        "abstract": "Using Facebook friendship data, we study how three aspects of social capital shape innovative activity. We find that the most important aspect of social capital in explaining innovation is Economic Connectedness (EC)--the share of high-income friendships. One standard deviation greater EC is associated with 97% more patents per capita among patenting ZIP Codes and 45% more breakthrough patents per capita among ZIP Codes with breakthrough patents. Reverse-causality tests, a within-inventor relocation design, and a quasi-experiment using fracking-driven economic shocks to non-local friends support a causal interpretation. Mechanism tests provide evidence consistent with a financing channel.",
+        "abstract_cn": "利用 Facebook 友谊数据，本文研究了社会资本三个维度对创新活动的影响。我们发现，在解释创新方面最重要的社会资本维度是经济关联度（EC），即与高收入群体的友谊占比。在专利申请的邮政编码区域中，经济关联度每提高一个标准差，人均专利数量增加 97%；在产生突破性专利的邮政编码区域中，人均突破性专利数量增加 45%。反向因果检验、发明者内部迁移设计，以及利用水力压裂驱动的经济冲击对非本地朋友影响的准实验，均支持因果关系的解释。机制检验提供的证据与融资渠道相一致。",
+        "url": "https://www.nber.org/papers/w35732",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35733",
+        "title": "(Mis)measuring Uncertainty: Bunching in Probabilistic Expectations",
+        "title_cn": "概率预期中的聚束：对不确定性测度的（误）度量",
+        "authors": [
+          "Carola Binder",
+          "Laura Crespo",
+          "Carlos Gento",
+          "Luis M. Guirola",
+          "Ernesto Villanueva"
+        ],
+        "abstract": "Probabilistic expectation questions are often used to measure subjective uncertainty, but respondents frequently assign all probability to one outcome. We show that this bunching is partly a survey artifact rather than genuine certainty. In the (online) ECB Consumer Expectations Survey and the (in person) Spanish Survey of Household Finances, bunching is higher among less financially literate respondents and increases with panel tenure. Two survey-design changes provide stronger evidence: enforcing neutral interviewer protocols reduces bunching by about 15 percentage points, and a later questionnaire redesign reduces it by a further 18 percentage points. Interviewer-level variation also falls after standardization. These findings imply that degenerate responses in probabilistic expectations can reflect task burden and survey administration, causing standard measures to overstate certainty and understate uncertainty.",
+        "abstract_cn": "概率预期问题常被用于测度主观不确定性，但受访者频繁地将全部概率赋予单一结果。本文表明，这种聚束（bunching）部分源于调查设计的人为因素，而非真实的确定性。在欧洲央行消费者预期调查（线上调查）和西班牙家庭金融调查（面对面调查）中，聚束在金融素养较低的受访者中更为显著，且随面板调查资历增加而上升。两项调查设计变更提供了更强证据：强制推行中性访员协议使聚束下降约15个百分点，后续问卷重新设计使其进一步下降18个百分点。标准化后，访员层面的变异亦有所降低。这些发现意味着，概率预期中的退化反应（degenerate responses）可能反映任务负担与调查执行方式，导致标准测度高估确定性、低估不确定性。",
+        "url": "https://www.nber.org/papers/w35733",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35755",
+        "title": "The Macroeconomic Returns to School Finance Reforms: Micro-Calibrated Predictions Meet Causal Evidence",
+        "title_cn": "基于微观校准预测的宏观教育财政改革回报：与因果证据的对照",
+        "authors": [
+          "C. Kirabo Jackson"
+        ],
+        "abstract": "A large literature posits a central role for human capital in determining macroeconomic output, while another documents substantial private returns to educational investment. However, whether private gains translate into aggregate gains remains uncertain, as signaling, displacement, or general-equilibrium adjustment may drive a wedge between private and aggregate returns. This paper bridges these literatures with causal evidence that state-level school finance reforms (SFRs) increase macroeconomic output. First, I combine design-based micro estimates of SFR effects on private earnings with a cohort replacement framework to simulate state-level earnings per worker. The simulation predicts little change for 10 to 15 years, then gradual gains as treated cohorts enter the labor force, reaching 7.8 percent after 60 years. Next, I test this prediction using the staggered implementation of SFRs across U.S. states. In an event-study framework, state-level earnings per worker track the predicted path, remaining flat through about 15 years before rising roughly 4.7 percent above counterfactual levels after 30 years — consistent with private earnings gains aggregating to the broader economy. Finally, I show that these effects extend to broader economic output, with GDP per capita declining modestly initially before rising to more than 5 percent above its counterfactual path after 30 years.",
+        "abstract_cn": "大量文献认为人力资本在决定宏观经济产出中居于核心地位，另有文献则记录了教育投资的显著私人回报。然而，私人收益能否转化为总体收益仍不确定，因为信号传递、替代效应或一般均衡调整可能使私人回报与总体回报产生背离。本文以州级学校财政改革（SFRs）提升宏观经济产出的因果证据，架起了上述两类文献之间的桥梁。首先，我将基于研究设计的微观估计——即 SFR 对私人收入的影响——与队列替代框架相结合，模拟州级人均劳动者收入。模拟结果显示，改革后 10 至 15 年间几乎无变化，随后随着受改革影响的队列进入劳动力市场而逐步提升，60 年后达到 7.8%。其次，我利用 SFR 在美国各州交错实施的特征，对这一预测进行检验。在事件研究框架下，州级人均劳动者收入走势与预测路径高度吻合：约 15 年内保持平稳，30 年后较反事实水平上升约 4.7%——这与私人收入收益加总至更广泛经济体的情形相一致。最后，我发现这些效应延伸至更广泛的经济产出：人均 GDP 最初温和下降，30 年后较其反事实路径上升逾 5%。",
+        "url": "https://www.nber.org/papers/w35755",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35748",
+        "title": "Does Information Influence the Choice between Social Security Disability and Early Retirement Benefits?",
+        "title_cn": "信息是否影响社会安全残疾津贴与提前退休津贴之间的选择？",
+        "authors": [
+          "Priyanka Anand",
+          "Tran Thi Phu-Duyen",
+          "Sita Slavov"
+        ],
+        "abstract": "We examine how information affects the choice between Social Security Disability Insurance (DI) and Old-Age Insurance (OAI) benefits for people between 62 and full retirement age. We find that receiving an initial Social Security statement, which provides recipients with personalized estimated benefit amounts available from DI and OAI, increases the probability of applying for both programs among those with a work-limiting health condition or a low work ability index, and this response is concentrated among people who are further from full retirement age. The increase in DI applications is split between applications for DI only and applications for both programs.",
+        "abstract_cn": "我们研究了信息如何影响 62 岁至完全退休年龄之间人群在社会保障残疾保险（DI）与老年保险（OAI）待遇之间的选择。我们发现，收到初始社会保障声明——该声明向领取人提供 DI 与 OAI 的个性化预估待遇金额——会提高存在工作限制性健康状况或工作能力指数较低者同时申请两项待遇的概率，且这一反应集中在距离完全退休年龄更远的人群中。DI 申请的增加部分体现为仅申请 DI，部分体现为同时申请两项待遇。",
+        "url": "https://www.nber.org/papers/w35748",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35757",
+        "title": "Buying a Station or Relaxing a Constraint? Spectrum Repacking and Dirac's Conjecture",
+        "title_cn": "购买电视台还是放松约束？频谱重排与狄拉克猜想",
+        "authors": [
+          "Alex Chan"
+        ],
+        "abstract": "Spectrum repacking auctions can restore feasibility along two margins: retiring a station via buyout or relaxing a pairwise engineering restriction. I represent stations as vertices in a network and interference restrictions as edges between them, and so station buyouts delete vertices and engineering waivers relax edges. This paper shows that buying out any one station can reduce the number of channels needed, even though relaxing any single interference restriction cannot. The smallest feasible number of channels is $k$ . For every $k\\geq4$, I show that there is a network in which removing any station saves one channel, while relaxing any single pairwise restriction does not. This main result follows directly from Dirac’s half-century-old conjecture on vertex-critical graphs, whose chromatic number falls after any vertex is removed. By constructing the missing counterexample at $k=4$ and combining it with earlier results for $k\\geq5$, I show that at every $k\\geq4$, some $k$-vertex-critical graph has no critical edge, resolving Dirac's conjecture. Market designers auditing feasibility link-by-link systematically can mistake combinatorial complementarity for remedy failure, overlooking station buyouts that unlock the clearing target.",
+        "abstract_cn": "频谱重新打包拍卖可沿两个边际恢复可行性：通过收购退出使电视台停播，或放宽成对工程限制。我将电视台表示为网络中的顶点，干扰限制表示为顶点之间的边，因此电视台收购对应删除顶点，工程豁免对应放松边。本文表明，收购任意一家电视台可减少所需频道数量，而放宽任意单一干扰限制则做不到。最小可行频道数为$k$。对于任意$k\\geq4$，我证明存在一种网络，其中删除任意一家电视台均可节省一个频道，而放宽任意单一成对限制则不能。这一主要结果直接源于狄拉克（Dirac）半个世纪前关于顶点临界图的猜想——其染色数在删除任意顶点后下降。通过构造$k=4$时缺失的反例，并将其与$k\\geq5$的已有结果相结合，我证明对于任意$k\\geq4$，均存在某个$k$-顶点临界图不含临界边，从而解决了狄拉克猜想。逐链审计可行性的市场设计者可能将组合互补性误判为补救措施失效，从而忽视能够解锁清算目标的电视台收购。",
+        "url": "https://www.nber.org/papers/w35757",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35741",
+        "title": "Diamond-Mirrlees meets Sims: Optimal Taxation with Rational Inattention",
+        "title_cn": "Diamond-Mirrlees 与 Sims 的交汇：理性疏忽下的最优税收",
+        "authors": [
+          "George-Marios Angeletos",
+          "Matias Bayas-Erazo"
+        ],
+        "abstract": "We study optimal commodity taxation when consumers are rationally inattentive and the planner internalizes their attention costs. In our setting, consumers may underreact to taxes, may allocate attention unevenly across goods, and may display sparse behavior or mental accounting. Our main result is that this need not change tax design: in a benchmark, optimal taxes satisfy the same sufficient-statistics formulas as in classical public finance, regardless of the extent and endogeneity of inattention. Away from this benchmark, we offer a dual rationale for state-dependent taxes and a new lens on tax salience; but we still find no room for the adjustments emphasized in recent work on behavioral public finance.",
+        "abstract_cn": "我们研究当消费者存在理性疏忽且计划者将其注意力成本内生化时的最优商品税。在我们的设定中，消费者可能对税收反应不足、可能在不同商品间分配不均的注意力，并可能表现出稀疏行为或心理账户。我们的主要结论是，这未必会改变税收设计：在一个基准情形下，无论疏忽的程度及其内生性如何，最优税收均满足与古典公共财政相同的充分统计量公式。偏离该基准时，我们为状态依赖税收提供了双重理论依据，并为税收显著性提供了新的分析视角；但我们仍未发现近期行为公共财政文献所强调的调整具有适用空间。",
+        "url": "https://www.nber.org/papers/w35741",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35738",
+        "title": "The City Through Her Eyes: Gender-Based Harassment in Public Spaces in Urban India",
+        "title_cn": "透过她的眼睛看城市：印度城市公共空间中的性别骚扰",
+        "authors": [
+          "Lori A. Beaman",
+          "Seema Jayachandran",
+          "Anisha Sharma"
+        ],
+        "abstract": "Gender-based harassment in public spaces affects women directly through victimization and indirectly through fear. We measure these dual effects in urban India, where harassment is widely regarded as pervasive. Surveying over 4,000 women recruited in public spaces in New Delhi and Bengaluru, we document that 65% of women in New Delhi and 29% in Bengaluru experienced harassment in public spaces in the past year. Past-year prevalence of groping, stalking, or sexual assault is 41% in New Delhi and 14% in Bengaluru. Both frequent, less severe forms of harassment and rarer, more severe forms generate anxiety among women; for example, 46% of women in New Delhi and 25% in Bengaluru report feeling extremely anxious about sexual assault when in public spaces. Not all of the indirect effects track the across-city variation in experienced harassment: in both cities, roughly 70\\% of women report that fear of harassment affects whether they work. Finally, on measurement, we show that measured prevalence is more sensitive to questionnaire design where harassment is less common and victims have fewer and less recent incidents to recall.",
+        "abstract_cn": "公共空间中的性别骚扰通过受害经历直接、并通过恐惧心理间接地对女性产生影响。我们在城市印度测度了这两种效应，该国的骚扰现象被普遍认为十分普遍。我们在新德里和班加罗尔的公共空间招募并调查了逾4000名女性，记录显示：过去一年中，新德里65%的女性和班加罗尔29%的女性曾在公共空间遭受骚扰；过去一年中遭受猥亵、跟踪或性侵犯的比例在新德里为41%，在班加罗尔为14%。无论是频繁发生但严重程度较低的骚扰形式，还是较为罕见但更为严重的形式，都会引发女性的焦虑情绪；例如，新德里46%的女性和班加罗尔25%的女性报告称，身处公共空间时对性侵犯感到极度焦虑。并非所有间接效应都与两城市间实际遭受骚扰的差异同步变化：在两座城市中，均有约70%的女性报告称，对骚扰的恐惧影响了她们是否外出工作。最后，在测度方法方面，我们发现：在骚扰发生率较低、受害者可供回忆的事件更少且更久远的地区，测得的发生率对问卷设计更为敏感。",
+        "url": "https://www.nber.org/papers/w35738",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35742",
+        "title": "Disappearing Dollar Convenience?",
+        "title_cn": "美元便利收益率的消失？",
+        "authors": [
+          "Arvind Krishnamurthy",
+          "Miguel Chumbo"
+        ],
+        "abstract": "We measure the convenience yield on dollar safe assets over the last 5 years to answer this question. We find that within the set of U.S. dollar assets, safe asset convenience yields are about the same in 2025 as they were in 2019, and these levels are expected to persist for the next decade. Across the globe, the richness of U.S. dollar safe assets, particularly Treasurys, compared to the safe assets of other currencies have fallen considerably. There is also evidence that the U.S. dollar repo is currently the highest convenience dollar safe asset. In short, our answer is, no for domestic liquidity purposes, and yes for global liquidity purposes.",
+        "abstract_cn": "我们测算了过去五年美元安全资产的便利收益率，以回答这一问题。我们发现，在美元资产内部，安全资产的便利收益率在2025年与2019年基本持平，且这一水平预计将在未来十年持续。从全球范围来看，美元安全资产（尤其是美国国债）相对于其他货币安全资产的充裕程度已大幅下降。另有证据表明，当前美元回购市场是便利收益率最高的美元安全资产。简言之，我们的答案是：就国内流动性目的而言，答案是否定的；就全球流动性目的而言，答案是肯定的。",
+        "url": "https://www.nber.org/papers/w35742",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35725",
+        "title": "How Disability Benefits in Early Life Affect Adult Outcomes",
+        "title_cn": "幼儿期残疾福利对成年期结果的影响",
+        "authors": [
+          "Manasi Deshpande",
+          "Alessandra Voena",
+          "Jason B. Weitze"
+        ],
+        "abstract": "We estimate the effect of receiving Supplemental Security Income (SSI) in childhood on adult outcomes using multiple sources of variation. Using variation across and within two quasi-experiments, we find that the program has heterogeneous effects that vary with the parental earnings response to SSI benefits: the program has positive effects on children when parents do not adjust their labor supply in response to SSI income (meaning household income increases), but zero or negative effects on children when parents offset the transfer by reducing earnings (meaning household income remains constant or falls). These results suggest that, relative to parent non-work time, income is crucial in the human capital production of low-income children with disabilities. We estimate a model of maternal labor supply and child human capital formation to quantify the relative importance of these channels. Our findings indicate that 1) the income effects of SSI on children's human capital are substantial, with a limited role for perverse incentive effects from conditioning benefits on disability status, and 2) parental work on net improves children's outcomes by increasing household resources, despite the potential decrease in parental time.",
+        "abstract_cn": "我们利用多种变异来源估计童年时期领取补充保障收入（SSI）对成年结果的因果效应。通过两项准实验的组间与组内变异，我们发现该计划存在异质性效应，且效应大小随父母对 SSI 福利的劳动收入反应而变化：当父母未因 SSI 收入调整劳动供给时（即家庭收入增加），该计划对儿童产生正向效应；但当父母通过减少劳动收入抵消转移支付时（即家庭收入保持不变或下降），该计划对儿童产生零效应或负向效应。这些结果表明，相对于父母不工作的时间而言，收入在低收入残障儿童的人力资本生产中至关重要。我们估计了一个母亲劳动供给与儿童人力资本形成的模型，以量化上述渠道的相对重要性。研究发现：第一，SSI 对儿童人力资本的收入效应显著，而基于残疾身份设定福利资格所带来的逆向激励效应作用有限；第二，尽管父母工作时间增加可能减少育儿时间，但父母劳动从总体上有助于改善儿童结果，因其增加了家庭资源。",
+        "url": "https://www.nber.org/papers/w35725",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35729",
+        "title": "When Microenterprises Grow, Are Consumers Better Off? Evidence from Large Loans to Microenterprises in Chile",
+        "title_cn": "微型企业成长是否使消费者获益？来自智利大额微型企业贷款的经验证据",
+        "authors": [
+          "Dean Karlan",
+          "Natalia Rigol",
+          "Benjamin N. Roth"
+        ],
+        "abstract": "Evaluations of microenterprise credit typically measure effects only on borrowing firms. But what about their customers? If microenterprises sell relatively undifferentiated goods and services, as is often hypothesized, credit may simply reallocate sales across firms and create little consumer benefit. In a randomized controlled trial in Chile, large loans increased treated firms’ profits by USD 292 per month, a 13.4% increase. Customer survey data indicate even larger benefits for customers: a gain of USD 494 per month in consumer surplus. Furthermore, using a sample of more than 125,000 non-treated firms operating in the same markets, we find little evidence of business stealing. The welfare gains from credit expansion thus extend well beyond the borrowers themselves.",
+        "abstract_cn": "对微型企业信贷的评估通常仅衡量对借款企业的影响，但其消费者呢？若微型企业销售的产品和服务相对同质化，正如常被假设的那样，信贷可能只是在企业间重新分配销售额，而几乎不产生消费者福利。在智利的一项随机对照试验中，大额贷款使受干预企业的利润每月增加 292 美元，增幅达 13.4%。消费者调查数据表明，消费者的获益更为显著：每月消费者剩余增加 494 美元。此外，利用同一市场中超过 125,000 家未受干预企业的样本，我们几乎未发现业务窃取（business stealing）的证据。因此，信贷扩张带来的福利收益远远超出了借款者自身。",
+        "url": "https://www.nber.org/papers/w35729",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35744",
+        "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+        "title_cn": "AI 时代的可信测度与推断：一场测度革命？",
+        "authors": [
+          "Melissa Dell",
+          "Ashesh Rambachan"
+        ],
+        "abstract": "Artificial intelligence (AI) is transforming measurement in economics. AI models convert unstructured data, such as text and images, into structured variables at low cost, making previously prohibitive measurement feasible at scale. This shifts the bottleneck from finding any scalable measure of a phenomenon to choosing among many plausible ones, which may support different empirical conclusions. This review provides guidance for navigating that shift. We describe three stages at which AI enters the measurement pipeline—discovery, construct definition, and observation—and what each demands of researchers. We argue that credible inference with AI-generated variables requires appropriately designed validation: anchoring measurement to explicit criteria, rather than informal claims that a proxy is reasonable. We then examine how validation samples support valid inference even when AI predictions are arbitrarily biased, and what can be done when a random validation sample is unavailable.",
+        "abstract_cn": "人工智能（AI）正在改变经济学中的测度方式。AI 模型将文本、图像等非结构化数据转化为结构化变量，且成本低廉，使得此前因成本过高而难以实现的大规模测度成为可能。这一转变将瓶颈从“能否找到某种可扩展的现象测度”转移到了“如何在众多看似合理的测度中进行选择”，而这些不同测度可能支撑不同的经验结论。本综述为应对这一转变提供指引。我们描述了 AI 进入测度流程的三个阶段——发现、构念界定与观测——以及每个阶段对研究者提出的要求。我们认为，利用 AI 生成变量进行可信推断需要经过恰当设计的验证：将测度锚定于明确标准，而非非正式地声称某个代理变量是合理的。随后，我们考察了验证样本如何在 AI 预测存在任意偏误的情况下仍支持有效推断，以及当随机验证样本无法获取时可采取何种措施。",
+        "url": "https://www.nber.org/papers/w35744",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35727",
+        "title": "Measuring Racial Disparities in Police Stops: Evidence from Telemetric Mobility Data",
+        "title_cn": "利用遥测移动数据测度警察截停中的种族差异",
+        "authors": [
+          "Xiaofeng Gong",
+          "Yuling Han",
+          "Susan T. Parker",
+          "Matthew B. Ross",
+          "Stephen Ross"
+        ],
+        "abstract": "We establish a reliable counterfactual for evaluating racial disparities in traffic stops using telemetric data to estimate the racial composition of motorists. We measure of motorist racial composition using telemetric mobility data and a novel two-stage correction methodology anchored by an independent measure, racial composition of motorists involved in accidents. Applying this to Massachusetts State Police stops, we find non-White motorists are stopped at rates exceeding their roadway presence by 6.7 percentage points. We demonstrate that uncalibrated telemetric data significantly understates minority presence (15.2 vs. 28 percent), and the uncalibrated telemetric data yields disparities that are over twice the size of our preferred estimates. We use this validated measure to assess the accuracy of several commonly-used disparity tests. We find that the widely used “Community Standard” test dramatically overestimates disparities, even when restricting to local roads or non-commuting hours. In contrast, the less-often used “Crash Benchmark” accurately captures disparities even when aggregated to higher temporal levels covering up to 94 percent of stops. Finally, the “Veil of Darkness” test yields smaller estimates than our telemetric measure, consistent with its focus on disparate treatment rather than the broader legal standard of motorist composition.",
+        "abstract_cn": "我们利用遥测数据估计驾驶员种族构成，从而建立一个可靠的反事实基准，以评估交通拦截中的种族差异。我们使用遥测出行数据以及一种以独立指标——事故涉事驾驶员种族构成——为锚定的新颖两阶段校正方法来测度驾驶员种族构成。将其应用于马萨诸塞州州警的拦截数据，我们发现非白人驾驶员的拦截率超出其在道路上的实际占比 6.7 个百分点。我们证明，未经校准的遥测数据显著低估了少数族裔的存在比例（15.2% 对 28%），且基于未经校准的遥测数据得出的差异估计值是我们首选估计值的两倍以上。我们利用这一经过验证的测度来评估几种常用差异检验方法的准确性。我们发现，广泛使用的\"社区标准\"检验即使限制在本地道路或非通勤时段，也会严重高估差异。相比之下，较少使用的\"事故基准\"检验即使在汇总到涵盖高达 94% 拦截量的更高时间层级时，仍能准确捕捉差异。最后，\"黑暗面纱\"检验得出的估计值小于我们的遥测测度，这与该检验关注差别待遇而非更广泛的驾驶员构成这一法律标准相一致。",
+        "url": "https://www.nber.org/papers/w35727",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35740",
+        "title": "When Resources Meet Relationships: The Returns to Personalized Supports for Low-Income Students",
+        "title_cn": "资源与关系交汇：针对低收入学生个性化支持的回报",
+        "authors": [
+          "Benjamin Goldman",
+          "Jamie Gracie",
+          "Sonya Porter"
+        ],
+        "abstract": "Children from low-income families face barriers outside the classroom that impede learning and limit opportunities for economic mobility. We study Communities In Schools (CIS), a program that places coordinators in high-poverty schools to connect struggling students with personalized support. Coordinators match students to resources that address academic, behavioral, and basic needs—such as tutoring, mental health counseling, and housing stabilization. CIS is the largest program of its kind in the U.S., reaching 2 million students annually. Using the staggered rollout of CIS, we find that the program boosts test scores for struggling students. These gains persist, raising high school completion and adult earnings. Improvements in test scores explain only about half of CIS's impact on high school graduation; the remainder reflects progress on non-cognitive outcomes such as attendance and behavior. Consistent with CIS's emphasis on personalization, coordinators tailor services to distinct student needs, yet students with different needs experience comparable long-run gains. Placing a trusted adult in schools, backed by a network of programs and services, may offer a scalable way to improve economic mobility.",
+        "abstract_cn": "低收入家庭儿童在校外面临阻碍学习并限制经济流动机会的障碍。本文研究 Communities In Schools（CIS），该项目在高贫困学校派驻协调员，为困难学生对接个性化支持。协调员将学生与应对学业、行为及基本需求的资源相匹配，包括辅导、心理健康咨询和住房稳定化服务。CIS 是美国同类项目中规模最大的，每年覆盖 200 万名学生。利用 CIS 的交错推广，我们发现该项目提升了困难学生的考试成绩。这些收益具有持续性，提高了高中毕业率和成年后的收入。考试成绩的改善仅能解释 CIS 对高中毕业影响的大约一半；其余部分反映了出勤和行为等非认知成果的进步。与 CIS 强调个性化的理念一致，协调员针对不同学生的需求定制服务，但不同需求的学生获得了相近的长期收益。在学校中安置一名可信赖的成年人，并以项目和服务网络作为支撑，或许是改善经济流动的一种可扩展路径。",
+        "url": "https://www.nber.org/papers/w35740",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35737",
+        "title": "Food Labeling Policies: Aggregate Impacts and Heterogeneity Across Categories",
+        "title_cn": "食品标签政策：总量影响与品类异质性",
+        "authors": [
+          "Nano Barahona",
+          "Cristóbal Otero",
+          "Sebastián Otero",
+          "Joshua J. Kim"
+        ],
+        "abstract": "We study the aggregate and heterogeneous effects of a front-of-package labeling policy implemented in Chile. We find that consumers reduced their sugar and caloric intake by 9% and 6%, respectively. On the demand side, labels prompt consumers to substitute within categories rather than switching between categories. Within-category responses are more pronounced when labels provide new information. On the supply side, we observe bunching at regulatory thresholds, with substantial heterogeneity across categories, consistent with differing costs of product reformulation. We conclude that considering policy-response heterogeneity is key for effective policy design.",
+        "abstract_cn": "我们研究了智利实施的食品包装正面标签政策对总量及异质性效应的影响。研究发现，消费者的糖分摄入量和热量摄入量分别下降了9%和6%。在需求侧，标签促使消费者在同一品类内部进行替代，而非跨品类转换；当标签提供新信息时，品类内部的反应更为显著。在供给侧，我们观察到产品在监管阈值处出现聚束现象，且不同品类之间存在显著异质性，这与产品重新配方的成本差异相一致。我们得出的结论是，考虑政策反应的异质性对于有效的政策设计至关重要。",
+        "url": "https://www.nber.org/papers/w35737",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35735",
+        "title": "Flowers of Invention: The Economic Impacts of Patent Rights",
+        "title_cn": "专利之花：专利权的经济影响",
+        "authors": [
+          "Jacob Moscona"
+        ],
+        "abstract": "How do patent rights affect innovation and downstream production? Patent protection was introduced for plant biotechnology in the United States in 1985, and it affected crops differentially depending on their reproductive structures. Exploiting this unique feature of plant flower structure and a new dataset of crop-specific technology development, I find that the introduction of patent rights increased the development of novel plant varieties. Technology development was driven by a rapid increase in private sector research investment, was accompanied by positive spillover effects on innovation in certain non-biological agricultural technologies, and led to an increase in crop yields. Patent rights, however, may come with potentially significant costs to the consumers of technology and distortions to downstream production. Nevertheless, despite higher spending on seeds, US counties that were more exposed to the change in patent law because of their crop composition experienced an increase in agricultural land values and profits. Taken together, the results suggest that the prospect of patent protection spurred innovation and increased downstream productivity and profits.",
+        "abstract_cn": "专利权如何影响创新与下游生产？1985年，美国开始对植物生物技术实施专利保护，由于不同作物的繁殖结构存在差异，这一制度对各类作物的影响程度并不相同。本文利用植物花器结构的这一独特特征，以及新构建的作物特异性技术开发数据集，发现专利权的引入促进了新型植物品种的开发。技术开发的驱动力来自私人部门研究投资的快速增长，同时某些非生物农业技术领域也出现了积极的创新溢出效应，作物单产亦随之提高。然而，专利权也可能给技术使用者带来潜在的重大成本，并对下游生产造成扭曲。尽管如此，尽管种子支出有所上升，但因作物构成而对专利法变化暴露程度更高的美国县份，其农业用地价值和利润均出现增长。综合上述结果，专利保护预期激励了创新，并提升了下游生产率与利润。",
+        "url": "https://www.nber.org/papers/w35735",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      },
+      {
+        "id": "w35730",
+        "title": "Beyond the Conventional Narrative: Economic Heterogeneity and Human Capital Among American Indians",
+        "title_cn": "超越传统叙事：美国印第安人的经济异质性与人力资本",
+        "authors": [
+          "Randall Akee",
+          "Emilia Simeonova"
+        ],
+        "abstract": "There is substantial heterogeneity in economic, educational, and health outcomes among American Indians, shaped by factors such as geographic location (urban vs. rural), resource endowments, and historical experiences with federal policies. Nonetheless, there is clear evidence that historical policies, including forced relocation, boarding schools, and assimilation efforts, have had long-lasting negative effects on human capital development and intergenerational mobility in these populations. Recent decades have seen improvements in some areas, particularly where tribes have exercised greater self-governance and implemented innovative economic development strategies. This paper emphasizes that a “one-size-fits-all” approach is inadequate for analyzing the sources and potential remediation of disparities across various outcomes between Native populations and descendants of later arrivals. A unique challenge is that the measurement and analysis of American Indian outcomes are complicated by issues of racial and tribal identification, data limitations, and changing definitions. These challenges can obscure true trends and make it difficult to evaluate the effectiveness of policies or programs, underscoring the need for more precise and disaggregated data. This essay comments on the need for caution and clarity in the use and analysis of data for this population in both historical and contemporary settings.",
+        "abstract_cn": "美国印第安人在经济、教育和健康结果方面存在显著的异质性，这种异质性受到地理位置（城市与农村）、资源禀赋以及与联邦政策历史互动等因素的塑造。尽管如此，已有明确证据表明，包括强制迁移、寄宿学校和同化努力在内的历史政策，对这些人群的人力资本发展和代际流动产生了持久的负面影响。近几十年来，某些领域出现了改善，特别是在部落行使更大自治权并实施创新性经济发展战略的地区。本文强调，采用\"一刀切\"的方法来分析原住民人口与后期移民后裔之间各类结果差异的来源及潜在补救措施是不充分的。一个独特的挑战在于，美国印第安人结果的测度和分析受到种族与部落身份认定、数据限制以及定义变化等问题的困扰。这些挑战可能掩盖真实趋势，并使政策或项目有效性评估变得困难，从而凸显了对更精确、更具分解性数据的需求。本文对在历史与当代情境中使用和分析该人群数据时所需的审慎与清晰性进行了评述。",
+        "url": "https://www.nber.org/papers/w35730",
+        "public_date": "2026-09-14",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-14T09:12:29Z"
+      }
+    ]
+  },
+  {
     "batch_date": "2026-09-07",
     "last_updated": "2026-09-07T15:21:06Z",
     "paper_count": 34,
