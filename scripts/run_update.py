@@ -10,7 +10,8 @@ import update_papers as updater
 
 
 DEFAULT_MODEL = "kimi-k2.6"
-NON_THINKING_KIMI_MODELS = {"kimi-k2.5", "kimi-k2.6"}
+PREFERRED_MODELS = ("kimi-k2.6", "kimi-k2.5")
+NON_THINKING_KIMI_MODELS = set(PREFERRED_MODELS)
 
 
 class TranslationService(updater.TranslationService):
@@ -30,14 +31,22 @@ class TranslationService(updater.TranslationService):
                 "Check the key's API-platform region, permission, and balance."
             ) from exc
 
-        if model not in available_models:
-            preferred = [name for name in ("kimi-k2.6", "kimi-k2.5") if name in available_models]
-            hint = f" Available preferred models: {', '.join(preferred)}." if preferred else ""
-            raise RuntimeError(
-                f"Kimi model {model!r} is not available to the existing KIMI_API_KEY.{hint}"
-            )
+        if self.model not in available_models:
+            fallback = next((name for name in PREFERRED_MODELS if name in available_models), None)
+            if fallback:
+                logging.warning(
+                    "Configured Kimi model %s is unavailable to this key; automatically falling back to %s.",
+                    self.model,
+                    fallback,
+                )
+                self.model = fallback
+            else:
+                raise RuntimeError(
+                    f"Kimi model {self.model!r} is not available to the existing KIMI_API_KEY, "
+                    "and neither kimi-k2.6 nor kimi-k2.5 is available."
+                )
 
-        logging.info("Kimi API preflight passed; using model %s.", model)
+        logging.info("Kimi API preflight passed; using model %s.", self.model)
 
     def translate(
         self,
@@ -114,7 +123,7 @@ class TranslationService(updater.TranslationService):
                 }
 
                 if self.model in NON_THINKING_KIMI_MODELS:
-                    # K2.5/K2.6 require their fixed sampling parameters. For translation,
+                    # K2.5/K2.6 require fixed sampling parameters. For translation,
                     # disable thinking to reduce latency and token cost and do not send temperature=0.1.
                     request["extra_body"] = {"thinking": {"type": "disabled"}}
                 else:
