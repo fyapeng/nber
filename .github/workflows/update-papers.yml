@@ -2,11 +2,6 @@ name: Update NBER papers
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/run-update-now"
   schedule:
     # GitHub cron uses UTC. These are Monday 13:00 and 18:00 in Asia/Shanghai.
     - cron: "0 5 * * 1"
@@ -14,14 +9,19 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
+  # Keep scheduled data updates independent from the normal site deploy workflow.
   group: nber-update
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
 
     steps:
       - name: Checkout
@@ -66,3 +66,27 @@ jobs:
           name: translation-audit
           path: src/data/translation-audit.md
           if-no-files-found: warn
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Build Astro site
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
