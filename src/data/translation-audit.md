@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-09-14T16:01:27Z`
-- Paper count: `34`
+- Generated at: `2026-09-21T10:25:17Z`
+- Paper count: `29`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,47 +35,23 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| Abowd | w35746 |
-| ACA | w35751 |
-| bunching | w35733 |
-| business stealing | w35729 |
-| checkout stigma | w35739 |
-| CIS | w35740 |
-| Coasean exchange | w35745 |
-| Communities | w35740 |
-| CTD | w35746 |
-| degenerate responses | w35733 |
-| Diamond-Mirrlees | w35741 |
-| Dirac | w35757 |
-| Dixit | w35745 |
-| EITC | w35747 |
-| establishments | w35749 |
-| Facebook | w35732 |
-| Federal Lands | w35745 |
-| GDP | w35755 |
-| HOPE | w35736 |
-| Krueger | w35745 |
-| LMF | w35751 |
-| maximum sustained-yield | w35745 |
-| MRT | w35756 |
-| Multiple Use principle | w35745 |
-| NHIS | w35751 |
-| OAI | w35748 |
-| OSHA | w35646 |
-| Pigouvian restrictions | w35745 |
-| post-neonatal period | w35743 |
-| Progressive Era | w35745 |
-| rent-seeking | w35745 |
-| Schools | w35740 |
-| SFR | w35755 |
-| SFRs | w35755 |
-| shift-share | w35743 |
-| Sims | w35741 |
-| SNAP | w35739 |
-| SSI | w35725 |
-| SST | w35646 |
-| Startup Cartography Project | w35752 |
-| ZIP | w35646 |
+| ACS | w35763 |
+| ATT | w35759 |
+| decisively | w35771 |
+| experienced learning | w35758 |
+| exploitative patents | w35775 |
+| firms | w35762 |
+| JetBlue | w35787 |
+| Kearney | w35765 |
+| Levine | w35765 |
+| Medicare | w35784 |
+| Problem | w35773 |
+| PSID | w35765 |
+| Rotten Adult Kid | w35773 |
+| SEMI | w35779 |
+| Spirit | w35787 |
+| TCJA | w35775 |
+| well-being salience | w35760 |
 
 ## Maintenance Notes
 
