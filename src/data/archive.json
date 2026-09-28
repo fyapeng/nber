@@ -1,5 +1,915 @@
 [
   {
+    "batch_date": "2026-09-28",
+    "last_updated": "2026-09-28T07:14:03Z",
+    "paper_count": 43,
+    "papers": [
+      {
+        "id": "w35789",
+        "title": "(How) Do We Teach Emotions?",
+        "title_cn": "我们如何教授情感？",
+        "authors": [
+          "Anjali Adukia",
+          "Matthew Bonci",
+          "Paula Dastres Gallardo",
+          "Emileigh Harrison",
+          "Jake Nicoll",
+          "Teodora Szasz"
+        ],
+        "abstract": "Emotional intelligence constitutes a key component of human capital, shaped partially by educational materials. Using machine learning and generative AI tools, we examine emotional content in public-school textbooks and children’s literature. A stark mismatch emerges: text exposes children to a broad emotional range, but images overwhelmingly depict happiness and calm, regardless of emotions described in text on the same page. Nearly half of pages show zero overlap between the emotions described in text and those shown in images. This pattern persists across time, contexts, and identities. Household purchases and library inventories suggest content may be endogenously shaped by consumer demand favoring “positive” cover imagery, implying market forces narrow the emotional landscape children encounter.",
+        "abstract_cn": "情绪智力是人力资本的关键组成部分，部分由教育材料塑造。本文运用机器学习与生成式人工智能工具，考察公立学校教科书与儿童读物中的情绪内容。研究发现存在显著的错配：文本向儿童呈现了广泛的情绪谱系，但图像却压倒性地描绘快乐与平静，且不受同页文本所描述情绪的制约。近半数页面中，文本描述的情绪与图像呈现的情绪之间毫无重叠。这一模式跨越时间、情境与身份特征而持续存在。家庭购买行为与图书馆馆藏数据表明，内容可能受到偏好\"积极\"封面图像的消费需求的内生塑造，这意味着市场力量压缩了儿童所接触的情绪图景。",
+        "url": "https://www.nber.org/papers/w35789",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35795",
+        "title": "Innovation, Business Cycles, and the Climate Transition",
+        "title_cn": "创新、商业周期与气候转型",
+        "authors": [
+          "Diego R. Känzig",
+          "Maximilian Konradt",
+          "Lixing Wang",
+          "Donghai Zhang"
+        ],
+        "abstract": "We study how business cycle fluctuations shape the pace and direction of innovation. Non-green innovation is procyclical, while green innovation is countercyclical, both over the cycle and in response to economic shocks. We explain this divergence in a dynamic general equilibrium model with endogenous green and non-green innovation. Green patents derive more value from distant profits, making green innovation less sensitive to short-run fluctuations. Endogenous innovation costs reinforce this mechanism, making green and non-green innovation effective substitutes. Evidence from market-implied patent valuations and scientist earnings supports the mechanism. The model implies larger and greener effects of innovation subsidies during downturns.",
+        "abstract_cn": "我们研究商业周期波动如何塑造创新的速度与方向。非绿色创新具有顺周期性，而绿色创新具有逆周期性，这一特征既体现在整个周期中，也体现在对经济冲击的响应上。我们在一个包含内生绿色创新与非绿色创新的动态一般均衡模型中解释了这一分化。绿色专利的价值更多来源于远期利润，因而绿色创新对短期波动不太敏感。内生创新成本强化了这一机制，使绿色创新与非绿色创新成为有效替代。来自市场隐含专利估值和科学家收入的证据支持该机制。模型意味着，在经济下行期间，创新补贴具有更大且更绿色的效果。",
+        "url": "https://www.nber.org/papers/w35795",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35792",
+        "title": "Impact of Adults’ College Completion on their Parents’ Mortality: Evidence from the 1993 Korean Higher Education Reform",
+        "title_cn": "成人完成大学学业对其父母死亡率的影响：来自1993年韩国高等教育改革的证据",
+        "authors": [
+          "Ah-Reum Lee",
+          "William H. Dow",
+          "Jacqueline M. Torres"
+        ],
+        "abstract": "A large literature examines the economic and health returns to college education. We extend this literature by studying the upward intergenerational effects of children’s education on parental mortality. We exploit Korea’s 1993 Higher Education Reform, which we estimate raised college completion by 13 percentage points among eldest children in the 1974–1983 birth cohorts relative to the prior 10-year cohort. Using data from the Korean Longitudinal Study of Aging, reduced-form estimates indicate a 27% (s.e.=10%) reduction in mortality among parents whose oldest child was in the reform-affected cohort. Because the reform affected college completion but not other education levels or quality, we use it as an instrumental variable (IV) for child college completion. IV estimates indicate a 20% (s.e.=7%) reduction in parental mortality for children induced to complete college by the reform. These parents received greater financial support and contact from their children and had lower smoking and higher physical activity, although these mechanisms explain only a small share of the mortality benefit. Effects were larger for parents of daughters in reduced-form analyses, although IV estimates did not differ significantly by child gender. Future research should further investigate the mechanisms through which children’s college education affects parental mortality.",
+        "abstract_cn": "大量文献考察了大学教育的经济回报与健康回报。本文将这一研究拓展至子女教育对父母死亡率的向上代际效应。我们利用韩国1993年高等教育改革进行估计，该改革使1974—1983年出生队列中长子/长女的大学完成率相对于此前10年队列提高了13个百分点。基于韩国老龄化纵向研究（Korean Longitudinal Study of Aging）数据的简化式估计表明，最年长子女处于受改革影响队列的父母，其死亡率下降了27%（标准误=10%）。由于该改革仅影响大学完成率，而不影响其他教育层次或教育质量，我们将其作为子女大学完成率的工具变量（IV）。工具变量估计显示，因改革而诱导完成大学的子女，其父母死亡率下降20%（标准误=7%）。这些父母获得了子女更多的经济支持与生活联络，且吸烟率更低、体育活动更多，尽管这些机制仅能解释死亡率收益中的很小一部分。简化式分析中，女儿的效应更大，但工具变量估计并未因子女性别而呈现显著差异。未来研究应进一步探究子女大学教育影响父母死亡率的机制。",
+        "url": "https://www.nber.org/papers/w35792",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35810",
+        "title": "Like a Good Neighbor: Childhood Neighbors Influence Occupation Choice",
+        "title_cn": "近邻如好邻：童年邻里对职业选择的影响",
+        "authors": [
+          "Michael J. Andrews",
+          "Ryan R. Hill",
+          "Joseph Price",
+          "Riley Wilson"
+        ],
+        "abstract": "Occupation choice is a key determinant of economic mobility. This paper studies how childhood neighbors influence occupational choices and later-life earnings. Using linked historical U.S. census records for over six million boys and four million girls, we reconstruct neighborhood microgeography to identify childhood neighbors and their occupations. We find that living next door to someone in a given occupation increases the probability of working in that same occupation 30 years later by about 10 percent relative to other children on the same street. The transmission effect is higher with more intense exposure, in more connected neighborhoods, and when neighboring families are more similar. Exposure to high-income or highly educated neighbors has lasting economic effects, leading to significant gains in adult income and education even compared to other children from the same street. These findings suggest that neighborhood networks play an important role in shaping intergenerational economic mobility.",
+        "abstract_cn": "职业选择是决定经济流动性的关键因素。本文研究童年时期的邻居如何影响职业选择及成年后的收入。通过将逾六百万名男孩和四百万名女孩的历史美国人口普查记录进行关联，我们重构了邻里微观地理信息，以识别童年时期的邻居及其职业。研究发现，与从事某一职业的人比邻而居，会使该儿童30年后从事同一职业的概率相对于同街道的其他儿童提高约10%。当接触强度更高、邻里社会联系更紧密、以及相邻家庭相似度更高时，这种传递效应更强。接触高收入或高学历邻居具有持久的经济效应，即使与同街道的其他儿童相比，也能显著提升其成年后的收入和教育水平。这些发现表明，邻里网络在塑造代际经济流动性方面发挥着重要作用。",
+        "url": "https://www.nber.org/papers/w35810",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35824",
+        "title": "Does Fertility Stabilize At Low Levels? Evidence from Period, Cohort, and Subnational Data",
+        "title_cn": "低生育水平会趋于稳定吗？来自时期、队列及次国家数据的证据",
+        "authors": [
+          "Diane Coffey",
+          "Michael Geruso",
+          "Dean Spears",
+          "Sangita Vyas"
+        ],
+        "abstract": "Many population projections used by international and government agencies assume that, in today's low-fertility societies, future fertility rates will stop declining and roughly stabilize. This paper assesses the evidence for an equilibrium point or rebound from low levels. We show that there is no robust evidence for a systematic fertility rebound, or for a stable equilibrium point at any fertility level conventionally assumed. Instead, where and when fertility has fallen low, it has tended to keep falling. This is true across a range of data sources, time periods, and fertility measures: United Nations data on period total fertility rates for all country-years from 1950 to 2023; Human Fertility Database data on completed fertility for cohorts born between 1935 and 1975 in 31 countries; and fertility rates in subnational geographies in Japan, India, and the United States. We reconcile these results with a prior literature that documented fertility reversals among some low-fertility countries in the early 2000s. Our findings provide an empirical basis for re-examining the equilibrium and rebound assumptions embedded in widely used population projections.",
+        "abstract_cn": "国际机构与政府部门的诸多人口预测均假定，在当今低生育率社会中，未来生育率将停止下降并大致趋于稳定。本文评估了低生育水平下存在均衡点或反弹趋势的证据。研究表明，不存在支持系统性生育率反弹的稳健证据，也不存在任何常规假定生育水平上的稳定均衡点；相反，在生育率已降至低位的地区与时期，其往往持续下降。这一结论适用于多种数据来源、时期与生育率指标：联合国1950—2023年所有国家年份的时期总和生育率数据；人类生育数据库中31个国家1935—1975年出生队列的完成队列生育率数据；以及日本、印度和美国次国家地理单元的生育率数据。本文将这些结果与既有文献中关于21世纪初部分低生育率国家出现生育率回升的记录进行了调和。研究结论为重新审视广泛使用的人口预测中所内含的均衡与反弹假设提供了经验基础。",
+        "url": "https://www.nber.org/papers/w35824",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35798",
+        "title": "Are Guidelines Worth Following? Decision-Making Under Incomplete Evidence",
+        "title_cn": "循证决策是否值得？不完全证据下的决策制定",
+        "authors": [
+          "Jason Abaluck",
+          "Leila Agha",
+          "David C. Chan Jr"
+        ],
+        "abstract": "Medical guidelines translate clinical evidence into treatment rules, but the evidence may identify treatment benefits more clearly than harms. We study anticoagulation for atrial fibrillation, combining randomized trials with Veterans Health Administration data. Trial evidence reveals substantial heterogeneity in stroke-prevention benefits but does not reliably identify how treatment-induced bleeding harms vary across patients. In the target population, patients with larger predicted stroke benefits also have higher untreated bleeding risk, making this ambiguity consequential. We evaluate existing guidelines and develop maximin and minimax-regret treatment rules robust to alternative harm structures. At a benchmark preventing 50% of preventable strokes, robust rules induce 33-41% fewer bleeds than random treatment and outperform existing guidelines. Finite-sample uncertainty generates noticeable instability in fine patient rankings but little instability in treatment assignments or welfare. Physician performance and the relationship between guideline adherence and skill also depend substantially on assumptions about how treatment-induced bleeding harms vary across patients.",
+        "abstract_cn": "医学指南将临床证据转化为治疗规则，但证据对治疗收益的识别往往比对伤害的识别更为清晰。本文以心房颤动患者的抗凝治疗为研究对象，结合随机试验与退伍军人健康管理局数据进行分析。试验证据显示，卒中预防收益存在显著的个体异质性，但未能可靠识别治疗所致出血伤害在不同患者间的变异情况。在目标人群中，预测卒中预防收益较大的患者同时具有更高的未治疗出血风险，这使得上述模糊性具有重要实际影响。本文评估了现有指南，并构建了在替代伤害结构下具有稳健性的极大极小（maximin）与最小化最大遗憾（minimax-regret）治疗规则。在预防50%可预防卒中的基准情形下，稳健规则较随机治疗可减少33%至41%的出血事件，且优于现有指南。有限样本不确定性对精细的患者排序产生显著的不稳定性，但对治疗决策或福利水平的影响甚微。此外，医生绩效以及指南依从性与医术水平之间的关系，也在很大程度上依赖于关于治疗所致出血伤害如何随患者特征变化的假设。",
+        "url": "https://www.nber.org/papers/w35798",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35831",
+        "title": "Subjective Models of the Macroeconomy and the Transmission of Monetary Policy",
+        "title_cn": "宏观经济的主观模型与货币政策传导",
+        "authors": [
+          "Francesco D’Acunto",
+          "Dimitris Georgarakos",
+          "Geoff Kenny",
+          "Michael Weber"
+        ],
+        "abstract": "Standard macroeconomic theories assume that representative or heterogeneous agents share a common model of how the economy operates. Yet evidence shows that households hold heterogeneous subjective models---distinct beliefs about how macroeconomic variables interact. As a result, identical shocks or policies may elicit different responses from otherwise similar households. We test this hypothesis by measuring subjective models and investigating their role in the transmission of monetary policy to consumption embedding randomized controlled experiment in a large-scale, multi-country survey. Consumers who believe that monetary tightening primarily operates through its effects on borrowing or savings rates plan to reduce consumption more in response to randomly assigned rate increase scenarios. By contrast, those who think about inflation or general equilibrium effects adjust consumption less. These differences are not explained by demographics, financial characteristics, including mortgage holdings and mortgage type, or country-level factors. Households' actual consumption responses to endogenous policy-rate changes exhibit broadly similar patterns. Our findings stress that heterogeneity in subjective models is an overlooked determinant of monetary policy transmission.",
+        "abstract_cn": "标准宏观经济理论假定代表性或异质性经济主体共享关于经济运行方式的共同模型。然而，经验证据表明，家庭持有异质的主观模型——即关于宏观经济变量如何相互作用的 distinct beliefs（不同信念）。因此，相同的冲击或政策可能引发其他方面相似的家庭做出不同的反应。我们通过测量主观模型并考察其在货币政策向消费传导中的作用来检验这一假说，具体做法是在一项大规模多国调查中嵌入随机对照实验。认为货币紧缩主要通过借贷利率或储蓄利率发挥作用的消费者，在随机分配的加息情景下计划更大程度地减少消费。相比之下，那些考虑通胀或一般均衡效应的消费者则较少调整消费。这些差异无法由人口统计特征、金融特征（包括房贷持有情况及房贷类型）或国别因素解释。家庭对内生政策利率变化的实际消费反应呈现出 broadly similar（大体相似的）模式。我们的发现强调，主观模型的异质性是货币政策传导中一个被忽视的决定因素。",
+        "url": "https://www.nber.org/papers/w35831",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35818",
+        "title": "Windows of Opportunity in Early Childhood: A Dynamic Model of Multidimensional Development",
+        "title_cn": "幼儿发展的时间窗口：多维发展的动态模型",
+        "authors": [
+          "Orazio Attanasio",
+          "Raquel Bernal",
+          "Michele Giannola",
+          "Milagros Nores"
+        ],
+        "abstract": "Using child development data collected during the evaluation of an early childhood education program, this paper estimates a dynamic model of human development from ages 1 to 6. We model three latent factors—health, cognitive skills, and socio-emotional skills—and allow them to interact with each other and with multiple inputs to shape subsequent development. The richness and high-frequency nature of the data permit a flexible specification that (i) allows for complex dynamics, (ii) lets each factor con- tribute to the production of the others, (iii) permits age-varying production technologies, and (iv) treats parental investment as endogenous. We use the estimated model to identify “windows of opportunity” in which parental interventions, or programs that increase investment, are especially effective. Results indicate that developmental dynamics are richer than typically assumed, with important implications for persistence: the impact of inputs can decay or endure in ways that vary across domains and over age. Accounting for endogenous investment is consequential for inference.",
+        "abstract_cn": "本文利用一项幼儿教育项目评估期间收集的儿童发展数据，估计了一个从1岁至6岁的人力资本动态发展模型。我们构建了三个潜因子——健康、认知能力与社会情感能力，并允许它们彼此相互作用，同时与多种投入品交互以影响后续发展。数据的高丰富度与高频率特征支持了灵活的模型设定：（i）允许复杂的动态关系；（ii）允许各因子参与其他因子的生产；（iii）允许生产技术随年龄变化；（iv）将父母投资处理为内生变量。我们运用估计得到的模型识别\"机会窗口\"——即父母干预或能够提升投资的项目尤为有效的时期。结果表明，发展动态比通常假设的更为丰富，并对持续性具有重要含义：投入的影响可能衰减或持续，其方式因领域和年龄而异。考虑投资的内生性对推断具有重要影响。",
+        "url": "https://www.nber.org/papers/w35818",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35816",
+        "title": "The Great Accretion and the Great Depression",
+        "title_cn": "大积累与大萧条",
+        "authors": [
+          "Harold L. Cole",
+          "Stefano Cravero",
+          "Jeremy Greenwood"
+        ],
+        "abstract": "The Second Industrial Revolution sparked a wave of new products and industrial processes, fueling an optimistic Roaring Twenties. But did excitement about technological progress contribute to an over accumulation of investment, despite a slowdown in new product development and satiated demand during the 1920s? And, was this over investment worsened by continuous process innovation? Could these factors have played a role in triggering the Great Depression? To explore these questions, a macroeconomic model that incorporates both process and product innovation is proposed. Proof-of-concept simulations are performed to assess whether these factors can help explain the Great Depression. The answer is yes.",
+        "abstract_cn": "第二次工业革命催生了一波新产品和新工业流程，助推了乐观昂扬的\"咆哮的二十年代\"。然而，尽管20世纪20年代新产品开发放缓、需求趋于饱和，对技术进步的热忱是否导致了投资过度积累？持续的流程创新又是否加剧了这种过度投资？这些因素是否可能在引发大萧条中发挥了作用？为探讨这些问题，本文构建了一个同时纳入流程创新与产品创新的宏观经济模型，并通过概念验证模拟来评估这些因素能否有助于解释大萧条。答案是肯定的。",
+        "url": "https://www.nber.org/papers/w35816",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35791",
+        "title": "Here, There, and Everywhere: Remote Work’s Impact on Employment in the UK",
+        "title_cn": "远程工作对英国各地就业的影响：此处、彼处与无处不在",
+        "authors": [
+          "Ian Burn",
+          "Melissa D. Gentry",
+          "Joanna Lahey"
+        ],
+        "abstract": "Remote work is often touted as a way for disabled and older workers to remain in the labour market. Post-Covid, the incidence of remote work has increased in the UK. Following Bloom et al. (2026), we test the effects of remote work on employment for these two groups using the pandemic’s increase in work from home rates as a quasi-experiment. We compare occupations with high growth in work from home (WFH) to those with lower growth in work from home, with growth rates measured among the non-disabled or younger. We then instrument using pre-pandemic remote work scores from Dingle and Neiman (2020). We find significant evidence that rising WFH increases employment of disabled and older workers in the UK. We additionally find decreases in commute time and wages for both groups, but no effect on hours worked.",
+        "abstract_cn": "远程办公常被宣扬为残疾劳动者与年长劳动者继续留在劳动力市场的一种途径。新冠疫情后，英国远程办公的发生率有所上升。借鉴 Bloom 等（2026）的研究，我们以疫情期间居家办公（WFH）比例的上升作为准实验，检验远程办公对这两类群体就业的影响。我们将居家办公增长较快的职业与增长较慢的职业进行比较，其中增长率以非残疾群体或年轻群体为基准进行测算，并以 Dingle 和 Neiman（2020）提供的疫情前远程办公指数作为工具变量。我们发现，英国居家办公比例的上升显著促进了残疾劳动者与年长劳动者的就业。此外，我们还发现这两类群体的通勤时间有所缩短、工资有所下降，但工作时长未受影响。",
+        "url": "https://www.nber.org/papers/w35791",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35794",
+        "title": "Permits as Real Options: Anticipation and Regulatory Leakage",
+        "title_cn": "许可证作为实物期权：预期效应与监管泄漏",
+        "authors": [
+          "Anna French",
+          "Nicholas Vreugdenhil"
+        ],
+        "abstract": "We identify a new channel for regulatory leakage: the “permitting channel”. In many settings, permits lock in the regulatory regime at approval, allowing firms to acquire the option to invest under current rules. Unlike the conventional Green Paradox response, this channel operates without accelerating physical investment and pollution. We develop a framework in which firms can use real options to avoid anticipated regulation. We estimate the framework using Colorado’s oil and gas reforms, where permits surged before regulation but drilling did not. Policy-relevant designs that remove the permitting channel substantially reduce the health risks from pollution despite amplifying anticipatory investment.",
+        "abstract_cn": "我们识别出一种新的监管泄漏渠道：\"许可渠道\"。在许多情形下，许可证在审批时将监管制度锁定，使企业获得按现行规则进行投资的期权。与传统的绿色悖论（Green Paradox）反应不同，该渠道无需加速实物投资和污染排放即可运作。我们构建了一个企业可利用实物期权规避预期监管的框架，并利用科罗拉多州的油气改革对该框架进行估计，结果显示监管收紧前许可证激增，但钻井活动并未增加。消除许可渠道的政策设计尽管会放大预期性投资，却能显著降低污染带来的健康风险。",
+        "url": "https://www.nber.org/papers/w35794",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35823",
+        "title": "Optimal Population Growth in the Diamond OLG Model",
+        "title_cn": "Diamond 代际交叠模型中的最优人口增长",
+        "authors": [
+          "Laurence M. Ball"
+        ],
+        "abstract": "This paper studies the effects of population growth on welfare in an OLG model, in which lower population growth raises output per worker but also reduces the ratio of workers to retirees. Under fairly mild restrictions on the model’s parameters, there exists an optimal population-growth rate—one that maximizes steady-state welfare. This growth rate may well be negative: it may be optimal for the population to shrink over time. The introduction of a pay-as-you-go social security system reduces the optimal population-growth rate.",
+        "abstract_cn": "本文在世代交叠（OLG）模型中研究人口增长对福利的影响：较低的人口增长率会提高劳均产出，但同时也会降低劳动者与退休人员的比例。在模型参数满足相当宽松的约束条件下，存在一个最优人口增长率，即使得稳态福利最大化的增长率。该增长率完全可能为负，即人口随时间缩减可能是最优的。引入现收现付制社会保障体系会降低最优人口增长率。",
+        "url": "https://www.nber.org/papers/w35823",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35828",
+        "title": "Liability and Pricing of Dual-Use AI",
+        "title_cn": "双重用途人工智能的责任界定与定价",
+        "authors": [
+          "Joshua S. Gans"
+        ],
+        "abstract": "How much liability should AI providers bear when their services enable both attack and defence? Liability can improve welfare while increasing harm. Providers sell a common input to productive users, attackers and defenders. Within a defended contest, a higher common price reduces effort without changing attack success or attacker profits, saving resources and improving the target's security payoff. Compensation weakens defence and raises attacker profits. Optimal liability balances these effects against productive exclusion. Greater competition can lower optimal liability; every such decline must end at an outcome retaining defence. With cybersecurity access fixed, monopoly can warrant partial liability but never full liability when provision is worthwhile. When guardrails preserving productive uses are available, strong competition favours universal guarding socially but encourages unilateral removal at insufficient liability. At a fixed provider count, sufficiently many productive users ensure a pure equilibrium with universal guarding under high liability. A universal-guarding requirement makes liability redundant. Under monopoly, adoption follows a unique liability threshold, while zero liability remains uniquely optimal for a range of parameters with sufficiently many productive users.",
+        "abstract_cn": "人工智能服务提供商在同时赋能攻击与防御时应承担多大责任？责任制度可能在增加危害的同时提升福利。提供商向生产性用户、攻击者和防御者出售一种共同投入品。在受防御的对抗中，更高的共同价格会降低各方努力程度，但不改变攻击成功率或攻击者利润，从而节约资源并改善防御方的安全收益。赔偿机制则会削弱防御并提高攻击者利润。最优责任需在上述效应与生产性用户被排斥之间进行权衡。竞争加剧可能降低最优责任水平；每一次此类下降最终都必须止步于保留防御的均衡结果。在网络安全接入固定的情况下，垄断情形可能支持部分责任，但在提供行为具有经济价值时绝不支持完全责任。当存在保护生产性用途的护栏机制时，激烈竞争从社会角度倾向于普遍设置护栏，但在责任不足时却激励单方移除护栏。在提供商数量固定的情况下，足够多的生产性用户可确保在高责任水平下形成普遍设置护栏的纯策略均衡。若强制要求普遍设置护栏，则责任制度变得冗余。在垄断情形下，采用决策遵循唯一的责任阈值；而在参数取值范围足够大且生产性用户足够多时，零责任仍保持唯一最优。",
+        "url": "https://www.nber.org/papers/w35828",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35817",
+        "title": "Early Results from the RESET Demonstration Project: Inflation in Food at Home",
+        "title_cn": "RESET 示范项目初步结果：家庭食品通胀",
+        "authors": [
+          "Steve Coffey",
+          "Gabriel Ehrlich",
+          "John C. Haltiwanger",
+          "Ron S. Jarmin",
+          "David Johnson",
+          "Tod Johnson",
+          "Matthew D. Shapiro"
+        ],
+        "abstract": "This paper presents early results from the RESET Demonstration Project, an initiative that constructs price and sales indices using item-level transactions data. The project’s overarching goal is to demonstrate the feasibility and advantages of leveraging modern transactions data for economic measurement by pointing toward a future in which official economic statistics are rebuilt on 21st-century data and technology. The paper introduces new inflation measures for Food at Home and evaluates them on two fronts: how they compare to current official statistics and what they offer as novel measures that capture more accurately the dynamics of consumer choice. The paper also addresses the challenges of producing reliable and credible official statistics from item-level transactions data and reports findings on recent Food at Home inflation trends.",
+        "abstract_cn": "本文呈现 RESET 示范项目（RESET Demonstration Project）的初步成果，该项目利用商品级交易数据构建价格指数与销量指数。项目的总体目标是通过指向一个以 21 世纪数据与技术重建官方经济统计的未来，展示利用现代交易数据进行经济测度的可行性与优势。本文提出新的居家食品（Food at Home）通胀度量，并从两个维度加以评估：其与现行官方统计数据的比较，以及作为能够更精确捕捉消费者选择动态的新度量所具有的价值。本文还探讨了从商品级交易数据中生成可靠且可信的官方统计所面临的挑战，并报告了近期居家食品通胀趋势的研究发现。",
+        "url": "https://www.nber.org/papers/w35817",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35793",
+        "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel",
+        "title_cn": "人工智能的宏观效应：软件工程渠道的规模测算",
+        "authors": [
+          "Alex Blumenfeld",
+          "Jonathon Hazell",
+          "Chen Lian",
+          "Andreas Schaab"
+        ],
+        "abstract": "We measure how artificial intelligence (AI) affects the economy through its impact on software engineering productivity. We use information from financial markets to develop a forward-looking measure that is available in real time. We estimate the sensitivity of each firm’s stock return to an AI stock market index, and how this sensitivity depends on the share of firm payroll in software engineering. We use a model to map this cross-sectional relationship into software engineering productivity gains. From November 2022 to December 2025, AI increased the market’s expected present value of software engineering productivity by the equivalent of a permanent 32.6% productivity increase. The corresponding effect on the level of GDP is 3.6% in the baseline and 6.5% when higher software engineering productivity also raises R&D productivity. By mid-2026, amid rapid progress in coding agents, the effect of AI on productivity and GDP had more than doubled relative to the end of 2025.",
+        "abstract_cn": "我们测度人工智能（AI）通过提升软件工程生产率而对经济产生的影响。我们利用金融市场信息构建了一种具有前瞻性的实时可获取指标。具体而言，我们估计各企业股票收益率对AI股票市场指数的敏感度，以及该敏感度如何依赖于企业软件工程薪酬占比。我们借助模型将这一横截面关系映射为软件工程生产率的提升幅度。2022年11月至2025年12月间，AI使市场对软件工程生产率的预期现值提高了相当于永久性生产率增长32.6%的水平。在基准情形下，其对GDP水平的影响为3.6%；若软件工程生产率的提高同时带动R&D生产率上升，则该效应扩大至6.5%。截至2026年中期，随着编程智能体（coding agents）的快速发展，AI对生产率和GDP的影响已较2025年末翻了一番以上。",
+        "url": "https://www.nber.org/papers/w35793",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35782",
+        "title": "An LLM Workflow That Reproduces, Improves, and Extends Published Economics Research",
+        "title_cn": "一种可复现、改进并拓展已发表经济学研究的大语言模型工作流",
+        "authors": [
+          "Matthew Schwartz",
+          "Isaiah Andrews",
+          "Jesse M. Shapiro"
+        ],
+        "abstract": "We introduce an open-source workflow that enables an LLM to reproduce, improve, and extend an economics article using the article’s published replication package. First, the workflow attempts to reproduce the original calculations, checks for discrepancies with published findings, and performs automated sensitivity analysis. Across 4,452 published replication packages for five economics journals, the workflow flags discrepancies in 3,460 articles or their appendices. Second, the workflow improves the original calculations by using a different implementation or algorithm. In 496 articles, the workflow is able to reduce a calculation’s computation time, at similar or greater accuracy, by more than a factor of 10. Third, the workflow extends the original analysis. In 923 articles, the workflow develops an extension that does not appear in the original article and that is aligned with the original article’s goals and assumptions.",
+        "abstract_cn": "我们提出一种开源工作流，使大语言模型（LLM）能够利用经济学论文已发表的可复现资料包，对该论文进行复现、改进和拓展。首先，该工作流尝试复现原始计算，核查与已发表结果之间的差异，并执行自动化敏感性分析。在五本经济学期刊的 4,452 个已发表可复现资料包中，该工作流在 3,460 篇论文或其附录中标记出差异。其次，该工作流通过采用不同的实现方式或算法来改进原始计算。在 496 篇论文中，该工作流能够在保持相近或更高精度的前提下，将某项计算的运行时间缩短 10 倍以上。第三，该工作流对原始分析进行拓展。在 923 篇论文中，该工作流提出了原始论文中未出现、且与原始论文的目标和假设相一致的拓展分析。",
+        "url": "https://www.nber.org/papers/w35782",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35826",
+        "title": "Accounting for Cross-Country Income Differences Revisited",
+        "title_cn": "重新审视跨国收入差异的核算",
+        "authors": [
+          "David Lagakos",
+          "Todd Schoellman"
+        ],
+        "abstract": "Development accounting is the search for proximate sources of cross-country income differences. This article describes how knowledge in this field has evolved over the two decades since the influential work of Caselli (2005). There have been large advances in the measurement of production inputs (labor, physical capital, and human capital). These advances have raised the estimated contribution of inputs, mostly human capital, in development accounting. Our preferred estimate is that inputs account for 50--65 percent of gross domestic product (GDP) per worker differences, versus 30 percent using the classic specification. The literature has also made progress in moving away from Cobb-Douglas production functions and measuring factors such as management quality that were previously bundled into total factor productivity (TFP). Our review highlights the new implications of these advances, areas where future research would be beneficial, and the limitations of development accounting.",
+        "abstract_cn": "发展核算是探寻跨国收入差异直接来源的研究领域。本文梳理了自 Caselli（2005）的开创性研究发表二十余年来，该领域知识的演进脉络。生产投入要素（劳动、物质资本和人力资本）的测度取得了重大进展，这些进展提升了投入要素对发展核算的解释力，其中主要是人力资本。我们的基准估计显示，投入要素可解释人均国内生产总值（GDP）差异的 50%—65%，而采用经典设定时仅为 30%。该文献在摆脱柯布-道格拉斯生产函数的束缚、以及将管理质量等先前被归入全要素生产率（TFP）的因素单独测度等方面也取得了进展。本文综述着重阐发这些进展带来的新启示、指出未来研究可拓展的方向，并讨论发展核算方法的局限性。",
+        "url": "https://www.nber.org/papers/w35826",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35809",
+        "title": "Terra Incognita: The Economics of a Shrinking World",
+        "title_cn": "未知之境：世界收缩的经济学",
+        "authors": [
+          "Jesús Fernández-Villaverde",
+          "Patrick Norrick"
+        ],
+        "abstract": "As of 2026, humanity is likely below replacement fertility. That has never happened before, not in wars or pandemics. But the real surprise is that the fall has been concentrated in low- and middle-income countries and among poorer and less educated women. We fit a single-factor model to 236 countries since 1950: the common component peaked in 1978, and what drives fertility down today are country-specific trends, 219 of them negative and not one leveling off. None of the commonly cited mechanisms can account for this pattern, so we offer a conjecture: modernity itself, which makes a third child expensive and childlessness cheap. Children come in integers, so it takes very little to move a cohort’s fertility rate from 1.8 to 1.3. And nothing in an economy pushes fertility back to 2.1. We close with the main economic consequences, in particular slow growth.",
+        "abstract_cn": "截至 2026 年，人类总和生育率很可能已低于更替水平。这在历史上从未发生过，无论战争还是大流行期间皆然。但真正的意外在于，生育率下降集中在低收入和中等收入国家，以及较贫困、受教育程度较低的妇女群体中。我们对 1950 年以来的 236 个国家拟合了单因子模型：共同成分于 1978 年达到峰值，而当下驱动生育率下降的是国别特定趋势，其中 219 个国家呈负增长，无一趋于平稳。现有文献中常被援引的机制均无法解释这一模式，因此我们提出一个猜想：现代性本身——它使生育第三个孩子的成本高昂，而使不生育变得廉价。孩子数量取整数值，因此只需微小变动即可将某队列的生育率从 1.8 推降至 1.3。而经济体系中不存在任何力量能将生育率推回至 2.1。最后，我们讨论了主要的经济后果，尤其是经济增长放缓。",
+        "url": "https://www.nber.org/papers/w35809",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35803",
+        "title": "Injury, Workload, and the Strategic Response of Coaches in the NBA",
+        "title_cn": "NBA 中的伤病、工作量与教练策略性应对",
+        "authors": [
+          "Kala Krishna",
+          "Sergey Lychagin",
+          "Lewis S. McLean"
+        ],
+        "abstract": "Worker effort increases contemporaneous output but may result in injury or burnout. Directing effort away from the workers most exposed to injury would reduce this risk, but information on the exposure is often hidden. We ask whether managers act on such private information, studying the NBA as a data-rich workplace. Instrumenting workload with teammate absence, we find that work causally raises injury risk, which contrasts with the spurious negative correlation commonly found in sports medicine studies. We also show that coaches rest players in response to injury risk shocks. By acting on this private information, coaches can raise player productivity.",
+        "abstract_cn": "劳动者努力程度虽能提升当期产出，却可能导致伤病或职业倦怠。若将工作负荷从伤病风险最高的劳动者身上转移，便可降低此类风险，但有关风险暴露的信息往往不可观测。本文考察管理者是否会依据此类私人信息采取行动，并以 NBA 这一数据丰富的工作场所为研究对象。我们以队友缺席作为工具变量识别工作负荷，发现工作量增加确实会因果性地提升伤病风险，这与运动医学研究中常见的虚假负相关形成鲜明对比。我们还发现，教练会针对伤病风险冲击让球员轮休。通过依据这一私人信息采取行动，教练能够提高球员生产率。",
+        "url": "https://www.nber.org/papers/w35803",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35814",
+        "title": "Foreign Opportunity and Regional Revival: Evidence from the French Rust Belt",
+        "title_cn": "外来机遇与区域复兴：来自法国锈带的证据",
+        "authors": [
+          "Antoine B. Levy",
+          "Mathilde Muñoz"
+        ],
+        "abstract": "This paper studies whether and how distressed regions can recover from industrial decline. We exploit differences in access to an increasingly thriving Luxembourg labor market for neighboring residents of the French “Rust Belt.” We document a three-phase expansion of treated local labor markets, driven by an initial workplace substitution of incumbent residents towards cross-border job opportunities, a medium-term rise in local labor force utilization, and a long-run sustained increase in population via net domestic in-migration. A broader process of local revitalization follows, with higher incomes, reduced reliance on transfers, and resilience to social dislocation, although it is partially offset by rising housing costs and unequal congestion. This leads to a net decrease in far-right and anti- EU vote shares, muting the rise of populism visible elsewhere in former industrial regions of France. Our findings suggest that former industrial regions are not inherently rigid nor doomed to fall to anti-globalization backlash, but can and do adjust – given sufficiently large-scale reversals in local labor demand.",
+        "abstract_cn": "本文研究衰退地区能否以及如何从工业衰落中复苏。我们利用法国\"铁锈地带\"邻近居民进入日益繁荣的卢森堡劳动力市场的机会差异进行识别。我们发现，受处理地区的本地劳动力市场呈现三阶段扩张：最初表现为现有居民的工作地点替代，即转向跨境就业机会；中期本地劳动力利用率上升；长期则通过国内净迁入实现人口持续增长。随后出现更广泛的本地振兴进程，表现为收入提高、转移支付依赖减少以及对社会解组的抵御能力增强，尽管部分被住房成本上升和不均衡的拥挤效应所抵消。这导致极右翼和反欧盟得票率净下降，缓解了法国其他前工业地区可见的民粹主义上升态势。我们的发现表明，前工业地区并非天生僵化，亦非注定陷入反全球化反弹，而是能够且确实实现了调整——前提是本地劳动力需求出现足够大规模的逆转。",
+        "url": "https://www.nber.org/papers/w35814",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35830",
+        "title": "Economics of Demand-Side and Supply-Side Climate Policies",
+        "title_cn": "需求侧与供给侧气候政策的经济学分析",
+        "authors": [
+          "Ryan Kellogg"
+        ],
+        "abstract": "Should a jurisdiction seeking to cut greenhouse gas emissions use demand-side climate policies that target fossil fuel consumption? Or should it introduce supply-side policies that target extraction? My analysis points to a policy portfolio rather than an either/or choice. ``Leakage'' of emissions to unregulated jurisdictions can be mitigated by combining standard demand-side carbon emissions pricing with supply-side pricing of carbon extraction. Emissions pricing drives leakage by lowering fossil fuel prices abroad; extraction pricing counteracts this effect. Supply-side climate policies in practice, however, do not broadly price extraction but instead narrowly foreclose investments in fossil fuel infrastructure and are thus inefficient. To reduce carbon demand, an alternative to emissions pricing is support for clean energy. I emphasize reforms to transmission planning and utility governance as crucial for unlocking clean energy resources' potential, and I highlight the case for publicly supporting clean energy R&D, including green industrial policy, to reduce carbon emissions not just at home but also abroad. I close by discussing distributional consequences. Domestically, carbon pricing and clean energy subsidies have sharply different distributional profiles. Globally, carbon extraction pricing would harm low-income countries that are also fossil fuel importers, though there also exist low-income fossil fuel exporters that would benefit.",
+        "abstract_cn": "一个寻求削减温室气体排放的辖区，应当采用针对化石燃料消费的需求侧气候政策，还是引入针对开采的供给侧政策？我的分析指向政策组合，而非非此即彼的选择。排放\"泄漏\"至未受监管辖区的问题，可通过将标准的需求侧碳排放定价与供给侧的碳开采定价相结合来缓解。排放定价通过压低国外化石燃料价格驱动泄漏效应；开采定价则抵消这一效应。然而，实践中的供给侧气候政策并未广泛地对开采进行定价，而是狭隘地阻断化石燃料基础设施投资，因而效率低下。为减少碳需求，排放定价之外的一种替代方案是支持清洁能源。我强调输电规划与公用事业治理改革对于释放清洁能源资源潜力的关键作用，并着重论述公共支持清洁能源研发（包括绿色产业政策）的合理性，以不仅在国内、也在国外减少碳排放。最后，我讨论分配后果。在国内，碳定价与清洁能源补贴具有截然不同的分配特征。在全球层面，碳开采定价将损害同为化石燃料进口国的低收入国家，尽管也存在将受益的低收入化石燃料出口国。",
+        "url": "https://www.nber.org/papers/w35830",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35815",
+        "title": "The Commoditization of Labor",
+        "title_cn": "劳动力商品化",
+        "authors": [
+          "Masao Fukui",
+          "Emi Nakamura",
+          "Jón Steinsson"
+        ],
+        "abstract": "Technical change often simplifies jobs. This increases productivity, but it also makes workers more substitutable–or more \"commoditized.\" Commoditization of labor drives down worker bargaining power: anyone can do the job, implying workers are disposable, which improves the outside option of firms and can lower worker wages. We develop a model that captures both the productivity enhancing and wage depressing effects of commoditizing technical change. Commoditizing technical change involves firms standardizing tasks. This reduces the sensitivity of output to worker quality. Firms benefit because they can more easily fill vacancies for their durable jobs. We show that our model can help explain the divergence between productivity and wages in the service sector, increasing wage markdowns despite falling local concentration, and the decline of the large-firm wage premium.",
+        "abstract_cn": "技术进步往往使工作趋于简化。这提高了生产率，但也使劳动者更具替代性——或者说更加\"商品化\"。劳动力商品化削弱了劳动者的议价能力：任何人都能胜任该工作，意味着劳动者可被随意替换，这改善了企业的外部选择，并可能压低工资。本文构建了一个模型，以刻画使劳动力商品化的技术进步在生产率提升与工资抑制两方面的效应。劳动力商品化的技术进步体现为企业对任务的标准化，这降低了产出对劳动者质量的敏感度。企业由此获益，因其 durable jobs 的空缺更易填补。我们表明，该模型有助于解释服务业中生产率与工资的分化、尽管本地市场集中度下降但工资向下压低幅度仍趋扩大，以及大企业工资溢价的下降等现象。",
+        "url": "https://www.nber.org/papers/w35815",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35808",
+        "title": "Shipping to America",
+        "title_cn": "运往美国",
+        "authors": [
+          "Xiwen Bai",
+          "Jesús Fernández-Villaverde",
+          "Yiliang Li",
+          "Ricardo Marto",
+          "Francesco Zanetti"
+        ],
+        "abstract": "We study the macroeconomic and trade-policy implications of disruptions to U.S.-bound shipping routes. Standard models treat them as iceberg-cost shocks, conflating the shock with the response to it. Using satellite vessel-tracking data, we construct route-level measures of potential and effective capacity for all U.S.-bound container ships from 2016 to 2025. Utilization losses in recent disruptions ran 20 to 40 percentage points, and began months before port congestion became visible. We embed these measures in a general equilibrium model in which firms reallocate a common fleet without internalizing the congestion they create and price above marginal cost, while importers' sourcing responds to route profitability. The reallocation triggered by a disruption then has first-order welfare effects, and the route's Domar weight is not a sufficient statistic for its welfare cost. The 2021 West Coast crisis and the 2023-2024 Red Sea attacks cost 0.69% and 0.35% of output. Naval protection of Red Sea shipping generated benefits of 0.04-0.08% of output at a fiscal cost of 0.02%. Tariffs decongest the routes they tax, offsetting or even reversing their conventional welfare cost.",
+        "abstract_cn": "我们研究美国航线中断对宏观经济与贸易政策的影响。标准模型将其视为冰山成本冲击，将冲击本身与对冲击的反应混为一谈。我们利用卫星船舶追踪数据，构建了2016年至2025年间所有驶美集装箱船舶在航线层面的潜在运力与实际运力指标。近期中断造成的利用率损失达20至40个百分点，且在港口拥堵显现前数月即已开始。我们将这些指标嵌入一个一般均衡模型，其中企业在未将其造成的拥堵内部化的条件下重新配置共用船队，且定价高于边际成本，同时进口商的采购决策随航线盈利能力而调整。由中断触发的船队重新配置因而产生一阶福利效应，且航线的Domar权重并非其福利成本的充分统计量。2021年美国西海岸危机与2023—2024年红海袭击分别造成相当于产出0.69%与0.35%的损失。海军护航红海航运产生的收益为产出的0.04%—0.08%，财政成本为0.02%。关税可缓解其所征税航线的拥堵，从而抵消甚至逆转其传统福利成本。",
+        "url": "https://www.nber.org/papers/w35808",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35807",
+        "title": "Network General Equilibrium as a Threat to Identification: The Failure of Time Fixed Effects",
+        "title_cn": "网络一般均衡对识别构成的威胁：时间固定效应的失效",
+        "authors": [
+          "Bernard Herskovic",
+          "Gill Segal"
+        ],
+        "abstract": "Time fixed effects are not a general-equilibrium control. In network economies, aggregate shocks do not enter firm outcomes uniformly: they propagate through equilibrium prices, costs, and demand, leaving a residual network gradient after time demeaning. When an instrument, treatment, or exposure design even partially aligns with this gradient, standard panel estimators recover the direct effect plus an endogenous network-leakage component. We develop a tractable framework that signs and quantifies this Network-SUTVA bias in closed form, showing how network topology governs its magnitude. Weak instruments magnify the leakage. Difference-in-differences designs are similarly contaminated because controls can be untreated by assignment but treated in equilibrium. Calibrated to the U.S. production network, the distortion can exceed 130% of the true direct effect. We propose observed- and hidden-network diagnostics and remedies, and test them on canonical difference-in-differences designs, showing that standard estimators can confound direct policy responses with systemic network leakage.",
+        "abstract_cn": "时间固定效应并非一般均衡控制。在网络经济中，总量冲击并非均匀地进入企业结果，而是通过均衡价格、成本和需求进行传导，去时间均值后仍留下残差的网络梯度。当工具变量、处理变量或暴露设计哪怕只是部分地与这一梯度对齐时，标准面板估计量所恢复的将是直接效应加上一个内生的网络泄漏成分。本文构建了一个易处理框架，以闭式解为该网络-SUTVA偏误赋予符号并进行量化，揭示网络拓扑如何决定其大小。弱工具变量会放大这一泄漏。双重差分设计同样受到污染，因为控制组在分配上可能未受处理，但在均衡中却受到了处理。以美国生产网络进行校准，该扭曲可超过真实直接效应的130%。本文提出了基于可观测网络和隐藏网络的诊断方法与修正方案，并在经典双重差分设计中对它们进行检验，表明标准估计量可能将直接政策反应与系统性网络泄漏相混淆。",
+        "url": "https://www.nber.org/papers/w35807",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35804",
+        "title": "Beveridgean Phillips Curve",
+        "title_cn": "贝弗里奇菲利普斯曲线",
+        "authors": [
+          "Pascal Michaillat",
+          "Emmanuel Saez"
+        ],
+        "abstract": "This paper develops a Beveridgean model of the Phillips curve. While the New Keynesian Phillips curve is based on monopolistic pricing under price-adjustment costs, the Beveridgean Phillips curve is based on directed-search pricing under price-adjustment costs. Under directed search, prices respond to slack instead of marginal costs. The resulting Phillips curve has three properties that match recent US evidence. First, it delivers the divine coincidence: inflation is on target whenever unemployment is at its efficient level—the full-employment rate of unemployment (FERU), the geometric mean of the unemployment and vacancy rates. Second, it is decreasing and convex in the unemployment-inflation plane: inflation responds more strongly to unemployment when the labor market is inefficiently tight than when it is inefficiently slack. The convexity is inherited from the Beveridge curve, which makes unemployment a decreasing and convex function of tightness. Third, shifts of the Beveridge curve move the FERU and therefore shift the unemployment-inflation Phillips curve. The model also implies that the Fed's dual mandate is internally consistent, that a soft landing from an inefficiently tight labor market is possible, and that the zero lower bound is not topsy-turvy.",
+        "abstract_cn": "本文构建了一个贝弗里奇形式的菲利普斯曲线模型。新凯恩斯主义菲利普斯曲线基于价格调整成本下的垄断定价，而贝弗里奇菲利普斯曲线则基于价格调整成本下的定向搜寻定价。在定向搜寻机制下，价格对劳动力市场松弛程度而非边际成本作出反应。由此得到的菲利普斯曲线具有三个与近期美国经验证据相吻合的性质。第一，该模型呈现\"神圣巧合\"：当失业处于有效水平时，通胀恰好达到目标值——这一有效失业水平即充分就业失业率（FERU），为失业率与岗位空缺率的几何平均数。第二，该曲线在失业—通胀平面上呈递减且凸向原点的形态：当劳动力市场处于无效率偏紧状态时，通胀对失业的反应强于无效率偏松状态。这一凸性继承自贝弗里奇曲线，后者使失业成为劳动力市场紧度的一个递减凸函数。第三，贝弗里奇曲线的移动会改变 FERU，从而推动失业—通胀菲利普斯曲线发生位移。该模型还意味着美联储的双重使命具有内在一致性，从无效率偏紧的劳动力市场实现软着陆是可能的，且零下限并非颠倒错乱的。",
+        "url": "https://www.nber.org/papers/w35804",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35827",
+        "title": "Crime in Covid Times",
+        "title_cn": "新冠疫情时期的犯罪",
+        "authors": [
+          "Jens Ludwig"
+        ],
+        "abstract": "What caused the historically unique volatility in American homicides since 2019, driven by gun homicides? While there is no shortage of candidate explanations, a coherent understanding has been elusive because of the widely held view that gun violence, like other crimes, stems from a rational weighing of benefits and costs as in Becker (1968). This model does a generally poor job of explaining recent trends in homicide. Behavioral economics helps explain what the Becker model cannot. This view starts with the fact that most shootings don’t further some larger goal like robbery or gang wars over drug turf (“instrumental violence”); they’re arguments settled with guns (“expressive violence”). Why do arguments start or escalate? The behavioral model points to automatic cognition that is fast, effortless but sometimes prone to error. The pandemic increased automaticity by increasing distress – a cognitive “bandwidth tax.” Recent homicide trends, driven by changes in expressive violence, are mirrored by similar trends for deaths from drug overdose, car crashes, and suicide (especially for Black Americans, the group most affected by violence) – “deaths of decision-making.” Also relevant is a large rise and fall in gun carrying, which might partially stem from Becker-like mechanisms: Large changes in handgun sales and police stops, both of which may also have been affected by the killing of George Floyd. Since American gun violence is mostly arguments with guns, no wonder homicide trends are due mostly to changes in the number of arguments and the odds a given argument had a gun present.",
+        "abstract_cn": "2019年以来美国凶杀案的历史性波动由枪支凶杀所驱动，其成因何在？尽管不乏候选解释，但连贯的理解一直难以形成，原因在于广泛持有的观点认为枪支暴力与其他犯罪一样，源于对收益与成本的理性权衡，正如Becker（1968）的模型所示。该模型在解释近期凶杀趋势方面总体表现欠佳。行为经济学有助于解释Becker模型无法说明的现象。这一视角首先基于如下事实：大多数枪击事件并非服务于抢劫或帮派争夺毒品地盘等更大目标（\"工具性暴力\"），而是以枪支了结的争执（\"表达性暴力\"）。争执为何发生或升级？行为模型指向自动认知——快速、省力但有时易于出错的认知过程。疫情通过加剧心理困扰增加了自动性，形成一种认知\"带宽税\"。近期由表达性暴力变化所驱动的凶杀趋势，与药物过量死亡、车祸死亡及自杀死亡（尤其是对受暴力影响最深的美国黑人群体）的类似趋势相互映照——这些可称为\"决策之死\"。枪支携带的大幅升降亦与此相关，这部分可能源于类Becker机制：手枪销量与警察截停的大幅变化，二者均可能受到George Floyd事件的影响。鉴于美国枪支暴力多为持枪争执，凶杀趋势主要源于争执数量的变化及特定争执中有枪在场的概率变化，也就不足为奇了。",
+        "url": "https://www.nber.org/papers/w35827",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35802",
+        "title": "The Political Foundations of Industrial Policy: Emergence, Endurance, and Exhaustion",
+        "title_cn": "产业政策政治基础：兴起、存续与耗竭",
+        "authors": [
+          "Lottie Field",
+          "Réka Juhász",
+          "Michele Zampa"
+        ],
+        "abstract": "We study how politics shapes industrial policy through two paradigmatic twentieth-century cases: the Cassa per il Mezzogiorno in Italy (1950–1984) and Kennedy's Moonshot in the United States (1961–1972). Drawing on historical and primary political sources, we show that each policy originated in a broader political project rather than in an economic diagnosis: the Christian Democrats' pursuit of national integration and democratic consolidation, and Kennedy's New Frontier. We introduce the concept of industrial policy vision - a publicly articulated, transformational objective that political leaders attach to a set of ideals and pursue through state-led intervention in the economy - and develop a five-component definition that makes it empirically tractable. We then trace each vision through decades of newspaper coverage, combining topic modeling and sentiment analysis with systematic close reading. In both cases, public debate proceeded largely within the frame the vision set, granting the policies tolerance for setbacks and expense. The cases diverge in their fates: the Moonshot's bounded vision was redeemed on schedule, while the Cassa's open-ended vision was exhausted by accumulated failure and the policy outlived it only briefly. This divergence points to our central conclusion: while a vision holds, it sets the terms on which an industrial policy's performance is judged, including what counts as failure and how much time the policy is given to deliver.",
+        "abstract_cn": "我们研究政治如何塑造产业政策，以两个二十世纪的经典案例为分析对象：意大利的南方基金（Cassa per il Mezzogiorno，1950–1984年）与肯尼迪的登月计划（Moonshot，1961–1972年）。基于历史文献与一手政治资料，我们表明每项政策均源于更广泛的政治工程，而非经济诊断：前者出自基督教民主党追求国家整合与民主巩固的目标，后者出自肯尼迪的\"新边疆\"（New Frontier）议程。我们引入\"产业政策愿景\"这一概念——即政治领袖公开宣示的变革性目标，该目标与一套理想相联结，并通过国家主导的经济干预来推进——并构建了一个包含五个维度的操作性定义，使其具备经验可检验性。随后，我们追踪两项愿景在数十年间的新闻报道演变，综合运用主题建模、情感分析与系统性精读方法。在两个案例中，公共辩论基本在愿景所设定的框架内展开，使政策对挫折与耗费具有容忍空间。但两项案例的结局出现分化：登月计划的有限愿景如期兑现，而南方基金的开放式愿景则因累积失败而耗竭，政策本身也仅短暂延续。这一分化指向我们的核心结论：只要愿景持续存在，它便设定评判产业政策绩效的准则，包括何种结果构成失败，以及政策被赋予多长时间以实现其目标。",
+        "url": "https://www.nber.org/papers/w35802",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35806",
+        "title": "Deep Learning as a Projection Method for Solving Economic Models",
+        "title_cn": "深度学习作为求解经济模型的投影方法",
+        "authors": [
+          "Kenneth L. Judd",
+          "Karl Schmedders"
+        ],
+        "abstract": "Deep learning is increasingly presented in economics as a new paradigm for solving dynamic models, superseding the classical projection methods of numerical economics. We argue that this dichotomy rests on a misclassification. The neural-network solvers emphasized in this literature are least-squares projection methods with an adaptive nonlinear parameterization. Placing deep learning inside the projection family reorients the agenda. The issue is not a contest between paradigms, but suggests a single toolkit using a variety of approximation methods, residual criteria, and evaluation designs to be chosen on the merits for the model at hand. In low and moderate dimensions, linear-basis and sparsegrid methods are often more accurate, faster, and easier to verify than a trained neural network. In high dimensions, an appropriate choice for the space of permissible functions will often avoid the curse of dimensionality.",
+        "abstract_cn": "深度学习在经济学中日益被呈现为一种求解动态模型的新范式，取代数值经济学中的经典投影方法。我们认为，这种二元对立建立在错误分类的基础之上。这一文献所强调的神经网络求解器，本质上是以自适应非线性参数化实现的最小二乘投影方法。将深度学习纳入投影方法家族，能够重新定位研究议程。核心问题并非范式之间的竞争，而是倡导将各类近似方法、残差准则与评估设计纳入同一工具箱，并依据具体模型的特点择优而用。在低维与中等维度情形下，线性基函数方法与稀疏网格方法往往在精度、速度及可验证性方面均优于训练后的神经网络。在高维情形中，对容许函数空间的恰当选择通常能够规避维数灾难。",
+        "url": "https://www.nber.org/papers/w35806",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35799",
+        "title": "The Wealth of Nations: Origins of Prosperity and Seeds of Inequality",
+        "title_cn": "国家财富：繁荣的起源与不平等的种子",
+        "authors": [
+          "Oded Galor"
+        ],
+        "abstract": "What ignited humanity’s momentous ascent from millennia of stagnation to an era of sustained economic growth? And what are the roots of the vast disparities in the wealth of nations? These enduring mysteries, which have preoccupied scholars across generations, lie at the core of Unified Growth Theory. This encompassing framework captures the evolution of societies over the entire course of human history and identifies the universal wheels of change that governed humanity’s long journey, propelled the growth process, and shaped inequality across the globe. The theory uncovers the forces underlying the dramatic transformation in living standards over the past two centuries, emerging from an economic ice age of near stagnation, while highlighting the enduring historical roots of the immense divergence in the prosperity of nations. It suggests that forces set in motion in the distant past played a pivotal role in shaping development across the globe and remain essential for the design of effective policies that foster economic progress and mitigate inequality in the wealth of nations.",
+        "abstract_cn": "是什么点燃了人类从数千年停滞走向持续经济增长时代的重大跃升？又是什么造就了国家间财富的巨大差距？这些困扰历代学者的持久谜题，正是统一增长理论的核心关切。这一综合性框架刻画了人类社会在整部历史进程中的演变，识别出支配人类漫长旅程、推动增长进程并塑造全球不平等的普遍性变革机制。该理论揭示了过去两个世纪生活水平戏剧性转变背后的力量——人类从近乎停滞的经济冰河期中走出，同时凸显了国家间繁荣巨大分化的深远历史根源。理论表明，远古时期启动的力量在全球发展格局的塑造中发挥了关键作用，并且对设计促进经济进步、缓解国家间财富不平等的有效政策而言仍然至关重要。",
+        "url": "https://www.nber.org/papers/w35799",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35812",
+        "title": "Transportation Bottlenecks and Aggregate Shocks",
+        "title_cn": "交通瓶颈与总量冲击",
+        "authors": [
+          "Giulia Brancaccio",
+          "Myrto Kalouptsidi",
+          "Theodore Papageorgiou",
+          "Yixin Zhou"
+        ],
+        "abstract": "Do transportation disruptions affect aggregate outcomes? We develop a tractable model of the transportation sector to study its impact on prices and international trade. By casting maritime transportation as a queueing network, the model identifies where the transportation bottlenecks lie and delivers a simple and easy-to compute measure of transportation capacity over time. We calibrate the model using shipping and trade data and use it to evaluate the resilience of the shipping sector during the last 20 years. During the Great Supply Chain Disruption, port bottlenecks raised commodity prices and caused shortages, but a contemporaneous contraction in commodity supply reduced shipping demand and thereby dampened these effects. By contrast, insufficient shipping capacity was a key driver of price increases during the 2000s Commodity Supercycle.",
+        "abstract_cn": "交通中断是否影响总量结果？本文构建了一个可求解的运输部门模型，以研究其对价格和国际贸易的影响。通过将海运建模为排队网络，该模型识别了运输瓶颈所在，并提供了一个简单且易于计算的运输能力时变测度。我们利用航运与贸易数据对模型进行校准，并据此评估过去20年间航运部门的韧性。在大供应链中断期间，港口瓶颈推高了大宗商品价格并造成短缺，但同期大宗商品供给收缩降低了航运需求，从而缓解了上述效应。相比之下，航运能力不足则是2000年代大宗商品超级周期中价格上涨的关键驱动因素。",
+        "url": "https://www.nber.org/papers/w35812",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35820",
+        "title": "Social Sorting and Political Cleavages: Evidence from 2.5 Million Electoral Candidates",
+        "title_cn": "社会分选与政治裂痕：来自250万选举候选人的证据",
+        "authors": [
+          "Jesús Fernández-Villaverde",
+          "Carlos Sanz"
+        ],
+        "abstract": "How socially distinct are competing political parties' candidate pools? Since names encode cultural milieu, lineage, linguistic origin, and ancestry that standard socioeconomic variables miss, we measure social sorting across parties with names, predicting affiliation out of sample within municipality-years. Across more than 2.5 million local-election candidates, names pick the right-wing candidate in a random within-municipality pair 55.8\\% of the time in Spain and 56.5\\% in France. Given names alone do most of the work: around 55.0%. Under a stylized model of intergenerational transmission of political orientation, this translates to an implied gap of about 25 p.p. in parental naming propensities. The signal is stable in Spain but doubles in France by 2026. Within ideological families, names separate parties as sharply as across the right--left divide, even more so in France. The Spanish cleavage is linguistic and growing. The French one runs through names of immigrant origin and is strongest in large cities.",
+        "abstract_cn": "竞争政党的候选人池在社会特征上存在多大差异？由于姓名蕴含了标准社会经济变量难以捕捉的文化环境、家族谱系、语言渊源和族裔背景，我们利用姓名来度量跨政党的社会分选，并在市镇—年份层面进行样本外 affiliation 预测。在超过250万地方选举候选人中，在随机抽取的同一市镇候选人配对里，仅凭姓名识别出右翼候选人的准确率在西班牙为55.8%，在法国为56.5%。仅给定姓名即可解释其中大部分预测力：约55.0%。在一个简化的政治取向代际传递模型下，这转化为父母命名倾向约25个百分点的隐含差距。该信号在西班牙保持稳定，但在法国至2026年翻了一番。在意识形态家族内部，姓名的区分效力与跨左右翼分野相当，在法国甚至更为显著。西班牙的社会裂痕体现为语言维度且持续扩大；法国的社会裂痕则贯穿移民渊源的姓名，且在大城市中最为突出。",
+        "url": "https://www.nber.org/papers/w35820",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35822",
+        "title": "Financial Innovation and the International Monetary System",
+        "title_cn": "金融创新与国际货币体系",
+        "authors": [
+          "Gordon Y. Liao",
+          "Eswar S. Prasad",
+          "Tony Zhang"
+        ],
+        "abstract": "We show that the dollar remains dominant in most aspects of global finance. The euro and renminbi are competing in an increasingly fragmented second tier of currencies, leaving no clear rivals to the dollar. We study how financial innovation could reshape the international monetary system. In principle, innovation levels the playing field between countries, for instance by reducing the need for vehicle currencies to intermediate transactions between other currency pairs and by making it easier to acquire and trade foreign assets. We show that an alternative outcome is more likely. Innovations that reduce frictions in cross-border transactions, especially dollar-backed payment stablecoins and other forms of tokenization of money, could interact with relative market thickness to reinforce the dollar’s dominance. This outcome is not preordained but depends on other countries’ willingness to embrace innovations and strengthen their financial markets and regulatory frameworks. While unipolarity has many disadvantages, we show that in some circumstances multipolarity might result in greater global fragility at times of financial market stress.",
+        "abstract_cn": "我们表明，美元在全球金融的大多数领域仍居主导地位。欧元与人民币在日益碎片化的第二梯队货币中展开竞争，尚无任何货币能明确挑战美元。我们研究金融创新如何重塑国际货币体系。原则上，创新可为各国创造公平竞争环境，例如降低对媒介货币（vehicle currencies）为其他货币对交易提供中介的需求，并使获取和交易外国资产更为便利。但我们表明，另一种结果更有可能出现。减少跨境交易摩擦的创新——尤其是美元支持的支付型稳定币及其他形式的货币代币化——可能与相对市场厚度（relative market thickness）相互作用，从而强化美元的主导地位。这一结果并非注定，而是取决于其他国家拥抱创新的意愿，以及其强化金融市场与监管框架的决心。尽管单极格局存在诸多弊端，我们表明，在某些情境下，多极化可能在金融市场承压时期导致更大的全球脆弱性。",
+        "url": "https://www.nber.org/papers/w35822",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35832",
+        "title": "Global Temperature and Global Mortality",
+        "title_cn": "全球气温与全球死亡率",
+        "authors": [
+          "Adrien Bilal",
+          "Diego R. Känzig",
+          "Krzysztof Lisiecki"
+        ],
+        "abstract": "This paper documents large indirect mortality impacts of climate change. Exploiting natural global temperature variability, we find that 1°C of warming increases annual mortality by 2.5 deaths per 1,000 individuals, compared to 0.1 deaths per 1,000 due to the associated local heat exposure. Using external estimates of the impact of global income on mortality, we show that the macroeconomic effects of global temperature changes explain two thirds of the gap between these estimates. We use this evidence to estimate damage functions in a neoclassical growth model that links mortality and economic activity and accounts for adaptation to mortality impacts. Mortality contributes $400 per ton of CO₂ to the Social Cost of Carbon, or one quarter of total climate damages. These results suggest that economic adaptation has a double dividend by also reducing climate-related mortality.",
+        "abstract_cn": "本文记录了气候变化带来的大规模间接死亡影响。利用全球温度的自然变异，我们发现气温上升 1°C 会使年度死亡率每千人增加 2.5 人，而与之相关的本地热暴露仅导致每千人增加 0.1 人死亡。借助全球收入对死亡率影响的外部估计，我们表明全球温度变化的宏观经济效应解释了上述估计之间差距的三分之二。我们利用这一证据，在一个将死亡率与经济活动联系起来并考虑对死亡影响进行适应的新古典增长模型中估计了损害函数。死亡率对碳社会成本的贡献为每吨 CO₂ 400 美元，占气候总损害的四分之一。这些结果表明，经济适应具有双重红利，同时还能减少与气候相关的死亡。",
+        "url": "https://www.nber.org/papers/w35832",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35796",
+        "title": "The Early Impacts of AI on Employment among Recent College Graduates",
+        "title_cn": "AI 对近期大学毕业生的早期就业影响",
+        "authors": [
+          "Robert W. Fairlie",
+          "Jane Wu"
+        ],
+        "abstract": "The impact of AI on the employment prospects of recent college graduates is hotly debated with no consensus on the magnitude of impacts nor even the timing of those potential impacts. Using CPS microdata, we provide the first estimates of the effects of AI on the unemployment of recent college graduates in June, July and August 2026. We provide evidence suggesting that unemployment rates are especially high for summer months and that 2026 might be the first year of widespread enough AI use in the workplace to detect impacts of AI on recent college graduates, the group argued to be most vulnerable to AI replacement. Taking an agnostic approach to defining treatment timing, we find that unemployment rates did not spike in summer 2026 relative to summer months in previous years and did not rise in a significant way relative to older college graduates or young workers without a college degree. We also provide the first analysis of an expanded definition of unemployment that includes those who report “wanting a job” which adds nearly two percentage points to the unemployment rate of recent college graduates but we find no evidence of a statistically significant increase in summer 2026 even after adding these “sidelined unemployed.” We estimate difference-in-differences and event-study interaction models using both older college graduates and young non-college graduates as comparison groups and do not find evidence of an increase in relative unemployment rates. Finally, we estimate models in which we interact 2026 unemployment with AI exposure and remote work availability by occupation and find some evidence of a positive relationship with remote work availability.",
+        "abstract_cn": "人工智能对应届大学毕业生就业前景的影响正引发激烈争论，学界在冲击 magnitude 与潜在冲击时点方面均未形成共识。本文利用 CPS 微观数据，首次估计了人工智能对 2026 年 6 月、7 月和 8 月应届大学毕业生失业状况的影响。我们提供了两方面证据：一是夏季月份的失业率通常偏高，二是 2026 年可能是人工智能在工作场所应用范围足够广泛、从而能够识别其对应届大学毕业生——这一被认为最易遭受人工智能替代的群体——影响的首个年份。在干预时点设定上采取不可知论方法，我们发现 2026 年夏季的失业率并未相对于往年夏季出现飙升，也未相对于年长大学毕业生或未取得大学学历的青年劳动者显著上升。我们还首次扩展了失业定义，将报告\"想要工作\"的人群纳入其中，这使应届大学毕业生的失业率上升近两个百分点，但即便加入这些\"边缘失业者\"，我们仍未发现 2026 年夏季存在统计上显著增长的证据。我们分别以年长大学毕业生和青年非大学毕业生作为对照组，估计了双重差分模型与事件研究交互模型，均未发现相对失业率上升的证据。最后，我们估计了将 2026 年失业率与职业层面的人工智能暴露度及远程工作可得性交互的模型，发现远程工作可得性与之存在正向关系的部分证据。",
+        "url": "https://www.nber.org/papers/w35796",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35813",
+        "title": "The Dynamics of Development in a Zero-Sum World",
+        "title_cn": "零和博弈世界中的发展动态",
+        "authors": [
+          "Augustin Bergeron",
+          "Jean-Paul Carvalho",
+          "Joseph Henrich",
+          "Nathan Nunn",
+          "Jonathan L. Weigel"
+        ],
+        "abstract": "This chapter examines the consequences of zero-sum environments for cultural change, innovation, and long-term economic growth. We introduce innovation into the framework developed by Bergeron et al. (forthcoming), in which zero-sum environments give rise to demotivating beliefs. Although demotivating beliefs improve static efficiency by limiting excessive competition in zero-sum environments, we show that they can also impede long-term growth. Because demotivating beliefs suppress effort, they can also reduce learning-by-doing and other production spillovers. Hence, they can inhibit innovation and act as a cultural evolutionary kludge. We apply the model to explain the cultural changes associated with Western Europe's economic rise after 1500.",
+        "abstract_cn": "本章考察零和博弈环境对文化变迁、创新与长期经济增长的影响。我们在 Bergeron 等人（即将发表）所发展的框架中引入创新，该框架表明零和博弈环境会催生抑制积极性的信念。尽管抑制积极性的信念通过限制零和博弈环境中的过度竞争而提升了静态效率，但我们证明其亦可能阻碍长期增长。由于抑制积极性的信念会压低努力程度，其也会削弱干中学及其他生产溢出效应，从而抑制创新，并充当一种文化演化层面的权宜之计。我们将该模型应用于解释 1500 年后西欧经济崛起所伴随的文化变迁。",
+        "url": "https://www.nber.org/papers/w35813",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35829",
+        "title": "Importers, Market Power and Optimal Tariffs",
+        "title_cn": "进口商、市场势力与最优关税",
+        "authors": [
+          "Jonathan Becker",
+          "Corina Boar",
+          "Virgiliu Midrigan"
+        ],
+        "abstract": "Importers are few and large, have higher labor productivity and pass through cost changes to prices incompletely. We study optimal tariffs in a model consistent with these facts. Firms pay a fixed cost to import and charge markups that increase with size. Market power implies that importers are too few and too small relative to the efficient allocations. Tariffs amplify this distortion. We derive a formula that relates the optimal tariff not only to the foreign export supply elasticity but also to how much distortions amplify the effect of trade costs on welfare. In our calibrated economy the optimal tariff is negative and decreases with country size.",
+        "abstract_cn": "进口企业数量少但规模大，劳动生产率较高，且成本变化向价格的传导不完全。本文在一个与上述事实一致的模型中研究最优关税。企业需支付固定成本方可进口，并随规模扩大而收取更高的加成。市场势力意味着，相对于有效配置，进口企业数量过少、规模过小。关税会放大这一扭曲。我们推导出一个公式，表明最优关税不仅与外国出口供给弹性相关，还取决于扭曲如何放大贸易成本对福利的影响。在校准后的经济体中，最优关税为负，且随国家规模增大而降低。",
+        "url": "https://www.nber.org/papers/w35829",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35805",
+        "title": "Foreign Tax Advantages after the U.S. Tax Reform of 2017",
+        "title_cn": "2017 年美国税改后的外国税收优势",
+        "authors": [
+          "Anmol Bhandari",
+          "Ellen McGrattan"
+        ],
+        "abstract": "We construct a firm-year panel of income-tax rate reconciliations from annual 10-K filings of public companies to study the effects of the Tax Cuts and Jobs Act (TCJA) on U.S. multinational profit shifting. These reconciliations decompose the gap between company-level effective tax rates and the federal statutory corporate tax rate, allowing us to isolate the contribution of foreign tax advantages before and after the reform. We find that TCJA significantly reduced the tax rate gap and increased effective tax rates for companies most exposed to pre-TCJA international tax benefits. This resulted in an onshoring of profits with foreign profit shares falling 1.3 percentage points per percentage point of tax increase. Among more exposed companies, we find no differential change in investment, employment, or the geographic distribution of sales and installed capital. A neoclassical model of a multinational that chooses where to book its income rationalizes this pattern: the reform raised the average tax on income booked abroad relative to income booked at home, which governs where profits are reported, while the marginal tax on capital, which governs investment, changed by an amount common to all firms. Controlling for deferred-tax windfall gains leaves our main results unchanged.",
+        "abstract_cn": "我们利用上市公司年度 10-K 报告中的所得税率调节表，构建了企业—年度面板数据，以研究《减税与就业法案》（TCJA）对美国跨国企业利润转移的影响。这些调节表将企业层面实际有效税率与联邦法定企业所得税率之间的差额进行分解，使我们能够识别改革前后外国税收优势的贡献。我们发现，TCJA 显著缩小了税率差额，并对改革前受国际税收优惠影响最大的企业提高了其实际有效税率。这导致利润回流国内：税率每提高 1 个百分点，海外利润份额便下降 1.3 个百分点。在受影响更大的企业中，我们未发现投资、就业或销售与已安装资本的地理分布存在差异化变化。一个跨国企业选择利润记账地点的新古典模型可以解释这一模式：改革提高了海外记账利润相对于国内记账利润的平均税负，而平均税负决定利润申报地点；但资本的边际税负——它决定投资决策——在所有企业中的变化幅度相同。在控制递延税项意外收益后，我们的主要结果保持不变。",
+        "url": "https://www.nber.org/papers/w35805",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35790",
+        "title": "Price Setting During a Currency Changeover",
+        "title_cn": "货币转换期间的价格设定",
+        "authors": [
+          "Fernando E. Alvarez",
+          "David Argente",
+          "Alberto Cavallo",
+          "Francesco Lippi"
+        ],
+        "abstract": "We use the euro cash changeover, a large-scale and purely nominal reform that requires all firms to redenominate posted prices, to distinguish among theories of price rigidity. We develop a nonstationary menu-cost model in which firms anticipate the changeover date and may combine currency adoption with real price adjustment. The announcement makes the firm’s inaction region time-varying, a singular control problem with a moving boundary for which closed-form characterizations are rarely available. We solve this problem analytically by perturbation, recovering the whole path of the boundary, the date at which firms begin adopting the new currency, and the implied pricing moments. The model predicts that, as the changeover approaches, firms adjust more frequently but by smaller amounts, compressing the distribution of price changes. We test these predictions using historical CPI micro data from Austria, Finland, Greece, and Slovakia, a UK benchmark, and daily price data from the recent changeovers in Croatia and Bulgaria. Across changeovers, adjustment frequency rises while the size and dispersion of price changes fall. The model adds a single parameter to the standard menu-cost setup, the cost of pricing in the wrong currency. Calibrating it to the observed rise in adjustment frequency, the model reproduces the decline in the size of price changes and its subsequent recovery, neither of which is targeted. The evidence supports state-dependent price-setting models over models in which nominal redenomination leaves real pricing behavior unchanged.",
+        "abstract_cn": "我们利用欧元现金兑换改革——一项大规模且纯粹名义性的改革，要求所有企业重新标注定价货币——来区分不同价格粘性理论。我们构建了一个非稳态菜单成本模型，其中企业预期到兑换日期，并可能将货币采用与实际价格调整相结合。改革公告使得企业的不作为区间随时间变化，这构成了一个具有移动边界的奇异控制问题，此类问题鲜有闭式刻画。我们通过扰动法解析求解该问题，恢复了边界完整路径、企业开始采用新货币的日期以及所隐含的价格调整矩。模型预测，随着兑换日期临近，企业调整频率上升但调整幅度减小，从而压缩价格变动的分布。我们利用奥地利、芬兰、希腊和斯洛伐克的历史消费者价格指数（CPI）微观数据、英国基准数据，以及克罗地亚和保加利亚近期货币兑换的日度价格数据对这些预测进行检验。历次货币兑换中，调整频率均上升，而价格变动幅度及其离散程度均下降。该模型在标准菜单成本框架基础上仅增加一个参数，即以错误货币定价的成本。将其校准至观察到的调整频率上升，模型复现了价格变动幅度的下降及其随后的恢复，而这两个特征均非校准目标。上述证据支持状态依赖定价模型，而非名义重新标价不改变实际定价行为的模型。",
+        "url": "https://www.nber.org/papers/w35790",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35819",
+        "title": "Timing, Trading Frictions, and the Limits of Subsidy Capture in Livestock Risk Protection",
+        "title_cn": "牲畜风险保护中的补贴捕获时机、交易摩擦与局限",
+        "authors": [
+          "Yifei Zhang",
+          "Andrew Keller",
+          "Shawn Arita",
+          "Sandro Steinbach"
+        ],
+        "abstract": "Publicly subsidized insurance programs can create incentives for subsidy capture when insured products closely resemble privately traded financial instruments. Livestock Risk Protection (LRP) is one such case because it provides price insurance through a contract that closely resembles an exchange-traded put option. Using LRP endorsement records and matched CME options data for 2020–2025, we document that endorsement activity clusters around CME option expiration dates, especially for feeder cattle and lean hogs. Because producer-level derivatives positions are unobserved, however, timing patterns alone cannot identify subsidy capture. We therefore simulate returns to combined LRP-CME strategies using observed contract terms, option prices, and trading frictions, including bid-ask spreads, margin requirements, and financing costs. We find that the subsidy-created premium wedge is observable at purchase, but realized gains are small, commodity-specific, and concentrated in low-volatility environments where realized volatility falls below implied volatility. Even in those favorable cases, combined strategies substantially worsen downside outcomes relative to holding LRP alone. Additional evidence shows that clustering persists across volatility regimes and after the 2025 revisions to the LRP Handbook, suggesting that observed timing patterns may reflect contract alignment and routine hedging practices, instead of widespread economically meaningful subsidy capture.",
+        "abstract_cn": "公共补贴保险项目在受保产品与私人交易金融工具高度相似时，可能产生补贴套取的激励。牲畜风险保护计划（LRP）即属此类，因其通过一份与交易所交易看跌期权极为相似的合约提供价格保险。本文利用 2020—2025 年 LRP 批单记录及匹配的 CME 期权数据，发现批单活动集中于 CME 期权到期日附近，这一现象在育肥牛和瘦肉猪上尤为显著。然而，由于生产者层面的衍生品持仓不可观测，仅凭时间模式无法识别补贴套取。为此，本文基于观测到的合约条款、期权价格及交易摩擦（包括买卖价差、保证金要求和融资成本），模拟 LRP-CME 组合策略的收益。研究发现，补贴产生的保费楔子在购买时即可观测，但实际收益较小，具有商品特异性，且集中于实际波动率低于隐含波动率的低波动环境中。即便在这些有利情形下，组合策略相对于单独持有 LRP 也显著恶化了下行风险结果。进一步证据表明，这一集中模式在不同波动率环境下持续存在，且在 2025 年 LRP 手册修订后依然如此，说明观测到的时间模式可能反映合约对齐与常规对冲操作，而非普遍存在的、具有经济意义的补贴套取。",
+        "url": "https://www.nber.org/papers/w35819",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35825",
+        "title": "The Positive Spillovers to Risky Investments in Vacant, Abandoned, and Disinvested Properties",
+        "title_cn": "空置、废弃与撤资物业中风险投资的正向溢出效应",
+        "authors": [
+          "Edward W. Chen",
+          "Reagan L. Lengefeld",
+          "Omar Isaac Asensio"
+        ],
+        "abstract": "This study examines a housing program that created affordable infill developments on formerly vacant, abandoned, or disinvested properties in Savannah, Georgia. Savannah is a major economic hub anchored by the Port of Savannah, where many urban neighborhoods remain impacted by disinvestment and climate risk. Using two decades of record-linked property and tax data, this study quantifies local economic spillovers from this public intervention, revealing previously hidden social and economic benefits of infill housing policies. These benefits include an 11% increase in the market value of properties immediately neighboring an infill development site and an increase of up to 35% in areas with a high density of infill activity, pointing to block-level revitalization in climate-disadvantaged and distressed areas.",
+        "abstract_cn": "本研究考察了一项住房计划，该计划在佐治亚州萨凡纳市原先空置、废弃或投资撤出的地块上建设可负担的填充式开发项目。萨凡纳是以萨凡纳港为核心的重要经济枢纽，但其众多城市社区仍受投资撤出和气候风险的影响。本研究利用二十年间记录关联的房产与税收数据，量化了这一公共干预所产生的本地经济溢出效应，揭示了填充式住房政策此前未被察觉的社会经济效益。这些效益包括：填充式开发地块紧邻房产的市场价值提升11%，以及在填充式活动高度密集区域最高可达35%的涨幅，表明气候弱势和衰败地区出现了街区层面的振兴。",
+        "url": "https://www.nber.org/papers/w35825",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35811",
+        "title": "Evaluating the Spatial Consequences of a Climate Tipping Point",
+        "title_cn": "评估气候临界点空间后果",
+        "authors": [
+          "José-Luis Cruz",
+          "Klaus Desmet",
+          "Esteban Rossi-Hansberg"
+        ],
+        "abstract": "The Atlantic Meridional Overturning Circulation (AMOC) is a system of ocean currents that plays a key role in regulating global climate, including moderating temperatures in Europe and the North Atlantic. Its potential collapse due to global warming is widely considered one of the more likely climate tipping points. This paper examines the economic implications of such a collapse using a dynamic spatially integrated assessment model (S-IAM) of the world economy. Scandinavia and parts of Russia are predicted to experience significant losses in GDP and welfare, while southern Europe, northern Africa, and Brazil benefit from slightly colder temperatures. S-IAMs generally predict that global warming is especially harmful to low-income regions, but an AMOC collapse could mitigate some of these negative impacts in parts of the developing world while instead harming some of the more advanced economies. This lowers spatial inequality, but global welfare drops by 1.9% by 2200 under an intermediate-emissions scenario.",
+        "abstract_cn": "大西洋经向翻转环流（AMOC）是调控全球气候的海洋环流系统，对欧洲及北大西洋地区的气温调节具有关键作用。因全球变暖导致该环流崩溃的可能性被广泛视为较可能发生的气候临界点之一。本文运用动态空间综合评估模型（S-IAM）考察了AMOC崩溃对世界经济的影响。模型预测，斯堪的纳维亚及俄罗斯部分地区将遭受显著的GDP与福利损失，而南欧、北非和巴西则会因气温略降而获益。S-IAM模型通常预测全球变暖对低收入地区危害尤甚，但AMOC崩溃可能在一定程度上缓解部分发展中地区的负面冲击，同时转而对部分发达经济体造成损害。这一情形虽降低了空间不平等程度，但在中等排放情景下，全球福利至2200年将下降1.9%。",
+        "url": "https://www.nber.org/papers/w35811",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35821",
+        "title": "Endogenous Rigidities and Capital Misallocation: Evidence from Containerships",
+        "title_cn": "内生刚性与资本错配：来自集装箱船舶的证据",
+        "authors": [
+          "Maria Garcia-Osipenko",
+          "Nicholas Vreugdenhil",
+          "Nahim B. Zahur"
+        ],
+        "abstract": "We investigate how endogenous rigidities inhibit physical capital reallocation. We focus on the role of contract duration - a classic example of an adjustment rigidity. We argue that when agents sign longer contracts in booms when markets are thin, they generate a contracting externality which further amplifies thinness and impedes the adjustment of markets to shocks. We develop a dynamic spatial framework with booms and busts where agents search and choose match duration. Applying the framework to the containership leasing market, we find substantial misallocation from endogenous rigidities, particularly in the transition after a crash.",
+        "abstract_cn": "我们研究内生刚性如何抑制实物资本再配置。我们聚焦于合约期限——一种典型的调整刚性——的作用。我们认为，当经济主体在市场稀薄（thin）的繁荣期签订更长期合约时，会产生一种合约外部性，从而进一步放大市场稀薄程度并阻碍市场向冲击后的调整。我们构建了一个包含繁荣与萧条的动态空间框架，其中经济主体进行搜寻并选择匹配期限。将该框架应用于集装箱船租赁市场，我们发现内生刚性导致了显著的错配，尤其是在崩盘后的转型期。",
+        "url": "https://www.nber.org/papers/w35821",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      },
+      {
+        "id": "w35797",
+        "title": "Property Rights Uncertainty, Prices, and Speculation: Evidence from China's Housing Market",
+        "title_cn": "产权不确定性、房价与投机：来自中国住房市场的证据",
+        "authors": [
+          "Hanming Fang",
+          "Jing Wu",
+          "Vincent Yao"
+        ],
+        "abstract": "We examine the causal effect of uncertainty in property rights on housing prices and speculative behavior. We take advantage of a distinctive setting in Shenzhen, China, where neighboring residential units that are otherwise similar differ in the strength of their property rights protections. Some units have full property rights (FPR) with a 70-year leasehold, whereas others have only limited property rights (LPR) protections. Using detailed listing data, we find that the sales market prices these protections, while the rental market does not. Our estimates imply that the perceived probability that FPR rights could be questioned at the end of the 70-year term is between 7% and 21%, and that the probability the LPR receives no legal protection in any future year exceeds 50%. We further show that LPR units are more susceptible to speculation, as reflected in higher turnover and greater price volatility. Lastly, we show that the public release of new urban planning codes raises listing prices and lowers turnover and price volatility for LPR properties relative to matched FPR units.",
+        "abstract_cn": "我们考察产权不确定性对住房价格与投机行为的因果效应。我们利用中国深圳的一个独特场景：相邻住宅单元在其他方面相似，但产权保护强度存在差异。部分单元享有完全产权（FPR），附带70年使用权；另一部分单元仅享有有限产权（LPR）保护。基于详细的挂牌数据，我们发现销售市场对这些保护存在定价，而租赁市场则不存在。我们的估计表明，市场认为70年期满后FPR权利受到质疑的感知概率介于7%至21%之间，而LPR在未来任何年份均无法获得法律保护的概率超过50%。我们进一步表明，LPR单元更易受到投机影响，这体现为更高的换手率和更大的价格波动性。最后，我们表明，新城市规划代码的公开发布会提升LPR房产相对于匹配FPR单元的挂牌价格，同时降低其换手率和价格波动性。",
+        "url": "https://www.nber.org/papers/w35797",
+        "public_date": "2026-09-28",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-09-28T07:14:03Z"
+      }
+    ]
+  },
+  {
     "batch_date": "2026-09-21",
     "last_updated": "2026-09-21T16:03:04Z",
     "paper_count": 29,
