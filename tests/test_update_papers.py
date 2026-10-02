@@ -106,6 +106,40 @@ class EmailTests(unittest.TestCase):
         outer.add_alternative(f'<p>Subject: <b>{SUBJECT}</b></p><a href="https://www.nber.org/papers/w10001">Paper</a>', subtype='html')
         self.assertEqual(u.newsletter_from_message(outer)[0].batch_date, EDITION)
 
+    def test_inline_forward_excludes_headerless_mime_wrapper(self):
+        outer = message('Fwd: newsletter', ['w99999'])
+        outer.add_alternative(f'<p>Subject: <b>{SUBJECT}</b></p><a href="https://www.nber.org/papers/w35833">Original paper</a>', subtype='html')
+        result = u.newsletter_from_message(outer)[0]
+        self.assertEqual(u.candidate_ids(result.candidates), {'w35833'})
+
+    def test_empty_old_email_does_not_block_valid_new_edition(self):
+        empty_old = message('The Latest NBER Research (2026-09-21)', body='No valid paper links')
+        results = u.newsletter_from_message(empty_old) + u.newsletter_from_message(message())
+        with self.assertLogs(level='WARNING') as logs:
+            selected = u.select_email_edition(results)
+        self.assertEqual(selected.link_count, 43)
+        self.assertIn('Ignoring empty older newsletter edition 2026-09-21', '\n'.join(logs.output))
+
+    def test_empty_current_or_newer_copy_still_blocks(self):
+        for subject in [SUBJECT, 'The Latest NBER Research (2026-10-05)']:
+            with self.subTest(subject=subject), self.assertRaisesRegex(u.UnsafeBatchError, 'empty copy'):
+                u.select_email_edition(u.newsletter_from_message(message()) + u.newsletter_from_message(message(subject, body='No valid links')))
+
+    def test_only_empty_candidates_fail_safely(self):
+        with self.assertRaisesRegex(u.UnsafeBatchError, 'empty copy'):
+            u.select_email_edition(u.newsletter_from_message(message(body='No valid links')))
+
+    def test_imap_scan_skips_empty_old_candidate_after_valid_new_one(self):
+        box = Mock()
+        box.login.return_value = ('OK', [])
+        box.select.return_value = ('OK', [])
+        box.search.return_value = ('OK', [b'1 2'])
+        messages = {b'1': message('The Latest NBER Research (2026-09-21)', body='No valid links').as_bytes(), b'2': message().as_bytes()}
+        box.fetch.side_effect = lambda id, query: ('OK', [(b'RFC822', messages[id])])
+        with patch.object(u, 'imap_config_from_env', return_value=('example.invalid', 993, 'user', 'test')), patch.object(u.imaplib, 'IMAP4_SSL', return_value=box), self.assertLogs(level='WARNING'):
+            self.assertEqual(u.fetch_email_candidates().link_count, 43)
+        box.logout.assert_called_once()
+
     def test_curated_wrapper_cannot_qualify_via_attached_official_subject(self):
         outer = message('NBER精选', CURATED)
         outer.add_attachment(message())

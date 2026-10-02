@@ -530,7 +530,7 @@ def newsletter_payloads(message: email.message.Message) -> list[EmailSourceResul
         if headers:
             inline_editions.extend(match.group(1) for match in headers)
             text = text[headers[0].end():]
-        texts.append(text)
+        texts.append((bool(headers), text))
     inline_date = batch_date_from_email(inline_editions)
     if edition and inline_date and edition != inline_date:
         raise UnsafeBatchError("Forward subject and original newsletter edition disagree.")
@@ -540,9 +540,12 @@ def newsletter_payloads(message: email.message.Message) -> list[EmailSourceResul
         edition = inline_date
     if edition is None:
         return []
-    links = extract_paper_links_from_text("\n".join(texts))
-    if not links:
-        raise UnsafeBatchError(f"Newsletter edition {edition} has no paper links.")
+    # Once an original Subject identifies an inline forward, headerless MIME
+    # companions are wrappers, not evidence of original newsletter membership.
+    original_texts = [text for has_header, text in texts if has_header or not inline_editions]
+    links = extract_paper_links_from_text("\n".join(original_texts))
+    # Keep dated empty candidates until selection: a newer empty newsletter must
+    # stop the update, but an older empty copy must not block a valid newer issue.
     return [EmailSourceResult(
         candidates=[{"url": link, "source": "email"} for link in links],
         batch_date=edition,
@@ -557,6 +560,11 @@ def select_email_edition(results: list[EmailSourceResult]) -> EmailSourceResult:
         raise RuntimeError("No recognized NBER newsletter with a dated official subject found.")
     newest = max(str(result.batch_date) for result in results)
     same_edition = [result for result in results if result.batch_date == newest]
+    for result in results:
+        if not result.candidates:
+            if result.batch_date == newest:
+                raise UnsafeBatchError(f"Newsletter edition {newest} has an empty copy; cannot confirm complete membership.")
+            logging.warning("Ignoring empty older newsletter edition %s while selecting edition %s.", result.batch_date, newest)
     # Prefer a complete resend/forward even if a shorter copy arrived later.
     selected = max(same_edition, key=lambda result: result.link_count)
     selected_ids = candidate_ids(selected.candidates)

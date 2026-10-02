@@ -33,7 +33,7 @@ const failedTranslations = meta.failed_translations ?? 0;
           <a class="hero-button hero-button--primary" href="https://github.com/fyapeng/nber" target="_blank" rel="noreferrer noopener">
             查看 GitHub 项目
           </a>
-          <a class="hero-button" href={`${import.meta.env.BASE_URL}wechat-editor/`}>公众号编辑器</a>
+          <a class="hero-button" href={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/wechat-editor/`}>公众号编辑器</a>
         </div>
       </div>
 
