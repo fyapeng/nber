@@ -31,6 +31,13 @@ test('site build renders every paper from the shared JSON exactly once', async (
   assert.ok((await fs.readFile('dist/wechat-editor/index.html', 'utf8')).includes('载入本周 NBER'));
 });
 
+test('both homepage editor links resolve under the deployment base path', async () => {
+  const page = await fs.readFile('dist/index.html', 'utf8');
+  const links = [...page.matchAll(/href="([^"]+)"[^>]*>\s*公众号编辑器\s*<\/a>/g)].map(match => match[1]);
+  assert.equal(links.length, 2);
+  assert.deepEqual(links, ['/nber/wechat-editor/', '/nber/wechat-editor/']);
+});
+
 for (const count of [2, 3, 4]) {
   test(`editor partitions all shared papers exactly once into ${count} issues`, () => {
     const issues = context.buildIssues(papers, meta, count);
