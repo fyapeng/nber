@@ -11,9 +11,8 @@ import logging
 import os
 import re
 import ssl
-import sys
+import tempfile
 import time
-from collections import deque
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from email import policy, utils
@@ -37,7 +36,6 @@ AUDIT_PATH = DATA_DIR / "translation-audit.md"
 GLOSSARY_PATH = ROOT / "scripts" / "translation_glossary.json"
 ENV_PATH = ROOT / ".env"
 
-NBER_API_URL = "https://www.nber.org/api/v1/working_page_listing/contentType/working_paper/_/_/search"
 NBER_ORIGIN = "https://www.nber.org"
 SOURCE_URL = "https://www.nber.org/papers"
 USER_AGENT = "fyapeng-nber-updater/1.0 (+https://github.com/fyapeng/nber)"
@@ -161,6 +159,13 @@ IMAP_ENV_VARS = (
     "NBER_EMAIL_IMAP_PASSWORD",
 )
 DEFAULT_EMAIL_LOOKBACK = 100
+NEWSLETTER_SUBJECT = re.compile(r"^The Latest NBER Research\s*\((\d{4}-\d{2}-\d{2})\)$", re.IGNORECASE)
+FORWARD_PREFIX = re.compile(r"^(?:fw|fwd|转发)\s*[:：]\s*", re.IGNORECASE)
+CURATED_SUBJECT = re.compile(r"精选|值得读|推荐|arxiv|\b(?:curated|digest|picks|selection)\b", re.IGNORECASE)
+
+
+class UnsafeBatchError(RuntimeError):
+    """An identified source is unsafe; auto mode must not bypass it via fallback."""
 
 
 @dataclass(frozen=True)
@@ -300,15 +305,6 @@ def normalize_date(value: Any) -> str | None:
     return None
 
 
-def date_sort_key(date_text: str | None) -> tuple[int, int, int]:
-    if not date_text:
-        return (0, 0, 0)
-    parts = [int(part) for part in date_text.split("-") if part.isdigit()]
-    while len(parts) < 3:
-        parts.append(0)
-    return tuple(parts[:3])
-
-
 def first_date_info(paper: dict[str, Any]) -> tuple[str | None, Any, str | None]:
     for field in DATE_FIELDS:
         raw_value = paper.get(field)
@@ -327,19 +323,6 @@ def build_session() -> requests.Session:
         }
     )
     return session
-
-
-def fetch_listing(session: requests.Session, per_page: int) -> dict[str, Any]:
-    params = {"page": 1, "perPage": per_page, "sortBy": "public_date"}
-    logging.info("Fetching NBER listing API: %s", NBER_API_URL)
-    try:
-        response = session.get(NBER_API_URL, params=params, timeout=30)
-        response.raise_for_status()
-        return response.json()
-    except requests.RequestException as exc:
-        raise RuntimeError(f"NBER listing request failed: {exc}") from exc
-    except ValueError as exc:
-        raise RuntimeError(f"NBER listing response is not valid JSON: {exc}") from exc
 
 
 def imap_config_from_env() -> tuple[str, int, str, str]:
@@ -421,27 +404,23 @@ def decode_mime_header(value: str | None) -> str:
         return value
 
 
-def normalize_email_date(value: str | None) -> str | None:
-    if not value:
+def newsletter_edition(subject: str) -> str | None:
+    subject = subject.strip()
+    while FORWARD_PREFIX.match(subject):
+        subject = FORWARD_PREFIX.sub("", subject, count=1).strip()
+    match = NEWSLETTER_SUBJECT.fullmatch(subject)
+    if not match:
         return None
-    try:
-        parsed = utils.parsedate_to_datetime(value)
-    except (TypeError, ValueError, IndexError, OverflowError):
-        return normalize_date(value)
-    if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=timezone.utc)
-    return parsed.astimezone(timezone.utc).date().isoformat()
+    value = match.group(1)
+    return value if normalize_date(value) == value else None
 
 
-def batch_date_from_email(subjects: list[str], fallback_date_header: str | None) -> str | None:
-    for subject in subjects:
-        match = re.search(r"\((\d{4}-\d{2}-\d{2})\)", subject)
-        if match:
-            return match.group(1)
-        match = re.search(r"\b(\d{4}-\d{2}-\d{2})\b", subject)
-        if match:
-            return match.group(1)
-    return normalize_email_date(fallback_date_header)
+def batch_date_from_email(subjects: list[str], fallback_date_header: str | None = None) -> str | None:
+    # Receipt/forwarding dates are deliberately irrelevant to edition identity.
+    dates = {date for subject in subjects if (date := newsletter_edition(subject))}
+    if len(dates) > 1:
+        raise UnsafeBatchError("Conflicting newsletter editions; refusing to overwrite data.")
+    return next(iter(dates), None)
 
 
 def expand_encoded_text(value: str) -> str:
@@ -493,34 +472,99 @@ def nested_messages_from_part(part: email.message.Message) -> list[email.message
         return []
 
 
-def collect_email_text(message: email.message.Message) -> tuple[list[str], list[str], list[str]]:
-    texts: list[str] = []
-    subjects: list[str] = []
-    attachments: list[str] = []
-    queue: deque[email.message.Message] = deque([message])
+def message_parts(message: email.message.Message):
+    """Walk this message's MIME parts without leaking attached messages into its body."""
+    if message.get_content_type() == "message/rfc822":
+        yield message
+    elif message.is_multipart():
+        for part in message.get_payload():
+            yield from message_parts(part)
+    else:
+        yield message
 
-    while queue:
-        current = queue.popleft()
-        subject = decode_mime_header(current.get("Subject"))
-        if subject:
-            subjects.append(subject)
 
-        for part in current.walk():
-            if part.get_content_maintype() == "multipart":
-                continue
+def newsletter_from_message(message: email.message.Message) -> list[EmailSourceResult]:
+    subject = decode_mime_header(message.get("Subject"))
+    if CURATED_SUBJECT.search(subject):
+        return []
+    # Optional explicit allowlist, checked against the outer envelope for forwards.
+    # No default sender is guessed: production headers are not available in this repo.
+    allowed = {value.strip().casefold() for value in os.environ.get("NBER_EMAIL_ALLOWED_SENDERS", "").split(",") if value.strip()}
+    sender = utils.parseaddr(str(message.get("From") or ""))[1].casefold()
+    if allowed and sender not in allowed:
+        return []
+    return newsletter_payloads(message)
 
-            filename = decode_mime_header(part.get_filename())
-            if filename:
-                attachments.append(filename)
 
-            if part.get_content_type() in {"text/plain", "text/html"}:
-                text = part_text(part)
-                if text:
-                    texts.append(text)
+def newsletter_payloads(message: email.message.Message) -> list[EmailSourceResult]:
+    subject = decode_mime_header(message.get("Subject"))
+    if CURATED_SUBJECT.search(subject):
+        return []
+    parts = list(message_parts(message))
+    nested = [nested for part in parts for nested in nested_messages_from_part(part)]
+    if nested:
+        # An .eml forward contributes only the original message, never wrapper links.
+        results = [result for child in nested for result in newsletter_payloads(child)]
+        if results:
+            outer_date = newsletter_edition(subject)
+            if outer_date and any(result.batch_date != outer_date for result in results):
+                raise UnsafeBatchError("Forward subject and attached newsletter edition disagree.")
+            return results
 
-            queue.extend(nested_messages_from_part(part))
+    edition = newsletter_edition(subject)
+    texts = []
+    inline_editions = []
+    for part in parts:
+        if part.get_content_type() not in {"text/plain", "text/html"} or part.get_content_disposition() == "attachment":
+            continue
+        text = part_text(part)
+        if part.get_content_type() == "text/html":
+            # Preserve hrefs for tracking URL extraction as well as visible headers.
+            soup = BeautifulSoup(text, "html.parser")
+            for anchor in soup.find_all("a", href=True):
+                anchor.append(" " + str(anchor["href"]))
+            text = soup.get_text("\n", strip=True)
+        # Common plain/HTML inline-forward headers, with optional quote prefixes.
+        text = re.sub(r"(?m)^\s*>+\s?", "", text)
+        headers = list(re.finditer(r"(?im)^(?:Subject|主题)\s*[:：]\s*(The Latest NBER Research\s*\(\d{4}-\d{2}-\d{2}\))\s*$", text))
+        if headers:
+            inline_editions.extend(match.group(1) for match in headers)
+            text = text[headers[0].end():]
+        texts.append(text)
+    inline_date = batch_date_from_email(inline_editions)
+    if edition and inline_date and edition != inline_date:
+        raise UnsafeBatchError("Forward subject and original newsletter edition disagree.")
+    # A generic wrapper is accepted only when it is explicitly a forward and has
+    # an original Subject header. Arbitrary research/curated emails cannot qualify.
+    if edition is None and FORWARD_PREFIX.match(subject):
+        edition = inline_date
+    if edition is None:
+        return []
+    links = extract_paper_links_from_text("\n".join(texts))
+    if not links:
+        raise UnsafeBatchError(f"Newsletter edition {edition} has no paper links.")
+    return [EmailSourceResult(
+        candidates=[{"url": link, "source": "email"} for link in links],
+        batch_date=edition,
+        message_id="",
+        subject=f"The Latest NBER Research ({edition})",
+        link_count=len(links),
+    )]
 
-    return texts, subjects, attachments
+
+def select_email_edition(results: list[EmailSourceResult]) -> EmailSourceResult:
+    if not results:
+        raise RuntimeError("No recognized NBER newsletter with a dated official subject found.")
+    newest = max(str(result.batch_date) for result in results)
+    same_edition = [result for result in results if result.batch_date == newest]
+    # Prefer a complete resend/forward even if a shorter copy arrived later.
+    selected = max(same_edition, key=lambda result: result.link_count)
+    selected_ids = candidate_ids(selected.candidates)
+    for result in same_edition:
+        if not candidate_ids(result.candidates) <= selected_ids:
+            raise UnsafeBatchError(f"Conflicting paper IDs in emails for edition {newest}.")
+    logging.info("Selected newsletter edition %s with %s paper links.", newest, selected.link_count)
+    return selected
 
 
 def extract_paper_links_from_text(text: str) -> list[str]:
@@ -531,9 +575,13 @@ def extract_paper_links_from_text(text: str) -> list[str]:
 
     links: list[str] = []
     index = 0
+    seen: set[str] = set()
     while index < len(candidates):
         raw = expand_encoded_text(candidates[index]).rstrip(".,;])}")
         index += 1
+        if raw in seen:
+            continue
+        seen.add(raw)
 
         parsed = urlparse(raw)
         for values in parse_qs(parsed.query).values():
@@ -541,16 +589,11 @@ def extract_paper_links_from_text(text: str) -> list[str]:
                 if "nber" in value.lower() or "/papers/" in value.lower():
                     candidates.append(value)
 
-        match = re.search(r"(?:https?://(?:www\.)?nber\.org)?/papers/(w\d+)", raw, flags=re.IGNORECASE)
-        if match:
+        match = re.fullmatch(r"/papers/(w\d+)/?", parsed.path, flags=re.IGNORECASE)
+        if match and (parsed.hostname in {"nber.org", "www.nber.org"} or (not parsed.netloc and raw.startswith("/papers/"))):
             url = f"{NBER_ORIGIN}/papers/{match.group(1).lower()}"
             if url not in links:
                 links.append(url)
-
-    for paper_id in re.findall(r"\bw\d{4,6}\b", expanded, flags=re.IGNORECASE):
-        url = f"{NBER_ORIGIN}/papers/{paper_id.lower()}"
-        if url not in links:
-            links.append(url)
 
     return links
 
@@ -576,50 +619,19 @@ def fetch_email_candidates(lookback: int = DEFAULT_EMAIL_LOOKBACK) -> EmailSourc
             raise RuntimeError(f"IMAP search returned status {status}.")
         message_ids = ids_data[0].split() if ids_data and ids_data[0] else []
 
+        results: list[EmailSourceResult] = []
         for message_id in reversed(message_ids[-lookback:]):
-            status, header_data = mailbox.fetch(message_id, "(BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)])")
-            if status != "OK":
-                continue
-            header_bytes = b"".join(part[1] for part in header_data if isinstance(part, tuple) and part[1])
-            header = email.message_from_bytes(header_bytes, policy=policy.default)
-            subject = decode_mime_header(header.get("Subject"))
-            sender = decode_mime_header(header.get("From"))
-            date_header = decode_mime_header(header.get("Date"))
-
-            if not re.search(r"nber|working paper|research", f"{subject}\n{sender}", flags=re.IGNORECASE):
-                continue
-
+            # Fetch read-only bodies too: generic .eml forwards need not mention NBER
+            # in the outer subject. The scan remains bounded by email-lookback.
             status, full_data = mailbox.fetch(message_id, "(BODY.PEEK[])")
             if status != "OK":
-                continue
+                raise UnsafeBatchError("Could not read all candidate emails; refusing a partial mailbox scan.")
             raw_message = b"".join(part[1] for part in full_data if isinstance(part, tuple) and part[1])
+            if not raw_message:
+                raise UnsafeBatchError("Empty IMAP response; refusing a partial mailbox scan.")
             message = email.message_from_bytes(raw_message, policy=policy.default)
-            texts, subjects, attachments = collect_email_text(message)
-            links = extract_paper_links_from_text("\n".join(texts))
-
-            if not links:
-                logging.info("NBER-like email %s had no paper links: %s", message_id.decode("ascii", "replace"), subject)
-                continue
-
-            logging.info(
-                "Selected %s paper links from email %s: %s",
-                len(links),
-                message_id.decode("ascii", "replace"),
-                subject,
-            )
-            if attachments:
-                logging.info("Parsed email attachments: %s", ", ".join(dict.fromkeys(attachments)))
-            if len(subjects) > 1:
-                logging.info("Parsed nested email subjects: %s", " | ".join(dict.fromkeys(subjects)))
-
-            batch_date = batch_date_from_email(subjects or [subject], date_header)
-            return EmailSourceResult(
-                candidates=[{"url": link, "source": "email", "public_date": batch_date} for link in links],
-                batch_date=batch_date,
-                message_id=message_id.decode("ascii", "replace"),
-                subject=subject,
-                link_count=len(links),
-            )
+            results.extend(newsletter_from_message(message))
+        return select_email_edition(results)
 
     finally:
         if mailbox is not None:
@@ -628,64 +640,15 @@ def fetch_email_candidates(lookback: int = DEFAULT_EMAIL_LOOKBACK) -> EmailSourc
             except imaplib.IMAP4.error:
                 pass
 
-    raise RuntimeError(f"No NBER email with paper links found in the latest {lookback} {mailbox_name} messages.")
 
-
-def extract_results(api_data: dict[str, Any]) -> list[dict[str, Any]]:
-    results = api_data.get("results")
-    if isinstance(results, list):
-        return [paper for paper in results if isinstance(paper, dict)]
-    raise RuntimeError("NBER API response did not contain a results list; refusing to overwrite data.")
-
-
-def log_api_shape(api_data: dict[str, Any], papers: list[dict[str, Any]]) -> None:
-    logging.info("NBER API top-level fields: %s", sorted(api_data.keys()))
-    if not papers:
-        logging.info("NBER API returned no papers in results.")
-        return
-
-    logging.info("First paper fields: %s", sorted(papers[0].keys()))
-    for index, paper in enumerate(papers[:10], start=1):
-        dates = {field: paper.get(field) for field in DATE_FIELDS if field in paper}
-        logging.info(
-            "Sample paper %s: url=%r newthisweek=%r dates=%s",
-            index,
-            paper.get("url"),
-            paper.get("newthisweek"),
-            dates,
-        )
-
-
-def select_candidate_batch(papers: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], str, str | None]:
-    if not papers:
-        raise RuntimeError("NBER API returned an empty paper list; refusing to overwrite existing data.")
-
-    new_this_week = [paper for paper in papers if paper.get("newthisweek") is True]
-    if new_this_week:
-        date_values = [first_date_info(paper)[2] for paper in new_this_week]
-        batch_date = max((value for value in date_values if value), key=date_sort_key, default=None)
-        logging.info("Selected %s papers by newthisweek == True.", len(new_this_week))
-        return new_this_week, "newthisweek", batch_date
-
-    date_groups: dict[str, list[dict[str, Any]]] = {}
-    for paper in papers:
-        _, _, normalized = first_date_info(paper)
-        if normalized:
-            date_groups.setdefault(normalized, []).append(paper)
-
-    if not date_groups:
-        raise RuntimeError(
-            "No newthisweek papers and no recognizable date fields in the NBER listing; refusing to overwrite data."
-        )
-
-    latest_date = max(date_groups, key=date_sort_key)
-    selected = date_groups[latest_date]
-    logging.info(
-        "newthisweek selected no papers; fell back to latest listing date batch %s with %s papers.",
-        latest_date,
-        len(selected),
+def fetch_api_candidates() -> tuple[list[dict[str, Any]], str, str | None]:
+    # The listing provides paper publication dates/newthisweek, not a newsletter
+    # edition or an authoritative membership manifest. Page 1 (50 rows) can also
+    # truncate a week. Fail closed rather than invent an edition from max(date).
+    raise UnsafeBatchError(
+        "NBER API listing cannot establish newsletter edition or complete membership; "
+        "refusing API fallback before translation or writes. Use a dated official newsletter."
     )
-    return selected, "latest_listing_date", latest_date
 
 
 def absolute_url(url: Any) -> str:
@@ -920,30 +883,13 @@ def build_records(
 def refine_to_latest_public_date(
     records: list[dict[str, Any]], selection_mode: str, initial_batch_date: str | None
 ) -> tuple[list[dict[str, Any]], str | None]:
-    date_groups: dict[str, list[dict[str, Any]]] = {}
+    if selection_mode != "email" or not initial_batch_date:
+        raise UnsafeBatchError("A dated newsletter edition is required; publication dates are not batch dates.")
     for record in records:
-        date_value = normalize_date(record.get("public_date"))
-        if date_value:
-            record["public_date"] = date_value
-            date_groups.setdefault(date_value, []).append(record)
-
-    if selection_mode in {"newthisweek", "email"}:
-        batch_date = max(date_groups, key=date_sort_key, default=initial_batch_date)
-        return records, batch_date
-
-    if not date_groups:
-        raise RuntimeError("Unable to identify publication dates after fetching detail pages; refusing to overwrite data.")
-
-    latest_date = max(date_groups, key=date_sort_key)
-    selected = date_groups[latest_date]
-    if len(selected) != len(records):
-        logging.info(
-            "Refined fallback batch from %s candidates to %s papers with detail public_date %s.",
-            len(records),
-            len(selected),
-            latest_date,
-        )
-    return selected, latest_date
+        normalized = normalize_date(record.get("public_date"))
+        if normalized:
+            record["public_date"] = normalized
+    return records, initial_batch_date
 
 
 def make_cache_key(paper_id: str, field: str, source_text: str) -> str:
@@ -1464,9 +1410,113 @@ def build_meta(
     }
 
 
+def candidate_ids(candidates: list[dict[str, Any]]) -> set[str]:
+    return record_ids([{"id": paper_id_from_url(absolute_url(paper.get("url")), paper)} for paper in candidates])
+
+
+def record_ids(records: Any) -> set[str]:
+    if not isinstance(records, list):
+        raise UnsafeBatchError("Paper records must be a list.")
+    ids = [record.get("id") if isinstance(record, dict) else None for record in records]
+    if any(not isinstance(value, str) or not re.fullmatch(r"w\d+", value) for value in ids):
+        raise UnsafeBatchError("Missing or invalid NBER paper ID.")
+    if len(set(ids)) != len(ids):
+        raise UnsafeBatchError("Duplicate NBER paper IDs; refusing to overwrite data.")
+    return set(ids)
+
+
+def require_edition(value: Any) -> str:
+    if not isinstance(value, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value) or normalize_date(value) != value:
+        raise UnsafeBatchError("Missing or invalid newsletter edition date.")
+    return value
+
+
+def validate_batch_coverage(new_ids: set[str], edition: str | None, existing: Any, meta: Any, archive: Any) -> None:
+    edition = require_edition(edition)
+    if not new_ids:
+        raise UnsafeBatchError("Empty newsletter edition; refusing to overwrite data.")
+    if not isinstance(meta, dict) or not isinstance(archive, list):
+        raise UnsafeBatchError("Invalid stored metadata/archive; refusing to overwrite data.")
+    current_ids = record_ids(existing)
+    baselines = []
+    if current_ids:
+        current_date = require_edition(meta.get("batch_date"))
+        baselines.append((current_date, current_ids))
+    for entry in archive:
+        if not isinstance(entry, dict):
+            raise UnsafeBatchError("Invalid archive entry; refusing to overwrite data.")
+        baselines.append((require_edition(entry.get("batch_date")), record_ids(entry.get("papers"))))
+    for old_date, old_ids in baselines:
+        if edition < old_date:
+            raise UnsafeBatchError(f"Stale newsletter edition {edition} would replace newer edition {old_date}.")
+        if edition == old_date and (missing := old_ids - new_ids):
+            raise UnsafeBatchError(
+                f"Edition {edition} would lose {len(missing)} existing paper IDs "
+                f"({', '.join(sorted(missing))}); stopped before translation or writes."
+            )
+
+
+def unchanged_successful_batch(records: list[dict[str, Any]], existing: list[dict[str, Any]], edition: str, meta: dict[str, Any]) -> bool:
+    if meta.get("batch_date") != edition or meta.get("paper_count") != len(records) or record_ids(records) != record_ids(existing):
+        return False
+    old_by_id = {record["id"]: record for record in existing}
+    for record in records:
+        old = old_by_id[record["id"]]
+        if any(record.get(field) != old.get(field) for field in ("title", "authors", "abstract", "url", "public_date")):
+            return False
+        if old.get("translation_prompt_version") != TRANSLATION_PROMPT_VERSION:
+            return False
+        for field in ("title", "abstract"):
+            if (old.get("translation_status") or {}).get(field) != "success" or translation_quality_issue(str(old.get(field) or ""), str(old.get(f"{field}_cn") or ""), field):
+                return False
+    return True
+
+
+def write_snapshot(contents: dict[Path, str]) -> None:
+    """Stage all outputs before publishing; roll back every replaced file on I/O error.
+
+    Same-directory staging keeps individual replacements atomic. This is not a
+    filesystem-wide transaction against power loss; the Actions commit only runs
+    after a successful exit. Backups survive if an exceptional rollback fails.
+    """
+    staged: dict[Path, Path] = {}
+    backups: dict[Path, Path | None] = {}
+    replaced: list[Path] = []
+    preserve_backups = False
+    try:
+        for path, content in contents.items():
+            path.parent.mkdir(parents=True, exist_ok=True)
+            for data, destination in ((content.encode("utf-8"), staged), (path.read_bytes() if path.exists() else None, backups)):
+                if data is None:
+                    destination[path] = None
+                    continue
+                with tempfile.NamedTemporaryFile(prefix=f".{path.name}.", suffix=".tmp", dir=path.parent, delete=False) as handle:
+                    destination[path] = Path(handle.name)
+                    handle.write(data)
+                    handle.flush()
+                    os.fsync(handle.fileno())
+        for path, temporary in staged.items():
+            os.replace(temporary, path)
+            replaced.append(path)
+    except BaseException:
+        for path in reversed(replaced):
+            try:
+                if backups[path] is None:
+                    path.unlink()
+                else:
+                    os.replace(backups[path], path)
+            except OSError:
+                preserve_backups = True
+                logging.exception("Rollback failed for %s; recovery backup retained at %s.", path, backups[path])
+        raise
+    finally:
+        for temporary in [*staged.values(), *([] if preserve_backups else backups.values())]:
+            if temporary is not None:
+                temporary.unlink(missing_ok=True)
+
+
 def update_archive(archive: Any, records: list[dict[str, Any]], meta: dict[str, Any]) -> list[dict[str, Any]]:
-    if not isinstance(archive, list):
-        archive = []
+    validate_batch_coverage(record_ids(records), meta.get("batch_date"), [], {}, archive)
     batch_date = meta["batch_date"]
     retained = [entry for entry in archive if isinstance(entry, dict) and entry.get("batch_date") != batch_date]
     retained.insert(
@@ -1505,7 +1555,7 @@ def parse_args() -> argparse.Namespace:
         "--source",
         choices=("auto", "email", "api"),
         default=os.environ.get("NBER_SOURCE", "auto"),
-        help="Paper source: email first with API fallback, email only, or API only.",
+        help="Paper source: auto/email require a dated newsletter; API fails closed until edition membership is verifiable.",
     )
     parser.add_argument(
         "--email-lookback",
@@ -1513,7 +1563,7 @@ def parse_args() -> argparse.Namespace:
         default=positive_int_from_env("NBER_EMAIL_IMAP_LOOKBACK", DEFAULT_EMAIL_LOOKBACK),
         help="Number of recent IMAP messages to inspect when using the email source.",
     )
-    parser.add_argument("--per-page", type=int, default=50, help="Number of NBER listing results to fetch.")
+    parser.add_argument("--per-page", type=int, default=50, help="Legacy API page size; API updates currently fail closed without an edition manifest.")
     parser.add_argument("--model", default=os.environ.get("KIMI_MODEL", "moonshot-v1-8k"), help="Kimi model name.")
     parser.add_argument(
         "--translation-workers",
@@ -1574,15 +1624,14 @@ def run() -> int:
                 selection_mode = "email"
                 initial_batch_date = email_result.batch_date
                 source_mode = "email"
-                notes.append(
-                    f"Selected {email_result.link_count} paper links from IMAP email "
-                    f"{email_result.message_id}: {email_result.subject}"
-                )
+                notes.append(f"Selected {email_result.link_count} paper links from NBER newsletter edition {initial_batch_date}.")
+            except UnsafeBatchError:
+                raise
             except Exception as exc:  # noqa: BLE001 - auto mode should fall back to the public API.
                 if args.source == "email":
                     raise
                 logging.warning("Email source failed; falling back to NBER API: %s", exc)
-                notes.append(f"Email source failed; used API fallback: {exc}")
+                notes.append("Email source unavailable; attempted API fallback.")
         elif args.source == "email":
             raise RuntimeError(f"Email source requested but missing IMAP environment variables: {', '.join(IMAP_ENV_VARS)}")
         else:
@@ -1590,10 +1639,12 @@ def run() -> int:
             notes.append("IMAP environment variables were not fully set; used API fallback.")
 
     if candidates is None:
-        api_data = fetch_listing(session, args.per_page)
-        papers = extract_results(api_data)
-        log_api_shape(api_data, papers)
-        candidates, selection_mode, initial_batch_date = select_candidate_batch(papers)
+        candidates, selection_mode, initial_batch_date = fetch_api_candidates()
+
+    existing_papers = load_json(PAPERS_PATH, [])
+    existing_meta = load_json(META_PATH, {})
+    existing_archive = load_json(ARCHIVE_PATH, [])
+    validate_batch_coverage(candidate_ids(candidates), initial_batch_date, existing_papers, existing_meta, existing_archive)
 
     records, record_notes = build_records(session, candidates, fetched_at)
     notes.extend(record_notes)
@@ -1604,10 +1655,19 @@ def run() -> int:
     if not batch_date:
         raise RuntimeError("Unable to determine a batch date; refusing to overwrite data.")
 
+    validate_batch_coverage(record_ids(records), batch_date, existing_papers, existing_meta, existing_archive)
+    current_entries = [entry for entry in existing_archive if entry.get("batch_date") == batch_date]
+    if (unchanged_successful_batch(records, existing_papers, batch_date, existing_meta)
+            and len(current_entries) == 1
+            and current_entries[0].get("papers") == existing_papers
+            and current_entries[0].get("paper_count") == len(existing_papers)
+            and current_entries[0].get("last_updated") == existing_meta.get("last_updated")):
+        logging.info("Edition %s is unchanged with successful translations; no API calls or writes needed.", batch_date)
+        return 0
+
     cache = load_json(CACHE_PATH, {})
     if not isinstance(cache, dict):
         cache = {}
-    existing_papers = load_json(PAPERS_PATH, [])
     if isinstance(existing_papers, list):
         seeded_count = seed_cache_from_existing(cache, existing_papers)
         if seeded_count:
@@ -1628,17 +1688,25 @@ def run() -> int:
         logging.info("Dry run complete. No files were written.")
         return 0
 
-    archive = update_archive(load_json(ARCHIVE_PATH, []), records, meta)
-    write_json(PAPERS_PATH, records)
-    write_json(META_PATH, meta)
-    write_json(CACHE_PATH, cache)
-    write_json(ARCHIVE_PATH, archive)
-    written_paths = [PAPERS_PATH, META_PATH, CACHE_PATH, ARCHIVE_PATH]
+    archive = update_archive(existing_archive, records, meta)
+    snapshot = {
+        path: json.dumps(value, ensure_ascii=False, indent=2) + "\n"
+        for path, value in ((PAPERS_PATH, records), (META_PATH, meta), (CACHE_PATH, cache), (ARCHIVE_PATH, archive))
+    }
+    report = None
     if not args.skip_audit_report:
         report = build_translation_audit_report(records, TRANSLATION_GLOSSARY, fetched_at)
-        write_audit_report(report, args.audit_output)
-        written_paths.append(Path(args.audit_output) if str(args.audit_output) != "-" else Path("stdout"))
-    logging.info("Wrote %s.", ", ".join(str(path) for path in written_paths))
+        if str(args.audit_output) != "-":
+            audit_path = Path(args.audit_output)
+            if not audit_path.is_absolute():
+                audit_path = ROOT / audit_path
+            if audit_path.resolve() in {path.resolve() for path in snapshot}:
+                raise UnsafeBatchError("Audit output must not replace a JSON data file.")
+            snapshot[audit_path] = report
+    write_snapshot(snapshot)
+    if report is not None and str(args.audit_output) == "-":
+        print(report)
+    logging.info("Wrote %s.", ", ".join(str(path) for path in snapshot))
     return 0
 
 

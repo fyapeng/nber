@@ -11,7 +11,7 @@
 - 使用 Kimi API 翻译标题和摘要。
 - 维护最近批次数据：`papers.json`、`update-meta.json`、`archive.json`、`translation-cache.json` 和 `translation-audit.md`。
 - 优先从邮箱 IMAP 读取 NBER 邮件中的论文链接。
-- 如果邮箱源不可用，会自动回退到 NBER Working Papers API。
+- 邮箱源无法确认完整周报时安全停止，保留已有数据。
 - GitHub Actions 每周一北京时间 13:00 和 18:00 自动运行更新。
 
 ## 技术栈
@@ -168,7 +168,7 @@ python scripts/update_papers.py --dry-run
 python scripts/update_papers.py --source email --dry-run
 ```
 
-强制使用 NBER API：
+API 模式保留命令兼容，但目前会明确失败：公开列表没有可靠的周报 edition 和完整成员清单，不能用第一页 50 条或论文最大发表日覆盖周报。
 
 ```powershell
 python scripts/update_papers.py --source api --dry-run
@@ -204,11 +204,16 @@ python scripts/update_papers.py --audit-translations --audit-output -
 
 1. 通过 IMAP SSL 登录邮箱。
 2. 只读选择 `INBOX`。
-3. 在最近的邮件中寻找 NBER 相关邮件。
-4. 解析正文中的 `/papers/wxxxxx` 链接。
-5. 同时支持转发正文和 `.eml` 附件转发。
-6. 用链接访问 NBER 详情页，补齐标题、作者和摘要。
-7. 邮箱源失败时回退 NBER API。
+3. 在最近的邮件中正向匹配 `The Latest NBER Research (YYYY-MM-DD)`，排除精选、推荐、arXiv 混合邮件。
+4. 支持 `Fwd:` / `Fw:` / `转发:` 前缀、保留原始 Subject 的正文转发，以及附带原始周报的 `.eml` 转发；附件场景只解析原始周报，不混入外层链接。
+5. 按原始周报标题中的 edition 日期选最新一期，与收件时间、转发时间和论文发表日期无关。同一期多封邮件选择包含其他副本全部 ID 的版本，ID 冲突则停止。
+6. 在访问详情、翻译或写入之前，与当前数据及同日归档比较 ID 集合；丢失任何已有 ID（包括篇数相同但换 ID）即失败，旧 edition 也不能覆盖新 edition。真正的新一期可以比前一期篇数更少。详情处理后再次校验。
+7. 用 NBER 链接补齐详情；相同 edition 内容与成功翻译均未变时直接退出，不改变时间戳、不创建翻译客户端、不写文件。
+8. API 缺少可靠 edition/完整成员依据，目前安全停止回退和 `--source api` 更新。恢复 API 更新前必须补充权威 edition 依据及完整分页校验。
+
+`NBER_EMAIL_ALLOWED_SENDERS` 可选填逗号分隔的、已核实的发件地址；转发填外层转发人的地址。默认不猜测地址名单。严格标题匹配是格式校验，不是邮件身份认证；原始生产邮件头尚未在此修复中核实。如格式不符，请保留数据并核实专用 IMAP 原始周报，不要放宽成任意 NBER 关键词。
+
+正常更新先生成并落盘全部临时文件，再逐一替换 JSON 与审计报告；发生写入错误时恢复已替换的文件，整个进程失败，Actions 不会提交部分数据。单文件替换是原子的，多文件不承诺断电级事务；回滚本身失败时日志会给出保留的恢复文件路径。
 
 邮箱读取使用 `BODY.PEEK` 和只读 mailbox，不会标记已读、删除邮件或修改邮箱状态。
 
@@ -245,7 +250,7 @@ GitHub cron 使用 UTC，因此配置为：
 更新 workflow 会：
 
 1. 安装 Python 依赖。
-2. 运行 `python scripts/update_papers.py --require-api-key`。
+2. 运行 `python scripts/run_update.py --require-api-key`。
 3. 生成 `src/data/translation-audit.md` 翻译审计报告。
 4. 如果 `src/data` 有变化，自动提交数据文件和审计报告。
 5. 上传 `translation-audit` artifact，方便在 Actions 页面下载。
@@ -349,3 +354,22 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 ## 免责声明
 
 论文内容来自 NBER。中文标题和中文摘要由 Kimi API 自动生成，仅供快速浏览参考；正式引用、研究判断和学术表达请以 NBER 原文为准。
+
+## 离线回归验证
+
+```sh
+python -m unittest discover -s tests -v
+npm ci
+npm run build
+node --test tests/shared-data.test.mjs
+```
+
+测试使用合成邮件及公开的 paper ID，不包含原始邮件或私人地址，也不连接 IMAP、Kimi 或微信 API。共享数据测试执行编辑器的实际分期函数（2/3/4 期），并在临时目录使用空 `.env` 验证微信脚本三期 dry run。
+
+`.github/workflows/validate.yml` 只在 pull request 运行上述检查，仅有 `contents: read`，不配置环境、密钥、更新、微信或部署步骤。`fix/**` 分支 push 不触发已有部署工作流；正式更新仍仅按原有定时/手动事件触发。
+
+### 2026-09-28 数据恢复
+
+从 `8d6eecb49e62b62f20f110006a4e82ff106b1156` 恢复 43 篇及元数据，保留原始 `2026-09-28T07:14:03Z` 来源时间；只替换该日 archive 条目，其他 13 期及 translation-cache 保持不变。86 个翻译字段均成功，审计报告离线重建，没有调用模型。`tests/fixtures/2026-09-28-membership.json` 保存完整 43 篇和误覆盖 14 篇的 ID 顺序、来源提交及原始文件 SHA-256，供复核。
+
+站点、微信 dry run 与网页编辑器继续使用同一数据结构。网页编辑器线上按钮仍读取 GitHub main；draft PR 合并前，线上仍是原有 14 篇。此修复不自动合并或部署。
