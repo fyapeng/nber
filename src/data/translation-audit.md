@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-09-28T07:14:03Z`
-- Paper count: `43`
+- Generated at: `2026-10-05T12:03:54Z`
+- Paper count: `45`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,49 +35,58 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| affiliation | w35820 |
-| Aging | w35792 |
-| AMOC | w35811 |
-| Bergeron | w35813 |
-| Bloom | w35791 |
-| broadly similar | w35831 |
-| Caselli | w35826 |
-| Cassa per | w35802 |
-| CME | w35819 |
-| coding agents | w35793 |
-| CPI | w35790 |
-| CPS | w35796 |
-| Diamond | w35823 |
-| Dingle | w35791 |
-| distinct beliefs | w35831 |
-| durable jobs | w35815 |
-| FERU | w35804 |
-| Food | w35817 |
-| FPR | w35797 |
-| GDP | w35826 |
-| Green Paradox | w35794 |
-| Home | w35817 |
-| Korean Longitudinal Study | w35792 |
-| LLM | w35782 |
-| LPR | w35797 |
-| LRP | w35819 |
-| LRP-CME | w35819 |
-| magnitude | w35796 |
-| maximin | w35798 |
-| Mezzogiorno | w35802 |
-| minimax-regret | w35798 |
-| Moonshot | w35802 |
-| NBA | w35803 |
-| Neiman | w35791 |
-| New Frontier | w35802 |
-| OLG | w35823 |
-| relative market thickness | w35822 |
-| RESET | w35817 |
-| RESET Demonstration Project | w35817 |
-| S-IAM | w35811 |
-| TCJA | w35805 |
-| vehicle currencies | w35822 |
-| WFH | w35791 |
+| STEM | w35847, w35857, w35859 |
+| ADHD | w35873 |
+| aftermath | w35858 |
+| AIR | w35840 |
+| Akbarpour | w35841 |
+| amenities | w35852 |
+| Cameron | w35801 |
+| Cameron and Miller | w35800 |
+| Carbon Disclosure Project | w35869 |
+| CFTC | w35845 |
+| ChatGPT-4o | w35839 |
+| Climate Fund | w35834 |
+| Climate Targets Database | w35869 |
+| Condorcet cycles | w35839 |
+| Conley | w35801 |
+| cutoff | w35847 |
+| ERLL | w35848 |
+| ERLLs | w35848 |
+| FT3 | w35858 |
+| GDP | w35865 |
+| general partner | w35860 |
+| HAC | w35801 |
+| HIV | w35833 |
+| hyperscaler | w35865 |
+| IRS | w35874 |
+| Jim Crow | w35842 |
+| LLM | w35839 |
+| longshots | w35845 |
+| Miller | w35801 |
+| money-pump | w35839 |
+| NAACP | w35842 |
+| NielsenIQ | w35835 |
+| OPEC | w35864 |
+| P-EBT | w35835 |
+| PM2.5 | w35871 |
+| PredictIt | w35845 |
+| RCT | w35872 |
+| Recovery | w35858 |
+| RES | w35840 |
+| Rosenwald | w35842 |
+| Salata Institute Corporate | w35869 |
+| SNAP | w35835 |
+| soft reserves | w35841 |
+| STI | w35833 |
+| Study | w35858 |
+| substantial | w35860 |
+| SYS | w35840 |
+| temperature | w35839 |
+| Tsunami Aftermath and | w35858 |
+| UBI | w35836 |
+| W-2 | w35856 |
+| WTO | w35834 |
 
 ## Maintenance Notes
 
