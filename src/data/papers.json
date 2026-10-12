@@ -1,964 +1,465 @@
 [
   {
-    "id": "w35862",
-    "title": "The Geopolitical Trap: How Great Power Rivalry Protects Rising Powers",
-    "title_cn": "地缘政治陷阱：大国竞争如何保护崛起国",
-    "authors": [
-      "Johann Caro-Burnett",
-      "Sebastian Galiani",
-      "Gustavo Torrens"
-    ],
-    "abstract": "Why do rising powers survive periods in which established states can still suppress them? Existing theories of preventive war emphasize commitment problems between declining and rising states, which can make adverse power shifts especially dangerous. We show that commitment problems among established rivals can have the opposite effect. Preventive action against a rising power can alter the incumbent’s relationship with another state. Under opportunistic rivalry, prevention temporarily exposes the incumbent to exploitation by an existing rival. Under defensive rivalry, successful prevention strengthens the incumbent by eliminating a potential counterweight, giving its rival an incentive to protect the rising state. In both cases, third-party responses can deter preventive action that would occur in an otherwise identical dyadic setting. Cooperation among established powers can reverse this result when credible arrangements allow them to manage the strategic consequences of suppression. Historical evidence from the American Revolution, China’s nuclear emergence, and U.S.–Soviet bargaining over West German nuclear capabilities illustrates the mechanisms and their limits. The analysis shows how rivalry among established powers can protect vulnerable rising states and thereby facilitate changes in the international distribution of power.",
-    "abstract_cn": "既有关于预防性战争的理论强调衰落国家与崛起国家之间的承诺问题，这可能使不利的权力转移变得尤为危险。本文表明，既有对手之间的承诺问题可能产生相反的效果。针对崛起国家采取预防性行动可能改变主导国家与另一国家之间的关系。在机会主义竞争下，预防性行动会使主导国家暂时面临既有对手的利用；在防御性竞争下，成功的预防性行动通过消除潜在制衡力量而强化主导国家，从而使其对手产生保护崛起国家的激励。在上述两种情形下，第三方反应均能够阻止在原本相同的双边情境中可能发生的预防性行动。当可信安排使既有强国得以管控压制行为的战略后果时，强国之间的合作可以逆转这一结果。美国独立战争、中国核力量兴起以及美苏围绕西德核能力的谈判等历史证据说明了上述机制及其局限。本分析揭示了既有强国之间的竞争如何能够保护脆弱的崛起国家，从而促进国际权力分配格局的变迁。",
-    "url": "https://www.nber.org/papers/w35862",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35843",
-    "title": "Welfare Analysis with Complementarities: When Direct and Total Responses Are Sufficient",
-    "title_cn": "具有互补性时的福利分析：直接反应与总体反应何时足以刻画福利",
-    "authors": [
-      "David Argente"
-    ],
-    "abstract": "Complementarities can have important welfare consequences, but quantifying these effects would seem to require identifying and valuing the underlying mechanisms separately. This paper shows that this need not be the case. I provide necessary and sufficient conditions under which baseline subsidized activity and the direct and total responses to a subsidy determine aggregate willingness to pay. A sufficient condition for valuing the equilibrium adjustment is that it has the same effect on utility as an additional subsidy common to all agents and relevant actions. The formula is easy to apply to existing estimates and guides the design of new experiments.",
-    "abstract_cn": "互补性可能具有重要的福利后果，但量化这些效应似乎需要分别识别并评估其背后的机制。本文表明，这并非必要。我给出了基准补贴活动以及对补贴的直接反应和总反应能够决定总体支付意愿的充要条件。评估均衡调整的一个充分条件是，该调整对所有经济主体及相关行为的效用影响等同于一项适用于所有经济主体和相关行为的额外补贴。该公式易于应用于现有估计结果，并可为新实验的设计提供指导。",
-    "url": "https://www.nber.org/papers/w35843",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35853",
-    "title": "Randomized to Opportunity: Measuring Place Effects for Refugee Children",
-    "title_cn": "随机分配至机遇之地：难民儿童地点效应的测度",
-    "authors": [
-      "N. Meltem Daysal",
-      "Joseph J. Doyle Jr.",
-      "Naeim S. Samandari",
-      "Emil A. L. Simonsen",
-      "Mircea Trandafir"
-    ],
-    "abstract": "Area-level measures of economic opportunity are increasingly used to guide place-based policies. We study whether these measures predict long-run outcomes for a vulnerable population: over 12,000 refugee children quasi-randomly assigned to municipalities under Denmark's 1986–1998 dispersal policy. We focus on predetermined measures of opportunity available when children arrive and validate them using a mover-exposure design among permanent residents. Moving from a low- to a high-opportunity area (a two-standard-deviation increase) raises adult income rank by 3 percentile points (7.5 percent) and employment by 4 percentage points. It also reduces criminal convictions by 14 percent and teen parenthood by 19 percent, with more modest effects on educational attainment. Economic opportunity predicts crime and teen parenthood more strongly than other area characteristics, including local crime rates. For adult income, area-level inequality is a particularly strong predictor. These findings suggest that social mobility in the areas where refugee children grow up meaningfully shapes their long-term wellbeing.",
-    "abstract_cn": "地区层面的经济机会指标日益被用于指导基于地点的政策。本文研究这些指标能否预测一个脆弱群体的长期结果：在丹麦1986—1998年分散安置政策下被准随机分配到各市的12,000余名难民儿童。我们关注儿童抵达时即可获得的预先确定的机会指标，并在常住居民中运用移居者-暴露设计加以验证。从低机会地区迁往高机会地区（标准差提高两个单位）可使成年收入分位数提升3个百分点（7.5%），就业率提高4个百分点，同时刑事定罪率下降14%，青少年父母身份发生率下降19%，但对教育获得的效应较为有限。经济机会对犯罪和青少年父母身份的预测力强于其他地区特征，包括当地犯罪率。就成年收入而言，地区层面的不平等是特别强的预测因子。这些发现表明，难民儿童成长地区的社会流动性显著塑造了其长期福祉。",
-    "url": "https://www.nber.org/papers/w35853",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35800",
-    "title": "Inference for Regression with Clustered or Spatially Correlated Data I: Framework and Clustering",
-    "title_cn": "聚类或空间相关数据回归推断 I：分析框架与聚类",
-    "authors": [
-      "A. Colin Cameron",
-      "Douglas L. Miller"
-    ],
-    "abstract": "Many regression analyses use observations that are correlated within uncorrelated clusters and/or are correlated in distance or other spatial measure. Such data are often positively correlated. This reduces the information content of an additional observation compared to the default of independent observations. Consequently, failure to adjust standard errors for such correlation leads to confidence intervals that are too narrow, and to hypothesis tests that over reject. In this paper we first provide a general framework. We then focus on inference when observations are correlated within cluster and uncorrelated across clusters. We detail cluster-robust inference methods, particularly methods that provide improved finite-sample performance when there is not a large number of clusters. Such adjustments are often necessary. A companion paper, Cameron and Miller (2026), presents inference when correlation is spatially dampening in the distance between observations. The two papers are intended to provide a guide to empirical researchers.",
-    "abstract_cn": "许多回归分析使用的观测值在互不相关的聚类内部存在相关性，和/或在距离或其他空间度量上存在相关性。此类数据通常呈现正相关。与观测值相互独立的默认情形相比，这会降低新增观测值的信息含量。因此，若未针对此类相关性调整标准误，将导致置信区间过窄、假设检验过度拒绝。本文首先提供一个一般性框架，随后聚焦于观测值在聚类内部相关、在聚类之间不相关情形下的统计推断。我们详细阐述聚类稳健推断方法，尤其关注在聚类数量不多时能提供改进的有限样本表现的方法；此类调整往往是必要的。姊妹篇 Cameron and Miller (2026) 讨论观测值相关性随距离衰减的空间相关情形下的推断。两篇论文旨在为实证研究者提供指南。",
-    "url": "https://www.nber.org/papers/w35800",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35833",
-    "title": "Crowding Out Temptation: Experimental Evidence on Savings and Health Behaviors in Kenya",
-    "title_cn": "以诱惑挤占储蓄：肯尼亚储蓄与健康行为的实验证据",
-    "authors": [
-      "Harsha Thirumurthy",
-      "Elizabeth F. Bair",
-      "Dean Yang",
-      "Teniola I. Egbe",
-      "Benard Ayieko",
-      "Julius Wesonga",
-      "Sue Napierala",
-      "Connie Celum",
-      "Mary E. Putt",
-      "Carol S. Camlin",
-      "Mark Ayallo"
-    ],
-    "abstract": "Alcohol use, transactional sex, and gambling carry significant health and economic consequences. We conducted a randomized controlled trial in Kenya to assess whether these behaviors could be altered with a savings intervention that provided lottery-based interest, goal-setting support, and savings reminders. Over 24 months, the intervention increased formal savings and assets, financed primarily by lower spending on alcohol, transactional sex, and gambling. It also reduced hazardous drinking by 26 percent and intimate partner violence by 15 percent. HIV/STI incidence declined by 8 percent, though this was not statistically significant. Savings interventions can simultaneously boost financial security and change health behavior.",
-    "abstract_cn": "饮酒、交易性行为和赌博均带来显著的健康与经济后果。我们在肯尼亚开展了一项随机对照试验，评估提供基于彩票的利息、目标设定支持和储蓄提醒的储蓄干预能否改变上述行为。在 24 个月期间，该干预提高了正规储蓄和资产水平，资金主要来自酒精、交易性行为和赌博支出的减少。干预同时使危险饮酒行为降低 26%，亲密伴侣暴力减少 15%。HIV/STI 发生率下降 8%，但该结果在统计上不显著。储蓄干预能够同时增进财务安全并改变健康行为。",
-    "url": "https://www.nber.org/papers/w35833",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35867",
-    "title": "The Investment Channel of Monetary Policy: Disentangling Firm Heterogeneity",
-    "title_cn": "货币政策的投资渠道：辨析企业异质性",
+    "id": "w35895",
+    "title": "Do Judges Move Markets? Ideological Shifts in the Supreme Court and Macroeconomic Expectations",
+    "title_cn": "法官是否驱动市场？最高法院意识形态转向与宏观经济预期",
     "authors": [
       "Thomas Drechsel",
-      "Daniel Lewis",
-      "Davide Melcangi",
-      "Laura Pilossoph"
+      "Naixin Zhang"
     ],
-    "abstract": "To study monetary policy transmission at the firm level, researchers typically consider heterogeneity along a small number of firm characteristics, such as size or leverage. We instead estimate the full distribution of firms’ investment responses to monetary policy, using a clustering regression framework. Our novel approach captures multidimensional and unobservable heterogeneity across firms and time. We find that investment by most firms in most time periods responds little to monetary policy. Only about 5% of firm-time observations are associated with a strong response. We then investigate the sources of heterogeneity ex post. We find that most of the variation in investment sensitivity arises within firms over time. Although several firm characteristics predict responsiveness to monetary policy, the majority of heterogeneity remains unexplained by firm observables. We demonstrate that our empirical estimates provide new targets for disciplining structural models of firm heterogeneity.",
-    "abstract_cn": "为研究货币政策在企业层面的传导，已有文献通常仅沿少数企业特征（如规模或杠杆率）考察异质性。本文则采用聚类回归框架，估计企业投资对货币政策反应的完整分布。这一新方法能够捕捉企业间及时间维度上的多维不可观测异质性。我们发现，大多数企业在大多数时期的投资对货币政策反应微弱：仅约 5% 的企业-时期观测值呈现强烈反应。随后，我们事后考察异质性的来源，发现投资敏感性的大部分变异来自企业自身随时间的变动。尽管若干企业特征可预测其对货币政策的反应程度，但大部分异质性仍无法由可观测特征解释。本文表明，上述经验估计为约束企业异质性的结构模型提供了新的靶标。",
-    "url": "https://www.nber.org/papers/w35867",
-    "public_date": "2026-10-05",
+    "abstract": "This paper studies how judicial ideology shapes financial markets' expectations about the macroeconomy. We use unexpected deaths of U.S. Supreme Court Justices as quasi-experimental shifts in the Court's ideological balance. High-frequency asset price responses reveal how markets perceive the macroeconomic consequences of these ideological shifts. We find that a more conservative Court is associated with lower inflation expectations, lower real activity expectations, and lower bond yields. A shift towards a more liberal Court induces the opposite responses. The finding that inflation and activity expectations respond with the same sign suggests that markets revise their expectations about aggregate demand, rather than aggregate supply. Moreover, contrasting the yield responses with estimates from studies of fiscal policy news indicates that a more conservative (liberal) Court leads markets to expect tighter (looser) future fiscal policy. We validate our quasi-experimental setup with sectoral asset price dynamics, such as high-frequency responses of clean energy and health care stocks. Taken together, our findings are consistent with markets interpreting changes in the Supreme Court's ideological composition as news about future fiscal expansions or contractions.",
+    "abstract_cn": "本文研究司法意识形态如何影响金融市场对宏观经济的预期。我们利用美国最高法院大法官的意外死亡作为法院意识形态平衡发生准实验性变化的冲击。高频资产价格反应揭示了市场如何看待这些意识形态转变的宏观经济后果。我们发现，更为保守的法院与更低的通胀预期、更低的实际经济活动预期以及更低的债券收益率相关联；而向法院更为自由化的方向转变则会引发相反的反应。通胀预期与活动预期同向变动这一发现表明，市场修正的是对总需求而非总供给的预期。此外，将收益率反应与财政政策消息的相关研究估计进行对比后可知，更为保守（自由化）的法院使市场预期未来财政政策将趋紧（趋松）。我们通过部门层面资产价格动态验证了这一准实验设定，例如清洁能源与医疗保健股票的高频反应。综合来看，我们的发现与市场将最高法院意识形态构成的变化解读为未来财政扩张或收缩的消息相一致。",
+    "url": "https://www.nber.org/papers/w35895",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35863",
-    "title": "Reassessing the 2000s Housing Cycle After Two Decades of Research",
-    "title_cn": "2000年代住房周期的再评估：基于二十年研究的重新审视",
+    "id": "w35891",
+    "title": "Measurement Error in Self-Reported Data on Stigmatized Behavior: Experimental Evidence on Intimate Partner Violence",
+    "title_cn": "自报数据中对污名化行为的测量误差：来自亲密伴侣暴力的实验证据",
     "authors": [
-      "Adam Guren"
+      "Jorge M. Agüero",
+      "Ursula T. Aldana",
+      "Erica M. Field",
+      "Veronica Frisancho",
+      "Ignacio Rodriguez Hurtado",
+      "Javier Romero"
     ],
-    "abstract": "What caused the 2000s housing cycle? This article synthesizes two decades of research, including reduced-form empirics and structural models. Although often contentious, the literature coheres once one accounts for each study’s timing, place, methodology, and measurement. The cycle was a perfect storm that occurred in distinct stages. Starting in the late 1990s, fundamentals improved, and credit supply increased across the income distribution due to automated underwriting and financial deregulation. In the early 2000s, a decline in interest rates was followed by a further expansion in securitized and subprime credit, the origin of which remains controversial. This sequence of shocks produced a persistent boom that triggered two shifts in beliefs: average expectations became overly optimistic, pushing prices higher, and expectations diverged, fueling speculation. In the bust, prices overshot primarily due to mortgage defaults, which removed buyers and contracted credit supply. How these forces interact and how expectations form require further research.",
-    "abstract_cn": "是什么导致了2000年代的房地产周期？本文综合了二十年来的研究，包括简化式经验研究和结构模型。尽管文献往往充满争议，但一旦考虑各项研究的时间、地点、方法论和测度方式，文献便呈现出内在一致性。该周期是一场分阶段发生的完美风暴。始于1990年代末，基本面改善，且由于自动化核保和金融放松管制，信贷供给在各收入阶层均有增加。进入2000年代初，利率下降之后，证券化和次级信贷进一步扩张，其起源仍存在争议。这一系列冲击产生了持续繁荣，并引发了预期的两重转变：平均预期变得过度乐观，推动价格进一步上涨；预期出现分化，助长了投机行为。在萧条阶段，价格超调主要源于抵押贷款违约，违约减少了购房者并收缩了信贷供给。这些力量如何相互作用以及预期如何形成，仍有待进一步研究。",
-    "url": "https://www.nber.org/papers/w35863",
-    "public_date": "2026-10-05",
+    "abstract": "Error in the measurement of key development outcomes affects our understanding of socioeconomic phenomena and their policy implications. This paper focuses on measuring intimate partner violence (IPV), a public health issue affecting women globally. We introduce a novel, privacy-enhancing data collection method using a ballot, comparing it to standard survey techniques in which responses are not kept private from enumerators, and list experiments, an approach ensuring complete anonymity. Our findings show that improved privacy yields higher and more accurate IPV reports than both, especially among women with low education. By linking our data with two natural experiments, we demonstrate that the non-random nature of underreporting with standard methods can lead to biased estimates of IPV determinants.",
+    "abstract_cn": "测量关键发展结果中的误差会影响我们对社会经济现象及其政策含义的理解。本文聚焦于亲密伴侣暴力（IPV）的测量，这是影响全球女性的一项公共卫生议题。我们引入了一种使用投票的新型隐私增强型数据收集方法，并将其与标准调查技术（受访者对调查员的回答不保密）以及清单实验（一种确保完全匿名性的方法）进行比较。研究发现，相较于上述两种方法，改进后的隐私保护能够带来更高且更准确的 IPV 报告率，尤其是在受教育程度较低的女性群体中。通过将我们的数据与两项自然实验相链接，我们证明了标准测量方法下 IPV 漏报的非随机性可能导致对 IPV 决定因素的有偏估计。",
+    "url": "https://www.nber.org/papers/w35891",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35858",
-    "title": "Stressful Exposure from the 2004 Indian Ocean Tsunami Drives Long-term Changes in Thyroid Hormone Physiology",
-    "title_cn": "2004 年印度洋海啸造成的应激性暴露驱动甲状腺激素生理学的长期变化",
+    "id": "w35879",
+    "title": "How Knowledge Crosses Borders: Evidence from Semiconductor Manufacturing",
+    "title_cn": "知识如何跨越国界：来自半导体制造业的证据",
     "authors": [
-      "Ralph I. Lawton",
-      "Duncan Thomas",
-      "Elizabeth Frankenberg",
-      "Cecep Sumantri",
-      "Teresa Seeman",
-      "Eileen Crimmins",
-      "Daniel Hochbaum"
+      "Pinelopi Koujianou Goldberg",
+      "Réka Juhász",
+      "Giulia Lo Forte",
+      "Jeff Thurk"
     ],
-    "abstract": "Stressful events are associated with long-term adverse health impacts, but the causal mechanisms linking exposures to disease remain poorly understood. One mechanism is persistent changes to hormonal signaling that regulate metabolic homeostasis. We examine the long-term impacts of stress associated with exposure to the 2004 Indian Ocean tsunami on levels of free triiodothyronine (FT3), a circulating measure of biologically active thyroid hormone, using data from the Study of Tsunami Aftermath and Recovery. Biomarkers are measured 20 years post-tsunami in a population-representative sample age 35y+ in 2024 who, at the time of the tsunami, were living along the coast of Aceh, Indonesia, the area hardest-hit by the tsunami. Because respondents were first interviewed before the tsunami and subsequently tracked regardless of migration, the sample avoids selection bias common in long-term disaster studies. We identify the causal effect of tsunami exposure using variation in community-level tsunami mortality, comparing communities within the same sub-district. We find that greater tsunami exposure reduced levels of FT3 20 years later. Exposure also altered relationships between FT3, body composition, and cortisol and increased cardiometabolic risk. These findings identify persistent alteration of thyroid hormone physiology as a potential pathway linking severe stressful exposures to long-term cardiometabolic disease risk.",
-    "abstract_cn": "应激事件与长期不良健康后果相关，但暴露导致疾病的因果机制尚不明确。其中一种机制是调节代谢稳态的激素信号发生持续性改变。本文利用海啸 aftermath 与恢复研究（Study of Tsunami Aftermath and Recovery）的数据，考察了 2004 年印度洋海啸相关应激对游离三碘甲状腺原氨酸（FT3）水平的长期影响，FT3 是生物活性甲状腺激素的循环测量指标。生物标志物在海啸发生 20 年后进行测量，样本为 2024 年年龄 35 岁及以上、海啸发生时居住在印度尼西亚亚齐海岸（受灾最严重地区）且具有人口代表性的样本。由于受访者在海啸前即已接受首次访谈，随后无论是否迁移均被追踪，该样本避免了长期灾害研究中常见的选择性偏差。我们利用社区层面海啸死亡率的变异来识别海啸暴露的因果效应，比较同一分区内的不同社区。研究发现，更大的海啸暴露降低了 20 年后的 FT3 水平。暴露还改变了 FT3 与身体成分、皮质醇之间的关系，并增加了心脏代谢风险。这些发现表明，甲状腺激素生理的持续性改变是严重应激暴露与长期心脏代谢疾病风险之间的一条潜在路径。",
-    "url": "https://www.nber.org/papers/w35858",
-    "public_date": "2026-10-05",
+    "abstract": "We show that cross-border learning is an important feature of modern semiconductor manufacturing and that several important channels – such as knowledge sharing along global supply chains, the movement of engineers within multinational firms, and foreign direct investment – operate through market mechanisms rather than anonymous technological spillovers. These findings have significant policy implications. When cross-border learning is mediated by purposeful economic relationships, access to frontier knowledge is neither automatic nor guaranteed. Firms and governments can facilitate - or restrict - the international diffusion of technology, implying that policies to foster domestic technological upgrading are likely to be most effective when coupled with continued access to global sources of frontier knowledge.",
+    "abstract_cn": "我们表明，跨境学习是现代半导体制造业的重要特征，且若干关键渠道——如全球供应链沿线的知识共享、跨国企业内部工程师的流动以及外国直接投资——均通过市场机制运作，而非匿名化的技术溢出。这些发现具有重要的政策含义。当跨境学习由有目的的经济关系所中介时，前沿知识的获取既非自动，亦非必然。企业与政府能够促进或限制技术的国际扩散，这意味着旨在推动国内技术升级的政策，若与持续获取全球前沿知识来源相结合，将最有可能取得实效。",
+    "url": "https://www.nber.org/papers/w35879",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35870",
-    "title": "Aligning Platform and User Incentives in Social Media Age Restrictions",
-    "title_cn": "社交媒体年龄限制中平台与用户激励的协调",
+    "id": "w35889",
+    "title": "Industrial Policy via the IPO Market",
+    "title_cn": "通过 IPO 市场实施产业政策",
     "authors": [
-      "Leonardo Bursztyn",
-      "Rafael Jiménez-Durán",
-      "Aaron Leonard",
-      "Filip Milojević",
-      "Christopher Roth"
+      "Zhiguo He",
+      "Yiming Qian",
+      "Xi Sun",
+      "Wang Renxuan"
     ],
-    "abstract": "Several countries are adopting social media bans for teenagers, yet early evidence suggests limited adherence to the age-based restrictions. Such bans ask platforms to remove profitable customers and teens to give up access to their online social networks. We study an alternative regulatory regime in which platforms remain liable for teens on the adult tier but may offer a safe tier that removes restricted features, such as algorithmic feeds, while preserving interactions with their relevant network. Provision of the safe tier and enforcement are complementary: teens can adhere without giving up access to their network, and platforms can retain displaced adult-tier users as lower-margin customers. This policy design makes the teen decision to avoid the adult tier less dependent on peer dynamics and increases teen welfare for a relevant range of regulatory penalties.",
-    "abstract_cn": "多国正针对青少年实施社交媒体禁令，但早期证据表明，基于年龄的限制措施遵守率有限。此类禁令要求平台移除盈利性用户，并要求青少年放弃其在线社交网络访问权限。我们研究了一种替代性监管制度：平台仍须对处于成人层级的青少年承担责任，但可提供安全层级，移除算法推荐信息流等受限功能，同时保留用户与其相关社交网络的互动。安全层级的提供与执法具有互补性：青少年无需放弃社交网络访问即可遵守规定，平台则可将原本流失的成人层级用户保留为低利润客户。这一政策设计使青少年规避成人层级的决策更少依赖于同伴动态，并在一定范围的监管处罚力度下提升了青少年福利。",
-    "url": "https://www.nber.org/papers/w35870",
-    "public_date": "2026-10-05",
+    "abstract": "This paper studies how China uses access to public equity markets as an instrument of industrial policy. We find that policy-favored status, rather than industry Tobin's Q, predicts IPO activity, in contrast to the United States. The effect is economically large: our estimates imply that favored industries had 287% more IPOs and 148% higher IPO proceeds than non-favored industries over 2002 to 2022. We develop a framework to interpret these findings: the government shapes the number of listing opportunities available across industries, while market forces determine which firms obtain these opportunities based on firm fundamentals. Consistent with our framework, policy favor also predicts a valuation premium which persists after listing.",
+    "abstract_cn": "本文研究中国如何将公开股权市场准入作为产业政策工具。我们发现，与美国不同，政策扶持地位而非行业托宾 Q 值能够预测 IPO 活动。该效应在经济意义上十分显著：我们的估计表明，2002 年至 2022 年间，受扶持行业的 IPO 数量比非扶持行业高出 287%，IPO 募集资金高出 148%。我们构建了一个分析框架以解释上述发现：政府决定各行业可获得的上市机会数量，而市场力量则基于企业基本面决定哪些企业获得这些机会。与我们的框架一致，政策扶持还预示着企业在上市后持续存在估值溢价。",
+    "url": "https://www.nber.org/papers/w35889",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35860",
-    "title": "Communicating Performance: Textual and Financial Disclosures in Private Equity",
-    "title_cn": "私募股权中的业绩沟通：文本披露与财务披露",
+    "id": "w35888",
+    "title": "Access to Capital and the IPO Decision: An Analysis of US Private Firms",
+    "title_cn": "资本获取与IPO决策：对美国私营企业的分析",
     "authors": [
-      "Josh Lerner",
-      "Fiona Paine",
-      "Antoinette Schoar"
+      "Andres Almazan",
+      "Nathan Swem",
+      "Sheridan Titman",
+      "Gregory Weitzner"
     ],
-    "abstract": "Private capital fund managers appear to possess significant information about the relative quality of their portfolio firms even within the first three years after the investment. But the way this information is disclosed to investors changes dynamically: Textual discussions of portfolio companies have substantial information about the firms’ ultimate performance in the early stages of investment, while interim valuations are less important. Over time, this pattern reverses, with interim valuations becoming more important in explaining future returns, especially after portfolio companies have a financing event. The results vary not only with the tone but also with the content of fund manager disclosures. In an opaque market with substantial information asymmetries, textual discussions seem to serve as a signal about general partner quality.",
-    "abstract_cn": "私募股权基金经理似乎在其投资后的最初三年内便已掌握有关被投企业相对质量的显著信息，但这类信息向投资者披露的方式呈动态变化：在投资早期阶段，关于被投企业的文本讨论对企业最终绩效具有 substantial 信息含量，而中期估值的重要性则相对较低。随着时间推移，这一模式发生逆转，中期估值在解释未来收益率方面的重要性上升，尤其是在被投企业发生融资事件之后。上述结果不仅随基金经理披露文本的语气而变化，亦随其内容而变化。在信息不对称严重的非透明市场中，文本讨论似乎充当着有关普通合伙人（general partner）质量的信号。",
-    "url": "https://www.nber.org/papers/w35860",
-    "public_date": "2026-10-05",
+    "abstract": "We analyze firms’ IPO decisions using detailed financial data on US private firms. Firms with higher external capital needs are more likely to go public. Following the IPO, firms increase investment and debt issuance, leaving their leverage ratios un-changed from pre-IPO levels. Finally, newly public firms borrow from an expanded pool of lenders on improved terms, and the within-firm dispersion in banks’ private risk assessments declines. Our analysis suggests that firms go public to improve their access to capital, which is facilitated by reduced asymmetric information, and that the benefit extends beyond the IPO itself to new sources of debt.",
+    "abstract_cn": "我们利用美国私营企业的详细财务数据，分析企业的首次公开发行（IPO）决策。外部资本需求较高的企业更倾向于上市。IPO之后，企业增加投资和债务发行，杠杆率维持在上市前水平不变。此外，新上市企业得以从更广泛的贷款人池中借款，并获得更优的融资条件，且银行对企业个体风险评级的内部离散程度下降。我们的分析表明，企业上市旨在改善其资本获取渠道，这一改善通过信息不对称程度的降低而实现，且收益不仅限于IPO本身，还延伸至新的债务融资渠道。",
+    "url": "https://www.nber.org/papers/w35888",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35874",
-    "title": "Tax Planning and Multinational Behavior",
-    "title_cn": "税收筹划与跨国企业行为",
+    "id": "w35884",
+    "title": "Learning About Outgroups: The Impact of Broad Versus Deep Interactions",
+    "title_cn": "关于外群体的学习：广泛互动与深入互动的影响",
     "authors": [
-      "Rosanne Altshuler",
-      "Lysle Boller",
-      "Kevin A. Roberts",
-      "Juan Carlos Suárez Serrato"
+      "Anujit Chakraborty",
+      "Arkadev Ghosh",
+      "Matt Lowe",
+      "Gareth Nellis"
     ],
-    "abstract": "We use newly linked IRS data to study how US multinationals use tax-planning structures that exploit mismatches between US and foreign tax laws. In 2016, these structures accounted for 36% of foreign profits despite being adopted by only 18% of firms. We develop and estimate a structural model using adoption patterns and changes in foreign effective tax rates, domestic and foreign investment, and global R&D following adoption. The model implies substantial heterogeneity in adoption costs and benefits and shows that restricting tax planning creates tradeoffs between tax revenue and economic activity that are amplified by global R&D linkages.",
-    "abstract_cn": "我们利用新近关联的美国国税局（IRS）数据，研究美国跨国企业如何利用美国与外国税法之间的错配进行税收筹划架构安排。2016年，尽管仅有18%的企业采用此类架构，其产生的利润却占海外利润的36%。我们基于企业的采用模式以及采用后外国实际税率、国内与海外投资、全球研发活动的变化，构建并估计了一个结构模型。模型结果表明，企业采用此类架构的成本与收益存在显著异质性，并显示限制税收筹划会在税收收入与经济活动之间产生权衡，且这一权衡因全球研发的关联效应而被放大。",
-    "url": "https://www.nber.org/papers/w35874",
-    "public_date": "2026-10-05",
+    "abstract": "We hypothesize that broad contact, involving brief interactions with multiple outgroup members, and deep contact, meaning longer interactions with a single outgroup member, play distinct roles in shaping intergroup relations. We set up a factory in India and recruited Hindu and Muslim men to work in pairs on joint production tasks. We randomly assigned participants to work either with the same ingroup or outgroup partner daily (deep contact), a different outgroup partner each day (broad contact), or to a control group. Deep contact strengthens social and economic ties with the outgroup partner. But only broad contact reduces the majority group's misperceptions about outgroup strangers. Using within-treatment variation in partners’ pre-treatment productivity, we show that participants in both arms learn about their partners, but broad participants also generalize these belief updates to strangers. These findings align with a model in which independent sampling promotes learning about outgroups more than prolonged interaction with a single individual does. Nevertheless, neither type of contact changes behavior toward the wider outgroup.",
+    "abstract_cn": "我们假设，广泛接触（即与多名外群体成员进行短暂互动）与深度接触（即与单一外群体成员进行较长时间互动）在塑造群体间关系方面发挥着不同作用。我们在印度设立了一家工厂，并招募了印度教和穆斯林男性，让他们成对协作完成联合生产任务。我们将参与者随机分配到三组：每日与同一位内群体或外群体伙伴共事（深度接触）、每日与不同的外群体伙伴共事（广泛接触），或对照组。深度接触增强了与外群体伙伴的社会联系和经济联系，但只有广泛接触能够减少多数群体对外群体陌生人的误解。利用处理组内伙伴处理前生产率的变异，我们发现两组参与者都会了解其伙伴的信息，但广泛接触组的参与者还会将这种信念更新推广至陌生人。这些发现与一个模型的预测一致：在该模型中，独立抽样比与单个个体的长期互动更能促进对外群体的学习。然而，两种接触类型均未改变参与者对更广泛外群体的行为。",
+    "url": "https://www.nber.org/papers/w35884",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35844",
-    "title": "Aging Out of Coverage: Lessons from the West Virginia $1,000 Adult Dental Benefit",
-    "title_cn": "退出保障：西弗吉尼亚州1000美元成人牙科福利的经验",
+    "id": "w35880",
+    "title": "The Relationship between Income and Health: Evidence from Nationwide Health Exams in Korea",
+    "title_cn": "收入与健康的关系：基于韩国全国性健康体检的证据",
     "authors": [
-      "Daniel S. Grossman",
-      "Kole T. Reddig",
-      "Jane Ruseski",
-      "Fotinos Panagakos"
+      "Liran Einav",
+      "Amy Finkelstein",
+      "Sehyun Hong"
     ],
-    "abstract": "This paper studies the utilization of dental services during the recent implementation of an adult (age 21 and over) Medicaid dental benefit in West Virginia. We analyze claims data and find: 1) before implementation, quarterly utilization of preventative and restorative services falls from 8% at age 20 to virtually 0% at age 21; 2) post-implementation, utilization falls from 8% at age 20 to 5% at age 21, implying a net increase of 50% of baseline utilization; 3) the net effect of the dental benefit is significantly larger in counties with a larger number of oral health care provider practices. Our results provide evidence that public health insurance expansions are dampened in markets with a limited supply of provider practices.",
-    "abstract_cn": "本文研究西弗吉尼亚州近期实施面向成年人（21 岁及以上）的 Medicaid 牙科福利期间牙科服务的利用情况。我们分析了理赔数据，发现：1）实施前，预防性和修复性服务的季度利用率从 20 岁时的 8% 下降至 21 岁时的几乎为零；2）实施后，利用率从 20 岁时的 8% 下降至 21 岁时的 5%，意味着相对于基期利用率净增 50%；3）牙科福利的净效应在口腔医疗服务机构数量较多的县显著更大。我们的结果表明，在医疗服务机构供给有限的市场中，公共医疗保险扩面的效果会被削弱。",
-    "url": "https://www.nber.org/papers/w35844",
-    "public_date": "2026-10-05",
+    "abstract": "We examine how physical health, health behaviors, and mortality vary with income for prime-age adults. To do so, we leverage population-wide, individual-level cardiovascular health exams linked to income tax records and subsequent mortality for a representative sample of about 350,000 Koreans aged 47--57. For both men and women, there is a negative disease-income gradient for high blood pressure, high blood glucose, and high body mass index, but not for high cholesterol. Disease-income gradients are steeper for women than men, and tend to be concentrated in the top half of the income distribution; similar patterns hold for health behavior-income gradients. Subsequent mortality-income gradients are also concentrated in the top half of the income distribution, but are steeper for men than women. Although physical health and behavior measures are highly predictive of subsequent mortality, differences in these measures by income explain very little of the income-mortality gradient, even for cardiovascular mortality. Our findings suggest that something other than differences in disease burden at prime age drives most of the income-mortality gradient at older ages.",
+    "abstract_cn": "我们考察了适龄劳动成年人的身体健康状况、健康行为及死亡率如何随收入变化。为此，我们利用覆盖全民的个体层面心血管健康体检数据，将其与所得税记录及后续死亡数据相匹配，样本为约35万名47—57岁的代表性韩国人群。对男性和女性而言，高血压、高血糖和高体重指数均呈现负向的疾病—收入梯度，但高胆固醇除外。女性的疾病—收入梯度比男性更陡峭，且主要集中在收入分布的上半部分；健康行为—收入梯度亦呈现类似模式。后续死亡率—收入梯度同样集中于收入分布的上半部分，但男性比女性更陡峭。尽管身体健康指标和行为指标对后续死亡率具有高度预测力，但收入差异所导致的这些指标差异仅能解释收入—死亡率梯度的很小一部分，即便对心血管死亡率也是如此。研究结果表明，适龄劳动阶段的疾病负担差异并非驱动老年阶段收入—死亡率梯度的主要因素，另有其他机制在发挥作用。",
+    "url": "https://www.nber.org/papers/w35880",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35838",
-    "title": "When Does Bad News Stick? Topic-Level Asymmetry in Narrative Dynamics",
-    "title_cn": "坏消息何时持续？叙事动态中的主题层面非对称性",
+    "id": "w35893",
+    "title": "Affirmative Action in Centralized College Admissions Systems",
+    "title_cn": "平权行动在集中式大学录取制度中的实施",
     "authors": [
-      "Isha Agarwal",
-      "Wentong Chen",
-      "Eswar S. Prasad"
+      "Nano Barahona",
+      "Cauê Dobbin",
+      "Sebastián Otero"
     ],
-    "abstract": "When does bad news stick? This paper shows that the persistence of media sentiment depends not only on whether news is good or bad, but also on what the news is about. Using the complete Wall Street Journal archive from 1990 to 2025, we construct monthly positive and negative sentiment indices for twelve economic topics and estimate topic-specific sentiment dynamics. Bad-news innovations generate larger cumulative responses than positive-sentiment innovations in every topic, indicating that negativity asymmetry is a broad feature of media sentiment. But the size of this asymmetry varies sharply across topics. The bad-minus-positive persistence gap is largest in security and human rights, firms and corporate strategy, health and public safety, and real estate and financial stability. Bad-news persistence is also sizable in data-rich topics such as financial markets, real estate, and corporate news, suggesting that frequent information arrival does not necessarily lead narratives to revert quickly. These findings show that aggregate sentiment indices mask substantial topic-level heterogeneity in the asymmetric dynamics of narratives, with potential implications for how persistent negative sentiment shapes expectations, asset prices, and real economic outcomes.",
-    "abstract_cn": "负面消息何时持续？本文表明，媒体情绪的持续性不仅取决于消息好坏，还取决于消息所涉主题。利用1990年至2025年《华尔街日报》完整档案，我们构建了十二个经济主题的月度正负情绪指数，并估计了主题特异性的情绪动态。负面消息冲击在每个主题中均产生比正面情绪冲击更大的累积反应，表明负向不对称性是媒体情绪的普遍特征。但这种不对称性的幅度在不同主题间差异显著。负面减正面的持续性缺口在安全与人权、企业与公司战略、健康与公共安全、以及房地产与金融稳定领域最大。负面消息持续性在金融市场、房地产和公司新闻等数据密集型主题中亦相当可观，表明频繁的信息到达未必使叙事快速反转。这些发现表明，总体情绪指数掩盖了叙事非对称动态在主题层面的显著异质性，对持续性负面情绪如何塑造预期、资产价格和实际经济结果具有潜在启示。",
-    "url": "https://www.nber.org/papers/w35838",
-    "public_date": "2026-10-05",
+    "abstract": "We study the consequences of affirmative action in college admissions. We develop an empirical framework that distinguishes the effects on marginally benefited and displaced students from the overall effects of the policy. The overall effects include equilibrium reallocations as benefited students leave seats that others fill and displaced students take seats elsewhere, displacing others in turn. We apply this framework to a large-scale policy in Brazil that required all federal institutions to reserve half their seats for racially and socioeconomically disadvantaged applicants. Exploiting admissions cutoffs, we find that marginally benefited targeted students attend and graduate from higher-quality programs. Their graduation gains are about twice the losses of marginally displaced non-targeted students, reflecting targeted students’ weaker outside options. To evaluate the overall effects, we estimate a model of degree choices and potential outcomes. Among all reallocated students, benefited students still gain nearly twice what displaced students lose, but equilibrium reallocations make the policy displace about 30% more students than it benefits. Non-targeted students’ losses therefore offset about two-thirds of targeted students’ graduation gains, leaving a modest net gain across all students.",
+    "abstract_cn": "我们研究大学招生中平权行动的后果。我们构建了一个经验分析框架，将政策对边缘受益学生和边缘被替代学生的效应与该政策的总体效应加以区分。总体效应包含均衡再分配效应：受益学生空出的席位由他人填补，而被替代学生在别处占据席位，进而又替代他人。我们将该框架应用于巴西的一项大规模政策，该政策要求所有联邦高校将半数席位预留给种族和社会经济弱势群体申请者。利用招生录取分数线的断点，我们发现边缘受益的目标群体学生进入了质量更高的项目并完成学业。其毕业率的提升幅度约为边缘被替代的非目标群体学生损失幅度的两倍，这反映了目标群体学生较弱的外部选择。为评估总体效应，我们估计了一个学位选择与潜在结果的模型。在所有被再分配的学生中，受益学生的收益仍接近被替代学生损失的两倍，但均衡再分配使得该政策替代的学生数量比受益学生多出约30%。因此，非目标群体学生的损失抵消了目标群体学生毕业率提升收益的约三分之二，所有学生的净收益较为温和。",
+    "url": "https://www.nber.org/papers/w35893",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35840",
-    "title": "Asymmetric Reversals",
-    "title_cn": "非对称反转",
+    "id": "w35878",
+    "title": "When Does Randomized Oversight Align AI Agents That Can Conceal?",
+    "title_cn": "随机化监督何时能够约束可隐藏行为的智能体 AI 对齐",
     "authors": [
-      "Federico Baldi-Lanfranchi",
-      "Pierre Collin-Dufresne",
-      "Kent D. Daniel"
+      "Joshua S. Gans",
+      "Richard T. Holden"
     ],
-    "abstract": "Short-term return reversal is one of the most robust asset-pricing anomalies, and is commonly linked to liquidity provision. We decompose individual firm stock returns into two distinct components: SYS, the component of returns that can be linked to systematic risk and public information releases; and an orthogonal residual RES. The RES component reverses, while the SYS component exhibits continuation. Moreover, the residual reversals are highly asymmetric: positive residual shocks reverse much more slowly than negative shocks. A return factor based on asymmetric idiosyncratic reversal subsumes the idiosyncratic volatility factor and a broad set of other short-horizon anomalies. Our findings suggest that asymmetric idiosyncratic reversal (AIR) is the primary driver of short-term return predictability.",
-    "abstract_cn": "短期收益率反转是最为稳健的资产定价异象之一，通常与流动性供给相关联。我们将个股收益率分解为两个独立成分：SYS，即与系统性风险及公开信息释放相关联的收益率成分；以及与之正交的残差 RES。RES 成分呈现反转特征，而 SYS 成分则呈现持续性。此外，残差反转具有高度非对称性：正向残差冲击的反转速度远慢于负向冲击。基于非对称个体特异性反转构建的收益率因子能够涵盖个体特异性波动率因子以及一系列其他短期异象。研究结果表明，非对称个体特异性反转（AIR）是短期收益率可预测性的主要驱动因素。",
-    "url": "https://www.nber.org/papers/w35840",
-    "public_date": "2026-10-05",
+    "abstract": "Oversight changes the evidence it relies on. We ask when randomized audits and scoring align AI agents that can conceal misconduct and alter records. Stronger auditing makes undeterred violations better hidden. Because the provider writes the agent’s objective, sanctions need not stop at forfeiture, and rare audits deter every type of agent if evidence survives concealment and audit draws cannot be learned in advance. When evidence can be erased, deterrence must come from lower gains from violation, such as credit for stopping, or from costlier or fewer ways to conceal. These conditions identify what failed when agents in OpenAI’s cybersecurity evaluations compromised parts of Hugging Face’s infrastructure in July 2026.",
+    "abstract_cn": "监管会改变其所依赖的证据。本文探讨随机审计与评分机制何时能够促使可隐藏违规行为并篡改记录的智能体式人工智能（agentic AI）实现激励相容。更严格的审计会使未被遏制的违规行为隐藏得更深。由于提供方设定智能体的目标函数，惩罚不必仅限于没收所得；若证据能够经受隐藏且审计抽样无法被提前获知，则低频审计即可威慑所有类型的智能体。当证据可被擦除时，威慑必须来自违规收益的降低（例如主动终止行为可获得减免），或来自隐藏手段的成本上升或数量减少。这些条件可用于识别 OpenAI 网络安全评估中的智能体于 2026 年 7 月破坏 Hugging Face 部分基础设施时究竟在何处失效。",
+    "url": "https://www.nber.org/papers/w35878",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35801",
-    "title": "Inference for Regression with Clustered or Spatially Correlated Data II: Spatial Correlation",
-    "title_cn": "空间相关数据回归推断 II：空间相关性",
+    "id": "w35881",
+    "title": "Does Remote Work Increase Fertility?",
+    "title_cn": "远程办公是否提高生育率？",
     "authors": [
-      "A. Colin Cameron",
-      "Douglas L. Miller"
+      "Andrew C. Johnston"
     ],
-    "abstract": "This article presents inference for regression with data that are correlated across some measure of distance; most often geographic distance. Failure to appropriately adjust standard errors can lead to confidence intervals that are too narrow, and hypothesis tests that over-reject. If spatial correlation exists within region but not across regions then one can use cluster-robust inference methods presented in the companion paper, Cameron and Miller (2026). In this paper we focus on methods when spatial correlation is dampening in distance. Then the standard inference method is the spatial HAC of Conley (1999). This method does not work well when spatial persistence is high, and alternative inference methods are needed. Additionally it is important that regression models control for any spatial trends to avoid finding spurious correlation.",
-    "abstract_cn": "本文提出针对按某种距离测度（最常见的是地理距离）存在相关性的回归数据的推断方法。若未能恰当调整标准误，将导致置信区间过窄以及假设检验过度拒绝。若空间相关性存在于区域内部而非区域之间，则可采用姊妹篇 Cameron 与 Miller（2026）中介绍的聚类稳健推断方法。本文聚焦于空间相关性随距离衰减情形下的推断方法。此时，标准推断方法为 Conley（1999）提出的空间 HAC（异方差与自相关一致）估计量。该方法在空间持续性较高时表现不佳，因而需要替代推断方法。此外，回归模型必须控制任何空间趋势，以避免发现伪相关。",
-    "url": "https://www.nber.org/papers/w35801",
-    "public_date": "2026-10-05",
+    "abstract": "Does working from home increase fertility? I study the 2020 expansion of remote work by comparing changes in births across U.S. college graduates whose majors differed in pre-pandemic teleworkability. Measuring exposure by college major avoids relying on occupations workers may have chosen in response to the expansion. Among married women, a one-standard-deviation increase in teleworkability reduced annual birth rates by 2 percent and increased full-time employment by 1.3 percent. I find no statistically significant effects on fertility among men or unmarried women, or on marriage or divorce. Accounting exercises suggest that increased employment can explain about half of the decline in births. The results suggest that returning to pre-pandemic telework levels would raise the total fertility rate by 0.09 births per woman.",
+    "abstract_cn": "居家办公会提高生育率吗？本文通过比较 2020 年远程办公扩张前后，美国不同专业大学毕业生生育率的变化来研究这一问题。选择按大学专业来衡量暴露程度，可以避免依赖劳动者可能因远程办公扩张而主动选择的职业。在已婚女性中，远程办公可及性提高一个标准差，使年生育率下降 2%，同时全职就业率提高 1.3%。在男性、未婚女性以及结婚或离婚概率方面，未发现具有统计显著性的影响。核算分析表明，就业率上升可以解释生育率下降幅度的一半左右。研究结果表明，若远程办公水平恢复至疫情前水平，总和生育率将提高 0.09。",
+    "url": "https://www.nber.org/papers/w35881",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35836",
-    "title": "Consumption, Savings, and Earnings Responses to Financial Windfalls",
-    "title_cn": "消费、储蓄与收入对意外财务所得的响应",
+    "id": "w35876",
+    "title": "Survival versus Scale: The Effects of Critical Access Hospital Designation",
+    "title_cn": "生存与规模：关键通道医院认定效应",
     "authors": [
-      "Rajashri Chakrabarti",
-      "Philippe d'Astous",
-      "Kory Kroft",
-      "Sheisha Kulkarni",
-      "Vyacheslav Mikhed",
-      "Matthew J. Notowidigdo",
-      "Sahil Raina",
-      "Barry Scholnick"
+      "Ian M. McCarthy",
+      "Katie Leinenbach"
     ],
-    "abstract": "We estimate the causal effects of a financial windfall on consumption, savings, and wage earnings using linked administrative data on a large sample of Canadian lottery winners. Using separate linkages of lottery winners to income tax records and credit bureau data, we estimate how lottery winnings affect consumption measured through credit card spending, savings through financial asset accumulation and debt repayment, and wage earnings from tax records. We then examine how these responses vary across the income distribution. We find that high-income individuals allocated a larger share of lottery winnings to savings and leisure, while low-income individuals spent a larger share on consumption. We illustrate the policy relevance of these heterogeneous responses through three applications: designing fiscal stimulus programs, evaluating a Universal Basic Income (UBI), and determining optimal top tax rates on wage earnings and savings.",
-    "abstract_cn": "我们利用关联的行政数据，基于加拿大彩票中奖者的大样本，估计意外之财对消费、储蓄和工资收入的因果效应。通过将彩票中奖者分别与所得税记录和征信局数据关联，我们估计彩票奖金如何影响以信用卡支出度量的消费、以金融资产积累和债务偿还度量的储蓄，以及来自税务记录的工资收入。随后，我们考察这些反应如何在收入分布上存在差异。我们发现，高收入者将更大比例的彩票奖金分配于储蓄和闲暇，而低收入者则将更大比例用于消费。我们通过三项应用说明这些异质性反应的政策相关性：设计财政刺激计划、评估全民基本收入（UBI），以及确定工资收入和储蓄的最优最高税率。",
-    "url": "https://www.nber.org/papers/w35836",
-    "public_date": "2026-10-05",
+    "abstract": "The Critical Access Hospital (CAH) program, established under the Balanced Budget Act of 1997, provides cost-based Medicare reimbursement to small rural hospitals in exchange for limits on inpatient capacity and service scope. We estimate the effects of CAH designation on hospital finances, capacity, and organizational outcomes using a synthetic difference-in-differences design that exploits the staggered 1999– 2002 rollout of state-level CAH availability. We find that CAH designation raises operating margins by three to four percentage points, with no change in liquidity or capital investment, as cost-based reimbursement sustains revenue while expenses fall with scale. Designation also reduces inpatient scale, with significant declines in total beds, obstetric capacity, and nursing staff. Emergency department visits also decline meaningfully, while outpatient volume is largely unchanged. At the same time, CAH designation reduces hospital closures, with no meaningful effect on mergers. These results point to a “survival versus scale” tradeoff across hospitals within a state, wherein designation-based subsidies avert closure for a small number of hospitals while inducing widespread inpatient downsizing among the many more hospitals that convert. Because converting hospitals shed more inpatient capacity than averted closures preserve, the program may reduce aggregate rural inpatient capacity even as it keeps hospitals open.",
+    "abstract_cn": "关键通道医院（CAH）计划依据 1997 年《平衡预算法》设立，向小型农村医院提供基于成本的 Medicare 报销，以换取对其住院容量和服务范围的限制。我们利用 1999—2002 年各州 CAH 资格分阶段放开这一交错 rollout，采用合成双重差分设计估计 CAH 认定对医院财务状况、容量及组织结果的影响。研究发现，CAH 认定使营业利润率提高 3—4 个百分点，而流动性和资本投资均未变化，原因在于基于成本的报销维持了收入，同时规模收缩压低了支出。认定还降低了住院规模，总床位数、产科容量和护理人员均显著下降。急诊就诊量亦明显下滑，而门诊量基本不变。与此同时，CAH 认定减少了医院倒闭，但对合并无显著影响。这些结果表明，同一州内医院面临\"生存与规模\"的权衡：基于认定的补贴使少数医院免于倒闭，却促使数量远为众多的转制医院普遍缩减住院规模。由于转制医院削减的住院容量超过所避免倒闭的医院保留下来的容量，该计划可能在维持医院运营的同时，降低了农村住院总容量。",
+    "url": "https://www.nber.org/papers/w35876",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35847",
-    "title": "Targeted Acceleration in Middle School Math: Impacts on College Entry, Degree Completion, and STEM",
-    "title_cn": "中学数学针对性加速：对大学入学、学位完成及 STEM 的影响",
+    "id": "w35887",
+    "title": "Road Pricing under Heterogeneity",
+    "title_cn": "异质性下的道路定价",
     "authors": [
-      "David Card",
-      "Laura Giuliano"
+      "Itai Ater",
+      "Brad Ross",
+      "Adi Shany",
+      "Shoshana Vasserman"
     ],
-    "abstract": "We study an accelerated 3-year math curriculum offered in the middle schools of a large urban district that enables students to finish Algebra I and Geometry before high school. Entry to the program is based on 5th-grade math test scores, with a cutoff at the 80th percentile. Continuing eligibility requires at least a B grade in the previous year; successful completion of all three years is highly correlated with an index of non-cognitive skills. Following students for 6 years after high school graduation, we find that the impacts of admission vary widely by non-cognitive skill and gender. Marginally eligible boys with high non-cognitive skills have a 33 percentage point (ppt.) increase in the probability of completing calculus by 11th grade and a 12 ppt. increase in the probability of completing a major in STEM or business within 6 years; boys with lower noncognitive skills take more advanced math classes in high school but have no significant effects on their college outcomes. Like their male peers, marginally eligible girls with high non-cognitive skills are more likely to complete calculus by 11th grade (+17 ppt.). Their rate of graduating with a STEM or business major is unaffected, but they switch from social sciences to the core STEM majors (science, engineering and math). Girls in the two lower terciles of non-cognitive skill are also strongly affected by entry to the program, with higher participation in advanced math classes in high school, higher rates of entry to selective 4-year colleges, and higher rates of completing a STEM or business major (+12 ppt).",
-    "abstract_cn": "我们研究了一个大型城市学区初中阶段开设的三年制加速数学课程，该课程使学生能够在进入高中前完成代数I和几何学习。项目准入依据五年级数学考试成绩， cutoff 设在第80百分位。持续参与资格要求前一年成绩至少达到B；成功完成全部三年课程与非认知技能指标高度相关。我们对学生高中毕业后的六年间进行追踪，发现准入效应因非认知技能和性别差异而呈现显著分化。处于资格边缘且非认知技能较高的男生，在11年级前完成微积分的概率提高33个百分点（ppt.），六年内完成STEM或商科专业的概率提高12个百分点；非认知技能较低的男生在高中阶段选修了更多高阶数学课程，但大学结果无显著变化。与男生类似，处于资格边缘且非认知技能较高的女生也更可能在11年级前完成微积分（+17 ppt.）。她们的STEM或商科专业毕业率未受影响，但专业选择从社会科学转向核心STEM专业（科学、工程和数学）。处于非认知技能后两个三分位区间的女生同样受到项目准入的显著影响，表现为高中阶段高阶数学课程参与率提高、进入选择性四年制大学的比例上升，以及完成STEM或商科专业的比例提高（+12 ppt.）。",
-    "url": "https://www.nber.org/papers/w35847",
-    "public_date": "2026-10-05",
+    "abstract": "Congestion pricing policies are widely debated and critics often argue that toll costs outweigh congestion relief. We show theoretically that welfare gains depend on two forces: the extent of driver heterogeneity—both in preferences and in exposure to highly demanded roads and times of day—and the extent of revenue recycling. We quantify the impact of both forces using data from a large-scale experiment that tracked driving behavior with and without usage-based congestion pricing incentives for nearly 10,000 drivers over two years. Using a model of time-varying traffic equilibrium with heterogeneous drivers and a granular road network, we show that a congestion pricing policy using the experiment's price schedule would raise welfare by as much as adding a new lane to every highway and would raise enough revenue to fully compensate losers. Moreover, the extent of driver heterogeneity entails that optimal prices can improve net welfare with only a small fraction of toll revenue.",
+    "abstract_cn": "拥堵收费政策广受争议，批评者常认为通行费成本超过拥堵缓解收益。本文在理论上证明，福利收益取决于两股力量：驾驶者异质性程度——包括偏好异质性以及对高需求路段和时段的暴露程度异质性——以及收入再循环程度。我们利用一项大规模实验的数据对两股力量的影响进行量化，该实验在两年内对近 10,000 名驾驶者在有和无基于使用量的拥堵收费激励下的驾驶行为进行了追踪。借助一个具有异质性驾驶者和精细化道路网络的时变交通均衡模型，我们发现，采用实验价格表的拥堵收费政策所能提升的福利，相当于在每条高速公路上新增一条车道，且所筹集的收入足以完全补偿受损者。此外，驾驶者异质性程度意味着，最优价格仅需使用很小一部分通行费收入即可改善净福利。",
+    "url": "https://www.nber.org/papers/w35887",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35837",
-    "title": "Approximating the Equilibrium Effects of Informed School Choice",
-    "title_cn": "近似求解知情学校选择的均衡效应",
+    "id": "w35894",
+    "title": "Estimating the Impact of Targeted Public Policies with Limited Data",
+    "title_cn": "基于有限数据估计定向公共政策的影响",
     "authors": [
-      "Claudia Allende",
-      "Francisco Gallego",
-      "Christopher Neilson"
+      "Kelly M. Jones",
+      "Mayra Pineda-Torres"
     ],
-    "abstract": "We study how information about school quality affects families’ choices and how scaling up the intervention changes its impact. In a randomized trial in Chile, we offer families a short video and a personalized school report card before they enroll their children. Treated families choose schools with higher test scores and value added. Among families reached before enrollment, treated children score about 0.2 standard deviations higher in fourth grade, with positive but less precise estimates on later assessments. We embed the experimentally identified demand shift in a structural model of school choice and competition to study equilibrium effects at scale. Capacity constraints and centralized assignment attenuate the demand-side gains, but the same shift in demand strengthens schools’ incentives to improve quality, and the supply response roughly offsets the congestion effect. More generally, equilibrium scaling can alter experimental effects in either direction because congestion and endogenous quality responses work against each other. We use the model to guide the design of a follow-up cluster-randomized experiment, focusing on the tradeoff between precision and contamination from equilibrium spillovers.",
-    "abstract_cn": "我们研究学校质量信息如何影响家庭择校决策，以及扩大干预规模如何改变其效果。在智利的一项随机试验中，我们在家庭为子女报名入学前向其提供一段短视频和一份个性化学校成绩单。接受干预的家庭选择了考试成绩和增值更高的学校。在入学前即被触达的家庭中，受干预儿童在四年级时的成绩高出约0.2个标准差，对后续评估的影响为正但精确度较低。我们将实验识别的需求变化嵌入学校选择与竞争的结构模型，以研究规模扩大后的均衡效应。容量约束和集中派位削弱了需求侧收益，但同等程度的需求变化增强了学校提升质量的激励，供给侧反应大致抵消了拥挤效应。更一般地，均衡层面的规模扩大可能使实验效应向任一方向变化，因为拥挤效应与内生质量反应相互抵消。我们利用该模型指导后续聚类随机实验的设计，重点权衡估计精确度与均衡溢出带来的污染之间的取舍。",
-    "url": "https://www.nber.org/papers/w35837",
-    "public_date": "2026-10-05",
+    "abstract": "Many public policies aim to support (or change the behavior of) a specific, targeted sub-group of the population. To measure the causal impacts of such policies, social scientists use quasi-experimental methods of policy evaluation, but are often hampered by data availability issues, especially regarding targeted populations, who are often disadvantaged and/or vulnerable. We use power calculations to quantify the challenge of detecting a policy’s impact on a small minority population based on population level data, using the impact of abortion bans on economic welfare as an example. We provide insight into this challenge and a roadmap for how researchers can calculate, ex-ante, whether their study is sufficiently powered to detect reasonably meaningful effect sizes.",
+    "abstract_cn": "许多公共政策旨在支持（或改变行为）某一特定的目标亚群体。为测度此类政策的因果效应，社会科学研究者采用准实验方法进行政策评估，但常受数据可得性制约，尤其针对目标人群——他们往往处于弱势或脆弱地位——的数据更为匮乏。本文以堕胎禁令对经济福利的影响为例，运用统计功效分析来量化基于总体数据识别政策对少数群体影响所面临的挑战。本文深入剖析了这一难题，并为研究者提供了事前计算研究功效是否足以识别具有合理意义效应大小的路径图。",
+    "url": "https://www.nber.org/papers/w35894",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35861",
-    "title": "Labor Supply and Wages over the Life Cycle: Human Capital and Disability Benefits",
-    "title_cn": "生命周期中的劳动力供给与工资：人力资本与残障津贴",
+    "id": "w35890",
+    "title": "Gains from Trade in Gun Policy: A Compensation-Based Benchmark",
+    "title_cn": "枪支政策中的贸易收益：基于补偿的基准",
     "authors": [
-      "Richard Blundell",
-      "Monica Costa-Dias",
-      "Graham Mazeine",
-      "Costas Meghir",
-      "Tom Waters"
+      "Bradley T. Shapiro",
+      "Sara Drango",
+      "Sarah Moshary"
     ],
-    "abstract": "Work experience has been found to be a key determinant of work and wages for educated women, but it seems to play a smaller role for the less educated. For them, welfare, tax credits and family composition matter more, and increasingly so does participation in disability programmes. Here we document how labor supply, wages, health, and disability claims have evolved in the UK over the last three decades, and examine how reforms to tax credits, disability benefits and other welfare programs have changed work incentives over this period. We then introduce these features into an empirical dynamic structural model of life-cycle labor supply, human capital and disability benefit application, in which human capital combines health capital, experience accumulated in work, and education. Estimating the model on a panel of working-age women in the UK, we examine the interactions between experience capital and health capital in driving life-cycle earnings across different education groups. Our results highlight the importance of interactions in the disability benefit, welfare and tax-credit systems for understanding the life cycle pattern of hours, employment, earnings, and disability claims, and for evaluating policy counterfactuals.",
-    "abstract_cn": "已有研究表明，工作经历是决定受过教育女性的就业与工资水平的关键因素，但对受教育程度较低的女性而言，工作经历的作用似乎较小。对于后者，福利、税收抵免和家庭构成更为重要，而参加残疾保障项目的程度也日益上升。本文记录了英国过去三十年间劳动力供给、工资、健康状况和残疾申领的演变，并考察了税收抵免、残疾津贴及其他福利项目改革如何改变了这一时期的工作激励。随后，我们将这些特征纳入一个实证动态结构模型，该模型涵盖生命周期劳动力供给、人力资本与残疾津贴申请，其中人力资本由健康资本、工作中积累的经验以及教育共同构成。利用英国劳动年龄女性面板数据估计模型后，我们考察了经验资本与健康资本在不同教育群体驱动生命周期收入过程中的交互作用。研究结果凸显了残疾津贴、福利与税收抵免制度之间的交互作用对于理解工时、就业、收入和残疾申领的生命周期模式，以及评估政策反事实情形的重要性。",
-    "url": "https://www.nber.org/papers/w35861",
-    "public_date": "2026-10-05",
+    "abstract": "Policies restricting gun sales face substantial political opposition and constitutional constraints. In this paper, we ask how costly it would be to induce potential hand-gun buyers to choose less lethal alternatives. Pairing stated-choice experiments with a behavioral model of firearm choice, we estimate the payments required to induce substitution away from handguns toward long guns or no gun purchase. We then compare these payments with the resulting mortality benefits. We find substantial gains from trade: many prospective handgun buyers require relatively little compensation to switch and targeted compensation can avert homicides at a social cost well below conventional estimates of the value of a statistical life. The extent to which these gains can be realized through compensation, however, depends on the state’s information about which consumers would change their choices and at what price. Without this information, uniform subsidies pay consumers who would choose an alternative anyway and overcompensate those willing to switch for less, sharply increasing government expenditure and reducing the optimal scale of compensation.",
+    "abstract_cn": "限制枪支销售的政策面临巨大的政治反对和宪法约束。本文探讨，若要促使潜在手枪购买者选择致死性较低的替代方案，需要付出多大成本。我们将陈述性选择实验与枪支选择的行为模型相结合，估计促使购买者从手枪转向长枪或不购枪所需的补偿金额，并将其与由此带来的死亡收益进行比较。研究发现存在显著的贸易收益：许多潜在手枪购买者只需少量补偿即可转换选择，且定向补偿能够以远低于统计生命价值常规估计的社会成本避免凶杀案件。然而，这些收益能否通过补偿实现，取决于政府掌握多少信息——具体而言，即哪些消费者会在何种价格水平上改变选择。缺乏此类信息时，统一补贴将支付给原本就会选择替代方案的消费者，并对愿意以更低补偿转换选择的消费者过度支付，从而急剧增加政府支出并降低最优补偿规模。",
+    "url": "https://www.nber.org/papers/w35890",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35839",
-    "title": "Large Language Models as Voting Mechanisms",
-    "title_cn": "大型语言模型作为投票机制",
+    "id": "w35883",
+    "title": "Producing to Signal: Private Information in Dynamic Quantity Competition",
+    "title_cn": "信号生产：动态产量竞争中的私人信息",
     "authors": [
-      "Raša Karapandža",
-      "Yaw Nyarko"
+      "Andrew Sweeting",
+      "Xuezhen Tao",
+      "Qian Wang"
     ],
-    "abstract": "Large language models (LLMs) increasingly provide economic and financial advice. We develop a microeconomic framework for understanding this role. We prove that an LLM acts like a voting rule: each input text is an election, possible continuations are candidates, and output probabilities are vote shares derived from the training corpus. Such rules can generate Condorcet cycles, implying intransitive pairwise recommendations and potential money-pump exploitation. Using ChatGPT-4o, we identify millions of cycles in pairwise investment choices among S&P 100 firms. Our theorems establish the voting interpretation on the training data and support its use off-sample. We also show that correcting cycles ex post is generally infeasible. Finally, temperature changes the voting rule: at T = 1, outputs are sampled in proportion to vote shares; lower temperatures favor the plurality winner, whereas higher temperatures flatten probabilities toward uniformity.",
-    "abstract_cn": "大型语言模型（LLM）在经济与金融建议领域的应用日益广泛。本文构建了一个微观经济学框架以理解这一角色。我们证明，LLM 的行为类似于一种投票规则：每个输入文本即一场选举，可能的续写文本即候选人，而输出概率则是从训练语料中推导得出的得票份额。此类规则可能产生孔多塞循环（Condorcet cycles），导致成对推荐出现非传递性，并存在被\"抽水\"（money-pump）套利利用的风险。基于 ChatGPT-4o，我们在标准普尔 100 指数成分股企业的成对投资选择中识别出数百万个循环。我们的定理在训练数据上确立了上述投票解释，并支持其在样本外应用。我们还证明，事后纠正循环通常是不可行的。最后，温度参数（temperature）会改变投票规则：当 T = 1 时，输出按得票份额比例抽样；较低温度倾向于支持相对多数票获胜者，而较高温度则使概率趋于均匀分布。",
-    "url": "https://www.nber.org/papers/w35839",
-    "public_date": "2026-10-05",
+    "abstract": "We model a finite-horizon game of repeated oligopoly competition in which sellers choose quantities of a homogeneous product with linear demand and have private information about their own marginal costs, which are serially correlated over time. Focusing on fully separating equilibria, we provide conditions for existence and uniqueness. Relative to static complete- and incomplete-information benchmarks, sellers' incentives to signal low costs can substantially affect output, productive efficiency, and welfare, even when there are ten or more sellers. We apply the model to the global oil market, and compare predictions to a model where sellers can make quantity commitments.",
+    "abstract_cn": "我们构建了一个有限期重复寡头竞争博弈模型：卖方选择同质产品的产量，面临线性需求，且各自掌握关于自身边际成本的私有信息，这些成本随时间序列相关。在完全分离均衡的分析框架下，我们给出了均衡存在且唯一的条件。相对于静态完全信息与不完全信息基准情形，卖方传递低成本信号的激励能够对产量、生产效率及福利产生显著影响，即便市场上存在十家或更多卖方时亦然。我们将该模型应用于全球石油市场，并将其预测结果与卖方可进行产量承诺的模型加以比较。",
+    "url": "https://www.nber.org/papers/w35883",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35857",
-    "title": "Capital-Skill Complementarity Beyond Firm Boundaries",
-    "title_cn": "企业边界之外的资本-技能互补性",
+    "id": "w35896",
+    "title": "When Cash Flows Turn Negative: Liquidity-Driven Selling by Pension Funds",
+    "title_cn": "现金流由正转负：养老金的流动性驱动抛售",
     "authors": [
-      "Gert Bijnens",
-      "Anders Humlum",
-      "Stijn Vanormelingen"
+      "Aleksandar Andonov",
+      "Kristy A. E. Jansen",
+      "Joshua Rauh"
     ],
-    "abstract": "New machinery has long been argued to raise the relative demand for skilled labor, yet firm-level evidence finds no such shift at investing firms. We resolve this puzzle by looking beyond firm boundaries. Linking Belgian data on capital investments, buyer–supplier transactions, and worker skills, we show that the skill bias of new machinery arises entirely at external suppliers. Following machinery investment spikes, purchases from suppliers raise firms’ total demand for high-STEM workers by 45%, three times the rise for other skill groups, while in-house hiring raises it by less than 5%, evenly across skill groups. This external demand comes first from machine integrators and later from complementary services such as software, and is stronger for smaller firms, lumpier investments, and rapidly advancing capital, consistent with fixed and adjustment costs of hiring high-STEM workers in-house. In a general-equilibrium model estimated on our event studies, the rise in machinery per worker from 2003 to 2021 raises relative demand for high-STEM workers by 8.8 log points and their wage premium by 3.1. Measured on payrolls alone, both would fall.",
-    "abstract_cn": "长期以来，新机器被认为会提高对熟练劳动力的相对需求，但企业层面的证据却发现投资企业并未出现此类转变。我们通过超越企业边界来解开这一谜题。通过将比利时资本投资、买方—供应商交易和工人技能数据相链接，我们发现新机器的技能偏向性完全体现在外部供应商层面。机器投资激增后，企业从供应商处的采购使其对高 STEM 工人的总需求提高了 45%，是其他技能群体增幅的三倍，而企业内部招聘对高 STEM 工人需求的提升不足 5%，且在各技能群体间分布均匀。这种外部需求首先来自机器集成商，随后来自软件等互补性服务，且在规模较小的企业、集中性较强的投资以及快速进步资本的情形下更为显著，这与企业内部雇佣高 STEM 工人的固定成本和调整成本相一致。在一个基于我们事件研究进行估计的一般均衡模型中，2003 年至 2021 年间人均机器存量的增长使高 STEM 工人的相对需求提高了 8.8 个对数点，其工资溢价提高了 3.1 个百分点。若仅以工资单数据测算，两者均会下降。",
-    "url": "https://www.nber.org/papers/w35857",
-    "public_date": "2026-10-05",
+    "abstract": "Pension funds are long-horizon investors with predictable liability structures. As such, they are often perceived as investors who can provide liquidity and stabilize markets. However, pension funds increasingly face negative operating cash flows as benefit payments exceed contributions. Using aggregate data on U.S. public pension funds combined with granular holdings obtained through public records requests, we document three findings that challenge the conventional view of pension funds as stabilizing investors. First, pension funds with more negative cash flows do not adjust their target asset allocations and maintain low allocations to safe and liquid assets. Second, because of these limited safe asset buffers, pension funds meet cash flow shocks primarily by selling equities, absorbing $0.67 per dollar of shock through equity sales. At the security level, pension funds sell across equities rather than following a safe and liquid-assets-first approach. Third, pension funds sell equities even when equity returns are negative, indicating that these trades reflect liquidity needs rather than portfolio rebalancing. Together, these findings show that pension funds have become regular sellers in equity markets rather than contrarian, stabilizing investors.",
+    "abstract_cn": "养老基金是投资期限较长、负债结构可预期的投资者，因此常被视为能够提供流动性并稳定市场的投资者。然而，随着给付支出超过缴费收入，养老基金日益面临负向经营性现金流。本文结合美国公共养老基金的总体数据以及通过公共记录请求获得的细粒度持仓数据，记录了三个挑战养老基金作为稳定型投资者传统认知的发现。第一，现金流更为负向的养老基金并未调整其目标资产配置，且对安全流动资产的配置比例维持在较低水平。第二，由于安全资产缓冲有限，养老基金主要通过抛售股票来应对现金流冲击，每 1 美元冲击中有 0.67 美元通过股票出售来吸收。在证券层面，养老基金普遍抛售股票，而非遵循安全流动资产优先的策略。第三，即使在股票收益为负时，养老基金仍会抛售股票，表明这些交易反映的是流动性需求而非投资组合再平衡。综合上述发现，养老基金已成为股票市场的常规卖出方，而非逆向的、稳定市场的投资者。",
+    "url": "https://www.nber.org/papers/w35896",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35864",
-    "title": "From Importer to Exporter: Oil Shocks and the U.S. Economy",
-    "title_cn": "从进口国到出口国：石油冲击与美国经济",
+    "id": "w35877",
+    "title": "Indirect Variational Inference: Applications to Earnings Dynamics",
+    "title_cn": "间接变分推断：在收入动态研究中的应用",
     "authors": [
-      "Diego R. Känzig",
-      "James H. Stock",
-      "Luca Zanotti"
+      "Neele L. Balke",
+      "Stéphane Bonhomme",
+      "Thibaut Lamadon"
     ],
-    "abstract": "We study how the shale revolution and the U.S. transition from petroleum importer to net exporter have changed the macroeconomic effects of oil shocks. Using oil supply news shocks identified from OPEC announcements, a time-varying model of the U.S. macroeconomy shows that the contractionary effects weakened over time and eventually became expansionary. State-dependent local projections link this change to the U.S. petroleum trade balance. The improvement goes beyond mechanical net export effects: as the terms-of-trade response turns more favorable, consumption, equity valuations, and activity strengthen broadly across sectors and regions, pointing to general-equilibrium income and wealth effects. A counterfactual analysis of the 2022 oil price surge implies sharply different paths for U.S. activity, prices, and monetary policy under the propagation mechanisms prevailing before the shale boom vs. the early 2020s.",
-    "abstract_cn": "我们研究页岩革命以及美国从石油进口国向净出口国转型如何改变了石油冲击的宏观经济效应。利用从 OPEC 公告中识别的石油供给新闻冲击，美国宏观经济的时变模型显示，石油冲击的收缩性效应随时间减弱，并最终转为扩张性效应。状态依赖的局部投影将这一变化与美国的石油贸易收支联系起来。这种改善超出了机械性的净出口效应：随着贸易条件反应变得更为有利，消费、股票估值以及经济活动在各行业和地区普遍走强，指向一般均衡层面的收入和财富效应。针对 2022 年油价飙升的反事实分析表明，在页岩繁荣前盛行的传导机制与 2020 年代初的机制下，美国的经济活动、价格水平和货币政策将呈现截然不同的路径。",
-    "url": "https://www.nber.org/papers/w35864",
-    "public_date": "2026-10-05",
+    "abstract": "Latent-variable models are central to economics but often entail intractable integration. Variational inference (VI), widely used in machine learning, turns this integration into tractable, differentiable optimization by replacing the likelihood with a variational objective. However, guarantees of recovering the true parameters remain limited when the variational family is insufficiently flexible—a key obstacle to the adoption of VI in economics. We first evaluate VI in models of earnings dynamics and show that the choice of variational posterior is crucial. We then introduce indirect variational inference (IVI), which treats VI as an auxiliary model and corrects the bias induced by the variational approximation. IVI retains much of VI’s tractability because it does not require computing the likelihood. We apply these methods to models allowing for nonlinear persistence, non-Gaussian and serially correlated transitory shocks, and latent heterogeneity. Across simulated and empirical applications, flexible variational families combined with IVI deliver reliable estimates.",
+    "abstract_cn": "潜变量模型在经济学中居于核心地位，但往往涉及难以处理的积分问题。变分推断（VI）作为机器学习中广泛使用的方法，通过用变分目标替代似然函数，将这一积分转化为可求解、可微分的优化问题。然而，当变分族不够灵活时，恢复真实参数的理论保证仍然有限——这是经济学中采用 VI 的关键障碍。本文首先在收入动态模型中评估 VI，表明变分后验的选择至关重要。随后，本文提出间接变分推断（IVI），将 VI 视为辅助模型，并对变分近似所诱导的偏差进行修正。IVI 保留了 VI 的大部分可求解性，因其无需计算似然函数。本文将这些方法应用于允许非线性持续性、非高斯且序列相关的暂时性冲击以及潜在异质性的模型。在模拟和实证应用中，灵活的变分族与 IVI 相结合能够提供可靠的估计。",
+    "url": "https://www.nber.org/papers/w35877",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35869",
-    "title": "Voluntary Corporate Climate Targets in a Patchwork Policy Landscape",
-    "title_cn": "分散化政策格局下的企业自愿气候目标",
+    "id": "w35882",
+    "title": "What Can (and Cannot) Be Learned about Systemic Racial Discrimination from Randomized Controlled Trials?",
+    "title_cn": "从随机对照试验中能够（以及无法）学到哪些关于系统性种族歧视的知识？",
     "authors": [
-      "Joseph E. Aldy",
-      "Michael W. Toffel",
-      "Alison J. Ong",
-      "Lavender Yang"
+      "Dania V. Francis",
+      "Rob Gillezeau",
+      "Damon Jones",
+      "Angelino C. G. Viceisza"
     ],
-    "abstract": "Many large, publicly-traded companies adopt voluntary greenhouse gas emission reduction commitments in the presence of a fragmented public policy landscape. To explore the potential emission implications of such commitments, we develop a framework for understanding how firms’ voluntary emission targets interact with carbon pricing, regulatory mandates, subsidies, and heterogeneous policies across political jurisdictions. This analysis highlights the difficulty of distinguishing incremental voluntary emission abatement from policy-induced emission reductions. We introduce the Salata Institute Corporate Climate Targets Database, which we produced from public domain reports published by Russell 3000 firms over 2000-2024. The database documents the growth, form, scope, and sectoral distribution of voluntary greenhouse gas emission targets, including net-zero, carbon-neutral, carbon-reduction, energy-related, and qualitative commitments. Comparing this database with CDP, a non-profit organization formerly known as the Carbon Disclosure Project and the most common source of corporate emission targets used in the research literature, reveals substantial omissions in their survey-based data, especially in recent years. We show that voluntary corporate targets often mirror government-established goals and public policies, and some firms benchmark their internal carbon prices to existing carbon taxes and emission trading systems. The paper concludes by outlining empirical challenges and future research needs for evaluating the emission impacts of voluntary commitments.",
-    "abstract_cn": "许多大型上市公司在公共政策碎片化的背景下自愿采纳温室气体减排承诺。为探讨此类承诺对排放的潜在影响，我们构建了一个分析框架，用以理解企业自愿排放目标如何与碳定价、监管强制要求、补贴以及不同政治辖区之间的异质性政策相互作用。该分析凸显了区分自愿增量减排与政策引致减排的困难。我们推出了萨拉塔研究所企业气候目标数据库（Salata Institute Corporate Climate Targets Database），该数据库基于罗素3000指数成分企业在2000—2024年间发布的公开报告构建，记录了自愿温室气体排放目标的增长态势、形式、范围及行业分布，涵盖净零排放、碳中和、碳减排、能源相关及定性承诺等类型。将该数据库与CDP（前身为碳披露项目，Carbon Disclosure Project，现有研究文献中最常用的企业排放目标数据来源）进行比较后发现，CDP基于调查的数据存在显著遗漏，近年来尤为突出。我们表明，企业自愿目标常常反映政府设定的目标和公共政策，部分企业将其内部碳价格与现行碳税及排放交易体系挂钩。本文最后概述了评估自愿承诺排放影响所面临的实证挑战及未来研究需求。",
-    "url": "https://www.nber.org/papers/w35869",
-    "public_date": "2026-10-05",
+    "abstract": "Randomized Controlled Trials (RCTs) have played a major role in detecting direct forms of racial discrimination. In this essay, we ask whether RCTs can (or cannot) play an equally important role in the case of systemic racial discrimination. We propose a conceptual model of systemic racial discrimination drawing from prior definitions of systemic racism. We then consider a range of possibilities and limitations for how RCTs can help understand systemic racial discrimination, including: (1) the feasibility of manipulating systemic racial discrimination on a large scale; (2) smaller scale approaches; (3) conducting RCTs across different structural settings; (4) the manipulation of the salience of systemic forces; (5) the role of information in reducing systemic discrimination; (6) the manipulation of the salience of racial identity; and, finally, (7) examination of strategic responses to systemic racial discrimination. In discussing limitations, we point to other approaches that may fill in the gaps left by RCTs in studying systemic racial discrimination.",
+    "abstract_cn": "随机对照实验（RCT）在识别直接形式的种族歧视方面发挥了重要作用。本文探讨 RCT 能否（或在何种程度上不能）在系统性种族歧视研究中发挥同等重要的作用。我们借鉴既有关于系统性种族主义的定义，提出一个系统性种族歧视的概念模型。随后，我们考察 RCT 在帮助理解系统性种族歧视方面的多种可能性与局限，包括：（1）大规模操纵系统性种族歧视的可行性；（2）较小规模的研究路径；（3）在不同结构性环境中开展 RCT；（4）操纵系统性力量的显著性；（5）信息在减少系统性歧视中的作用；（6）操纵种族身份的显著性；以及（7）考察对系统性种族歧视的策略性反应。在讨论局限性的同时，我们指出其他可能弥补 RCT 在研究系统性种族歧视方面不足的研究方法。",
+    "url": "https://www.nber.org/papers/w35882",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35849",
-    "title": "Avoiding Regulation: Evidence from Nursing Homes",
-    "title_cn": "规避监管：来自养老护理机构的证据",
+    "id": "w35886",
+    "title": "The Impact of Central Bank Stock Purchases: Evidence from Discontinuities in Policy Rules",
+    "title_cn": "央行股票购买的影响：来自政策规则断点的证据",
     "authors": [
-      "Alden Cheng",
-      "Riley League"
+      "Masao Fukui",
+      "Masayuki Yagasaki"
     ],
-    "abstract": "We study strategic responses by firms to threshold-based regulations. We document extensive bunching in response to additional staffing requirements for California nursing homes with at least 100 beds. To estimate the regulation’s effect on staffing, we develop a novel treatment effects estimator for threshold-based regulations under precise manipulation, by decomposing firms into response types based on counterfactual and realized staffing and size, separating causal effects from selection. We estimate that higher staffing above the threshold is nearly entirely due to selection, with low-staffing facilities manipulating their size to avoid the regulation. These size distortions limit access, particularly for disadvantaged patients.",
-    "abstract_cn": "我们研究企业对基于阈值监管的策略性反应。我们发现，针对床位不少于100张的加州养老院，其在额外人员配置要求下出现了广泛的扎堆现象。为估计该监管对人员配置的影响，我们在精确操纵条件下，针对基于阈值的监管开发了一种新的处理效应估计量：通过反事实和实际的人员配置与规模将企业分解为不同的反应类型，从而将因果效应与选择性效应分离开来。我们估计，阈值以上更高的人员配置几乎完全源于选择性效应，即低人员配置机构通过操纵规模以规避监管。这类规模扭曲限制了服务可及性，对弱势患者的影响尤为显著。",
-    "url": "https://www.nber.org/papers/w35849",
-    "public_date": "2026-10-05",
+    "abstract": "We trace the impact of central bank stock purchases by exploiting discontinuities in the Bank of Japan's policy rule, which triggers purchases when stock market index movements fall below a threshold. In normal times, the purchases raise the long-term interest rate while leaving no detectable impact on stock prices. After the introduction of yield curve control, which pegs the long-term yield at 0%, interest rates stop responding and stock prices rise robustly following the purchases. Although these results are inconsistent with the inelastic market hypothesis in its original form, general equilibrium extensions with endogenous interest rates explain our findings.",
+    "abstract_cn": "我们利用日本央行政策规则中的不连续性来追踪央行股票购买的影响，该规则在股市指数跌幅低于某一阈值时触发购买。在正常时期，购买行为会推高长期利率，但对股价无明显影响。收益率曲线控制政策引入后，长期收益率被钉住在0%，利率不再作出反应，而购买后股价显著上涨。尽管这些结果与原始形式的无弹性市场假说不一致，但引入内生利率的一般均衡扩展模型可以解释我们的发现。",
+    "url": "https://www.nber.org/papers/w35886",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35868",
-    "title": "Optimal Line-Drawing for Legal Rules",
-    "title_cn": "法律规则的最优界限划定",
+    "id": "w35885",
+    "title": "Explaining Realized Returns: Roll’s R2 40 Years Later",
+    "title_cn": "解释已实现收益率：Roll 的 R² 提出四十年后的再审视",
     "authors": [
-      "Jacob Goldin",
-      "David Weisbach"
+      "Bryan T. Kelly",
+      "Yinan Su",
+      "Chao Zhang"
     ],
-    "abstract": "Line drawing is a pervasive feature of legal systems. Across many domains, the applicable legal treatment turns on whether an activity falls above or below some threshold. We characterize the economic forces that determine the optimal placement of such thresholds, both generally and in specific legal settings involving monetary and non-monetary sanctions, prohibitions, and mandates. We apply our results to two important line-drawing questions in private law: the optimal due-care threshold for negligence liability and the optimal threshold for whether a shortfall in contract performance constitutes breach. In both applications, the optimal line takes the form of a population-level marginal cost-benefit rule, with the relevant costs and benefits weighted over the actors whose behavior the line induces to change.",
-    "abstract_cn": "划线界定是法律体系中普遍存在的特征。在诸多领域中，适用的法律处理方式取决于某项活动是否高于或低于某一阈值。本文刻画了决定此类阈值最优位置的经济力量，包括一般情形以及涉及金钱与非金钱制裁、禁令和强制令等具体法律设定。我们将研究结果应用于私法中的两个重要划线问题：过失责任的最优注意义务阈值，以及合同履行瑕疵构成违约的最优阈值。在这两项应用中，最优界线均采取总体层面的边际成本-收益规则形式，相关成本与收益按该界线所诱导其行为发生改变的行为主体进行加权。",
-    "url": "https://www.nber.org/papers/w35868",
-    "public_date": "2026-10-05",
+    "abstract": "Can we explain asset price movements even with ex post observations of their drivers? Reinterpreting Roll’s (1988) AFA Presidential Address, “R2,” as a modern empirical exercise, we show that conventional macroeconomic, cash-flow, expectations, and flow variables deliver out-of-sample R2 values that are often negative and otherwise below 10% for monthly U.S. equity returns and are unavailable at the daily frequency. We use generative AI to extract newspaper-stated reasons from Wall Street Journal market summaries and filter out price and return language. These reasons explain around 30–40% of daily and monthly returns out of sample. Their content maps to interpretable themes, including corporate news, macroeconomic conditions, monetary policy, sentiment, and geopolitics.",
+    "abstract_cn": "即便在事后观察到资产价格的驱动因素之后，我们能否解释资产价格的变动？我们将 Roll（1988）在美国金融学会（AFA）主席致辞中提出的\"R²\"重新诠释为一项现代实证研究，发现传统的宏观经济变量、现金流变量、预期变量和流量变量对美国股票月收益率的样本外 R² 值通常为负，或低于 10%，且在日度频率上无法获得。我们利用生成式人工智能从《华尔街日报》的市场摘要中提取报纸所载明的市场变动原因，并剔除价格和收益率相关表述。这些原因对日度和月度收益率的样本外解释力约为 30%–40%，其内容可映射至可解读的主题，包括公司新闻、宏观经济状况、货币政策、市场情绪以及地缘政治。",
+    "url": "https://www.nber.org/papers/w35885",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35848",
-    "title": "The Regulatory Burden of Licensure Sales Laws: New Evidence on Race and the U.S. Tobacco Market",
-    "title_cn": "职业许可销售法的监管负担：种族与美国烟草市场的新证据",
+    "id": "w35892",
+    "title": "Strategic Complementarity and Persistence in Linear-Quadratic Mean Field Games",
+    "title_cn": "策略互补性与线性-二次型平均场博弈中的持续性",
     "authors": [
-      "Dhaval M. Dave",
-      "Jooyoung Kim",
-      "Joseph J. Sabia"
+      "Fernando E. Alvarez",
+      "David Argente"
     ],
-    "abstract": "Licensure sales requirements are commonly justified as consumer protection regulations intended to improve seller compliance and reduce harm associated with risky products. However, licensure effects may differ across communities with heterogeneous enforcement intensity and seller responses. We study this question in the context of e-cigarette retail licensure laws (ERLLs), a policy intended to regulate access to e-cigarettes among youth. We find that state ERLLs with strong penalties for non-compliance reduce nicotine vaping among Black youths by 2.5-4.0 percentage points but have no effect on White youths. This racially disparate finding is driven by heterogeneous supply-side responses to increased regulatory burden. Vendors in Black neighborhoods are more likely to be targeted for inspections than those in White neighborhoods despite having lower pre-treatment rates of infractions. Moreover, vendors in Black neighborhoods are also less likely to sell e-cigarettes following ERLL adoption, consistent with a racially disparate regulatory burden. Together, our results suggest important distributional consequences of licensure requirements.",
-    "abstract_cn": "职业许可销售要求通常被正当化为旨在改善经营者合规行为并降低风险产品相关危害的消费者保护规制。然而，许可效应可能因执法强度异质性和经营者反应不同而在不同社区间存在差异。我们以电子烟零售许可法（ERLLs）为背景研究这一问题，该政策旨在规制青少年获取电子烟的渠道。我们发现，对违规行为设有严厉处罚的州级 ERLLs 使黑人青少年尼古丁电子烟使用率下降 2.5–4.0 个百分点，但对白人青少年无显著影响。这一种族差异结果源于监管负担增加后供给侧的异质性反应：黑人社区的经营者比白人社区更容易成为检查目标，尽管其干预前的违规率更低；此外，ERLL 实施后黑人社区的经营者也更倾向于停止销售电子烟，这与监管负担的种族差异分布一致。综合而言，我们的结果表明许可要求具有重要的分配效应后果。",
-    "url": "https://www.nber.org/papers/w35848",
-    "public_date": "2026-10-05",
+    "abstract": "We study the relation between strategic complementarities and aggregate persistence in linear-quadratic mean field games with interactions in states and actions. The framework provides local approximations to common macroeconomic problems, including capital accumulation and multiproduct pricing. We show that the equilibrium aggregate dynamics coincide with those of a single-agent linear-quadratic control problem in which state and action curvatures are adjusted for strategic interactions. This result gives conditions for equilibrium existence, establishes uniqueness, and links strategic interactions to aggregate adjustment. We establish conditions under which stronger state complementarities increase persistence, while stronger action complementarities reduce it, even in multidimensional problems whose underlying matrices are not simultaneously diagonalizable. Under these conditions, internalizing state complementarities makes the utilitarian planner’s allocation more persistent, while internalizing action complementarities makes it less persistent. With common shocks, we give conditions under which individual and aggregate dynamics can be combined to identify strategic interactions and model parameters. Finally, we extend the analysis to interactions through higher moments of the state distribution.",
+    "abstract_cn": "我们研究状态与行动均存在交互作用的线性-二次型平均场博弈中策略互补性与总量持续性之间的关系。该框架为常见的宏观经济学问题提供了局部近似，包括资本积累与多产品定价。我们证明，均衡的总量动态与单主体线性-二次型控制问题的动态一致，其中状态曲率与行动曲率因策略交互作用而得到调整。这一结果为均衡存在性提供了条件，确立了唯一性，并将策略交互作用与总量调整联系起来。我们确立了如下条件：更强的状态互补性会提高持续性，而更强的行动互补性会降低持续性，即便在基础矩阵不可同时对角化的多维问题中亦成立。在这些条件下，将状态互补性内部化会使功利主义社会计划者的配置更具持续性，而将行动互补性内部化则使其持续性降低。在存在共同冲击的情形下，我们给出了可将个体动态与总量动态相结合以识别策略交互作用及模型参数的条件。最后，我们将分析拓展至通过状态分布的高阶矩产生的交互作用。",
+    "url": "https://www.nber.org/papers/w35892",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   },
   {
-    "id": "w35852",
-    "title": "Living in a Ghost Town: The Geography of Depopulation and Aging",
-    "title_cn": "居住在鬼城：人口流失与老龄化的空间格局",
+    "id": "w35897",
+    "title": "Inverted Gravity",
+    "title_cn": "逆引力模型",
     "authors": [
-      "Elisa Giannone",
-      "Yuhei Miyauchi",
-      "Nuno Paixao",
-      "Xinle Pang",
-      "Yuta Suzuki"
+      "James E. Anderson",
+      "Mario Larch",
+      "Yoto V. Yotov"
     ],
-    "abstract": "How do depopulation and population aging evolve differently across regions within a country, and what are their implications for aggregate economic activity and regional inequality? Using spatially disaggregated data from Japan over the past several decades, we show that rural areas have experienced significantly faster depopulation and aging than urban areas, driven by low fertility and sustained out-migration of young cohorts. Regions undergoing these trends face declining local amenities and rising per-capita public service costs. To study the future evolution and economic consequences of these dynamics, we develop and calibrate a dynamic life-cycle spatial general equilibrium model. The model predicts widening geographic disparities in depopulation, aging, and economic activity in the coming centuries. While subsidies to declining regions can lower regional inequality, they come at the cost of lower aggregate efficiency and higher public service expenditures.",
-    "abstract_cn": "一国范围内的人口减少与老龄化在不同地区如何差异化演进，又对总体经济活动与地区不平等产生何种影响？我们利用日本过去数十年的空间细分数据发现，农村地区的人口减少与老龄化速度显著快于城市地区，其驱动因素为低生育率与年轻群体持续的向外迁移。经历上述趋势的地区面临地方公共服务设施（amenities）下降与人均公共服务成本上升。为研究这些动态的未来演变及其经济后果，我们构建并校准了一个动态生命周期空间一般均衡模型。该模型预测，在未来数百年间，人口减少、老龄化与经济活动在地理分布上的差距将进一步扩大。尽管对衰退地区的补贴可降低地区不平等，但须以牺牲总体效率与增加公共服务支出为代价。",
-    "url": "https://www.nber.org/papers/w35852",
-    "public_date": "2026-10-05",
+    "abstract": "We invert structural gravity to recover trade cost changes delivering targeted outcomes. For attainable welfare targets, one instrument per target yields a unique solution. At unchanged producer prices and to first order, each instrument must change by the welfare target divided by its own expenditure share; the required domestic change is about the size of the target, while the import change is several times larger. Inverting observed trade flows gives a separate trade cost change for each of the two directions in which a pair of countries trades. Applications to NAFTA and world trade illustrate the benefits of our approach.",
+    "abstract_cn": "我们反转结构引力模型，以还原出能够实现特定目标结果的贸易成本变化。对于可实现的福利目标，每个目标对应一个政策工具即可得到唯一解。在生产者价格不变且仅考虑一阶近似的情况下，每个工具的变化幅度必须等于福利目标除以其自身的支出份额；所需的国内贸易成本变化约等于目标本身的大小，而进口贸易成本变化则需达到目标值的数倍。对观测到的贸易流量进行反转，可为每一对国家之间的双向贸易分别得到独立的贸易成本变化。对北美自由贸易协定（NAFTA）及世界贸易的应用展示了本方法的优势。",
+    "url": "https://www.nber.org/papers/w35897",
+    "public_date": "2026-10-12",
     "translation_status": {
       "title": "success",
       "abstract": "success"
     },
     "translation_error": null,
     "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35841",
-    "title": "Soft Reserves, Learning and Bid Adjustment in Advertising Auctions",
-    "title_cn": "广告拍卖中的软储备价、学习与出价调整",
-    "authors": [
-      "Joshua S. Gans"
-    ],
-    "abstract": "An advertiser in a second-price auction sees what it paid, not the rival bids that supposedly set the price. Akbarpour and Li (2020) show that an auctioneer can therefore charge a winner up to its bid undetected. The Federal Trade Commission alleges that Amazon’s advertising auctions, described as second-price, used soft reserves that did this. We ask whether repeated bidding exposes such charges and what adjustment does to welfare. If each charge equal to the bid is flagged, the soft reserve is exposed quickly, however much the advertiser trusted the description. If reports show only win rates and expected charges, it is indistinguishable from a second-price auction at any fixed bid: an advertiser that trusts the description and bids its value never learns, and one that doubts it but bids for current profit needs a number of auctions at least inversely proportional to its doubt before it considers a soft reserve more likely than not. The second-price description and aggregate reporting are complements. Among informed, symmetric advertisers, the soft reserve raises no more revenue than a second-price auction, and when only some advertisers adjust, placements are misallocated. Disclosure returns surplus to advertisers; removing the surcharge also restores efficiency.",
-    "abstract_cn": "在第二价格拍卖中，广告商只能看到自身支付金额，而无法观察到据以定价的竞争者出价。Akbarpour 和 Li（2020）证明，拍卖者因此可以在不被察觉的情况下向赢家收取不高于其出价的任意金额。美国联邦贸易委员会指控，亚马逊的广告拍卖虽被描述为第二价格拍卖，却使用了软保留价（soft reserves）来实现这一操作。本文研究重复竞价是否会暴露此类收费，以及调整行为对福利的影响。若每次等于出价的收费都被标记，则无论广告商对拍卖机制描述的信任程度如何，软保留价都会被迅速暴露。若报告仅显示胜率和预期收费，则在任何固定出价下，软保留价均与第二价格拍卖无法区分：信任机制描述并按估值出价的广告商永远不会发现异常；而心存疑虑但为当期利润出价的广告商，在将软保留价视为更可能机制之前，所需经历的拍卖次数至少与其怀疑程度成反比。第二价格机制描述与汇总报告形式具有互补性。在信息对称的广告商之间，软保留价带来的收入不高于第二价格拍卖；当仅部分广告商进行调整时，广告位配置将出现错配。信息披露将剩余返还广告商；取消附加收费亦可恢复配置效率。",
-    "url": "https://www.nber.org/papers/w35841",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35871",
-    "title": "The Effects of Long-Term Exposure to Pollution on Health",
-    "title_cn": "污染长期暴露对健康的影响",
-    "authors": [
-      "Joshua S. Graff Zivin",
-      "Johnny Huynh",
-      "Timothy Frank Justicz",
-      "Adriana Lleras-Muney",
-      "Matthew J. Neidell"
-    ],
-    "abstract": "We provide the first causal evidence on how long-term exposure to fine particulate matter (PM2.5) at contemporary ambient levels contributes to the development of chronic disease in a young, initially healthy population. Our analysis links detailed personnel records for roughly 150,000 U.S. Army soldiers to high-resolution annual measures of PM2.5. Because soldiers enter service exceptionally healthy and receive uniform access to care, new diagnoses reflect pollution’s physiological impact rather than preexisting conditions or differential health care access. They are also required to relocate based on the needs of the Army, which provides us with quasi-random variation in initial duty-station assignments that we use as an instrument for average annual pollution exposure over a soldier’s career. We find that sustained PM2.5 exposure substantially increases circulatory disease, particularly hypertension, with mixed evidence on respiratory conditions that are sensitive to specification. Exposure over shorter durations, by contrast, has little detectable effect, a pattern consistent with the cumulative nature of pollution’s health burden. These findings demonstrate that even moderate long-term exposure to air pollution can erode health capital in ways that are invisible to studies focused on short-run variations or mortality alone, and they highlight the importance of regulatory standards that account for chronic exposure risks.",
-    "abstract_cn": "我们提供了关于当代环境浓度下长期暴露于细颗粒物（PM2.5）如何在年轻且初始健康人群中导致慢性病发展的首批因果证据。我们的分析将约15万名美国陆军士兵的详细人事记录与高分辨率的年度PM2.5测量数据相匹配。由于士兵入伍时健康状况极佳，且获得均等的医疗保障，新发诊断反映的是污染物的生理影响，而非既有健康状况或差异化的医疗服务可及性。此外，士兵须根据陆军需要调防驻地，这为我们提供了初始驻地分配的准随机变动，我们以此作为士兵职业生涯中年均污染暴露的工具变量。我们发现，持续的PM2.5暴露显著增加了循环系统疾病，尤其是高血压的发病风险；对呼吸系统疾病的影响则因模型设定不同而呈现混合证据。相比之下，较短时期的暴露几乎未检测到显著效应，这一模式与污染健康负担的累积性特征相一致。这些发现表明，即使是中等程度的长期空气污染暴露，也会以侵蚀健康资本的方式损害健康，而这类损害在仅关注短期变动或死亡率的研究中无法被识别；同时，这些发现凸显了制定考虑慢性暴露风险的监管标准的重要性。",
-    "url": "https://www.nber.org/papers/w35871",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35856",
-    "title": "Which Workers Left the Labor Force Post-COVID Recession and Why?: Filing, Tax Credit Take-Up, and Labor Force Engagement by Occupation",
-    "title_cn": "COVID 衰退后哪些劳动者退出了劳动力市场及其原因：按职业划分的申报行为、税收抵免申领与劳动力参与",
-    "authors": [
-      "Andrew C. Barr",
-      "Laura Kawano",
-      "Bruce Sacerdote",
-      "Michael Stevens"
-    ],
-    "abstract": "The COVID-19 pandemic caused a sharp initial rise in unemployment, followed by an unexpectedly tight labor market. Using a panel of tax data containing newly assembled information on worker occupation, we document persistent labor force exit, especially among low-income and low-skill workers. Low-skilled unmarried men are by far the most likely to exit, reinforcing recent concerns regarding the economic and social engagement of this group. Contrary to prevailing theories, we find little evidence that school closures, virus exposure, stimulus payments, or unemployment benefits explain these exits. Nor is the exit explained by additional upgrading of occupations or firm quality. Individuals who leave the labor force do not (on average) make up the missing income; however, self-employment income replaces roughly a quarter of the lost W-2 income. The facts suggest that the willingness to work for low pay decreased and preferences for leisure and job flexibility increased among a large set of workers who have found ways to get by with less income. These results have implications for tax policy, fiscal projections, and labor market dynamics in the post-pandemic economy.",
-    "abstract_cn": "COVID-19 疫情导致失业率在初期急剧上升，随后劳动力市场却意外趋紧。本文利用包含新汇编的职业信息的面板税收数据，记录了持续的劳动力退出现象，尤其在低收入和低技能劳动者中更为突出。低技能未婚男性的退出概率最高，这加剧了学界近期对该群体经济与社会参与状况的担忧。与主流理论相反，我们发现学校停课、病毒暴露风险、刺激计划补助或失业保险金均难以解释上述退出行为；职业升级或企业质量提升也无法对此作出解释。退出劳动力市场的个体（平均而言）并未弥补其损失的收入；然而，自雇收入大约替代了所损失的 W-2 收入（工资薪金收入）的四分之一。这些事实表明，大量劳动者对低薪工作的意愿下降，对闲暇与工作灵活性的偏好上升，且这些人已找到以更少收入维持生计的方式。上述结果对税收政策、财政预测以及后疫情时代的劳动力市场动态具有重要启示。",
-    "url": "https://www.nber.org/papers/w35856",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35846",
-    "title": "Are Prediction Markets Politically Biased?",
-    "title_cn": "预测市场是否存在政治偏向？",
-    "authors": [
-      "Eric Zitzewitz"
-    ],
-    "abstract": "As prediction markets become more prominent, there are concerns that they will be a conduit for political bias. I analyze prediction markets returns from 1880 to 2025 and find no evidence of an overpricing of either left or right-leaning candidates, across a variety of subsamples. In recent elections, there is also no overpricing of either male or female, white or non-white, or young or old candidates. Most political prediction markets exhibit a favorite-longshot bias, and markets on near-term polling averages exhibit a very small overpricing of left-leaning outcomes (e.g., President Trump’s approval falling), which is detectable only because the sample size is large. For elections, however, despite attracting participants who may not be representative of the voting population, prediction markets yield predictions without systematic bias.",
-    "abstract_cn": "随着预测市场日益重要，人们担忧其会成为政治偏见的传导渠道。本文分析了1880年至2025年预测市场的收益率，在多种子样本中均未发现左翼或右翼候选人存在定价过高的证据。在近期选举中，男性或女性、白人或非白人、年轻或年长候选人亦不存在定价过高现象。多数政治预测市场表现出热门-冷门偏差，而近期民调均值市场则对左翼倾向结果存在极微弱的定价过高（例如特朗普总统支持率下降），该现象仅因样本量足够大才得以识别。然而，就选举而言，尽管参与者可能无法代表投票人群，预测市场仍能产生无系统性偏差的预测。",
-    "url": "https://www.nber.org/papers/w35846",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35851",
-    "title": "Latent Human Capital: How Early Investments in Parents Buffer Against Future Schooling Shocks",
-    "title_cn": "潜在人力资本：早期对父母的投资如何缓冲未来教育冲击",
-    "authors": [
-      "Shruti Jha",
-      "John A. List",
-      "Rebecca C. Royer",
-      "Anya Samek"
-    ],
-    "abstract": "Do early investments in parents pay off even when treatment effects for children appear to fade out quickly? We answer this question by leveraging a field experiment in which households with 3-5 year-old children were randomized into a parenting program, a preschool, or a control group, combined with a natural experiment (Covid-19 school closures) that occurred ten years later. Prior to the closures, treatment effects on academic achievement had faded to zero across all groups. Yet, with Covid-19 school closures, effects of the parenting program re-emerge: test scores in control and preschool groups drop by roughly 0.25-0.30 SD, whereas scores in the parenting group drop by only 0.11 SD (difference: p = 0.01). Our findings suggest that parenting programs can generate latent human capital that only becomes visible when complementary school inputs are removed. This result is consonant with parental and school investments acting as substitutes in skill production. Because this latent parental capacity pays off precisely when school inputs fail, standard measurement tools for early childhood programs can miss crucial state-contingent value.",
-    "abstract_cn": "对父母的早期投资是否仍能产生回报，即使对儿童的干预效应看似迅速消退？本文借助一项田野实验回答该问题：拥有3—5岁儿童的家庭被随机分配至育儿项目、学前教育组或对照组，并在十年后遭遇一项自然实验——新冠疫情导致的学校停课。在学校停课之前，所有干预组的学业成就处理效应均已消退至零。然而，随着新冠疫情学校停课，育儿项目的效应重新显现：对照组和学前教育组的测验分数下降约0.25—0.30个标准差，而育儿项目组的分数仅下降0.11个标准差（组间差异：p = 0.01）。研究结果表明，育儿项目能够生成潜在人力资本，只有当学校投入这一互补性要素被移除时，该资本才得以显现。这一结果与“父母投入和学校投入在技能生产中具有替代性”的推断相一致。由于这种潜在的父母能力恰好在学校投入失灵时产生回报，针对幼儿教育项目的标准测量工具可能遗漏关键的状态依存价值。",
-    "url": "https://www.nber.org/papers/w35851",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35866",
-    "title": "Gang Crackdowns",
-    "title_cn": "严厉打击帮派行动",
-    "authors": [
-      "Nikita Melnikov",
-      "Carlos Schmidt-Padilla",
-      "María Micaela Sviatschi"
-    ],
-    "abstract": "What are the consequences of restoring state authority in territories governed by criminal organizations? Combining household surveys and administrative records with detailed maps of former gang-controlled areas, we study how El Salvador’s 2022 State of Exception, which ended two decades of gang territorial control, reshaped Salvadoran society. We find that the removal of gang control integrated previously segmented labor markets, improving mobility, employment outcomes, household income, and financial inclusion. Areas with greater pre-2022 gang exposure also experienced larger increases in business formation and property investment. However, the legacy of criminal governance persists through residence-based discrimination: employers remain less willing to hire otherwise identical applicants from former gang-controlled neighborhoods. Finally, although overall support for the crackdowns remains high, individuals who witnessed police abuse report substantially greater distrust of the police and the national government, suggesting that abuses of state authority may undermine the political sustainability of tough-on-crime policies.",
-    "abstract_cn": "恢复国家权力对犯罪组织控制地区有何影响？本文将家庭调查与行政记录同前帮派控制区域的详细地图相结合，研究萨尔瓦多2022年例外状态如何终结长达二十年的帮派领土控制并重塑该国社会。我们发现，帮派控制的解除使此前分割的劳动力市场实现整合，提升了劳动力流动、就业结果、家庭收入和金融包容性。2022年前帮派渗透程度更高的地区，企业创立和房产投资增长也更为显著。然而，犯罪治理的遗产通过基于居住地的歧视持续存在：雇主对来自前帮派控制社区的其他条件完全相同的求职者，雇佣意愿仍然更低。最后，尽管对严厉打击犯罪政策的总体支持率依然较高，但目睹警察滥用职权的个人对警察和国家政府的信任度显著下降，这表明国家权力的滥用可能削弱强硬犯罪政策的政治可持续性。",
-    "url": "https://www.nber.org/papers/w35866",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35859",
-    "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations",
-    "title_cn": "美国 STEM 博士论文中博士生在多大程度上将科学写作外包给人工智能？",
-    "authors": [
-      "Daniel P. Gross",
-      "Dror Shvadron",
-      "Hansen Zhang"
-    ],
-    "abstract": "Large language models are diffusing rapidly into science, raising concerns that delegating research writing to AI may undermine the development of expertise that scientific training is supposed to build. We measure AI-generated writing in the dissertations of a near-census of US STEM PhD graduates from 2019 to 2026 and link graduates to their subsequent employment. AI writing is absent before 2023, present in 29% of dissertations filed in 2026, and rapidly growing. Use is more common among students from non-English-speaking countries and at lower-ranked programs. Among graduates in the same program and cohort, those whose dissertations contain AI writing are less likely to enter academic research careers and more likely to enter non-tenure-track roles or industry, with this pattern strongest among US-origin students. At the same time as AI may increase research productivity, it thus appears to also be displacing a potentially important portion of the work through which scientific expertise is developed.",
-    "abstract_cn": "大语言模型正迅速渗透科学研究领域，引发学界担忧：将研究写作委托给人工智能可能会削弱科学训练旨在培养的专业能力。我们测度了2019年至2026年间美国STEM博士毕业生近乎全样本的学位论文中人工智能生成文本的使用情况，并将毕业生与其后续就业状况进行关联。人工智能写作在2023年前尚不存在，2026年提交的学位论文中已有29%出现此类文本，且增长迅速。来自非英语国家以及排名较低项目的学生使用更为普遍。在同一项目和同届毕业生中，学位论文包含人工智能写作的学生进入学术研究职业的可能性较低，更可能进入非终身教职岗位或产业界，这一模式在美国本土学生中尤为显著。人工智能在可能提升研究生产率的同时，似乎也正在替代科学专业能力培养过程中一个潜在的重要环节。",
-    "url": "https://www.nber.org/papers/w35859",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35875",
-    "title": "High and Rising Institutional Concentration of Award-Winning Economists",
-    "title_cn": "获奖经济学家的机构集中度持续高企且不断上升",
-    "authors": [
-      "Richard B. Freeman",
-      "Danxia Xie",
-      "Hanzhe Zhang",
-      "Hanzhang Zhou"
-    ],
-    "abstract": "We analyze the academic affiliations of nearly 6,000 award-winning researchers in 18 major fields in the natural sciences, engineering, and social sciences from the 1820s to the 2020s, focusing on the 1960s onward. The analysis reveals a trend of declining concentration in the institutional affiliations of award-winning researchers, shifting from a few science-strong universities in high-income countries to a more diverse set of institutions across the world. The decline in concentration is observed in all fields except one: economics. The institutional affiliations of prizewinning economists have become more concentrated over time, making economics the most concentrated field. We associate the higher concentration of prizewinning work in economics with the field’s stronger sorting by institutional prestige, its lower reliance on specialized equipment and instruments, and its assessment of findings based on a synthesis of evidence rather than on decisive experiments or proofs. We discuss the benefits and costs of this high and rising institutional concentration of prizewinning economists.",
-    "abstract_cn": "我们分析了自19世纪20年代至21世纪20年代（重点关注1960年代以后）自然科学、工程学和社会科学18个主要领域中近6000位获奖研究者的学术机构隶属情况。分析显示，获奖研究者的机构隶属呈现出集中度下降的趋势，从少数高收入国家的科研强校转向全球更多样化的机构集合。除经济学外，所有领域均观察到集中度下降。获奖经济学家的机构隶属则随时间推移愈发集中，使经济学成为集中度最高的领域。我们将经济学获奖成果的高度集中与该领域更强的机构声望筛选机制、对专业设备和仪器的较低依赖，以及基于证据综合而非决定性实验或证明来评估研究结论的做法相关联。我们讨论了这种高且不断上升的获奖经济学家机构集中度所带来的收益与成本。",
-    "url": "https://www.nber.org/papers/w35875",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35855",
-    "title": "Physicians' Occupational Licensing and the Quantity-Quality Trade-off",
-    "title_cn": "医师职业许可与数量—质量权衡",
-    "authors": [
-      "Juan Pablo Atal",
-      "Tomás Larroucau",
-      "Pablo Muñoz",
-      "Cristóbal Otero"
-    ],
-    "abstract": "Occupational licensing is a widespread quality regulation that potentially increases the quality of labor but reduces its quantity. We provide a theoretical framework to empirically quantify this trade-off in public hospitals, where both clinical quality and physician shortages are critical concerns. Using quasi-exogenous variation driven by a recent and unprecedented migration of physicians to Chile, together with growth in domestic medical schools, we show that more physicians improve patient outcomes, while lower-quality physicians—as measured by licensing exam performance—worsen them. Incorporating these findings into our theoretical framework, we evaluate the implications of locally changing the stringency of the licensing policy.",
-    "abstract_cn": "职业许可是一项普遍存在的质量监管制度，其潜在作用在于提升劳动力质量，但同时可能减少劳动力数量。本文构建了一个理论框架，旨在公共医院中对该权衡关系进行实证量化——在此情境下，临床质量与医师短缺均为关键问题。我们利用由近期一场史无前例的医师迁往智利所驱动的准外生变化，以及国内医学院校的增长，发现医师数量增加可改善患者结局，而低质量医师——以执业许可考试成绩衡量——则会恶化患者结局。将上述发现纳入我们的理论框架后，我们评估了在局部调整执业许可政策严格程度的含义。",
-    "url": "https://www.nber.org/papers/w35855",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35834",
-    "title": "A Framework for Integrating Climate Goals into Trade Agreements",
-    "title_cn": "将气候目标纳入贸易协定的分析框架",
-    "authors": [
-      "Farid Farrokhi",
-      "Ahmad Lashkaripour",
-      "Homa Taheri"
-    ],
-    "abstract": "A critical tension in global governance is that trade agreements have evolved largely in isolation from climate policy. This paper shows that the two domains generate systematic cross-externalities: larger gains from trade are associated with greater climate externalities imposed on partners, while linking carbon taxes to trade agreements produces distributive externalities that undermine the balance of trade concessions. To address this tension, we present a framework to integrate harmonized carbon pricing into the WTO subject to institutional and political-feasibility constraints. We explore two linkage designs. The first is a centralized Climate Fund, where all members apply a common demand-side carbon tax and contribute a portion of the revenues to the fund, capped by fiscal constraints. The Fund then reallocates these contributions to balance the tax burden across countries, subject to informational constraints. Quantitative analysis shows that even a simple fund allocation rule can sustain a carbon price of $138 per ton of CO2, reducing global emissions by 54%. The main binding constraint is informational: knowing the precise incidence of the carbon tax across countries ex ante would raise the feasible price to $265. The second is a decentralized design without transfers. Each member meets a carbon tax revenue floor but retains full discretion over its mix of demand-side and supply-side taxes. Energy exporters choose supply-side taxes while energy importers opt for demand-side taxes. These choices organically balance the tax burden and yield a 47% reduction in global emissions, almost rivaling the centralized Climate Fund.",
-    "abstract_cn": "全球治理中存在一个关键张力：贸易协定的演进在很大程度上与气候政策相隔离。本文表明，这两个领域产生了系统性的交叉外部性：更大的贸易收益往往伴随着对贸易伙伴施加的更大气候外部性，而将碳税与贸易协定挂钩则会产生分配性外部性，从而削弱贸易让步的平衡。为应对这一张力，本文提出一个框架，在制度约束和政治可行性约束下，将协调一致的碳定价纳入世界贸易组织（WTO）。本文探讨了两种挂钩设计。第一种是集中式气候基金（Climate Fund）：所有成员实施统一的需求侧碳税，并将部分税收收入上缴该基金，上缴额度受财政约束限制；基金随后在信息约束条件下重新分配这些缴款，以平衡各国间的税收负担。定量分析表明，即便采用简单的基金分配规则，也能维持每吨二氧化碳 138 美元的碳价，使全球排放减少 54%。主要约束条件是信息性的：若能事前精确知晓碳税在各国间的最终归宿，可行碳价将提升至 265 美元。第二种是无转移支付的分散式设计：各成员须达到碳税收入下限，但在需求侧税与供给侧税的组合上保留完全自主权；能源出口国选择供给侧税，能源进口国则选择需求侧税。这些选择自发地平衡了税收负担，并使全球排放减少 47%，几乎可与集中式气候基金相媲美。",
-    "url": "https://www.nber.org/papers/w35834",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35835",
-    "title": "Does Food Assistance Drive Spending on Sugary Foods? Evidence from the Pandemic Electronic Benefit Transfer Program",
-    "title_cn": "食品援助是否驱动含糖食品支出？来自大流行期间电子福利转移计划的证据",
-    "authors": [
-      "Georgina Cisneros",
-      "Brandyn F. Churchill"
-    ],
-    "abstract": "We provide evidence on the extent to which food assistance affects spending on sugary items by studying the Pandemic Electronic Benefit Transfer (P-EBT) program, which provided funds to families of children who lost access to free and reduced-price school meals due to COVID-19 pandemic school closures. Leveraging state-level variation in the timing of P-EBT disbursements using a stacked difference-in-differences identification strategy with NielsenIQ Consumer Panel data, we find that P-EBT disbursement was associated with a 16-percent increase in weekly spending on sugary items among SNAP-eligible households with school-aged children. Notably, this increase exceeded the percentage increase in overall food spending for this group, suggesting that SNAP-eligible households with school-aged children allocated a disproportionately large share of their P-EBT-driven purchases toward sugary items relative to their pre-period baseline. We do not detect changes among households unlikely to have received P-EBT benefits or in placebo disbursement years.",
-    "abstract_cn": "我们利用 NielsenIQ 消费者面板数据，采用堆叠双重差分的识别策略，借助各州 P-EBT（大流行电子福利转账）资金发放时间的差异，考察食品援助对含糖商品支出的影响程度。P-EBT 项目向因新冠疫情学校关闭而失去免费及减价学校餐食的儿童家庭提供资金。研究发现，P-EBT 资金发放使符合 SNAP（补充营养援助计划）资格、有学龄儿童的家庭每周含糖商品支出增加 16%。值得注意的是，这一增幅超过了该群体整体食品支出的百分比增幅，表明符合 SNAP 资格、有学龄儿童的家庭将其 P-EBT 驱动的购买中不成比例的大份额配置于含糖商品，相对于发放前基期而言。我们在不太可能获得 P-EBT 福利的家庭中，或在安慰剂发放年份中，均未检测到显著变化。",
-    "url": "https://www.nber.org/papers/w35835",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35842",
-    "title": "Schooling and Political Activism in the Early Civil Rights Era",
-    "title_cn": "民权运动早期学校教育与政治参与",
-    "authors": [
-      "Daniel Aaronson",
-      "Mark Borgschulte",
-      "Sunny Liu",
-      "Bhashkar Mazumder"
-    ],
-    "abstract": "Does education lead to political activity? We find that a large, early 20th century school construction program, the Rosenwald schools, led to more NAACP branches in the rural South starting in the early 1940s, i.e. prior to the classic U.S. Civil Rights Movement. Branch growth was stronger where Jim Crow occupational segregation prevented Black men from realizing some of the economic gains of their education. Our findings lend support to theories emphasizing that economic context can act as a critical mediator in determining whether human capital causes political engagement.",
-    "abstract_cn": "教育能否促成政治参与？我们发现，20 世纪初一项大规模学校建设项目——Rosenwald 学校——使得美国南方农村地区在 1940 年代早期出现了更多的 NAACP 分支机构，即早于经典的美国民权运动时期。在 Jim Crow 职业隔离阻止黑人男性实现其部分教育经济收益的地区，分支机构的增长更为强劲。我们的发现支持了这样一种理论：经济环境可作为关键中介因素，决定人力资本是否导致政治参与。",
-    "url": "https://www.nber.org/papers/w35842",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35865",
-    "title": "Financing the AI Buildout",
-    "title_cn": "人工智能基础设施建设融资",
-    "authors": [
-      "Stijn Van Nieuwerburgh"
-    ],
-    "abstract": "Artificial intelligence is driving a large expansion in data center capacity, power infrastructure, and specialized computing equipment. We estimate that a 1 GW AI campus costs about $41 billion. A 188 GW U.S. buildout completed by 2032 would require total investment of nearly$9 trillion and amount to annual investment of 3.2 percent of GDP over 2025–2032. As hyperscaler capital expenditures outgrow internal cash flow, financing is shifting toward leases, joint ventures, project debt, private credit, securitization, and special-purpose vehicles. These structures expand funding capacity but also raise asset-level leverage, obscure contingent obligations, and expose investors to tenant concentration, technological obsolescence, execution delays, and uncertain residual values.",
-    "abstract_cn": "人工智能正推动数据中心容量、电力基础设施和专用计算设备的大规模扩张。我们估计，一座 1 GW 的人工智能园区成本约为 410 亿美元。若美国在 2032 年前完成 188 GW 的建设部署，总投资需求将接近 9 万亿美元，2025—2032 年间年均投资将占 GDP 的 3.2%。随着超大规模企业（hyperscaler）的资本支出超过内部现金流，融资模式正转向租赁、合资企业、项目融资、私募信贷、证券化和特殊目的实体。这些结构虽然扩大了融资能力，但也提高了资产层面的杠杆率，掩盖了或有负债，并使投资者面临租户集中、技术过时、执行延迟以及残值不确定等风险。",
-    "url": "https://www.nber.org/papers/w35865",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35873",
-    "title": "In Utero Exposure to the 1982 Tylenol Recall and Neurodevelopmental Outcomes",
-    "title_cn": "1982 年泰诺召回事件的宫内暴露与神经发育结果",
-    "authors": [
-      "Christopher M. Worsham",
-      "Charles Bray",
-      "Joshua Rothman",
-      "Brian Kwan",
-      "Anupam Jena"
-    ],
-    "abstract": "Observational research into the relationship between maternal acetaminophen use during pregnancy and a child’s subsequent risk of attention deficit hyperactivity disorder (ADHD) or autism has been limited by confounding factors. Using two large national U.S. insurance claims databases and a novel natural experiment, we assessed differences in prevalence of ADHD and autism among children whose gestational periods were impacted by a nationwide Tylenol recall issued in 1982, following deaths from Tylenol capsules containing potassium cyanide. Prevalence of ADHD and autism was not significantly different in birth cohorts exposed to the recall during gestation, when maternal acetaminophen use would have been reduced; interrupted time series models showed no significant differences compared to underlying temporal diagnostic trends. These findings are inconsistent with a clinically meaningful effect of maternal acetaminophen use on subsequent development of neurodevelopmental disorders.",
-    "abstract_cn": "关于妊娠期母亲使用对乙酰氨基酚与子代后续注意缺陷多动障碍（ADHD）或自闭症风险之间关系的观察性研究，一直受到混杂因素的限制。本研究利用两个大型美国全国性保险理赔数据库以及一项新颖的自然实验，评估了1982年全国性泰诺召回事件影响下的妊娠期出生队列中，ADHD 和自闭症的患病率差异；该召回源于含氰化钾的泰诺胶囊致人死亡事件。在召回期间妊娠期暴露、母亲对乙酰氨基酚使用理应减少的出生队列中，ADHD 和自闭症的患病率并无显著差异；中断时间序列模型显示，与既有的时间诊断趋势相比亦无显著差异。这些发现与母亲使用对乙酰氨基酚对子代神经发育障碍后续发展具有临床意义的效应这一假说不一致。",
-    "url": "https://www.nber.org/papers/w35873",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35854",
-    "title": "Taxing Entrepreneurial Wealth: Evidence from Norway, 2021–2025",
-    "title_cn": "对创业财富征税：来自挪威 2021–2025 年的证据",
-    "authors": [
-      "Marius A. K. Ring"
-    ],
-    "abstract": "Whether imposing higher taxes on business owners adversely affects business activity by constraining investment and inducing capitalist flight is a central question in the ongoing debate on how to tax the ultra wealthy. To shed new light, I exploit a series of related Norwegian reforms during 2021–2024 that increased dividend tax rates, removed migration-related capital gains tax loopholes, and nearly doubled the effective marginal tax rate on business wealth. These reforms spurred international debate and, allegedly, an “exodus” of Norwegian billionaires (Financial Times, 2023). While I document clear effects on migration, these responses are concentrated among the top 0.1% of the wealth distribution and mostly confined to 2022 and 2023. My results indicate that at most 100 individuals left due to the reforms. I find no evidence of significant outmigration or reduced inflows of startup founders or inventors. I estimate that absent any outmigration, wealth tax revenues would have increased by 75% from 2021 to 2024. Reform-driven outmigration lowers the revenue gain to 71.5%. My findings further show that outmigrating owners’ firms remain economically active and do not reduce investment. In a broader set of analyses, I examine whether business outcomes are affected, regardless of whether owners outmigrate, since firms may reduce investment both due to liquidity constraints or distortions to owners’ savings decisions. I compare firms owned by Norwegian individuals subject to the wealth tax with firms owned by foreigners and other tax-exempt entities. By merging historical ownership data from Orbis with the Norwegian shareholder register, I perform these analyses on both Norwegian and foreign-domiciled firms. Across settings, I find no evidence that Norwegian-owned firms pay out more dividends or invest less after the reforms, nor is there any evidence that the reform induced more bankruptcies. These findings indicate that the short-run economic costs of wealth taxation, in terms of migration and firm investment, are more limited than the public debate implies.",
-    "abstract_cn": "对超高净值人群征税是否会对企业经营活动产生不利影响，是税收政策辩论中的核心问题之一，其关切在于加税可能抑制投资并引发资本外流。本文利用挪威2021—2024年间一系列相关改革提供的新证据，这些改革提高了股息税率、取消了与迁移相关的资本利得税漏洞，并将企业财富的有效边际税率几乎提高了一倍。这些改革引发了国际争论，据称还导致了挪威亿万富翁的\"出走\"（《金融时报》，2023年）。虽然本文记录了迁移方面的明显效应，但这些反应集中在财富分布最顶端0.1%的群体，且主要发生在2022年和2023年。研究结果表明，因改革而离开的人数最多约为100人。本文未发现创业企业创始人或发明家出现显著外流或流入减少的证据。本文估计，若无人外流，财富税收入将从2021年到2024年增长75%；改革驱动的迁移使收入增幅降至71.5%。研究进一步显示，外迁所有者名下的企业仍在持续经营，且并未减少投资。在更广泛的一组分析中，本文考察了无论所有者是否外迁，企业经营成果是否受到影响——因为企业可能由于流动性约束或所有者储蓄决策扭曲而减少投资。本文将受财富税约束的挪威个人所拥有的企业，与外国人及其他免税实体所拥有的企业进行了比较。通过将Orbis历史所有权数据与挪威股东登记册合并，本文对挪威本土企业和外国注册企业均进行了分析。在各种设定下，本文均未发现挪威所有企业在改革后增加股息支付或减少投资的证据，也没有发现改革导致更多破产的证据。这些发现表明，财富税的短期经济成本——就迁移和企业投资而言——比公共辩论所暗示的更为有限。",
-    "url": "https://www.nber.org/papers/w35854",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35845",
-    "title": "Limits to Arbitrage and Prediction Market Efficiency: the Case of PredictIt",
-    "title_cn": "套利限制与预测市场效率：以 PredictIt 为例",
-    "authors": [
-      "Eric Zitzewitz"
-    ],
-    "abstract": "PredictIt is a CFTC-regulated US prediction market focused on political outcomes. It was very successful in attracting participants in the 2016-22 period, running liquid markets on topics predecessors had tried unsuccesfully. During this period, investors were limited to $850 positions in each contract, which limited arbitrage trading. PredictIt exhibited much larger pricing biases than previously studied prediction markets. Bid prices often persistently added to more than 110, implying an immediate arbitrage profit even after fees. Prices exhibited an overpricing of longshots that was larger than in other prediction markets. The experience of PredictIt suggests that limiting stakes may undermine the ability of prediction markets to accurately price event probabilities.",
-    "abstract_cn": "PredictIt 是一家受美国商品期货交易委员会（CFTC）监管、专注于政治事件预测的美国预测市场。在 2016 至 2022 年间，该市场成功吸引了大量参与者，并在其前辈未能成功运作的主题上维持了流动性市场。在此期间，投资者对每份合约的持仓上限为 850 美元，这一限制约束了套利交易。PredictIt 呈现出较以往研究的预测市场更为显著的定价偏误：买入报价之和经常持续超过 110，意味着即便扣除手续费仍存在即时套利利润；此外，该市场对小概率事件（longshots）的高估程度也高于其他预测市场。PredictIt 的经验表明，限制投注额度可能会削弱预测市场准确对事件概率进行定价的能力。",
-    "url": "https://www.nber.org/papers/w35845",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35850",
-    "title": "Debt Sustainability and the Range of Multiple Equilibria",
-    "title_cn": "债务可持续性与多重均衡区间",
-    "authors": [
-      "Olivier J. Blanchard",
-      "Pedro Martínez-Bruera",
-      "Gonzalo Huertas"
-    ],
-    "abstract": "We characterize the size of the range of multiple equilibria in sovereign debt markets. We show that the nature of the equilibrium depends crucially on the degree of uncertainty, which we formalize first as uncertainty about primary balances and later as uncertainty about the fiscal feedback rule. For low uncertainty, the range can be large, but it becomes smaller as uncertainty becomes larger. If uncertainty is large enough, the multiplicity disappears: the interest rate is unique and becomes a continuous function of the debt level. The source of these results is that larger uncertainty decreases the effect of the perceived probability of default on the actual probability of default, thus reducing and eventually eliminating the scope for multiplicity. Interpreting the source of an increase in the interest rate in actual situations is difficult, and complicates the use of intervention by central banks.",
-    "abstract_cn": "我们刻画了主权债务市场中多重均衡区间的规模。研究表明，均衡的性质在根本上取决于不确定性程度：我们首先将其形式化为基本财政余额的不确定性，随后扩展为财政反馈规则的不确定性。当不确定性较低时，该区间可能较大；但随着不确定性上升，区间逐渐收窄。若不确定性足够大，多重均衡将完全消失：利率唯一确定，并成为债务水平的连续函数。上述结果源于更大的不确定性会降低违约感知概率对实际违约概率的影响，从而缩小并最终消除多重均衡的存在空间。在实际情境中，对利率上升根源的解读颇为困难，这增加了央行实施干预的复杂性。",
-    "url": "https://www.nber.org/papers/w35850",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
-  },
-  {
-    "id": "w35872",
-    "title": "Estimating Heterogeneous Impacts with Endogenous Participation and Non-Compliance",
-    "title_cn": "估计异质性处理效应：内生参与与非依从情形",
-    "authors": [
-      "Orazio Attanasio",
-      "Lina Cardona-Sosa",
-      "Ziqian Liu"
-    ],
-    "abstract": "This paper considers the estimation of heterogeneous impacts within a Randomized Controlled Trial (RCT) in a situation where heterogeneous status is endogenous and is not fully observed in the control sample. We show how to use information in the treatment sample and a noisy signal on the heterogeneous status to estimate meaningful impacts under a minimal set of assumptions. We provide an application of this approach to a data set from Ghana, collected around a clustered RCT to evaluate the impacts of an early-years intervention, differentiating the impact between households that participate actively in the program from those who participate only passively, as recipients. We show that, for some outcomes, the properly estimated heterogeneous impacts differ substantially from those computed with a naive estimator.",
-    "abstract_cn": "本文研究在随机对照试验（RCT）中估计异质性处理效应的问题，其中异质性状态具有内生性，且在控制组样本中未能被完全观测。我们展示了如何在最简假设下，利用处理组样本中的信息以及关于异质性状态的噪声信号来估计有意义的处理效应。我们将该方法应用于加纳的一项数据集，该数据围绕一项整群随机对照试验收集，旨在评估一项幼儿早期干预项目的影响，并区分积极参与项目的家庭与仅作为受助者被动参与的家庭之间的效应差异。研究表明，对于部分结果变量，经恰当估计的异质性处理效应与朴素估计量所得结果存在显著差异。",
-    "url": "https://www.nber.org/papers/w35872",
-    "public_date": "2026-10-05",
-    "translation_status": {
-      "title": "success",
-      "abstract": "success"
-    },
-    "translation_error": null,
-    "translation_prompt_version": "econ-zh-v7-f0ad525007",
-    "fetched_at": "2026-10-05T18:54:13Z"
+    "fetched_at": "2026-10-12T12:46:55Z"
   }
 ]
