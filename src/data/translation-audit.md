@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-10-12T12:46:55Z`
-- Paper count: `22`
+- Generated at: `2026-10-19T10:32:01Z`
+- Paper count: `29`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,19 +35,23 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| IPO | w35888, w35889 |
-| AFA | w35885 |
-| agentic | w35878 |
-| CAH | w35876 |
-| Hugging Face | w35878 |
-| IPV | w35891 |
-| IVI | w35877 |
-| Medicare | w35876 |
-| NAFTA | w35897 |
-| OpenAI | w35878 |
-| RCT | w35882 |
-| Roll | w35885 |
-| rollout | w35876 |
+| GDP | w35909, w35922 |
+| Biomedtracker | w35916 |
+| Chamberlain | w35910 |
+| delegated intermediation | w35912 |
+| Domar | w35909 |
+| GSE | w35907 |
+| Hulten | w35909 |
+| III | w35916 |
+| IPR | w35916 |
+| MECRs | w35898 |
+| OECD ICIO | w35906 |
+| Ramsey | w35904 |
+| Rothschild | w35910 |
+| shift-share | w35921 |
+| TRIPS | w35916 |
+| VSLAs | w35912 |
+| WIOD | w35906 |
 
 ## Maintenance Notes
 
