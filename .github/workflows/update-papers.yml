@@ -3,9 +3,11 @@ name: Update NBER papers
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron uses UTC. These are Monday 13:00 and 18:00 in Asia/Shanghai.
-    - cron: "0 5 * * 1"
-    - cron: "0 10 * * 1"
+    # GitHub cron uses UTC. These are Monday 12:30 and 18:30 in Asia/Shanghai, both in DeepSeek's
+    # half-price off-peak hours (peak: weekdays 09:00-12:00 and 14:00-18:00 Beijing); 12:30 leaves room
+    # for GitHub's start delays before 14:00.
+    - cron: "30 4 * * 1"
+    - cron: "30 10 * * 1"
 
 permissions:
   contents: write
@@ -40,6 +42,8 @@ jobs:
       - name: Update paper data
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # optional repository variable; empty = pick from the models the API lists
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
           NBER_EMAIL_IMAP_HOST: ${{ secrets.NBER_EMAIL_IMAP_HOST }}
           NBER_EMAIL_IMAP_PORT: ${{ secrets.NBER_EMAIL_IMAP_PORT }}
           NBER_EMAIL_IMAP_USER: ${{ secrets.NBER_EMAIL_IMAP_USER }}

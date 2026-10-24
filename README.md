@@ -12,7 +12,7 @@
 - 维护最近批次数据：`papers.json`、`update-meta.json`、`archive.json`、`translation-cache.json` 和 `translation-audit.md`。
 - 优先从邮箱 IMAP 读取 NBER 邮件中的论文链接。
 - 邮箱源无法确认完整周报时安全停止，保留已有数据。
-- GitHub Actions 每周一北京时间 13:00 和 18:00 自动运行更新。
+- GitHub Actions 每周一北京时间 12:30 和 18:30 自动运行更新（都在 DeepSeek 空闲时段，价格为高峰的一半）。
 
 ## 技术栈
 
@@ -238,13 +238,13 @@ INBOX message count: ...
 触发方式：
 
 - 手动触发：`workflow_dispatch`
-- 自动触发：每周一北京时间 13:00 和 18:00
+- 自动触发：每周一北京时间 12:30 和 18:30（DeepSeek 高峰为工作日 9:00–12:00、14:00–18:00，其余为半价空闲时段）
 
 GitHub cron 使用 UTC，因此配置为：
 
 ```yaml
-- cron: "0 5 * * 1"
-- cron: "0 10 * * 1"
+- cron: "30 4 * * 1"
+- cron: "30 10 * * 1"
 ```
 
 更新 workflow 会：
