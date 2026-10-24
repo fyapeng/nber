@@ -1,6 +1,6 @@
 # NBER 每周工作论文
 
-这个项目会自动获取最新一期 NBER Working Papers，抓取论文标题、作者、摘要和原文链接，并用 Kimi API 生成中文标题与中文摘要。最终数据会写入 Astro 静态站点并发布到 GitHub Pages。
+这个项目会自动获取最新一期 NBER Working Papers，抓取论文标题、作者、摘要和原文链接，并用 DeepSeek API 生成中文标题与中文摘要。最终数据会写入 Astro 静态站点并发布到 GitHub Pages。
 
 网站地址：`https://fyapeng.com/nber/`
 
@@ -8,7 +8,7 @@
 
 - 展示最新一期 NBER Working Papers。
 - 保留英文标题、英文摘要、作者、发布日期和 NBER 原文链接。
-- 使用 Kimi API 翻译标题和摘要。
+- 使用 DeepSeek API 翻译标题和摘要。
 - 维护最近批次数据：`papers.json`、`update-meta.json`、`archive.json`、`translation-cache.json` 和 `translation-audit.md`。
 - 优先从邮箱 IMAP 读取 NBER 邮件中的论文链接。
 - 邮箱源无法确认完整周报时安全停止，保留已有数据。
@@ -20,7 +20,7 @@
 - Python 3
 - NBER Working Papers 页面与 API
 - IMAP SSL 邮箱读取
-- Kimi / Moonshot API 翻译
+- DeepSeek API 翻译
 - GitHub Actions + GitHub Pages
 
 ## 本地开发
@@ -141,8 +141,8 @@ NBER_EMAIL_IMAP_PASSWORD=你的三方客户端安全密码
 NBER_EMAIL_IMAP_MAILBOX=INBOX
 NBER_EMAIL_IMAP_LOOKBACK=100
 NBER_SOURCE=auto
-KIMI_API_KEY=你的 Kimi API key
-KIMI_MODEL=moonshot-v1-8k
+DEEPSEEK_API_KEY=你的 DeepSeek API key
+DEEPSEEK_MODEL=        # 可选；留空时自动选用接口当前提供的模型（优先 flash）
 WECHAT_APP_ID=公众号 AppID
 WECHAT_APP_SECRET=公众号 AppSecret
 WECHAT_AUTHOR=文章作者
@@ -180,13 +180,13 @@ python scripts/update_papers.py --source api --dry-run
 python scripts/update_papers.py
 ```
 
-如果要求必须配置 Kimi API key：
+如果要求必须配置 DeepSeek API key：
 
 ```powershell
 python scripts/update_papers.py --require-api-key
 ```
 
-只审计当前译文，不抓取论文、不调用 Kimi：
+只审计当前译文，不抓取论文、不调用 DeepSeek：
 
 ```powershell
 python scripts/update_papers.py --audit-translations
@@ -271,7 +271,7 @@ Settings -> Secrets and variables -> Actions -> New repository secret
 需要配置：
 
 ```text
-KIMI_API_KEY
+DEEPSEEK_API_KEY
 NBER_EMAIL_IMAP_HOST
 NBER_EMAIL_IMAP_PORT
 NBER_EMAIL_IMAP_USER
@@ -304,7 +304,7 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 - `papers.json`：当前展示的最新批次论文。
 - `update-meta.json`：最近一次更新时间、来源、批次日期和备注。
 - `archive.json`：历史批次归档。
-- `translation-cache.json`：翻译缓存，避免重复调用 Kimi。
+- `translation-cache.json`：翻译缓存，避免重复调用 DeepSeek。
 - `translation-audit.md`：自动生成的翻译审计报告，列出疑似错译、术语表未命中项和需要人工复核的英文片段。
 
 ## 常见排错
@@ -322,9 +322,9 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 - 直接转发原始邮件正文即可；`.eml` 附件转发也支持。
 - 默认只检查最近 100 封邮件，可通过 `NBER_EMAIL_IMAP_LOOKBACK` 调整。
 
-如果 Kimi 翻译失败：
+如果 DeepSeek 翻译失败：
 
-- 检查 `KIMI_API_KEY` 是否配置。
+- 检查 `DEEPSEEK_API_KEY` 是否配置。
 - 脚本会保留英文原文，并在 `translation_status` 中记录失败或跳过状态。
 
 ## 翻译质量
@@ -333,7 +333,7 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 
 核心文件是 `scripts/translation_glossary.json`：
 
-- `prompt_terms`：写入 Kimi system prompt，要求模型优先使用这些经济学译法。
+- `prompt_terms`：写入 DeepSeek system prompt，要求模型优先使用这些经济学译法。
 - `replacement_rules`：已知高频错译的确定性修正规则；缓存命中时也会执行。
 - `global_cleanup`：清理重复词、叠词等机械错误。
 - `audit.suspect_translations`：审计报告中高亮的疑似错译。
@@ -353,7 +353,7 @@ NBER_EMAIL_IMAP_USER = your-email@example.com
 
 ## 免责声明
 
-论文内容来自 NBER。中文标题和中文摘要由 Kimi API 自动生成，仅供快速浏览参考；正式引用、研究判断和学术表达请以 NBER 原文为准。
+论文内容来自 NBER。中文标题和中文摘要由 DeepSeek API 自动生成，仅供快速浏览参考；正式引用、研究判断和学术表达请以 NBER 原文为准。
 
 ## 离线回归验证
 
@@ -364,7 +364,7 @@ npm run build
 node --test tests/shared-data.test.mjs
 ```
 
-测试使用合成邮件及公开的 paper ID，不包含原始邮件或私人地址，也不连接 IMAP、Kimi 或微信 API。共享数据测试执行编辑器的实际分期函数（2/3/4 期），并在临时目录使用空 `.env` 验证微信脚本三期 dry run。
+测试使用合成邮件及公开的 paper ID，不包含原始邮件或私人地址，也不连接 IMAP、DeepSeek 或微信 API。共享数据测试执行编辑器的实际分期函数（2/3/4 期），并在临时目录使用空 `.env` 验证微信脚本三期 dry run。
 
 `.github/workflows/validate.yml` 只在 pull request 运行上述检查，仅有 `contents: read`，不配置环境、密钥、更新、微信或部署步骤。`fix/**` 分支 push 不触发已有部署工作流；正式更新仍仅按原有定时/手动事件触发。
 

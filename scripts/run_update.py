@@ -1,162 +1,9 @@
 from __future__ import annotations
 
 import logging
-import os
 import sys
-import time
-from typing import Any
 
 import update_papers as updater
-
-
-DEFAULT_MODEL = "kimi-k2.6"
-PREFERRED_MODELS = ("kimi-k2.6", "kimi-k2.5")
-NON_THINKING_KIMI_MODELS = set(PREFERRED_MODELS)
-
-
-class TranslationService(updater.TranslationService):
-    """Compatibility layer for current Kimi models without changing the updater core."""
-
-    def __init__(self, api_key: str | None, dry_run: bool, model: str) -> None:
-        super().__init__(api_key=api_key, dry_run=dry_run, model=model)
-        if not self.client or dry_run:
-            return
-
-        try:
-            response = self.client.models.list()
-            available_models = {str(item.id) for item in response.data}
-        except Exception as exc:  # noqa: BLE001 - surface API/key/region problems before the batch starts.
-            raise RuntimeError(
-                "Kimi API preflight failed while listing models with the existing KIMI_API_KEY. "
-                "Check the key's API-platform region, permission, and balance."
-            ) from exc
-
-        if self.model not in available_models:
-            fallback = next((name for name in PREFERRED_MODELS if name in available_models), None)
-            if fallback:
-                logging.warning(
-                    "Configured Kimi model %s is unavailable to this key; automatically falling back to %s.",
-                    self.model,
-                    fallback,
-                )
-                self.model = fallback
-            else:
-                raise RuntimeError(
-                    f"Kimi model {self.model!r} is not available to the existing KIMI_API_KEY, "
-                    "and neither kimi-k2.6 nor kimi-k2.5 is available."
-                )
-
-        logging.info("Kimi API preflight passed; using model %s.", self.model)
-
-    def translate(
-        self,
-        paper_id: str,
-        field: str,
-        source_text: str,
-        cache: dict[str, Any],
-    ) -> updater.TranslationResult:
-        if not source_text:
-            return updater.TranslationResult("", "skipped_empty", None)
-
-        key = updater.make_cache_key(paper_id, field, source_text)
-        cached = cache.get(key)
-        if isinstance(cached, dict) and cached.get("translation"):
-            cached_text = str(cached["translation"])
-            translated = updater.apply_translation_rules(source_text, cached_text)
-            issue = updater.translation_quality_issue(source_text, translated, field)
-            if not issue:
-                cache_entry = None
-                if translated != cached_text:
-                    cache_entry = {
-                        **cached,
-                        "translation": translated,
-                        "prompt_version": updater.TRANSLATION_PROMPT_VERSION,
-                        "updated_at": updater.utc_now_iso(),
-                    }
-                return updater.TranslationResult(translated, "success", None, key, cache_entry)
-            logging.warning("Ignoring invalid cached translation for %s %s: %s", paper_id, field, issue)
-
-        if isinstance(cached, str) and cached:
-            translated = updater.apply_translation_rules(source_text, cached)
-            issue = updater.translation_quality_issue(source_text, translated, field)
-            if not issue:
-                cache_entry = None
-                if translated != cached:
-                    cache_entry = {
-                        "translation": translated,
-                        "model": "normalized-from-cache",
-                        "prompt_version": updater.TRANSLATION_PROMPT_VERSION,
-                        "updated_at": updater.utc_now_iso(),
-                    }
-                return updater.TranslationResult(translated, "success", None, key, cache_entry)
-            logging.warning("Ignoring invalid legacy cache for %s %s: %s", paper_id, field, issue)
-
-        if self.dry_run:
-            return updater.TranslationResult(source_text, "skipped_dry_run", None, key)
-
-        if not self.client:
-            return updater.TranslationResult(source_text, "skipped_no_api_key", "KIMI_API_KEY is not set.", key)
-
-        last_error = None
-        for attempt in range(1, updater.TRANSLATION_ATTEMPTS + 1):
-            try:
-                logging.info(
-                    "Translating %s %s with %s (attempt %s/%s).",
-                    paper_id,
-                    field,
-                    self.model,
-                    attempt,
-                    updater.TRANSLATION_ATTEMPTS,
-                )
-                request: dict[str, Any] = {
-                    "model": self.model,
-                    "messages": [
-                        {
-                            "role": "system",
-                            "content": updater.ECON_TRANSLATION_SYSTEM_PROMPT,
-                        },
-                        {
-                            "role": "user",
-                            "content": f"请翻译以下 NBER 论文{'标题' if field == 'title' else '摘要'}：\n\n{source_text}",
-                        },
-                    ],
-                }
-
-                if self.model in NON_THINKING_KIMI_MODELS:
-                    # K2.5/K2.6 require fixed sampling parameters. For translation,
-                    # disable thinking to reduce latency and token cost and do not send temperature=0.1.
-                    request["extra_body"] = {"thinking": {"type": "disabled"}}
-                else:
-                    request["temperature"] = 0.1
-
-                response = self.client.chat.completions.create(**request)
-                translated = updater.apply_translation_rules(
-                    source_text,
-                    response.choices[0].message.content or "",
-                )
-                issue = updater.translation_quality_issue(source_text, translated, field)
-                if issue:
-                    raise RuntimeError(f"translation quality check failed: {issue}")
-
-                return updater.TranslationResult(
-                    translated,
-                    "success",
-                    None,
-                    key,
-                    {
-                        "translation": translated,
-                        "model": self.model,
-                        "prompt_version": updater.TRANSLATION_PROMPT_VERSION,
-                        "updated_at": updater.utc_now_iso(),
-                    },
-                )
-            except Exception as exc:  # noqa: BLE001 - API clients raise several exception families.
-                last_error = str(exc)
-                logging.warning("Kimi translation failed for %s %s: %s", paper_id, field, last_error)
-                if attempt < updater.TRANSLATION_ATTEMPTS:
-                    time.sleep(updater.BACKOFF_SECONDS[attempt - 1])
-
-        return updater.TranslationResult(source_text, "failed", last_error, key)
 
 
 def translation_failure_counts() -> tuple[int, int]:
@@ -180,10 +27,8 @@ def translation_failure_counts() -> tuple[int, int]:
 
 
 def main() -> int:
-    # Reuse the existing KIMI_API_KEY. Only the model selection changes.
-    os.environ.setdefault("KIMI_MODEL", DEFAULT_MODEL)
-    updater.TranslationService = TranslationService
-
+    # The updater picks the DeepSeek model from the API's live model list (see update_papers.pick_model);
+    # this wrapper only refuses to report success when every translation failed.
     exit_code = updater.run()
     if exit_code != 0:
         return exit_code
@@ -200,6 +45,7 @@ def main() -> int:
         return 3
     if failed:
         logging.warning("%s of %s translatable fields failed; keeping the partial batch for audit.", failed, total)
+        print(f"::warning::{failed} of {total} translations failed; they stay in English until the next run")
 
     return 0
 

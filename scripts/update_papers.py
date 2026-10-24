@@ -1025,12 +1025,38 @@ def seed_cache_from_existing(cache: dict[str, Any], existing_papers: list[dict[s
     return seeded
 
 
+def pick_model(client: OpenAI, wanted: str | None) -> str:
+    """Choose a model the DeepSeek API actually lists before the batch starts, so a renamed or retired model
+    never silently breaks a run. DEEPSEEK_MODEL / --model wins when listed; otherwise prefer a fast general
+    model (flash, then chat) over reasoning-only ones."""
+    try:
+        ids = [str(m.id) for m in client.models.list().data]
+    except Exception as exc:  # noqa: BLE001 - surface API/key/balance problems before the batch starts.
+        raise RuntimeError(
+            "DeepSeek API preflight failed while listing models with DEEPSEEK_API_KEY. "
+            "Check the key, its permission, and the account balance."
+        ) from exc
+    if wanted in ids:
+        return wanted
+    usable = [i for i in ids if "reasoner" not in i]
+    choice = next((i for hint in ("flash", "chat") for i in usable if hint in i), None) or (usable[0] if usable else None)
+    if not choice:
+        raise RuntimeError(f"DeepSeek lists no usable chat model (available: {', '.join(ids) or 'none'}).")
+    if wanted:
+        logging.warning("DeepSeek model %s is not offered any more; using %s.", wanted, choice)
+        print(f"::warning::DEEPSEEK_MODEL={wanted} is not offered any more (available: {', '.join(ids)}); using {choice}")
+    return choice
+
+
 class TranslationService:
-    def __init__(self, api_key: str | None, dry_run: bool, model: str) -> None:
+    def __init__(self, api_key: str | None, dry_run: bool, model: str | None) -> None:
         self.api_key = api_key
         self.dry_run = dry_run
-        self.model = model
-        self.client = OpenAI(api_key=api_key, base_url="https://api.moonshot.cn/v1") if api_key else None
+        self.client = OpenAI(api_key=api_key, base_url="https://api.deepseek.com") if api_key else None
+        self.model = model or ""
+        if self.client and not dry_run:
+            self.model = pick_model(self.client, model)
+            logging.info("DeepSeek API preflight passed; using model %s.", self.model)
 
     def translate(self, paper_id: str, field: str, source_text: str, cache: dict[str, Any]) -> TranslationResult:
         if not source_text:
@@ -1072,7 +1098,7 @@ class TranslationService:
             return TranslationResult(source_text, "skipped_dry_run", None, key)
 
         if not self.client:
-            return TranslationResult(source_text, "skipped_no_api_key", "KIMI_API_KEY is not set.", key)
+            return TranslationResult(source_text, "skipped_no_api_key", "DEEPSEEK_API_KEY is not set.", key)
 
         last_error = None
         for attempt in range(1, TRANSLATION_ATTEMPTS + 1):
@@ -1110,7 +1136,7 @@ class TranslationService:
                 )
             except Exception as exc:  # noqa: BLE001 - API clients raise several exception families.
                 last_error = str(exc)
-                logging.warning("Kimi translation failed for %s %s: %s", paper_id, field, last_error)
+                logging.warning("DeepSeek translation failed for %s %s: %s", paper_id, field, last_error)
                 if attempt < TRANSLATION_ATTEMPTS:
                     time.sleep(BACKOFF_SECONDS[attempt - 1])
 
@@ -1541,8 +1567,8 @@ def update_archive(archive: Any, records: list[dict[str, Any]], meta: dict[str, 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Fetch NBER Working Papers and write Astro JSON data.")
-    parser.add_argument("--dry-run", action="store_true", help="Fetch papers and use cache only; do not call Kimi or write files.")
-    parser.add_argument("--require-api-key", action="store_true", help="Exit with an error if KIMI_API_KEY is missing.")
+    parser.add_argument("--dry-run", action="store_true", help="Fetch papers and use cache only; do not call DeepSeek or write files.")
+    parser.add_argument("--require-api-key", action="store_true", help="Exit with an error if DEEPSEEK_API_KEY is missing.")
     parser.add_argument("--test-email-login", action="store_true", help="Connect to IMAP, log in, and report the INBOX count.")
     parser.add_argument(
         "--audit-translations",
@@ -1572,7 +1598,7 @@ def parse_args() -> argparse.Namespace:
         help="Number of recent IMAP messages to inspect when using the email source.",
     )
     parser.add_argument("--per-page", type=int, default=50, help="Legacy API page size; API updates currently fail closed without an edition manifest.")
-    parser.add_argument("--model", default=os.environ.get("KIMI_MODEL", "moonshot-v1-8k"), help="Kimi model name.")
+    parser.add_argument("--model", default=os.environ.get("DEEPSEEK_MODEL") or None, help="DeepSeek model; default: picked from the models the API lists.")
     parser.add_argument(
         "--translation-workers",
         type=int,
@@ -1605,16 +1631,16 @@ def run() -> int:
         logging.info("Wrote translation audit report to %s.", args.audit_output)
         return 0
 
-    api_key = os.environ.get("KIMI_API_KEY")
+    api_key = os.environ.get("DEEPSEEK_API_KEY")
 
     if args.require_api_key and not api_key:
-        logging.error("KIMI_API_KEY is required for this run but is not set.")
+        logging.error("DEEPSEEK_API_KEY is required for this run but is not set.")
         return 2
 
     if args.dry_run:
-        logging.info("Dry run enabled: Kimi API calls and file writes are disabled.")
+        logging.info("Dry run enabled: DeepSeek API calls and file writes are disabled.")
     elif not api_key:
-        logging.warning("KIMI_API_KEY is not set; translations will be marked skipped_no_api_key.")
+        logging.warning("DEEPSEEK_API_KEY is not set; translations will be marked skipped_no_api_key.")
 
     fetched_at = utc_now_iso()
     session = build_session()

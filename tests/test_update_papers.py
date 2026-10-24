@@ -230,7 +230,7 @@ class RunTests(unittest.TestCase):
             self.stack.enter_context(patch.object(u, name, path))
         self.before = {path: path.read_bytes() for path in self.paths.values()}
         self.args = argparse.Namespace(test_email_login=False, audit_translations=False, require_api_key=False, dry_run=False, source='auto', email_lookback=100, per_page=50, model='test', translation_workers=2, skip_audit_report=False, audit_output=str(self.paths['AUDIT_PATH']))
-        self.stack.enter_context(patch.dict(os.environ, {'KIMI_API_KEY': 'test-not-a-real-key'}, clear=True))
+        self.stack.enter_context(patch.dict(os.environ, {'DEEPSEEK_API_KEY': 'test-not-a-real-key'}, clear=True))
         self.stack.enter_context(patch.object(u, 'parse_args', return_value=self.args))
         self.stack.enter_context(patch.object(u, 'load_local_env'))
         self.stack.enter_context(patch.object(u, 'has_imap_config', return_value=True))

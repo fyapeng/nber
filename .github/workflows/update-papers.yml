@@ -39,8 +39,7 @@ jobs:
 
       - name: Update paper data
         env:
-          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
-          KIMI_MODEL: kimi-k2.6
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           NBER_EMAIL_IMAP_HOST: ${{ secrets.NBER_EMAIL_IMAP_HOST }}
           NBER_EMAIL_IMAP_PORT: ${{ secrets.NBER_EMAIL_IMAP_PORT }}
           NBER_EMAIL_IMAP_USER: ${{ secrets.NBER_EMAIL_IMAP_USER }}
