@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-10-19T10:32:01Z`
-- Paper count: `29`
+- Generated at: `2026-10-26T10:24:02Z`
+- Paper count: `35`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,23 +35,42 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| GDP | w35909, w35922 |
-| Biomedtracker | w35916 |
-| Chamberlain | w35910 |
-| delegated intermediation | w35912 |
-| Domar | w35909 |
-| GSE | w35907 |
-| Hulten | w35909 |
-| III | w35916 |
-| IPR | w35916 |
-| MECRs | w35898 |
-| OECD ICIO | w35906 |
-| Ramsey | w35904 |
-| Rothschild | w35910 |
-| shift-share | w35921 |
-| TRIPS | w35916 |
-| VSLAs | w35912 |
-| WIOD | w35906 |
+| GDP | w35934, w35949 |
+| Medicare | w35936, w35946 |
+| ACA | w35955 |
+| BLP | w35954 |
+| CMS | w35955 |
+| CSR | w35955 |
+| DID | w35935 |
+| Econometrica | w35948 |
+| Economy Score | w35949 |
+| H-2A | w35941 |
+| hat-algebra | w35942 |
+| HouseholdBench | w35927 |
+| Hulten | w35934 |
+| Kline | w35948 |
+| Leave-Out Estimation | w35948 |
+| LLM | w35947 |
+| LLMs | w35927 |
+| market | w35928 |
+| Marketplace | w35955 |
+| Mata | w35948 |
+| match deletion | w35948 |
+| Matlab | w35948 |
+| MMF | w35954 |
+| MMFs | w35954 |
+| multihoming | w35953 |
+| neoclassical | w35934 |
+| pricing | w35928 |
+| Razin | w35957 |
+| Rust | w35948 |
+| Saggio | w35948 |
+| silver loading | w35955 |
+| Stata | w35948 |
+| Svensson | w35957 |
+| Variance Components | w35948 |
+| Visale | w35932 |
+| weekly liquid assets | w35954 |
 
 ## Maintenance Notes
 
