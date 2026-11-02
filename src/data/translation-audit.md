@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-10-26T10:24:02Z`
-- Paper count: `35`
+- Generated at: `2026-11-02T12:46:56Z`
+- Paper count: `23`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,42 +35,24 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| GDP | w35934, w35949 |
-| Medicare | w35936, w35946 |
-| ACA | w35955 |
-| BLP | w35954 |
-| CMS | w35955 |
-| CSR | w35955 |
-| DID | w35935 |
-| Econometrica | w35948 |
-| Economy Score | w35949 |
-| H-2A | w35941 |
-| hat-algebra | w35942 |
-| HouseholdBench | w35927 |
-| Hulten | w35934 |
-| Kline | w35948 |
-| Leave-Out Estimation | w35948 |
-| LLM | w35947 |
-| LLMs | w35927 |
-| market | w35928 |
-| Marketplace | w35955 |
-| Mata | w35948 |
-| match deletion | w35948 |
-| Matlab | w35948 |
-| MMF | w35954 |
-| MMFs | w35954 |
-| multihoming | w35953 |
-| neoclassical | w35934 |
-| pricing | w35928 |
-| Razin | w35957 |
-| Rust | w35948 |
-| Saggio | w35948 |
-| silver loading | w35955 |
-| Stata | w35948 |
-| Svensson | w35957 |
-| Variance Components | w35948 |
-| Visale | w35932 |
-| weekly liquid assets | w35954 |
+| Becker | w35970 |
+| BLM | w35979 |
+| CIP | w35977 |
+| ESG | w35982 |
+| Facebook | w35983 |
+| GDP | w35964 |
+| hand-to-mouth | w35964 |
+| HANK | w35967 |
+| LEAP | w35961 |
+| LLM | w35982 |
+| Mirrlees | w35970 |
+| NASA | w35966 |
+| Negishi | w35971 |
+| NIIP | w35962 |
+| RANK | w35967 |
+| teacher-like-me | w35963 |
+| TWFE | w35974 |
+| Venables | w35976 |
 
 ## Maintenance Notes
 
