@@ -1,0 +1,22 @@
+---
+import Layout from "../../components/Layout.astro";
+import IssueView from "../../components/IssueView.astro";
+import archive from "../../data/archive.json";
+import meta from "../../data/update-meta.json";
+
+// one page per archived batch; the latest batch lives on the home page
+export function getStaticPaths() {
+  return (archive as any[])
+    .filter((entry) => entry.batch_date && entry.batch_date !== meta.batch_date)
+    .map((entry) => ({ params: { date: entry.batch_date }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const issues = (archive as any[])
+  .map((e) => ({ date: e.batch_date as string, count: (e.papers || []).length }))
+  .sort((a, b) => b.date.localeCompare(a.date));
+---
+
+<Layout title={`NBER Weekly · ${entry.batch_date}`} description={`${entry.batch_date} 批次 NBER 工作论文中文导读`}>
+  <IssueView papers={entry.papers} batchDate={entry.batch_date} lastUpdated={entry.last_updated} issues={issues} latest={false} />
+</Layout>

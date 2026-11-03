@@ -4,47 +4,55 @@ import "../styles/global.css";
 interface Props {
   title?: string;
   description?: string;
+  // the WeChat editor previews a light article, so it pins the light theme
+  theme?: "auto" | "light";
 }
 
 const {
-  title = "本周 NBER 工作论文",
+  title = "NBER Weekly · 本周 NBER 工作论文",
   description = "每周 NBER Working Papers 中文导读",
+  theme = "auto",
 } = Astro.props;
 const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const path = Astro.url.pathname;
+const onEditor = path.includes("/wechat-editor");
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme={theme === "light" ? "light" : undefined}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#f3f0e8" />
     <title>{title}</title>
     <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
   </head>
   <body>
-    <div class="site-shell">
-      <header class="site-header">
-        <a class="brand" href={base} aria-label="NBER Weekly">
-          <img src={`${base}brand/sencium-icon-dark.png`} alt="" width="32" height="32" />
-          <span>申椿 · NBER Weekly</span>
+    <header class="topbar">
+      <div class="wrap topbar__inner">
+        <a class="brand" href={base} aria-label="NBER Weekly 首页">
+          <img src={`${base}brand/sencium-icon-dark.png`} alt="" width="28" height="28" />
+          <b>申椿</b><span>Sencium</span>
         </a>
-        <nav class="header-nav" aria-label="主导航">
-          <a class="header-link" href={`${base}wechat-editor/`}>公众号编辑器</a>
-          <a class="header-link" href="https://github.com/fyapeng/nber" target="_blank" rel="noreferrer noopener">
-            GitHub
-          </a>
-          <a class="header-link" href="https://www.nber.org/papers" target="_blank" rel="noreferrer noopener">
-            NBER
-          </a>
+        <nav class="sites" aria-label="站点">
+          <a href={base} aria-current={onEditor ? undefined : "page"}>NBER Weekly</a>
+          <a href="https://fyapeng.com/top5papers/">五大期刊</a>
+          <a href="https://fyapeng.com/senlab/">SenLab</a>
+          <i class="sep" aria-hidden="true"></i>
+          <a href={`${base}wechat-editor/`} aria-current={onEditor ? "page" : undefined}>公众号编辑器</a>
+          <a href="https://github.com/fyapeng/nber" target="_blank" rel="noreferrer noopener">GitHub</a>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <slot />
+    <slot />
 
-      <footer class="site-footer">
-        <p>论文信息来自 NBER，中文翻译由 DeepSeek API 自动生成，仅供快速浏览参考。</p>
-      </footer>
-    </div>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>论文信息来自 <a href="https://www.nber.org/papers" target="_blank" rel="noreferrer noopener">NBER</a>，中文标题与摘要由 DeepSeek API 自动翻译，仅供快速浏览，引用请以原文为准。</p>
+        <p>申椿 · NBER Weekly</p>
+      </div>
+    </footer>
   </body>
 </html>

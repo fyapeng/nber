@@ -1,0 +1,170 @@
+---
+import PaperCard from "./PaperCard.astro";
+
+interface Props {
+  papers: any[];
+  batchDate: string;
+  lastUpdated: string | null;
+  issues: { date: string; count: number }[];
+  latest: boolean;
+}
+
+const { papers, batchDate, lastUpdated, issues, latest } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const latestDate = issues[0]?.date;
+const issueHref = (date: string) => (date === latestDate ? base : `${base}issue/${date}/`);
+
+const cnDate = (value: string) => {
+  const [y, m, d] = (value || "").split("-");
+  return y && m && d ? `${y} 年 ${Number(m)} 月 ${Number(d)} 日` : value || "日期待定";
+};
+const formatDateTime = (value: string | null) => {
+  if (!value) return "—";
+  const date = new Date(value);
+  if (Number.isNaN(date.valueOf())) return value;
+  return new Intl.DateTimeFormat("zh-CN", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }).format(date);
+};
+const shortDate = (value: string) => value.slice(5).replace("-", "/");
+const authorCount = new Set(papers.flatMap((p) => p.authors || [])).size;
+const searchIcon = `<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="7" cy="7" r="4.8"/><path d="m10.6 10.6 3.4 3.4" stroke-linecap="round"/></svg>`;
+---
+
+<main>
+  <section class="masthead">
+    <p class="masthead__kicker">
+      <span><b>{latest ? "本周" : "往期"}</b></span>
+      <span>National Bureau of Economic Research</span>
+      <span>Working Papers</span>
+    </p>
+    <div class="masthead__row">
+      <div>
+        <h1 class="masthead__title">NBER <i>Weekly</i></h1>
+        <p class="masthead__sub">{cnDate(batchDate)} 发布的 NBER 工作论文：中文标题与摘要导读，附英文原文与 PDF 链接。</p>
+      </div>
+      <dl class="facts">
+        <div><dt>本期论文</dt><dd>{papers.length}<small>篇</small></dd></div>
+        <div><dt>作者</dt><dd>{authorCount}<small>位</small></dd></div>
+        <div><dt>{latest ? "更新于" : "批次"}</dt><dd>{latest ? formatDateTime(lastUpdated) : shortDate(batchDate)}</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="layout">
+    <aside class="rail" aria-label="检索与目录">
+      <div class="rail__block rail__block--wide">
+        <p class="rail__label rail__label--search">检索</p>
+        <label class="search">
+          <span class="sr-only">检索本期论文</span>
+          <Fragment set:html={searchIcon} />
+          <input id="q" type="search" autocomplete="off" placeholder="标题、作者、摘要、编号" />
+        </label>
+        <p class="search-count" id="search-count" aria-live="polite"></p>
+      </div>
+
+      <div class="rail__block">
+        <p class="rail__label">英文摘要</p>
+        <div class="seg" role="group" aria-label="英文摘要显示方式">
+          <button type="button" data-lang="zh" aria-pressed="true">按需展开</button>
+          <button type="button" data-lang="bi" aria-pressed="false">全部展开</button>
+        </div>
+      </div>
+
+      {issues.length > 1 && (
+        <details class="rail__block rail__fold">
+          <summary class="rail__label">往期 <span>{issues.length} 期 · 当前 {shortDate(batchDate)}</span></summary>
+          <nav class="issues" aria-label="往期批次">
+            {issues.map((iss) => (
+              <a href={issueHref(iss.date)} aria-current={iss.date === batchDate ? "page" : undefined}>
+                {shortDate(iss.date)} <span>{iss.count}</span>
+              </a>
+            ))}
+          </nav>
+        </details>
+      )}
+
+      <div class="rail__block rail__block--desk">
+        <p class="rail__label">本期目录</p>
+        <ol class="contents" id="contents">
+          {papers.map((p, i) => (
+            <li data-for={p.id}>
+              <a href={`#${p.id}`}><span class="contents__n">{String(i + 1).padStart(2, "0")}</span><span>{p.title_cn || p.title}</span></a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </aside>
+
+    <div class="stream">
+      {papers.length > 0 ? (
+        <>
+          <div class="group-head">
+            <h2>{cnDate(batchDate)}</h2>
+            <span>{papers.length} 篇工作论文</span>
+          </div>
+          {papers.map((paper, index) => <PaperCard paper={paper} index={index + 1} />)}
+          <p class="empty" id="no-match" hidden><b>没有匹配的论文</b>换个关键词试试，或清空检索框。</p>
+        </>
+      ) : (
+        <p class="empty"><b>暂无论文数据</b>运行更新脚本后，最新批次会显示在这里。</p>
+      )}
+    </div>
+  </div>
+</main>
+
+<script>
+  const q = document.querySelector<HTMLInputElement>("#q");
+  const countEl = document.querySelector<HTMLElement>("#search-count");
+  const noMatch = document.querySelector<HTMLElement>("#no-match");
+  const entries = Array.from(document.querySelectorAll<HTMLElement>("[data-entry]"));
+  const tocItems = new Map(
+    Array.from(document.querySelectorAll<HTMLElement>("#contents li")).map((li) => [li.dataset.for, li]),
+  );
+  // search over everything a card shows, English abstract included
+  const haystacks = new Map(entries.map((e) => [e, (e.textContent || "").toLocaleLowerCase()]));
+
+  const runSearch = () => {
+    const terms = (q?.value || "").trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+    let shown = 0;
+    for (const entry of entries) {
+      const ok = terms.every((t) => haystacks.get(entry)!.includes(t));
+      entry.hidden = !ok;
+      const li = tocItems.get(entry.id);
+      if (li) li.hidden = !ok;
+      if (ok) shown += 1;
+    }
+    if (countEl) countEl.textContent = terms.length ? `匹配 ${shown} / ${entries.length} 篇` : "";
+    if (noMatch) noMatch.hidden = shown > 0;
+  };
+  q?.addEventListener("input", runSearch);
+
+  // English abstracts: open on demand, or all at once; the choice is remembered
+  const store = {
+    get: (k: string) => { try { return localStorage.getItem(k); } catch { return null; } },
+    set: (k: string, v: string) => { try { localStorage.setItem(k, v); } catch {} },
+  };
+  const langButtons = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-lang]"));
+  const setLang = (lang: string) => {
+    langButtons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
+    document.querySelectorAll<HTMLDetailsElement>("details[data-en]").forEach((d) => (d.open = lang === "bi"));
+  };
+  langButtons.forEach((b) => b.addEventListener("click", () => { setLang(b.dataset.lang!); store.set("nber-lang", b.dataset.lang!); }));
+  if (store.get("nber-lang") === "bi") setLang("bi");
+
+  // highlight the contents entry for the paper being read
+  const links = new Map(Array.from(tocItems.values()).map((li) => [li.dataset.for, li.querySelector("a")!]));
+  let current: HTMLAnchorElement | undefined;
+  const observer = new IntersectionObserver(
+    (records) => {
+      const top = records.filter((r) => r.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+      if (!top) return;
+      const link = links.get(top.target.id);
+      if (!link || link === current) return;
+      current?.classList.remove("on");
+      link.classList.add("on");
+      current = link;
+      link.scrollIntoView({ block: "nearest" });
+    },
+    { rootMargin: "0px 0px -70% 0px" },
+  );
+  entries.forEach((e) => observer.observe(e));
+</script>
