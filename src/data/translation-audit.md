@@ -1,7 +1,7 @@
 # Translation Audit
 
-- Generated at: `2026-11-02T12:46:56Z`
-- Paper count: `23`
+- Generated at: `2026-11-09T13:14:06Z`
+- Paper count: `21`
 - Glossary version: `econ-zh-v7-f0ad525007`
 - Suspect translation hits: `0`
 - Preferred-term misses: `0`
@@ -35,24 +35,32 @@ No structural translation quality warnings were found.
 
 | Fragment | Papers |
 | --- | --- |
-| Becker | w35970 |
-| BLM | w35979 |
-| CIP | w35977 |
-| ESG | w35982 |
-| Facebook | w35983 |
-| GDP | w35964 |
-| hand-to-mouth | w35964 |
-| HANK | w35967 |
-| LEAP | w35961 |
-| LLM | w35982 |
-| Mirrlees | w35970 |
-| NASA | w35966 |
-| Negishi | w35971 |
-| NIIP | w35962 |
-| RANK | w35967 |
-| teacher-like-me | w35963 |
-| TWFE | w35974 |
-| Venables | w35976 |
+| Airbnb | w35989 |
+| Boehm | w36004 |
+| Coarsened Exact Matching | w35989 |
+| Diffidence | w36001 |
+| GBV | w35986 |
+| Kroner | w36004 |
+| Lucas Tree | w36001 |
+| Marine Degree Days | w35994 |
+| Markowitz | w35988 |
+| Medicare Part | w35997 |
+| MMP | w36004 |
+| MOUD | w35997 |
+| NET | w35987 |
+| NET Center | w35987 |
+| NP-hard | w35993 |
+| p-hacking | w35999 |
+| precautionary augment | w36001 |
+| RCTs | w35999 |
+| Set | w35997 |
+| ShotSpotter | w36005 |
+| Stanford Task Network | w35987 |
+| TaskNet | w35987 |
+| Treatment Episode Data | w35997 |
+| USD PPP | w35991 |
+| ZIP | w35989 |
+| ZLB | w35985 |
 
 ## Maintenance Notes
 

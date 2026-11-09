@@ -1,5 +1,467 @@
 [
   {
+    "batch_date": "2026-11-09",
+    "last_updated": "2026-11-09T13:14:06Z",
+    "paper_count": 21,
+    "papers": [
+      {
+        "id": "w36002",
+        "title": "Knowledge Without Taxation? Experimental Evidence from a Tax Education Program",
+        "title_cn": "无税的知识？来自税收教育项目的实验证据",
+        "authors": [
+          "Anders Jensen",
+          "Nikhil Kumar",
+          "Konstantin Poensgen"
+        ],
+        "abstract": "A property tax experiment in Ghana randomly provides tax education to property owners and frontline officials. The intervention raises tax knowledge, which spreads through social networks to untreated neighbors, but does not increase tax payments. Educated taxpayers and officials become more engaged in their interactions without developing more collaborative relationships. Taxpayers revise downward their beliefs about enforcement capacity and become more aware of legal ways to reduce their tax burden. Knowledge is a double-edged sword: it can stimulate citizens to engage with the tax system while exposing the state's limited capacity to enforce it.",
+        "abstract_cn": "加纳的一项房产税实验随机向房产所有者和一线官员提供税收教育。该干预提高了税收知识，并通过社会网络传播至未受干预的邻居，但并未增加税款缴纳。接受税收教育的纳税人和官员在互动中更加投入，却未形成更具合作性的关系。纳税人下调了对执法能力的预期，并更加了解减轻税负的合法途径。知识是一把双刃剑：它既能激励公民参与税收体系，也会暴露国家有限的执法能力。",
+        "url": "https://www.nber.org/papers/w36002",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w36005",
+        "title": "Policy Evaluation Beyond Significance Testing: Evidence from Chicago's ShotSpotter Contract",
+        "title_cn": "超越显著性检验的政策评估：来自芝加哥 ShotSpotter 合同的证据",
+        "authors": [
+          "Terence Chau",
+          "Philip J. Cook",
+          "Javier Lopez",
+          "Jens Ludwig",
+          "Alejandro Roemer",
+          "Adam K. Soliman"
+        ],
+        "abstract": "Program impact estimates that are not statistically significant are often treated as providing little guidance for policy choice, even when economically important effects remain plausible. In such cases, the decision-relevant task is not simply to test whether the effect differs from zero, but to estimate the probability distribution of programmatic effects. The importance of going beyond hypothesis testing is especially clear when evaluations are underpowered relative to the effect needed for benefits to exceed costs. We illustrate this point using Chicago’s contract for ShotSpotter, an acoustical gunshot detection system that reduces police response times and may therefore have improved survival among shooting victims. Using a geographic RD design, we estimate that ShotSpotter reduced the shooting fatality rate by 2.5 percentage points, equivalent to roughly 49 fewer deaths per year. Although the estimate is not statistically significant, its implied benefit far exceeds the cost of the service. To have enough statistical power under the hypothesis testing approach to detect an effect of this size would require 87 years’ worth of Chicago shooting data. We instead implement a decision-relevant perspective using Bayesian analysis, treating the life-saving effect as a random variable. We find positive expected net benefits, with posterior probabilities that benefits exceed costs ranging from 70% under a flat prior and a $0.5 million value of statistical life to 99.6% under a no-harm prior and a $13.6 million value. The results illustrate how reliance on statistical significance can discard decision-relevant evidence when economically meaningful effects are difficult to detect precisely.",
+        "abstract_cn": "未达到统计显著的项目影响估计常常被视为难以为政策选择提供多少指导，即使具有经济重要性的效应仍属可信。在这种情况下，与决策相关的任务不只是检验效应是否异于零，而是估计项目效应的概率分布。当相对于使收益超过成本所需的效应而言，评估的统计功效不足时，超越假设检验的重要性尤为明显。我们用芝加哥与 ShotSpotter 签订的合同来说明这一点。ShotSpotter 是一种声学枪声探测系统，可缩短警察响应时间，并可能因此提高枪击受害者的生存率。采用地理断点回归（RD）设计，我们估计 ShotSpotter 使枪击致死率降低了 2.5 个百分点，相当于每年减少约 49 例死亡。尽管该估计在统计上不显著，但其隐含收益远超过该服务的成本。在假设检验方法下要有足够统计功效来检测这种规模的效应，将需要相当于芝加哥 87 年的枪击数据。我们转而采用贝叶斯分析，从与决策相关的角度出发，将挽救生命效应视为随机变量。我们发现预期净收益为正；收益超过成本的后验概率在平坦先验和 50 万美元统计生命价值下为 70%，在无伤害先验和 1360 万美元统计生命价值下为 99.6%。结果说明，当具有经济意义的效应难以被精确识别时，依赖统计显著性可能丢弃与决策相关的证据。",
+        "url": "https://www.nber.org/papers/w36005",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w36000",
+        "title": "When More Prenatal Care Looks Like Less: Selection, Information and Maternal and Infant Health",
+        "title_cn": "当更多产前保健看似更少：选择、信息与母婴健康",
+        "authors": [
+          "Chien-Tzu Cheng",
+          "Shin-Yi Chou",
+          "Hsien-Ming Lien"
+        ],
+        "abstract": "We use Taiwan's 2003 SARS epidemic as a natural experiment, instrumenting prenatal care with gestational exposure to SARS-induced fear that reduced visits by over 20 percent. Adequate prenatal care reduces preventable maternal complications by 3.4 percentage points (26 percent), with no effect on infant outcomes. OLS estimates are perversely signed for maternal complications but overstate benefits for infant outcomes, consistent with competing patient- and provider-driven selection. Mechanism evidence points to prenatal care as a longitudinal information system: repeated contact facilitates detection of evolving risks and generates clinical information that informs delivery decisions, including delivery-mode routing and subsequent management at delivery.",
+        "abstract_cn": "我们以台湾2003年SARS疫情作为自然实验，用妊娠期暴露于SARS引发的恐惧作为产前保健的工具变量，这种恐惧使产前就诊次数减少超过20%。充分的产前保健使可预防的孕产妇并发症减少3.4个百分点（26%），但对婴儿结局没有影响。OLS估计在孕产妇并发症上符号反常，却高估了对婴儿结局的益处，这与患者驱动和医疗服务提供者驱动的相互竞争的选择机制一致。机制证据表明，产前保健是一个纵向信息系统：反复接触有助于发现不断变化的风险，并产生临床信息，为分娩决策提供依据，包括分娩方式分流和分娩时的后续管理。",
+        "url": "https://www.nber.org/papers/w36000",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35999",
+        "title": "(In)Credible Development RCTs: False Discoveries, Low Power, and a Solution",
+        "title_cn": "（不）可信的发展经济学RCT：错误发现、低统计功效与一种解决方案",
+        "authors": [
+          "Qingyuan Chai",
+          "Kevin Lang",
+          "Liang Zhong"
+        ],
+        "abstract": "We study the statistical credibility of randomized controlled trials (RCTs) in development economics and the optimal allocation of resources to replication. Using 745 principal-hypothesis tests from 190 articles in leading economics journals, we find that actual t-statistics peak well below the theoretical benchmark of 2.8 expected under 80 percent power, though above values associated with p-hacking. This suggests many RCTs are underpowered. Estimating an empirical Bayes mixture model that accounts for selective publication, we find that approximately 30 percent of published rejections are false discoveries, with average directional power at only 40 percent. At conventional significance thresholds, the posterior probability of a false discovery reaches 66 percent. Doubling original sample sizes lowers the average false discovery rate by five percentage points, whereas tightening the significance threshold to 0.005 yields a larger reduction at the cost of total discoveries. Finally, we characterize a funder’s optimal replication policy under a fixed budget and an evidence standard. Under standard regularity conditions, replications concentrate in an intermediate interval of original test statistics, and the optimal replication sample size is single-peaked in the original t-statistic. Illustrative calibrations show that successful replications reduce aggregate false discovery rates to 1.8–7.8 percent, depending on the evidence standard.",
+        "abstract_cn": "我们研究发展经济学中随机对照试验（RCTs）的统计可信度，以及将资源最优配置于重复研究的问题。利用来自顶级经济学期刊190篇文章的745项主要假设检验，我们发现实际 t 统计量的峰值明显低于80%功效下所预期的2.8这一理论基准，但仍高于与 p 值操纵（p-hacking）相关的取值。这表明许多 RCTs 的功效不足。我们估计了一个考虑选择性发表的经验贝叶斯混合模型，发现已发表的拒绝原假设结果中约30%是错误发现，平均方向性功效仅为40%。在常规显著性阈值下，错误发现的后验概率达到66%。将原始样本量翻倍可使平均错误发现率降低5个百分点；而将显著性阈值收紧至0.005会带来更大幅度的下降，但代价是总发现数量减少。最后，我们刻画了在固定预算和证据标准下资助者的最优重复研究政策。在标准正则条件下，重复研究集中于原始检验统计量的中间区间，且最优重复研究样本量关于原始 t 统计量呈单峰。示例性校准显示，成功的重复研究可使总体错误发现率降至1.8%–7.8%，具体取决于证据标准。",
+        "url": "https://www.nber.org/papers/w35999",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35997",
+        "title": "Beyond Overdose Prevention: Naloxone Coprescription Laws and the Path to Treatment",
+        "title_cn": "超越药物过量预防：纳洛酮共同处方法与治疗路径",
+        "authors": [
+          "Shin-Yi Chou",
+          "Jiarun Li",
+          "Bingjin Xue"
+        ],
+        "abstract": "Over one-third of U.S. states have enacted naloxone coprescription laws, requiring physicians to prescribe or offer naloxone alongside high-risk opioids. Using Medicare Part D data, the Treatment Episode Data Set, and a difference-in-differences design, we study how these laws affect naloxone access, broader prescription behavior, and treatment engagement. Coprescription laws increased naloxone prescribing by 275%, with effects twice as large in states requiring prescriptions as in those requiring only offers. We find no evidence of increased opioid or benzodiazepine prescribing, countering moral hazard concerns that broader naloxone access might encourage riskier opioid use. Instead, we document significant increases in prescribing of medications for opioid use disorder (MOUD) and gains in opioid use disorder treatment admissions, primarily in deliberate treatment-seeking settings. These results suggest that coprescription laws may have broader benefits beyond overdose prevention.",
+        "abstract_cn": "超过三分之一的美国州已颁布纳洛酮共同处方法，要求医生在为患者开具高风险阿片类药物时同时开具或提供纳洛酮。我们使用 Medicare Part D 数据、治疗事件数据集（Treatment Episode Data Set）以及双重差分设计，研究这些法律如何影响纳洛酮可及性、更广泛的处方行为和治疗参与。共同处方法使纳洛酮处方量增加 275%，且在要求必须开具处方的州，效应是仅要求提供纳洛酮的州的两倍。我们没有发现阿片类药物或苯二氮䓬类药物处方增加的证据，这反驳了更广泛的纳洛酮可及性可能鼓励更高风险阿片类药物使用的道德风险担忧。相反，我们记录了阿片类药物使用障碍药物（MOUD）处方的显著增加以及阿片类药物使用障碍治疗入院人数的上升，且主要出现在主动寻求治疗的情境中。这些结果表明，共同处方法可能具有超出药物过量预防的更广泛益处。",
+        "url": "https://www.nber.org/papers/w35997",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35990",
+        "title": "Financial Advisors and Retirees' Risk-taking",
+        "title_cn": "财务顾问与退休人员的风险承担",
+        "authors": [
+          "Allison T. Cole",
+          "Maarten Meeuwis",
+          "Alessandro Previtero",
+          "Noah Stoffman"
+        ],
+        "abstract": "Advised retirees keep about two-thirds of their portfolios in equities well into old age—30 to 40 percentage points more than non-advised retirees, target-date funds, or common rules of thumb. These allocations reflect active choices rather than inertia, and they adjust gradually toward a new advisor’s investment style following advisor switches. Equity shares rise with relationship tenure, and advisor influence is strongest among clients with low financial knowledge or risk tolerance, consistent with trust facilitating risk-taking. Given retirees’ modest financial wealth relative to their safe pension income, we rationalize these portfolios in a standard life-cycle model with moderate risk aversion. Modeling advisors as “money doctors” who correct clients’ pessimistic beliefs about the equity premium, we find that, relative to a no-advice counterfactual, the welfare gains from higher risk-taking are of the same order of magnitude as the cost of advice.",
+        "abstract_cn": "接受建议的退休人员在高龄阶段仍将约三分之二的投资组合配置于股票，比未接受建议的退休人员、目标日期基金或常见经验法则高出 30 至 40 个百分点。这些配置反映的是主动选择，而非惰性；并且在更换顾问后，他们会逐步向新顾问的投资风格调整。股票占比随顾问关系存续时间上升，且顾问影响力在金融知识或风险承受能力较低的客户中最强，这与信任促进风险承担相一致。鉴于退休人员的金融财富相对于其有保障的养老金收入而言规模有限，我们在一个具有中等风险厌恶的标准生命周期模型中为这些投资组合提供合理解释。将顾问建模为纠正客户对股权溢价悲观信念的理财医生，我们发现，相对于无建议的反事实情形，更高风险承担带来的福利收益与建议成本处于同一数量级。",
+        "url": "https://www.nber.org/papers/w35990",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w36001",
+        "title": "Vigilance, Risk Vulnerability, and the Precautionary Augment",
+        "title_cn": "警惕性、风险脆弱性与预防性增强",
+        "authors": [
+          "Miles S. Kimball",
+          "Vincent A. Mastantuno"
+        ],
+        "abstract": "Risk raises the expected marginal utility of a prudent agent. We define this proportional change as the precautionary augment, which measures risk-induced changes in the marginal value of saving, the Lucas Tree risk-free rate, and asset prices in a derivative-saturated market where market-state securities provide incomplete coverage against idiosyncratic risk. One agent is more vigilant than another if their precautionary augment is larger for all unfair risks. We derive and compare conditions for greater vigilance, showing how to implement the Diffidence Theorem geometrically. Because risk vulnerability is equivalent to decreasing vigilance, classic results about risk vulnerability emerge as corollaries.",
+        "abstract_cn": "风险会提高审慎经济主体的期望边际效用。我们将这一比例变化定义为预防性增量（precautionary augment），它衡量在一个衍生品饱和、且市场状态证券对个体特异性风险覆盖不完全的市场中，风险引致的储蓄边际价值、Lucas Tree 无风险利率和资产价格的变化。若一个经济主体在所有不公平风险下的预防性增量都大于另一个经济主体，则前者比后者更警觉。我们推导并比较了更警觉的条件，并展示如何以几何方式运用 Diffidence 定理。由于风险脆弱性等价于警觉性递减，关于风险脆弱性的经典结果便作为推论得出。",
+        "url": "https://www.nber.org/papers/w36001",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w36004",
+        "title": "The Main Monetary Policy Shock",
+        "title_cn": "主要货币政策冲击",
+        "authors": [
+          "Christoph Boehm",
+          "Husang Kim",
+          "T. Niklas Kroner"
+        ],
+        "abstract": "We propose a novel procedure to identify a main monetary policy (MMP) shock as the linear combination of monetary policy surprises that best explains macroeconomic fluctuations. Implemented with two standard high-frequency yield-curve surprises and the Boehm and Kroner (2024) non-yield shock, the MMP shock explains nontrivial business-cycle variation over the last 30 years, in contrast with prior findings. Moreover, the MMP shock differs markedly from a textbook monetary policy shock: a contractionary shock leaves interest rates mostly unchanged but persistently lowers headline prices and appreciates the dollar, while temporarily tightening financial conditions and depressing industrial production.",
+        "abstract_cn": "我们提出一种识别主要货币政策（MMP）冲击的新方法，将其设定为最能解释宏观经济波动的货币政策意外的线性组合。使用两个标准的高频收益率曲线意外以及 Boehm 和 Kroner（2024）的非收益率冲击进行实现后，MMP 冲击解释了过去30年中不可忽视的经济周期波动，这与既有发现形成对比。此外，MMP 冲击与教科书式货币政策冲击显著不同：紧缩性冲击使利率基本保持不变，但持续压低总体价格并使美元升值，同时暂时收紧金融条件并压低工业生产。",
+        "url": "https://www.nber.org/papers/w36004",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35985",
+        "title": "Unconventional Monetary Policy and Deposit Retention",
+        "title_cn": "非常规货币政策与存款留存",
+        "authors": [
+          "Philip Strahan",
+          "Tuo Yang"
+        ],
+        "abstract": "The two dimensions of unconventional monetary policy — holding the short rate at the zero-lower bound (ZLB) and quantitative easing (QE) — shifted deposit composition toward more interest-sensitive customers. The ZLB drew these customers by creating rate compression, which limited the benefit of searching for high-yielding liquidity sources. QE also drew rate-sensitive, large depositors from the Federal Reserve’s purchases of bonds from non-banks. Once policy normalized, flow sensitivity and the deposit beta both increased with exposure to QE and the ZLB. We conclude that unconventional monetary policy made deposit retention costlier and riskier for banks.",
+        "abstract_cn": "非常规货币政策的两个维度——将短期利率维持在零下限（ZLB）以及量化宽松（QE）——使存款构成转向对利率更敏感的客户。ZLB 通过造成利率压缩吸引了这些客户，而利率压缩限制了寻找高收益流动性来源的收益。QE 也吸引了对利率敏感的大额存款人，其原因是美联储从非银行机构购买债券。政策正常化后，流量敏感性和存款贝塔均随 QE 与 ZLB 暴露程度的增加而上升。我们由此得出结论：非常规货币政策使银行留存存款的成本更高、风险更大。",
+        "url": "https://www.nber.org/papers/w35985",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35991",
+        "title": "Doing Better at Doing Good: Lessons from a Bayesian Meta-Analysis After 20 Years of Poverty Graduation Programs",
+        "title_cn": "更好地行善：20 年脱贫毕业项目之后贝叶斯元分析的启示",
+        "authors": [
+          "Samantha Carter",
+          "Edward Jee",
+          "Dean Karlan",
+          "Patrick Premand"
+        ],
+        "abstract": "Multifaceted poverty Graduation programs that aim to increase income generating activities for low-income households are being rapidly adopted and scaled by nonprofit organizations and governments. This paper conducts a Bayesian hierarchical meta-analysis of 49 studies (encompassing 81 treatment variations) on poverty Graduation programs, defined as containing at least three of five components: consumption support, savings facilitation, skills training, coaching, and a lumpsum transfer. The analysis finds large gains across economic and psychosocial outcomes: monthly consumption rises by 38 USD PPP (11 percent), income by 28 USD PPP (15 percent), alongside improvements in savings, assets, food security, mental health, and women’s empowerment. Beyond these average treatment effects, three results stand out. First, programs with large transfers (at least 400 USD PPP) have larger treatment effects but are not more cost-effective. Second, more expensive programs generate larger treatment effects, but the improvements are not commensurate with the cost increases; thus, lower cost programs tend to be more cost-effective. Third, programs implemented from 2016 onward perform considerably better than those implemented prior to 2016: benefit-cost ratios from 2016 onward are 5.39, compared to 2.89 through 2015. Neither changes in cost nor in high-level design (components) explain this upward trend. Considering other heavily studied interventions, the results show a similar upward trend for treatment effects on behavior change from financial education but not for unconditional cash transfers. The paper hypothesizes a mechanism of continuous sector-community learning and improved implementation quality.",
+        "abstract_cn": "多维度贫困脱贫毕业项目旨在增加低收入家庭的创收活动，正被非营利组织和政府迅速采用并扩大规模。本文对 49 项研究（涵盖 81 种处理变体）进行贝叶斯分层元分析，这些研究涉及脱贫毕业项目，并将其定义为至少包含五个组成部分中的三个：消费支持、储蓄便利化、技能培训、辅导和一次性转移支付。分析发现，项目在经济和心理社会结果上均有较大改善：月消费增加 38 美元购买力平价（USD PPP）（11%），收入增加 28 美元购买力平价（15%），同时储蓄、资产、粮食安全、心理健康和女性赋权也有所改善。除这些平均处理效应外，有三项结果尤为突出。第一，大额转移支付（至少 400 美元购买力平价）的项目处理效应更大，但成本效益并未更高。第二，成本更高的项目产生更大的处理效应，但改善程度与成本增加并不相称；因此，低成本项目往往成本效益更高。第三，2016 年以来实施的项目表现明显好于 2016 年之前实施的项目：2016 年以来的收益-成本比为 5.39，而截至 2015 年为 2.89。成本变化和高层设计（组成部分）变化均不能解释这一上升趋势。在考察其他被大量研究的干预措施时，结果显示金融教育对行为改变的处理效应也呈现类似上升趋势，但无条件现金转移支付则不然。本文提出一种机制假设：持续的部门-社区学习和实施质量改善。",
+        "url": "https://www.nber.org/papers/w35991",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35996",
+        "title": "When Food Stamps Became Free: Impacts and Implications of Removing the Purchase Requirement",
+        "title_cn": "当食品券变为免费：取消购买要求的影响与启示",
+        "authors": [
+          "Amy Finkelstein",
+          "Matthew J. Notowidigdo",
+          "Charlie Rafkin"
+        ],
+        "abstract": "We analyze the food stamp program both as a potential investment in children’s health capital and as a redistributive tool by studying the 1979 reform that made food stamps free. We leverage geographic variation in exposure to the reform, which raised the program’s food subsidy from 65% to 100%. This raised enrollment by 1.85 percentage points (standard error = 0.15), or about 25%, with new enrollees substantially poorer than existing participants. From an investment perspective, we do not find evidence of improvement in infant health, and 95% confidence intervals rule out gains in birth weight from enrolling in food stamps exceeding 2%. From a redistribution perspective, the enrollment response implies that the average recipient of free food stamps acts as if they value them at 59 cents per dollar, with nonparametric bounds of 42–77 cents. Despite this substantial dissipation in transfer value relative to a frictionless cash transfer, under standard redistributive preferences the free food stamp program increases social welfare because of its targeting to very low-income households. The move to free stamps from a partially subsidized program improved targeting on social value but worsened targeting on private value.",
+        "abstract_cn": "我们将食品券计划既视为对儿童健康资本的潜在投资，也视为一种再分配工具，并研究1979年使食品券免费的改革。我们利用改革暴露程度的地理差异，该改革将计划的食品补贴从65%提高到100%。这使参与率提高了1.85个百分点（标准误 = 0.15），约25%，且新参与者比现有参与者贫困得多。从投资视角看，我们没有发现婴儿健康改善的证据，95%置信区间排除了参与食品券使出生体重提高超过2%的可能。从再分配视角看，参与率反应意味着，免费食品券的平均受助者表现得好像其每美元面值估价为59美分，非参数界为42–77美分。尽管相对于无摩擦现金转移支付，转移支付价值存在这一显著耗散，但在标准再分配偏好下，免费食品券计划因瞄准极低收入家庭而提高社会福利。从部分补贴计划转向免费食品券，按社会价值衡量的瞄准得到改善，但按私人价值衡量的瞄准恶化。",
+        "url": "https://www.nber.org/papers/w35996",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35987",
+        "title": "TaskNet: Building Occupational Task Inventories from Worker Interviews at Scale",
+        "title_cn": "TaskNet：基于大规模劳动者访谈构建职业任务清单",
+        "authors": [
+          "Jennifer Wang",
+          "Andreas Haupt",
+          "Isaac Robinson",
+          "Phil Lewis",
+          "Erik Brynjolfsson",
+          "Diyi Yang"
+        ],
+        "abstract": "Understanding how AI is reshaping work requires an accurate account of the tasks workers perform. Workers are often the first to see how their jobs are changing, as new responsibilities and tools often appear in everyday work before these changes reach formal descriptions. Interviews with workers can help capture these emerging changes in job tasks. Yet existing methods support standardized ratings across workers, while open-ended conversations with workers remain costly to collect and synthesize at scale. We introduce the Stanford Task Network (TaskNet), an occupational taxonomy grounded directly in workers’ accounts of their everyday work. To construct TaskNet, we develop a mixed-initiative system that induces task inventories directly from workers. The system conducts interviews, standardizes reports into individual task lists, and aggregates these lists into occupational task inventories. Applied to six occupations spanning a range of education requirements and AI exposure, our system interviews 132 workers and produces 202 task statements from 2726 reports, all of which were accepted by O*NET Center analysts, compared to roughly 65%of workers’ write-in task suggestions collected through the current O*NET data collection process, a major alternative source for emerging tasks. Every statement is validated by 318 incumbents in 7923 ratings of relevance and importance. Relative to the task data from the O*NET 31.0 database for the sampled occupations, TaskNet covers 75% of the 118 published O*NET tasks and adds 79 tasks with no O*NET counterpart and 58 that refine existing statements. It covers 89% of tasks reported by held-out workers, compared with 79% for O*NET, and a larger share of the activities described in employer job postings (72.5% vs. 70.2%). Downstream, TaskNet changes AI exposure estimates in both directions, raising them for Software Developers and Lawyers, two occupations where AI’s effects are widely debated. Because such estimates guide workforce policy and training, more complete and up-to-date task lists can help direct these efforts toward the workers most likely to be affected. TaskNet provides a foundation for keeping occupational information current and grounded in workers’ experiences as AI reshapes work.",
+        "abstract_cn": "要理解 AI 如何重塑工作，需要准确刻画劳动者所执行的任务。劳动者往往最先察觉自身工作如何变化，因为新的职责和工具常常先出现在日常工作中，之后才进入正式的岗位描述。对劳动者进行访谈有助于捕捉工作任务中这些新出现的变化。然而，现有方法支持对劳动者进行标准化评分，而与劳动者进行开放式对话在大规模收集和综合时仍然成本高昂。我们提出 Stanford Task Network（TaskNet），这是一个直接基于劳动者对日常工作的描述构建的职业分类体系。为构建 TaskNet，我们开发了一个混合主动式系统，直接从劳动者处提炼任务清单。该系统开展访谈，将报告标准化为个人任务清单，并将这些清单汇总为职业任务清单。该系统应用于六个职业，涵盖不同的教育要求和 AI 暴露程度，访谈了 132 名劳动者，并从 2726 份报告中生成 202 条任务陈述；这些陈述均被 O*NET Center 分析师接受，而通过现行 O*NET 数据收集流程——新兴任务的一个主要替代来源——收集的劳动者自由填写任务建议中，约 65% 被接受。每条陈述均由 318 名在职者通过 7923 次相关性和重要性评分予以验证。相对于 O*NET 31.0 数据库中抽样职业的任务数据，TaskNet 覆盖了 118 条已发布 O*NET 任务中的 75%，并新增了 79 条没有 O*NET 对应项的任务，以及 58 条细化现有陈述的任务。它覆盖了留出样本劳动者所报告任务的 89%，而 O*NET 为 79%；在雇主招聘广告所描述活动中的覆盖份额也更高（72.5% 对 70.2%）。在下游应用中，TaskNet 使 AI 暴露程度估计出现双向变化：提高了软件开发者与律师的估计，这两个职业中 AI 的影响广受争议。由于此类估计指导劳动力政策与培训，更完整、更新的任务清单有助于将这些工作导向最可能受影响的劳动者。随着 AI 重塑工作，TaskNet 为使职业信息保持更新并扎根于劳动者经验提供了基础。",
+        "url": "https://www.nber.org/papers/w35987",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35993",
+        "title": "Peer Influence in College Applications",
+        "title_cn": "大学申请中的同伴影响",
+        "authors": [
+          "Ana M. Gazmuri",
+          "Elena Prager"
+        ],
+        "abstract": "This paper studies how exposure to peers affects college application behavior. We use neighbors who attend different high schools to mitigate concerns about common shocks. Using granular classroom-level data, we find that exposure to peers who have applied to a program increases application rates. Consistent with an information mechanism, there is no additional effect of peers who are admitted. In counterfactuals, the effect is large enough to close urban-rural gaps and gender gaps in applications to selective college programs. We make the (generally NP-hard) application portfolio choice problem tractable using a setting where admission probabilities are observable and conditionally independent.",
+        "abstract_cn": "本文研究同伴接触如何影响大学申请行为。我们利用就读不同高中的邻居来缓解对共同冲击的担忧。使用细粒度的班级层面数据，我们发现，接触曾申请过某个项目的同伴会提高申请率。与信息机制相一致，接触已被录取的同伴不会产生额外影响。在反事实分析中，这一效应大到足以消除选拔性高校项目申请中的城乡差距和性别差距。我们利用录取概率可观测且条件独立的设定，使（通常为 NP-hard 的）申请组合选择问题变得可求解。",
+        "url": "https://www.nber.org/papers/w35993",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35994",
+        "title": "The Impact of Climate Change on Fisheries",
+        "title_cn": "气候变化对渔业的影响",
+        "authors": [
+          "Fabio Cevenini",
+          "Christopher Costello",
+          "Carlo Fezzi"
+        ],
+        "abstract": "This paper provides the first causal estimate of the effect of ocean temperature variations on fishing revenue. We develop a simple theoretical model underpinning an empirical specification estimated on 2.5 million spatially explicit observations of fishing revenue from all European vessels for 2013–2022. The identification strategy leverages a novel metric, Marine Degree Days, which quantifies species-specific temperature exposure relative to biologically established thermal tolerance intervals. Within this framework we address key identification challenges, including spatial selection and ecological interdependencies across species. We find that deviations from species’ thermal preferences lead to significant losses in fishing revenue, with heat exposure causing the most pronounced impacts. These effects are mediated by species’ vertical mobility and ecological characteristics. Projections across different climate scenarios point to widespread revenue declines by 2100, reaching €560 million annual losses in the warmest scenario, though impacts are highly spatially heterogeneous. Lower-income, equatorial areas are expected to suffer the most, while some colder regions experience gains.",
+        "abstract_cn": "本文首次提供海洋温度变化对渔业收入影响的因果估计。我们构建一个简单理论模型，为实证设定提供基础；该实证设定基于2013—2022年所有欧洲渔船的250万个空间显式渔业收入观测值进行估计。识别策略利用一个新指标——海洋度日（Marine Degree Days），该指标量化相对于生物学上确立的热耐受区间的物种特定温度暴露。在该框架内，我们处理关键的识别挑战，包括空间选择和物种间的生态相互依赖。我们发现，偏离物种热偏好会导致渔业收入显著损失，其中高温暴露造成的影响最为显著。这些效应由物种的垂直移动能力和生态特征所中介。不同气候情景下的预测显示，到2100年收入将普遍下降，在最暖情景下年损失达到5.6亿欧元，但影响在空间上高度异质。低收入赤道地区预计受损最严重，而一些较冷地区则会获益。",
+        "url": "https://www.nber.org/papers/w35994",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w36003",
+        "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains",
+        "title_cn": "AI 作为共享商业基础设施：企业成长与收益分配",
+        "authors": [
+          "Panle Jia Barwick",
+          "Lu Fang",
+          "Jinhan Liu",
+          "Huilan Xu",
+          "Zhe Yuan"
+        ],
+        "abstract": "Generative AI improves performance on individual tasks, but whether those gains translate into firm growth, and for which firms, remains an open question. We study a leading Chinese e-commerce platform that in 2024 embedded a generative AI system in the operating software firms use to run their businesses, drawing on centrally developed models and platform-wide data to deliver ready-to-use applications to every firm. Complete records of each firm’s AI use, linked to its monthly operations and sales, let us trace adoption through changes in business capabilities, such as reaching customers and introducing new products, to sales growth. Using a matched difference-in-differences design and focusing on firms with annual sales below RMB 5 million, we find that adoption raises monthly sales by 51.6%, primarily through a 47.0% increase in the number of orders; instrumental-variable estimates confirm these results. Adopters reach more customers, update their product lines faster, and deliver better product and service quality, with the largest proportional gains for the smallest firms. Two mechanisms help explain the results. First, AI lowers the cost of routine work: adopters produce more product content and change listings more often while spending less staff time per order, and the gains are largest for firms that faced the highest costs relative to sales before adoption. Second, AI reduces information frictions: adopters post richer product information, and the gains are largest in markets where demand is hard to predict and matching quality is poor, especially for small firms. At the market level, product categories with greater pre-existing information frictions see more sales by existing firms, more entry, and more new products. AI expands markets rather than merely shifting sales from non-adopters to adopters.",
+        "abstract_cn": "生成式人工智能提升了个体任务的表现，但这些收益能否转化为企业增长、以及哪些企业能够获益，仍是未解问题。我们研究了中国一家领先的电子商务平台：该平台于2024年将生成式人工智能系统嵌入企业用于经营业务的运营软件中，借助集中开发的模型和平台范围的数据，向每家企业提供可直接使用的应用。每家企业人工智能使用的完整记录与其月度经营和销售数据相连接，使我们能够追踪采用人工智能如何通过经营能力变化（例如触达客户和推出新产品）传导至销售增长。我们采用匹配双重差分设计，并聚焦年销售额低于500万元人民币的企业，发现采用人工智能使月度销售额提高51.6%，这主要通过订单数量增加47.0%实现；工具变量估计证实了这些结果。采用者触达更多客户、更快更新产品线，并提供更好的产品和服务质量，其中最小企业的比例增幅最大。两种机制有助于解释这些结果。第一，人工智能降低了常规工作的成本：采用者生产更多产品内容、更频繁地更新商品页面，同时每单投入的员工工时减少，且采用前成本相对销售额最高的企业获得的收益最大。第二，人工智能减少了信息摩擦：采用者发布更丰富的产品信息，且在需求难以预测、匹配质量较差的市场中收益最大，对小企业尤其如此。在市场层面，原本信息摩擦较大的产品类别中，现有企业的销售额更高、进入更多、新产品更多。人工智能扩大了市场，而不仅仅是把销售额从未采用者转移给采用者。",
+        "url": "https://www.nber.org/papers/w36003",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35998",
+        "title": "Sorting by Participation: A Field Experiment in a Stem-cell Registry",
+        "title_cn": "基于参与情况的分选：干细胞登记库中的一项实地实验",
+        "authors": [
+          "Michael Haylock",
+          "Patrick Kampkötter",
+          "Mario Macis",
+          "Susanne Seitz",
+          "Robert Slonim",
+          "Daniel Wiesen"
+        ],
+        "abstract": "Unavailability of stem-cell donors at the confirmatory typing (CT) stage, an operational milestone in the stem-cell donation process, reduces the effective supply of life-saving transplants for blood cancer patients worldwide. Although (potential) donors register voluntarily, requests may come much later, when circumstances and commitment have changed; keeping registered donors engaged and identifying who will follow through are therefore central managerial questions for registries. In a field experiment with a leading stem-cell registry, we randomize the framing of routine invitations to an engagement initiative. Relative to a business-as-usual letter, our experimental letters present the registry’s requests more saliently; two of them add identity framings inviting donors to join a “quickly available” or a “highly committed” donor team. The salience and identity framings significantly reduce initiative participation compared to the business-as-usual rate, yet intention-to-treat analyses show no detectable effect on average CT availability. Our central finding is that participation sorts donors by reliability: participants are unavailable in 12% of cases, versus 30% of non-participants. From a managerial perspective, opting in works as a reliability flag. Prioritizing participants in our experimental arms implies a relative increase of up to 7.5% more one-year survivors compared to not using this flag. Gains from flagging are likely to be larger for registries with lower availability.",
+        "abstract_cn": "在确认分型（CT）阶段无法获得干细胞捐献者——这是干细胞捐献流程中的一个操作节点——减少了全球血液癌症患者获得挽救生命的移植的有效供给。尽管（潜在）捐献者自愿登记，但请求可能在很久以后才发出，此时情况和承诺已经改变；因此，保持已登记捐献者的参与并识别谁会履行承诺，是登记机构的核心管理问题。我们与一家领先的干细胞登记机构开展实地实验，随机改变邀请捐献者参与一项参与计划的常规邀请的表述框架。相对于常规做法信函，我们的实验信函更突出地呈现登记机构的请求；其中两封还加入身份框架，邀请捐献者加入“可快速到位”或“高度承诺”的捐献者团队。与常规做法下的参与率相比，显著性框架和身份框架显著降低了计划参与率，但意向处理分析显示，对平均CT可用性没有可检测的影响。我们的核心发现是，参与会按可靠性对捐献者进行分选：参与者在12%的情况下无法提供，而非参与者为30%。从管理角度看，选择加入可作为一种可靠性标志。在我们的实验组中优先安排参与者，意味着与不使用这一标志相比，一年生存者相对增加最多7.5%。对于可用性较低的登记机构，使用这一标志的收益可能更大。",
+        "url": "https://www.nber.org/papers/w35998",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35988",
+        "title": "The Hidden Sharpe Ratio",
+        "title_cn": "隐藏的夏普比率",
+        "authors": [
+          "Mikhail Chernov",
+          "Bryan T. Kelly",
+          "Semyon Malamud",
+          "Johannes Schwab"
+        ],
+        "abstract": "We estimate the maximal Sharpe ratio in large cross-sections of assets directly, without constructing the efficient portfolio. Covariance estimation in this setting requires regularization, which suppresses the contribution of small-eigenvalue directions. Our estimator progressively recovers this contribution, yielding tight upper and lower bounds with asymptotic confidence intervals. We further show that ridge-regularized Markowitz portfolios, the construction underlying many existing high-Sharpe benchmarks, deliver out-of-sample Sharpe ratios that fall short of the true maximum by an explicit, non-vanishing multiplicative factor. Applied to U.S. equities, the method delivers an estimated maximal annualized Sharpe ratio of approximately 7.4, or 5.0 once micro-cap stocks are excluded, substantially exceeding existing portfolio-based benchmarks of 1.0–4.0. Adding corporate bonds raises the maximum, though not by a statistically significant margin. Nonlinear portfolio weights dominate linear ones, and characteristics introduced after 2004 contribute little additional Sharpe ratio.",
+        "abstract_cn": "我们直接估计大资产横截面中的最大夏普比率，而不构建有效组合。在这种情形下，协方差估计需要正则化，而这会压制小特征值方向的贡献。我们的估计量逐步恢复这一贡献，给出紧的上界与下界，并附带渐近置信区间。我们进一步表明，岭正则化的 Markowitz 组合——许多现有高夏普基准所依赖的构造——其样本外夏普比率低于真实最大值一个明确的、不消失的乘数因子。将该方法应用于美国股票，得到估计的最大年化夏普比率约为 7.4；剔除微市值股票后为 5.0，显著高于现有基于组合的基准 1.0–4.0。加入公司债会提高该最大值，但幅度在统计上不显著。非线性组合权重优于线性组合权重，而 2004 年后引入的特征对夏普比率的额外贡献很小。",
+        "url": "https://www.nber.org/papers/w35988",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35986",
+        "title": "Debiasing Law Enforcement Officers: Evidence from an Expressive Arts Intervention in India",
+        "title_cn": "减少执法人员的偏见：来自印度一项表达性艺术干预的证据",
+        "authors": [
+          "Sofia Amaral",
+          "Girija Borker",
+          "Nishith Prakash",
+          "María Micaela Sviatschi"
+        ],
+        "abstract": "Frontline state agents exercise substantial discretion over citizens’ access to public services, yet little is known about whether the attitudes and beliefs shaping this discretion can be changed among incumbent bureaucrats. Partnering with the Bihar Police - one of India’s largest states that operates under comparatively severe policing capacity constraints, we conduct a cluster randomized controlled trial across 417 police stations and roughly 2,500 active duty senior field police officers to evaluate a three-day expressive arts intervention, grounded in the Theatre of the Oppressed, designed to change police responses to gender-based violence (GBV). Approximately 7 months after baseline, treated officers exhibit more favorable attitudes toward GBV, greater empathy, and stronger legal knowledge. These changes translate into observed policing behavior: in standardized victim audits conducted one year later, officers in treated stations are 15 percentage points less likely to blame victims, dismiss fewer complaints, and provide more referrals, while administrative records show a 41 percent reduction in registration delays and, over a longer horizon, increased GBV reporting by citizens. Exploiting variation generated by officer transfers, we find suggestive evidence that these effects persist when treated officers relocate and diffuse to untreated officers working alongside treated colleagues. The effects also extend to the workplace: junior female officers working with treated senior officers report lower harassment and anxiety. These findings show that the attitudes shaping bureaucratic discretion are malleable and that changing how incumbent state agents exercise authority can improve both citizen-facing service delivery and the broader workplace environment.",
+        "abstract_cn": "一线国家工作人员在公民获得公共服务方面拥有相当大的自由裁量权，但鲜有研究关注塑造这种自由裁量权的态度和信念能否在现任官僚群体中发生改变。我们与比哈尔邦警察合作——该邦是印度最大的邦之一，执法能力约束相对严重——在417个警察局和约2500名现役高级外勤警官中开展了一项整群随机对照试验，评估一项为期三天、以被压迫者剧场为基础的表达性艺术干预，旨在改变警察对性别暴力（GBV）的应对方式。基线调查约7个月后，接受干预的警官对GBV表现出更有利的态度、更强的同理心和更扎实的法律知识。这些变化转化为可观察到的执法行为：在一年后开展的标准化受害者审计中，接受干预警察局的警官指责受害者的可能性低15个百分点，驳回投诉的情况更少，并提供更多转介，而行政记录显示登记延迟减少了41%，且在更长时期内，公民的GBV报案有所增加。利用警官调动所产生的变异，我们发现了提示性证据：当接受干预的警官调往其他岗位并与同事共事时，这些效应会持续存在，并扩散到未接受干预的警官。这些效应还延伸到工作场所：与接受干预的高级警官共事的初级女性警官报告的骚扰和焦虑水平更低。这些发现表明，塑造官僚自由裁量权的态度具有可塑性，改变现任国家工作人员行使权力的方式，既能改善面向公民的服务交付，也能改善更广泛的工作场所环境。",
+        "url": "https://www.nber.org/papers/w35986",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35984",
+        "title": "Target What? The Foundations of Poverty Targeting",
+        "title_cn": "瞄准什么？贫困瞄准的基础",
+        "authors": [
+          "Rema Hanna",
+          "Emily Breza",
+          "Benjamin A. Olken",
+          "Abhijit Banerjee",
+          "Arun G. Chandrasekhar",
+          "Gideon Moore"
+        ],
+        "abstract": "Most government transfer programs aim to target the poor. Doing so implicitly assumes that the lowest-consumption households have the highest marginal social valuation, i.e., have the highest social welfare gain from an additional dollar. But this need not be the case. In 600 Indonesian villages, we ask over 5,500 villagers to rank other villagers on how well off they are and how much a modest cash transfer would help them, and compare these rankings to consumption and self-assessed welfare. Targeting consumption misses 77% of households with the highest marginal social valuation. Targeting self-assessed welfare misses 57%. Even targeting those the community ranks worst off in levels, not margins, misses 25%. Divergences between different notions of neediness are statistically predictable. In a randomized controlled trial, proxy means tests best target consumption, self-targeting ordeals capture self-assessed welfare levels, and community targeting comes closest to marginal social valuation. Targeting strategies inescapably embed normative stances.",
+        "abstract_cn": "大多数政府转移支付项目旨在瞄准穷人。这样做隐含假设消费最低的家庭具有最高的边际社会估值，即额外一美元给它们带来的社会福利收益最高。但情况未必如此。在 600 个印度尼西亚村庄中，我们请超过 5,500 名村民对其他村民的富裕程度以及一笔适度现金转移支付对他们有多大帮助进行排序，并将这些排序与消费和自评福利进行比较。以消费为瞄准依据会漏掉 77% 的边际社会估值最高的家庭。以自评福利为瞄准依据会漏掉 57%。即使瞄准社区按水平而非边际评为境况最差的家庭，也会漏掉 25%。不同需求程度概念之间的差异在统计上可预测。在一项随机对照试验中，代理均值检验最能瞄准消费，自我瞄准式筛选机制能捕捉自评福利水平，社区瞄准则最接近边际社会估值。瞄准策略不可避免地嵌入规范性立场。",
+        "url": "https://www.nber.org/papers/w35984",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35992",
+        "title": "Policy Deterrence: Strategic Investment in U.S. Broadband",
+        "title_cn": "政策威慑：美国宽带领域的战略投资",
+        "authors": [
+          "Karam Kang",
+          "Mo Xiao"
+        ],
+        "abstract": "Can firms influence policy through investment? Using 2010--2019 U.S. broadband deployment and state policy data, we find that large internet service providers expand capacity more in electorally competitive counties. Greater large-provider capacity in swing counties is associated with fewer subsequent entry- and investment-facilitating policies, especially rights-of-way accommodations that reduce deployment barriers faced by smaller providers. To interpret these patterns, we develop a model in which a large firm's capacity can reduce the policymaker's gain from intervention. In the model, policy deterrence raises the large firm's market share and can reduce total deployment.",
+        "abstract_cn": "企业能否通过投资影响政策？本文使用 2010—2019 年美国宽带部署和州级政策数据发现，大型互联网服务提供商在选举竞争更激烈的县扩大容量的幅度更大。摇摆县中大型提供商容量更高，与随后更少的促进进入和投资的政策相关，尤其是减少较小提供商所面临部署障碍的路权便利安排。为解释这些模式，本文构建一个模型，其中大型企业的容量可以降低政策制定者从干预中获得的收益。在模型中，政策威慑提高了大型企业的市场份额，并可能降低总部署水平。",
+        "url": "https://www.nber.org/papers/w35992",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      },
+      {
+        "id": "w35989",
+        "title": "Clearing the Fog: Price Transparency, Market Churn, and Consumer Welfare in Short-Term Rentals",
+        "title_cn": "拨开迷雾：短期租赁中的价格透明度、市场更替与消费者福利",
+        "authors": [
+          "Ginger Zhe Jin",
+          "Liad Wagman",
+          "Jingyi Xing"
+        ],
+        "abstract": "We study California's short-term lodging price transparency law (AB 537), which from July 1, 2024 required Airbnb and other providers to advertise fee-inclusive prices. Using Coarsened Exact Matching to compare Airbnb listings in San Diego and San Francisco with those in Seattle and Chicago, we find that all-in pricing made guests more price-sensitive relative to control cities; yet, contrary to the standard prediction that transparency lowers prices, average daily rates rose by 4.8 percent. We also observe significant market churn: relative to control cities, treated cities saw more exits and entries, listings reliant on cleaning-fee revenue disproportionately exited, higher-quality listings were more likely to stay, and entrants offered lower fees and lower quality than incumbents. A discrete-choice welfare analysis shows that the law removed a sizable “welfare illusion” created by obscured fees and, largely through market churn, raised realized consumer surplus. The net gains, after accounting for price increases, were positive on average but unevenly distributed across treated ZIP codes.",
+        "abstract_cn": "我们研究了加州短期住宿价格透明度法（AB 537）。该法自 2024 年 7 月 1 日起要求 Airbnb 及其他提供商在广告中展示包含全部费用的价格。我们使用粗化精确匹配（Coarsened Exact Matching），将圣迭戈和旧金山的 Airbnb 房源与西雅图和芝加哥的房源进行比较，发现全包定价使消费者相对于对照城市变得更价格敏感；然而，与透明度会降低价格的标准预测相反，平均每日房价上升了 4.8%。我们还观察到显著的市场更替：相对于对照城市，受处理城市出现了更多退出和进入；依赖清洁费收入的房源不成比例地退出；更高质量的房源更可能留下；新进入者收取的费用低于现有房源，但质量也低于现有房源。离散选择福利分析表明，该法消除了隐藏费用造成的可观“福利幻觉”，并主要通过市场更替提高了已实现的消费者剩余。在计入价格上涨后，净收益平均为正，但在受处理的 ZIP 邮政编码区之间分布不均。",
+        "url": "https://www.nber.org/papers/w35989",
+        "public_date": "2026-11-09",
+        "translation_status": {
+          "title": "success",
+          "abstract": "success"
+        },
+        "translation_error": null,
+        "translation_prompt_version": "econ-zh-v7-f0ad525007",
+        "fetched_at": "2026-11-09T13:14:06Z"
+      }
+    ]
+  },
+  {
     "batch_date": "2026-11-02",
     "last_updated": "2026-11-02T12:46:56Z",
     "paper_count": 23,
